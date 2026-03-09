@@ -1,0 +1,210 @@
+[
+  {
+    "name": "Admis",
+    "slug": "admis",
+    "email": "info@admis-ucto.cz",
+    "phone": "+420 604 618 298",
+    "address": "Donovalská 1658/30, 149 00 Praha 4-Chodov",
+    "source_dir": "output-2026-03-09\\admis---alena-jelínková"
+  },
+  {
+    "name": "ARQ 1",
+    "slug": "arq-1",
+    "email": "",
+    "phone": "+420 774 000 745",
+    "address": "Husinecká 903/10, 130 00 Praha 3 - Žižkov",
+    "source_dir": "output-2026-03-09\\vedení-účetnictví-praha---arq-1-s-r-o"
+  },
+  {
+    "name": "Šimon",
+    "slug": "simon",
+    "email": "ekonomsimon@seznam.cz",
+    "phone": "+420 271 742 525",
+    "address": "Vršovické nám. 111/2, 101 00 Praha 10-Vršovice",
+    "source_dir": "output-2026-03-09\\účetnictví-a-daně-praha"
+  },
+  {
+    "name": "P&Z Účetnictví",
+    "slug": "p-z-ucetnictvi",
+    "email": "info@pzucetnictvi.cz",
+    "phone": "+420 724 536 648",
+    "address": "Nýřanská 7604, 153 00 Praha 5 - Radotín",
+    "source_dir": "output-2026-03-09\\účetnictví-a-daně-praha-radotín---p-z-účetnictví-s-r-o"
+  },
+  {
+    "name": "P&Z Účetnictví",
+    "slug": "p-z-ucetnictvi-100-00-praha-10-vrsovice",
+    "email": "info@pzucetnictvi.cz",
+    "phone": "+420 724 536 648",
+    "address": "Kubánské nám. 1391/11, 100 00 Praha 10-Vršovice",
+    "source_dir": "output-2026-03-09\\účetnictví-a-daně-praha-vršovice---p-z-účetnictví-s-r-o"
+  },
+  {
+    "name": "Account One",
+    "slug": "account-one",
+    "email": "",
+    "phone": "+420 722 099 100",
+    "address": "Terronská 947/49, 160 00 Praha 6-Dejvice",
+    "source_dir": "output-2026-03-10-batch\\account-one-s-r-o"
+  },
+  {
+    "name": "ACP",
+    "slug": "acp",
+    "email": "",
+    "phone": "+420 776 775 214",
+    "address": "Rybná 716/24, 110 00 Staré Město, Praha",
+    "source_dir": "output-2026-03-10-batch\\accountant-consulting-prague-s-r-o"
+  },
+  {
+    "name": "ASB",
+    "slug": "asb",
+    "email": "",
+    "phone": "+420 224 931 366",
+    "address": "V Celnici 1031/4, Nové Město, 110 00 Praha",
+    "source_dir": "output-2026-03-10-batch\\asb-czech-republic--s-r-o"
+  },
+  {
+    "name": "BS&P",
+    "slug": "bs-p",
+    "email": "",
+    "phone": "+420 222 513 961",
+    "address": "Mánesova 917/28, 120 00 Praha 2 - Vinohrady",
+    "source_dir": "output-2026-03-10-batch\\bs-p-czech-republic-a-s"
+  },
+  {
+    "name": "CzechAdvisors",
+    "slug": "czechadvisors",
+    "email": "",
+    "phone": "+420 723 599 563",
+    "address": "Na Strži 1702/65, 140 00 Praha 4-TJ Pankrác",
+    "source_dir": "output-2026-03-10-batch\\czechadvisors"
+  },
+  {
+    "name": "DoMyTax",
+    "slug": "domytax",
+    "email": "",
+    "phone": "+420 228 229 092",
+    "address": "Vista House, Na Pankráci 30, 140 00 Praha 4-Nusle",
+    "source_dir": "output-2026-03-10-batch\\domytax-accounting"
+  },
+  {
+    "name": "DUKAN",
+    "slug": "dukan",
+    "email": "jana.zahajska@dukan.cz",
+    "phone": "+420 603 279 455",
+    "address": "Týnská 633/12, 110 00 Staré Město, Praha",
+    "source_dir": "output-2026-03-10-batch\\dukan-praha--s-r-o"
+  },
+  {
+    "name": "Eskont",
+    "slug": "eskont",
+    "email": "jirka.michalek@eskont.cz",
+    "phone": "+420 241 930 473",
+    "address": "Pražská 810/16, 102 00 Praha 15-Hostivař",
+    "source_dir": "output-2026-03-10-batch\\eskont--účetní-společnost-s-r-o"
+  },
+  {
+    "name": "Expats Finance",
+    "slug": "expats-finance",
+    "email": "",
+    "phone": "+420 777 877 849",
+    "address": "Korunní 860/20, 120 00 Praha 2-Vinohrady",
+    "source_dir": "output-2026-03-10-batch\\expats-finance-s-r-o"
+  },
+  {
+    "name": "Gres & Partners",
+    "slug": "gres-partners",
+    "email": "",
+    "phone": "+420 775 430 344",
+    "address": "Mezi Domky, 130 00 Praha 3",
+    "source_dir": "output-2026-03-10-batch\\gres---partners---бухгалтерия--налоги--финансовый-консалтинг"
+  },
+  {
+    "name": "ITIN Abroad",
+    "slug": "itin-abroad",
+    "email": "",
+    "phone": "+420 773 238 661",
+    "address": "Mánesova 19, 120 00 Praha 2-Vinohrady",
+    "source_dir": "output-2026-03-10-batch\\itin-abroad"
+  },
+  {
+    "name": "Kurz účetnictví Praha",
+    "slug": "kurz-ucetnictvi-praha",
+    "email": "info@sluzbyapodnikani.cz",
+    "phone": "+420 775 583 697",
+    "address": "Fügnerovo náměstí 1866/5, 120 00 Praha 2",
+    "source_dir": "output-2026-03-10-batch\\kurz-účetnictví-praha"
+  },
+  {
+    "name": "Matzner Tax",
+    "slug": "matzner-tax",
+    "email": "",
+    "phone": "+420 731 612 871",
+    "address": "Tusarova 1152/36, 170 00 Praha 7-Holešovice",
+    "source_dir": "output-2026-03-10-batch\\matzner-tax---accounting-s-r-o"
+  },
+  {
+    "name": "Meitnerová",
+    "slug": "meitnerova",
+    "email": "info@meitnerova.cz",
+    "phone": "+420 774 860 336",
+    "address": "Drtinova 557, 150 00 Praha 5-Smíchov",
+    "source_dir": "output-2026-03-10-batch\\meitnerová-daně---účto-s-r-o"
+  },
+  {
+    "name": "Premium Financial",
+    "slug": "premium-financial",
+    "email": "",
+    "phone": "+420 792 300 020",
+    "address": "Opletalova 1417, 110 00 Nové Město",
+    "source_dir": "output-2026-03-10-batch\\premium-financial-services-s-r-o"
+  },
+  {
+    "name": "PROMIFIN CZECH",
+    "slug": "promifin-czech",
+    "email": "",
+    "phone": "+420 223 000 146",
+    "address": "Charkovská 24, 110 00 Praha 10-Vršovice",
+    "source_dir": "output-2026-03-10-batch\\promifin-czech-a-s"
+  },
+  {
+    "name": "Prosto Delo",
+    "slug": "prosto-delo",
+    "email": "",
+    "phone": "+420 777 167 868",
+    "address": "Příčná, 110 00 Nové Město, Praha",
+    "source_dir": "output-2026-03-10-batch\\prosto-delo"
+  },
+  {
+    "name": "SLUTO",
+    "slug": "sluto",
+    "email": "",
+    "phone": "+420 226 203 700",
+    "address": "Týnská 21, 110 00 Staré Město, Praha",
+    "source_dir": "output-2026-03-10-batch\\sluto----nejen-účetnictví"
+  },
+  {
+    "name": "Účetnictví Prosek",
+    "slug": "ucetnictvi-prosek",
+    "email": "",
+    "phone": "",
+    "address": "Prosecká 843/99, 190 00 Praha 9-Prosek",
+    "source_dir": "output-2026-03-10-batch\\účetnictví-prosek"
+  },
+  {
+    "name": "Confidos",
+    "slug": "confidos",
+    "email": "jbohuslav@confidos.cz",
+    "phone": "+420 603 201 654",
+    "address": "Jindřicha Plachty 16, 150 00 Praha 5-Smíchov",
+    "source_dir": "output-2026-03-10-batch\\účetní-firma-confidos-jb-s-r-o---vedení-účetnictví-a-daňové-evidence"
+  },
+  {
+    "name": "Elena Tomkevič",
+    "slug": "elena-tomkevic",
+    "email": "",
+    "phone": "+420 775 677 671",
+    "address": "Národní 60/28, 110 00 Nové Město, Praha",
+    "source_dir": "output-2026-03-10-batch\\бухгалтер-в-праге---eлена-томкевич"
+  }
+]
