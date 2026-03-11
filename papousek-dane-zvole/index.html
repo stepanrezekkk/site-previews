@@ -1,0 +1,974 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Danove poradenstvi Zvole a Praha. Ing. Eva Papousek poskytuje odborne danové a ucetni sluzby pro firmy a podnikatele.">
+    <title>Ing. Eva Papousek -- Danova poradkyne Zvole</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair%20Display:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=DM%20Sans:wght@200;300;400;500;600;700;800&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --primary: #1A6B6B;
+            --accent: #2EADA3;
+            --bg-warm: #F0F7F7;
+            --bg-dark: #0D2B2B;
+            --text-dark: #1A1A1A;
+            --text-mid: #555;
+            --text-light: #888;
+            --text-on-dark: #F2F0E9;
+            --serif: 'Playfair Display', Georgia, serif;
+            --sans: 'DM Sans', system-ui, sans-serif;
+            --mono: 'IBM Plex Mono', monospace;
+            --radius-card: 2rem;
+            --radius-pill: 100px;
+        }
+
+        *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+        html { scroll-behavior: smooth; }
+        body {
+            font-family: var(--sans);
+            color: var(--text-dark);
+            background: var(--bg-warm);
+            -webkit-font-smoothing: antialiased;
+            overflow-x: hidden;
+        }
+
+        /* ═══ NOISE OVERLAY ═══ */
+        .noise-overlay {
+            position: fixed; top: 0; left: 0;
+            width: 100vw; height: 100vh;
+            pointer-events: none; z-index: 9999;
+            opacity: 0.05;
+            background: url('data:image/svg+xml;utf8,%3Csvg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg"%3E%3Cfilter id="noiseFilter"%3E%3CfeTurbulence type="fractalNoise" baseFrequency="0.65" numOctaves="3" stitchTiles="stitch"/%3E%3C/filter%3E%3Crect width="100%25" height="100%25" filter="url(%23noiseFilter)"/%3E%3C/svg%3E');
+        }
+
+        /* ═══ SCROLL REVEAL ═══ */
+        .reveal {
+            opacity: 0; transform: translateY(30px);
+            transition: opacity 0.8s cubic-bezier(0.16, 1, 0.3, 1), transform 0.8s cubic-bezier(0.16, 1, 0.3, 1);
+        }
+        .reveal.in-view { opacity: 1; transform: translateY(0); }
+        .reveal-d1 { transition-delay: 0.08s; }
+        .reveal-d2 { transition-delay: 0.16s; }
+        .reveal-d3 { transition-delay: 0.24s; }
+        .reveal-d4 { transition-delay: 0.32s; }
+
+        /* ═══ NAVIGATION — PILL ═══ */
+        nav {
+            position: fixed; top: 24px; left: 0; width: 100%;
+            z-index: 100; pointer-events: none;
+            padding: 0 16px;
+        }
+        .nav-pill {
+            max-width: 1200px; margin: 0 auto;
+            padding: 14px 32px;
+            border-radius: var(--radius-pill);
+            display: flex; align-items: center; justify-content: space-between;
+            border: 1px solid transparent;
+            transition: all 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+            pointer-events: auto;
+        }
+        nav.scrolled .nav-pill {
+            background: rgba(242, 240, 233, 0.65);
+            backdrop-filter: blur(20px);
+            -webkit-backdrop-filter: blur(20px);
+            border-color: rgba(26, 26, 26, 0.1);
+            box-shadow: 0 4px 24px rgba(0,0,0,0.04);
+        }
+        .nav-logo {
+            font-family: var(--sans);
+            font-size: 1.2rem; font-weight: 700;
+            color: var(--text-on-dark);
+            text-decoration: none; letter-spacing: -0.02em;
+            transition: color 0.4s;
+        }
+        nav.scrolled .nav-logo { color: var(--text-dark); }
+        .nav-links { display: flex; align-items: center; gap: 32px; }
+        .nav-links a {
+            font-size: 0.875rem; font-weight: 500;
+            color: rgba(242, 240, 233, 0.8);
+            text-decoration: none; transition: all 0.3s;
+        }
+        .nav-links a:hover { transform: translateY(-1px); }
+        nav.scrolled .nav-links a { color: rgba(26, 26, 26, 0.65); }
+        nav.scrolled .nav-links a:hover { color: var(--text-dark); }
+        .nav-cta {
+            font-size: 0.85rem; font-weight: 700;
+            color: var(--text-on-dark) !important;
+            background: var(--accent);
+            padding: 10px 24px; border-radius: var(--radius-pill);
+            text-decoration: none;
+            transition: transform 0.2s, box-shadow 0.2s;
+            display: inline-flex; align-items: center; gap: 8px;
+            position: relative; overflow: hidden;
+        }
+        .nav-cta::before {
+            content: ''; position: absolute;
+            top: 0; left: -100%; width: 100%; height: 100%;
+            background: var(--primary);
+            transition: transform 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+            z-index: 0;
+        }
+        .nav-cta:hover::before { transform: translateX(100%); }
+        .nav-cta span, .nav-cta svg { position: relative; z-index: 1; }
+        .nav-cta:hover {
+            transform: scale(1.03);
+            box-shadow: 0 8px 24px rgba(0,0,0,0.15);
+        }
+        .nav-cta svg { width: 14px; height: 14px; }
+        .nav-hamburger {
+            display: none; background: none; border: none; cursor: pointer;
+            color: var(--text-on-dark); padding: 8px;
+            transition: color 0.4s;
+        }
+        nav.scrolled .nav-hamburger { color: var(--text-dark); }
+
+        /* Mobile menu */
+        .mobile-menu {
+            display: none; position: fixed; inset: 0; z-index: 99;
+            flex-direction: column; align-items: center; justify-content: center; gap: 32px;
+        }
+        .mobile-menu.open { display: flex; }
+        .mobile-menu::before {
+            content: ''; position: absolute; inset: 0;
+            background: var(--bg-dark); opacity: 0.97;
+        }
+        .mobile-menu a {
+            position: relative; z-index: 1;
+            font-family: var(--serif); font-size: 2rem;
+            color: var(--text-on-dark); text-decoration: none;
+            font-style: italic; transition: color 0.2s;
+        }
+        .mobile-menu a:hover { color: var(--accent); }
+        .mobile-menu .mobile-cta {
+            font-family: var(--sans); font-style: normal;
+            font-size: 1rem; font-weight: 700;
+            background: var(--accent); color: var(--text-on-dark);
+            padding: 14px 36px; border-radius: var(--radius-pill);
+            margin-top: 16px;
+        }
+
+        /* ═══ HERO — DARK GRADIENT ═══ */
+        .hero {
+            position: relative; min-height: 100dvh; width: 100%;
+            display: flex; align-items: flex-end;
+            padding-bottom: clamp(60px, 10vh, 120px);
+            overflow: hidden;
+        }
+        .hero-gradient {
+            position: absolute; inset: 0;
+            background: linear-gradient(135deg, var(--bg-dark) 0%, var(--primary) 50%, var(--bg-dark) 100%);
+        }
+        .hero-dots {
+            position: absolute; inset: 0; opacity: 0.07;
+            background-image: radial-gradient(var(--text-on-dark) 1px, transparent 1px);
+            background-size: 32px 32px;
+        }
+        .hero-glow {
+            position: absolute; border-radius: 50%; pointer-events: none;
+        }
+        .hero-glow-1 {
+            top: -20%; right: -10%; width: 60%; height: 60%;
+            background: var(--accent); opacity: 0.18;
+            filter: blur(120px);
+            animation: glowPulse 8s ease-in-out infinite alternate;
+        }
+        .hero-glow-2 {
+            bottom: -10%; left: -10%; width: 40%; height: 40%;
+            background: var(--primary); opacity: 0.25;
+            filter: blur(100px);
+            animation: glowPulse 10s ease-in-out infinite alternate-reverse;
+        }
+        @keyframes glowPulse {
+            0% { transform: scale(1); opacity: 0.15; }
+            100% { transform: scale(1.15); opacity: 0.25; }
+        }
+
+        .hero-content {
+            position: relative; z-index: 1;
+            max-width: 1200px; width: 100%;
+            margin: 0 auto;
+            padding: 0 clamp(24px, 4vw, 64px);
+        }
+        .hero h1 {
+            display: flex; flex-direction: column;
+            line-height: 0.9; margin-bottom: 28px;
+        }
+        .hero-heading {
+            font-family: var(--sans);
+            font-weight: 600; letter-spacing: -0.02em;
+            font-size: clamp(1.8rem, 4.5vw, 4rem);
+            color: var(--text-on-dark);
+        }
+        .hero-drama {
+            font-family: var(--serif);
+            font-style: italic;
+            font-size: clamp(3.5rem, 11vw, 10rem);
+            color: var(--accent);
+            line-height: 1.05;
+        }
+        .hero-sub {
+            font-size: clamp(1rem, 1.5vw, 1.2rem);
+            color: rgba(242, 240, 233, 0.75);
+            max-width: 540px; line-height: 1.75;
+            font-weight: 300; margin-bottom: 36px;
+        }
+        .hero-cta {
+            display: inline-flex; align-items: center; gap: 12px;
+            background: var(--text-on-dark); color: var(--primary);
+            padding: 18px 40px; border-radius: var(--radius-pill);
+            text-decoration: none; font-weight: 700;
+            font-size: 0.875rem; letter-spacing: 0.04em;
+            text-transform: uppercase;
+            transition: transform 0.3s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.3s;
+        }
+        .hero-cta:hover {
+            transform: scale(1.03);
+            box-shadow: 0 16px 48px rgba(0,0,0,0.25);
+        }
+        .hero-stats {
+            display: flex; gap: 48px; margin-top: 56px;
+            padding-top: 28px;
+            border-top: 1px solid rgba(242, 240, 233, 0.12);
+        }
+        .hero-stat-num {
+            font-family: var(--mono);
+            font-size: 1.4rem; font-weight: 600;
+            color: var(--text-on-dark); line-height: 1;
+        }
+        .hero-stat-label {
+            font-size: 0.75rem; font-weight: 400;
+            color: rgba(242, 240, 233, 0.45);
+            margin-top: 6px; letter-spacing: 0.02em;
+        }
+
+        /* ═══ SECTION BASES ═══ */
+        .section-light {
+            padding: clamp(80px, 12vh, 140px) clamp(24px, 4vw, 64px);
+            background: var(--bg-warm);
+        }
+        .section-dark {
+            padding: clamp(100px, 16vh, 200px) clamp(24px, 4vw, 64px);
+            background: var(--bg-dark);
+            color: var(--text-on-dark);
+            position: relative; overflow: hidden;
+        }
+        .section-inner { max-width: 1200px; margin: 0 auto; }
+        .section-label {
+            font-family: var(--mono);
+            font-size: 0.7rem; font-weight: 500;
+            letter-spacing: 0.2em; text-transform: uppercase;
+            color: var(--text-light); margin-bottom: 16px;
+        }
+        .section-dark .section-label { color: rgba(242, 240, 233, 0.35); }
+        .section-title {
+            font-family: var(--sans);
+            font-size: clamp(2rem, 4vw, 3rem);
+            font-weight: 700; line-height: 1.15;
+            letter-spacing: -0.02em;
+            color: var(--text-dark);
+            margin-bottom: 16px;
+        }
+        .section-subtitle {
+            font-size: 1.05rem; font-weight: 400;
+            color: var(--text-mid); line-height: 1.7;
+            max-width: 560px; margin-bottom: 48px;
+        }
+
+        /* ═══ SERVICES — ROUNDED CARDS ═══ */
+        .services-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+        }
+        .service-card {
+            background: white;
+            border-radius: var(--radius-card);
+            padding: 32px;
+            border: 1px solid rgba(26, 26, 26, 0.05);
+            border-top: 3px solid transparent;
+            box-shadow: 0 8px 30px rgba(0,0,0,0.04);
+            display: flex; flex-direction: column; gap: 14px;
+            transition: transform 0.3s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.3s, border-color 0.3s;
+        }
+        .service-card:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 20px 50px rgba(0,0,0,0.08);
+            border-top-color: var(--primary);
+        }
+        .service-card:nth-child(3n+2):hover { border-top-color: var(--accent); }
+        .service-icon {
+            width: 48px; height: 48px;
+            border-radius: 12px;
+            display: flex; align-items: center; justify-content: center;
+            position: relative;
+        }
+        .service-icon::before {
+            content: ''; position: absolute; inset: 0;
+            border-radius: inherit;
+            background: var(--primary); opacity: 0.08;
+        }
+        .service-card:nth-child(3n+2) .service-icon::before { background: var(--accent); }
+        .service-card:nth-child(3n) .service-icon::before { background: var(--primary); opacity: 0.06; }
+        .service-icon span {
+            position: relative;
+            font-family: var(--mono);
+            font-size: 0.75rem; font-weight: 600;
+            color: var(--primary);
+        }
+        .service-card:nth-child(3n+2) .service-icon span { color: var(--accent); }
+        .service-title {
+            font-family: var(--sans);
+            font-size: 1.1rem; font-weight: 700;
+            color: var(--text-dark);
+        }
+        .service-desc {
+            font-size: 0.9rem; font-weight: 400;
+            color: var(--text-mid); line-height: 1.7;
+        }
+
+        /* ═══ ABOUT / PHILOSOPHY — MANIFESTO ═══ */
+        .section-dark .about-glow {
+            position: absolute; border-radius: 50%; pointer-events: none;
+        }
+        .about-glow-1 {
+            top: -30%; right: -15%; width: 50%; height: 80%;
+            background: var(--accent); opacity: 0.1;
+            filter: blur(100px);
+        }
+        .about-glow-2 {
+            bottom: -20%; left: -10%; width: 40%; height: 60%;
+            background: var(--primary); opacity: 0.15;
+            filter: blur(80px);
+        }
+        .section-dark .dot-grid {
+            position: absolute; inset: 0; opacity: 0.06;
+            background-image: radial-gradient(var(--text-on-dark) 1px, transparent 1px);
+            background-size: 40px 40px;
+            pointer-events: none;
+        }
+        .about-inner {
+            max-width: 1000px; margin: 0 auto;
+            position: relative; z-index: 1;
+        }
+        .about-intro {
+            font-family: var(--serif);
+            font-size: clamp(1.1rem, 2vw, 1.4rem);
+            font-style: italic;
+            color: rgba(242, 240, 233, 0.5);
+            line-height: 1.7;
+            margin-bottom: 28px;
+            max-width: 700px;
+        }
+        .about-drama {
+            font-family: var(--serif);
+            font-style: italic;
+            font-size: clamp(2.5rem, 7vw, 5.5rem);
+            color: var(--text-on-dark);
+            line-height: 1.05;
+            letter-spacing: -0.02em;
+        }
+        .about-accent { color: var(--accent); }
+
+        /* ═══ STATS — WHITE CARDS ═══ */
+        .stats-heading {
+            font-family: var(--sans);
+            font-size: clamp(1.5rem, 3vw, 2rem);
+            font-weight: 700; letter-spacing: -0.02em;
+            color: var(--text-dark);
+            margin-bottom: 32px;
+        }
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 20px;
+        }
+        .stat-card {
+            background: white;
+            border-radius: var(--radius-card);
+            padding: 36px 32px;
+            border: 1px solid rgba(26, 26, 26, 0.05);
+            box-shadow: 0 8px 30px rgba(0,0,0,0.04);
+        }
+        .stat-number {
+            font-family: var(--serif);
+            font-style: italic;
+            font-size: clamp(2.8rem, 5vw, 3.8rem);
+            font-weight: 700;
+            color: var(--accent);
+            line-height: 1; margin-bottom: 10px;
+        }
+        .stat-label {
+            font-family: var(--sans);
+            font-size: 0.95rem; font-weight: 600;
+            color: var(--text-dark);
+        }
+
+        /* ═══ PROCESS — COLORED CARDS ═══ */
+        .process-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+        }
+        .process-card {
+            border-radius: var(--radius-card);
+            padding: clamp(32px, 4vw, 48px);
+            display: flex; flex-direction: column; gap: 16px;
+            min-height: 300px;
+            position: relative; overflow: hidden;
+            transition: transform 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+        }
+        .process-card:hover { transform: translateY(-4px); }
+        .process-card:nth-child(1) {
+            background: var(--primary); color: var(--text-on-dark);
+        }
+        .process-card:nth-child(2) {
+            background: var(--accent); color: var(--text-on-dark);
+        }
+        .process-card:nth-child(3) {
+            background: white; color: var(--text-dark);
+            border: 1px solid rgba(26, 26, 26, 0.1);
+            box-shadow: 0 8px 30px rgba(0,0,0,0.04);
+        }
+
+        /* Card 1 decorative: rotating circles */
+        .process-card:nth-child(1)::after {
+            content: ''; position: absolute;
+            right: -15%; top: -25%; width: 200px; height: 200px;
+            border: 1.5px solid rgba(242, 240, 233, 0.15);
+            border-radius: 50%; pointer-events: none;
+            animation: spin 40s linear infinite;
+        }
+        .process-card:nth-child(1)::before {
+            content: ''; position: absolute;
+            right: -5%; top: -10%; width: 140px; height: 140px;
+            border: 1px solid rgba(242, 240, 233, 0.08);
+            border-radius: 50%; pointer-events: none;
+            animation: spin 30s linear infinite reverse;
+        }
+        /* Card 2 decorative: dot grid + scanner */
+        .process-card:nth-child(2)::after {
+            content: ''; position: absolute;
+            bottom: 0; left: 0; width: 100%; height: 45%;
+            opacity: 0.12; pointer-events: none;
+            background-image: radial-gradient(rgba(26, 26, 26, 0.6) 1px, transparent 1px);
+            background-size: 24px 24px;
+        }
+        /* Card 3 decorative: accent pulse line */
+        .process-card:nth-child(3)::after {
+            content: ''; position: absolute;
+            top: 40%; left: -5%; width: 110%; height: 3px;
+            pointer-events: none;
+            background: linear-gradient(90deg, transparent, var(--accent), transparent);
+            opacity: 0.08;
+        }
+        @keyframes spin {
+            from { transform: rotate(0deg); }
+            to { transform: rotate(360deg); }
+        }
+
+        .process-num {
+            font-family: var(--mono);
+            font-size: 0.72rem; font-weight: 500;
+            letter-spacing: 0.15em; opacity: 0.6;
+            position: relative; z-index: 1;
+        }
+        .process-card:nth-child(3) .process-num { color: var(--primary); }
+        .process-title {
+            font-family: var(--sans);
+            font-size: clamp(1.3rem, 2.5vw, 1.8rem);
+            font-weight: 700; letter-spacing: -0.01em;
+            position: relative; z-index: 1;
+        }
+        .process-desc {
+            font-size: 0.95rem; font-weight: 400;
+            line-height: 1.7; opacity: 0.8;
+            position: relative; z-index: 1;
+        }
+
+        /* ═══ CONTACT — DARK CARD ═══ */
+        .contact-wrapper {
+            padding: clamp(60px, 10vh, 100px) clamp(24px, 4vw, 64px);
+            background: var(--bg-warm);
+        }
+        .contact-card {
+            max-width: 1200px; margin: 0 auto;
+            background: var(--bg-dark);
+            border-radius: 3rem;
+            padding: clamp(48px, 6vw, 80px);
+            position: relative; overflow: hidden;
+        }
+        .contact-card::before {
+            content: ''; position: absolute; inset: 0; opacity: 0.04;
+            background-image: radial-gradient(var(--text-on-dark) 1px, transparent 1px);
+            background-size: 24px 24px; pointer-events: none;
+        }
+        .contact-card::after {
+            content: ''; position: absolute;
+            top: -30%; right: -10%; width: 50%; height: 50%;
+            border-radius: 50%;
+            background: var(--accent); opacity: 0.1;
+            filter: blur(80px); pointer-events: none;
+        }
+        .contact-card-inner { position: relative; z-index: 1; }
+        .contact-heading {
+            text-align: center; margin-bottom: clamp(40px, 6vw, 64px);
+        }
+        .contact-heading .section-label { color: var(--accent); }
+        .contact-heading .section-title {
+            color: var(--text-on-dark);
+            font-size: clamp(2rem, 4.5vw, 3.2rem);
+        }
+        .contact-grid {
+            display: grid; grid-template-columns: 1fr 1fr;
+            gap: 64px; align-items: start;
+        }
+        /* Dark-themed contact info */
+        .contact-card .contact-info-block dt {
+            font-family: var(--mono);
+            font-size: 0.65rem; letter-spacing: 0.2em;
+            text-transform: uppercase;
+            color: rgba(242, 240, 233, 0.35);
+            margin-bottom: 6px; margin-top: 28px;
+        }
+        .contact-card .contact-info-block dt:first-child { margin-top: 0; }
+        .contact-card .contact-info-block dd {
+            font-size: 1.05rem; font-weight: 400;
+            color: var(--text-on-dark);
+        }
+        .contact-card .contact-info-block a {
+            color: var(--text-on-dark); text-decoration: none;
+            border-bottom: 1px solid rgba(242, 240, 233, 0.15);
+            transition: border-color 0.3s;
+        }
+        .contact-card .contact-info-block a:hover { border-color: var(--accent); }
+        /* Dark-themed form */
+        .contact-form { display: flex; flex-direction: column; gap: 24px; }
+        .contact-card .form-group label {
+            font-family: var(--mono);
+            font-size: 0.65rem; letter-spacing: 0.15em;
+            text-transform: uppercase;
+            color: rgba(242, 240, 233, 0.35);
+            margin-bottom: 8px; display: block;
+        }
+        .contact-card .form-group input,
+        .contact-card .form-group textarea {
+            width: 100%; padding: 14px 0; font-size: 1rem;
+            font-family: var(--sans); font-weight: 300;
+            background: transparent; border: none;
+            border-bottom: 1px solid rgba(242, 240, 233, 0.12);
+            color: var(--text-on-dark); outline: none;
+            transition: border-color 0.3s;
+        }
+        .contact-card .form-group input::placeholder,
+        .contact-card .form-group textarea::placeholder {
+            color: rgba(242, 240, 233, 0.2);
+        }
+        .contact-card .form-group input:focus,
+        .contact-card .form-group textarea:focus {
+            border-bottom-color: var(--accent);
+        }
+        .contact-card .form-group textarea { resize: vertical; min-height: 80px; }
+        .form-submit {
+            display: inline-flex; align-items: center; gap: 10px;
+            background: var(--accent); color: var(--text-on-dark);
+            padding: 16px 40px; border: none; border-radius: var(--radius-pill);
+            font-size: 0.9rem; font-weight: 700; font-family: var(--sans);
+            cursor: pointer; align-self: flex-start;
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+        .form-submit:hover {
+            transform: translateY(-2px) scale(1.02);
+            box-shadow: 0 12px 32px rgba(0,0,0,0.2);
+        }
+
+        /* ═══ FOOTER ═══ */
+        footer {
+            background: var(--bg-dark); color: var(--text-on-dark);
+            padding: 64px clamp(24px, 4vw, 64px) 32px;
+            border-top-left-radius: 4rem;
+            border-top-right-radius: 4rem;
+        }
+        .footer-inner { max-width: 1200px; margin: 0 auto; }
+        .footer-top {
+            display: flex; justify-content: space-between;
+            align-items: flex-start; gap: 32px;
+            margin-bottom: 48px;
+        }
+        .footer-brand h3 {
+            font-family: var(--sans);
+            font-size: 1.5rem; font-weight: 700;
+            letter-spacing: -0.02em; margin-bottom: 8px;
+        }
+        .footer-brand p {
+            font-size: 0.85rem; font-weight: 400;
+            color: rgba(242, 240, 233, 0.4);
+            max-width: 280px; line-height: 1.6;
+        }
+        .footer-status {
+            display: inline-flex; align-items: center; gap: 10px;
+            padding: 8px 16px; margin-top: 16px;
+            background: rgba(46, 64, 54, 0.2);
+            border-radius: var(--radius-pill);
+            border: 1px solid rgba(46, 64, 54, 0.4);
+        }
+        .footer-status-dot {
+            position: relative; width: 10px; height: 10px;
+        }
+        .footer-status-dot::before {
+            content: ''; position: absolute; inset: 0;
+            border-radius: 50%; background: #34d399;
+            animation: ping 1.5s cubic-bezier(0, 0, 0.2, 1) infinite;
+        }
+        .footer-status-dot::after {
+            content: ''; position: absolute; inset: 1px;
+            border-radius: 50%; background: #10b981;
+        }
+        @keyframes ping {
+            75%, 100% { transform: scale(2); opacity: 0; }
+        }
+        .footer-status span {
+            font-family: var(--mono);
+            font-size: 0.65rem; font-weight: 500;
+            letter-spacing: 0.1em; text-transform: uppercase;
+            color: #34d399;
+        }
+        .footer-links {
+            display: flex; gap: 32px;
+            font-size: 0.875rem; font-weight: 500;
+            color: rgba(242, 240, 233, 0.5);
+        }
+        .footer-links a {
+            color: inherit; text-decoration: none;
+            transition: color 0.2s;
+        }
+        .footer-links a:hover { color: var(--text-on-dark); }
+        .footer-bottom {
+            border-top: 1px solid rgba(242, 240, 233, 0.08);
+            padding-top: 24px;
+            display: flex; justify-content: space-between; align-items: center;
+            font-size: 0.75rem; font-weight: 400;
+            color: rgba(242, 240, 233, 0.3);
+        }
+        .footer-bottom .version {
+            font-family: var(--mono); letter-spacing: 0.1em;
+        }
+
+        /* ═══ RESPONSIVE ═══ */
+        @media (max-width: 900px) {
+            .services-grid { grid-template-columns: repeat(2, 1fr); }
+            .process-grid { grid-template-columns: 1fr; }
+            .process-card { min-height: auto; }
+        }
+        @media (max-width: 768px) {
+            nav { top: 16px; }
+            .nav-pill { padding: 12px 20px; }
+            .nav-links { display: none; }
+            .nav-hamburger { display: block; }
+            .hero { min-height: 90dvh; padding-bottom: 48px; }
+            .hero-heading { font-size: clamp(1.5rem, 6vw, 2.5rem); }
+            .hero-drama { font-size: clamp(3rem, 14vw, 5rem); }
+            .hero-stats { flex-direction: column; gap: 20px; }
+            .services-grid { grid-template-columns: 1fr; }
+            .stats-grid { grid-template-columns: 1fr 1fr; gap: 16px; }
+            .contact-grid { grid-template-columns: 1fr; gap: 40px; }
+            .contact-card { padding: 32px 24px; border-radius: 2rem; }
+            .footer-top { flex-direction: column; }
+            .footer-bottom { flex-direction: column; gap: 8px; text-align: center; }
+            footer { border-top-left-radius: 2rem; border-top-right-radius: 2rem; }
+        }
+        @media (max-width: 480px) {
+            .stats-grid { grid-template-columns: 1fr; }
+        }
+    </style>
+</head>
+<body>
+
+<!-- NOISE OVERLAY -->
+<div class="noise-overlay"></div>
+
+<!-- NAV -->
+<nav id="nav">
+    <div class="nav-pill">
+        <a href="#" class="nav-logo">Papousek Dane.</a>
+        <div class="nav-links">
+            <a href="#sluzby">Služby</a>
+            <a href="#o-nas">O nás</a>
+            <a href="#kontakt">Kontakt</a>
+            <a href="#kontakt" class="nav-cta">
+                <span>Nezavazna konzultace</span>
+                <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 8h10M9 4l4 4-4 4"/></svg>
+            </a>
+        </div>
+        <button class="nav-hamburger" id="hamburger" aria-label="Menu">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M3 12h18M3 6h18M3 18h18"/></svg>
+        </button>
+    </div>
+</nav>
+
+<!-- MOBILE MENU -->
+<div class="mobile-menu" id="mobileMenu">
+    <a href="#sluzby" onclick="closeMobile()">Služby</a>
+    <a href="#o-nas" onclick="closeMobile()">O nás</a>
+    <a href="#kontakt" onclick="closeMobile()">Kontakt</a>
+    <a href="#kontakt" class="mobile-cta" onclick="closeMobile()">Nezavazna konzultace</a>
+</div>
+
+<!-- HERO -->
+<section class="hero">
+    <div class="hero-gradient"></div>
+    <div class="hero-dots"></div>
+    <div class="hero-glow hero-glow-1"></div>
+    <div class="hero-glow hero-glow-2"></div>
+    <div class="hero-content">
+        <h1>
+            <span class="hero-heading">Dane bez kompromisu</span>
+            <span class="hero-drama">Klid.</span>
+        </h1>
+        <p class="hero-sub">Odborne danové poradenstvi a ucetni sluzby pro firmy a podnikatele ve Zvoli a blizkem okoli.</p>
+        <a href="#kontakt" class="hero-cta">Ziskat nabidku</a>
+        <div class="hero-stats">
+            <div>
+            <div class="hero-stat-num">200+</div>
+            <div class="hero-stat-label">spokojenych klientu</div>
+        </div>
+<div>
+            <div class="hero-stat-num">13+</div>
+            <div class="hero-stat-label">let zkusenosti</div>
+        </div>
+<div>
+            <div class="hero-stat-num">97%</div>
+            <div class="hero-stat-label">spokojenost klientu</div>
+        </div>
+
+        </div>
+    </div>
+</section>
+
+<!-- SERVICES -->
+<section class="section-light" id="sluzby">
+    <div class="section-inner">
+        <div class="section-label reveal">NASE SLUZBY</div>
+        <h2 class="section-title reveal reveal-d1">Komplexni danove sluzby</h2>
+        <p class="section-subtitle reveal reveal-d2">Vsechny danové a ucetni sluzby pro pohodlny provoz vasí firmy.</p>
+        <div class="services-grid">
+            <div class="service-card reveal reveal-d1">
+            <div class="service-icon"><span>01</span></div>
+            <h3 class="service-title">Danové poradenstvi</h3>
+            <p class="service-desc">Individualni danové poradenstvi s cilem maximalne optimalizovat danovou zatez.</p>
+        </div>
+<div class="service-card reveal reveal-d2">
+            <div class="service-icon"><span>02</span></div>
+            <h3 class="service-title">Danova priznani</h3>
+            <p class="service-desc">Zpracovani a podani veskerych danovych uznani bez chyb a vcas.</p>
+        </div>
+<div class="service-card reveal reveal-d3">
+            <div class="service-icon"><span>03</span></div>
+            <h3 class="service-title">Vedeni ucetnictvi</h3>
+            <p class="service-desc">Prehledne vedeni ucetnictvi vcetne financnich vykazu a uzaverek.</p>
+        </div>
+<div class="service-card reveal reveal-d4">
+            <div class="service-icon"><span>04</span></div>
+            <h3 class="service-title">Mzdové sluzby</h3>
+            <p class="service-desc">Kompletni mzdová administrace vcetne personalni evidence zamestnancu.</p>
+        </div>
+<div class="service-card reveal reveal-d4">
+            <div class="service-icon"><span>05</span></div>
+            <h3 class="service-title">Danové poradenstvo pro OSVC</h3>
+            <p class="service-desc">Specialni danove poradenstvi pro zivnostniky a samostatne cinne osoby.</p>
+        </div>
+<div class="service-card reveal reveal-d4">
+            <div class="service-icon"><span>06</span></div>
+            <h3 class="service-title">Danove kontroly</h3>
+            <p class="service-desc">Asistence a zastupovani pri danovych kontrolach a jednani s FU.</p>
+        </div>
+
+        </div>
+    </div>
+</section>
+
+<!-- ABOUT / PHILOSOPHY -->
+<section class="section-dark" id="o-nas">
+    <div class="about-glow about-glow-1"></div>
+    <div class="about-glow about-glow-2"></div>
+    <div class="dot-grid"></div>
+    <div class="about-inner">
+        <p class="about-intro reveal">Ing. Eva Papousek je certifikovana danová poradkyne pusobici ve Zvoli. Svym klientum nabizi spolehlivy danovy servis zalozeny na preciznosti, individualnim pristupu a aktualnich znalostech danové legislativy.</p>
+        <h2 class="about-drama reveal reveal-d1">Zkusena danová poradkyne</h2>
+    </div>
+</section>
+
+<!-- STATS -->
+<section class="section-light">
+    <div class="section-inner">
+        <div class="section-label reveal">PROC PAPOUSEK</div>
+        <h3 class="stats-heading reveal reveal-d1">Výsledky, které mluví za nás.</h3>
+        <div class="stats-grid">
+            <div class="stat-card reveal reveal-d1">
+            <div class="stat-number" data-count="200" data-suffix="+">0+</div>
+            <div class="stat-label">spokojenych klientu</div>
+        </div>
+<div class="stat-card reveal reveal-d2">
+            <div class="stat-number" data-count="13" data-suffix="+">0+</div>
+            <div class="stat-label">let zkusenosti</div>
+        </div>
+<div class="stat-card reveal reveal-d3">
+            <div class="stat-number" data-count="97" data-suffix="%">0%</div>
+            <div class="stat-label">spokojenost klientu</div>
+        </div>
+
+        </div>
+    </div>
+</section>
+
+<!-- PROCESS -->
+<section class="section-light" style="padding-top: 0;">
+    <div class="section-inner">
+        <div class="section-label reveal">JAK PRACUJEME</div>
+        <h2 class="section-title reveal reveal-d1">Nase spoluprace</h2>
+        <p class="section-subtitle reveal reveal-d2">Jednoduchy a transparentni postup pro efektivni spoleci.</p>
+        <div class="process-grid">
+            <div class="process-card reveal reveal-d1">
+            <span class="process-num">01 / PRVNI KONZULTACE</span>
+            <h3 class="process-title">Prvni konzultace</h3>
+            <p class="process-desc">Probereme vasi situaci a navrneme optimalni danové reseni.</p>
+        </div>
+<div class="process-card reveal reveal-d2">
+            <span class="process-num">02 / NASTAVENI</span>
+            <h3 class="process-title">Nastaveni</h3>
+            <p class="process-desc">Domluvime podminky a prevajeme vasi danovou agendu.</p>
+        </div>
+<div class="process-card reveal reveal-d3">
+            <span class="process-num">03 / AKTIVNI SPRAVA</span>
+            <h3 class="process-title">Aktivni sprava</h3>
+            <p class="process-desc">Pravidelne zpracovavame vase dane a drize informujeme.</p>
+        </div>
+
+        </div>
+    </div>
+</section>
+
+<!-- CONTACT — DARK CARD -->
+<section class="contact-wrapper" id="kontakt">
+    <div class="contact-card">
+        <div class="contact-card-inner">
+            <div class="contact-heading">
+                <div class="section-label reveal">KONTAKT</div>
+                <h2 class="section-title reveal reveal-d1">Kontaktujte nas</h2>
+            </div>
+            <div class="contact-grid">
+                <dl class="contact-info-block reveal reveal-d2">
+                    <dt>Adresa</dt><dd>Zvole</dd>
+<dt>Email</dt><dd><a href="mailto:epapousek@fila.com">epapousek@fila.com</a></dd>
+
+                </dl>
+                <form class="contact-form reveal reveal-d3" onsubmit="event.preventDefault();">
+                    <div class="form-group">
+                        <label>Jméno</label>
+                        <input type="text" placeholder="Vaše jméno">
+                    </div>
+                    <div class="form-group">
+                        <label>Email</label>
+                        <input type="email" placeholder="vas@email.cz">
+                    </div>
+                    <div class="form-group">
+                        <label>Zpráva</label>
+                        <textarea placeholder="Jak vám můžeme pomoci?"></textarea>
+                    </div>
+                    <button type="submit" class="form-submit">
+                        Odeslat zpravu
+                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 8h10M9 4l4 4-4 4"/></svg>
+                    </button>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+    <div class="footer-inner">
+        <div class="footer-top">
+            <div class="footer-brand">
+                <h3>Papousek Dane.</h3>
+                <p>Danove poradenstvi Zvole a Praha. Ing. Eva Papousek poskytuje odborne danové a ucetni sluzby pro firmy a podnikatele.</p>
+                <div class="footer-status">
+                    <div class="footer-status-dot"></div>
+                    <span>K dispozici</span>
+                </div>
+            </div>
+            <div class="footer-links">
+                <a href="#sluzby">Služby</a>
+                <a href="#o-nas">O nás</a>
+                <a href="#kontakt">Kontakt</a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <span>&copy; 2026 Papousek Dane. Všechna práva vyhrazena.</span>
+            <span class="version">Papousek Dane</span>
+        </div>
+    </div>
+</footer>
+
+<script>
+// Nav scroll
+const nav = document.getElementById('nav');
+window.addEventListener('scroll', () => {
+    nav.classList.toggle('scrolled', window.scrollY > 60);
+}, { passive: true });
+
+// Mobile menu
+const hamburger = document.getElementById('hamburger');
+const mobileMenu = document.getElementById('mobileMenu');
+hamburger.addEventListener('click', () => {
+    mobileMenu.classList.toggle('open');
+    const isOpen = mobileMenu.classList.contains('open');
+    hamburger.innerHTML = isOpen
+        ? '<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M18 6L6 18M6 6l12 12"/></svg>'
+        : '<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M3 12h18M3 6h18M3 18h18"/></svg>';
+});
+function closeMobile() {
+    mobileMenu.classList.remove('open');
+    hamburger.innerHTML = '<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M3 12h18M3 6h18M3 18h18"/></svg>';
+}
+
+// Scroll reveal
+const revealEls = document.querySelectorAll('.reveal');
+const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+        if (entry.isIntersecting) {
+            entry.target.classList.add('in-view');
+            observer.unobserve(entry.target);
+        }
+    });
+}, { threshold: 0.15 });
+revealEls.forEach(el => observer.observe(el));
+
+// Animated counters
+const counters = document.querySelectorAll('[data-count]');
+const counterObserver = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+        if (entry.isIntersecting) {
+            const el = entry.target;
+            const target = parseInt(el.dataset.count);
+            const suffix = el.dataset.suffix || '';
+            const duration = 2000;
+            const start = performance.now();
+            function update(now) {
+                const elapsed = now - start;
+                const progress = Math.min(elapsed / duration, 1);
+                const eased = progress === 1 ? 1 : 1 - Math.pow(2, -10 * progress);
+                el.textContent = Math.round(eased * target).toLocaleString('cs-CZ') + suffix;
+                if (progress < 1) requestAnimationFrame(update);
+            }
+            requestAnimationFrame(update);
+            counterObserver.unobserve(el);
+        }
+    });
+}, { threshold: 0.3 });
+counters.forEach(el => counterObserver.observe(el));
+</script>
+</body>
+</html>
