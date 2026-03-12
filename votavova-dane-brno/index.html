@@ -489,6 +489,51 @@
         }
 
         /* ═══ CONTACT — DARK CARD ═══ */
+        /* ═══ TESTIMONIALS ═══ */
+        .testimonials-section {
+            padding: clamp(80px, 12vh, 140px) clamp(24px, 4vw, 64px);
+            background: var(--bg-dark);
+            color: var(--text-on-dark);
+        }
+        .testimonials-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 24px;
+            margin-top: 48px;
+        }
+        .testimonial-card {
+            background: rgba(255,255,255,0.05);
+            border: 1px solid rgba(255,255,255,0.1);
+            border-radius: var(--radius-card);
+            padding: 36px 32px 28px;
+            display: flex; flex-direction: column; gap: 20px;
+            position: relative;
+        }
+        .testimonial-card::before {
+            content: '\201C';
+            font-family: var(--serif);
+            font-size: 5rem;
+            line-height: 1;
+            color: var(--accent);
+            opacity: 0.6;
+            position: absolute;
+            top: 12px; left: 28px;
+        }
+        .testimonial-text {
+            font-size: clamp(0.95rem, 1.5vw, 1.05rem);
+            line-height: 1.75;
+            color: rgba(242,240,233,0.85);
+            padding-top: 32px;
+            font-style: italic;
+        }
+        .testimonial-author {
+            font-size: 0.82rem;
+            font-weight: 600;
+            color: var(--accent);
+            letter-spacing: 0.06em;
+            text-transform: uppercase;
+        }
+
         .contact-wrapper {
             padding: clamp(60px, 10vh, 100px) clamp(24px, 4vw, 64px);
             background: var(--bg-warm);
@@ -731,12 +776,12 @@
         <a href="#kontakt" class="hero-cta">Sjednat konzultaci</a>
         <div class="hero-stats">
             <div>
-            <div class="hero-stat-num">290+</div>
-            <div class="hero-stat-label">spokojenych klientu</div>
+            <div class="hero-stat-num">12+</div>
+            <div class="hero-stat-label">let praxe</div>
         </div>
 <div>
-            <div class="hero-stat-num">16+</div>
-            <div class="hero-stat-label">let praxe</div>
+            <div class="hero-stat-num">200+</div>
+            <div class="hero-stat-label">spokojených klientů</div>
         </div>
 <div>
             <div class="hero-stat-num">99%</div>
@@ -756,32 +801,32 @@
         <div class="services-grid">
             <div class="service-card reveal reveal-d1">
             <div class="service-icon"><span>01</span></div>
-            <h3 class="service-title">Danova priznani</h3>
+            <h3 class="service-title">Komplexní zpracování účetnictvífirem včetně mezd</h3>
             <p class="service-desc">Presne zpracovani danovych priznani fyzickych i pravnickych osob s maximalnim vyuzitim vsech zakonnych moznosti.</p>
         </div>
 <div class="service-card reveal reveal-d2">
             <div class="service-icon"><span>02</span></div>
-            <h3 class="service-title">Akademicke danove poradenstvi</h3>
+            <h3 class="service-title">Vedení daňové evidencepro OSVČ (i podnikatelům při zaměstnání)</h3>
             <p class="service-desc">Odborne poradenstvi zalozene na akademickych znalostech a prakticke zkusenosti z praxe.</p>
         </div>
 <div class="service-card reveal reveal-d3">
             <div class="service-icon"><span>03</span></div>
-            <h3 class="service-title">Vedeni ucetnictvi</h3>
+            <h3 class="service-title">Zpracování daňových přiznáník DPFO, DPPO, DPH,silniční dani, dani z nemovitostí</h3>
             <p class="service-desc">Kompletni podvojne ucetnictvi pro spolecnosti vsech velikosti s durazem na presnost.</p>
         </div>
 <div class="service-card reveal reveal-d4">
             <div class="service-icon"><span>04</span></div>
-            <h3 class="service-title">Danova optimalizace</h3>
+            <h3 class="service-title">Odklad daňových přiznání k dani z příjmů+ další služby daňového poradce</h3>
             <p class="service-desc">Systematicka analyza danove situace a navrh legalnich strategii pro minimalizaci danoveho zatizeni.</p>
         </div>
 <div class="service-card reveal reveal-d4">
             <div class="service-icon"><span>05</span></div>
-            <h3 class="service-title">DPH poradenstvi</h3>
+            <h3 class="service-title">Účetní, daňové a ekonomicképoradenství</h3>
             <p class="service-desc">Odborne poradenstvi v oblasti DPH vcetne registrace, priznani a kontrolnich hlaseni.</p>
         </div>
 <div class="service-card reveal reveal-d4">
             <div class="service-icon"><span>06</span></div>
-            <h3 class="service-title">Komplexni zastoupeni</h3>
+            <h3 class="service-title">Spolupráce s insolvenčními správci– vedení účetnictví v insolvenci</h3>
             <p class="service-desc">Profesionalni zastoupeni a poradenstvi pri jednani s financnim uradem a dalsimi institucemi.</p>
         </div>
 
@@ -807,12 +852,12 @@
         <h3 class="stats-heading reveal reveal-d1">Výsledky, které mluví za nás.</h3>
         <div class="stats-grid">
             <div class="stat-card reveal reveal-d1">
-            <div class="stat-number" data-count="290" data-suffix="+">0+</div>
-            <div class="stat-label">spokojenych klientu</div>
+            <div class="stat-number" data-count="12" data-suffix="+">0+</div>
+            <div class="stat-label">let praxe</div>
         </div>
 <div class="stat-card reveal reveal-d2">
-            <div class="stat-number" data-count="16" data-suffix="+">0+</div>
-            <div class="stat-label">let praxe</div>
+            <div class="stat-number" data-count="200" data-suffix="+">0+</div>
+            <div class="stat-label">spokojených klientů</div>
         </div>
 <div class="stat-card reveal reveal-d3">
             <div class="stat-number" data-count="99" data-suffix="%">0%</div>
@@ -849,6 +894,8 @@
         </div>
     </div>
 </section>
+
+
 
 <!-- CONTACT — DARK CARD -->
 <section class="contact-wrapper" id="kontakt">

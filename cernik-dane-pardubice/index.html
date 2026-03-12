@@ -489,6 +489,51 @@
         }
 
         /* ═══ CONTACT — DARK CARD ═══ */
+        /* ═══ TESTIMONIALS ═══ */
+        .testimonials-section {
+            padding: clamp(80px, 12vh, 140px) clamp(24px, 4vw, 64px);
+            background: var(--bg-dark);
+            color: var(--text-on-dark);
+        }
+        .testimonials-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 24px;
+            margin-top: 48px;
+        }
+        .testimonial-card {
+            background: rgba(255,255,255,0.05);
+            border: 1px solid rgba(255,255,255,0.1);
+            border-radius: var(--radius-card);
+            padding: 36px 32px 28px;
+            display: flex; flex-direction: column; gap: 20px;
+            position: relative;
+        }
+        .testimonial-card::before {
+            content: '\201C';
+            font-family: var(--serif);
+            font-size: 5rem;
+            line-height: 1;
+            color: var(--accent);
+            opacity: 0.6;
+            position: absolute;
+            top: 12px; left: 28px;
+        }
+        .testimonial-text {
+            font-size: clamp(0.95rem, 1.5vw, 1.05rem);
+            line-height: 1.75;
+            color: rgba(242,240,233,0.85);
+            padding-top: 32px;
+            font-style: italic;
+        }
+        .testimonial-author {
+            font-size: 0.82rem;
+            font-weight: 600;
+            color: var(--accent);
+            letter-spacing: 0.06em;
+            text-transform: uppercase;
+        }
+
         .contact-wrapper {
             padding: clamp(60px, 10vh, 100px) clamp(24px, 4vw, 64px);
             background: var(--bg-warm);
@@ -731,7 +776,7 @@
         <a href="#kontakt" class="hero-cta">Kontaktovat</a>
         <div class="hero-stats">
             <div>
-            <div class="hero-stat-num">19+</div>
+            <div class="hero-stat-num">33+</div>
             <div class="hero-stat-label">let praxe</div>
         </div>
 <div>
@@ -790,7 +835,7 @@
     <div class="about-glow about-glow-2"></div>
     <div class="dot-grid"></div>
     <div class="about-inner">
-        <p class="about-intro reveal">Jako certifikovaný daňový poradce v Pardubicích poskytuji komplexní daňové poradenství pro podnikatele a firmy ve východních Čechách. Ke každému klientovi přistupuji s individuálním přístupem a dbám na preciznost a spolehlivost.</p>
+        <p class="about-intro reveal">Společnost RPIC Pce s.r.o. vznikla v roce 2000 vyčleněním poradenské divizeze společnosti SINDAT Pardubice s.r.o., jejíž činnost začala v roce 1991.Od roku 1993 funguje společnost jako Regionální poradenskéa informační centrum pro drobné a střední podnikatele.V roce 2001 vyhrála výběrové řízení, vypsané Ministerstvem průmyslu a obchoduna regionální poradenské a informační místa a tím potvrdila svoji kvalitu v regionuPardubického kraje. Po celou dobu existence se společnost věnuje vedení účetnictví.Zároveň jsou zaměstnanci schopni pomoci s aktuálními dotacemi z Úřadu práce, COVID atp.</p>
         <h2 class="about-drama reveal reveal-d1">Ing. Jiří Černík</h2>
     </div>
 </section>
@@ -802,7 +847,7 @@
         <h3 class="stats-heading reveal reveal-d1">Výsledky, které mluví za nás.</h3>
         <div class="stats-grid">
             <div class="stat-card reveal reveal-d1">
-            <div class="stat-number" data-count="19" data-suffix="+">0+</div>
+            <div class="stat-number" data-count="33" data-suffix="+">0+</div>
             <div class="stat-label">let praxe</div>
         </div>
 <div class="stat-card reveal reveal-d2">
@@ -839,6 +884,29 @@
             <span class="process-num">03 / PODÁNÍ A PODPORA</span>
             <h3 class="process-title">Podání a podpora</h3>
             <p class="process-desc">Zajistím správné podání a jsem k dispozici pro průběžné daňové poradenství.</p>
+        </div>
+
+        </div>
+    </div>
+</section>
+
+<!-- TESTIMONIALS -->
+<section class="testimonials-section" id="reference">
+    <div class="section-inner">
+        <div class="section-label reveal">REFERENCE</div>
+        <h2 class="section-title reveal reveal-d1">Co říkají naši klienti</h2>
+        <div class="testimonials-grid">
+            <div class="testimonial-card reveal reveal-d1">
+            <p class="testimonial-text">Velké díky za vynikající přístup v rámci vedení účetní a mzdové agendy pro naši společnost. Jsem velmi potěšen profesionalitou a vysokou úrovní poskytovaných služeb.</p>
+            <div class="testimonial-author">Josef Chmel</div>
+        </div>
+<div class="testimonial-card reveal reveal-d2">
+            <p class="testimonial-text">Děkujeme za profesionální a osobní přistup. Jsem rád, že nám účetní a daňoví poradci pomohou nejen se standardními případy, ale také se specifikami, které naše podnikání přináší.</p>
+            <div class="testimonial-author">Jaromír Kulhánek</div>
+        </div>
+<div class="testimonial-card reveal reveal-d3">
+            <p class="testimonial-text">Díky dlouhodobé spolupráci máme jistotu a zázemí ve stabilní účetní a daňové firmě, která nám dokáže pomoci nejen s účetnictvím a daněmi, ale i s vyučtováním dotací.</p>
+            <div class="testimonial-author">Petr Beneš</div>
         </div>
 
         </div>

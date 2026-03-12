@@ -489,6 +489,51 @@
         }
 
         /* ═══ CONTACT — DARK CARD ═══ */
+        /* ═══ TESTIMONIALS ═══ */
+        .testimonials-section {
+            padding: clamp(80px, 12vh, 140px) clamp(24px, 4vw, 64px);
+            background: var(--bg-dark);
+            color: var(--text-on-dark);
+        }
+        .testimonials-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 24px;
+            margin-top: 48px;
+        }
+        .testimonial-card {
+            background: rgba(255,255,255,0.05);
+            border: 1px solid rgba(255,255,255,0.1);
+            border-radius: var(--radius-card);
+            padding: 36px 32px 28px;
+            display: flex; flex-direction: column; gap: 20px;
+            position: relative;
+        }
+        .testimonial-card::before {
+            content: '\201C';
+            font-family: var(--serif);
+            font-size: 5rem;
+            line-height: 1;
+            color: var(--accent);
+            opacity: 0.6;
+            position: absolute;
+            top: 12px; left: 28px;
+        }
+        .testimonial-text {
+            font-size: clamp(0.95rem, 1.5vw, 1.05rem);
+            line-height: 1.75;
+            color: rgba(242,240,233,0.85);
+            padding-top: 32px;
+            font-style: italic;
+        }
+        .testimonial-author {
+            font-size: 0.82rem;
+            font-weight: 600;
+            color: var(--accent);
+            letter-spacing: 0.06em;
+            text-transform: uppercase;
+        }
+
         .contact-wrapper {
             padding: clamp(60px, 10vh, 100px) clamp(24px, 4vw, 64px);
             background: var(--bg-warm);
@@ -731,7 +776,7 @@
         <a href="#kontakt" class="hero-cta">Získat konzultaci zdarma</a>
         <div class="hero-stats">
             <div>
-            <div class="hero-stat-num">11+</div>
+            <div class="hero-stat-num">2+</div>
             <div class="hero-stat-label">let praxe</div>
         </div>
 <div>
@@ -756,27 +801,27 @@
         <div class="services-grid">
             <div class="service-card reveal reveal-d1">
             <div class="service-icon"><span>01</span></div>
-            <h3 class="service-title">Daňové poradenství</h3>
+            <h3 class="service-title">Účetnictví</h3>
             <p class="service-desc">Odborné poradenství v oblasti daní z příjmu, DPH, silniční daně a dalších daňových povinností.</p>
         </div>
 <div class="service-card reveal reveal-d2">
             <div class="service-icon"><span>02</span></div>
-            <h3 class="service-title">Vedení podvojného účetnictví</h3>
+            <h3 class="service-title">Daňová evidence</h3>
             <p class="service-desc">Komplexní vedení účetnictví pro obchodní společnosti, příspěvkové organizace i živnostníky.</p>
         </div>
 <div class="service-card reveal reveal-d3">
             <div class="service-icon"><span>03</span></div>
-            <h3 class="service-title">Daňová evidence OSVČ</h3>
+            <h3 class="service-title">Daňové poradenství</h3>
             <p class="service-desc">Přehledná evidence příjmů a výdajů pro živnostníky s pravidelnými výkazy a přiznáními.</p>
         </div>
 <div class="service-card reveal reveal-d4">
             <div class="service-icon"><span>04</span></div>
-            <h3 class="service-title">Mzdové zpracování</h3>
+            <h3 class="service-title">Mzdová evidence</h3>
             <p class="service-desc">Kompletní zpracování mezd a personální agenda včetně přihlášek a odhlášek zaměstnanců.</p>
         </div>
 <div class="service-card reveal reveal-d4">
             <div class="service-icon"><span>05</span></div>
-            <h3 class="service-title">Roční uzávěrky a výkazy</h3>
+            <h3 class="service-title">Online účetnictví</h3>
             <p class="service-desc">Zpracování účetních uzávěrek, výkazů a jejich podání příslušným institucím.</p>
         </div>
 
@@ -802,7 +847,7 @@
         <h3 class="stats-heading reveal reveal-d1">Výsledky, které mluví za nás.</h3>
         <div class="stats-grid">
             <div class="stat-card reveal reveal-d1">
-            <div class="stat-number" data-count="11" data-suffix="+">0+</div>
+            <div class="stat-number" data-count="2" data-suffix="+">0+</div>
             <div class="stat-label">let praxe</div>
         </div>
 <div class="stat-card reveal reveal-d2">
@@ -839,6 +884,29 @@
             <span class="process-num">03 / PODÁNÍ A PRŮBĚŽNÁ PO</span>
             <h3 class="process-title">Podání a průběžná podpora</h3>
             <p class="process-desc">Podáme dokumenty za vás a jsme k dispozici pro průběžné dotazy po celý rok.</p>
+        </div>
+
+        </div>
+    </div>
+</section>
+
+<!-- TESTIMONIALS -->
+<section class="testimonials-section" id="reference">
+    <div class="section-inner">
+        <div class="section-label reveal">REFERENCE</div>
+        <h2 class="section-title reveal reveal-d1">Co říkají naši klienti</h2>
+        <div class="testimonials-grid">
+            <div class="testimonial-card reveal reveal-d1">
+            <p class="testimonial-text">Se spoluprací jsme spokojení, individuální přístup, pravidelné konzultace. Když je potřeba, holky jsou pružné a dle jejich možností poradí</p>
+            
+        </div>
+<div class="testimonial-card reveal reveal-d2">
+            <p class="testimonial-text">Tímto způsobem bych chtěl poděkovat za splupráci, profesonální a individuální přístup LS COUNTING, jsem rád, že se o nás starají v oblasti účetnictví a jejich flexibilita, stálý rozvoj a spoleh nás přesvědčili v dlouhodobou spolupráci.</p>
+            
+        </div>
+<div class="testimonial-card reveal reveal-d3">
+            <p class="testimonial-text">S účetní firmou LS COUNTING s.r.o. jsme navázali spolupráci 07.2021 a do dnešního dne máme jen pozitivní zkušenosti s jejich prací. Velmi oceňujeme vstřícnost, příjemnou komunikaci a profesionální řešení všech záležitostí ohledně účetní administrativy. Pro naši firmu jsou velkým přínosem.</p>
+            
         </div>
 
         </div>

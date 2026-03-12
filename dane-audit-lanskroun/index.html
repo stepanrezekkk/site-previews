@@ -489,6 +489,51 @@
         }
 
         /* ═══ CONTACT — DARK CARD ═══ */
+        /* ═══ TESTIMONIALS ═══ */
+        .testimonials-section {
+            padding: clamp(80px, 12vh, 140px) clamp(24px, 4vw, 64px);
+            background: var(--bg-dark);
+            color: var(--text-on-dark);
+        }
+        .testimonials-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 24px;
+            margin-top: 48px;
+        }
+        .testimonial-card {
+            background: rgba(255,255,255,0.05);
+            border: 1px solid rgba(255,255,255,0.1);
+            border-radius: var(--radius-card);
+            padding: 36px 32px 28px;
+            display: flex; flex-direction: column; gap: 20px;
+            position: relative;
+        }
+        .testimonial-card::before {
+            content: '\201C';
+            font-family: var(--serif);
+            font-size: 5rem;
+            line-height: 1;
+            color: var(--accent);
+            opacity: 0.6;
+            position: absolute;
+            top: 12px; left: 28px;
+        }
+        .testimonial-text {
+            font-size: clamp(0.95rem, 1.5vw, 1.05rem);
+            line-height: 1.75;
+            color: rgba(242,240,233,0.85);
+            padding-top: 32px;
+            font-style: italic;
+        }
+        .testimonial-author {
+            font-size: 0.82rem;
+            font-weight: 600;
+            color: var(--accent);
+            letter-spacing: 0.06em;
+            text-transform: uppercase;
+        }
+
         .contact-wrapper {
             padding: clamp(60px, 10vh, 100px) clamp(24px, 4vw, 64px);
             background: var(--bg-warm);
@@ -724,7 +769,7 @@
     <div class="hero-glow hero-glow-2"></div>
     <div class="hero-content">
         <h1>
-            <span class="hero-heading">Daně a audit v Lanškrouně</span>
+            <span class="hero-heading">Vaše jistota v ekonomice a daních</span>
             <span class="hero-drama">Preciznost.</span>
         </h1>
         <p class="hero-sub">Ing. Karel Novák poskytuje odborné daňové poradenství a auditní služby pro firmy a podnikatele v Pardubickém kraji.</p>
@@ -756,33 +801,18 @@
         <div class="services-grid">
             <div class="service-card reveal reveal-d1">
             <div class="service-icon"><span>01</span></div>
-            <h3 class="service-title">Daňové poradenství</h3>
+            <h3 class="service-title">Vedení účetnictví</h3>
             <p class="service-desc">Komplexní poradenství v oblasti daně z příjmů, DPH a ostatních daní.</p>
         </div>
 <div class="service-card reveal reveal-d2">
             <div class="service-icon"><span>02</span></div>
-            <h3 class="service-title">Audit účetní závěrky</h3>
+            <h3 class="service-title">Daňové poradenství</h3>
             <p class="service-desc">Povinný i dobrovolný audit s důrazem na kvalitu a dodržení termínů.</p>
         </div>
 <div class="service-card reveal reveal-d3">
             <div class="service-icon"><span>03</span></div>
-            <h3 class="service-title">Účetnictví a výkaznictví</h3>
+            <h3 class="service-title">Auditorské ověření</h3>
             <p class="service-desc">Vedení účetnictví, zpracování finančních výkazů a příprava podkladů pro daně.</p>
-        </div>
-<div class="service-card reveal reveal-d4">
-            <div class="service-icon"><span>04</span></div>
-            <h3 class="service-title">Daňová optimalizace</h3>
-            <p class="service-desc">Analýza a nastavení daňové strategie pro minimalizaci povinností v rámci zákona.</p>
-        </div>
-<div class="service-card reveal reveal-d4">
-            <div class="service-icon"><span>05</span></div>
-            <h3 class="service-title">Poradenství při podnikání</h3>
-            <p class="service-desc">Daňové aspekty zakládání firem, přeměn, akvizic a dalších podnikatelských kroků.</p>
-        </div>
-<div class="service-card reveal reveal-d4">
-            <div class="service-icon"><span>06</span></div>
-            <h3 class="service-title">Zastoupení při daňové kontrole</h3>
-            <p class="service-desc">Odborná pomoc a zastoupení klientů při komunikaci s finančním úřadem.</p>
         </div>
 
         </div>
@@ -795,7 +825,7 @@
     <div class="about-glow about-glow-2"></div>
     <div class="dot-grid"></div>
     <div class="about-inner">
-        <p class="about-intro reveal">Ing. Karel Novák je certifikovaný daňový poradce a auditor s rozsáhlou praxí v Lanškrouně. Klientům nabízíme komplexní poradenství s důrazem na přesnost, diskrétnost a individuální přístup.</p>
+        <p class="about-intro reveal">Jsme Daně – Audit, a.s., stabilní partner s více než 30letými zkušenostmi v oblasti daňového poradenství, účetnictví a auditu. Naším cílem je poskytovat komplexní ekonomické služby s maximální přesností, odborností a důrazem na dlouhodobou spolupráci s klienty.</p>
         <h2 class="about-drama reveal reveal-d1">Odbornost a zkušenosti z praxe</h2>
     </div>
 </section>
@@ -844,6 +874,21 @@
             <span class="process-num">03 / PODÁNÍ A ZASTOUPENÍ</span>
             <h3 class="process-title">Podání a zastoupení</h3>
             <p class="process-desc">Podáme přiznání a zajistíme vás při případné komunikaci s úřady.</p>
+        </div>
+
+        </div>
+    </div>
+</section>
+
+<!-- TESTIMONIALS -->
+<section class="testimonials-section" id="reference">
+    <div class="section-inner">
+        <div class="section-label reveal">REFERENCE</div>
+        <h2 class="section-title reveal reveal-d1">Co říkají naši klienti</h2>
+        <div class="testimonials-grid">
+            <div class="testimonial-card reveal reveal-d1">
+            <p class="testimonial-text">Optimalizace daní a profesionální zastoupení před úřady</p>
+            
         </div>
 
         </div>

@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Tax Advisors -- Ing. Michal Fojt, danovy poradce v Bedrichove. Dane z prijmu, DPH, danove poradenstvi a zastoupeni pred spravcem dane pro firmy i jednotlivce.">
-    <title>Ing. Michal Fojt -- Danovy poradce Bedrichov</title>
+    <meta name="description" content="Tax Advisors -- Ing. Michal Fojt, daňový poradce v Bedřichově. Daně z příjmu, DPH, daňové poradenství a zastoupení před správcem daně pro firmy i jednotlivce.">
+    <title>Ing. Michal Fojt -- Daňový poradce Bedřichov</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Playfair%20Display:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=DM%20Sans:wght@200;300;400;500;600;700;800&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
@@ -489,6 +489,51 @@
         }
 
         /* ═══ CONTACT — DARK CARD ═══ */
+        /* ═══ TESTIMONIALS ═══ */
+        .testimonials-section {
+            padding: clamp(80px, 12vh, 140px) clamp(24px, 4vw, 64px);
+            background: var(--bg-dark);
+            color: var(--text-on-dark);
+        }
+        .testimonials-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 24px;
+            margin-top: 48px;
+        }
+        .testimonial-card {
+            background: rgba(255,255,255,0.05);
+            border: 1px solid rgba(255,255,255,0.1);
+            border-radius: var(--radius-card);
+            padding: 36px 32px 28px;
+            display: flex; flex-direction: column; gap: 20px;
+            position: relative;
+        }
+        .testimonial-card::before {
+            content: '\201C';
+            font-family: var(--serif);
+            font-size: 5rem;
+            line-height: 1;
+            color: var(--accent);
+            opacity: 0.6;
+            position: absolute;
+            top: 12px; left: 28px;
+        }
+        .testimonial-text {
+            font-size: clamp(0.95rem, 1.5vw, 1.05rem);
+            line-height: 1.75;
+            color: rgba(242,240,233,0.85);
+            padding-top: 32px;
+            font-style: italic;
+        }
+        .testimonial-author {
+            font-size: 0.82rem;
+            font-weight: 600;
+            color: var(--accent);
+            letter-spacing: 0.06em;
+            text-transform: uppercase;
+        }
+
         .contact-wrapper {
             padding: clamp(60px, 10vh, 100px) clamp(24px, 4vw, 64px);
             background: var(--bg-warm);
@@ -724,23 +769,23 @@
     <div class="hero-glow hero-glow-2"></div>
     <div class="hero-content">
         <h1>
-            <span class="hero-heading">Odbornost a presnost v kazdem podani</span>
-            <span class="hero-drama">Presnost.</span>
+            <span class="hero-heading">Komplexní daňové a účetní poradenství</span>
+            <span class="hero-drama">Přesnost.</span>
         </h1>
-        <p class="hero-sub">Spolehlave danove poradenstvi pro podnikatele a firmy v Bedrichove a libereckem regionu. Vasnive se venujeme spravi vashich dani.</p>
+        <p class="hero-sub">Spolehlave daňové poradenství pro podnikatele a firmy v Bedřichově a libereckém regionu. Vášnivě se věnujeme spraví vashich daní.</p>
         <a href="#kontakt" class="hero-cta">Konzultace zdarma</a>
         <div class="hero-stats">
             <div>
-            <div class="hero-stat-num">10+</div>
+            <div class="hero-stat-num">18+</div>
             <div class="hero-stat-label">let praxe</div>
         </div>
 <div>
-            <div class="hero-stat-num">155+</div>
-            <div class="hero-stat-label">spokojenych klientu</div>
+            <div class="hero-stat-num">200+</div>
+            <div class="hero-stat-label">spokojených klientů</div>
         </div>
 <div>
             <div class="hero-stat-num">99%</div>
-            <div class="hero-stat-label">uspesnost podani</div>
+            <div class="hero-stat-label">úspěšnost podání</div>
         </div>
 
         </div>
@@ -751,33 +796,38 @@
 <section class="section-light" id="sluzby">
     <div class="section-inner">
         <div class="section-label reveal">NASE SLUZBY</div>
-        <h2 class="section-title reveal reveal-d1">Danove sluzby pro vas region</h2>
-        <p class="section-subtitle reveal reveal-d2">Profesionalni danove poradenstvi s durazem na presnost, vcasnost a maximalni zakonnou optimalizaci.</p>
+        <h2 class="section-title reveal reveal-d1">Daňové služby pro vás region</h2>
+        <p class="section-subtitle reveal reveal-d2">Profesionální daňové poradenství s důrazem na přesnost, včasnost a maximální zákonnou optimalizaci.</p>
         <div class="services-grid">
             <div class="service-card reveal reveal-d1">
             <div class="service-icon"><span>01</span></div>
-            <h3 class="service-title">Danove priznani</h3>
-            <p class="service-desc">Zpracovani a podani danovych priznani pro fyzicke i pravnicke osoby s vyuzitim vsech zakonnych moznosti optimalizace.</p>
+            <h3 class="service-title">Transakční poradenství</h3>
+            <p class="service-desc">Zpracování a podání daňových přiznání pro fyzické i právnické osoby s využitím všech zákonných možností optimalizace.</p>
         </div>
 <div class="service-card reveal reveal-d2">
             <div class="service-icon"><span>02</span></div>
-            <h3 class="service-title">DPH a spotrebni dane</h3>
-            <p class="service-desc">Vedeni DPH agendy, podavani priznani a poradenstvi pri nestandardnich transakci v oblasti neprimych dani.</p>
+            <h3 class="service-title">Daňové dopady restrukturalizací</h3>
+            <p class="service-desc">Vedení DPH agendy, podávání přiznání a poradenství při nestandardních transakcí v oblasti nepřímých daní.</p>
         </div>
 <div class="service-card reveal reveal-d3">
             <div class="service-icon"><span>03</span></div>
-            <h3 class="service-title">Mezinarodni dane</h3>
-            <p class="service-desc">Poradenstvi pro firmy obchodujici se zahranicim vcetne DPH v EU, zahranicnich zamestnancu a transferovych cen.</p>
+            <h3 class="service-title">Zpracování přiznání k dani</h3>
+            <p class="service-desc">Poradenství pro firmy obchodující se zahraničím včetně DPH v EU, zahraničních zaměstnanců a transferových cen.</p>
         </div>
 <div class="service-card reveal reveal-d4">
             <div class="service-icon"><span>04</span></div>
-            <h3 class="service-title">Danove kontroly</h3>
-            <p class="service-desc">Profesionalni zastoupeni a poradensti pri danovy kontrolach a naslednych odvolacich rizenich.</p>
+            <h3 class="service-title">DPH a Intrastat compliance</h3>
+            <p class="service-desc">Profesionální zastoupení a poradenští při daňový kontrolách a následných odvolacích řízeních.</p>
         </div>
 <div class="service-card reveal reveal-d4">
             <div class="service-icon"><span>05</span></div>
-            <h3 class="service-title">Danove poradenstvi online</h3>
-            <p class="service-desc">Flexibilni poradenstvi na dalku pro klienty mimo region -- komunikujeme digitalne a efektivne.</p>
+            <h3 class="service-title">Obecné poradenství</h3>
+            <p class="service-desc">Flexibilní poradenství na dálku pro klienty mimo region -- komunikujeme digitálně a efektivně.</p>
+        </div>
+<div class="service-card reveal reveal-d4">
+            <div class="service-icon"><span>06</span></div>
+            <h3 class="service-title">Kompletní zpracování účetnictví</h3>
+            <p class="service-desc">Profesionální kompletní zpracování účetnictví přizpůsobené vašim potřebám.</p>
         </div>
 
         </div>
@@ -790,8 +840,8 @@
     <div class="about-glow about-glow-2"></div>
     <div class="dot-grid"></div>
     <div class="about-inner">
-        <p class="about-intro reveal">Ing. Michal Fojt a tym Tax Advisors se specializuji na komplexni danove poradenstvi v libereckem regionu. Jejich pristup je zalozen na duslednosti, preciznosti a hlubokem porozumeni potrebam kazdeho klienta. Kazde danove podani je zpracovano s maximalni peclivosti a veskere terminy jsou strikne dodrzovany.</p>
-        <h2 class="about-drama reveal reveal-d1">Presnosi a zodpovednost jako zaklad nasi prace</h2>
+        <p class="about-intro reveal">Ing. Michal Fojt a tým Tax Advisors se specializují na komplexní daňové poradenství v libereckém regionu. Jejich přístup je založen na důslednosti, preciznosti a hlubokém porozumění potřebám každého klienta. Každé daňové podání je zpracováno s maximální pečlivostí a veškeré termíny jsou stříkne dodržovaný.</p>
+        <h2 class="about-drama reveal reveal-d1">Presnosi a zodpovědnost jako základ naší práce</h2>
     </div>
 </section>
 
@@ -802,16 +852,16 @@
         <h3 class="stats-heading reveal reveal-d1">Výsledky, které mluví za nás.</h3>
         <div class="stats-grid">
             <div class="stat-card reveal reveal-d1">
-            <div class="stat-number" data-count="10" data-suffix="+">0+</div>
+            <div class="stat-number" data-count="18" data-suffix="+">0+</div>
             <div class="stat-label">let praxe</div>
         </div>
 <div class="stat-card reveal reveal-d2">
-            <div class="stat-number" data-count="155" data-suffix="+">0+</div>
-            <div class="stat-label">spokojenych klientu</div>
+            <div class="stat-number" data-count="200" data-suffix="+">0+</div>
+            <div class="stat-label">spokojených klientů</div>
         </div>
 <div class="stat-card reveal reveal-d3">
             <div class="stat-number" data-count="99" data-suffix="%">0%</div>
-            <div class="stat-label">uspesnost podani</div>
+            <div class="stat-label">úspěšnost podání</div>
         </div>
 
         </div>
@@ -822,28 +872,30 @@
 <section class="section-light" style="padding-top: 0;">
     <div class="section-inner">
         <div class="section-label reveal">JAK PRACUJEME</div>
-        <h2 class="section-title reveal reveal-d1">Spolehlive a prehledne -- vzdy</h2>
-        <p class="section-subtitle reveal reveal-d2">Nas pracovni postup je jasny a transparentni, takze vzdycky vite, co se deje s vasimi danemi.</p>
+        <h2 class="section-title reveal reveal-d1">Spolehlivě a přehledně -- vždy</h2>
+        <p class="section-subtitle reveal reveal-d2">Nás pracovní postup je jasný a transparentní, takže vždycky víte, co se děje s vašimi daněmi.</p>
         <div class="process-grid">
             <div class="process-card reveal reveal-d1">
-            <span class="process-num">01 / BEZPLATNA KONZULTACE</span>
-            <h3 class="process-title">Bezplatna konzultace</h3>
-            <p class="process-desc">Zhodnotime vasi situaci a domluvime se na rozsahu sluzeb a zpusobu dalsi spoluprace.</p>
+            <span class="process-num">01 / BEZPLATNÁ KONZULTACE</span>
+            <h3 class="process-title">Bezplatná konzultace</h3>
+            <p class="process-desc">Zhodnotíme vaši situaci a domluvíme se na rozsahu služeb a způsobu další spolupráce.</p>
         </div>
 <div class="process-card reveal reveal-d2">
-            <span class="process-num">02 / ZPRACOVANI AGENDY</span>
-            <h3 class="process-title">Zpracovani agendy</h3>
-            <p class="process-desc">Systematicky zpracujeme veskere danove povinnosti a oznamime vas o postupu a vysledcich.</p>
+            <span class="process-num">02 / ZPRACOVÁNÍ AGENDY</span>
+            <h3 class="process-title">Zpracování agendy</h3>
+            <p class="process-desc">Systematicky zpracujeme veškeré daňové povinnosti a oznámíme vás o postupu a výsledcích.</p>
         </div>
 <div class="process-card reveal reveal-d3">
-            <span class="process-num">03 / PODANI A ARCHIVACE</span>
-            <h3 class="process-title">Podani a archivace</h3>
-            <p class="process-desc">Vcas podame vsechny dokumenty a zajistime spravnou archivaci pro pripad budouci kontroly.</p>
+            <span class="process-num">03 / PODÁNÍ A ARCHIVACE</span>
+            <h3 class="process-title">Podání a archivace</h3>
+            <p class="process-desc">Včas podáme všechny dokumenty a zajistíme správnou archivaci pro případ budoucí kontroly.</p>
         </div>
 
         </div>
     </div>
 </section>
+
+
 
 <!-- CONTACT — DARK CARD -->
 <section class="contact-wrapper" id="kontakt">
@@ -851,7 +903,7 @@
         <div class="contact-card-inner">
             <div class="contact-heading">
                 <div class="section-label reveal">KONTAKT</div>
-                <h2 class="section-title reveal reveal-d1">Pojdme spolupracovat</h2>
+                <h2 class="section-title reveal reveal-d1">Pojďme spolupracovat</h2>
             </div>
             <div class="contact-grid">
                 <dl class="contact-info-block reveal reveal-d2">
@@ -874,7 +926,7 @@
                         <textarea placeholder="Jak vám můžeme pomoci?"></textarea>
                     </div>
                     <button type="submit" class="form-submit">
-                        Odeslat zpravu
+                        Odeslat zprávu
                         <svg width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 8h10M9 4l4 4-4 4"/></svg>
                     </button>
                 </form>
@@ -889,7 +941,7 @@
         <div class="footer-top">
             <div class="footer-brand">
                 <h3>Tax Advisors.</h3>
-                <p>Tax Advisors -- Ing. Michal Fojt, danovy poradce v Bedrichove. Dane z prijmu, DPH, danove poradenstvi a zastoupeni pred spravcem dane pro firmy i jednotlivce.</p>
+                <p>Tax Advisors -- Ing. Michal Fojt, daňový poradce v Bedřichově. Daně z příjmu, DPH, daňové poradenství a zastoupení před správcem daně pro firmy i jednotlivce.</p>
                 <div class="footer-status">
                     <div class="footer-status-dot"></div>
                     <span>K dispozici</span>

@@ -489,6 +489,51 @@
         }
 
         /* ═══ CONTACT — DARK CARD ═══ */
+        /* ═══ TESTIMONIALS ═══ */
+        .testimonials-section {
+            padding: clamp(80px, 12vh, 140px) clamp(24px, 4vw, 64px);
+            background: var(--bg-dark);
+            color: var(--text-on-dark);
+        }
+        .testimonials-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 24px;
+            margin-top: 48px;
+        }
+        .testimonial-card {
+            background: rgba(255,255,255,0.05);
+            border: 1px solid rgba(255,255,255,0.1);
+            border-radius: var(--radius-card);
+            padding: 36px 32px 28px;
+            display: flex; flex-direction: column; gap: 20px;
+            position: relative;
+        }
+        .testimonial-card::before {
+            content: '\201C';
+            font-family: var(--serif);
+            font-size: 5rem;
+            line-height: 1;
+            color: var(--accent);
+            opacity: 0.6;
+            position: absolute;
+            top: 12px; left: 28px;
+        }
+        .testimonial-text {
+            font-size: clamp(0.95rem, 1.5vw, 1.05rem);
+            line-height: 1.75;
+            color: rgba(242,240,233,0.85);
+            padding-top: 32px;
+            font-style: italic;
+        }
+        .testimonial-author {
+            font-size: 0.82rem;
+            font-weight: 600;
+            color: var(--accent);
+            letter-spacing: 0.06em;
+            text-transform: uppercase;
+        }
+
         .contact-wrapper {
             padding: clamp(60px, 10vh, 100px) clamp(24px, 4vw, 64px);
             background: var(--bg-warm);
@@ -724,19 +769,19 @@
     <div class="hero-glow hero-glow-2"></div>
     <div class="hero-content">
         <h1>
-            <span class="hero-heading">Brnenský poradce s mezinárodní zkuseností</span>
+            <span class="hero-heading">Komplexní daňové a účetní poradenství</span>
             <span class="hero-drama">Kompetence.</span>
         </h1>
         <p class="hero-sub">Danové poradenství v Brne s hlubokou znalostí cesko-nemeckých obchodních vztahu a mezinárodního danového práva.</p>
         <a href="#kontakt" class="hero-cta">Domluvit schuzku</a>
         <div class="hero-stats">
             <div>
-            <div class="hero-stat-num">260+</div>
-            <div class="hero-stat-label">klientu v CR a EU</div>
+            <div class="hero-stat-num">18+</div>
+            <div class="hero-stat-label">let praxe</div>
         </div>
 <div>
-            <div class="hero-stat-num">17+</div>
-            <div class="hero-stat-label">let zkuseností</div>
+            <div class="hero-stat-num">200+</div>
+            <div class="hero-stat-label">spokojených klientů</div>
         </div>
 <div>
             <div class="hero-stat-num">3</div>
@@ -756,32 +801,32 @@
         <div class="services-grid">
             <div class="service-card reveal reveal-d1">
             <div class="service-icon"><span>01</span></div>
-            <h3 class="service-title">Danové poradenství PO</h3>
+            <h3 class="service-title">Transakční poradenství</h3>
             <p class="service-desc">Strategické danové sluzby pro ceské a zahrancní spolecnosti pusobící na ceském trhu.</p>
         </div>
 <div class="service-card reveal reveal-d2">
             <div class="service-icon"><span>02</span></div>
-            <h3 class="service-title">Cesko-nemecká agenda</h3>
+            <h3 class="service-title">Daňové dopady restrukturalizací</h3>
             <p class="service-desc">Specializované poradenství pro cesko-nemecké obchodní vztahy vcetne danových smluv a DPH.</p>
         </div>
 <div class="service-card reveal reveal-d3">
             <div class="service-icon"><span>03</span></div>
-            <h3 class="service-title">Zpracování daní FO</h3>
+            <h3 class="service-title">Zpracování přiznání k dani</h3>
             <p class="service-desc">Danová priznání fyzických osob vcetne príjmu ze zahranicí a uplatnení zahranicních slev.</p>
         </div>
 <div class="service-card reveal reveal-d4">
             <div class="service-icon"><span>04</span></div>
-            <h3 class="service-title">Transferové ceny</h3>
+            <h3 class="service-title">DPH a Intrastat compliance</h3>
             <p class="service-desc">Nastavení a dokumentace transferových cen pro spojené osoby dle ceských i OECD standardu.</p>
         </div>
 <div class="service-card reveal reveal-d4">
             <div class="service-icon"><span>05</span></div>
-            <h3 class="service-title">Danová optimalizace</h3>
+            <h3 class="service-title">Obecné poradenství</h3>
             <p class="service-desc">Legální minimalizace danové povinnosti pro fyzické i právnické osoby s durazem na udrzitelnost.</p>
         </div>
 <div class="service-card reveal reveal-d4">
             <div class="service-icon"><span>06</span></div>
-            <h3 class="service-title">Zastupování pred FÚ</h3>
+            <h3 class="service-title">Kompletní zpracování účetnictví</h3>
             <p class="service-desc">Profesionální zastoupení pri danových kontrolách, odvoláních a jednáních se správcem daní.</p>
         </div>
 
@@ -807,12 +852,12 @@
         <h3 class="stats-heading reveal reveal-d1">Výsledky, které mluví za nás.</h3>
         <div class="stats-grid">
             <div class="stat-card reveal reveal-d1">
-            <div class="stat-number" data-count="260" data-suffix="+">0+</div>
-            <div class="stat-label">klientu v CR a EU</div>
+            <div class="stat-number" data-count="18" data-suffix="+">0+</div>
+            <div class="stat-label">let praxe</div>
         </div>
 <div class="stat-card reveal reveal-d2">
-            <div class="stat-number" data-count="17" data-suffix="+">0+</div>
-            <div class="stat-label">let zkuseností</div>
+            <div class="stat-number" data-count="200" data-suffix="+">0+</div>
+            <div class="stat-label">spokojených klientů</div>
         </div>
 <div class="stat-card reveal reveal-d3">
             <div class="stat-number" data-count="3" data-suffix="">0</div>
@@ -849,6 +894,8 @@
         </div>
     </div>
 </section>
+
+
 
 <!-- CONTACT — DARK CARD -->
 <section class="contact-wrapper" id="kontakt">

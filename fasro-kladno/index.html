@@ -489,6 +489,51 @@
         }
 
         /* ═══ CONTACT — DARK CARD ═══ */
+        /* ═══ TESTIMONIALS ═══ */
+        .testimonials-section {
+            padding: clamp(80px, 12vh, 140px) clamp(24px, 4vw, 64px);
+            background: var(--bg-dark);
+            color: var(--text-on-dark);
+        }
+        .testimonials-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 24px;
+            margin-top: 48px;
+        }
+        .testimonial-card {
+            background: rgba(255,255,255,0.05);
+            border: 1px solid rgba(255,255,255,0.1);
+            border-radius: var(--radius-card);
+            padding: 36px 32px 28px;
+            display: flex; flex-direction: column; gap: 20px;
+            position: relative;
+        }
+        .testimonial-card::before {
+            content: '\201C';
+            font-family: var(--serif);
+            font-size: 5rem;
+            line-height: 1;
+            color: var(--accent);
+            opacity: 0.6;
+            position: absolute;
+            top: 12px; left: 28px;
+        }
+        .testimonial-text {
+            font-size: clamp(0.95rem, 1.5vw, 1.05rem);
+            line-height: 1.75;
+            color: rgba(242,240,233,0.85);
+            padding-top: 32px;
+            font-style: italic;
+        }
+        .testimonial-author {
+            font-size: 0.82rem;
+            font-weight: 600;
+            color: var(--accent);
+            letter-spacing: 0.06em;
+            text-transform: uppercase;
+        }
+
         .contact-wrapper {
             padding: clamp(60px, 10vh, 100px) clamp(24px, 4vw, 64px);
             background: var(--bg-warm);
@@ -756,28 +801,18 @@
         <div class="services-grid">
             <div class="service-card reveal reveal-d1">
             <div class="service-icon"><span>01</span></div>
-            <h3 class="service-title">Vedení účetnictví</h3>
+            <h3 class="service-title">Účetnictví</h3>
             <p class="service-desc">Přesné vedení podvojného účetnictví i daňové evidence pro podnikatele.</p>
         </div>
 <div class="service-card reveal reveal-d2">
             <div class="service-icon"><span>02</span></div>
-            <h3 class="service-title">Daňová přiznání</h3>
+            <h3 class="service-title">Daňové poradenství</h3>
             <p class="service-desc">Zpracování přiznání k dani z příjmů, DPH a dalším daním v zákonných lhůtách.</p>
         </div>
 <div class="service-card reveal reveal-d3">
             <div class="service-icon"><span>03</span></div>
-            <h3 class="service-title">Mzdová agenda</h3>
+            <h3 class="service-title">"FASRO - Naše účetnictví a daňové poradenství vám ušetří čas a peníze!"</h3>
             <p class="service-desc">Kompletní zpracování mezd, přihlášení zaměstnanců a odvody sociálního i zdravotního pojištění.</p>
-        </div>
-<div class="service-card reveal reveal-d4">
-            <div class="service-icon"><span>04</span></div>
-            <h3 class="service-title">Daňové poradenství</h3>
-            <p class="service-desc">Odborné poradenství pro optimalizaci daňové povinnosti v souladu se zákonem.</p>
-        </div>
-<div class="service-card reveal reveal-d4">
-            <div class="service-icon"><span>05</span></div>
-            <h3 class="service-title">Ekonomické poradenství</h3>
-            <p class="service-desc">Podpora při finančním řízení firmy a přípravě podkladů pro banky či investory.</p>
         </div>
 
         </div>
@@ -790,7 +825,7 @@
     <div class="about-glow about-glow-2"></div>
     <div class="dot-grid"></div>
     <div class="about-inner">
-        <p class="about-intro reveal">Fasro poskytuje účetní a daňové služby v Kladně s důrazem na přesnost a individuální přístup. Každý klient je pro nás prioritou — ať je to živnostník nebo středně velká firma.</p>
+        <p class="about-intro reveal">Jsme společnost FASRO, která poskytuje profesionální poradenské služby v oblasti daní, účetnictví, mezd a daňové evidence. Jsme schopni poskytnout řešení jak pro OSVČ, malé a střední podniky, tak pro velké společnosti. Poskytujeme komplexní služby i pro neziskové organizace a svěřenské fondy.</p>
         <h2 class="about-drama reveal reveal-d1">Spolehlivý partner pro váš byznys v Kladně</h2>
     </div>
 </section>
@@ -844,6 +879,8 @@
         </div>
     </div>
 </section>
+
+
 
 <!-- CONTACT — DARK CARD -->
 <section class="contact-wrapper" id="kontakt">

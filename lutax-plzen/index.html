@@ -489,6 +489,51 @@
         }
 
         /* ═══ CONTACT — DARK CARD ═══ */
+        /* ═══ TESTIMONIALS ═══ */
+        .testimonials-section {
+            padding: clamp(80px, 12vh, 140px) clamp(24px, 4vw, 64px);
+            background: var(--bg-dark);
+            color: var(--text-on-dark);
+        }
+        .testimonials-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 24px;
+            margin-top: 48px;
+        }
+        .testimonial-card {
+            background: rgba(255,255,255,0.05);
+            border: 1px solid rgba(255,255,255,0.1);
+            border-radius: var(--radius-card);
+            padding: 36px 32px 28px;
+            display: flex; flex-direction: column; gap: 20px;
+            position: relative;
+        }
+        .testimonial-card::before {
+            content: '\201C';
+            font-family: var(--serif);
+            font-size: 5rem;
+            line-height: 1;
+            color: var(--accent);
+            opacity: 0.6;
+            position: absolute;
+            top: 12px; left: 28px;
+        }
+        .testimonial-text {
+            font-size: clamp(0.95rem, 1.5vw, 1.05rem);
+            line-height: 1.75;
+            color: rgba(242,240,233,0.85);
+            padding-top: 32px;
+            font-style: italic;
+        }
+        .testimonial-author {
+            font-size: 0.82rem;
+            font-weight: 600;
+            color: var(--accent);
+            letter-spacing: 0.06em;
+            text-transform: uppercase;
+        }
+
         .contact-wrapper {
             padding: clamp(60px, 10vh, 100px) clamp(24px, 4vw, 64px);
             background: var(--bg-warm);
@@ -724,7 +769,7 @@
     <div class="hero-glow hero-glow-2"></div>
     <div class="hero-content">
         <h1>
-            <span class="hero-heading">Právo a daně v jedné ruce</span>
+            <span class="hero-heading">Daně a účetnictví správně, efektivně, bez starostí</span>
             <span class="hero-drama">Expertise.</span>
         </h1>
         <p class="hero-sub">Unikátní propojení daňového a právního know-how — pro klienty, kteří vyžadují komplexní poradenství bez kompromisů.</p>
@@ -735,8 +780,8 @@
             <div class="hero-stat-label">let praxe</div>
         </div>
 <div>
-            <div class="hero-stat-num">150+</div>
-            <div class="hero-stat-label">vyřešených sporů</div>
+            <div class="hero-stat-num">100+</div>
+            <div class="hero-stat-label">spokojených klientů</div>
         </div>
 <div>
             <div class="hero-stat-num">95%</div>
@@ -756,28 +801,33 @@
         <div class="services-grid">
             <div class="service-card reveal reveal-d1">
             <div class="service-icon"><span>01</span></div>
-            <h3 class="service-title">Daňové strukturování</h3>
+            <h3 class="service-title">Daně správně, v minimální zákonné výši</h3>
             <p class="service-desc">Nastavení optimální struktury podnikání z daňového i právního hlediska.</p>
         </div>
 <div class="service-card reveal reveal-d2">
             <div class="service-icon"><span>02</span></div>
-            <h3 class="service-title">Daňové spory</h3>
+            <h3 class="service-title">DPPO, DPH, DPFO i ostatní daně</h3>
             <p class="service-desc">Zastupování v daňových řízeních, odvoláních a správních sporech.</p>
         </div>
 <div class="service-card reveal reveal-d3">
             <div class="service-icon"><span>03</span></div>
-            <h3 class="service-title">Daňová due diligence</h3>
+            <h3 class="service-title">Daňové dopady podnikatelských záměrů</h3>
             <p class="service-desc">Komplexní prověrka daňové situace při akvizicích a restrukturalizacích.</p>
         </div>
 <div class="service-card reveal reveal-d4">
             <div class="service-icon"><span>04</span></div>
-            <h3 class="service-title">Mezinárodní zdanění</h3>
+            <h3 class="service-title">Daňové plánování restrukturalizací, M&A</h3>
             <p class="service-desc">Poradenství v oblasti přeshraničních transakcí a smluv o zamezení dvojího zdanění.</p>
         </div>
 <div class="service-card reveal reveal-d4">
             <div class="service-icon"><span>05</span></div>
-            <h3 class="service-title">Daňová přiznání</h3>
+            <h3 class="service-title">Účetnictví správně, efektivně, bez starostí</h3>
             <p class="service-desc">Zpracování přiznání pro fyzické i právnické osoby s maximální pečlivostí.</p>
+        </div>
+<div class="service-card reveal reveal-d4">
+            <div class="service-icon"><span>06</span></div>
+            <h3 class="service-title">Optimalizace toku účetních dokladů</h3>
+            <p class="service-desc">Profesionální optimalizace toku účetních dokladů přizpůsobené vašim potřebám.</p>
         </div>
 
         </div>
@@ -790,7 +840,7 @@
     <div class="about-glow about-glow-2"></div>
     <div class="dot-grid"></div>
     <div class="about-inner">
-        <p class="about-intro reveal">Kombinace právního a ekonomického vzdělání mi umožňuje vidět problémy klientů v celé jejich šíři. Specializuji se na případy, kde nestačí pouze daňový pohled.</p>
+        <p class="about-intro reveal">Lukáš Toman Letošní podzim přinesl spolu s novelou zákoníku práce řadu změn, které vyvolávají otázky nejen u zaměstnavatelů, ale i u…</p>
         <h2 class="about-drama reveal reveal-d1">Dvojí vzdělání, jednoduché řešení</h2>
     </div>
 </section>
@@ -806,8 +856,8 @@
             <div class="stat-label">let praxe</div>
         </div>
 <div class="stat-card reveal reveal-d2">
-            <div class="stat-number" data-count="150" data-suffix="+">0+</div>
-            <div class="stat-label">vyřešených sporů</div>
+            <div class="stat-number" data-count="100" data-suffix="+">0+</div>
+            <div class="stat-label">spokojených klientů</div>
         </div>
 <div class="stat-card reveal reveal-d3">
             <div class="stat-number" data-count="95" data-suffix="%">0%</div>
@@ -844,6 +894,8 @@
         </div>
     </div>
 </section>
+
+
 
 <!-- CONTACT — DARK CARD -->
 <section class="contact-wrapper" id="kontakt">

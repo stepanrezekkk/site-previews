@@ -489,6 +489,51 @@
         }
 
         /* ═══ CONTACT — DARK CARD ═══ */
+        /* ═══ TESTIMONIALS ═══ */
+        .testimonials-section {
+            padding: clamp(80px, 12vh, 140px) clamp(24px, 4vw, 64px);
+            background: var(--bg-dark);
+            color: var(--text-on-dark);
+        }
+        .testimonials-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 24px;
+            margin-top: 48px;
+        }
+        .testimonial-card {
+            background: rgba(255,255,255,0.05);
+            border: 1px solid rgba(255,255,255,0.1);
+            border-radius: var(--radius-card);
+            padding: 36px 32px 28px;
+            display: flex; flex-direction: column; gap: 20px;
+            position: relative;
+        }
+        .testimonial-card::before {
+            content: '\201C';
+            font-family: var(--serif);
+            font-size: 5rem;
+            line-height: 1;
+            color: var(--accent);
+            opacity: 0.6;
+            position: absolute;
+            top: 12px; left: 28px;
+        }
+        .testimonial-text {
+            font-size: clamp(0.95rem, 1.5vw, 1.05rem);
+            line-height: 1.75;
+            color: rgba(242,240,233,0.85);
+            padding-top: 32px;
+            font-style: italic;
+        }
+        .testimonial-author {
+            font-size: 0.82rem;
+            font-weight: 600;
+            color: var(--accent);
+            letter-spacing: 0.06em;
+            text-transform: uppercase;
+        }
+
         .contact-wrapper {
             padding: clamp(60px, 10vh, 100px) clamp(24px, 4vw, 64px);
             background: var(--bg-warm);
@@ -731,7 +776,7 @@
         <a href="#kontakt" class="hero-cta">Domluvit schuzku</a>
         <div class="hero-stats">
             <div>
-            <div class="hero-stat-num">10+</div>
+            <div class="hero-stat-num">18+</div>
             <div class="hero-stat-label">let praxe</div>
         </div>
 <div>
@@ -756,28 +801,18 @@
         <div class="services-grid">
             <div class="service-card reveal reveal-d1">
             <div class="service-icon"><span>01</span></div>
-            <h3 class="service-title">Daňové poradenství</h3>
+            <h3 class="service-title">SlužbyÚčetnictví a mzdyDaněManagement</h3>
             <p class="service-desc">Daňové plánování a optimalizace šité na míru vašemu podnikání a osobní situaci.</p>
         </div>
 <div class="service-card reveal reveal-d2">
             <div class="service-icon"><span>02</span></div>
-            <h3 class="service-title">Daňová přiznání</h3>
+            <h3 class="service-title">Účetnictví a mzdy</h3>
             <p class="service-desc">Přiznání k dani z příjmu, DPH a ostatní daňové povinnosti zpracované s precizností.</p>
         </div>
 <div class="service-card reveal reveal-d3">
             <div class="service-icon"><span>03</span></div>
-            <h3 class="service-title">Vedení účetnictví</h3>
+            <h3 class="service-title">Účetnictví a mzdyDaněManagement</h3>
             <p class="service-desc">Outsourcing účetnictví s pravidelným reportingem a analýzou výsledků.</p>
-        </div>
-<div class="service-card reveal reveal-d4">
-            <div class="service-icon"><span>04</span></div>
-            <h3 class="service-title">Daňová compliance</h3>
-            <p class="service-desc">Nastavení interních procesů pro bezpečné plnění daňových povinností vaší firmy.</p>
-        </div>
-<div class="service-card reveal reveal-d4">
-            <div class="service-icon"><span>05</span></div>
-            <h3 class="service-title">Startupové poradenství</h3>
-            <p class="service-desc">Daňová podpora pro nové projekty, funding a mezinárodní expanzi.</p>
         </div>
 
         </div>
@@ -802,7 +837,7 @@
         <h3 class="stats-heading reveal reveal-d1">Výsledky, které mluví za nás.</h3>
         <div class="stats-grid">
             <div class="stat-card reveal reveal-d1">
-            <div class="stat-number" data-count="10" data-suffix="+">0+</div>
+            <div class="stat-number" data-count="18" data-suffix="+">0+</div>
             <div class="stat-label">let praxe</div>
         </div>
 <div class="stat-card reveal reveal-d2">
@@ -839,6 +874,21 @@
             <span class="process-num">03 / PODÁNÍ A ARCHIVACE</span>
             <h3 class="process-title">Podání a archivace</h3>
             <p class="process-desc">Podáme za vás, archivujeme dokumenty a jsme tu pro případné dotazy.</p>
+        </div>
+
+        </div>
+    </div>
+</section>
+
+<!-- TESTIMONIALS -->
+<section class="testimonials-section" id="reference">
+    <div class="section-inner">
+        <div class="section-label reveal">REFERENCE</div>
+        <h2 class="section-title reveal reveal-d1">Co říkají naši klienti</h2>
+        <div class="testimonials-grid">
+            <div class="testimonial-card reveal reveal-d1">
+            <p class="testimonial-text">Proto neděláme pouhé účetnictví, ale poskytujeme kompletní a promyšlené služby v oblasti podnikové ekonomiky.Věnujeme se i typům podniků, které ostatní nechtějí nebo neumějí dělat - neziskovky, finanční instituce, organizační složky.Zvládneme i složité daňové případy díky spolupráci se skvělým daňovým poradcem.Pravidelně se školíme, takže víme, co se chystá, a jak se na to připravit.-- Jaroslava Krejčí, jednatelka</p>
+            <div class="testimonial-author">Proto neděláme pouhé účetnictví, ale poskytujeme kompletní a promyšlené služby v oblasti podnikové ekonomiky.</div>
         </div>
 
         </div>

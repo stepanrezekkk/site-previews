@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Danove poradenstvi v Usti nad Labem. Ing. Vit Vagner nabizi odborne danove a ucetni sluzby pro podnikatele a firmy se zarucnou presnosti.">
-    <title>Ing. Vit Vagner | Danove poradenstvi Usti nad Labem</title>
+    <meta name="description" content="Daňové poradenství v Ústí nad Labem. Ing. Vít Vágner nabízí odborné daňové a účetní služby pro podnikatele a firmy se zarucnou přesnosti.">
+    <title>Ing. Vít Vágner | Daňové poradenství Ústí nad Labem</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Playfair%20Display:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=DM%20Sans:wght@200;300;400;500;600;700;800&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
@@ -489,6 +489,51 @@
         }
 
         /* ═══ CONTACT — DARK CARD ═══ */
+        /* ═══ TESTIMONIALS ═══ */
+        .testimonials-section {
+            padding: clamp(80px, 12vh, 140px) clamp(24px, 4vw, 64px);
+            background: var(--bg-dark);
+            color: var(--text-on-dark);
+        }
+        .testimonials-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 24px;
+            margin-top: 48px;
+        }
+        .testimonial-card {
+            background: rgba(255,255,255,0.05);
+            border: 1px solid rgba(255,255,255,0.1);
+            border-radius: var(--radius-card);
+            padding: 36px 32px 28px;
+            display: flex; flex-direction: column; gap: 20px;
+            position: relative;
+        }
+        .testimonial-card::before {
+            content: '\201C';
+            font-family: var(--serif);
+            font-size: 5rem;
+            line-height: 1;
+            color: var(--accent);
+            opacity: 0.6;
+            position: absolute;
+            top: 12px; left: 28px;
+        }
+        .testimonial-text {
+            font-size: clamp(0.95rem, 1.5vw, 1.05rem);
+            line-height: 1.75;
+            color: rgba(242,240,233,0.85);
+            padding-top: 32px;
+            font-style: italic;
+        }
+        .testimonial-author {
+            font-size: 0.82rem;
+            font-weight: 600;
+            color: var(--accent);
+            letter-spacing: 0.06em;
+            text-transform: uppercase;
+        }
+
         .contact-wrapper {
             padding: clamp(60px, 10vh, 100px) clamp(24px, 4vw, 64px);
             background: var(--bg-warm);
@@ -724,23 +769,23 @@
     <div class="hero-glow hero-glow-2"></div>
     <div class="hero-content">
         <h1>
-            <span class="hero-heading">Danove poradenstvi v Usti nad Labem</span>
+            <span class="hero-heading">Daňové poradenství v Ústí nad Labem</span>
             <span class="hero-drama">Klid.</span>
         </h1>
-        <p class="hero-sub">Profesionalni danove a ucetni sluzby v Usti nad Labem pro firmy i zivnostniky. Optimalizujeme dane a strazi terminy za vas.</p>
-        <a href="#kontakt" class="hero-cta">Ziskat nabidku</a>
+        <p class="hero-sub">Profesionální daňové a účetní služby v Ústí nad Labem pro firmy i živnostníky. Optimalizujeme daně a stráží termíny za vás.</p>
+        <a href="#kontakt" class="hero-cta">Získat nabídku</a>
         <div class="hero-stats">
             <div>
             <div class="hero-stat-num">190+</div>
-            <div class="hero-stat-label">aktivnich klientu</div>
+            <div class="hero-stat-label">aktivních klientů</div>
         </div>
 <div>
             <div class="hero-stat-num">12+</div>
-            <div class="hero-stat-label">let zkusenosti</div>
+            <div class="hero-stat-label">let zkušeností</div>
         </div>
 <div>
             <div class="hero-stat-num">97%</div>
-            <div class="hero-stat-label">spokojenost klientu</div>
+            <div class="hero-stat-label">spokojenost klientů</div>
         </div>
 
         </div>
@@ -751,38 +796,38 @@
 <section class="section-light" id="sluzby">
     <div class="section-inner">
         <div class="section-label reveal">NASE SLUZBY</div>
-        <h2 class="section-title reveal reveal-d1">Danove a ucetni sluzby v Usti nad Labem</h2>
-        <p class="section-subtitle reveal reveal-d2">Kompletni danove poradenstvi pro podnikatele v regionu severnih Cech.</p>
+        <h2 class="section-title reveal reveal-d1">Daňové a účetní služby v Ústí nad Labem</h2>
+        <p class="section-subtitle reveal reveal-d2">Kompletní daňové poradenství pro podnikatele v regionu severnih Čech.</p>
         <div class="services-grid">
             <div class="service-card reveal reveal-d1">
             <div class="service-icon"><span>01</span></div>
-            <h3 class="service-title">Danova priznani</h3>
-            <p class="service-desc">Presne a vcasne zpracovani priznani k dani z prijmu fyzickych a pravnickych osob.</p>
+            <h3 class="service-title">Účetnictví, daně a mzdy, outsourcingová řešení</h3>
+            <p class="service-desc">Přesné a včasné zpracování přiznání k dani z příjmu fyzických a právnických osob.</p>
         </div>
 <div class="service-card reveal reveal-d2">
             <div class="service-icon"><span>02</span></div>
-            <h3 class="service-title">Danova optimalizace</h3>
-            <p class="service-desc">Navrh legalnich reseni pro minimalizaci danoveho zatizeni a zvyseni cistych ziskuch.</p>
+            <h3 class="service-title">Digitalizace a automatizace účetnictví a mezd s využitím AI</h3>
+            <p class="service-desc">Návrh legálních řešení pro minimalizaci daňového zatížení a zvýšení čistých ziskuch.</p>
         </div>
 <div class="service-card reveal reveal-d3">
             <div class="service-icon"><span>03</span></div>
-            <h3 class="service-title">Vedeni ucetnictvi</h3>
-            <p class="service-desc">Kompletni ucetni sluzby vcetne podvojneho ucetnictvi a danove evidence pro vsechny.</p>
+            <h3 class="service-title">Audit</h3>
+            <p class="service-desc">Kompletní účetní služby včetně podvojného účetnictví a daňové evidence pro všechny.</p>
         </div>
 <div class="service-card reveal reveal-d4">
             <div class="service-icon"><span>04</span></div>
-            <h3 class="service-title">Mzdova agenda</h3>
-            <p class="service-desc">Zpracovani mezd, vyplatni pasky a veskera komunikace s pojistovnami a urady.</p>
+            <h3 class="service-title">Znalectví, M&A, kryptoměny, jiné poradenství</h3>
+            <p class="service-desc">Zpracování mezd, výplatní pásky a veškerá komunikace s pojišťovnami a úřady.</p>
         </div>
 <div class="service-card reveal reveal-d4">
             <div class="service-icon"><span>05</span></div>
-            <h3 class="service-title">DPH sprava</h3>
-            <p class="service-desc">Podavani DPH priznani, kontrolnich hlaseni a odborne poradenstvi pro platce DPH.</p>
+            <h3 class="service-title">Compliance (GDPR, AML, whistleblowing, kyberbezpečnost, ESG, BOZP...)</h3>
+            <p class="service-desc">Podávání DPH přiznání, kontrolních hlášení a odborné poradenství pro plátce DPH.</p>
         </div>
 <div class="service-card reveal reveal-d4">
             <div class="service-icon"><span>06</span></div>
-            <h3 class="service-title">Danove zastoupeni</h3>
-            <p class="service-desc">Zasupujeme klienty pri jednani s financnim uradem a dalsimi statnimi institucemi.</p>
+            <h3 class="service-title">Neziskové organizace</h3>
+            <p class="service-desc">Zasupujeme klienty při jednání s finančním úřadem a dalšími státními institucemi.</p>
         </div>
 
         </div>
@@ -795,8 +840,8 @@
     <div class="about-glow about-glow-2"></div>
     <div class="dot-grid"></div>
     <div class="about-inner">
-        <p class="about-intro reveal">22hlav nabizi danove a ucetni sluzby v Usti nad Labem s durazem na odbornost a individualni pristup. Kazdy klient ziskava personalizovane reseni sve danove situace.</p>
-        <h2 class="about-drama reveal reveal-d1">Danove poradenstvi se zarucnou presnosti</h2>
+        <p class="about-intro reveal">22hlav nabízí daňové a účetní služby v Ústí nad Labem s důrazem na odbornost a individuální přístup. Každý klient získává personalizované řešení své daňové situace.</p>
+        <h2 class="about-drama reveal reveal-d1">Daňové poradenství se zarucnou přesnosti</h2>
     </div>
 </section>
 
@@ -808,15 +853,15 @@
         <div class="stats-grid">
             <div class="stat-card reveal reveal-d1">
             <div class="stat-number" data-count="190" data-suffix="+">0+</div>
-            <div class="stat-label">aktivnich klientu</div>
+            <div class="stat-label">aktivních klientů</div>
         </div>
 <div class="stat-card reveal reveal-d2">
             <div class="stat-number" data-count="12" data-suffix="+">0+</div>
-            <div class="stat-label">let zkusenosti</div>
+            <div class="stat-label">let zkušeností</div>
         </div>
 <div class="stat-card reveal reveal-d3">
             <div class="stat-number" data-count="97" data-suffix="%">0%</div>
-            <div class="stat-label">spokojenost klientu</div>
+            <div class="stat-label">spokojenost klientů</div>
         </div>
 
         </div>
@@ -827,23 +872,46 @@
 <section class="section-light" style="padding-top: 0;">
     <div class="section-inner">
         <div class="section-label reveal">JAK PRACUJEME</div>
-        <h2 class="section-title reveal reveal-d1">Jednoduchy postup zahajeni spoluprace</h2>
-        <p class="section-subtitle reveal reveal-d2">Prechod k nam je snadny a bez zbytecne byrokracie.</p>
+        <h2 class="section-title reveal reveal-d1">Jednoduchý postup zahájení spolupráce</h2>
+        <p class="section-subtitle reveal reveal-d2">Přechod k nám je snadný a bez zbytečné byrokracie.</p>
         <div class="process-grid">
             <div class="process-card reveal reveal-d1">
-            <span class="process-num">01 / PRVNI KONTAKT</span>
-            <h3 class="process-title">Prvni kontakt</h3>
-            <p class="process-desc">Ozvet se nam a domluvime si bezplatnou uvodni konzultaci vasi danove situace.</p>
+            <span class="process-num">01 / PRVNÍ KONTAKT</span>
+            <h3 class="process-title">První kontakt</h3>
+            <p class="process-desc">Ozveť se nám a domluvíme si bezplatnou úvodní konzultaci vaší daňové situace.</p>
         </div>
 <div class="process-card reveal reveal-d2">
-            <span class="process-num">02 / NASTAVENI SPOLUPRACE</span>
-            <h3 class="process-title">Nastaveni spoluprace</h3>
-            <p class="process-desc">Dohodneme zpusob predavani dokladu a nastavime komunikacni kanal dle vasich potreb.</p>
+            <span class="process-num">02 / NASTAVENÍ SPOLUPRÁCE</span>
+            <h3 class="process-title">Nastavení spolupráce</h3>
+            <p class="process-desc">Dohodneme způsob předávání dokladů a nastavíme komunikační kanál dle vašich potřeb.</p>
         </div>
 <div class="process-card reveal reveal-d3">
-            <span class="process-num">03 / PRAVIDELNA PECE</span>
-            <h3 class="process-title">Pravidelna pece</h3>
-            <p class="process-desc">Postarame se o vase dane vcas a informujeme vas o vsech legislativnich zmenach.</p>
+            <span class="process-num">03 / PRAVIDELNÁ PÉČE</span>
+            <h3 class="process-title">Pravidelná péče</h3>
+            <p class="process-desc">Postaráme se o vaše daně včas a informujeme vás o všech legislativních změnách.</p>
+        </div>
+
+        </div>
+    </div>
+</section>
+
+<!-- TESTIMONIALS -->
+<section class="testimonials-section" id="reference">
+    <div class="section-inner">
+        <div class="section-label reveal">REFERENCE</div>
+        <h2 class="section-title reveal reveal-d1">Co říkají naši klienti</h2>
+        <div class="testimonials-grid">
+            <div class="testimonial-card reveal reveal-d1">
+            <p class="testimonial-text">"Nejlepší spolupráce co si umím představit, profesionálové s mnoha znalostmi, kteří se podílejí i na změnách zákonů, zároveň velmi lidský a milý přístup a ochota poradit. Najdou všechny chyby - nechápu jak to dokážou, máme pak jistotu správnosti účtování a výkazů. Zažila jsem i jiné auditorské firmy a je to nesrovnatelné, velmi doporučuji."</p>
+            <div class="testimonial-author">"Nejlepší spolupráce co si umím představit, profesionálové s mnoha znalostmi, kteří se podílejí i na změnách zákonů, zároveň velmi lidský a milý přístup a ochota poradit. Najdou všechny chyby - nechápu jak to dokážou, máme pak jistotu správnosti účtování a výkazů. Zažila jsem i jiné auditorské firmy a je to nesrovnatelné, velmi doporučuji."</div>
+        </div>
+<div class="testimonial-card reveal reveal-d2">
+            <p class="testimonial-text">"Firma 22HLAV s.r.o. nám již mnoho let poskytuje komplexní účetní a daňové služby, zajišťuje mzdovou agendu, přípravu nových zaměstnaneckých smluv, spolupráci s auditorem či komunikaci s úřady. Oceňujeme její vysokou odbornost, spolehlivost, rychlost a individuální přístup. Jsme spokojeni s vysokou úrovní jimi poskytovaných služeb i s příjemným a profesionálním přístupem jejich zaměstnanců. Jejich služby můžeme jen doporučit!"</p>
+            <div class="testimonial-author">"Firma 22HLAV s.r.o. nám již mnoho let poskytuje komplexní účetní a daňové služby, zajišťuje mzdovou agendu, přípravu nových zaměstnaneckých smluv, spolupráci s auditorem či komunikaci s úřady. Oceňujeme její vysokou odbornost, spolehlivost, rychlost a individuální přístup. Jsme spokojeni s vysokou úrovní jimi poskytovaných služeb i s příjemným a profesionálním přístupem jejich zaměstnanců. Jejich služby můžeme jen doporučit!"</div>
+        </div>
+<div class="testimonial-card reveal reveal-d3">
+            <p class="testimonial-text">"Velice si ceníme Vaší odbornosti a možnosti přijít za Vámi kdykoli s prosbou o radu/konzultaci. Se spoluprací s Vámi jsme byli spokojeni a Vaše služby zároveň doporučujeme i jiným subjektům."</p>
+            <div class="testimonial-author">"Velice si ceníme Vaší odbornosti a možnosti přijít za Vámi kdykoli s prosbou o radu/konzultaci. Se spoluprací s Vámi jsme byli spokojeni a Vaše služby zároveň doporučujeme i jiným subjektům.</div>
         </div>
 
         </div>
@@ -856,7 +924,7 @@
         <div class="contact-card-inner">
             <div class="contact-heading">
                 <div class="section-label reveal">KONTAKT</div>
-                <h2 class="section-title reveal reveal-d1">Napiste nebo zavolejte</h2>
+                <h2 class="section-title reveal reveal-d1">Napište nebo zavolejte</h2>
             </div>
             <div class="contact-grid">
                 <dl class="contact-info-block reveal reveal-d2">
@@ -879,7 +947,7 @@
                         <textarea placeholder="Jak vám můžeme pomoci?"></textarea>
                     </div>
                     <button type="submit" class="form-submit">
-                        Odeslat zpravu
+                        Odeslat zprávu
                         <svg width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 8h10M9 4l4 4-4 4"/></svg>
                     </button>
                 </form>
@@ -894,7 +962,7 @@
         <div class="footer-top">
             <div class="footer-brand">
                 <h3>22hlav Dane.</h3>
-                <p>Danove poradenstvi v Usti nad Labem. Ing. Vit Vagner nabizi odborne danove a ucetni sluzby pro podnikatele a firmy se zarucnou presnosti.</p>
+                <p>Daňové poradenství v Ústí nad Labem. Ing. Vít Vágner nabízí odborné daňové a účetní služby pro podnikatele a firmy se zarucnou přesnosti.</p>
                 <div class="footer-status">
                     <div class="footer-status-dot"></div>
                     <span>K dispozici</span>

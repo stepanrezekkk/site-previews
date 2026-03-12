@@ -489,6 +489,51 @@
         }
 
         /* ═══ CONTACT — DARK CARD ═══ */
+        /* ═══ TESTIMONIALS ═══ */
+        .testimonials-section {
+            padding: clamp(80px, 12vh, 140px) clamp(24px, 4vw, 64px);
+            background: var(--bg-dark);
+            color: var(--text-on-dark);
+        }
+        .testimonials-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 24px;
+            margin-top: 48px;
+        }
+        .testimonial-card {
+            background: rgba(255,255,255,0.05);
+            border: 1px solid rgba(255,255,255,0.1);
+            border-radius: var(--radius-card);
+            padding: 36px 32px 28px;
+            display: flex; flex-direction: column; gap: 20px;
+            position: relative;
+        }
+        .testimonial-card::before {
+            content: '\201C';
+            font-family: var(--serif);
+            font-size: 5rem;
+            line-height: 1;
+            color: var(--accent);
+            opacity: 0.6;
+            position: absolute;
+            top: 12px; left: 28px;
+        }
+        .testimonial-text {
+            font-size: clamp(0.95rem, 1.5vw, 1.05rem);
+            line-height: 1.75;
+            color: rgba(242,240,233,0.85);
+            padding-top: 32px;
+            font-style: italic;
+        }
+        .testimonial-author {
+            font-size: 0.82rem;
+            font-weight: 600;
+            color: var(--accent);
+            letter-spacing: 0.06em;
+            text-transform: uppercase;
+        }
+
         .contact-wrapper {
             padding: clamp(60px, 10vh, 100px) clamp(24px, 4vw, 64px);
             background: var(--bg-warm);
@@ -735,7 +780,7 @@
             <div class="hero-stat-label">spokojených klientů</div>
         </div>
 <div>
-            <div class="hero-stat-num">25+</div>
+            <div class="hero-stat-num">35+</div>
             <div class="hero-stat-label">let na trhu</div>
         </div>
 <div>
@@ -756,32 +801,32 @@
         <div class="services-grid">
             <div class="service-card reveal reveal-d1">
             <div class="service-icon"><span>01</span></div>
-            <h3 class="service-title">Danové uznani FO a PO</h3>
+            <h3 class="service-title">KOMPLEXNÍEKONOMICKÉSLUŽBYVÝPIS SLUŽEB</h3>
             <p class="service-desc">Komplexni zpracovani vsech danovych priznanir pro fyzicke i pravnicke osoby vcas a bez chyb.</p>
         </div>
 <div class="service-card reveal reveal-d2">
             <div class="service-icon"><span>02</span></div>
-            <h3 class="service-title">DPH poradenstvi</h3>
+            <h3 class="service-title">vedení účetnictví</h3>
             <p class="service-desc">Registrace, mesicni priznaní a komplexni poradenstvi v oblasti DPH pro platce.</p>
         </div>
 <div class="service-card reveal reveal-d3">
             <div class="service-icon"><span>03</span></div>
-            <h3 class="service-title">Danove kontroly</h3>
+            <h3 class="service-title">vedení mzdové agendy</h3>
             <p class="service-desc">Odborne zastoupeni pri danovych kontrolach s durazem na ochranu zájmu klienta.</p>
         </div>
 <div class="service-card reveal reveal-d4">
             <div class="service-icon"><span>04</span></div>
-            <h3 class="service-title">Mezinarodni zdaneni</h3>
+            <h3 class="service-title">rekonstrukce účetnictví</h3>
             <p class="service-desc">Poradenstvi pro ostravske firmy obchodujici se zahranicim, vcetne Polska a Slovenska.</p>
         </div>
 <div class="service-card reveal reveal-d4">
             <div class="service-icon"><span>05</span></div>
-            <h3 class="service-title">Danová optimalizace</h3>
+            <h3 class="service-title">vedení daňové evidence</h3>
             <p class="service-desc">Odborne nastaveni danové strategie pro snizeni celkove danove zatizeni vasi spolecnosti.</p>
         </div>
 <div class="service-card reveal reveal-d4">
             <div class="service-icon"><span>06</span></div>
-            <h3 class="service-title">Pruvodce legislativou</h3>
+            <h3 class="service-title">sestavování veškerých daňových přiznání</h3>
             <p class="service-desc">Prubezne informovani o zmenach v danove legislative, ktere mohou ovlivnit vasi firmu.</p>
         </div>
 
@@ -811,7 +856,7 @@
             <div class="stat-label">spokojených klientů</div>
         </div>
 <div class="stat-card reveal reveal-d2">
-            <div class="stat-number" data-count="25" data-suffix="+">0+</div>
+            <div class="stat-number" data-count="35" data-suffix="+">0+</div>
             <div class="stat-label">let na trhu</div>
         </div>
 <div class="stat-card reveal reveal-d3">
@@ -849,6 +894,8 @@
         </div>
     </div>
 </section>
+
+
 
 <!-- CONTACT — DARK CARD -->
 <section class="contact-wrapper" id="kontakt">

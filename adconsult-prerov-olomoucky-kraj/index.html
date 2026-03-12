@@ -489,6 +489,51 @@
         }
 
         /* ═══ CONTACT — DARK CARD ═══ */
+        /* ═══ TESTIMONIALS ═══ */
+        .testimonials-section {
+            padding: clamp(80px, 12vh, 140px) clamp(24px, 4vw, 64px);
+            background: var(--bg-dark);
+            color: var(--text-on-dark);
+        }
+        .testimonials-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 24px;
+            margin-top: 48px;
+        }
+        .testimonial-card {
+            background: rgba(255,255,255,0.05);
+            border: 1px solid rgba(255,255,255,0.1);
+            border-radius: var(--radius-card);
+            padding: 36px 32px 28px;
+            display: flex; flex-direction: column; gap: 20px;
+            position: relative;
+        }
+        .testimonial-card::before {
+            content: '\201C';
+            font-family: var(--serif);
+            font-size: 5rem;
+            line-height: 1;
+            color: var(--accent);
+            opacity: 0.6;
+            position: absolute;
+            top: 12px; left: 28px;
+        }
+        .testimonial-text {
+            font-size: clamp(0.95rem, 1.5vw, 1.05rem);
+            line-height: 1.75;
+            color: rgba(242,240,233,0.85);
+            padding-top: 32px;
+            font-style: italic;
+        }
+        .testimonial-author {
+            font-size: 0.82rem;
+            font-weight: 600;
+            color: var(--accent);
+            letter-spacing: 0.06em;
+            text-transform: uppercase;
+        }
+
         .contact-wrapper {
             padding: clamp(60px, 10vh, 100px) clamp(24px, 4vw, 64px);
             background: var(--bg-warm);
@@ -735,7 +780,7 @@
             <div class="hero-stat-label">spokojených klientů</div>
         </div>
 <div>
-            <div class="hero-stat-num">19+</div>
+            <div class="hero-stat-num">20+</div>
             <div class="hero-stat-label">let na trhu</div>
         </div>
 <div>
@@ -756,32 +801,32 @@
         <div class="services-grid">
             <div class="service-card reveal reveal-d1">
             <div class="service-icon"><span>01</span></div>
-            <h3 class="service-title">Danove poradenstvi</h3>
+            <h3 class="service-title">Daňové poradenství</h3>
             <p class="service-desc">Komplexni danove poradenstvi pro zivnostniky, s.r.o. i akciové spolecnosti v regionu Prerova.</p>
         </div>
 <div class="service-card reveal reveal-d2">
             <div class="service-icon"><span>02</span></div>
-            <h3 class="service-title">Danove uznani</h3>
+            <h3 class="service-title">Vedení účetnictví</h3>
             <p class="service-desc">Vcasné a spravné zpracovani vsech danovych prizanir s durazem na maximalni danové uspory.</p>
         </div>
 <div class="service-card reveal reveal-d3">
             <div class="service-icon"><span>03</span></div>
-            <h3 class="service-title">Vedeni ucetnictvi</h3>
+            <h3 class="service-title">Jednání s Finančním úřadem</h3>
             <p class="service-desc">Komplexni ucetní sluzby vcetne mesicnich uzaverek, vyrodnich zprav a financnich analyz.</p>
         </div>
 <div class="service-card reveal reveal-d4">
             <div class="service-icon"><span>04</span></div>
-            <h3 class="service-title">Mzdová agenda</h3>
+            <h3 class="service-title">Daňové přiznání</h3>
             <p class="service-desc">Komplexní mzdové ucetnictvi, prihlaseni zamestnancu a odvody pojistneho pro zamestnavatele.</p>
         </div>
 <div class="service-card reveal reveal-d4">
             <div class="service-icon"><span>05</span></div>
-            <h3 class="service-title">DPH a EET</h3>
+            <h3 class="service-title">Mzdová agenda</h3>
             <p class="service-desc">Sprava DPH povinnosti a poradenstvi v oblasti elektronicke evidence trzeb pro maloobchod.</p>
         </div>
 <div class="service-card reveal reveal-d4">
             <div class="service-icon"><span>06</span></div>
-            <h3 class="service-title">Danove kontroly</h3>
+            <h3 class="service-title">Účetní uzávěrky</h3>
             <p class="service-desc">Zastoupeni a podpora pri danove kontrole s cilem minimalizovat danove domeky.</p>
         </div>
 
@@ -811,7 +856,7 @@
             <div class="stat-label">spokojených klientů</div>
         </div>
 <div class="stat-card reveal reveal-d2">
-            <div class="stat-number" data-count="19" data-suffix="+">0+</div>
+            <div class="stat-number" data-count="20" data-suffix="+">0+</div>
             <div class="stat-label">let na trhu</div>
         </div>
 <div class="stat-card reveal reveal-d3">
@@ -849,6 +894,8 @@
         </div>
     </div>
 </section>
+
+
 
 <!-- CONTACT — DARK CARD -->
 <section class="contact-wrapper" id="kontakt">

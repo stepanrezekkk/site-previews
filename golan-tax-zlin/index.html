@@ -489,6 +489,51 @@
         }
 
         /* ═══ CONTACT — DARK CARD ═══ */
+        /* ═══ TESTIMONIALS ═══ */
+        .testimonials-section {
+            padding: clamp(80px, 12vh, 140px) clamp(24px, 4vw, 64px);
+            background: var(--bg-dark);
+            color: var(--text-on-dark);
+        }
+        .testimonials-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 24px;
+            margin-top: 48px;
+        }
+        .testimonial-card {
+            background: rgba(255,255,255,0.05);
+            border: 1px solid rgba(255,255,255,0.1);
+            border-radius: var(--radius-card);
+            padding: 36px 32px 28px;
+            display: flex; flex-direction: column; gap: 20px;
+            position: relative;
+        }
+        .testimonial-card::before {
+            content: '\201C';
+            font-family: var(--serif);
+            font-size: 5rem;
+            line-height: 1;
+            color: var(--accent);
+            opacity: 0.6;
+            position: absolute;
+            top: 12px; left: 28px;
+        }
+        .testimonial-text {
+            font-size: clamp(0.95rem, 1.5vw, 1.05rem);
+            line-height: 1.75;
+            color: rgba(242,240,233,0.85);
+            padding-top: 32px;
+            font-style: italic;
+        }
+        .testimonial-author {
+            font-size: 0.82rem;
+            font-weight: 600;
+            color: var(--accent);
+            letter-spacing: 0.06em;
+            text-transform: uppercase;
+        }
+
         .contact-wrapper {
             padding: clamp(60px, 10vh, 100px) clamp(24px, 4vw, 64px);
             background: var(--bg-warm);
@@ -724,19 +769,19 @@
     <div class="hero-glow hero-glow-2"></div>
     <div class="hero-content">
         <h1>
-            <span class="hero-heading">Daňový partner pro Zlínský kraj</span>
+            <span class="hero-heading">Jsme zkušení daňoví poradci zajišťující nejen daňové a účetní poradenství</span>
             <span class="hero-drama">Spolehlivost.</span>
         </h1>
         <p class="hero-sub">Komplexní daňové poradenství pro podnikatele ve Zlíně a okolí. Optimalizujeme vaše daně a šetříme váš čas i peníze.</p>
         <a href="#kontakt" class="hero-cta">Získat konzultaci zdarma</a>
         <div class="hero-stats">
             <div>
-            <div class="hero-stat-num">310+</div>
-            <div class="hero-stat-label">klientů</div>
+            <div class="hero-stat-num">33+</div>
+            <div class="hero-stat-label">let praxe</div>
         </div>
 <div>
-            <div class="hero-stat-num">18+</div>
-            <div class="hero-stat-label">let praxe</div>
+            <div class="hero-stat-num">600+</div>
+            <div class="hero-stat-label">spokojených klientů</div>
         </div>
 <div>
             <div class="hero-stat-num">99%</div>
@@ -756,32 +801,32 @@
         <div class="services-grid">
             <div class="service-card reveal reveal-d1">
             <div class="service-icon"><span>01</span></div>
-            <h3 class="service-title">Daň z příjmů</h3>
+            <h3 class="service-title">Zpracovaná přiznání k DPH</h3>
             <p class="service-desc">Daňová přiznání fyzických i právnických osob, průběžné poradenství a zastupování při kontrolách.</p>
         </div>
 <div class="service-card reveal reveal-d2">
             <div class="service-icon"><span>02</span></div>
-            <h3 class="service-title">Daň z přidané hodnoty</h3>
+            <h3 class="service-title">Spory se správcem daně</h3>
             <p class="service-desc">Správa DPH agendy, přiznání, souhrnná hlášení a poradenství pro plátce i neplátce.</p>
         </div>
 <div class="service-card reveal reveal-d3">
             <div class="service-icon"><span>03</span></div>
-            <h3 class="service-title">Daňová optimalizace</h3>
+            <h3 class="service-title">Daňové poradenství</h3>
             <p class="service-desc">Zákonné strategie pro snížení daňové zátěže a efektivní využití dostupných odpočtů.</p>
         </div>
 <div class="service-card reveal reveal-d4">
             <div class="service-icon"><span>04</span></div>
-            <h3 class="service-title">Silniční daň a ostatní</h3>
+            <h3 class="service-title">Účetní poradenství</h3>
             <p class="service-desc">Zpracování přiznání k silniční dani, dani z nemovitostí a dalším místním daním.</p>
         </div>
 <div class="service-card reveal reveal-d4">
             <div class="service-icon"><span>05</span></div>
-            <h3 class="service-title">Vedení účetnictví</h3>
+            <h3 class="service-title">Personální poradenství</h3>
             <p class="service-desc">Kompletní vedení účetnictví, daňové evidence a zpracování uzávěrek.</p>
         </div>
 <div class="service-card reveal reveal-d4">
             <div class="service-icon"><span>06</span></div>
-            <h3 class="service-title">Poradenství při kontrolách</h3>
+            <h3 class="service-title">Odpočet na podporu výzkumu a vývoje (VaV)</h3>
             <p class="service-desc">Zastoupení a podpora při daňových kontrolách a jednáních s finančními orgány.</p>
         </div>
 
@@ -807,12 +852,12 @@
         <h3 class="stats-heading reveal reveal-d1">Výsledky, které mluví za nás.</h3>
         <div class="stats-grid">
             <div class="stat-card reveal reveal-d1">
-            <div class="stat-number" data-count="310" data-suffix="+">0+</div>
-            <div class="stat-label">klientů</div>
+            <div class="stat-number" data-count="33" data-suffix="+">0+</div>
+            <div class="stat-label">let praxe</div>
         </div>
 <div class="stat-card reveal reveal-d2">
-            <div class="stat-number" data-count="18" data-suffix="+">0+</div>
-            <div class="stat-label">let praxe</div>
+            <div class="stat-number" data-count="600" data-suffix="+">0+</div>
+            <div class="stat-label">spokojených klientů</div>
         </div>
 <div class="stat-card reveal reveal-d3">
             <div class="stat-number" data-count="99" data-suffix="%">0%</div>
@@ -844,6 +889,21 @@
             <span class="process-num">03 / PODÁNÍ A SLEDOVÁNÍ</span>
             <h3 class="process-title">Podání a sledování</h3>
             <p class="process-desc">Podáme dokumenty v termínu a informujeme vás o každém kroku procesu.</p>
+        </div>
+
+        </div>
+    </div>
+</section>
+
+<!-- TESTIMONIALS -->
+<section class="testimonials-section" id="reference">
+    <div class="section-inner">
+        <div class="section-label reveal">REFERENCE</div>
+        <h2 class="section-title reveal reveal-d1">Co říkají naši klienti</h2>
+        <div class="testimonials-grid">
+            <div class="testimonial-card reveal reveal-d1">
+            <p class="testimonial-text">S klienty si udržujeme dlouhodobý vztah a jsme rádi, že i oni jsou s naší prací spokojení. Podívejte se, co o nás napsali někteří z nich.</p>
+            
         </div>
 
         </div>

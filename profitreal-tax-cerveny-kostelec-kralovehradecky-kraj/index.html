@@ -489,6 +489,51 @@
         }
 
         /* ═══ CONTACT — DARK CARD ═══ */
+        /* ═══ TESTIMONIALS ═══ */
+        .testimonials-section {
+            padding: clamp(80px, 12vh, 140px) clamp(24px, 4vw, 64px);
+            background: var(--bg-dark);
+            color: var(--text-on-dark);
+        }
+        .testimonials-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 24px;
+            margin-top: 48px;
+        }
+        .testimonial-card {
+            background: rgba(255,255,255,0.05);
+            border: 1px solid rgba(255,255,255,0.1);
+            border-radius: var(--radius-card);
+            padding: 36px 32px 28px;
+            display: flex; flex-direction: column; gap: 20px;
+            position: relative;
+        }
+        .testimonial-card::before {
+            content: '\201C';
+            font-family: var(--serif);
+            font-size: 5rem;
+            line-height: 1;
+            color: var(--accent);
+            opacity: 0.6;
+            position: absolute;
+            top: 12px; left: 28px;
+        }
+        .testimonial-text {
+            font-size: clamp(0.95rem, 1.5vw, 1.05rem);
+            line-height: 1.75;
+            color: rgba(242,240,233,0.85);
+            padding-top: 32px;
+            font-style: italic;
+        }
+        .testimonial-author {
+            font-size: 0.82rem;
+            font-weight: 600;
+            color: var(--accent);
+            letter-spacing: 0.06em;
+            text-transform: uppercase;
+        }
+
         .contact-wrapper {
             padding: clamp(60px, 10vh, 100px) clamp(24px, 4vw, 64px);
             background: var(--bg-warm);
@@ -756,33 +801,28 @@
         <div class="services-grid">
             <div class="service-card reveal reveal-d1">
             <div class="service-icon"><span>01</span></div>
-            <h3 class="service-title">Ucetnictvi a mzdy</h3>
+            <h3 class="service-title">Vedení účetnictvívč. výkazů a daňových přiznání</h3>
             <p class="service-desc">Vedeni podvojneho i jednoduchého ucetnictvi a kompletni mzdova agenda pro vasi firmu.</p>
         </div>
 <div class="service-card reveal reveal-d2">
             <div class="service-icon"><span>02</span></div>
-            <h3 class="service-title">Danove optimalizace</h3>
+            <h3 class="service-title">Zpracování mzdové agendy</h3>
             <p class="service-desc">Analyzujeme vasi situaci a navrhneme legalni cesty ke snizeni danoveho zatizeni.</p>
         </div>
 <div class="service-card reveal reveal-d3">
             <div class="service-icon"><span>03</span></div>
-            <h3 class="service-title">Dane z prijmu PO</h3>
+            <h3 class="service-title">Ekonomické audityadaňové poradenství</h3>
             <p class="service-desc">Zpracovani danovych priznani pravnickych osob s durazem na maximalni uzitou odcitatelne polozky.</p>
         </div>
 <div class="service-card reveal reveal-d4">
             <div class="service-icon"><span>04</span></div>
-            <h3 class="service-title">Mezdinarodni danove pravo</h3>
+            <h3 class="service-title">e-účetnictví(online účetnictví na dálku)</h3>
             <p class="service-desc">Poradenstvi pro firmy obchodujici v ramci EU a mimo ni vcetne aplikace smluv o zamezeni dvojiho zdaneni.</p>
         </div>
 <div class="service-card reveal reveal-d4">
             <div class="service-icon"><span>05</span></div>
-            <h3 class="service-title">Zalozeni firmy</h3>
+            <h3 class="service-title">sa-účetnictví(share accounting,sdílené účetnictví)</h3>
             <p class="service-desc">Poradenstvi pri vyberu vhodne pravni formy podnikani z hlediska danoveho zatizeni.</p>
-        </div>
-<div class="service-card reveal reveal-d4">
-            <div class="service-icon"><span>06</span></div>
-            <h3 class="service-title">Zastoupeni v rizeni</h3>
-            <p class="service-desc">Profesionalni zastoupeni pri jednani se spravci dane a pri odvolavacich rizenich.</p>
         </div>
 
         </div>
@@ -849,6 +889,8 @@
         </div>
     </div>
 </section>
+
+
 
 <!-- CONTACT — DARK CARD -->
 <section class="contact-wrapper" id="kontakt">

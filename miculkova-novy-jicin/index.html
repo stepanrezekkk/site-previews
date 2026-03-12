@@ -489,6 +489,51 @@
         }
 
         /* ═══ CONTACT — DARK CARD ═══ */
+        /* ═══ TESTIMONIALS ═══ */
+        .testimonials-section {
+            padding: clamp(80px, 12vh, 140px) clamp(24px, 4vw, 64px);
+            background: var(--bg-dark);
+            color: var(--text-on-dark);
+        }
+        .testimonials-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 24px;
+            margin-top: 48px;
+        }
+        .testimonial-card {
+            background: rgba(255,255,255,0.05);
+            border: 1px solid rgba(255,255,255,0.1);
+            border-radius: var(--radius-card);
+            padding: 36px 32px 28px;
+            display: flex; flex-direction: column; gap: 20px;
+            position: relative;
+        }
+        .testimonial-card::before {
+            content: '\201C';
+            font-family: var(--serif);
+            font-size: 5rem;
+            line-height: 1;
+            color: var(--accent);
+            opacity: 0.6;
+            position: absolute;
+            top: 12px; left: 28px;
+        }
+        .testimonial-text {
+            font-size: clamp(0.95rem, 1.5vw, 1.05rem);
+            line-height: 1.75;
+            color: rgba(242,240,233,0.85);
+            padding-top: 32px;
+            font-style: italic;
+        }
+        .testimonial-author {
+            font-size: 0.82rem;
+            font-weight: 600;
+            color: var(--accent);
+            letter-spacing: 0.06em;
+            text-transform: uppercase;
+        }
+
         .contact-wrapper {
             padding: clamp(60px, 10vh, 100px) clamp(24px, 4vw, 64px);
             background: var(--bg-warm);
@@ -756,28 +801,23 @@
         <div class="services-grid">
             <div class="service-card reveal reveal-d1">
             <div class="service-icon"><span>01</span></div>
-            <h3 class="service-title">Daňová přiznání</h3>
+            <h3 class="service-title">Daňový rádceDaňové metodikyDaňový kalendářPraktické daňové odkazy</h3>
             <p class="service-desc">Přesné zpracování daňových přiznání fyzických a právnických osob s optimalizačními návrhy.</p>
         </div>
 <div class="service-card reveal reveal-d2">
             <div class="service-icon"><span>02</span></div>
-            <h3 class="service-title">Vedení účetnictví</h3>
+            <h3 class="service-title">Daňové metodiky</h3>
             <p class="service-desc">Profesionální vedení podvojného i jednoduchého účetnictví s průběžnou kontrolou a reportingem.</p>
         </div>
 <div class="service-card reveal reveal-d3">
             <div class="service-icon"><span>03</span></div>
-            <h3 class="service-title">Mzdy a personalistika</h3>
+            <h3 class="service-title">Daňový kalendář</h3>
             <p class="service-desc">Komplexní mzdová agenda, zpracování mezd, odvodů a personální evidence pro zaměstnavatele.</p>
         </div>
 <div class="service-card reveal reveal-d4">
             <div class="service-icon"><span>04</span></div>
-            <h3 class="service-title">Daňové zastoupení</h3>
+            <h3 class="service-title">Praktické daňové odkazy</h3>
             <p class="service-desc">Zastupování klientů při daňových kontrolách a komunikace s finančními úřady.</p>
-        </div>
-<div class="service-card reveal reveal-d4">
-            <div class="service-icon"><span>05</span></div>
-            <h3 class="service-title">Daňová optimalizace</h3>
-            <p class="service-desc">Legální strategie snižování daňové zátěže s využitím aktuálně dostupných nástrojů.</p>
         </div>
 
         </div>
@@ -839,6 +879,21 @@
             <span class="process-num">03 / PODÁNÍ A REPORTING</span>
             <h3 class="process-title">Podání a reporting</h3>
             <p class="process-desc">Podám veškerá daňová přiznání včas a pravidelně informuji o výsledcích a novinkách.</p>
+        </div>
+
+        </div>
+    </div>
+</section>
+
+<!-- TESTIMONIALS -->
+<section class="testimonials-section" id="reference">
+    <div class="section-inner">
+        <div class="section-label reveal">REFERENCE</div>
+        <h2 class="section-title reveal reveal-d1">Co říkají naši klienti</h2>
+        <div class="testimonials-grid">
+            <div class="testimonial-card reveal reveal-d1">
+            <p class="testimonial-text">Jsme rodinná daňová a účetní kancelář s více než 30-ti letou tradicí, která podnikatelským a nepodnikatelským subjektům nabízí komplexní daňové a účetní služby, včetně souvisejících právních služeb. Svou práci poskytujeme nejen profesionálně, ale také na míru s individuálním a vstřícným přístupem. Naše klienty bereme jako rovnocenné partnery a je nám ctí svou prací přispívat k naplnění jejich podnikatelských cílů a životních snů.</p>
+            
         </div>
 
         </div>

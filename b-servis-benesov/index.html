@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="B Servis nabizi vedeni ucetnictvi, danovou evidenci a danove poradenstvi v Benesove. Bc. Pavel Bergmann s mnohaletymi zkusenostmi pro male a stredni firmy.">
-    <title>B Servis — Ucetnictvi a dane Benesov</title>
+    <meta name="description" content="B Servis nabízí vedení účetnictví, daňovou evidenci a daňové poradenství v Benešově. Bc. Pavel Bergmann s mnohaletými zkušenostmi pro malé a střední firmy.">
+    <title>B Servis — Účetnictví a daně Benešov</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Playfair%20Display:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=DM%20Sans:wght@200;300;400;500;600;700;800&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
@@ -489,6 +489,51 @@
         }
 
         /* ═══ CONTACT — DARK CARD ═══ */
+        /* ═══ TESTIMONIALS ═══ */
+        .testimonials-section {
+            padding: clamp(80px, 12vh, 140px) clamp(24px, 4vw, 64px);
+            background: var(--bg-dark);
+            color: var(--text-on-dark);
+        }
+        .testimonials-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 24px;
+            margin-top: 48px;
+        }
+        .testimonial-card {
+            background: rgba(255,255,255,0.05);
+            border: 1px solid rgba(255,255,255,0.1);
+            border-radius: var(--radius-card);
+            padding: 36px 32px 28px;
+            display: flex; flex-direction: column; gap: 20px;
+            position: relative;
+        }
+        .testimonial-card::before {
+            content: '\201C';
+            font-family: var(--serif);
+            font-size: 5rem;
+            line-height: 1;
+            color: var(--accent);
+            opacity: 0.6;
+            position: absolute;
+            top: 12px; left: 28px;
+        }
+        .testimonial-text {
+            font-size: clamp(0.95rem, 1.5vw, 1.05rem);
+            line-height: 1.75;
+            color: rgba(242,240,233,0.85);
+            padding-top: 32px;
+            font-style: italic;
+        }
+        .testimonial-author {
+            font-size: 0.82rem;
+            font-weight: 600;
+            color: var(--accent);
+            letter-spacing: 0.06em;
+            text-transform: uppercase;
+        }
+
         .contact-wrapper {
             padding: clamp(60px, 10vh, 100px) clamp(24px, 4vw, 64px);
             background: var(--bg-warm);
@@ -724,10 +769,10 @@
     <div class="hero-glow hero-glow-2"></div>
     <div class="hero-content">
         <h1>
-            <span class="hero-heading">Ucetnictvi s garanci spravnosti</span>
+            <span class="hero-heading">Daňové poradenství a účetnictví</span>
             <span class="hero-drama">Spolehlivost.</span>
         </h1>
-        <p class="hero-sub">Ucetni a danove sluzby v Benesove pro zivnostniky a male firmy. Osobni pristup a dostupnost kdykoli potrebujete.</p>
+        <p class="hero-sub">Účetní a daňové služby v Benešově pro živnostníky a malé firmy. Osobní přístup a dostupnost kdykoli potřebujete.</p>
         <a href="#kontakt" class="hero-cta">Konzultace zdarma</a>
         <div class="hero-stats">
             <div>
@@ -736,11 +781,11 @@
         </div>
 <div>
             <div class="hero-stat-num">70+</div>
-            <div class="hero-stat-label">spokojenych klientu</div>
+            <div class="hero-stat-label">spokojených klientů</div>
         </div>
 <div>
             <div class="hero-stat-num">96%</div>
-            <div class="hero-stat-label">klientu pokracuje</div>
+            <div class="hero-stat-label">klientů pokračuje</div>
         </div>
 
         </div>
@@ -751,33 +796,33 @@
 <section class="section-light" id="sluzby">
     <div class="section-inner">
         <div class="section-label reveal">NASE SLUZBY</div>
-        <h2 class="section-title reveal reveal-d1">Ucetnictvi a danove sluzby v Benesove</h2>
-        <p class="section-subtitle reveal reveal-d2">Kompletni ucetni servis pro podnikatele a firmy ve Strednich Cechach.</p>
+        <h2 class="section-title reveal reveal-d1">Účetnictví a daňové služby v Benešově</h2>
+        <p class="section-subtitle reveal reveal-d2">Kompletní účetní servis pro podnikatele a firmy ve Středních Čechách.</p>
         <div class="services-grid">
             <div class="service-card reveal reveal-d1">
             <div class="service-icon"><span>01</span></div>
-            <h3 class="service-title">Vedeni ucetnictvi</h3>
-            <p class="service-desc">Podvojne ucetnictvi a daneva evidence pro firmy a zivnostniky. Vcasne a spravne.</p>
+            <h3 class="service-title">Daňové poradenství</h3>
+            <p class="service-desc">Podvojné účetnictví a daneva evidence pro firmy a živnostníky. Včasné a správné.</p>
         </div>
 <div class="service-card reveal reveal-d2">
             <div class="service-icon"><span>02</span></div>
-            <h3 class="service-title">Danove poradenstvi</h3>
-            <p class="service-desc">Poradime s danovymi povinnostmi a pomuzeme optimalizovat danovou zatez.</p>
+            <h3 class="service-title">Vedení účetnictví</h3>
+            <p class="service-desc">Poradíme s daňovými povinnostmi a pomůžeme optimalizovat daňovou zátěž.</p>
         </div>
 <div class="service-card reveal reveal-d3">
             <div class="service-icon"><span>03</span></div>
-            <h3 class="service-title">Danove priznani</h3>
-            <p class="service-desc">Zpracovani danoveho priznani k dani z prijmu FO i PO. Bez chyb a v terminu.</p>
+            <h3 class="service-title">Mzdové účetnictví</h3>
+            <p class="service-desc">Zpracování daňového přiznání k dani z příjmu FO i PO. Bez chyb a v termínu.</p>
         </div>
 <div class="service-card reveal reveal-d4">
             <div class="service-icon"><span>04</span></div>
-            <h3 class="service-title">Mzdova agenda</h3>
-            <p class="service-desc">Zpracovani mezd, socialni pojisteni, zdravotni pojisteni a mzdoveho ucetnictvi.</p>
+            <h3 class="service-title">Služby spojené s DPH</h3>
+            <p class="service-desc">Zpracování mezd, sociální pojištění, zdravotní pojištění a mzdového účetnictví.</p>
         </div>
 <div class="service-card reveal reveal-d4">
             <div class="service-icon"><span>05</span></div>
-            <h3 class="service-title">Poradenstvi OSVIC</h3>
-            <p class="service-desc">Specialni sluzby pro zivnostniky. Daneva evidence, odvody a vsechna povinnahlaseni.</p>
+            <h3 class="service-title">Audit firem</h3>
+            <p class="service-desc">Speciální služby pro živnostníky. Daneva evidence, odvody a všechna povinnahlaseni.</p>
         </div>
 
         </div>
@@ -790,8 +835,8 @@
     <div class="about-glow about-glow-2"></div>
     <div class="dot-grid"></div>
     <div class="about-inner">
-        <p class="about-intro reveal">B Servis je ucetni kancelar v Benesove vedena Bc. Pavlem Bergmannem. Specializujeme se na male a stredni podnikatele, kteri potrebuji spolehlivou a dostupnou ucetni podporu.</p>
-        <h2 class="about-drama reveal reveal-d1">Vas spolehlivy partner v Benesove</h2>
+        <p class="about-intro reveal">B Servis je účetní kancelář v Benešově vedena Bc. Pavlem Bergmannem. Specializujeme se na malé a střední podnikatele, kteří potřebují spolehlivou a dostupnou účetní podporu.</p>
+        <h2 class="about-drama reveal reveal-d1">Váš spolehlivý partner v Benešově</h2>
     </div>
 </section>
 
@@ -807,11 +852,11 @@
         </div>
 <div class="stat-card reveal reveal-d2">
             <div class="stat-number" data-count="70" data-suffix="+">0+</div>
-            <div class="stat-label">spokojenych klientu</div>
+            <div class="stat-label">spokojených klientů</div>
         </div>
 <div class="stat-card reveal reveal-d3">
             <div class="stat-number" data-count="96" data-suffix="%">0%</div>
-            <div class="stat-label">klientu pokracuje</div>
+            <div class="stat-label">klientů pokračuje</div>
         </div>
 
         </div>
@@ -822,28 +867,30 @@
 <section class="section-light" style="padding-top: 0;">
     <div class="section-inner">
         <div class="section-label reveal">JAK PRACUJEME</div>
-        <h2 class="section-title reveal reveal-d1">Jednoduche a bezstarostne</h2>
-        <p class="section-subtitle reveal reveal-d2">Nasa spolurace je navrzena tak, aby vam ssetrila cas a energii.</p>
+        <h2 class="section-title reveal reveal-d1">Jednoduché a bezstarostné</h2>
+        <p class="section-subtitle reveal reveal-d2">Nasa spolurace je navržena tak, aby vám ssetrila čas a energii.</p>
         <div class="process-grid">
             <div class="process-card reveal reveal-d1">
-            <span class="process-num">01 / BEZPLATNA KONZULTACE</span>
-            <h3 class="process-title">Bezplatna konzultace</h3>
-            <p class="process-desc">Zjistime, co potrebujete, a navrhneme vhodne reseni.</p>
+            <span class="process-num">01 / BEZPLATNÁ KONZULTACE</span>
+            <h3 class="process-title">Bezplatná konzultace</h3>
+            <p class="process-desc">Zjistíme, co potřebujete, a navrhneme vhodné řešení.</p>
         </div>
 <div class="process-card reveal reveal-d2">
-            <span class="process-num">02 / PREDANI DOKUMENTU</span>
-            <h3 class="process-title">Predani dokumentu</h3>
-            <p class="process-desc">Predате nam doklady a my se postarame o jejich zpracovani.</p>
+            <span class="process-num">02 / PŘEDÁNÍ DOKUMENTŮ</span>
+            <h3 class="process-title">Předání dokumentů</h3>
+            <p class="process-desc">Predате nám doklady a my se postaráme o jejich zpracování.</p>
         </div>
 <div class="process-card reveal reveal-d3">
-            <span class="process-num">03 / PRAVIDELNY KONTAKT</span>
-            <h3 class="process-title">Pravidelny kontakt</h3>
-            <p class="process-desc">Jsme vam k dispozici pro vsechny dotazy a prubezne vas informujeme.</p>
+            <span class="process-num">03 / PRAVIDELNÝ KONTAKT</span>
+            <h3 class="process-title">Pravidelný kontakt</h3>
+            <p class="process-desc">Jsme vám k dispozici pro všechny dotazy a průběžně vás informujeme.</p>
         </div>
 
         </div>
     </div>
 </section>
+
+
 
 <!-- CONTACT — DARK CARD -->
 <section class="contact-wrapper" id="kontakt">
@@ -851,7 +898,7 @@
         <div class="contact-card-inner">
             <div class="contact-heading">
                 <div class="section-label reveal">KONTAKT</div>
-                <h2 class="section-title reveal reveal-d1">Pojdme spolupracovat</h2>
+                <h2 class="section-title reveal reveal-d1">Pojďme spolupracovat</h2>
             </div>
             <div class="contact-grid">
                 <dl class="contact-info-block reveal reveal-d2">
@@ -874,7 +921,7 @@
                         <textarea placeholder="Jak vám můžeme pomoci?"></textarea>
                     </div>
                     <button type="submit" class="form-submit">
-                        Odeslat zpravu
+                        Odeslat zprávu
                         <svg width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 8h10M9 4l4 4-4 4"/></svg>
                     </button>
                 </form>
@@ -889,7 +936,7 @@
         <div class="footer-top">
             <div class="footer-brand">
                 <h3>B Servis.</h3>
-                <p>B Servis nabizi vedeni ucetnictvi, danovou evidenci a danove poradenstvi v Benesove. Bc. Pavel Bergmann s mnohaletymi zkusenostmi pro male a stredni firmy.</p>
+                <p>B Servis nabízí vedení účetnictví, daňovou evidenci a daňové poradenství v Benešově. Bc. Pavel Bergmann s mnohaletými zkušenostmi pro malé a střední firmy.</p>
                 <div class="footer-status">
                     <div class="footer-status-dot"></div>
                     <span>K dispozici</span>

@@ -489,6 +489,51 @@
         }
 
         /* ═══ CONTACT — DARK CARD ═══ */
+        /* ═══ TESTIMONIALS ═══ */
+        .testimonials-section {
+            padding: clamp(80px, 12vh, 140px) clamp(24px, 4vw, 64px);
+            background: var(--bg-dark);
+            color: var(--text-on-dark);
+        }
+        .testimonials-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 24px;
+            margin-top: 48px;
+        }
+        .testimonial-card {
+            background: rgba(255,255,255,0.05);
+            border: 1px solid rgba(255,255,255,0.1);
+            border-radius: var(--radius-card);
+            padding: 36px 32px 28px;
+            display: flex; flex-direction: column; gap: 20px;
+            position: relative;
+        }
+        .testimonial-card::before {
+            content: '\201C';
+            font-family: var(--serif);
+            font-size: 5rem;
+            line-height: 1;
+            color: var(--accent);
+            opacity: 0.6;
+            position: absolute;
+            top: 12px; left: 28px;
+        }
+        .testimonial-text {
+            font-size: clamp(0.95rem, 1.5vw, 1.05rem);
+            line-height: 1.75;
+            color: rgba(242,240,233,0.85);
+            padding-top: 32px;
+            font-style: italic;
+        }
+        .testimonial-author {
+            font-size: 0.82rem;
+            font-weight: 600;
+            color: var(--accent);
+            letter-spacing: 0.06em;
+            text-transform: uppercase;
+        }
+
         .contact-wrapper {
             padding: clamp(60px, 10vh, 100px) clamp(24px, 4vw, 64px);
             background: var(--bg-warm);
@@ -731,11 +776,11 @@
         <a href="#kontakt" class="hero-cta">Domluvit schůzku</a>
         <div class="hero-stats">
             <div>
-            <div class="hero-stat-num">13+</div>
+            <div class="hero-stat-num">18+</div>
             <div class="hero-stat-label">let praxe</div>
         </div>
 <div>
-            <div class="hero-stat-num">120+</div>
+            <div class="hero-stat-num">100+</div>
             <div class="hero-stat-label">spokojených klientů</div>
         </div>
 <div>
@@ -802,11 +847,11 @@
         <h3 class="stats-heading reveal reveal-d1">Výsledky, které mluví za nás.</h3>
         <div class="stats-grid">
             <div class="stat-card reveal reveal-d1">
-            <div class="stat-number" data-count="13" data-suffix="+">0+</div>
+            <div class="stat-number" data-count="18" data-suffix="+">0+</div>
             <div class="stat-label">let praxe</div>
         </div>
 <div class="stat-card reveal reveal-d2">
-            <div class="stat-number" data-count="120" data-suffix="+">0+</div>
+            <div class="stat-number" data-count="100" data-suffix="+">0+</div>
             <div class="stat-label">spokojených klientů</div>
         </div>
 <div class="stat-card reveal reveal-d3">
@@ -839,6 +884,25 @@
             <span class="process-num">03 / PODÁNÍ A PODPORA</span>
             <h3 class="process-title">Podání a podpora</h3>
             <p class="process-desc">Zajistím včasné podání a zůstanu k dispozici pro průběžné dotazy a konzultace.</p>
+        </div>
+
+        </div>
+    </div>
+</section>
+
+<!-- TESTIMONIALS -->
+<section class="testimonials-section" id="reference">
+    <div class="section-inner">
+        <div class="section-label reveal">REFERENCE</div>
+        <h2 class="section-title reveal reveal-d1">Co říkají naši klienti</h2>
+        <div class="testimonials-grid">
+            <div class="testimonial-card reveal reveal-d1">
+            <p class="testimonial-text">Chtěl bych vyzdvihnout férový přístup při zpracovávání zprávy a pečlivost při sbírání důkazů. Dále jsem byl velmi potěšen lidským přístupem, neboť ten z rodičů, koho drtí soudy není v lehké situaci.</p>
+            
+        </div>
+<div class="testimonial-card reveal reveal-d2">
+            <p class="testimonial-text">Tak precizně zpracované podklady jsem ještě nikdy neviděla. Takové důkazy bych ráda soudu předkládala častěji. S přispěním Vaší zprávy se rodiče dohodli a já doufám, že soud dohodu schválí. Musím říci, že díky tomuto dokumentu od Vás půjdu k soudu s větší jistotou.</p>
+            
         </div>
 
         </div>

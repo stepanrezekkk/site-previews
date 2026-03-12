@@ -489,6 +489,51 @@
         }
 
         /* ═══ CONTACT — DARK CARD ═══ */
+        /* ═══ TESTIMONIALS ═══ */
+        .testimonials-section {
+            padding: clamp(80px, 12vh, 140px) clamp(24px, 4vw, 64px);
+            background: var(--bg-dark);
+            color: var(--text-on-dark);
+        }
+        .testimonials-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 24px;
+            margin-top: 48px;
+        }
+        .testimonial-card {
+            background: rgba(255,255,255,0.05);
+            border: 1px solid rgba(255,255,255,0.1);
+            border-radius: var(--radius-card);
+            padding: 36px 32px 28px;
+            display: flex; flex-direction: column; gap: 20px;
+            position: relative;
+        }
+        .testimonial-card::before {
+            content: '\201C';
+            font-family: var(--serif);
+            font-size: 5rem;
+            line-height: 1;
+            color: var(--accent);
+            opacity: 0.6;
+            position: absolute;
+            top: 12px; left: 28px;
+        }
+        .testimonial-text {
+            font-size: clamp(0.95rem, 1.5vw, 1.05rem);
+            line-height: 1.75;
+            color: rgba(242,240,233,0.85);
+            padding-top: 32px;
+            font-style: italic;
+        }
+        .testimonial-author {
+            font-size: 0.82rem;
+            font-weight: 600;
+            color: var(--accent);
+            letter-spacing: 0.06em;
+            text-transform: uppercase;
+        }
+
         .contact-wrapper {
             padding: clamp(60px, 10vh, 100px) clamp(24px, 4vw, 64px);
             background: var(--bg-warm);
@@ -756,28 +801,33 @@
         <div class="services-grid">
             <div class="service-card reveal reveal-d1">
             <div class="service-icon"><span>01</span></div>
-            <h3 class="service-title">Dane z prijmu</h3>
+            <h3 class="service-title">Daňový kalendář</h3>
             <p class="service-desc">Zpracovani a optimalizace danovych priznani pro fyzicke i pravnicke osoby s durazem na zakonnou usporou.</p>
         </div>
 <div class="service-card reveal reveal-d2">
             <div class="service-icon"><span>02</span></div>
-            <h3 class="service-title">DPH a spotrebni dane</h3>
+            <h3 class="service-title">DAŇOVÉ, ÚČETNÍ A PORADENSKÉ SLUŽBY</h3>
             <p class="service-desc">Sprava registrace k DPH, mesicni a ctvrtletni podani, kontrolni hlaseni a souhrnna hlaseni.</p>
         </div>
 <div class="service-card reveal reveal-d3">
             <div class="service-icon"><span>03</span></div>
-            <h3 class="service-title">Zdaneni zamestnancu</h3>
+            <h3 class="service-title">VEDENÍ MZDOVÝCH AGEND</h3>
             <p class="service-desc">Zpracovani mezd, rocni zuctovani zalohy na dan a poradenstvi ke zdravotnimu a socialnimu pojisteni.</p>
         </div>
 <div class="service-card reveal reveal-d4">
             <div class="service-icon"><span>04</span></div>
-            <h3 class="service-title">Danova kontrola</h3>
+            <h3 class="service-title">EKONOMICKÉ PORADENSTVÍ</h3>
             <p class="service-desc">Zastupovani klientu pri danovych kontrolach a odvolanich vuci spravci dane v Libereckem kraji.</p>
         </div>
 <div class="service-card reveal reveal-d4">
             <div class="service-icon"><span>05</span></div>
-            <h3 class="service-title">Poradenstvi pri zalozeni</h3>
+            <h3 class="service-title">PRÁVNÍ PORADENSTVÍ</h3>
             <p class="service-desc">Danove poradenstvi pri zalozeni spolecnosti, vyberu pravni formy a nastaveni ucetniho systemu.</p>
+        </div>
+<div class="service-card reveal reveal-d4">
+            <div class="service-icon"><span>06</span></div>
+            <h3 class="service-title">AUDITORSKÉ SLUŽBY</h3>
+            <p class="service-desc">Profesionální auditorské služby přizpůsobené vašim potřebám.</p>
         </div>
 
         </div>
@@ -844,6 +894,8 @@
         </div>
     </div>
 </section>
+
+
 
 <!-- CONTACT — DARK CARD -->
 <section class="contact-wrapper" id="kontakt">

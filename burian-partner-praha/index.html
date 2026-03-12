@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Danove poradenstvi pro firmy a podnikatele v Praze. Ing. Ondrej Burian nabizi osobni pristup a odborne reseni danovych povinnosti.">
-    <title>Burian Partner | Danovy poradce Praha | Ing. Ondrej Burian</title>
+    <meta name="description" content="Daňové poradenství pro firmy a podnikatele v Praze. Ing. Ondřej Burian nabízí osobní přístup a odborné řešení daňových povinností.">
+    <title>Burian Partner | Daňový poradce Praha | Ing. Ondřej Burian</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Playfair%20Display:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=DM%20Sans:wght@200;300;400;500;600;700;800&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
@@ -489,6 +489,51 @@
         }
 
         /* ═══ CONTACT — DARK CARD ═══ */
+        /* ═══ TESTIMONIALS ═══ */
+        .testimonials-section {
+            padding: clamp(80px, 12vh, 140px) clamp(24px, 4vw, 64px);
+            background: var(--bg-dark);
+            color: var(--text-on-dark);
+        }
+        .testimonials-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 24px;
+            margin-top: 48px;
+        }
+        .testimonial-card {
+            background: rgba(255,255,255,0.05);
+            border: 1px solid rgba(255,255,255,0.1);
+            border-radius: var(--radius-card);
+            padding: 36px 32px 28px;
+            display: flex; flex-direction: column; gap: 20px;
+            position: relative;
+        }
+        .testimonial-card::before {
+            content: '\201C';
+            font-family: var(--serif);
+            font-size: 5rem;
+            line-height: 1;
+            color: var(--accent);
+            opacity: 0.6;
+            position: absolute;
+            top: 12px; left: 28px;
+        }
+        .testimonial-text {
+            font-size: clamp(0.95rem, 1.5vw, 1.05rem);
+            line-height: 1.75;
+            color: rgba(242,240,233,0.85);
+            padding-top: 32px;
+            font-style: italic;
+        }
+        .testimonial-author {
+            font-size: 0.82rem;
+            font-weight: 600;
+            color: var(--accent);
+            letter-spacing: 0.06em;
+            text-transform: uppercase;
+        }
+
         .contact-wrapper {
             padding: clamp(60px, 10vh, 100px) clamp(24px, 4vw, 64px);
             background: var(--bg-warm);
@@ -724,23 +769,23 @@
     <div class="hero-glow hero-glow-2"></div>
     <div class="hero-content">
         <h1>
-            <span class="hero-heading">Vas partner pro danove reseni v Praze</span>
+            <span class="hero-heading">Váš partner pro daňové řešení v Praze</span>
             <span class="hero-drama">Jistota.</span>
         </h1>
-        <p class="hero-sub">Ing. Ondrej Burian v Praze nabizi partnersky pristup k danovemu poradenstvi s durazem na individualni potreby kazdeho klienta.</p>
+        <p class="hero-sub">Ing. Ondřej Burian v Praze nabízí partnerský přístup k daňovému poradenství s důrazem na individuální potřeby každého klienta.</p>
         <a href="#kontakt" class="hero-cta">Konzultace zdarma</a>
         <div class="hero-stats">
             <div>
-            <div class="hero-stat-num">15+</div>
+            <div class="hero-stat-num">25+</div>
             <div class="hero-stat-label">let praxe</div>
         </div>
 <div>
             <div class="hero-stat-num">160+</div>
-            <div class="hero-stat-label">spokojenych klientu</div>
+            <div class="hero-stat-label">spokojených klientů</div>
         </div>
 <div>
             <div class="hero-stat-num">97%</div>
-            <div class="hero-stat-label">uspesnost podani</div>
+            <div class="hero-stat-label">úspěšnost podání</div>
         </div>
 
         </div>
@@ -751,33 +796,23 @@
 <section class="section-light" id="sluzby">
     <div class="section-inner">
         <div class="section-label reveal">NASE SLUZBY</div>
-        <h2 class="section-title reveal reveal-d1">Danove sluzby s osobnim pristupem</h2>
-        <p class="section-subtitle reveal reveal-d2">Kazdy klient je pro nas partner. Proto pristupujeme k reseni danovych zalezitosti individualne a flexibilne.</p>
+        <h2 class="section-title reveal reveal-d1">Daňové služby s osobním přístupem</h2>
+        <p class="section-subtitle reveal reveal-d2">Každý klient je pro nás partner. Proto přistupujeme k řešení daňových záležitostí individuálně a flexibilně.</p>
         <div class="services-grid">
             <div class="service-card reveal reveal-d1">
             <div class="service-icon"><span>01</span></div>
-            <h3 class="service-title">Danove poradenstvi</h3>
-            <p class="service-desc">Individualni danove poradenstvi s durazem na konkretni potreby a cile kazdeho klienta.</p>
+            <h3 class="service-title">auditory</h3>
+            <p class="service-desc">Individuální daňové poradenství s důrazem na konkrétní potřeby a cíle každého klienta.</p>
         </div>
 <div class="service-card reveal reveal-d2">
             <div class="service-icon"><span>02</span></div>
-            <h3 class="service-title">Danove optimalizace</h3>
-            <p class="service-desc">Legalni optimalizace danove povinnosti pro fyzicke osoby, OSVD i obchodni spolecnosti.</p>
+            <h3 class="service-title">účetními a mzdovými specialisty</h3>
+            <p class="service-desc">Legální optimalizace daňové povinnosti pro fyzické osoby, OSVD i obchodní společnosti.</p>
         </div>
 <div class="service-card reveal reveal-d3">
             <div class="service-icon"><span>03</span></div>
-            <h3 class="service-title">Zpracovani danovych uznani</h3>
-            <p class="service-desc">Zpracovani danovych priznani vcetne vsech prech a komunikace s financnim uradem.</p>
-        </div>
-<div class="service-card reveal reveal-d4">
-            <div class="service-icon"><span>04</span></div>
-            <h3 class="service-title">DPH</h3>
-            <p class="service-desc">Registrace k DPH, zpracovani DPH prznani a souhrnnych hlaseni, pomoc pri danove kontrole.</p>
-        </div>
-<div class="service-card reveal reveal-d4">
-            <div class="service-icon"><span>05</span></div>
-            <h3 class="service-title">Konzultace podnikani</h3>
-            <p class="service-desc">Poradenstvi pri zahajeni podnikani, zmene pravni formy spolecnosti a danovych aspektech podnikani.</p>
+            <h3 class="service-title">specializace především na oblast DPH, účetnictví, daně z nabytí nemovitých věcí</h3>
+            <p class="service-desc">Zpracování daňových přiznání včetně všech přech a komunikace s finančním úřadem.</p>
         </div>
 
         </div>
@@ -790,8 +825,8 @@
     <div class="about-glow about-glow-2"></div>
     <div class="dot-grid"></div>
     <div class="about-inner">
-        <p class="about-intro reveal">Ing. Ondrej Burian je danovy poradce se sidlem v Praze, ktery stavi na uprimnem partnerskem vztahu s klientem. Burian Partner je zalozen na vzajemne duvere, jasne komunikaci a aktivni obhajobe klientovych zajmu. Nechceme byt jen dodavatelem sluzby - chceme byt vasim spolehlivym partnerem.</p>
-        <h2 class="about-drama reveal reveal-d1">Partner, ktery chrani vase financni zajmy</h2>
+        <p class="about-intro reveal">Ing. Ondřej Burian je daňový poradce se sídlem v Praze, který staví na upřímném partnerském vztahu s klientem. Burian Partner je založen na vzájemné důvěře, jasné komunikaci a aktivní obhajobě klientových zájmů. Nechceme být jen dodavatelem služby - chceme být vaším spolehlivým partnerem.</p>
+        <h2 class="about-drama reveal reveal-d1">Partner, který chrání vaše finanční zájmy</h2>
     </div>
 </section>
 
@@ -802,16 +837,16 @@
         <h3 class="stats-heading reveal reveal-d1">Výsledky, které mluví za nás.</h3>
         <div class="stats-grid">
             <div class="stat-card reveal reveal-d1">
-            <div class="stat-number" data-count="15" data-suffix="+">0+</div>
+            <div class="stat-number" data-count="25" data-suffix="+">0+</div>
             <div class="stat-label">let praxe</div>
         </div>
 <div class="stat-card reveal reveal-d2">
             <div class="stat-number" data-count="160" data-suffix="+">0+</div>
-            <div class="stat-label">spokojenych klientu</div>
+            <div class="stat-label">spokojených klientů</div>
         </div>
 <div class="stat-card reveal reveal-d3">
             <div class="stat-number" data-count="97" data-suffix="%">0%</div>
-            <div class="stat-label">uspesnost podani</div>
+            <div class="stat-label">úspěšnost podání</div>
         </div>
 
         </div>
@@ -822,28 +857,30 @@
 <section class="section-light" style="padding-top: 0;">
     <div class="section-inner">
         <div class="section-label reveal">JAK PRACUJEME</div>
-        <h2 class="section-title reveal reveal-d1">Spoluprace zalozena na partnerstvi</h2>
-        <p class="section-subtitle reveal reveal-d2">Nas pristup je zalozeny na aktivni komunikaci a spolecnem hledani nejlepsich reseni.</p>
+        <h2 class="section-title reveal reveal-d1">Spolupráce založena na partnerství</h2>
+        <p class="section-subtitle reveal reveal-d2">Náš přístup je založený na aktivní komunikaci a společném hledání nejlepších řešení.</p>
         <div class="process-grid">
             <div class="process-card reveal reveal-d1">
-            <span class="process-num">01 / PRVNI SETKANI</span>
-            <h3 class="process-title">Prvni setkani</h3>
-            <p class="process-desc">Osobni nebo online setkani, kde vas lepe poznajime a pochopime vase potreby a ocekavani.</p>
+            <span class="process-num">01 / PRVNÍ SETKÁNÍ</span>
+            <h3 class="process-title">První setkání</h3>
+            <p class="process-desc">Osobní nebo online setkání, kde vás lépe poznajime a pochopíme vaše potřeby a očekávání.</p>
         </div>
 <div class="process-card reveal reveal-d2">
-            <span class="process-num">02 / NAVRH A ZPRACOVANI</span>
-            <h3 class="process-title">Navrh a zpracovani</h3>
-            <p class="process-desc">Pripravime konkretni reseni vasi danova situace a zpracujeme vsechna potrebna podani.</p>
+            <span class="process-num">02 / NÁVRH A ZPRACOVÁNÍ</span>
+            <h3 class="process-title">Návrh a zpracování</h3>
+            <p class="process-desc">Připravíme konkrétní řešení vaší daňová situace a zpracujeme všechna potřebná podání.</p>
         </div>
 <div class="process-card reveal reveal-d3">
-            <span class="process-num">03 / PRUBEZNA KOMUNIKACE</span>
-            <h3 class="process-title">Prubezna komunikace</h3>
-            <p class="process-desc">Aktivne vas informujeme o stavu veci a jsme vam k dispozici pro jakekoli dotazy kdykoli.</p>
+            <span class="process-num">03 / PRŮBĚŽNÁ KOMUNIKACE</span>
+            <h3 class="process-title">Průběžná komunikace</h3>
+            <p class="process-desc">Aktivně vás informujeme o stavu věcí a jsme vám k dispozici pro jakékoli dotazy kdykoli.</p>
         </div>
 
         </div>
     </div>
 </section>
+
+
 
 <!-- CONTACT — DARK CARD -->
 <section class="contact-wrapper" id="kontakt">
@@ -851,7 +888,7 @@
         <div class="contact-card-inner">
             <div class="contact-heading">
                 <div class="section-label reveal">KONTAKT</div>
-                <h2 class="section-title reveal reveal-d1">Pojdme spolupracovat</h2>
+                <h2 class="section-title reveal reveal-d1">Pojďme spolupracovat</h2>
             </div>
             <div class="contact-grid">
                 <dl class="contact-info-block reveal reveal-d2">
@@ -874,7 +911,7 @@
                         <textarea placeholder="Jak vám můžeme pomoci?"></textarea>
                     </div>
                     <button type="submit" class="form-submit">
-                        Odeslat zpravu
+                        Odeslat zprávu
                         <svg width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 8h10M9 4l4 4-4 4"/></svg>
                     </button>
                 </form>
@@ -889,7 +926,7 @@
         <div class="footer-top">
             <div class="footer-brand">
                 <h3>Burian Partner.</h3>
-                <p>Danove poradenstvi pro firmy a podnikatele v Praze. Ing. Ondrej Burian nabizi osobni pristup a odborne reseni danovych povinnosti.</p>
+                <p>Daňové poradenství pro firmy a podnikatele v Praze. Ing. Ondřej Burian nabízí osobní přístup a odborné řešení daňových povinností.</p>
                 <div class="footer-status">
                     <div class="footer-status-dot"></div>
                     <span>K dispozici</span>

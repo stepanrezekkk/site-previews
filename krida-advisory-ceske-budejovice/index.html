@@ -489,6 +489,51 @@
         }
 
         /* ═══ CONTACT — DARK CARD ═══ */
+        /* ═══ TESTIMONIALS ═══ */
+        .testimonials-section {
+            padding: clamp(80px, 12vh, 140px) clamp(24px, 4vw, 64px);
+            background: var(--bg-dark);
+            color: var(--text-on-dark);
+        }
+        .testimonials-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 24px;
+            margin-top: 48px;
+        }
+        .testimonial-card {
+            background: rgba(255,255,255,0.05);
+            border: 1px solid rgba(255,255,255,0.1);
+            border-radius: var(--radius-card);
+            padding: 36px 32px 28px;
+            display: flex; flex-direction: column; gap: 20px;
+            position: relative;
+        }
+        .testimonial-card::before {
+            content: '\201C';
+            font-family: var(--serif);
+            font-size: 5rem;
+            line-height: 1;
+            color: var(--accent);
+            opacity: 0.6;
+            position: absolute;
+            top: 12px; left: 28px;
+        }
+        .testimonial-text {
+            font-size: clamp(0.95rem, 1.5vw, 1.05rem);
+            line-height: 1.75;
+            color: rgba(242,240,233,0.85);
+            padding-top: 32px;
+            font-style: italic;
+        }
+        .testimonial-author {
+            font-size: 0.82rem;
+            font-weight: 600;
+            color: var(--accent);
+            letter-spacing: 0.06em;
+            text-transform: uppercase;
+        }
+
         .contact-wrapper {
             padding: clamp(60px, 10vh, 100px) clamp(24px, 4vw, 64px);
             background: var(--bg-warm);
@@ -731,7 +776,7 @@
         <a href="#kontakt" class="hero-cta">Zacit spolupracovat</a>
         <div class="hero-stats">
             <div>
-            <div class="hero-stat-num">12+</div>
+            <div class="hero-stat-num">32+</div>
             <div class="hero-stat-label">let praxe</div>
         </div>
 <div>
@@ -756,27 +801,27 @@
         <div class="services-grid">
             <div class="service-card reveal reveal-d1">
             <div class="service-icon"><span>01</span></div>
-            <h3 class="service-title">Danová agenda firem</h3>
+            <h3 class="service-title">Daňové poradenství a odklad daní</h3>
             <p class="service-desc">Kompletní danové zpracovani pro spolecnosti v ruznodorych odvetvích na jihu Cech.</p>
         </div>
 <div class="service-card reveal reveal-d2">
             <div class="service-icon"><span>02</span></div>
-            <h3 class="service-title">Skupinové struktury</h3>
+            <h3 class="service-title">Vedení účetnictví a ekonomické rozvahy</h3>
             <p class="service-desc">Poradenstvi pro holdingy, materske a dceryne spolecnosti vcetne konsolidace.</p>
         </div>
 <div class="service-card reveal reveal-d3">
             <div class="service-icon"><span>03</span></div>
-            <h3 class="service-title">Mezinárodnı zdanení</h3>
+            <h3 class="service-title">Audit</h3>
             <p class="service-desc">Danove aspekty zahranicnich transakcí a preshraniního obchodu pro exportní firmy.</p>
         </div>
 <div class="service-card reveal reveal-d4">
             <div class="service-icon"><span>04</span></div>
-            <h3 class="service-title">Danový audit</h3>
+            <h3 class="service-title">Likvidace společnosti</h3>
             <p class="service-desc">Komplexní danový audit identifikujici chyby a priležitosti pro optimalizaci.</p>
         </div>
 <div class="service-card reveal reveal-d4">
             <div class="service-icon"><span>05</span></div>
-            <h3 class="service-title">Rodinné firmy</h3>
+            <h3 class="service-title">Správa družstev a SVJ</h3>
             <p class="service-desc">Danové poradenstvi a planování succesal pro rodinné podniky vcetne prevodu mezi generacemi.</p>
         </div>
 
@@ -802,7 +847,7 @@
         <h3 class="stats-heading reveal reveal-d1">Výsledky, které mluví za nás.</h3>
         <div class="stats-grid">
             <div class="stat-card reveal reveal-d1">
-            <div class="stat-number" data-count="12" data-suffix="+">0+</div>
+            <div class="stat-number" data-count="32" data-suffix="+">0+</div>
             <div class="stat-label">let praxe</div>
         </div>
 <div class="stat-card reveal reveal-d2">
@@ -839,6 +884,21 @@
             <span class="process-num">03 / REALIZACE A REPORTIN</span>
             <h3 class="process-title">Realizace a reporting</h3>
             <p class="process-desc">Implementujeme dohodnuté resení a pravidelne reportujeme výsledky a nadchazejıcı termíny.</p>
+        </div>
+
+        </div>
+    </div>
+</section>
+
+<!-- TESTIMONIALS -->
+<section class="testimonials-section" id="reference">
+    <div class="section-inner">
+        <div class="section-label reveal">REFERENCE</div>
+        <h2 class="section-title reveal reveal-d1">Co říkají naši klienti</h2>
+        <div class="testimonials-grid">
+            <div class="testimonial-card reveal reveal-d1">
+            <p class="testimonial-text">Firma Křída a spol. s. r. o, nám zpracovává účetnictví již od roku 2014. Po celou dobu oceňujeme profesionální přístup a flexibilitu, pečlivost a včasné zpracování i pohodovou komunikaci přes email nebo telefon.Nejvíce jsme ocenili profesionální zastupování při jednání s Finančním úřadem i při kontrole vyúčtování dotací Českou školní inspekcí.Tuto firmu určitě doporučujeme jako kvalitní a profesionální.</p>
+            <div class="testimonial-author">1994</div>
         </div>
 
         </div>

@@ -489,6 +489,51 @@
         }
 
         /* ═══ CONTACT — DARK CARD ═══ */
+        /* ═══ TESTIMONIALS ═══ */
+        .testimonials-section {
+            padding: clamp(80px, 12vh, 140px) clamp(24px, 4vw, 64px);
+            background: var(--bg-dark);
+            color: var(--text-on-dark);
+        }
+        .testimonials-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 24px;
+            margin-top: 48px;
+        }
+        .testimonial-card {
+            background: rgba(255,255,255,0.05);
+            border: 1px solid rgba(255,255,255,0.1);
+            border-radius: var(--radius-card);
+            padding: 36px 32px 28px;
+            display: flex; flex-direction: column; gap: 20px;
+            position: relative;
+        }
+        .testimonial-card::before {
+            content: '\201C';
+            font-family: var(--serif);
+            font-size: 5rem;
+            line-height: 1;
+            color: var(--accent);
+            opacity: 0.6;
+            position: absolute;
+            top: 12px; left: 28px;
+        }
+        .testimonial-text {
+            font-size: clamp(0.95rem, 1.5vw, 1.05rem);
+            line-height: 1.75;
+            color: rgba(242,240,233,0.85);
+            padding-top: 32px;
+            font-style: italic;
+        }
+        .testimonial-author {
+            font-size: 0.82rem;
+            font-weight: 600;
+            color: var(--accent);
+            letter-spacing: 0.06em;
+            text-transform: uppercase;
+        }
+
         .contact-wrapper {
             padding: clamp(60px, 10vh, 100px) clamp(24px, 4vw, 64px);
             background: var(--bg-warm);
@@ -735,11 +780,11 @@
             <div class="hero-stat-label">klientů</div>
         </div>
 <div>
-            <div class="hero-stat-num">10+</div>
+            <div class="hero-stat-num">7+</div>
             <div class="hero-stat-label">let zkušeností</div>
         </div>
 <div>
-            <div class="hero-stat-num">99%</div>
+            <div class="hero-stat-num">200%</div>
             <div class="hero-stat-label">spokojenost klientů</div>
         </div>
 
@@ -756,28 +801,18 @@
         <div class="services-grid">
             <div class="service-card reveal reveal-d1">
             <div class="service-icon"><span>01</span></div>
-            <h3 class="service-title">Vedení účetnictví</h3>
+            <h3 class="service-title">zakládání obchodních společností</h3>
             <p class="service-desc">Podvojné účetnictví a daňová evidence — přesně, digitálně, spolehlivě.</p>
         </div>
 <div class="service-card reveal reveal-d2">
             <div class="service-icon"><span>02</span></div>
-            <h3 class="service-title">Daňové poradenství</h3>
+            <h3 class="service-title">změny a likvidace obchodních společností</h3>
             <p class="service-desc">Individuální optimalizace daní pro živnostníky, s.r.o. i větší společnosti.</p>
         </div>
 <div class="service-card reveal reveal-d3">
             <div class="service-icon"><span>03</span></div>
-            <h3 class="service-title">Daňová přiznání</h3>
+            <h3 class="service-title">analýzy stavu ekonomických subjektů</h3>
             <p class="service-desc">Kompletní příprava a podání všech daňových přiznání v zákonných termínech.</p>
-        </div>
-<div class="service-card reveal reveal-d4">
-            <div class="service-icon"><span>04</span></div>
-            <h3 class="service-title">Reporting</h3>
-            <p class="service-desc">Přehledné finanční výstupy pro management a rozhodování na základě dat.</p>
-        </div>
-<div class="service-card reveal reveal-d4">
-            <div class="service-icon"><span>05</span></div>
-            <h3 class="service-title">Mzdová agenda</h3>
-            <p class="service-desc">Zpracování mezd a personální administrativa pro firmy s vlastními zaměstnanci.</p>
         </div>
 
         </div>
@@ -790,7 +825,7 @@
     <div class="about-glow about-glow-2"></div>
     <div class="dot-grid"></div>
     <div class="about-inner">
-        <p class="about-intro reveal">DataX Daně kombinuje tradiční daňové poradenství s moderním datovým přístupem. Věříme, že dobré rozhodování stojí na přesných číslech a jasném přehledu.</p>
+        <p class="about-intro reveal">Společnost Datax plus je naším partnerem už od začátku našeho podnikání. Na spolupráci si ceníme profesionalitu, velký přehled v oblasti účetnictví a daní, schopnost pružně reagovat na naše požadavky. Jsme nadmíru spokojení a věřím v naši spolupráci i do budoucna. Okamžitá komunikace a ochota se postavit čelem k výzvám je u této firmy na vysoké úrovni. Moc děkuji za spolupráci a všem kdo hledají klid v účetnictví, jen doporučuji zahájit spolupráci.</p>
         <h2 class="about-drama reveal reveal-d1">Analytický přístup k vašim financím</h2>
     </div>
 </section>
@@ -806,11 +841,11 @@
             <div class="stat-label">klientů</div>
         </div>
 <div class="stat-card reveal reveal-d2">
-            <div class="stat-number" data-count="10" data-suffix="+">0+</div>
+            <div class="stat-number" data-count="7" data-suffix="+">0+</div>
             <div class="stat-label">let zkušeností</div>
         </div>
 <div class="stat-card reveal reveal-d3">
-            <div class="stat-number" data-count="99" data-suffix="%">0%</div>
+            <div class="stat-number" data-count="200" data-suffix="%">0%</div>
             <div class="stat-label">spokojenost klientů</div>
         </div>
 
@@ -844,6 +879,8 @@
         </div>
     </div>
 </section>
+
+
 
 <!-- CONTACT — DARK CARD -->
 <section class="contact-wrapper" id="kontakt">

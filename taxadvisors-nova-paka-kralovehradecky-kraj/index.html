@@ -489,6 +489,51 @@
         }
 
         /* ═══ CONTACT — DARK CARD ═══ */
+        /* ═══ TESTIMONIALS ═══ */
+        .testimonials-section {
+            padding: clamp(80px, 12vh, 140px) clamp(24px, 4vw, 64px);
+            background: var(--bg-dark);
+            color: var(--text-on-dark);
+        }
+        .testimonials-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 24px;
+            margin-top: 48px;
+        }
+        .testimonial-card {
+            background: rgba(255,255,255,0.05);
+            border: 1px solid rgba(255,255,255,0.1);
+            border-radius: var(--radius-card);
+            padding: 36px 32px 28px;
+            display: flex; flex-direction: column; gap: 20px;
+            position: relative;
+        }
+        .testimonial-card::before {
+            content: '\201C';
+            font-family: var(--serif);
+            font-size: 5rem;
+            line-height: 1;
+            color: var(--accent);
+            opacity: 0.6;
+            position: absolute;
+            top: 12px; left: 28px;
+        }
+        .testimonial-text {
+            font-size: clamp(0.95rem, 1.5vw, 1.05rem);
+            line-height: 1.75;
+            color: rgba(242,240,233,0.85);
+            padding-top: 32px;
+            font-style: italic;
+        }
+        .testimonial-author {
+            font-size: 0.82rem;
+            font-weight: 600;
+            color: var(--accent);
+            letter-spacing: 0.06em;
+            text-transform: uppercase;
+        }
+
         .contact-wrapper {
             padding: clamp(60px, 10vh, 100px) clamp(24px, 4vw, 64px);
             background: var(--bg-warm);
@@ -724,18 +769,18 @@
     <div class="hero-glow hero-glow-2"></div>
     <div class="hero-content">
         <h1>
-            <span class="hero-heading">Daňové poradenství pro severovýchod</span>
+            <span class="hero-heading">Komplexní daňové a účetní poradenství</span>
             <span class="hero-drama">Preciznost.</span>
         </h1>
         <p class="hero-sub">TaxAdvisors v Nové Pace zajistí precizní daňové a účetní poradenství pro podnikatele a firmy z Královéhradeckého a Libereckého kraje.</p>
         <a href="#kontakt" class="hero-cta">Kontaktovat poradce</a>
         <div class="hero-stats">
             <div>
-            <div class="hero-stat-num">11+</div>
+            <div class="hero-stat-num">18+</div>
             <div class="hero-stat-label">let praxe</div>
         </div>
 <div>
-            <div class="hero-stat-num">165+</div>
+            <div class="hero-stat-num">200+</div>
             <div class="hero-stat-label">spokojených klientů</div>
         </div>
 <div>
@@ -756,28 +801,33 @@
         <div class="services-grid">
             <div class="service-card reveal reveal-d1">
             <div class="service-icon"><span>01</span></div>
-            <h3 class="service-title">Daňová přiznání</h3>
+            <h3 class="service-title">Transakční poradenství</h3>
             <p class="service-desc">Zpracování přiznání k dani z příjmů FO i PO, DPH a dalších daňových povinností s garancí kvality.</p>
         </div>
 <div class="service-card reveal reveal-d2">
             <div class="service-icon"><span>02</span></div>
-            <h3 class="service-title">Vedení účetnictví</h3>
+            <h3 class="service-title">Daňové dopady restrukturalizací</h3>
             <p class="service-desc">Podvojné účetnictví a daňová evidence pro živnostníky, s.r.o. i akciové společnosti.</p>
         </div>
 <div class="service-card reveal reveal-d3">
             <div class="service-icon"><span>03</span></div>
-            <h3 class="service-title">Mzdová agenda</h3>
+            <h3 class="service-title">Zpracování přiznání k dani</h3>
             <p class="service-desc">Komplexní zpracování mezd a personální administrativa pro zaměstnavatele všech velikostí.</p>
         </div>
 <div class="service-card reveal reveal-d4">
             <div class="service-icon"><span>04</span></div>
-            <h3 class="service-title">Daňová optimalizace</h3>
+            <h3 class="service-title">DPH a Intrastat compliance</h3>
             <p class="service-desc">Identifikace příležitostí ke snížení daňové povinnosti v souladu se zákonem.</p>
         </div>
 <div class="service-card reveal reveal-d4">
             <div class="service-icon"><span>05</span></div>
-            <h3 class="service-title">Ekonomické poradenství</h3>
+            <h3 class="service-title">Obecné poradenství</h3>
             <p class="service-desc">Poradenství při podnikatelských rozhodnutích, investicích a firemním rozvoji.</p>
+        </div>
+<div class="service-card reveal reveal-d4">
+            <div class="service-icon"><span>06</span></div>
+            <h3 class="service-title">Kompletní zpracování účetnictví</h3>
+            <p class="service-desc">Profesionální kompletní zpracování účetnictví přizpůsobené vašim potřebám.</p>
         </div>
 
         </div>
@@ -802,11 +852,11 @@
         <h3 class="stats-heading reveal reveal-d1">Výsledky, které mluví za nás.</h3>
         <div class="stats-grid">
             <div class="stat-card reveal reveal-d1">
-            <div class="stat-number" data-count="11" data-suffix="+">0+</div>
+            <div class="stat-number" data-count="18" data-suffix="+">0+</div>
             <div class="stat-label">let praxe</div>
         </div>
 <div class="stat-card reveal reveal-d2">
-            <div class="stat-number" data-count="165" data-suffix="+">0+</div>
+            <div class="stat-number" data-count="200" data-suffix="+">0+</div>
             <div class="stat-label">spokojených klientů</div>
         </div>
 <div class="stat-card reveal reveal-d3">
@@ -844,6 +894,8 @@
         </div>
     </div>
 </section>
+
+
 
 <!-- CONTACT — DARK CARD -->
 <section class="contact-wrapper" id="kontakt">

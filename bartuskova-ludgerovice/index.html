@@ -489,6 +489,51 @@
         }
 
         /* ═══ CONTACT — DARK CARD ═══ */
+        /* ═══ TESTIMONIALS ═══ */
+        .testimonials-section {
+            padding: clamp(80px, 12vh, 140px) clamp(24px, 4vw, 64px);
+            background: var(--bg-dark);
+            color: var(--text-on-dark);
+        }
+        .testimonials-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 24px;
+            margin-top: 48px;
+        }
+        .testimonial-card {
+            background: rgba(255,255,255,0.05);
+            border: 1px solid rgba(255,255,255,0.1);
+            border-radius: var(--radius-card);
+            padding: 36px 32px 28px;
+            display: flex; flex-direction: column; gap: 20px;
+            position: relative;
+        }
+        .testimonial-card::before {
+            content: '\201C';
+            font-family: var(--serif);
+            font-size: 5rem;
+            line-height: 1;
+            color: var(--accent);
+            opacity: 0.6;
+            position: absolute;
+            top: 12px; left: 28px;
+        }
+        .testimonial-text {
+            font-size: clamp(0.95rem, 1.5vw, 1.05rem);
+            line-height: 1.75;
+            color: rgba(242,240,233,0.85);
+            padding-top: 32px;
+            font-style: italic;
+        }
+        .testimonial-author {
+            font-size: 0.82rem;
+            font-weight: 600;
+            color: var(--accent);
+            letter-spacing: 0.06em;
+            text-transform: uppercase;
+        }
+
         .contact-wrapper {
             padding: clamp(60px, 10vh, 100px) clamp(24px, 4vw, 64px);
             background: var(--bg-warm);
@@ -731,7 +776,7 @@
         <a href="#kontakt" class="hero-cta">Kontaktovat</a>
         <div class="hero-stats">
             <div>
-            <div class="hero-stat-num">15+</div>
+            <div class="hero-stat-num">13+</div>
             <div class="hero-stat-label">let praxe</div>
         </div>
 <div>
@@ -802,7 +847,7 @@
         <h3 class="stats-heading reveal reveal-d1">Výsledky, které mluví za nás.</h3>
         <div class="stats-grid">
             <div class="stat-card reveal reveal-d1">
-            <div class="stat-number" data-count="15" data-suffix="+">0+</div>
+            <div class="stat-number" data-count="13" data-suffix="+">0+</div>
             <div class="stat-label">let praxe</div>
         </div>
 <div class="stat-card reveal reveal-d2">
@@ -839,6 +884,29 @@
             <span class="process-num">03 / PODÁNÍ A PRŮBĚŽNÁ PÉ</span>
             <h3 class="process-title">Podání a průběžná péče</h3>
             <p class="process-desc">Zajistím podání přiznání v zákonném termínu a zůstanu vaším daňovým partnerem.</p>
+        </div>
+
+        </div>
+    </div>
+</section>
+
+<!-- TESTIMONIALS -->
+<section class="testimonials-section" id="reference">
+    <div class="section-inner">
+        <div class="section-label reveal">REFERENCE</div>
+        <h2 class="section-title reveal reveal-d1">Co říkají naši klienti</h2>
+        <div class="testimonials-grid">
+            <div class="testimonial-card reveal reveal-d1">
+            <p class="testimonial-text">Školení bylo velmi profesionální, možnost pokládání dotazů, vše v klidu kanceláře/domova.</p>
+            
+        </div>
+<div class="testimonial-card reveal reveal-d2">
+            <p class="testimonial-text">Již mnoho let absolvuji školení společnosti ECONOMIS a jsem naprosto spokojená s výběrem lektorů a zpracováním podkladů a samotných přednášek.</p>
+            
+        </div>
+<div class="testimonial-card reveal reveal-d3">
+            <p class="testimonial-text">Spokojenost s lektory, s občerstvením, s organizací a v neposlední řadě spokojenost také s cenou školení.</p>
+            
         </div>
 
         </div>

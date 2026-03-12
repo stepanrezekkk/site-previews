@@ -489,6 +489,51 @@
         }
 
         /* ═══ CONTACT — DARK CARD ═══ */
+        /* ═══ TESTIMONIALS ═══ */
+        .testimonials-section {
+            padding: clamp(80px, 12vh, 140px) clamp(24px, 4vw, 64px);
+            background: var(--bg-dark);
+            color: var(--text-on-dark);
+        }
+        .testimonials-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 24px;
+            margin-top: 48px;
+        }
+        .testimonial-card {
+            background: rgba(255,255,255,0.05);
+            border: 1px solid rgba(255,255,255,0.1);
+            border-radius: var(--radius-card);
+            padding: 36px 32px 28px;
+            display: flex; flex-direction: column; gap: 20px;
+            position: relative;
+        }
+        .testimonial-card::before {
+            content: '\201C';
+            font-family: var(--serif);
+            font-size: 5rem;
+            line-height: 1;
+            color: var(--accent);
+            opacity: 0.6;
+            position: absolute;
+            top: 12px; left: 28px;
+        }
+        .testimonial-text {
+            font-size: clamp(0.95rem, 1.5vw, 1.05rem);
+            line-height: 1.75;
+            color: rgba(242,240,233,0.85);
+            padding-top: 32px;
+            font-style: italic;
+        }
+        .testimonial-author {
+            font-size: 0.82rem;
+            font-weight: 600;
+            color: var(--accent);
+            letter-spacing: 0.06em;
+            text-transform: uppercase;
+        }
+
         .contact-wrapper {
             padding: clamp(60px, 10vh, 100px) clamp(24px, 4vw, 64px);
             background: var(--bg-warm);
@@ -724,18 +769,18 @@
     <div class="hero-glow hero-glow-2"></div>
     <div class="hero-content">
         <h1>
-            <span class="hero-heading">Odborné daňové poradenství pro Prahu a okolí</span>
+            <span class="hero-heading">Finanční a mzdové účetnictví</span>
             <span class="hero-drama">Odbornost.</span>
         </h1>
         <p class="hero-sub">Luděk Vaňkát – zkušený daňový poradce v Praze s komplexními službami pro podnikatele a firmy pod značkou Lautia.</p>
         <a href="#kontakt" class="hero-cta">Domluvit konzultaci</a>
         <div class="hero-stats">
             <div>
-            <div class="hero-stat-num">20+</div>
+            <div class="hero-stat-num">30+</div>
             <div class="hero-stat-label">let praxe</div>
         </div>
 <div>
-            <div class="hero-stat-num">190+</div>
+            <div class="hero-stat-num">300+</div>
             <div class="hero-stat-label">spokojených klientů</div>
         </div>
 <div>
@@ -756,28 +801,23 @@
         <div class="services-grid">
             <div class="service-card reveal reveal-d1">
             <div class="service-icon"><span>01</span></div>
-            <h3 class="service-title">Daňová přiznání</h3>
+            <h3 class="service-title">Podvojnéúčetnictví</h3>
             <p class="service-desc">Přiznání k dani z příjmů fyzických i právnických osob zpracované odborně a včas.</p>
         </div>
 <div class="service-card reveal reveal-d2">
             <div class="service-icon"><span>02</span></div>
-            <h3 class="service-title">DPH</h3>
+            <h3 class="service-title">Daňováevidence</h3>
             <p class="service-desc">Přiznání k DPH, kontrolní hlášení a komplexní správa DPH agendy pro plátce.</p>
         </div>
 <div class="service-card reveal reveal-d3">
             <div class="service-icon"><span>03</span></div>
-            <h3 class="service-title">Podnikové poradenství</h3>
+            <h3 class="service-title">Mzdovéúčetnictví</h3>
             <p class="service-desc">Daňové poradenství při zakládání, restructuralizaci a prodeji podniků.</p>
         </div>
 <div class="service-card reveal reveal-d4">
             <div class="service-icon"><span>04</span></div>
-            <h3 class="service-title">Účetnictví</h3>
+            <h3 class="service-title">Daňovéporadenství</h3>
             <p class="service-desc">Vedení účetnictví a daňové evidence pro podnikatele a obchodní společnosti.</p>
-        </div>
-<div class="service-card reveal reveal-d4">
-            <div class="service-icon"><span>05</span></div>
-            <h3 class="service-title">Daňové konzultace</h3>
-            <p class="service-desc">Průběžné konzultace a poradenství v oblasti daňového plánování a optimalizace.</p>
         </div>
 
         </div>
@@ -790,7 +830,7 @@
     <div class="about-glow about-glow-2"></div>
     <div class="dot-grid"></div>
     <div class="about-inner">
-        <p class="about-intro reveal">Pod značkou Lautia poskytuji certifikované daňové poradenství v Praze s dlouholetou praxí a zaměřením na individuální potřeby klientů. Mým cílem je poskytovat komplexní daňové poradenství, které přinese klientům skutečnou přidanou hodnotu.</p>
+        <p class="about-intro reveal">Poskytujeme naše služby téměř 30 let nejen v Praze 10, ale i v blízkém okolí hlavního města.</p>
         <h2 class="about-drama reveal reveal-d1">Luděk Vaňkát</h2>
     </div>
 </section>
@@ -802,11 +842,11 @@
         <h3 class="stats-heading reveal reveal-d1">Výsledky, které mluví za nás.</h3>
         <div class="stats-grid">
             <div class="stat-card reveal reveal-d1">
-            <div class="stat-number" data-count="20" data-suffix="+">0+</div>
+            <div class="stat-number" data-count="30" data-suffix="+">0+</div>
             <div class="stat-label">let praxe</div>
         </div>
 <div class="stat-card reveal reveal-d2">
-            <div class="stat-number" data-count="190" data-suffix="+">0+</div>
+            <div class="stat-number" data-count="300" data-suffix="+">0+</div>
             <div class="stat-label">spokojených klientů</div>
         </div>
 <div class="stat-card reveal reveal-d3">
@@ -844,6 +884,8 @@
         </div>
     </div>
 </section>
+
+
 
 <!-- CONTACT — DARK CARD -->
 <section class="contact-wrapper" id="kontakt">

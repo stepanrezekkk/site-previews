@@ -489,6 +489,51 @@
         }
 
         /* ═══ CONTACT — DARK CARD ═══ */
+        /* ═══ TESTIMONIALS ═══ */
+        .testimonials-section {
+            padding: clamp(80px, 12vh, 140px) clamp(24px, 4vw, 64px);
+            background: var(--bg-dark);
+            color: var(--text-on-dark);
+        }
+        .testimonials-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 24px;
+            margin-top: 48px;
+        }
+        .testimonial-card {
+            background: rgba(255,255,255,0.05);
+            border: 1px solid rgba(255,255,255,0.1);
+            border-radius: var(--radius-card);
+            padding: 36px 32px 28px;
+            display: flex; flex-direction: column; gap: 20px;
+            position: relative;
+        }
+        .testimonial-card::before {
+            content: '\201C';
+            font-family: var(--serif);
+            font-size: 5rem;
+            line-height: 1;
+            color: var(--accent);
+            opacity: 0.6;
+            position: absolute;
+            top: 12px; left: 28px;
+        }
+        .testimonial-text {
+            font-size: clamp(0.95rem, 1.5vw, 1.05rem);
+            line-height: 1.75;
+            color: rgba(242,240,233,0.85);
+            padding-top: 32px;
+            font-style: italic;
+        }
+        .testimonial-author {
+            font-size: 0.82rem;
+            font-weight: 600;
+            color: var(--accent);
+            letter-spacing: 0.06em;
+            text-transform: uppercase;
+        }
+
         .contact-wrapper {
             padding: clamp(60px, 10vh, 100px) clamp(24px, 4vw, 64px);
             background: var(--bg-warm);
@@ -731,7 +776,7 @@
         <a href="#kontakt" class="hero-cta">Nezávazná konzultace</a>
         <div class="hero-stats">
             <div>
-            <div class="hero-stat-num">13+</div>
+            <div class="hero-stat-num">24</div>
             <div class="hero-stat-label">let praxe</div>
         </div>
 <div>
@@ -756,28 +801,33 @@
         <div class="services-grid">
             <div class="service-card reveal reveal-d1">
             <div class="service-icon"><span>01</span></div>
-            <h3 class="service-title">Přiznání k dani z příjmů</h3>
+            <h3 class="service-title">Optimalizace MANAGEMENTU</h3>
             <p class="service-desc">Zpracování daňových přiznání pro fyzické osoby, OSVČ i právnické osoby.</p>
         </div>
 <div class="service-card reveal reveal-d2">
             <div class="service-icon"><span>02</span></div>
-            <h3 class="service-title">Podvojné účetnictví</h3>
+            <h3 class="service-title">Zkušenosti při zastupování a vedení daňových kontrol</h3>
             <p class="service-desc">Vedení účetnictví pro s.r.o., a.s. i jiné právní formy podnikání.</p>
         </div>
 <div class="service-card reveal reveal-d3">
             <div class="service-icon"><span>03</span></div>
-            <h3 class="service-title">Mzdová agenda</h3>
+            <h3 class="service-title">Daňové poradenství</h3>
             <p class="service-desc">Kompletní zpracování mezd, přihlášení na úřady, roční zúčtování.</p>
         </div>
 <div class="service-card reveal reveal-d4">
             <div class="service-icon"><span>04</span></div>
-            <h3 class="service-title">DPH přiznání</h3>
+            <h3 class="service-title">Účetnictví a daňová evidence</h3>
             <p class="service-desc">Pravidelné zpracování přiznání k DPH, souhrnná hlášení, kontrolní hlášení.</p>
         </div>
 <div class="service-card reveal reveal-d4">
             <div class="service-icon"><span>05</span></div>
-            <h3 class="service-title">Daňová analýza</h3>
+            <h3 class="service-title">Mzdy a personalistika</h3>
             <p class="service-desc">Posouzení daňové situace, návrh optimalizačních opatření a doporučení.</p>
+        </div>
+<div class="service-card reveal reveal-d4">
+            <div class="service-icon"><span>06</span></div>
+            <h3 class="service-title">Krizové účetnictví</h3>
+            <p class="service-desc">Profesionální krizové účetnictví přizpůsobené vašim potřebám.</p>
         </div>
 
         </div>
@@ -802,7 +852,7 @@
         <h3 class="stats-heading reveal reveal-d1">Výsledky, které mluví za nás.</h3>
         <div class="stats-grid">
             <div class="stat-card reveal reveal-d1">
-            <div class="stat-number" data-count="13+" data-suffix="">0</div>
+            <div class="stat-number" data-count="24" data-suffix="">0</div>
             <div class="stat-label">let praxe</div>
         </div>
 <div class="stat-card reveal reveal-d2">
@@ -839,6 +889,29 @@
             <span class="process-num">03 / HOTOVO A PODÁNO</span>
             <h3 class="process-title">Hotovo a podáno</h3>
             <p class="process-desc">Přiznání zpracuji a podám v zákonné lhůtě, vy máte klid.</p>
+        </div>
+
+        </div>
+    </div>
+</section>
+
+<!-- TESTIMONIALS -->
+<section class="testimonials-section" id="reference">
+    <div class="section-inner">
+        <div class="section-label reveal">REFERENCE</div>
+        <h2 class="section-title reveal reveal-d1">Co říkají naši klienti</h2>
+        <div class="testimonials-grid">
+            <div class="testimonial-card reveal reveal-d1">
+            <p class="testimonial-text">Doporučení na Daňovou kancelář Kroul&Kroulová jsme získali již před několika lety a vzhledem k tomu, že jsme zrovna byli ve fázi hledání někoho, kdo by se s plnou profesní odpovědností postaral o zpracování našeho účetnictví, byla k realizaci vzájemné spolupráce přímá cesta. Po několika letech oboustranně spokojené kooperace dokážeme zcela jasně ocenit kvalitu a úroveň poskytovaných služeb i případnou rychlou pomoc při operativním řešení našich požadavků.</p>
+            
+        </div>
+<div class="testimonial-card reveal reveal-d2">
+            <p class="testimonial-text">Dlouholetá bezproblémová spolupráce a snížení celkové administrativní zátěže – i při nárůstu agendy se strany státní správy – mi při zpracování daňové evidence v Daňové kanceláři Kroul&Kroulová potvrzují, že ponechat vše v profesionálních rukou bylo správné rozhodnutí.</p>
+            
+        </div>
+<div class="testimonial-card reveal reveal-d3">
+            <p class="testimonial-text">Od počátku spolupráce bezchybná kvalita dodaných informací, garance poskytovaných služeb včetně pojistného krytí na případně způsobené škody a široký záběr znalostí, to byly naše rozhodující faktory při výběru společnosti na zpracování účetnictví. V neposlední řadě je to i cena služeb v porovnání se situací, kdybychom museli zaměstnat stejně erudovanou pracovní sílu.</p>
+            
         </div>
 
         </div>

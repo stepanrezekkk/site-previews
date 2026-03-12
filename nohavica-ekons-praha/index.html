@@ -489,6 +489,51 @@
         }
 
         /* ═══ CONTACT — DARK CARD ═══ */
+        /* ═══ TESTIMONIALS ═══ */
+        .testimonials-section {
+            padding: clamp(80px, 12vh, 140px) clamp(24px, 4vw, 64px);
+            background: var(--bg-dark);
+            color: var(--text-on-dark);
+        }
+        .testimonials-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 24px;
+            margin-top: 48px;
+        }
+        .testimonial-card {
+            background: rgba(255,255,255,0.05);
+            border: 1px solid rgba(255,255,255,0.1);
+            border-radius: var(--radius-card);
+            padding: 36px 32px 28px;
+            display: flex; flex-direction: column; gap: 20px;
+            position: relative;
+        }
+        .testimonial-card::before {
+            content: '\201C';
+            font-family: var(--serif);
+            font-size: 5rem;
+            line-height: 1;
+            color: var(--accent);
+            opacity: 0.6;
+            position: absolute;
+            top: 12px; left: 28px;
+        }
+        .testimonial-text {
+            font-size: clamp(0.95rem, 1.5vw, 1.05rem);
+            line-height: 1.75;
+            color: rgba(242,240,233,0.85);
+            padding-top: 32px;
+            font-style: italic;
+        }
+        .testimonial-author {
+            font-size: 0.82rem;
+            font-weight: 600;
+            color: var(--accent);
+            letter-spacing: 0.06em;
+            text-transform: uppercase;
+        }
+
         .contact-wrapper {
             padding: clamp(60px, 10vh, 100px) clamp(24px, 4vw, 64px);
             background: var(--bg-warm);
@@ -724,14 +769,14 @@
     <div class="hero-glow hero-glow-2"></div>
     <div class="hero-content">
         <h1>
-            <span class="hero-heading">Moderní daňové poradenství v Praze</span>
+            <span class="hero-heading">Účetnictví bez námahyod roku 1993</span>
             <span class="hero-drama">Praha.</span>
         </h1>
         <p class="hero-sub">Ing. Adam Nohavica – inovativní daňový poradce v Praze. Poskytuji moderní a efektivní daňové poradenství pro firmy, startupy a podnikatele s využitím nejnovějších nástrojů.</p>
         <a href="#kontakt" class="hero-cta">Zjistit více</a>
         <div class="hero-stats">
             <div>
-            <div class="hero-stat-num">11+</div>
+            <div class="hero-stat-num">33+</div>
             <div class="hero-stat-label">let praxe</div>
         </div>
 <div>
@@ -756,28 +801,33 @@
         <div class="services-grid">
             <div class="service-card reveal reveal-d1">
             <div class="service-icon"><span>01</span></div>
-            <h3 class="service-title">Daňová přiznání</h3>
+            <h3 class="service-title">Poradímes daněmi</h3>
             <p class="service-desc">Přesné a efektivní zpracování daňových přiznání všech typů s využitím moderních nástrojů.</p>
         </div>
 <div class="service-card reveal reveal-d2">
             <div class="service-icon"><span>02</span></div>
-            <h3 class="service-title">Daňová optimalizace</h3>
+            <h3 class="service-title">Podámedaňové přiznání</h3>
             <p class="service-desc">Inovativní přístupy k legální daňové optimalizaci pro maximální úspory vašeho podnikání.</p>
         </div>
 <div class="service-card reveal reveal-d3">
             <div class="service-icon"><span>03</span></div>
-            <h3 class="service-title">Poradenství pro startupy</h3>
+            <h3 class="service-title">Optimalizacedaní</h3>
             <p class="service-desc">Specializované daňové a ekonomické poradenství pro startupy od zakladatelské fáze po exit.</p>
         </div>
 <div class="service-card reveal reveal-d4">
             <div class="service-icon"><span>04</span></div>
-            <h3 class="service-title">Ekonomické analýzy</h3>
+            <h3 class="service-title">Daňové aspekty různých odvětví</h3>
             <p class="service-desc">Komplexní ekonomické analýzy, finanční modely a business plány pro rozhodování managementu.</p>
         </div>
 <div class="service-card reveal reveal-d4">
             <div class="service-icon"><span>05</span></div>
-            <h3 class="service-title">Daňové strukturování</h3>
+            <h3 class="service-title">Poradíme sdaněmi</h3>
             <p class="service-desc">Návrh optimální daňové struktury podnikání pro minimalizaci daní a právní bezpečnost.</p>
+        </div>
+<div class="service-card reveal reveal-d4">
+            <div class="service-icon"><span>06</span></div>
+            <h3 class="service-title">Správa {vendor_count} prodejců</h3>
+            <p class="service-desc">Profesionální správa {vendor_count} prodejců přizpůsobené vašim potřebám.</p>
         </div>
 
         </div>
@@ -802,7 +852,7 @@
         <h3 class="stats-heading reveal reveal-d1">Výsledky, které mluví za nás.</h3>
         <div class="stats-grid">
             <div class="stat-card reveal reveal-d1">
-            <div class="stat-number" data-count="11" data-suffix="+">0+</div>
+            <div class="stat-number" data-count="33" data-suffix="+">0+</div>
             <div class="stat-label">let praxe</div>
         </div>
 <div class="stat-card reveal reveal-d2">
@@ -839,6 +889,29 @@
             <span class="process-num">03 / VÝSLEDEK A PRŮBĚŽNÝ </span>
             <h3 class="process-title">Výsledek a průběžný servis</h3>
             <p class="process-desc">Podám dokumenty a zůstanu k dispozici jako váš průběžný daňový a ekonomický poradce.</p>
+        </div>
+
+        </div>
+    </div>
+</section>
+
+<!-- TESTIMONIALS -->
+<section class="testimonials-section" id="reference">
+    <div class="section-inner">
+        <div class="section-label reveal">REFERENCE</div>
+        <h2 class="section-title reveal reveal-d1">Co říkají naši klienti</h2>
+        <div class="testimonials-grid">
+            <div class="testimonial-card reveal reveal-d1">
+            <p class="testimonial-text">Vždy naprosto skvělý a rychlý servis, společnost EKONS mohu vřele doporučit a to po několikaté zkušenosti. Nejde pouze o poskytnou službu, ale i způsob komunikace. Má zkušenost je pouze pozitivní, oceňuji velmi milý přístup a trpělivost.</p>
+            
+        </div>
+<div class="testimonial-card reveal reveal-d2">
+            <p class="testimonial-text">Doporučení na EKONS jsem dostal na poslední chvíli, abych udělal daně. Pomohli mi se spoustou vedlejších kroků (např. jak používat datovou schránku), které celý proces urychlily a usnadnily. Nebuďte jako já - nečekejte na poslední chvíli, ale v každém případě EKONS vřele doporučuji :) Ať tak či onak.</p>
+            
+        </div>
+<div class="testimonial-card reveal reveal-d3">
+            <p class="testimonial-text">Nevím, jak je to s cenovým srovnáním, ale Adam mi poskytl velmi dobré služby pro daňové přiznání OSVČ.</p>
+            
         </div>
 
         </div>

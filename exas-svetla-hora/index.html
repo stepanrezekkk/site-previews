@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Danove poradenstvi ve Svetle Hore a okoli. Ing. Helena Zeisbergerova nabizi profesionalni danove sluzby pro firmy a podnikatele v Moravskoslezskem kraji.">
-    <title>EXAS | Danovy poradce Svetla Hora | Ing. Helena Zeisbergerova</title>
+    <meta name="description" content="Daňové poradenství ve Světlé Hoře a okolí. Ing. Helena Zeisbergerova nabízí profesionální daňové služby pro firmy a podnikatele v Moravskoslezském kraji.">
+    <title>EXAS | Daňový poradce Světlá Hora | Ing. Helena Zeisbergerova</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Playfair%20Display:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=DM%20Sans:wght@200;300;400;500;600;700;800&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
@@ -489,6 +489,51 @@
         }
 
         /* ═══ CONTACT — DARK CARD ═══ */
+        /* ═══ TESTIMONIALS ═══ */
+        .testimonials-section {
+            padding: clamp(80px, 12vh, 140px) clamp(24px, 4vw, 64px);
+            background: var(--bg-dark);
+            color: var(--text-on-dark);
+        }
+        .testimonials-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 24px;
+            margin-top: 48px;
+        }
+        .testimonial-card {
+            background: rgba(255,255,255,0.05);
+            border: 1px solid rgba(255,255,255,0.1);
+            border-radius: var(--radius-card);
+            padding: 36px 32px 28px;
+            display: flex; flex-direction: column; gap: 20px;
+            position: relative;
+        }
+        .testimonial-card::before {
+            content: '\201C';
+            font-family: var(--serif);
+            font-size: 5rem;
+            line-height: 1;
+            color: var(--accent);
+            opacity: 0.6;
+            position: absolute;
+            top: 12px; left: 28px;
+        }
+        .testimonial-text {
+            font-size: clamp(0.95rem, 1.5vw, 1.05rem);
+            line-height: 1.75;
+            color: rgba(242,240,233,0.85);
+            padding-top: 32px;
+            font-style: italic;
+        }
+        .testimonial-author {
+            font-size: 0.82rem;
+            font-weight: 600;
+            color: var(--accent);
+            letter-spacing: 0.06em;
+            text-transform: uppercase;
+        }
+
         .contact-wrapper {
             padding: clamp(60px, 10vh, 100px) clamp(24px, 4vw, 64px);
             background: var(--bg-warm);
@@ -724,10 +769,10 @@
     <div class="hero-glow hero-glow-2"></div>
     <div class="hero-content">
         <h1>
-            <span class="hero-heading">Danove poradenstvi pro region Svetla Hora a okoli</span>
+            <span class="hero-heading">Daňové poradenství pro region Světlá Hora a okolí</span>
             <span class="hero-drama">Spolehlivost.</span>
         </h1>
-        <p class="hero-sub">Ing. Helena Zeisbergerova a spolecnost EXAS poskytuje regionalni danove sluzby s hlubokym pochopenim potreb mistnich podnikatelu a firem.</p>
+        <p class="hero-sub">Ing. Helena Zeisbergerova a společnost EXAS poskytuje regionální daňové služby s hlubokým pochopením potřeb místních podnikatelů a firem.</p>
         <a href="#kontakt" class="hero-cta">Konzultace zdarma</a>
         <div class="hero-stats">
             <div>
@@ -736,11 +781,11 @@
         </div>
 <div>
             <div class="hero-stat-num">145+</div>
-            <div class="hero-stat-label">spokojenych klientu</div>
+            <div class="hero-stat-label">spokojených klientů</div>
         </div>
 <div>
             <div class="hero-stat-num">97%</div>
-            <div class="hero-stat-label">uspesnost podani</div>
+            <div class="hero-stat-label">úspěšnost podání</div>
         </div>
 
         </div>
@@ -751,33 +796,33 @@
 <section class="section-light" id="sluzby">
     <div class="section-inner">
         <div class="section-label reveal">NASE SLUZBY</div>
-        <h2 class="section-title reveal reveal-d1">Danove sluzby pro region i vzdalenou spolupraci</h2>
-        <p class="section-subtitle reveal reveal-d2">Nabizime kompletni danove sluzby dostupne osobne i na dalku pro klienty z celeho Moravskoslezskeho kraje.</p>
+        <h2 class="section-title reveal reveal-d1">Daňové služby pro region i vzdálenou spolupráci</h2>
+        <p class="section-subtitle reveal reveal-d2">Nabízíme kompletní daňové služby dostupné osobně i na dálku pro klienty z celého Moravskoslezského kraje.</p>
         <div class="services-grid">
             <div class="service-card reveal reveal-d1">
             <div class="service-icon"><span>01</span></div>
-            <h3 class="service-title">Danove poradenstvi</h3>
-            <p class="service-desc">Odborne danove poradenstvi vcetne zpracovani danovych prznani a danove optimalizace pro vsechny typy subjektu.</p>
+            <h3 class="service-title">Daňové poradenství</h3>
+            <p class="service-desc">Odborné daňové poradenství včetně zpracování daňových prznani a daňové optimalizace pro všechny typy subjektů.</p>
         </div>
 <div class="service-card reveal reveal-d2">
             <div class="service-icon"><span>02</span></div>
-            <h3 class="service-title">Vedeni ucetnictvi</h3>
-            <p class="service-desc">Kompletni ucetni sluzby vcetne podvojneho ucetnictvi, danove evidence a ucetni zaverky.</p>
+            <h3 class="service-title">Vedení účetnictví</h3>
+            <p class="service-desc">Kompletní účetní služby včetně podvojného účetnictví, daňové evidence a účetní závěrky.</p>
         </div>
 <div class="service-card reveal reveal-d3">
             <div class="service-icon"><span>03</span></div>
-            <h3 class="service-title">Zpracovani mezd</h3>
-            <p class="service-desc">Mzdova agenda, odvody pojistneho a reporty pro zamestnance i pojisteovny, vcetne rocniho zuctovani.</p>
+            <h3 class="service-title">Zpracování mezd</h3>
+            <p class="service-desc">Mzdová agenda, odvody pojistného a reporty pro zaměstnance i pojisteovny, včetně ročního zúčtování.</p>
         </div>
 <div class="service-card reveal reveal-d4">
             <div class="service-icon"><span>04</span></div>
-            <h3 class="service-title">Danove kontroly</h3>
-            <p class="service-desc">Zastupovani pri danove kontrole, priprava dokumentu a komunikace s financnim uradem.</p>
+            <h3 class="service-title">Daňové kontroly</h3>
+            <p class="service-desc">Zastupování při daňové kontrole, příprava dokumentů a komunikace s finančním úřadem.</p>
         </div>
 <div class="service-card reveal reveal-d4">
             <div class="service-icon"><span>05</span></div>
-            <h3 class="service-title">Poradenstvi pro OSVD</h3>
-            <p class="service-desc">Specialni poradenstvi pro osoby samostatne vydelecne cinne vcetne danove a odvodove optimalizace.</p>
+            <h3 class="service-title">Poradenství pro OSVD</h3>
+            <p class="service-desc">Speciální poradenství pro osoby samostatně výdělečně činné včetně daňové a odvodové optimalizace.</p>
         </div>
 
         </div>
@@ -790,8 +835,8 @@
     <div class="about-glow about-glow-2"></div>
     <div class="dot-grid"></div>
     <div class="about-inner">
-        <p class="about-intro reveal">Ing. Helena Zeisbergerova je danovy poradce se sidlem ve Svetle Hore, ktera pod znackou EXAS poskytuje danove a ucetni sluzby pro mistni i vzdalene klienty. Dobre zna specificka regionalni prostedi a potreby zdejsich podnikatelu. Osobni pristup a dostupnost jsou jejimi klicovymi hodnotami.</p>
-        <h2 class="about-drama reveal reveal-d1">Regionalni expertiza s osobnim pristupem</h2>
+        <p class="about-intro reveal">Víme, jak vám práci co nejvíce zjednodušit. Každodenní agendy stojí spoustu času a energie. Naučíme vás řešit rutinní operace rychleji a bez zbytečných chyb. Od začátku až do konce spolupráce vám kryjeme záda. Zakládáme si totiž na dlouhodobých partnerstvích.</p>
+        <h2 class="about-drama reveal reveal-d1">Regionální expertiza s osobním přístupem</h2>
     </div>
 </section>
 
@@ -807,11 +852,11 @@
         </div>
 <div class="stat-card reveal reveal-d2">
             <div class="stat-number" data-count="145" data-suffix="+">0+</div>
-            <div class="stat-label">spokojenych klientu</div>
+            <div class="stat-label">spokojených klientů</div>
         </div>
 <div class="stat-card reveal reveal-d3">
             <div class="stat-number" data-count="97" data-suffix="%">0%</div>
-            <div class="stat-label">uspesnost podani</div>
+            <div class="stat-label">úspěšnost podání</div>
         </div>
 
         </div>
@@ -822,23 +867,42 @@
 <section class="section-light" style="padding-top: 0;">
     <div class="section-inner">
         <div class="section-label reveal">JAK PRACUJEME</div>
-        <h2 class="section-title reveal reveal-d1">Flexibilni spoluprace pro kazdeho</h2>
-        <p class="section-subtitle reveal reveal-d2">Pracujeme osobne i na dalku tak, aby spoluprace s nami byla pro klienty co nejpohodlnejsi.</p>
+        <h2 class="section-title reveal reveal-d1">Flexibilní spolupráce pro každého</h2>
+        <p class="section-subtitle reveal reveal-d2">Pracujeme osobně i na dálku tak, aby spolupráce s námi byla pro klienty co nejpohodlnější.</p>
         <div class="process-grid">
             <div class="process-card reveal reveal-d1">
-            <span class="process-num">01 / PRVNI KONZULTACE</span>
-            <h3 class="process-title">Prvni konzultace</h3>
-            <p class="process-desc">Osobne nebo online se seznamime s vasimi potrebami a navrhneme optimalni reseni.</p>
+            <span class="process-num">01 / PRVNÍ KONZULTACE</span>
+            <h3 class="process-title">První konzultace</h3>
+            <p class="process-desc">Osobně nebo online se seznámíme s vašimi potřebami a navrhneme optimální řešení.</p>
         </div>
 <div class="process-card reveal reveal-d2">
-            <span class="process-num">02 / ZPRACOVANI AGENDY</span>
-            <h3 class="process-title">Zpracovani agendy</h3>
-            <p class="process-desc">Prevezmeme ucetni a danovou agendu, zpracujeme ji a prubezne vas informujeme o stavu.</p>
+            <span class="process-num">02 / ZPRACOVÁNÍ AGENDY</span>
+            <h3 class="process-title">Zpracování agendy</h3>
+            <p class="process-desc">Převezmeme účetní a daňovou agendu, zpracujeme ji a průběžně vás informujeme o stavu.</p>
         </div>
 <div class="process-card reveal reveal-d3">
-            <span class="process-num">03 / PODANI A KONTROLA</span>
-            <h3 class="process-title">Podani a kontrola</h3>
-            <p class="process-desc">Vcas podame vsechna danove podani a aktivne sledujeme komunikaci s prislusnymi urady.</p>
+            <span class="process-num">03 / PODÁNÍ A KONTROLA</span>
+            <h3 class="process-title">Podání a kontrola</h3>
+            <p class="process-desc">Včas podáme všechna daňové podání a aktivně sledujeme komunikaci s příslušnými úřady.</p>
+        </div>
+
+        </div>
+    </div>
+</section>
+
+<!-- TESTIMONIALS -->
+<section class="testimonials-section" id="reference">
+    <div class="section-inner">
+        <div class="section-label reveal">REFERENCE</div>
+        <h2 class="section-title reveal reveal-d1">Co říkají naši klienti</h2>
+        <div class="testimonials-grid">
+            <div class="testimonial-card reveal reveal-d1">
+            <p class="testimonial-text">„Díky širokým možnostem QI se nám podařilo dosáhnout optimalizace nákladů na výrobu a administrativu.“</p>
+            
+        </div>
+<div class="testimonial-card reveal reveal-d2">
+            <p class="testimonial-text">„Když započítám i předchozí zaměstnání, s QI pracuji již 15 let. Oceňuji, že ho vyvíjí česká firma, díky tomu jsou naše požadavky pružně řešeny, tím se zlepšuje práce koncových uživatelů.“</p>
+            
         </div>
 
         </div>
@@ -851,7 +915,7 @@
         <div class="contact-card-inner">
             <div class="contact-heading">
                 <div class="section-label reveal">KONTAKT</div>
-                <h2 class="section-title reveal reveal-d1">Pojdme spolupracovat</h2>
+                <h2 class="section-title reveal reveal-d1">Pojďme spolupracovat</h2>
             </div>
             <div class="contact-grid">
                 <dl class="contact-info-block reveal reveal-d2">
@@ -874,7 +938,7 @@
                         <textarea placeholder="Jak vám můžeme pomoci?"></textarea>
                     </div>
                     <button type="submit" class="form-submit">
-                        Odeslat zpravu
+                        Odeslat zprávu
                         <svg width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 8h10M9 4l4 4-4 4"/></svg>
                     </button>
                 </form>
@@ -889,7 +953,7 @@
         <div class="footer-top">
             <div class="footer-brand">
                 <h3>EXAS.</h3>
-                <p>Danove poradenstvi ve Svetle Hore a okoli. Ing. Helena Zeisbergerova nabizi profesionalni danove sluzby pro firmy a podnikatele v Moravskoslezskem kraji.</p>
+                <p>Daňové poradenství ve Světlé Hoře a okolí. Ing. Helena Zeisbergerova nabízí profesionální daňové služby pro firmy a podnikatele v Moravskoslezském kraji.</p>
                 <div class="footer-status">
                     <div class="footer-status-dot"></div>
                     <span>K dispozici</span>
