@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Danovy poradce Libuse Hruskova v Ceske Trebove. Danove poradenstvi, danove priznani a ucetnictvi pro podnikatele a fyzicke osoby.">
-    <title>Libuse Hruskova — Danovy poradce Ceska Trebova</title>
+    <meta name="description" content="Daňový poradce Libuše Hrušková v České Třebové. Daňové poradenství, daňové přiznání a účetnictví pro podnikatele a fyzické osoby.">
+    <title>Libuše Hruškova — Daňový poradce Česká Třebová</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Playfair%20Display:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=DM%20Sans:wght@200;300;400;500;600;700;800&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
@@ -489,6 +489,51 @@
         }
 
         /* ═══ CONTACT — DARK CARD ═══ */
+        /* ═══ TESTIMONIALS ═══ */
+        .testimonials-section {
+            padding: clamp(80px, 12vh, 140px) clamp(24px, 4vw, 64px);
+            background: var(--bg-dark);
+            color: var(--text-on-dark);
+        }
+        .testimonials-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 24px;
+            margin-top: 48px;
+        }
+        .testimonial-card {
+            background: rgba(255,255,255,0.05);
+            border: 1px solid rgba(255,255,255,0.1);
+            border-radius: var(--radius-card);
+            padding: 36px 32px 28px;
+            display: flex; flex-direction: column; gap: 20px;
+            position: relative;
+        }
+        .testimonial-card::before {
+            content: '\201C';
+            font-family: var(--serif);
+            font-size: 5rem;
+            line-height: 1;
+            color: var(--accent);
+            opacity: 0.6;
+            position: absolute;
+            top: 12px; left: 28px;
+        }
+        .testimonial-text {
+            font-size: clamp(0.95rem, 1.5vw, 1.05rem);
+            line-height: 1.75;
+            color: rgba(242,240,233,0.85);
+            padding-top: 32px;
+            font-style: italic;
+        }
+        .testimonial-author {
+            font-size: 0.82rem;
+            font-weight: 600;
+            color: var(--accent);
+            letter-spacing: 0.06em;
+            text-transform: uppercase;
+        }
+
         .contact-wrapper {
             padding: clamp(60px, 10vh, 100px) clamp(24px, 4vw, 64px);
             background: var(--bg-warm);
@@ -724,7 +769,7 @@
     <div class="hero-glow hero-glow-2"></div>
     <div class="hero-content">
         <h1>
-            <span class="hero-heading">Dane bez strachu</span>
+            <span class="hero-heading">Daně bez strachu</span>
             <span class="hero-drama">Klid.</span>
         </h1>
         <p class="hero-sub">Zkusena danová poradkyne v Ceske Trebove, ktera z danovych povinnnosti udela jednoduchy proces.</p>
@@ -740,7 +785,7 @@
         </div>
 <div>
             <div class="hero-stat-num">100%</div>
-            <div class="hero-stat-label">diskretnost a spolehlivost</div>
+            <div class="hero-stat-label">diskrétnost a spolehlivost</div>
         </div>
 
         </div>
@@ -751,38 +796,38 @@
 <section class="section-light" id="sluzby">
     <div class="section-inner">
         <div class="section-label reveal">NASE SLUZBY</div>
-        <h2 class="section-title reveal reveal-d1">Danove a ucetni sluzby pro vas</h2>
-        <p class="section-subtitle reveal reveal-d2">Vse co potrebujete pro bezproblemove splneni danovych povinnosti pod jednou strechou.</p>
+        <h2 class="section-title reveal reveal-d1">Daňové a účetní služby pro vás</h2>
+        <p class="section-subtitle reveal reveal-d2">Vše co potřebujete pro bezproblémové splnění daňových povinností pod jednou střechou.</p>
         <div class="services-grid">
             <div class="service-card reveal reveal-d1">
             <div class="service-icon"><span>01</span></div>
             <h3 class="service-title">Danove priznani OSVČ</h3>
-            <p class="service-desc">Zpracovani danovych priznani pro osoby samostatne vydelecne cinne s maximalizaci odectu.</p>
+            <p class="service-desc">Zpracování daňových přiznání pro osoby samostatně výdělečně činné s maximalizací odečtu.</p>
         </div>
 <div class="service-card reveal reveal-d2">
             <div class="service-icon"><span>02</span></div>
-            <h3 class="service-title">Danove priznani firem</h3>
-            <p class="service-desc">Zpracovani dan z prijmu pravnickych osob pro s.r.o. a akciove spolecnosti.</p>
+            <h3 class="service-title">Daňové přiznání firem</h3>
+            <p class="service-desc">Zpracování daň z příjmu právnických osob pro s.r.o. a akciové společnosti.</p>
         </div>
 <div class="service-card reveal reveal-d3">
             <div class="service-icon"><span>03</span></div>
             <h3 class="service-title">DPH</h3>
-            <p class="service-desc">Kompletni vedeni DPH agendy vcetne mesicnich a ctvrtletnich danovych priznani.</p>
+            <p class="service-desc">Kompletní vedení DPH agendy včetně měsíčních a čtvrtletních daňových přiznání.</p>
         </div>
 <div class="service-card reveal reveal-d4">
             <div class="service-icon"><span>04</span></div>
-            <h3 class="service-title">Danove poradenstvi</h3>
-            <p class="service-desc">Individualni poradenstvi pri nastaveni danove strategie a optimalizaci danove zateze.</p>
+            <h3 class="service-title">Daňové poradenství</h3>
+            <p class="service-desc">Individuální poradenství při nastavení daňové strategie a optimalizaci daňové zátěže.</p>
         </div>
 <div class="service-card reveal reveal-d4">
             <div class="service-icon"><span>05</span></div>
-            <h3 class="service-title">Zastupovani pred FU</h3>
-            <p class="service-desc">Zastoupeni pri danovych kontrolach a komunikaci s financnim uradem.</p>
+            <h3 class="service-title">Zastupování před FU</h3>
+            <p class="service-desc">Zastoupení při daňových kontrolách a komunikaci s finančním úřadem.</p>
         </div>
 <div class="service-card reveal reveal-d4">
             <div class="service-icon"><span>06</span></div>
-            <h3 class="service-title">Danove poradenstvi pri zmenach</h3>
-            <p class="service-desc">Poradenstvi pri zalozeni firmy, prodeji, prevodu nebo ukonceni podnikani.</p>
+            <h3 class="service-title">Daňové poradenství při změnách</h3>
+            <p class="service-desc">Poradenství při založení firmy, prodeji, převodu nebo ukončení podnikání.</p>
         </div>
 
         </div>
@@ -796,7 +841,7 @@
     <div class="dot-grid"></div>
     <div class="about-inner">
         <p class="about-intro reveal">V Ceske Trebove a okolí pusobim jako danovy poradce jiz radu let. Moji klienti ocenuji osobni pristup, dostupnost a schopnost poradit i ve slozitych situacich. Nejste pro me jen cislo.</p>
-        <h2 class="about-drama reveal reveal-d1">Mistni poradce, ktery vas skutecne zna</h2>
+        <h2 class="about-drama reveal reveal-d1">Místní poradce, který vás skutečně zná</h2>
     </div>
 </section>
 
@@ -816,7 +861,7 @@
         </div>
 <div class="stat-card reveal reveal-d3">
             <div class="stat-number" data-count="100" data-suffix="%">0%</div>
-            <div class="stat-label">diskretnost a spolehlivost</div>
+            <div class="stat-label">diskrétnost a spolehlivost</div>
         </div>
 
         </div>
@@ -827,13 +872,13 @@
 <section class="section-light" style="padding-top: 0;">
     <div class="section-inner">
         <div class="section-label reveal">JAK PRACUJI</div>
-        <h2 class="section-title reveal reveal-d1">Jednoducha cesta ke splnenym povinnostem</h2>
-        <p class="section-subtitle reveal reveal-d2">Muj overeny postup vam usetri cas, starosti i penize.</p>
+        <h2 class="section-title reveal reveal-d1">Jednoduchá cesta ke splněným povinnostem</h2>
+        <p class="section-subtitle reveal reveal-d2">Můj ověřený postup vám ušetří čas, starosti i peníze.</p>
         <div class="process-grid">
             <div class="process-card reveal reveal-d1">
             <span class="process-num">01 / ZAVOLAJTE MI</span>
             <h3 class="process-title">Zavolajte mi</h3>
-            <p class="process-desc">Nezavazne probereme vasi situaci telefonicky nebo osobne — bez zbytecnych formalit.</p>
+            <p class="process-desc">Nezávazně probereme vaši situaci telefonicky nebo osobně — bez zbytečných formalit.</p>
         </div>
 <div class="process-card reveal reveal-d2">
             <span class="process-num">02 / DODEJTE PODKLADY</span>
@@ -843,12 +888,14 @@
 <div class="process-card reveal reveal-d3">
             <span class="process-num">03 / HOTOVO</span>
             <h3 class="process-title">Hotovo</h3>
-            <p class="process-desc">Podam danove priznani, informuji vas o vysledku a jsem k dispozici pro dalsi dotazy.</p>
+            <p class="process-desc">Podám daňové přiznání, informují vás o výsledku a jsem k dispozici pro další dotazy.</p>
         </div>
 
         </div>
     </div>
 </section>
+
+
 
 <!-- CONTACT — DARK CARD -->
 <section class="contact-wrapper" id="kontakt">
@@ -856,7 +903,7 @@
         <div class="contact-card-inner">
             <div class="contact-heading">
                 <div class="section-label reveal">KONTAKT</div>
-                <h2 class="section-title reveal reveal-d1">Jsem tu pro vas</h2>
+                <h2 class="section-title reveal reveal-d1">Jsem tu pro vás</h2>
             </div>
             <div class="contact-grid">
                 <dl class="contact-info-block reveal reveal-d2">
@@ -894,7 +941,7 @@
         <div class="footer-top">
             <div class="footer-brand">
                 <h3>Libuse Hruskova.</h3>
-                <p>Danovy poradce Libuse Hruskova v Ceske Trebove. Danove poradenstvi, danove priznani a ucetnictvi pro podnikatele a fyzicke osoby.</p>
+                <p>Daňový poradce Libuše Hrušková v České Třebové. Daňové poradenství, daňové přiznání a účetnictví pro podnikatele a fyzické osoby.</p>
                 <div class="footer-status">
                     <div class="footer-status-dot"></div>
                     <span>K dispozici</span>

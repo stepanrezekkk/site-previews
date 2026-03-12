@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Ing. Alena Matenova, zkusena danová poradkyne v Praze. Danove optimalizace, ucetnictvi a zastupovani pred financnim uradem.">
-    <title>Ing. Alena Matenova — Danovy poradce Praha</title>
+    <title>Ing. Alena Matenova — Daňový poradce Praha</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Playfair%20Display:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=DM%20Sans:wght@200;300;400;500;600;700;800&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
@@ -489,6 +489,51 @@
         }
 
         /* ═══ CONTACT — DARK CARD ═══ */
+        /* ═══ TESTIMONIALS ═══ */
+        .testimonials-section {
+            padding: clamp(80px, 12vh, 140px) clamp(24px, 4vw, 64px);
+            background: var(--bg-dark);
+            color: var(--text-on-dark);
+        }
+        .testimonials-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 24px;
+            margin-top: 48px;
+        }
+        .testimonial-card {
+            background: rgba(255,255,255,0.05);
+            border: 1px solid rgba(255,255,255,0.1);
+            border-radius: var(--radius-card);
+            padding: 36px 32px 28px;
+            display: flex; flex-direction: column; gap: 20px;
+            position: relative;
+        }
+        .testimonial-card::before {
+            content: '\201C';
+            font-family: var(--serif);
+            font-size: 5rem;
+            line-height: 1;
+            color: var(--accent);
+            opacity: 0.6;
+            position: absolute;
+            top: 12px; left: 28px;
+        }
+        .testimonial-text {
+            font-size: clamp(0.95rem, 1.5vw, 1.05rem);
+            line-height: 1.75;
+            color: rgba(242,240,233,0.85);
+            padding-top: 32px;
+            font-style: italic;
+        }
+        .testimonial-author {
+            font-size: 0.82rem;
+            font-weight: 600;
+            color: var(--accent);
+            letter-spacing: 0.06em;
+            text-transform: uppercase;
+        }
+
         .contact-wrapper {
             padding: clamp(60px, 10vh, 100px) clamp(24px, 4vw, 64px);
             background: var(--bg-warm);
@@ -724,7 +769,7 @@
     <div class="hero-glow hero-glow-2"></div>
     <div class="hero-content">
         <h1>
-            <span class="hero-heading">Vase dane v dobrych rukou</span>
+            <span class="hero-heading">Vaše daně v dobrých rukou</span>
             <span class="hero-drama">Preciznost.</span>
         </h1>
         <p class="hero-sub">Prazska danová poradkyne s letitymi zkusenostmi v oblasti danovych optimalizaci pro podnikatele i korporace.</p>
@@ -751,23 +796,23 @@
 <section class="section-light" id="sluzby">
     <div class="section-inner">
         <div class="section-label reveal">NASE SLUZBY</div>
-        <h2 class="section-title reveal reveal-d1">Odborne danove sluzby v Praze</h2>
+        <h2 class="section-title reveal reveal-d1">Odborné daňové služby v Praze</h2>
         <p class="section-subtitle reveal reveal-d2">Komplexni danove reseni pro fyzicke osoby, OSVČ a spolecnosti vsech velikosti.</p>
         <div class="services-grid">
             <div class="service-card reveal reveal-d1">
             <div class="service-icon"><span>01</span></div>
             <h3 class="service-title">SLUŽBYÚČETNICTVÍDAŇOVÉ PORADENSTVÍ</h3>
-            <p class="service-desc">Specialni poradenstvi pro zivnostniky a svobodna povolani. Uplatneni vsech zakonnych odpoctu.</p>
+            <p class="service-desc">Speciální poradenství pro živnostníky a svobodná povolání. Uplatnění všech zákonných odpočtů.</p>
         </div>
 <div class="service-card reveal reveal-d2">
             <div class="service-icon"><span>02</span></div>
             <h3 class="service-title">ÚČETNICTVÍ</h3>
-            <p class="service-desc">Legalni strategie pro snizeni danove povinnosti vasi spolecnosti pri zachovani plne compliance.</p>
+            <p class="service-desc">Legální strategie pro snížení daňové povinnosti vaší společnosti při zachování plně compliance.</p>
         </div>
 <div class="service-card reveal reveal-d3">
             <div class="service-icon"><span>03</span></div>
             <h3 class="service-title">DAŇOVÉ PORADENSTVÍ</h3>
-            <p class="service-desc">Profesionalni zastoupeni pri danovych kontrolach a odvolacich rizenich pred financnim uradem.</p>
+            <p class="service-desc">Profesionální zastoupení při daňových kontrolách a odvolacích řízeních před finančním úřadem.</p>
         </div>
 
         </div>
@@ -780,7 +825,7 @@
     <div class="about-glow about-glow-2"></div>
     <div class="dot-grid"></div>
     <div class="about-inner">
-        <p class="about-intro reveal">Ing. Alena Matenova kombinuje hluboke znalosti ceskeho danovcho prava s praktickymi zkusenostmi z tisicu danovych priznani a kontrol.</p>
+        <p class="about-intro reveal">Ing. Alena Matenova kombinuje hluboké znalosti českého danovcho práva s praktickými zkušenostmi z tisíců daňových přiznání a kontrol.</p>
         <h2 class="about-drama reveal reveal-d1">Praha potřebuje zkusene poradce</h2>
     </div>
 </section>
@@ -812,28 +857,30 @@
 <section class="section-light" style="padding-top: 0;">
     <div class="section-inner">
         <div class="section-label reveal">JAK PRACUJEME</div>
-        <h2 class="section-title reveal reveal-d1">Vas klic k danovemu klidu</h2>
-        <p class="section-subtitle reveal reveal-d2">Transparentni a efektivni spoluprace od prvniho kontaktu az po uzavreni pripadu.</p>
+        <h2 class="section-title reveal reveal-d1">Váš klíč k daňovému klidu</h2>
+        <p class="section-subtitle reveal reveal-d2">Transparentní a efektivní spolupráce od prvního kontaktu až po uzavření případu.</p>
         <div class="process-grid">
             <div class="process-card reveal reveal-d1">
-            <span class="process-num">01 / ANALYZA SITUACE</span>
-            <h3 class="process-title">Analyza situace</h3>
+            <span class="process-num">01 / ANALÝZA SITUACE</span>
+            <h3 class="process-title">Analýza situace</h3>
             <p class="process-desc">Dukladne prozkoumani vasi danove situace a identifikace priležitosti k optimalizaci.</p>
         </div>
 <div class="process-card reveal reveal-d2">
-            <span class="process-num">02 / ZPRACOVANI A PODANI</span>
-            <h3 class="process-title">Zpracovani a podani</h3>
-            <p class="process-desc">Precizni zpracovani vsech danovych dokumentu a jejich vcasne podani na pris lusny urad.</p>
+            <span class="process-num">02 / ZPRACOVÁNÍ A PODÁNÍ</span>
+            <h3 class="process-title">Zpracování a podání</h3>
+            <p class="process-desc">Precizní zpracování všech daňových dokumentů a jejich včasné podání na pris lusny úřad.</p>
         </div>
 <div class="process-card reveal reveal-d3">
-            <span class="process-num">03 / NASLEDNA PODPORA</span>
-            <h3 class="process-title">Nasledna podpora</h3>
-            <p class="process-desc">Dostupnost pro dotazy, konzultace a rychla reakce na jakekoli nasledne pozadavky ze strany FU.</p>
+            <span class="process-num">03 / NÁSLEDNÁ PODPORA</span>
+            <h3 class="process-title">Následná podpora</h3>
+            <p class="process-desc">Dostupnost pro dotazy, konzultace a rychlá reakce na jakékoli následné požadavky ze strany FU.</p>
         </div>
 
         </div>
     </div>
 </section>
+
+
 
 <!-- CONTACT — DARK CARD -->
 <section class="contact-wrapper" id="kontakt">

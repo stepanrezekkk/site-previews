@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Ing. Ladislav Dvoracek, danovy poradce v Benesove. Danove a pravni poradenstvi, danove uznani a optimalizace pro podnikatele.">
-    <title>Ing. Ladislav Dvoracek — Danovy poradce Benesov</title>
+    <meta name="description" content="Ing. Ladislav Dvořáček, daňový poradce v Benešově. Daňové a právní poradenství, daňové uznání a optimalizace pro podnikatele.">
+    <title>Ing. Ladislav Dvořáček — Daňový poradce Benešov</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Playfair%20Display:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=DM%20Sans:wght@200;300;400;500;600;700;800&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
@@ -489,6 +489,51 @@
         }
 
         /* ═══ CONTACT — DARK CARD ═══ */
+        /* ═══ TESTIMONIALS ═══ */
+        .testimonials-section {
+            padding: clamp(80px, 12vh, 140px) clamp(24px, 4vw, 64px);
+            background: var(--bg-dark);
+            color: var(--text-on-dark);
+        }
+        .testimonials-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 24px;
+            margin-top: 48px;
+        }
+        .testimonial-card {
+            background: rgba(255,255,255,0.05);
+            border: 1px solid rgba(255,255,255,0.1);
+            border-radius: var(--radius-card);
+            padding: 36px 32px 28px;
+            display: flex; flex-direction: column; gap: 20px;
+            position: relative;
+        }
+        .testimonial-card::before {
+            content: '\201C';
+            font-family: var(--serif);
+            font-size: 5rem;
+            line-height: 1;
+            color: var(--accent);
+            opacity: 0.6;
+            position: absolute;
+            top: 12px; left: 28px;
+        }
+        .testimonial-text {
+            font-size: clamp(0.95rem, 1.5vw, 1.05rem);
+            line-height: 1.75;
+            color: rgba(242,240,233,0.85);
+            padding-top: 32px;
+            font-style: italic;
+        }
+        .testimonial-author {
+            font-size: 0.82rem;
+            font-weight: 600;
+            color: var(--accent);
+            letter-spacing: 0.06em;
+            text-transform: uppercase;
+        }
+
         .contact-wrapper {
             padding: clamp(60px, 10vh, 100px) clamp(24px, 4vw, 64px);
             background: var(--bg-warm);
@@ -728,7 +773,7 @@
             <span class="hero-drama">Duvera.</span>
         </h1>
         <p class="hero-sub">Danovy poradce v Benesove se specializaci na danové a pravni poradenstvi pro podnikatele a fyzicke osoby.</p>
-        <a href="#kontakt" class="hero-cta">Ziskat danovou konzultaci</a>
+        <a href="#kontakt" class="hero-cta">Získat daňovou konzultaci</a>
         <div class="hero-stats">
             <div>
             <div class="hero-stat-num">260+</div>
@@ -736,7 +781,7 @@
         </div>
 <div>
             <div class="hero-stat-num">13+</div>
-            <div class="hero-stat-label">let zkusenosti</div>
+            <div class="hero-stat-label">let zkušeností</div>
         </div>
 <div>
             <div class="hero-stat-num">97%</div>
@@ -752,27 +797,27 @@
     <div class="section-inner">
         <div class="section-label reveal">NASE SLUZBY</div>
         <h2 class="section-title reveal reveal-d1">Danové a pravni sluzby v Benesove</h2>
-        <p class="section-subtitle reveal reveal-d2">Komplexni poradenstvi v oblasti dani a prava pro firmy i jednotlivce v regionu.</p>
+        <p class="section-subtitle reveal reveal-d2">Komplexní poradenství v oblasti daní a práva pro firmy i jednotlivce v regionu.</p>
         <div class="services-grid">
             <div class="service-card reveal reveal-d1">
             <div class="service-icon"><span>01</span></div>
             <h3 class="service-title">Danové poradenstvi</h3>
-            <p class="service-desc">Odborne poradenstvi v oblasti dani z prijmu, DPH, majetkovych dani a dalsiho zdaneni.</p>
+            <p class="service-desc">Odborné poradenství v oblasti daní z příjmů, DPH, majetkových daní a dalšího zdanění.</p>
         </div>
 <div class="service-card reveal reveal-d2">
             <div class="service-icon"><span>02</span></div>
-            <h3 class="service-title">Danove priznani</h3>
+            <h3 class="service-title">Daňové přiznání</h3>
             <p class="service-desc">Zpracovani danovych priznani pro fyzicke i pravnicke osoby s maximalizaci zákonnách odpoctu.</p>
         </div>
 <div class="service-card reveal reveal-d3">
             <div class="service-icon"><span>03</span></div>
-            <h3 class="service-title">Pravni poradenstvi</h3>
-            <p class="service-desc">Kombinace danovych a pravnich sluzeb pro komplexni pokryti potreb vasi firmy.</p>
+            <h3 class="service-title">Právní poradenství</h3>
+            <p class="service-desc">Kombinace daňových a právních služeb pro komplexní pokrytí potřeb vaší firmy.</p>
         </div>
 <div class="service-card reveal reveal-d4">
             <div class="service-icon"><span>04</span></div>
-            <h3 class="service-title">Zastupovani pred FU</h3>
-            <p class="service-desc">Odborne zastoupeni pri danovych kontrolach a jednani s financnim uradem.</p>
+            <h3 class="service-title">Zastupování před FU</h3>
+            <p class="service-desc">Odborné zastoupení při daňových kontrolách a jednání s finančním úřadem.</p>
         </div>
 <div class="service-card reveal reveal-d4">
             <div class="service-icon"><span>05</span></div>
@@ -781,8 +826,8 @@
         </div>
 <div class="service-card reveal reveal-d4">
             <div class="service-icon"><span>06</span></div>
-            <h3 class="service-title">Danove planovani</h3>
-            <p class="service-desc">Nastaveni efektivni danove strategie pro minimalizaci danovych povinnosti.</p>
+            <h3 class="service-title">Daňové plánování</h3>
+            <p class="service-desc">Nastavení efektivní daňové strategie pro minimalizaci daňových povinností.</p>
         </div>
 
         </div>
@@ -795,8 +840,8 @@
     <div class="about-glow about-glow-2"></div>
     <div class="dot-grid"></div>
     <div class="about-inner">
-        <p class="about-intro reveal">Ing. Ladislav Dvoracek poskytuje danove poradenstvi s durazem na individualni pristup ke kazdemu klientovi a praktickym vyuzitim zakonu v jeho prospech.</p>
-        <h2 class="about-drama reveal reveal-d1">Zkusenosti a osobni pristup</h2>
+        <p class="about-intro reveal">Ing. Ladislav Dvořáček poskytuje daňové poradenství s důrazem na individuální přístup ke každému klientovi a praktickým využitím zákonů v jeho prospěch.</p>
+        <h2 class="about-drama reveal reveal-d1">Zkušeností a osobní přístup</h2>
     </div>
 </section>
 
@@ -812,7 +857,7 @@
         </div>
 <div class="stat-card reveal reveal-d2">
             <div class="stat-number" data-count="13" data-suffix="+">0+</div>
-            <div class="stat-label">let zkusenosti</div>
+            <div class="stat-label">let zkušeností</div>
         </div>
 <div class="stat-card reveal reveal-d3">
             <div class="stat-number" data-count="97" data-suffix="%">0%</div>
@@ -827,28 +872,30 @@
 <section class="section-light" style="padding-top: 0;">
     <div class="section-inner">
         <div class="section-label reveal">JAK PRACUJEME</div>
-        <h2 class="section-title reveal reveal-d1">Jasny a efektivni postup</h2>
+        <h2 class="section-title reveal reveal-d1">Jasný a efektivní postup</h2>
         <p class="section-subtitle reveal reveal-d2">Spoluprace zalozena na duveře a transparentnosti od prvniho setkani.</p>
         <div class="process-grid">
             <div class="process-card reveal reveal-d1">
-            <span class="process-num">01 / PRVNI KONZULTACE</span>
-            <h3 class="process-title">Prvni konzultace</h3>
-            <p class="process-desc">Bezplatne setkani pro zhodnoceni vasi danove situace a navrh reseni na miru.</p>
+            <span class="process-num">01 / PRVNÍ KONZULTACE</span>
+            <h3 class="process-title">První konzultace</h3>
+            <p class="process-desc">Bezplatné setkání pro zhodnocení vaší daňové situace a návrh řešení na míru.</p>
         </div>
 <div class="process-card reveal reveal-d2">
-            <span class="process-num">02 / ZPRACOVANI A ANALYZA</span>
-            <h3 class="process-title">Zpracovani a analyza</h3>
-            <p class="process-desc">Odborne zpracovani vsech podkladu a nalezeni nejlepsi danove strategie.</p>
+            <span class="process-num">02 / ZPRACOVÁNÍ A ANALÝZA</span>
+            <h3 class="process-title">Zpracování a analýza</h3>
+            <p class="process-desc">Odborné zpracování všech podkladů a nalezení nejlepší daňové strategie.</p>
         </div>
 <div class="process-card reveal reveal-d3">
             <span class="process-num">03 / REALIZACE A PODPORA</span>
             <h3 class="process-title">Realizace a podpora</h3>
-            <p class="process-desc">Podani danovych dokumentu a prubezna podpora pri komunikaci s urady.</p>
+            <p class="process-desc">Podání daňových dokumentů a průběžná podpora při komunikaci s úřady.</p>
         </div>
 
         </div>
     </div>
 </section>
+
+
 
 <!-- CONTACT — DARK CARD -->
 <section class="contact-wrapper" id="kontakt">
@@ -879,7 +926,7 @@
                         <textarea placeholder="Jak vám můžeme pomoci?"></textarea>
                     </div>
                     <button type="submit" class="form-submit">
-                        Odeslat zpravu
+                        Odeslat zprávu
                         <svg width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 8h10M9 4l4 4-4 4"/></svg>
                     </button>
                 </form>
@@ -894,7 +941,7 @@
         <div class="footer-top">
             <div class="footer-brand">
                 <h3>Ladislav Dvoracek.</h3>
-                <p>Ing. Ladislav Dvoracek, danovy poradce v Benesove. Danove a pravni poradenstvi, danove uznani a optimalizace pro podnikatele.</p>
+                <p>Ing. Ladislav Dvořáček, daňový poradce v Benešově. Daňové a právní poradenství, daňové uznání a optimalizace pro podnikatele.</p>
                 <div class="footer-status">
                     <div class="footer-status-dot"></div>
                     <span>K dispozici</span>

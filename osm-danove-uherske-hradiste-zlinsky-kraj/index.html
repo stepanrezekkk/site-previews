@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Danove poradenstvi Ing. Romana Ondruska v Uherskem Hradisti. Specializace na dane z prijmu, DPH a ucetnictvi pro podnikatele na Slovacku.">
-    <title>Ing. Roman Ondrusek | Danovy poradce Uherske Hradiste</title>
+    <meta name="description" content="Daňové poradenství Ing. Romana Ondruška v Uherském Hradišti. Specializace na daně z příjmu, DPH a účetnictví pro podnikatele na Slovácku.">
+    <title>Ing. Roman Ondrůšek | Daňový poradce Uherské Hradiště</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=DM%20Serif%20Display:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Outfit:wght@200;300;400;500;600;700;800&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
@@ -489,6 +489,51 @@
         }
 
         /* ═══ CONTACT — DARK CARD ═══ */
+        /* ═══ TESTIMONIALS ═══ */
+        .testimonials-section {
+            padding: clamp(80px, 12vh, 140px) clamp(24px, 4vw, 64px);
+            background: var(--bg-dark);
+            color: var(--text-on-dark);
+        }
+        .testimonials-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 24px;
+            margin-top: 48px;
+        }
+        .testimonial-card {
+            background: rgba(255,255,255,0.05);
+            border: 1px solid rgba(255,255,255,0.1);
+            border-radius: var(--radius-card);
+            padding: 36px 32px 28px;
+            display: flex; flex-direction: column; gap: 20px;
+            position: relative;
+        }
+        .testimonial-card::before {
+            content: '\201C';
+            font-family: var(--serif);
+            font-size: 5rem;
+            line-height: 1;
+            color: var(--accent);
+            opacity: 0.6;
+            position: absolute;
+            top: 12px; left: 28px;
+        }
+        .testimonial-text {
+            font-size: clamp(0.95rem, 1.5vw, 1.05rem);
+            line-height: 1.75;
+            color: rgba(242,240,233,0.85);
+            padding-top: 32px;
+            font-style: italic;
+        }
+        .testimonial-author {
+            font-size: 0.82rem;
+            font-weight: 600;
+            color: var(--accent);
+            letter-spacing: 0.06em;
+            text-transform: uppercase;
+        }
+
         .contact-wrapper {
             padding: clamp(60px, 10vh, 100px) clamp(24px, 4vw, 64px);
             background: var(--bg-warm);
@@ -724,11 +769,11 @@
     <div class="hero-glow hero-glow-2"></div>
     <div class="hero-content">
         <h1>
-            <span class="hero-heading">Spolehlivy poradce pro vas byznys</span>
+            <span class="hero-heading">Spolehlivý poradce pro vás byznys</span>
             <span class="hero-drama">Spolehlivost.</span>
         </h1>
         <p class="hero-sub">Komplexni danove poradenstvi v srdci Slovacka. Postarám se o vase dane tak, abyste se mohli soustredit na podnikani.</p>
-        <a href="#kontakt" class="hero-cta">Ziskat nabidku zdarma</a>
+        <a href="#kontakt" class="hero-cta">Získat nabídku zdarma</a>
         <div class="hero-stats">
             <div>
             <div class="hero-stat-num">280+</div>
@@ -751,38 +796,38 @@
 <section class="section-light" id="sluzby">
     <div class="section-inner">
         <div class="section-label reveal">NASE SLUZBY</div>
-        <h2 class="section-title reveal reveal-d1">Danove sluzby na miru</h2>
+        <h2 class="section-title reveal reveal-d1">Daňové služby na míru</h2>
         <p class="section-subtitle reveal reveal-d2">Individualni pristup ke kazdemu klientovi z regionu Zlinského kraje.</p>
         <div class="services-grid">
             <div class="service-card reveal reveal-d1">
             <div class="service-icon"><span>01</span></div>
             <h3 class="service-title">přiznání k dani z příjmů právnických osob</h3>
-            <p class="service-desc">Danove poradenstvi pro zivnostniky, OSVC a fyzicke osoby vcetne optimalizace danovych povinnosti.</p>
+            <p class="service-desc">Daňové poradenství pro živnostníky, OSVČ a fyzické osoby včetně optimalizace daňových povinností.</p>
         </div>
 <div class="service-card reveal reveal-d2">
             <div class="service-icon"><span>02</span></div>
             <h3 class="service-title">přiznání k dani z příjmů fyzických osob</h3>
-            <p class="service-desc">Komplexni danove rizeni pro spolecnosti s rucenim omezenym a akciove spolecnosti.</p>
+            <p class="service-desc">Komplexní daňové řízení pro společnosti s ručením omezeným a akciové společnosti.</p>
         </div>
 <div class="service-card reveal reveal-d3">
             <div class="service-icon"><span>03</span></div>
             <h3 class="service-title">přiznání k dani z přidané hodnoty</h3>
-            <p class="service-desc">Zpracovani mesicnich a ctvrtletnich danovych priznani k DPH a hlaseni Intrastat.</p>
+            <p class="service-desc">Zpracování měsíčních a čtvrtletních daňových přiznání k DPH a hlášení Intrastat.</p>
         </div>
 <div class="service-card reveal reveal-d4">
             <div class="service-icon"><span>04</span></div>
             <h3 class="service-title">přiznání k dani silniční</h3>
-            <p class="service-desc">Danove aspekty prodeje a koupi nemovitosti, optimalizace danove povinnosti pri prevodu.</p>
+            <p class="service-desc">Daňové aspekty prodeje a koupi nemovitostí, optimalizace daňové povinnosti při převodu.</p>
         </div>
 <div class="service-card reveal reveal-d4">
             <div class="service-icon"><span>05</span></div>
             <h3 class="service-title">přiznání k dani z nemovitých věcí</h3>
-            <p class="service-desc">Plne zastoupeni pri danovych kontrolach, vyhledavani a predlozeni dukazu v prospech klienta.</p>
+            <p class="service-desc">Plné zastoupení při daňových kontrolách, vyhledávání a předložení důkazů v prospěch klienta.</p>
         </div>
 <div class="service-card reveal reveal-d4">
             <div class="service-icon"><span>06</span></div>
             <h3 class="service-title">vyúčtování daně z příjmu fyzických osob ze závislé činnosti a funkčních požitků</h3>
-            <p class="service-desc">Strategicke danove planovani pro budouci roky s ohledem na legislativni zmeny.</p>
+            <p class="service-desc">Strategické daňové plánování pro budoucí roky s ohledem na legislativní změny.</p>
         </div>
 
         </div>
@@ -796,7 +841,7 @@
     <div class="dot-grid"></div>
     <div class="about-inner">
         <p class="about-intro reveal">Ing. Roman Ondrusek psobeni v oblasti danoveho poradenstvi buduje na pevnych zakladech etiky, odbornosti a osobniho vztahu ke klientum. Kancelar 30OSM patri k overenim poradcum v regionu Zlinského kraje.</p>
-        <h2 class="about-drama reveal reveal-d1">Dvacet let ve sluzbach vasich dani</h2>
+        <h2 class="about-drama reveal reveal-d1">Dvacet let ve službách vašich daní</h2>
     </div>
 </section>
 
@@ -827,22 +872,22 @@
 <section class="section-light" style="padding-top: 0;">
     <div class="section-inner">
         <div class="section-label reveal">POSTUP SPOLUPRACE</div>
-        <h2 class="section-title reveal reveal-d1">Jak zacit spolupracovat</h2>
-        <p class="section-subtitle reveal reveal-d2">Jednoduchy trojkrokovy proces ke klidu v oblasti dani.</p>
+        <h2 class="section-title reveal reveal-d1">Jak začít spolupracovat</h2>
+        <p class="section-subtitle reveal reveal-d2">Jednoduchý trojkrokovy proces ke klidu v oblasti daní.</p>
         <div class="process-grid">
             <div class="process-card reveal reveal-d1">
-            <span class="process-num">01 / UVODNI KONZULTACE</span>
-            <h3 class="process-title">Uvodni konzultace</h3>
-            <p class="process-desc">Bezplatne si promluvime o vasi situaci a navrhneme nejvhodnejsi pristup ke sprave vasich dani.</p>
+            <span class="process-num">01 / ÚVODNÍ KONZULTACE</span>
+            <h3 class="process-title">Úvodní konzultace</h3>
+            <p class="process-desc">Bezplatně si promluvíme o vaši situaci a navrhneme nejvhodnější přístup ke správě vašich daní.</p>
         </div>
 <div class="process-card reveal reveal-d2">
-            <span class="process-num">02 / ZPRACOVANI DOKUMENTU</span>
-            <h3 class="process-title">Zpracovani dokumentu</h3>
-            <p class="process-desc">Prebereme veskere danove doklady a posouzime spravnost zaznamu v ucetnictvi.</p>
+            <span class="process-num">02 / ZPRACOVÁNÍ DOKUMENTU</span>
+            <h3 class="process-title">Zpracování dokumentu</h3>
+            <p class="process-desc">Přebereme veškeré daňové doklady a posouzime správnost záznamu v účetnictví.</p>
         </div>
 <div class="process-card reveal reveal-d3">
-            <span class="process-num">03 / PODANI A SLEDOVANI</span>
-            <h3 class="process-title">Podani a sledovani</h3>
+            <span class="process-num">03 / PODÁNÍ A SLEDOVÁNÍ</span>
+            <h3 class="process-title">Podání a sledování</h3>
             <p class="process-desc">Vcas a spravne podame vsechna danová hlaseni a sledujeme lhuty pro vase pohodli.</p>
         </div>
 
@@ -850,13 +895,15 @@
     </div>
 </section>
 
+
+
 <!-- CONTACT — DARK CARD -->
 <section class="contact-wrapper" id="kontakt">
     <div class="contact-card">
         <div class="contact-card-inner">
             <div class="contact-heading">
                 <div class="section-label reveal">KONTAKT</div>
-                <h2 class="section-title reveal reveal-d1">Jsme tu pro vas</h2>
+                <h2 class="section-title reveal reveal-d1">Jsme tu pro vás</h2>
             </div>
             <div class="contact-grid">
                 <dl class="contact-info-block reveal reveal-d2">
@@ -894,7 +941,7 @@
         <div class="footer-top">
             <div class="footer-brand">
                 <h3>OSM Danove.</h3>
-                <p>Danove poradenstvi Ing. Romana Ondruska v Uherskem Hradisti. Specializace na dane z prijmu, DPH a ucetnictvi pro podnikatele na Slovacku.</p>
+                <p>Daňové poradenství Ing. Romana Ondruška v Uherském Hradišti. Specializace na daně z příjmu, DPH a účetnictví pro podnikatele na Slovácku.</p>
                 <div class="footer-status">
                     <div class="footer-status-dot"></div>
                     <span>K dispozici</span>

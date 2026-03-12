@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Danova kancelar ve Svitavach. Michal Ksenak nabizi odborne danove poradenstvi pro podnikatele a fyzicke osoby v regionu s durazem na pristupnost a osobni pristup.">
-    <title>Michal Ksenak | Danova kancelar Svitavy</title>
+    <meta name="description" content="Daňová kancelář ve Svitavách. Michal Ksenak nabízí odborné daňové poradenství pro podnikatele a fyzické osoby v regionu s důrazem na přístupnost a osobní přístup.">
+    <title>Michal Ksenak | Daňová kancelář Svitavy</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Playfair%20Display:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=DM%20Sans:wght@200;300;400;500;600;700;800&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
@@ -489,6 +489,51 @@
         }
 
         /* ═══ CONTACT — DARK CARD ═══ */
+        /* ═══ TESTIMONIALS ═══ */
+        .testimonials-section {
+            padding: clamp(80px, 12vh, 140px) clamp(24px, 4vw, 64px);
+            background: var(--bg-dark);
+            color: var(--text-on-dark);
+        }
+        .testimonials-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 24px;
+            margin-top: 48px;
+        }
+        .testimonial-card {
+            background: rgba(255,255,255,0.05);
+            border: 1px solid rgba(255,255,255,0.1);
+            border-radius: var(--radius-card);
+            padding: 36px 32px 28px;
+            display: flex; flex-direction: column; gap: 20px;
+            position: relative;
+        }
+        .testimonial-card::before {
+            content: '\201C';
+            font-family: var(--serif);
+            font-size: 5rem;
+            line-height: 1;
+            color: var(--accent);
+            opacity: 0.6;
+            position: absolute;
+            top: 12px; left: 28px;
+        }
+        .testimonial-text {
+            font-size: clamp(0.95rem, 1.5vw, 1.05rem);
+            line-height: 1.75;
+            color: rgba(242,240,233,0.85);
+            padding-top: 32px;
+            font-style: italic;
+        }
+        .testimonial-author {
+            font-size: 0.82rem;
+            font-weight: 600;
+            color: var(--accent);
+            letter-spacing: 0.06em;
+            text-transform: uppercase;
+        }
+
         .contact-wrapper {
             padding: clamp(60px, 10vh, 100px) clamp(24px, 4vw, 64px);
             background: var(--bg-warm);
@@ -727,8 +772,8 @@
             <span class="hero-heading">DAŇOVÁ A ÚČETNÍ KANCELÁŘ</span>
             <span class="hero-drama">Duvera.</span>
         </h1>
-        <p class="hero-sub">Danove poradenstvi ve Svitavach, kde znate sveho poradce osobne a vite, ze vase dane jsou v bezpecnych rukou.</p>
-        <a href="#kontakt" class="hero-cta">Navstivit kancelar</a>
+        <p class="hero-sub">Daňové poradenství ve Svitavách, kde znáte svého poradce osobně a víte, že vaše daně jsou v bezpečných rukou.</p>
+        <a href="#kontakt" class="hero-cta">Navštívit kancelář</a>
         <div class="hero-stats">
             <div>
             <div class="hero-stat-num">150+</div>
@@ -751,37 +796,37 @@
 <section class="section-light" id="sluzby">
     <div class="section-inner">
         <div class="section-label reveal">NASE SLUZBY</div>
-        <h2 class="section-title reveal reveal-d1">Danove sluzby pro region Svitavy</h2>
-        <p class="section-subtitle reveal reveal-d2">Komplexni danove poradenstvi pro fyzicke osoby, OSVC a male firmy ve Svitavach a sirkem okoli.</p>
+        <h2 class="section-title reveal reveal-d1">Daňové služby pro region Svitavy</h2>
+        <p class="section-subtitle reveal reveal-d2">Komplexní daňové poradenství pro fyzické osoby, OSVČ a malé firmy ve Svitavách a šírkem okolí.</p>
         <div class="services-grid">
             <div class="service-card reveal reveal-d1">
             <div class="service-icon"><span>01</span></div>
             <h3 class="service-title">Danove přiznani</h3>
-            <p class="service-desc">Zpracovani danoveho prizanani k dani z prijmu pro OSVC, zamestnance i pravnicke osoby spravne a vcas.</p>
+            <p class="service-desc">Zpracování daňového prizanani k daní z příjmů pro OSVČ, zaměstnance i právnické osoby správně a včas.</p>
         </div>
 <div class="service-card reveal reveal-d2">
             <div class="service-icon"><span>02</span></div>
-            <h3 class="service-title">Danove poradenstvi</h3>
-            <p class="service-desc">Srozumitelne poradenstvi ohledne danovych povinnosti a legalnich moznosti snizeni danove zateze.</p>
+            <h3 class="service-title">Daňové poradenství</h3>
+            <p class="service-desc">Srozumitelné poradenství ohledně daňových povinností a legálních možností snížení daňové zátěže.</p>
         </div>
 <div class="service-card reveal reveal-d3">
             <div class="service-icon"><span>03</span></div>
-            <h3 class="service-title">Rocni zuctovani</h3>
-            <p class="service-desc">Provadeni rocniho zuctovani dane ze zavisle cinnosti a vraceni preplatku zamestnanecke dane.</p>
+            <h3 class="service-title">Roční zúčtování</h3>
+            <p class="service-desc">Provádění ročního zúčtování daně ze závislé činnosti a vrácení přeplatku zaměstnanecké daně.</p>
         </div>
 <div class="service-card reveal reveal-d4">
             <div class="service-icon"><span>04</span></div>
-            <h3 class="service-title">Vedeni ucetnictvi</h3>
-            <p class="service-desc">Vedeni jednoduche evidence nebo zakladniho ucetnictvi pro male a stredni podnikatele.</p>
+            <h3 class="service-title">Vedení účetnictví</h3>
+            <p class="service-desc">Vedení jednoduché evidence nebo základního účetnictví pro malé a střední podnikatele.</p>
         </div>
 <div class="service-card reveal reveal-d4">
             <div class="service-icon"><span>05</span></div>
-            <h3 class="service-title">Danove planovani</h3>
+            <h3 class="service-title">Daňové plánování</h3>
             <p class="service-desc">Planovani danovych povinnosti na nadchazejici rok pro eliminaci prekvapeni a sankcí.</p>
         </div>
 <div class="service-card reveal reveal-d4">
             <div class="service-icon"><span>06</span></div>
-            <h3 class="service-title">Zahajeni podnikani</h3>
+            <h3 class="service-title">Zahájení podnikání</h3>
             <p class="service-desc">Poradenstvi pri zakládání firmy nebo OSVC vcetne nastaveni optimálního danového rezimu.</p>
         </div>
 
@@ -795,8 +840,8 @@
     <div class="about-glow about-glow-2"></div>
     <div class="dot-grid"></div>
     <div class="about-inner">
-        <p class="about-intro reveal">Michal Ksenak provozuje danovou kancelar ve Svitavach, kde pristupuje ke kazdemu klientovi s plnou pozornosti a pochopenim mistnih podminek podnikani. Dostatek casu pro kazdeho klienta je nas standard.</p>
-        <h2 class="about-drama reveal reveal-d1">Mistni poradce, ktery rozumi vasi situaci</h2>
+        <p class="about-intro reveal">Michal Ksenak provozuje daňovou kancelář ve Svitavách, kde přistupuje ke každému klientovi s plnou pozorností a pochopením mistnih podmínek podnikání. Dostatek času pro každého klienta je náš standard.</p>
+        <h2 class="about-drama reveal reveal-d1">Místní poradce, který rozumí vaši situaci</h2>
     </div>
 </section>
 
@@ -827,28 +872,30 @@
 <section class="section-light" style="padding-top: 0;">
     <div class="section-inner">
         <div class="section-label reveal">JAK PRACUJEME</div>
-        <h2 class="section-title reveal reveal-d1">Pristupny postup pro kazdeho</h2>
-        <p class="section-subtitle reveal reveal-d2">Spoluprace je nastavena tak, aby kazdy klient rozumel svym danim a nikdy nebyl prekvapen.</p>
+        <h2 class="section-title reveal reveal-d1">Přístupný postup pro každého</h2>
+        <p class="section-subtitle reveal reveal-d2">Spolupráce je nastavena tak, aby každý klient rozuměl svým daním a nikdy nebyl překvapen.</p>
         <div class="process-grid">
             <div class="process-card reveal reveal-d1">
-            <span class="process-num">01 / BEZPLATNA KONZULTACE</span>
-            <h3 class="process-title">Bezplatna konzultace</h3>
+            <span class="process-num">01 / BEZPLATNÁ KONZULTACE</span>
+            <h3 class="process-title">Bezplatná konzultace</h3>
             <p class="process-desc">Navstivte nasi kancelar nebo zavolejte, probereme vasí situaci bez poplatku.</p>
         </div>
 <div class="process-card reveal reveal-d2">
-            <span class="process-num">02 / NAVRH A SOUHLAS</span>
-            <h3 class="process-title">Navrh a souhlas</h3>
-            <p class="process-desc">Domluvime se na rozsahu sluzeb a podminkach, vse pisemne a transparentne.</p>
+            <span class="process-num">02 / NÁVRH A SOUHLAS</span>
+            <h3 class="process-title">Návrh a souhlas</h3>
+            <p class="process-desc">Domluvíme se na rozsahu služeb a podmínkách, vše písemně a transparentně.</p>
         </div>
 <div class="process-card reveal reveal-d3">
-            <span class="process-num">03 / PECE PO CELY ROK</span>
-            <h3 class="process-title">Pece po cely rok</h3>
-            <p class="process-desc">Postarame se o vase dane a budeme vas prubezne informovat o vsem podstatnem.</p>
+            <span class="process-num">03 / PÉČE PO CELÝ ROK</span>
+            <h3 class="process-title">Péče po celý rok</h3>
+            <p class="process-desc">Postaráme se o vaše daně a budeme vás průběžně informovat o všem podstatném.</p>
         </div>
 
         </div>
     </div>
 </section>
+
+
 
 <!-- CONTACT — DARK CARD -->
 <section class="contact-wrapper" id="kontakt">
@@ -856,7 +903,7 @@
         <div class="contact-card-inner">
             <div class="contact-heading">
                 <div class="section-label reveal">KONTAKT</div>
-                <h2 class="section-title reveal reveal-d1">Navstivte nasi kancelar</h2>
+                <h2 class="section-title reveal reveal-d1">Navštivte naši kancelář</h2>
             </div>
             <div class="contact-grid">
                 <dl class="contact-info-block reveal reveal-d2">
@@ -894,7 +941,7 @@
         <div class="footer-top">
             <div class="footer-brand">
                 <h3>Danova kancelar.</h3>
-                <p>Danova kancelar ve Svitavach. Michal Ksenak nabizi odborne danove poradenstvi pro podnikatele a fyzicke osoby v regionu s durazem na pristupnost a osobni pristup.</p>
+                <p>Daňová kancelář ve Svitavách. Michal Ksenak nabízí odborné daňové poradenství pro podnikatele a fyzické osoby v regionu s důrazem na přístupnost a osobní přístup.</p>
                 <div class="footer-status">
                     <div class="footer-status-dot"></div>
                     <span>K dispozici</span>

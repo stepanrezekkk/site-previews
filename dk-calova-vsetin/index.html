@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Martina Pesatova Calova poskytuje danove poradenstvi a ucetni sluzby ve Vsetine. Dane pro podnikatele, OSVČ a spolecnosti v regionu Valasskeho Krkonose.">
-    <title>Martina Pesatova Calova | Danovy poradce Vsetin</title>
+    <title>Martina Pešatová Calova | Daňový poradce Vsetín</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Playfair%20Display:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Outfit:wght@200;300;400;500;600;700;800&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
@@ -489,6 +489,51 @@
         }
 
         /* ═══ CONTACT — DARK CARD ═══ */
+        /* ═══ TESTIMONIALS ═══ */
+        .testimonials-section {
+            padding: clamp(80px, 12vh, 140px) clamp(24px, 4vw, 64px);
+            background: var(--bg-dark);
+            color: var(--text-on-dark);
+        }
+        .testimonials-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 24px;
+            margin-top: 48px;
+        }
+        .testimonial-card {
+            background: rgba(255,255,255,0.05);
+            border: 1px solid rgba(255,255,255,0.1);
+            border-radius: var(--radius-card);
+            padding: 36px 32px 28px;
+            display: flex; flex-direction: column; gap: 20px;
+            position: relative;
+        }
+        .testimonial-card::before {
+            content: '\201C';
+            font-family: var(--serif);
+            font-size: 5rem;
+            line-height: 1;
+            color: var(--accent);
+            opacity: 0.6;
+            position: absolute;
+            top: 12px; left: 28px;
+        }
+        .testimonial-text {
+            font-size: clamp(0.95rem, 1.5vw, 1.05rem);
+            line-height: 1.75;
+            color: rgba(242,240,233,0.85);
+            padding-top: 32px;
+            font-style: italic;
+        }
+        .testimonial-author {
+            font-size: 0.82rem;
+            font-weight: 600;
+            color: var(--accent);
+            letter-spacing: 0.06em;
+            text-transform: uppercase;
+        }
+
         .contact-wrapper {
             padding: clamp(60px, 10vh, 100px) clamp(24px, 4vw, 64px);
             background: var(--bg-warm);
@@ -727,8 +772,8 @@
             <span class="hero-heading">Daňová kancelář Martina Pešatová Čalová</span>
             <span class="hero-drama">Spolehlivost.</span>
         </h1>
-        <p class="hero-sub">Osobni danove poradenstvi s durazem na potreby podnikatelu na Vsetinsku a okolnim regionu.</p>
-        <a href="#kontakt" class="hero-cta">Domluvit schuzku</a>
+        <p class="hero-sub">Osobní daňové poradenství s důrazem na potřeby podnikatelů na Vsetínsku a okolním regionu.</p>
+        <a href="#kontakt" class="hero-cta">Domluvit schůzku</a>
         <div class="hero-stats">
             <div>
             <div class="hero-stat-num">145+</div>
@@ -751,33 +796,33 @@
 <section class="section-light" id="sluzby">
     <div class="section-inner">
         <div class="section-label reveal">SLUZBY DK CALOVA</div>
-        <h2 class="section-title reveal reveal-d1">Danove sluzby pro podnikatele</h2>
-        <p class="section-subtitle reveal reveal-d2">Komplexni danove a ucetni sluzby prizpusobene potrebam male a stredni podnikani.</p>
+        <h2 class="section-title reveal reveal-d1">Daňové služby pro podnikatele</h2>
+        <p class="section-subtitle reveal reveal-d2">Komplexní daňové a účetní služby přizpůsobené potřebám malé a střední podnikání.</p>
         <div class="services-grid">
             <div class="service-card reveal reveal-d1">
             <div class="service-icon"><span>01</span></div>
-            <h3 class="service-title">Danove poradenstvi</h3>
+            <h3 class="service-title">Daňové poradenství</h3>
             <p class="service-desc">Odborne danove poradenstvi pro fyzicke osoby, OSVČ a male spolecnosti se zamerenim na optimalizaci.</p>
         </div>
 <div class="service-card reveal reveal-d2">
             <div class="service-icon"><span>02</span></div>
-            <h3 class="service-title">Danove ucetnictvi</h3>
-            <p class="service-desc">Vedeni danove evidence a podvojneho ucetnictvi s pravidelnymi zaverkami a reportingem.</p>
+            <h3 class="service-title">Daňové účetnictví</h3>
+            <p class="service-desc">Vedení daňové evidence a podvojného účetnictví s pravidelnými závěrkami a reportingem.</p>
         </div>
 <div class="service-card reveal reveal-d3">
             <div class="service-icon"><span>03</span></div>
-            <h3 class="service-title">Zpracovani danovych priznani</h3>
-            <p class="service-desc">Vcasne zpracovani vsech danovych priznanich vcetne DPH, dane z prijmu FO a PO.</p>
+            <h3 class="service-title">Zpracování daňových přiznání</h3>
+            <p class="service-desc">Včasné zpracování všech daňových přiznáních včetně DPH, daně z příjmu FO a PO.</p>
         </div>
 <div class="service-card reveal reveal-d4">
             <div class="service-icon"><span>04</span></div>
-            <h3 class="service-title">Mzdove sluzby</h3>
-            <p class="service-desc">Kompletni mzdova agenda vcetne zpracovani mezd, odvodu a rocnich zuctovani zamestnancu.</p>
+            <h3 class="service-title">Mzdové služby</h3>
+            <p class="service-desc">Kompletní mzdová agenda včetně zpracování mezd, odvodů a ročních zúčtování zaměstnanců.</p>
         </div>
 <div class="service-card reveal reveal-d4">
             <div class="service-icon"><span>05</span></div>
             <h3 class="service-title">Zastupovani pri danové kontrole</h3>
-            <p class="service-desc">Profesionalni zastupovani a poradenstvi pri danowych kontrolach a proverovanich.</p>
+            <p class="service-desc">Profesionální zastupování a poradenství při danowych kontrolách a prověřováních.</p>
         </div>
 <div class="service-card reveal reveal-d4">
             <div class="service-icon"><span>06</span></div>
@@ -795,8 +840,8 @@
     <div class="about-glow about-glow-2"></div>
     <div class="dot-grid"></div>
     <div class="about-inner">
-        <p class="about-intro reveal">Martina Pesatova Calova je zavedenou danovyou poradkyni ve Vsetine, ktera se specializuje na male a stredni podnikatele v regionu. Osobni pristup a dostupnost jsou zakladem nasi spoluprace.</p>
-        <h2 class="about-drama reveal reveal-d1">Regionalni odbornik s osobnim pristupem</h2>
+        <p class="about-intro reveal">Martina Pešatová Calova je zavedenou danovyou poradkyní ve Vsetíně, která se specializuje na malé a střední podnikatele v regionu. Osobní přístup a dostupnost jsou základem naší spolupráce.</p>
+        <h2 class="about-drama reveal reveal-d1">Regionální odborník s osobním přístupem</h2>
     </div>
 </section>
 
@@ -827,28 +872,30 @@
 <section class="section-light" style="padding-top: 0;">
     <div class="section-inner">
         <div class="section-label reveal">JAK SPOLUPRACUJEME</div>
-        <h2 class="section-title reveal reveal-d1">Jednoduchy a efektivni postup</h2>
-        <p class="section-subtitle reveal reveal-d2">Transparentni spoluprace od prvniho kontaktu az po vysledek.</p>
+        <h2 class="section-title reveal reveal-d1">Jednoduchý a efektivní postup</h2>
+        <p class="section-subtitle reveal reveal-d2">Transparentní spolupráce od prvního kontaktu až po výsledek.</p>
         <div class="process-grid">
             <div class="process-card reveal reveal-d1">
-            <span class="process-num">01 / UVODNI HOVOR</span>
-            <h3 class="process-title">Uvodni hovor</h3>
-            <p class="process-desc">Bezplatna konzultace po telefonu nebo osobne, kde si navzajem priblizime potreby a moznosti.</p>
+            <span class="process-num">01 / ÚVODNÍ HOVOR</span>
+            <h3 class="process-title">Úvodní hovor</h3>
+            <p class="process-desc">Bezplatná konzultace po telefonu nebo osobně, kde si navzájem přiblížíme potřeby a možnosti.</p>
         </div>
 <div class="process-card reveal reveal-d2">
-            <span class="process-num">02 / PREDANI PODKLADU</span>
-            <h3 class="process-title">Predani podkladu</h3>
-            <p class="process-desc">Jednoduche predani podkladu a dokumentu s naslednou kontrolou a overenim spravnosti.</p>
+            <span class="process-num">02 / PŘEDÁNÍ PODKLADŮ</span>
+            <h3 class="process-title">Předání podkladů</h3>
+            <p class="process-desc">Jednoduché předání podkladů a dokumentů s následnou kontrolou a ověřením správnosti.</p>
         </div>
 <div class="process-card reveal reveal-d3">
-            <span class="process-num">03 / SERVIS A INFORMOVANI</span>
-            <h3 class="process-title">Servis a informovani</h3>
-            <p class="process-desc">Vcasne podani dani a prubezne informovani o zmenach, ktere mohou ovlivnit vase podnikani.</p>
+            <span class="process-num">03 / SERVIS A INFORMOVÁNÍ</span>
+            <h3 class="process-title">Servis a informování</h3>
+            <p class="process-desc">Včasné podání daní a průběžně informováni o změnách, které mohou ovlivnit vaše podnikání.</p>
         </div>
 
         </div>
     </div>
 </section>
+
+
 
 <!-- CONTACT — DARK CARD -->
 <section class="contact-wrapper" id="kontakt">
@@ -856,7 +903,7 @@
         <div class="contact-card-inner">
             <div class="contact-heading">
                 <div class="section-label reveal">KONTAKT</div>
-                <h2 class="section-title reveal reveal-d1">Napiste nebo zavolejte</h2>
+                <h2 class="section-title reveal reveal-d1">Napište nebo zavolejte</h2>
             </div>
             <div class="contact-grid">
                 <dl class="contact-info-block reveal reveal-d2">

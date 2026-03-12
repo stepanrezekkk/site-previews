@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="ACTA poskytuje odborne danove poradenstvi v Praze. Doc. Ing. Jiri Vrzacek CSc. kombinuje akademickou erudici s praktickymi zkusenostmi.">
-    <title>ACTA — Danove poradenstvi Praha</title>
+    <meta name="description" content="ACTA poskytuje odborné daňové poradenství v Praze. Doc. Ing. Jiří Vrzáček CSc. kombinuje akademickou erudici s praktickými zkušenostmi.">
+    <title>ACTA — Daňové poradenství Praha</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Playfair%20Display:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=DM%20Sans:wght@200;300;400;500;600;700;800&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
@@ -489,6 +489,51 @@
         }
 
         /* ═══ CONTACT — DARK CARD ═══ */
+        /* ═══ TESTIMONIALS ═══ */
+        .testimonials-section {
+            padding: clamp(80px, 12vh, 140px) clamp(24px, 4vw, 64px);
+            background: var(--bg-dark);
+            color: var(--text-on-dark);
+        }
+        .testimonials-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 24px;
+            margin-top: 48px;
+        }
+        .testimonial-card {
+            background: rgba(255,255,255,0.05);
+            border: 1px solid rgba(255,255,255,0.1);
+            border-radius: var(--radius-card);
+            padding: 36px 32px 28px;
+            display: flex; flex-direction: column; gap: 20px;
+            position: relative;
+        }
+        .testimonial-card::before {
+            content: '\201C';
+            font-family: var(--serif);
+            font-size: 5rem;
+            line-height: 1;
+            color: var(--accent);
+            opacity: 0.6;
+            position: absolute;
+            top: 12px; left: 28px;
+        }
+        .testimonial-text {
+            font-size: clamp(0.95rem, 1.5vw, 1.05rem);
+            line-height: 1.75;
+            color: rgba(242,240,233,0.85);
+            padding-top: 32px;
+            font-style: italic;
+        }
+        .testimonial-author {
+            font-size: 0.82rem;
+            font-weight: 600;
+            color: var(--accent);
+            letter-spacing: 0.06em;
+            text-transform: uppercase;
+        }
+
         .contact-wrapper {
             padding: clamp(60px, 10vh, 100px) clamp(24px, 4vw, 64px);
             background: var(--bg-warm);
@@ -724,8 +769,8 @@
     <div class="hero-glow hero-glow-2"></div>
     <div class="hero-content">
         <h1>
-            <span class="hero-heading">Danova akademie v praxi</span>
-            <span class="hero-drama">Zkusenost.</span>
+            <span class="hero-heading">Daňová akademie v praxi</span>
+            <span class="hero-drama">Zkušenost.</span>
         </h1>
         <p class="hero-sub">Akademicka hloubka spojená s odbornou praxí pro klienty, kteri pozaduji nejlepsi mozne poradenstvi.</p>
         <a href="#kontakt" class="hero-cta">Konzultace zdarma</a>
@@ -736,11 +781,11 @@
         </div>
 <div>
             <div class="hero-stat-num">200+</div>
-            <div class="hero-stat-label">spokojenych klientu</div>
+            <div class="hero-stat-label">spokojených klientů</div>
         </div>
 <div>
             <div class="hero-stat-num">100%</div>
-            <div class="hero-stat-label">odbornost garantovana</div>
+            <div class="hero-stat-label">odbornost garantovaná</div>
         </div>
 
         </div>
@@ -751,13 +796,13 @@
 <section class="section-light" id="sluzby">
     <div class="section-inner">
         <div class="section-label reveal">NASE SLUZBY</div>
-        <h2 class="section-title reveal reveal-d1">Expertni danove sluzby</h2>
-        <p class="section-subtitle reveal reveal-d2">Sluzby zalozene na mnohaletych akademickych i praktickyh zkusenostech v danovem pravu.</p>
+        <h2 class="section-title reveal reveal-d1">Expertní daňové služby</h2>
+        <p class="section-subtitle reveal reveal-d2">Služby založené na mnohaletých akademických i praktickyh zkušenostech v daňovém právu.</p>
         <div class="services-grid">
             <div class="service-card reveal reveal-d1">
             <div class="service-icon"><span>01</span></div>
-            <h3 class="service-title">Expertni danova poradenstvi</h3>
-            <p class="service-desc">Odborne poradenstvi na nejvyssi urovni pro korporatni i fyzicke osoby s komplexnimi danovymi potrebami.</p>
+            <h3 class="service-title">Expertní daňová poradenství</h3>
+            <p class="service-desc">Odborné poradenství na nejvyšší úrovni pro korporátní i fyzické osoby s komplexními daňovými potřebami.</p>
         </div>
 <div class="service-card reveal reveal-d2">
             <div class="service-icon"><span>02</span></div>
@@ -766,7 +811,7 @@
         </div>
 <div class="service-card reveal reveal-d3">
             <div class="service-icon"><span>03</span></div>
-            <h3 class="service-title">Zastupovani ve sporech</h3>
+            <h3 class="service-title">Zastupování ve sporech</h3>
             <p class="service-desc">Odborne zastupovani v danových sporech, odelaních a správních řízeních.</p>
         </div>
 <div class="service-card reveal reveal-d4">
@@ -776,7 +821,7 @@
         </div>
 <div class="service-card reveal reveal-d4">
             <div class="service-icon"><span>05</span></div>
-            <h3 class="service-title">Vzdelavaci seminare</h3>
+            <h3 class="service-title">Vzdělávací semináře</h3>
             <p class="service-desc">Semináre a skoleni pro ucetní, ekonomy a podnikatele o aktualnich danových zmenach.</p>
         </div>
 
@@ -791,7 +836,7 @@
     <div class="dot-grid"></div>
     <div class="about-inner">
         <p class="about-intro reveal">ACTA stoji na odborné erudici Ing. Jiriho Vrzacka CSc., jehoz akademicke i prakticke zkusenosti garantuji nejvyssi kvalitu danovych sluzeb. Nasi klienti oceñují hloubku a presnost nasich analyz.</p>
-        <h2 class="about-drama reveal reveal-d1">Spojeni akademie a praxe</h2>
+        <h2 class="about-drama reveal reveal-d1">Spojení akademie a praxe</h2>
     </div>
 </section>
 
@@ -807,11 +852,11 @@
         </div>
 <div class="stat-card reveal reveal-d2">
             <div class="stat-number" data-count="200" data-suffix="+">0+</div>
-            <div class="stat-label">spokojenych klientu</div>
+            <div class="stat-label">spokojených klientů</div>
         </div>
 <div class="stat-card reveal reveal-d3">
             <div class="stat-number" data-count="100" data-suffix="%">0%</div>
-            <div class="stat-label">odbornost garantovana</div>
+            <div class="stat-label">odbornost garantovaná</div>
         </div>
 
         </div>
@@ -823,16 +868,16 @@
     <div class="section-inner">
         <div class="section-label reveal">JAK PRACUJEME</div>
         <h2 class="section-title reveal reveal-d1">Systematicky a metodicky</h2>
-        <p class="section-subtitle reveal reveal-d2">Kazdy pripad resime s odbornou duslednosti a akademickou presnosti.</p>
+        <p class="section-subtitle reveal reveal-d2">Každý případ řešíme s odbornou důsledností a akademickou přesností.</p>
         <div class="process-grid">
             <div class="process-card reveal reveal-d1">
-            <span class="process-num">01 / HLOUBKOVA ANALYZA</span>
-            <h3 class="process-title">Hloubkova analyza</h3>
-            <p class="process-desc">Provedeme podrobnou analyzu vasi danov situace a identifikujeme klicove otazky.</p>
+            <span class="process-num">01 / HLOUBKOVÁ ANALÝZA</span>
+            <h3 class="process-title">Hloubková analýza</h3>
+            <p class="process-desc">Provedeme podrobnou analýzu vaší danov situace a identifikujeme klíčové otázky.</p>
         </div>
 <div class="process-card reveal reveal-d2">
-            <span class="process-num">02 / ODBORNE RESENI</span>
-            <h3 class="process-title">Odborne reseni</h3>
+            <span class="process-num">02 / ODBORNÉ ŘEŠENÍ</span>
+            <h3 class="process-title">Odborné řešení</h3>
             <p class="process-desc">Navrhneme optimalni postup s oporou o aktualní judikáturu a právni výklady.</p>
         </div>
 <div class="process-card reveal reveal-d3">
@@ -845,13 +890,15 @@
     </div>
 </section>
 
+
+
 <!-- CONTACT — DARK CARD -->
 <section class="contact-wrapper" id="kontakt">
     <div class="contact-card">
         <div class="contact-card-inner">
             <div class="contact-heading">
                 <div class="section-label reveal">KONTAKT</div>
-                <h2 class="section-title reveal reveal-d1">Pojdme spolupracovat</h2>
+                <h2 class="section-title reveal reveal-d1">Pojďme spolupracovat</h2>
             </div>
             <div class="contact-grid">
                 <dl class="contact-info-block reveal reveal-d2">
@@ -874,7 +921,7 @@
                         <textarea placeholder="Jak vám můžeme pomoci?"></textarea>
                     </div>
                     <button type="submit" class="form-submit">
-                        Odeslat zpravu
+                        Odeslat zprávu
                         <svg width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 8h10M9 4l4 4-4 4"/></svg>
                     </button>
                 </form>
@@ -889,7 +936,7 @@
         <div class="footer-top">
             <div class="footer-brand">
                 <h3>ACTA.</h3>
-                <p>ACTA poskytuje odborne danove poradenstvi v Praze. Doc. Ing. Jiri Vrzacek CSc. kombinuje akademickou erudici s praktickymi zkusenostmi.</p>
+                <p>ACTA poskytuje odborné daňové poradenství v Praze. Doc. Ing. Jiří Vrzáček CSc. kombinuje akademickou erudici s praktickými zkušenostmi.</p>
                 <div class="footer-status">
                     <div class="footer-status-dot"></div>
                     <span>K dispozici</span>

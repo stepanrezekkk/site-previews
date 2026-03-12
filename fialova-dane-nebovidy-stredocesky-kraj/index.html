@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Bozena Fialova, danový poradce Nebovidy. Odloz uznani -- danove poradenstvi a ucetni sluzby pro podnikatele v Nebovidy a Stredoceskem kraji.">
-    <title>Bozena Fialova -- Danove poradenstvi Nebovidy</title>
+    <title>Božena Fialová -- Daňové poradenství Nebovidy</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Playfair%20Display:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=DM%20Sans:wght@200;300;400;500;600;700;800&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
@@ -489,6 +489,51 @@
         }
 
         /* ═══ CONTACT — DARK CARD ═══ */
+        /* ═══ TESTIMONIALS ═══ */
+        .testimonials-section {
+            padding: clamp(80px, 12vh, 140px) clamp(24px, 4vw, 64px);
+            background: var(--bg-dark);
+            color: var(--text-on-dark);
+        }
+        .testimonials-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 24px;
+            margin-top: 48px;
+        }
+        .testimonial-card {
+            background: rgba(255,255,255,0.05);
+            border: 1px solid rgba(255,255,255,0.1);
+            border-radius: var(--radius-card);
+            padding: 36px 32px 28px;
+            display: flex; flex-direction: column; gap: 20px;
+            position: relative;
+        }
+        .testimonial-card::before {
+            content: '\201C';
+            font-family: var(--serif);
+            font-size: 5rem;
+            line-height: 1;
+            color: var(--accent);
+            opacity: 0.6;
+            position: absolute;
+            top: 12px; left: 28px;
+        }
+        .testimonial-text {
+            font-size: clamp(0.95rem, 1.5vw, 1.05rem);
+            line-height: 1.75;
+            color: rgba(242,240,233,0.85);
+            padding-top: 32px;
+            font-style: italic;
+        }
+        .testimonial-author {
+            font-size: 0.82rem;
+            font-weight: 600;
+            color: var(--accent);
+            letter-spacing: 0.06em;
+            text-transform: uppercase;
+        }
+
         .contact-wrapper {
             padding: clamp(60px, 10vh, 100px) clamp(24px, 4vw, 64px);
             background: var(--bg-warm);
@@ -724,7 +769,7 @@
     <div class="hero-glow hero-glow-2"></div>
     <div class="hero-content">
         <h1>
-            <span class="hero-heading">Dane bez zpozdeni a strachu</span>
+            <span class="hero-heading">Daně bez zpoždění a strachu</span>
             <span class="hero-drama">Vcasnost.</span>
         </h1>
         <p class="hero-sub">Bozena Fialova pomaha podnikatelum v Nebovidy a okolí splnit vsechny danove povinnosti vcas a bez problemu, s klidem a jistotou.</p>
@@ -732,7 +777,7 @@
         <div class="hero-stats">
             <div>
             <div class="hero-stat-num">70+</div>
-            <div class="hero-stat-label">spokojanych klientu</div>
+            <div class="hero-stat-label">spokojanych klientů</div>
         </div>
 <div>
             <div class="hero-stat-num">8+</div>
@@ -740,7 +785,7 @@
         </div>
 <div>
             <div class="hero-stat-num">97%</div>
-            <div class="hero-stat-label">vracejicich se klientu</div>
+            <div class="hero-stat-label">vracejících se klientů</div>
         </div>
 
         </div>
@@ -756,33 +801,33 @@
         <div class="services-grid">
             <div class="service-card reveal reveal-d1">
             <div class="service-icon"><span>01</span></div>
-            <h3 class="service-title">Danove poradenstvi</h3>
-            <p class="service-desc">Individualni danove poradenstvi pro OSVC a firmy v Stredoceskem kraji.</p>
+            <h3 class="service-title">Daňové poradenství</h3>
+            <p class="service-desc">Individuální daňové poradenství pro OSVČ a firmy v Středočeském kraji.</p>
         </div>
 <div class="service-card reveal reveal-d2">
             <div class="service-icon"><span>02</span></div>
-            <h3 class="service-title">Danove prizna</h3>
+            <h3 class="service-title">Daňové přizná</h3>
             <p class="service-desc">Zpracovani a podani danovych proznani vcetne DPH a dani z príjmu.</p>
         </div>
 <div class="service-card reveal reveal-d3">
             <div class="service-icon"><span>03</span></div>
-            <h3 class="service-title">Vedeni ucetnictvi</h3>
+            <h3 class="service-title">Vedení účetnictví</h3>
             <p class="service-desc">Vedeni jednoducheho i podvojneho ucetnictvi s pravidelnym prístupem.</p>
         </div>
 <div class="service-card reveal reveal-d4">
             <div class="service-icon"><span>04</span></div>
             <h3 class="service-title">Mzdová agenda</h3>
-            <p class="service-desc">Zpracovani mezd a veskera personalni agenda pro male zamestnavatele.</p>
+            <p class="service-desc">Zpracování mezd a veškerá personální agenda pro malé zaměstnavatele.</p>
         </div>
 <div class="service-card reveal reveal-d4">
             <div class="service-icon"><span>05</span></div>
             <h3 class="service-title">Danové termíny a kontroly</h3>
-            <p class="service-desc">Sledovani a plneni vsech danovych terminu, komunikace s FU.</p>
+            <p class="service-desc">Sledování a plnění všech daňových termínů, komunikace s FU.</p>
         </div>
 <div class="service-card reveal reveal-d4">
             <div class="service-icon"><span>06</span></div>
             <h3 class="service-title">Zalozeni podnikání</h3>
-            <p class="service-desc">Poradenstvi pri zahajeni podnikani a optimalnich danove nastaveni.</p>
+            <p class="service-desc">Poradenství při zahájení podnikání a optimálních daňové nastavení.</p>
         </div>
 
         </div>
@@ -808,7 +853,7 @@
         <div class="stats-grid">
             <div class="stat-card reveal reveal-d1">
             <div class="stat-number" data-count="70" data-suffix="+">0+</div>
-            <div class="stat-label">spokojanych klientu</div>
+            <div class="stat-label">spokojanych klientů</div>
         </div>
 <div class="stat-card reveal reveal-d2">
             <div class="stat-number" data-count="8" data-suffix="+">0+</div>
@@ -816,7 +861,7 @@
         </div>
 <div class="stat-card reveal reveal-d3">
             <div class="stat-number" data-count="97" data-suffix="%">0%</div>
-            <div class="stat-label">vracejicich se klientu</div>
+            <div class="stat-label">vracejících se klientů</div>
         </div>
 
         </div>
@@ -827,28 +872,30 @@
 <section class="section-light" style="padding-top: 0;">
     <div class="section-inner">
         <div class="section-label reveal">JAK PRACUJEME</div>
-        <h2 class="section-title reveal reveal-d1">Jednoduche a osobni reseni</h2>
-        <p class="section-subtitle reveal reveal-d2">Prehledny postup pro bezstarostne zvladnuti vasich danovych povinnosti.</p>
+        <h2 class="section-title reveal reveal-d1">Jednoduché a osobní řešení</h2>
+        <p class="section-subtitle reveal reveal-d2">Přehledný postup pro bezstarostné zvládnutí vašich daňových povinností.</p>
         <div class="process-grid">
             <div class="process-card reveal reveal-d1">
-            <span class="process-num">01 / UVODNI PORADA</span>
-            <h3 class="process-title">Uvodni porada</h3>
-            <p class="process-desc">Bezplatne si probreme vasi danovou situaci a navrzeme reseni.</p>
+            <span class="process-num">01 / ÚVODNÍ PORADA</span>
+            <h3 class="process-title">Úvodní porada</h3>
+            <p class="process-desc">Bezplatně si probreme vaši daňovou situaci a navrzeme řešení.</p>
         </div>
 <div class="process-card reveal reveal-d2">
-            <span class="process-num">02 / ZAHAJENI SPOLUPRACI</span>
-            <h3 class="process-title">Zahajeni spolupraci</h3>
-            <p class="process-desc">Domluvime podminky a prevezmeme veskere danove povinnosti.</p>
+            <span class="process-num">02 / ZAHÁJENÍ SPOLUPRÁCI</span>
+            <h3 class="process-title">Zahájení spolupráci</h3>
+            <p class="process-desc">Domluvíme podmínky a převezmeme veškeré daňové povinnosti.</p>
         </div>
 <div class="process-card reveal reveal-d3">
-            <span class="process-num">03 / PRUBEZNA PECE</span>
-            <h3 class="process-title">Prubezna pece</h3>
-            <p class="process-desc">Pravidelne se starame o vase dane a hlasime vse podstatne.</p>
+            <span class="process-num">03 / PRŮBĚŽNÁ PÉČE</span>
+            <h3 class="process-title">Průběžná péče</h3>
+            <p class="process-desc">Pravidelně se staráme o vaše daně a hlásíme vše podstatné.</p>
         </div>
 
         </div>
     </div>
 </section>
+
+
 
 <!-- CONTACT — DARK CARD -->
 <section class="contact-wrapper" id="kontakt">
@@ -856,7 +903,7 @@
         <div class="contact-card-inner">
             <div class="contact-heading">
                 <div class="section-label reveal">KONTAKT</div>
-                <h2 class="section-title reveal reveal-d1">Napiste nebo zavolejte</h2>
+                <h2 class="section-title reveal reveal-d1">Napište nebo zavolejte</h2>
             </div>
             <div class="contact-grid">
                 <dl class="contact-info-block reveal reveal-d2">

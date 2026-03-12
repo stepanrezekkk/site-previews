@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Bc. Sona Berkova -- danove poradenstvi a ucetnictvi v Praze. Profesionalni sluzby pro OSVC, s.r.o. a fyzicke osoby.">
-    <title>Bc. Sona Berkova -- Danove poradenstvi Praha</title>
+    <meta name="description" content="Bc. Soňa Berková -- daňové poradenství a účetnictví v Praze. Profesionální služby pro OSVČ, s.r.o. a fyzické osoby.">
+    <title>Bc. Soňa Berková -- Daňové poradenství Praha</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Playfair%20Display:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=DM%20Sans:wght@200;300;400;500;600;700;800&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
@@ -489,6 +489,51 @@
         }
 
         /* ═══ CONTACT — DARK CARD ═══ */
+        /* ═══ TESTIMONIALS ═══ */
+        .testimonials-section {
+            padding: clamp(80px, 12vh, 140px) clamp(24px, 4vw, 64px);
+            background: var(--bg-dark);
+            color: var(--text-on-dark);
+        }
+        .testimonials-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 24px;
+            margin-top: 48px;
+        }
+        .testimonial-card {
+            background: rgba(255,255,255,0.05);
+            border: 1px solid rgba(255,255,255,0.1);
+            border-radius: var(--radius-card);
+            padding: 36px 32px 28px;
+            display: flex; flex-direction: column; gap: 20px;
+            position: relative;
+        }
+        .testimonial-card::before {
+            content: '\201C';
+            font-family: var(--serif);
+            font-size: 5rem;
+            line-height: 1;
+            color: var(--accent);
+            opacity: 0.6;
+            position: absolute;
+            top: 12px; left: 28px;
+        }
+        .testimonial-text {
+            font-size: clamp(0.95rem, 1.5vw, 1.05rem);
+            line-height: 1.75;
+            color: rgba(242,240,233,0.85);
+            padding-top: 32px;
+            font-style: italic;
+        }
+        .testimonial-author {
+            font-size: 0.82rem;
+            font-weight: 600;
+            color: var(--accent);
+            letter-spacing: 0.06em;
+            text-transform: uppercase;
+        }
+
         .contact-wrapper {
             padding: clamp(60px, 10vh, 100px) clamp(24px, 4vw, 64px);
             background: var(--bg-warm);
@@ -732,7 +777,7 @@
         <div class="hero-stats">
             <div>
             <div class="hero-stat-num">200+</div>
-            <div class="hero-stat-label">spokojeneho klienta</div>
+            <div class="hero-stat-label">spokojeného klienta</div>
         </div>
 <div>
             <div class="hero-stat-num">14+</div>
@@ -751,38 +796,38 @@
 <section class="section-light" id="sluzby">
     <div class="section-inner">
         <div class="section-label reveal">CO NABIZIME</div>
-        <h2 class="section-title reveal reveal-d1">Komplexni danove sluzby v Praze</h2>
-        <p class="section-subtitle reveal reveal-d2">Vse, co potrebujete ke klidnemu podnikani pod jednou strechou.</p>
+        <h2 class="section-title reveal reveal-d1">Komplexní daňové služby v Praze</h2>
+        <p class="section-subtitle reveal reveal-d2">Vše, co potřebujete ke klidnému podnikání pod jednou střechou.</p>
         <div class="services-grid">
             <div class="service-card reveal reveal-d1">
             <div class="service-icon"><span>01</span></div>
-            <h3 class="service-title">Danove priznanin</h3>
-            <p class="service-desc">Zpracovani danoveho priznanin vcas a spravne, bez zbytecnych komplikaci.</p>
+            <h3 class="service-title">Daňové priznanin</h3>
+            <p class="service-desc">Zpracování daňového priznanin včas a správně, bez zbytečných komplikací.</p>
         </div>
 <div class="service-card reveal reveal-d2">
             <div class="service-icon"><span>02</span></div>
             <h3 class="service-title">DPH agenda</h3>
-            <p class="service-desc">Registrace, podavani priznani a komunikace s financnim uradem.</p>
+            <p class="service-desc">Registrace, podávání přiznání a komunikace s finančním úřadem.</p>
         </div>
 <div class="service-card reveal reveal-d3">
             <div class="service-icon"><span>03</span></div>
-            <h3 class="service-title">Vedeni ucetnictvi</h3>
-            <p class="service-desc">Podvojne ucetnictvi a daneva evidence s mesicnim reportem.</p>
+            <h3 class="service-title">Vedení účetnictví</h3>
+            <p class="service-desc">Podvojné účetnictví a daneva evidence s měsíčním reportem.</p>
         </div>
 <div class="service-card reveal reveal-d4">
             <div class="service-icon"><span>04</span></div>
-            <h3 class="service-title">Mzdove ucetnictvi</h3>
-            <p class="service-desc">Zpracovani mezd a personalnich zalezitosti pro zamestnavatele.</p>
+            <h3 class="service-title">Mzdové účetnictví</h3>
+            <p class="service-desc">Zpracování mezd a personálních záležitostí pro zaměstnavatele.</p>
         </div>
 <div class="service-card reveal reveal-d4">
             <div class="service-icon"><span>05</span></div>
-            <h3 class="service-title">Danove optimalizace</h3>
-            <p class="service-desc">Legalni minimalizace danove zateze s vyuzitim dostupnych odpoctu.</p>
+            <h3 class="service-title">Daňové optimalizace</h3>
+            <p class="service-desc">Legální minimalizace daňové zátěže s využitím dostupných odpočtů.</p>
         </div>
 <div class="service-card reveal reveal-d4">
             <div class="service-icon"><span>06</span></div>
-            <h3 class="service-title">Poradenstvi s.r.o.</h3>
-            <p class="service-desc">Komplexni poradenstvi pri zalozeni a sprave spolecnosti s rucenim omezenym.</p>
+            <h3 class="service-title">Poradenství s.r.o.</h3>
+            <p class="service-desc">Komplexní poradenství při založení a správě společnosti s ručením omezeným.</p>
         </div>
 
         </div>
@@ -795,8 +840,8 @@
     <div class="about-glow about-glow-2"></div>
     <div class="dot-grid"></div>
     <div class="about-inner">
-        <p class="about-intro reveal">Bc. Sona Berkova se specializuje na danove poradenstvi pro male a stredni podnikatele v Praze. Klientum nabizi srozumitelna reseni pro i slozite danove situace.</p>
-        <h2 class="about-drama reveal reveal-d1">Vas partner v prazske danove dzungli</h2>
+        <p class="about-intro reveal">Bc. Soňa Berková se specializuje na daňové poradenství pro malé a střední podnikatele v Praze. Klientům nabízí srozumitelná řešení pro i složité daňové situace.</p>
+        <h2 class="about-drama reveal reveal-d1">Váš partner v pražské daňové džungli</h2>
     </div>
 </section>
 
@@ -808,7 +853,7 @@
         <div class="stats-grid">
             <div class="stat-card reveal reveal-d1">
             <div class="stat-number" data-count="200" data-suffix="+">0+</div>
-            <div class="stat-label">spokojeneho klienta</div>
+            <div class="stat-label">spokojeného klienta</div>
         </div>
 <div class="stat-card reveal reveal-d2">
             <div class="stat-number" data-count="14" data-suffix="+">0+</div>
@@ -827,28 +872,30 @@
 <section class="section-light" style="padding-top: 0;">
     <div class="section-inner">
         <div class="section-label reveal">JAK PRACUJEME</div>
-        <h2 class="section-title reveal reveal-d1">Tri kroky ke klidnym danim</h2>
-        <p class="section-subtitle reveal reveal-d2">Rychly, transparentni a profesionalni postup.</p>
+        <h2 class="section-title reveal reveal-d1">Tři kroky ke klidným daním</h2>
+        <p class="section-subtitle reveal reveal-d2">Rychlý, transparentní a profesionální postup.</p>
         <div class="process-grid">
             <div class="process-card reveal reveal-d1">
-            <span class="process-num">01 / PRVNI KONTAKT</span>
-            <h3 class="process-title">Prvni kontakt</h3>
-            <p class="process-desc">Zavolejte nebo napiste a domluvme bezplatnu uvodni konzultaci.</p>
+            <span class="process-num">01 / PRVNÍ KONTAKT</span>
+            <h3 class="process-title">První kontakt</h3>
+            <p class="process-desc">Zavolejte nebo napište a domluvme bezplatnu úvodní konzultaci.</p>
         </div>
 <div class="process-card reveal reveal-d2">
-            <span class="process-num">02 / ANALYZA SITUACE</span>
-            <h3 class="process-title">Analyza situace</h3>
-            <p class="process-desc">Projdeme vase podklady a navrhneme optimalni danove reseni.</p>
+            <span class="process-num">02 / ANALÝZA SITUACE</span>
+            <h3 class="process-title">Analýza situace</h3>
+            <p class="process-desc">Projdeme vaše podklady a navrhneme optimální daňové řešení.</p>
         </div>
 <div class="process-card reveal reveal-d3">
-            <span class="process-num">03 / PREVZETI AGENDY</span>
-            <h3 class="process-title">Prevzeti agendy</h3>
-            <p class="process-desc">Postarame se o veskere danove povinnosti a informujeme vas o vsem dulezitem.</p>
+            <span class="process-num">03 / PŘEVZETÍ AGENDY</span>
+            <h3 class="process-title">Převzetí agendy</h3>
+            <p class="process-desc">Postaráme se o veškeré daňové povinnosti a informujeme vás o všem důležitém.</p>
         </div>
 
         </div>
     </div>
 </section>
+
+
 
 <!-- CONTACT — DARK CARD -->
 <section class="contact-wrapper" id="kontakt">
@@ -856,7 +903,7 @@
         <div class="contact-card-inner">
             <div class="contact-heading">
                 <div class="section-label reveal">KONTAKT</div>
-                <h2 class="section-title reveal reveal-d1">Napiste nebo zavolejte</h2>
+                <h2 class="section-title reveal reveal-d1">Napište nebo zavolejte</h2>
             </div>
             <div class="contact-grid">
                 <dl class="contact-info-block reveal reveal-d2">
@@ -879,7 +926,7 @@
                         <textarea placeholder="Jak vám můžeme pomoci?"></textarea>
                     </div>
                     <button type="submit" class="form-submit">
-                        Odeslat zpravu
+                        Odeslat zprávu
                         <svg width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 8h10M9 4l4 4-4 4"/></svg>
                     </button>
                 </form>
@@ -894,7 +941,7 @@
         <div class="footer-top">
             <div class="footer-brand">
                 <h3>Berkova Danove.</h3>
-                <p>Bc. Sona Berkova -- danove poradenstvi a ucetnictvi v Praze. Profesionalni sluzby pro OSVC, s.r.o. a fyzicke osoby.</p>
+                <p>Bc. Soňa Berková -- daňové poradenství a účetnictví v Praze. Profesionální služby pro OSVČ, s.r.o. a fyzické osoby.</p>
                 <div class="footer-status">
                     <div class="footer-status-dot"></div>
                     <span>K dispozici</span>

@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Danovy poradce Dubne. Odborne danove poradenstvi, ucetnictvi a danove sluzby pro podnikatele a firmy v jiznich Cechach.">
-    <title>Ing. Klara Kaprova — Danovy poradce Dubne</title>
+    <meta name="description" content="Daňový poradce Dubně. Odborné daňové poradenství, účetnictví a daňové služby pro podnikatele a firmy v jižních Čechách.">
+    <title>Ing. Klára Kaprova — Daňový poradce Dubně</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Playfair%20Display:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=DM%20Sans:wght@200;300;400;500;600;700;800&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
@@ -489,6 +489,51 @@
         }
 
         /* ═══ CONTACT — DARK CARD ═══ */
+        /* ═══ TESTIMONIALS ═══ */
+        .testimonials-section {
+            padding: clamp(80px, 12vh, 140px) clamp(24px, 4vw, 64px);
+            background: var(--bg-dark);
+            color: var(--text-on-dark);
+        }
+        .testimonials-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 24px;
+            margin-top: 48px;
+        }
+        .testimonial-card {
+            background: rgba(255,255,255,0.05);
+            border: 1px solid rgba(255,255,255,0.1);
+            border-radius: var(--radius-card);
+            padding: 36px 32px 28px;
+            display: flex; flex-direction: column; gap: 20px;
+            position: relative;
+        }
+        .testimonial-card::before {
+            content: '\201C';
+            font-family: var(--serif);
+            font-size: 5rem;
+            line-height: 1;
+            color: var(--accent);
+            opacity: 0.6;
+            position: absolute;
+            top: 12px; left: 28px;
+        }
+        .testimonial-text {
+            font-size: clamp(0.95rem, 1.5vw, 1.05rem);
+            line-height: 1.75;
+            color: rgba(242,240,233,0.85);
+            padding-top: 32px;
+            font-style: italic;
+        }
+        .testimonial-author {
+            font-size: 0.82rem;
+            font-weight: 600;
+            color: var(--accent);
+            letter-spacing: 0.06em;
+            text-transform: uppercase;
+        }
+
         .contact-wrapper {
             padding: clamp(60px, 10vh, 100px) clamp(24px, 4vw, 64px);
             background: var(--bg-warm);
@@ -724,11 +769,11 @@
     <div class="hero-glow hero-glow-2"></div>
     <div class="hero-content">
         <h1>
-            <span class="hero-heading">Ucetnictvi a dane bez problemu</span>
+            <span class="hero-heading">Účetnictví a daně bez problému</span>
             <span class="hero-drama">Klid.</span>
         </h1>
         <p class="hero-sub">Odborne danove poradenstvi a ucetni sluzby v jiznich Cechach pro podnikatele, kteri chteji podnikat bez danovych starostí.</p>
-        <a href="#kontakt" class="hero-cta">Ziskat bezplatnou konzultaci</a>
+        <a href="#kontakt" class="hero-cta">Získat bezplatnou konzultaci</a>
         <div class="hero-stats">
             <div>
             <div class="hero-stat-num">150+</div>
@@ -736,7 +781,7 @@
         </div>
 <div>
             <div class="hero-stat-num">10+</div>
-            <div class="hero-stat-label">let zkusenosti</div>
+            <div class="hero-stat-label">let zkušeností</div>
         </div>
 <div>
             <div class="hero-stat-num">96%</div>
@@ -751,37 +796,37 @@
 <section class="section-light" id="sluzby">
     <div class="section-inner">
         <div class="section-label reveal">NASE SLUZBY</div>
-        <h2 class="section-title reveal reveal-d1">Danove a ucetni sluzby Dubne</h2>
-        <p class="section-subtitle reveal reveal-d2">Komplexni danove poradenstvi a ucetni sluzby pro fyzicke i pravnicke osoby v jiznich Cechach.</p>
+        <h2 class="section-title reveal reveal-d1">Daňové a účetní služby Dubně</h2>
+        <p class="section-subtitle reveal reveal-d2">Komplexní daňové poradenství a účetní služby pro fyzické i právnické osoby v jižních Čechách.</p>
         <div class="services-grid">
             <div class="service-card reveal reveal-d1">
             <div class="service-icon"><span>01</span></div>
-            <h3 class="service-title">Danove poradenstvi</h3>
-            <p class="service-desc">Odborne danove poradenstvi a strategicka optimalizace danovych povinnosti pro podnikatele a firmy.</p>
+            <h3 class="service-title">Daňové poradenství</h3>
+            <p class="service-desc">Odborné daňové poradenství a strategická optimalizace daňových povinností pro podnikatele a firmy.</p>
         </div>
 <div class="service-card reveal reveal-d2">
             <div class="service-icon"><span>02</span></div>
-            <h3 class="service-title">Vedeni ucetnictvi</h3>
-            <p class="service-desc">Profesionalni vedeni podvojneho ucetnictvi a danove evidence pro OSVC a obchodni spolecnosti.</p>
+            <h3 class="service-title">Vedení účetnictví</h3>
+            <p class="service-desc">Profesionální vedení podvojného účetnictví a daňové evidence pro OSVČ a obchodní společnosti.</p>
         </div>
 <div class="service-card reveal reveal-d3">
             <div class="service-icon"><span>03</span></div>
-            <h3 class="service-title">Danove uznani</h3>
+            <h3 class="service-title">Daňové uznání</h3>
             <p class="service-desc">Zpracovani vsech typu danovych uznani vcas a spravne s maximalnim vyuzitim zákonnýčh moznosti.</p>
         </div>
 <div class="service-card reveal reveal-d4">
             <div class="service-icon"><span>04</span></div>
             <h3 class="service-title">DPH agenda</h3>
-            <p class="service-desc">Komplexni vedeni a zpracovani DPH agendy vcetne pravidelnych podani a optimalizace.</p>
+            <p class="service-desc">Komplexní vedení a zpracování DPH agendy včetně pravidelných podání a optimalizace.</p>
         </div>
 <div class="service-card reveal reveal-d4">
             <div class="service-icon"><span>05</span></div>
-            <h3 class="service-title">Mzdova agenda</h3>
-            <p class="service-desc">Komplexni zpracovani mezd, odvodu a povinnych hlaseni pro zamestnavatele.</p>
+            <h3 class="service-title">Mzdová agenda</h3>
+            <p class="service-desc">Komplexní zpracování mezd, odvodů a povinných hlášení pro zaměstnavatele.</p>
         </div>
 <div class="service-card reveal reveal-d4">
             <div class="service-icon"><span>06</span></div>
-            <h3 class="service-title">Ekonomicke poradenstvi</h3>
+            <h3 class="service-title">Ekonomické poradenství</h3>
             <p class="service-desc">Siroké ekonomicke poradenstvi pro male a stredni firmy vcetne financni analyzy a reportingu.</p>
         </div>
 
@@ -796,7 +841,7 @@
     <div class="dot-grid"></div>
     <div class="about-inner">
         <p class="about-intro reveal">Ing. Klara Kaprova je danove poradkyne a ekonomka pusobici v jiznich Cechach. Spolecnost Proekonom poskytuje komplexni danove a ucetni sluzby s durazem na individualní pristup a dlouhodobé partnerske vztahy.</p>
-        <h2 class="about-drama reveal reveal-d1">Odbornost a osobni pristup</h2>
+        <h2 class="about-drama reveal reveal-d1">Odbornost a osobní přístup</h2>
     </div>
 </section>
 
@@ -812,7 +857,7 @@
         </div>
 <div class="stat-card reveal reveal-d2">
             <div class="stat-number" data-count="10" data-suffix="+">0+</div>
-            <div class="stat-label">let zkusenosti</div>
+            <div class="stat-label">let zkušeností</div>
         </div>
 <div class="stat-card reveal reveal-d3">
             <div class="stat-number" data-count="96" data-suffix="%">0%</div>
@@ -827,28 +872,30 @@
 <section class="section-light" style="padding-top: 0;">
     <div class="section-inner">
         <div class="section-label reveal">JAK PRACUJEME</div>
-        <h2 class="section-title reveal reveal-d1">Nase spoluprace</h2>
-        <p class="section-subtitle reveal reveal-d2">Jednoduchy a primy postup, ktery vam usetri cas i starosti.</p>
+        <h2 class="section-title reveal reveal-d1">Naše spolupráce</h2>
+        <p class="section-subtitle reveal reveal-d2">Jednoduchý a přímý postup, který vám ušetří čas i starosti.</p>
         <div class="process-grid">
             <div class="process-card reveal reveal-d1">
-            <span class="process-num">01 / UVODNI SCHUZKA</span>
-            <h3 class="process-title">Uvodni schuzka</h3>
-            <p class="process-desc">Bezplatna uvodni konzultace, kde probereme vasi situaci a moznosti nasi spoluprace.</p>
+            <span class="process-num">01 / ÚVODNÍ SCHŮZKA</span>
+            <h3 class="process-title">Úvodní schůzka</h3>
+            <p class="process-desc">Bezplatná úvodní konzultace, kde probereme vaši situaci a možnosti naší spolupráce.</p>
         </div>
 <div class="process-card reveal reveal-d2">
-            <span class="process-num">02 / NAVRH SLUZEB</span>
-            <h3 class="process-title">Navrh sluzeb</h3>
-            <p class="process-desc">Pripravime navrh sluzeb na miru a jasne stanovenym cenikem.</p>
+            <span class="process-num">02 / NÁVRH SLUŽEB</span>
+            <h3 class="process-title">Návrh služeb</h3>
+            <p class="process-desc">Připravíme návrh služeb na míru a jasně stanoveným ceníkem.</p>
         </div>
 <div class="process-card reveal reveal-d3">
-            <span class="process-num">03 / ZAHAJENI SPOLUPRACE</span>
-            <h3 class="process-title">Zahajeni spoluprace</h3>
-            <p class="process-desc">Prevezmeme vasi agendu a od prvniho dne se postarame o vsechny danove a ucetni povinnosti.</p>
+            <span class="process-num">03 / ZAHÁJENÍ SPOLUPRÁCE</span>
+            <h3 class="process-title">Zahájení spolupráce</h3>
+            <p class="process-desc">Převezmeme vaši agendu a od prvního dne se postaráme o všechny daňové a účetní povinnosti.</p>
         </div>
 
         </div>
     </div>
 </section>
+
+
 
 <!-- CONTACT — DARK CARD -->
 <section class="contact-wrapper" id="kontakt">
@@ -856,7 +903,7 @@
         <div class="contact-card-inner">
             <div class="contact-heading">
                 <div class="section-label reveal">KONTAKT</div>
-                <h2 class="section-title reveal reveal-d1">Pojdme spolupracovat</h2>
+                <h2 class="section-title reveal reveal-d1">Pojďme spolupracovat</h2>
             </div>
             <div class="contact-grid">
                 <dl class="contact-info-block reveal reveal-d2">
@@ -879,7 +926,7 @@
                         <textarea placeholder="Jak vám můžeme pomoci?"></textarea>
                     </div>
                     <button type="submit" class="form-submit">
-                        Odeslat zpravu
+                        Odeslat zprávu
                         <svg width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 8h10M9 4l4 4-4 4"/></svg>
                     </button>
                 </form>
@@ -894,7 +941,7 @@
         <div class="footer-top">
             <div class="footer-brand">
                 <h3>Ing. Klara Kaprova.</h3>
-                <p>Danovy poradce Dubne. Odborne danove poradenstvi, ucetnictvi a danove sluzby pro podnikatele a firmy v jiznich Cechach.</p>
+                <p>Daňový poradce Dubně. Odborné daňové poradenství, účetnictví a daňové služby pro podnikatele a firmy v jižních Čechách.</p>
                 <div class="footer-status">
                     <div class="footer-status-dot"></div>
                     <span>K dispozici</span>

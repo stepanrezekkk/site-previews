@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Zuzana Barankova — danove poradenstvi a ucetni sluzby v Prerove. Profesionalni pristup a individualni reseni pro vasi firmu.">
-    <title>EM-ZET — Danove poradenstvi Prerov</title>
+    <meta name="description" content="Zuzana Barankova — daňové poradenství a účetní služby v Přerově. Profesionální přístup a individuální řešení pro vaši firmu.">
+    <title>EM-ZEŤ — Daňové poradenství Přerov</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Playfair%20Display:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=DM%20Sans:wght@200;300;400;500;600;700;800&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
@@ -489,6 +489,51 @@
         }
 
         /* ═══ CONTACT — DARK CARD ═══ */
+        /* ═══ TESTIMONIALS ═══ */
+        .testimonials-section {
+            padding: clamp(80px, 12vh, 140px) clamp(24px, 4vw, 64px);
+            background: var(--bg-dark);
+            color: var(--text-on-dark);
+        }
+        .testimonials-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 24px;
+            margin-top: 48px;
+        }
+        .testimonial-card {
+            background: rgba(255,255,255,0.05);
+            border: 1px solid rgba(255,255,255,0.1);
+            border-radius: var(--radius-card);
+            padding: 36px 32px 28px;
+            display: flex; flex-direction: column; gap: 20px;
+            position: relative;
+        }
+        .testimonial-card::before {
+            content: '\201C';
+            font-family: var(--serif);
+            font-size: 5rem;
+            line-height: 1;
+            color: var(--accent);
+            opacity: 0.6;
+            position: absolute;
+            top: 12px; left: 28px;
+        }
+        .testimonial-text {
+            font-size: clamp(0.95rem, 1.5vw, 1.05rem);
+            line-height: 1.75;
+            color: rgba(242,240,233,0.85);
+            padding-top: 32px;
+            font-style: italic;
+        }
+        .testimonial-author {
+            font-size: 0.82rem;
+            font-weight: 600;
+            color: var(--accent);
+            letter-spacing: 0.06em;
+            text-transform: uppercase;
+        }
+
         .contact-wrapper {
             padding: clamp(60px, 10vh, 100px) clamp(24px, 4vw, 64px);
             background: var(--bg-warm);
@@ -727,7 +772,7 @@
             <span class="hero-heading">Aby vaše účetnictví dávalo smysl.</span>
             <span class="hero-drama">Jistota.</span>
         </h1>
-        <p class="hero-sub">Odborne danove poradenstvi a ucetni sluzby s osobnim pristupem pro podnikatele a firmy v Prerove.</p>
+        <p class="hero-sub">Odborné daňové poradenství a účetní služby s osobním přístupem pro podnikatele a firmy v Přerově.</p>
         <a href="#kontakt" class="hero-cta">Konzultace zdarma</a>
         <div class="hero-stats">
             <div>
@@ -736,11 +781,11 @@
         </div>
 <div>
             <div class="hero-stat-num">190+</div>
-            <div class="hero-stat-label">spokojenych klientu</div>
+            <div class="hero-stat-label">spokojených klientů</div>
         </div>
 <div>
             <div class="hero-stat-num">99%</div>
-            <div class="hero-stat-label">dodrzeni terminu</div>
+            <div class="hero-stat-label">dodržení termínu</div>
         </div>
 
         </div>
@@ -751,33 +796,33 @@
 <section class="section-light" id="sluzby">
     <div class="section-inner">
         <div class="section-label reveal">NASE SLUZBY</div>
-        <h2 class="section-title reveal reveal-d1">Dane a ucetnictvi na jednom miste</h2>
-        <p class="section-subtitle reveal reveal-d2">Komplexni podpora pro podnikatele a firmy ve vsech oblasti dani.</p>
+        <h2 class="section-title reveal reveal-d1">Daně a účetnictví na jednom místě</h2>
+        <p class="section-subtitle reveal reveal-d2">Komplexní podpora pro podnikatele a firmy ve všech oblastí daní.</p>
         <div class="services-grid">
             <div class="service-card reveal reveal-d1">
             <div class="service-icon"><span>01</span></div>
-            <h3 class="service-title">Danove poradenstvi</h3>
-            <p class="service-desc">Odborne konzultace a danova optimalizace s licenci KDP CR.</p>
+            <h3 class="service-title">Daňové poradenství</h3>
+            <p class="service-desc">Odborné konzultace a daňová optimalizace s licencí KDP ČR.</p>
         </div>
 <div class="service-card reveal reveal-d2">
             <div class="service-icon"><span>02</span></div>
-            <h3 class="service-title">Vedeni ucetnictvi</h3>
-            <p class="service-desc">Kompletni podvojne ucetnictvi vcetne mesicnich uzaverek a financniho reportingu.</p>
+            <h3 class="service-title">Vedení účetnictví</h3>
+            <p class="service-desc">Kompletní podvojné účetnictví včetně měsíčních uzávěrek a finančního reportingu.</p>
         </div>
 <div class="service-card reveal reveal-d3">
             <div class="service-icon"><span>03</span></div>
-            <h3 class="service-title">Danove evidence</h3>
-            <p class="service-desc">Prehledna danove evidence pro OSVC a drobne podnikatele.</p>
+            <h3 class="service-title">Daňové evidence</h3>
+            <p class="service-desc">Přehledná daňové evidence pro OSVČ a drobné podnikatele.</p>
         </div>
 <div class="service-card reveal reveal-d4">
             <div class="service-icon"><span>04</span></div>
-            <h3 class="service-title">DPH a silnicni dan</h3>
-            <p class="service-desc">Prizn ani k DPH, kontrolni hlaseni a dalsi zakonne povinnosti vcas.</p>
+            <h3 class="service-title">DPH a silniční daň</h3>
+            <p class="service-desc">Prizn ani k DPH, kontrolní hlášení a další zákonné povinnosti včas.</p>
         </div>
 <div class="service-card reveal reveal-d4">
             <div class="service-icon"><span>05</span></div>
-            <h3 class="service-title">Mzdova agenda</h3>
-            <p class="service-desc">Zpracovani mezd a personalni agendy pro zamestnavatele vsech velikosti.</p>
+            <h3 class="service-title">Mzdová agenda</h3>
+            <p class="service-desc">Zpracování mezd a personální agendy pro zaměstnavatele všech velikostí.</p>
         </div>
 
         </div>
@@ -791,7 +836,7 @@
     <div class="dot-grid"></div>
     <div class="about-inner">
         <p class="about-intro reveal">Píše se rok 1990 a v Přerově zakládáme naši účetní a daňovou kancelář EM.ZET. Již od počátku se dynamicky rozvíjíme a rozšiřujeme svou činnost. V roce 1994 jsme pořídili a kompletně zrekonstruovali historický dům v centru Přerova, který se tak mění ve čtyřpatrové reprezentativní sídlo, schopné uspokojit zájem a potřeby rostoucí klientely i pracovníků. V roce 2004 měníme právní formu společnosti na Účetnictví MZ s.r.o. Závazky a povinnosti však nemizí a především nasazení, se kterým jsme začali, stále roste.</p>
-        <h2 class="about-drama reveal reveal-d1">Odbornost a osobni pristup.</h2>
+        <h2 class="about-drama reveal reveal-d1">Odbornost a osobní přístup.</h2>
     </div>
 </section>
 
@@ -807,11 +852,11 @@
         </div>
 <div class="stat-card reveal reveal-d2">
             <div class="stat-number" data-count="190" data-suffix="+">0+</div>
-            <div class="stat-label">spokojenych klientu</div>
+            <div class="stat-label">spokojených klientů</div>
         </div>
 <div class="stat-card reveal reveal-d3">
             <div class="stat-number" data-count="99" data-suffix="%">0%</div>
-            <div class="stat-label">dodrzeni terminu</div>
+            <div class="stat-label">dodržení termínu</div>
         </div>
 
         </div>
@@ -822,28 +867,30 @@
 <section class="section-light" style="padding-top: 0;">
     <div class="section-inner">
         <div class="section-label reveal">JAK PRACUJEME</div>
-        <h2 class="section-title reveal reveal-d1">Transparentni spoluprace</h2>
-        <p class="section-subtitle reveal reveal-d2">Od prvniho setkani az po kompletni servis.</p>
+        <h2 class="section-title reveal reveal-d1">Transparentní spolupráce</h2>
+        <p class="section-subtitle reveal reveal-d2">Od prvního setkání až po kompletní servis.</p>
         <div class="process-grid">
             <div class="process-card reveal reveal-d1">
-            <span class="process-num">01 / BEZPLATNA KONZULTACE</span>
-            <h3 class="process-title">Bezplatna konzultace</h3>
-            <p class="process-desc">Zanalyzujeme vasi situaci a navrhneme optimalni reseni bez jakehokoliv zavazku.</p>
+            <span class="process-num">01 / BEZPLATNÁ KONZULTACE</span>
+            <h3 class="process-title">Bezplatná konzultace</h3>
+            <p class="process-desc">Zanalyzujeme vaši situaci a navrhneme optimální řešení bez jakéhokoliv závazku.</p>
         </div>
 <div class="process-card reveal reveal-d2">
-            <span class="process-num">02 / INDIVIDUALNI PLAN</span>
-            <h3 class="process-title">Individualni plan</h3>
-            <p class="process-desc">Pripravime sluzby presne dle vasich potreb a rozsahu podnikani.</p>
+            <span class="process-num">02 / INDIVIDUÁLNÍ PLÁN</span>
+            <h3 class="process-title">Individuální plán</h3>
+            <p class="process-desc">Připravíme služby přesně dle vašich potřeb a rozsahu podnikání.</p>
         </div>
 <div class="process-card reveal reveal-d3">
-            <span class="process-num">03 / KOMPLETNI PECE</span>
-            <h3 class="process-title">Kompletni pece</h3>
-            <p class="process-desc">Prevzmeme veskou agendu a prubezne vas informujeme o dulez itych zmenach.</p>
+            <span class="process-num">03 / KOMPLETNÍ PÉČE</span>
+            <h3 class="process-title">Kompletní péče</h3>
+            <p class="process-desc">Prevzmeme véskou agendu a průběžně vás informujeme o dulez itych změnách.</p>
         </div>
 
         </div>
     </div>
 </section>
+
+
 
 <!-- CONTACT — DARK CARD -->
 <section class="contact-wrapper" id="kontakt">
@@ -851,7 +898,7 @@
         <div class="contact-card-inner">
             <div class="contact-heading">
                 <div class="section-label reveal">KONTAKT</div>
-                <h2 class="section-title reveal reveal-d1">Pojdme spolupracovat</h2>
+                <h2 class="section-title reveal reveal-d1">Pojďme spolupracovat</h2>
             </div>
             <div class="contact-grid">
                 <dl class="contact-info-block reveal reveal-d2">
@@ -874,7 +921,7 @@
                         <textarea placeholder="Jak vám můžeme pomoci?"></textarea>
                     </div>
                     <button type="submit" class="form-submit">
-                        Odeslat zpravu
+                        Odeslat zprávu
                         <svg width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 8h10M9 4l4 4-4 4"/></svg>
                     </button>
                 </form>
@@ -889,7 +936,7 @@
         <div class="footer-top">
             <div class="footer-brand">
                 <h3>EM-ZET.</h3>
-                <p>Zuzana Barankova — danove poradenstvi a ucetni sluzby v Prerove. Profesionalni pristup a individualni reseni pro vasi firmu.</p>
+                <p>Zuzana Barankova — daňové poradenství a účetní služby v Přerově. Profesionální přístup a individuální řešení pro vaši firmu.</p>
                 <div class="footer-status">
                     <div class="footer-status-dot"></div>
                     <span>K dispozici</span>

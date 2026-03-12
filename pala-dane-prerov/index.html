@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Ing. Lubomir Pala, danovy poradce v Prerove. Odborna sprava dani, ucetnictvi a financni poradenstvi pro firmy a jednotlivce na Hane.">
-    <title>Ing. Lubomir Pala — Danovy poradce Prerov</title>
+    <meta name="description" content="Ing. Lubomír Pála, daňový poradce v Přerově. Odborná správa daní, účetnictví a finanční poradenství pro firmy a jednotlivce na Hané.">
+    <title>Ing. Lubomír Pála — Daňový poradce Přerov</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Playfair%20Display:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=DM%20Sans:wght@200;300;400;500;600;700;800&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
@@ -489,6 +489,51 @@
         }
 
         /* ═══ CONTACT — DARK CARD ═══ */
+        /* ═══ TESTIMONIALS ═══ */
+        .testimonials-section {
+            padding: clamp(80px, 12vh, 140px) clamp(24px, 4vw, 64px);
+            background: var(--bg-dark);
+            color: var(--text-on-dark);
+        }
+        .testimonials-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 24px;
+            margin-top: 48px;
+        }
+        .testimonial-card {
+            background: rgba(255,255,255,0.05);
+            border: 1px solid rgba(255,255,255,0.1);
+            border-radius: var(--radius-card);
+            padding: 36px 32px 28px;
+            display: flex; flex-direction: column; gap: 20px;
+            position: relative;
+        }
+        .testimonial-card::before {
+            content: '\201C';
+            font-family: var(--serif);
+            font-size: 5rem;
+            line-height: 1;
+            color: var(--accent);
+            opacity: 0.6;
+            position: absolute;
+            top: 12px; left: 28px;
+        }
+        .testimonial-text {
+            font-size: clamp(0.95rem, 1.5vw, 1.05rem);
+            line-height: 1.75;
+            color: rgba(242,240,233,0.85);
+            padding-top: 32px;
+            font-style: italic;
+        }
+        .testimonial-author {
+            font-size: 0.82rem;
+            font-weight: 600;
+            color: var(--accent);
+            letter-spacing: 0.06em;
+            text-transform: uppercase;
+        }
+
         .contact-wrapper {
             padding: clamp(60px, 10vh, 100px) clamp(24px, 4vw, 64px);
             background: var(--bg-warm);
@@ -727,7 +772,7 @@
             <span class="hero-heading">Haná s dany pod kontrolou</span>
             <span class="hero-drama">Jistota.</span>
         </h1>
-        <p class="hero-sub">Misty odbornik na danove poradenstvi v Prerove pomaha podnikatelum na Hane s efektivni spravou dani.</p>
+        <p class="hero-sub">Místy odborník na daňové poradenství v Přerově pomáhá podnikatelům na Hané s efektivní správou daní.</p>
         <a href="#kontakt" class="hero-cta">Domluvit schůzku</a>
         <div class="hero-stats">
             <div>
@@ -740,7 +785,7 @@
         </div>
 <div>
             <div class="hero-stat-num">97%</div>
-            <div class="hero-stat-label">klientu se vraci</div>
+            <div class="hero-stat-label">klientů se vrací</div>
         </div>
 
         </div>
@@ -751,22 +796,22 @@
 <section class="section-light" id="sluzby">
     <div class="section-inner">
         <div class="section-label reveal">NASE SLUZBY</div>
-        <h2 class="section-title reveal reveal-d1">Odborne danove sluzby na Hane</h2>
-        <p class="section-subtitle reveal reveal-d2">Komplexni danove reseni pro podnikatele a firmy v Prerove a celem Olomouckem kraji.</p>
+        <h2 class="section-title reveal reveal-d1">Odborné daňové služby na Hané</h2>
+        <p class="section-subtitle reveal reveal-d2">Komplexní daňové řešení pro podnikatele a firmy v Přerově a celém Olomouckém kraji.</p>
         <div class="services-grid">
             <div class="service-card reveal reveal-d1">
             <div class="service-icon"><span>01</span></div>
-            <h3 class="service-title">Danove poradenstvi</h3>
-            <p class="service-desc">Individualni danove poradenstvi pro vsechny typy poplatniku s durazem na optimalizaci.</p>
+            <h3 class="service-title">Daňové poradenství</h3>
+            <p class="service-desc">Individuální daňové poradenství pro všechny typy poplatníků s důrazem na optimalizaci.</p>
         </div>
 <div class="service-card reveal reveal-d2">
             <div class="service-icon"><span>02</span></div>
-            <h3 class="service-title">Danove priznani PO</h3>
-            <p class="service-desc">Komplexni zpracovani danovych prizani pravnickych osob vcetne prilohu a kompenzaci ztrat.</p>
+            <h3 class="service-title">Daňové přiznání PO</h3>
+            <p class="service-desc">Komplexní zpracování daňových prizani právnických osob včetně přílohu a kompenzaci ztrát.</p>
         </div>
 <div class="service-card reveal reveal-d3">
             <div class="service-icon"><span>03</span></div>
-            <h3 class="service-title">Danove priznani FO</h3>
+            <h3 class="service-title">Daňové přiznání FO</h3>
             <p class="service-desc">Zpracovani danovych prizani fyzickych osob, OSVČ a zamestnancu se zahranicnimi prijmy.</p>
         </div>
 <div class="service-card reveal reveal-d4">
@@ -777,11 +822,11 @@
 <div class="service-card reveal reveal-d4">
             <div class="service-icon"><span>05</span></div>
             <h3 class="service-title">Danove planování</h3>
-            <p class="service-desc">Strategicke danove planovani pro minimalizaci danove povinnosti v souladu se zakonem.</p>
+            <p class="service-desc">Strategické daňové plánování pro minimalizaci daňové povinnosti v souladu se zákonem.</p>
         </div>
 <div class="service-card reveal reveal-d4">
             <div class="service-icon"><span>06</span></div>
-            <h3 class="service-title">Ucetni poradenstvi</h3>
+            <h3 class="service-title">Účetní poradenství</h3>
             <p class="service-desc">Poradenstvi pri nastavovani ucetniho systemu a sprave klicovych ucetnich procesů.</p>
         </div>
 
@@ -796,7 +841,7 @@
     <div class="dot-grid"></div>
     <div class="about-inner">
         <p class="about-intro reveal">Ing. Lubomir Pala nabizí klientum v Prerove odborne danove sluzby s osobnim pristupem a rychlou dostupnosti, kterou velke kancelare nemohou poskytnout.</p>
-        <h2 class="about-drama reveal reveal-d1">Prerovsky expert s lidskym pristupem</h2>
+        <h2 class="about-drama reveal reveal-d1">Přerovský expert s lidským přístupem</h2>
     </div>
 </section>
 
@@ -816,7 +861,7 @@
         </div>
 <div class="stat-card reveal reveal-d3">
             <div class="stat-number" data-count="97" data-suffix="%">0%</div>
-            <div class="stat-label">klientu se vraci</div>
+            <div class="stat-label">klientů se vrací</div>
         </div>
 
         </div>
@@ -827,28 +872,30 @@
 <section class="section-light" style="padding-top: 0;">
     <div class="section-inner">
         <div class="section-label reveal">JAK PRACUJEME</div>
-        <h2 class="section-title reveal reveal-d1">Spoluprace krok za krokem</h2>
-        <p class="section-subtitle reveal reveal-d2">Jasne definovany postup pro bezstresove zvladnuti vasich danovych povinnosti.</p>
+        <h2 class="section-title reveal reveal-d1">Spolupráce krok za krokem</h2>
+        <p class="section-subtitle reveal reveal-d2">Jasně definovaný postup pro bezstresove zvládnutí vašich daňových povinností.</p>
         <div class="process-grid">
             <div class="process-card reveal reveal-d1">
-            <span class="process-num">01 / UVODNI KONZULTACE</span>
-            <h3 class="process-title">Uvodni konzultace</h3>
-            <p class="process-desc">Bezplatne setkani pro poznanì vasi situace a definici potrebnych kroku spoluprace.</p>
+            <span class="process-num">01 / ÚVODNÍ KONZULTACE</span>
+            <h3 class="process-title">Úvodní konzultace</h3>
+            <p class="process-desc">Bezplatné setkání pro poznanì vaší situace a definici potřebných kroků spolupráce.</p>
         </div>
 <div class="process-card reveal reveal-d2">
-            <span class="process-num">02 / ZPRACOVANI A KONTROL</span>
-            <h3 class="process-title">Zpracovani a kontrola</h3>
-            <p class="process-desc">Precizni zpracovani vsech podkladu s dukladnou kontrolou spravnosti kazdeho udaje.</p>
+            <span class="process-num">02 / ZPRACOVÁNÍ A KONTROL</span>
+            <h3 class="process-title">Zpracování a kontrola</h3>
+            <p class="process-desc">Precizní zpracování všech podkladů s důkladnou kontrolou správnosti každého údaje.</p>
         </div>
 <div class="process-card reveal reveal-d3">
-            <span class="process-num">03 / PODANI A PODPORA</span>
-            <h3 class="process-title">Podani a podpora</h3>
-            <p class="process-desc">Vcasne podani vsech potrebnych dokumentu a nasledna podpora pri jakemkoli sdelenì od FU.</p>
+            <span class="process-num">03 / PODÁNÍ A PODPORA</span>
+            <h3 class="process-title">Podání a podpora</h3>
+            <p class="process-desc">Včasné podání všech potřebných dokumentů a následná podpora při jakémkoli sdelenì od FÚ.</p>
         </div>
 
         </div>
     </div>
 </section>
+
+
 
 <!-- CONTACT — DARK CARD -->
 <section class="contact-wrapper" id="kontakt">
@@ -856,7 +903,7 @@
         <div class="contact-card-inner">
             <div class="contact-heading">
                 <div class="section-label reveal">KONTAKT</div>
-                <h2 class="section-title reveal reveal-d1">Jsme tu pro vas</h2>
+                <h2 class="section-title reveal reveal-d1">Jsme tu pro vás</h2>
             </div>
             <div class="contact-grid">
                 <dl class="contact-info-block reveal reveal-d2">
@@ -894,7 +941,7 @@
         <div class="footer-top">
             <div class="footer-brand">
                 <h3>Pala Dane.</h3>
-                <p>Ing. Lubomir Pala, danovy poradce v Prerove. Odborna sprava dani, ucetnictvi a financni poradenstvi pro firmy a jednotlivce na Hane.</p>
+                <p>Ing. Lubomír Pála, daňový poradce v Přerově. Odborná správa daní, účetnictví a finanční poradenství pro firmy a jednotlivce na Hané.</p>
                 <div class="footer-status">
                     <div class="footer-status-dot"></div>
                     <span>K dispozici</span>

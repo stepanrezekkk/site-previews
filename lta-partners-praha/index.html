@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Ing. Hana Daenhardtova, danovy poradce v Praze. Specializace na mezinarodni danove struktury a danove poradenstvi pro korporatni klienty.">
-    <title>Ing. Hana Daenhardtova | Danovy poradce Praha</title>
+    <meta name="description" content="Ing. Hana Daenhardtova, daňový poradce v Praze. Specializace na mezinárodní daňové struktury a daňové poradenství pro korporátní klienty.">
+    <title>Ing. Hana Daenhardtova | Daňový poradce Praha</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=DM%20Sans:wght@200;300;400;500;600;700;800&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
@@ -489,6 +489,51 @@
         }
 
         /* ═══ CONTACT — DARK CARD ═══ */
+        /* ═══ TESTIMONIALS ═══ */
+        .testimonials-section {
+            padding: clamp(80px, 12vh, 140px) clamp(24px, 4vw, 64px);
+            background: var(--bg-dark);
+            color: var(--text-on-dark);
+        }
+        .testimonials-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 24px;
+            margin-top: 48px;
+        }
+        .testimonial-card {
+            background: rgba(255,255,255,0.05);
+            border: 1px solid rgba(255,255,255,0.1);
+            border-radius: var(--radius-card);
+            padding: 36px 32px 28px;
+            display: flex; flex-direction: column; gap: 20px;
+            position: relative;
+        }
+        .testimonial-card::before {
+            content: '\201C';
+            font-family: var(--serif);
+            font-size: 5rem;
+            line-height: 1;
+            color: var(--accent);
+            opacity: 0.6;
+            position: absolute;
+            top: 12px; left: 28px;
+        }
+        .testimonial-text {
+            font-size: clamp(0.95rem, 1.5vw, 1.05rem);
+            line-height: 1.75;
+            color: rgba(242,240,233,0.85);
+            padding-top: 32px;
+            font-style: italic;
+        }
+        .testimonial-author {
+            font-size: 0.82rem;
+            font-weight: 600;
+            color: var(--accent);
+            letter-spacing: 0.06em;
+            text-transform: uppercase;
+        }
+
         .contact-wrapper {
             padding: clamp(60px, 10vh, 100px) clamp(24px, 4vw, 64px);
             background: var(--bg-warm);
@@ -724,11 +769,11 @@
     <div class="hero-glow hero-glow-2"></div>
     <div class="hero-content">
         <h1>
-            <span class="hero-heading">Mezinarodni dane bez hranic</span>
+            <span class="hero-heading">Mezinárodní daně bez hranic</span>
             <span class="hero-drama">Preciznost.</span>
         </h1>
         <p class="hero-sub">Specializovane danové poradenstvi pro korporatni klienty a mezinarodni struktury. Partner LTA Partners v Praze.</p>
-        <a href="#kontakt" class="hero-cta">Domluvit schuzku</a>
+        <a href="#kontakt" class="hero-cta">Domluvit schůzku</a>
         <div class="hero-stats">
             <div>
             <div class="hero-stat-num">140+</div>
@@ -740,7 +785,7 @@
         </div>
 <div>
             <div class="hero-stat-num">92%</div>
-            <div class="hero-stat-label">uspesnost v danovych sporech</div>
+            <div class="hero-stat-label">úspěšnost v daňových sporech</div>
         </div>
 
         </div>
@@ -751,13 +796,13 @@
 <section class="section-light" id="sluzby">
     <div class="section-inner">
         <div class="section-label reveal">SPECIALIZACE</div>
-        <h2 class="section-title reveal reveal-d1">Pokrocile danove sluzby</h2>
+        <h2 class="section-title reveal reveal-d1">Pokročilé daňové služby</h2>
         <p class="section-subtitle reveal reveal-d2">Expertni danové poradenstvi pro komplexni struktury a mezinarodni operace.</p>
         <div class="services-grid">
             <div class="service-card reveal reveal-d1">
             <div class="service-icon"><span>01</span></div>
             <h3 class="service-title">PRÁVNÍ PORADENSTVÍ</h3>
-            <p class="service-desc">Odborne poradenstvi v oblasti mezinarodniho zdaneni, transferovych cen a aplikace smluv o zamezeni dvojiho zdaneni.</p>
+            <p class="service-desc">Odborné poradenství v oblasti mezinárodního zdanění, transferových cen a aplikace smluv o zamezení dvojího zdanění.</p>
         </div>
 <div class="service-card reveal reveal-d2">
             <div class="service-icon"><span>02</span></div>
@@ -795,8 +840,8 @@
     <div class="about-glow about-glow-2"></div>
     <div class="dot-grid"></div>
     <div class="about-inner">
-        <p class="about-intro reveal">Ing. Hana Daenhardtova je zkusena specialistka na mezinarodni dane s hlubokou znalosti ceske i evropske danove legislativy. Jako partnerka LTA Partners nabizi klientum prestizni poradenstvi na nejvyssi urovni.</p>
-        <h2 class="about-drama reveal reveal-d1">Mezinarodni perspektiva, lokalni znalost</h2>
+        <p class="about-intro reveal">Ing. Hana Daenhardtova je zkušená specialistka na mezinárodní daně s hlubokou znalostí české i evropské daňové legislativy. Jako partnerka LTA Partners nabízí klientům prestižní poradenství na nejvyšší úrovni.</p>
+        <h2 class="about-drama reveal reveal-d1">Mezinárodní perspektiva, lokální znalost</h2>
     </div>
 </section>
 
@@ -816,7 +861,7 @@
         </div>
 <div class="stat-card reveal reveal-d3">
             <div class="stat-number" data-count="92" data-suffix="%">0%</div>
-            <div class="stat-label">uspesnost v danovych sporech</div>
+            <div class="stat-label">úspěšnost v daňových sporech</div>
         </div>
 
         </div>
@@ -827,28 +872,30 @@
 <section class="section-light" style="padding-top: 0;">
     <div class="section-inner">
         <div class="section-label reveal">POSTUP SPOLUPRACE</div>
-        <h2 class="section-title reveal reveal-d1">Jak pracujeme s korporatnimi klienty</h2>
-        <p class="section-subtitle reveal reveal-d2">Strukturovany pristup pro komplexni danove projekty.</p>
+        <h2 class="section-title reveal reveal-d1">Jak pracujeme s korporátními klienty</h2>
+        <p class="section-subtitle reveal reveal-d2">Strukturovaný přístup pro komplexní daňové projekty.</p>
         <div class="process-grid">
             <div class="process-card reveal reveal-d1">
-            <span class="process-num">01 / UVODNI AUDIT</span>
-            <h3 class="process-title">Uvodni audit</h3>
-            <p class="process-desc">Provedeme hloubkovy audit vasi soucasne danove situace a identifikujeme klic. rizika a prilezitosti.</p>
+            <span class="process-num">01 / ÚVODNÍ AUDIT</span>
+            <h3 class="process-title">Úvodní audit</h3>
+            <p class="process-desc">Provedeme hloubkový audit vaší současné daňové situace a identifikujeme klíč. rizika a příležitosti.</p>
         </div>
 <div class="process-card reveal reveal-d2">
-            <span class="process-num">02 / STRATEGIE A PLAN</span>
-            <h3 class="process-title">Strategie a plan</h3>
+            <span class="process-num">02 / STRATEGIE A PLÁN</span>
+            <h3 class="process-title">Strategie a plán</h3>
             <p class="process-desc">Pripravime rozsahlou danovou strategii s konkretnimi doporucenými kroky a casovym harmonogramem.</p>
         </div>
 <div class="process-card reveal reveal-d3">
             <span class="process-num">03 / IMPLEMENTACE A MONIT</span>
             <h3 class="process-title">Implementace a monitoring</h3>
-            <p class="process-desc">Zajistime implementaci doporuceni, monitoring zmeny legislativy a prubezne poradenstvi.</p>
+            <p class="process-desc">Zajistíme implementaci doporučení, monitoring změny legislativy a průběžné poradenství.</p>
         </div>
 
         </div>
     </div>
 </section>
+
+
 
 <!-- CONTACT — DARK CARD -->
 <section class="contact-wrapper" id="kontakt">
@@ -893,7 +940,7 @@
         <div class="footer-top">
             <div class="footer-brand">
                 <h3>LTA Partners.</h3>
-                <p>Ing. Hana Daenhardtova, danovy poradce v Praze. Specializace na mezinarodni danove struktury a danove poradenstvi pro korporatni klienty.</p>
+                <p>Ing. Hana Daenhardtova, daňový poradce v Praze. Specializace na mezinárodní daňové struktury a daňové poradenství pro korporátní klienty.</p>
                 <div class="footer-status">
                     <div class="footer-status-dot"></div>
                     <span>K dispozici</span>

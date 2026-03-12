@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="KODAP Litomerice poskytuje danove poradenstvi na nejvyssi urovni. Ing. Pavel Rom vas provede vsemi danovymi povinnostmi s maximalni efektivitou.">
-    <title>Ing. Pavel Rom -- Danove poradenstvi Litomerice</title>
+    <meta name="description" content="KODAP Litoměřice poskytuje daňové poradenství na nejvyšší úrovni. Ing. Pavel Rom vás provede všemi daňovými povinnostmi s maximální efektivitou.">
+    <title>Ing. Pavel Rom -- Daňové poradenství Litoměřice</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Playfair%20Display:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=DM%20Sans:wght@200;300;400;500;600;700;800&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
@@ -489,6 +489,51 @@
         }
 
         /* ═══ CONTACT — DARK CARD ═══ */
+        /* ═══ TESTIMONIALS ═══ */
+        .testimonials-section {
+            padding: clamp(80px, 12vh, 140px) clamp(24px, 4vw, 64px);
+            background: var(--bg-dark);
+            color: var(--text-on-dark);
+        }
+        .testimonials-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 24px;
+            margin-top: 48px;
+        }
+        .testimonial-card {
+            background: rgba(255,255,255,0.05);
+            border: 1px solid rgba(255,255,255,0.1);
+            border-radius: var(--radius-card);
+            padding: 36px 32px 28px;
+            display: flex; flex-direction: column; gap: 20px;
+            position: relative;
+        }
+        .testimonial-card::before {
+            content: '\201C';
+            font-family: var(--serif);
+            font-size: 5rem;
+            line-height: 1;
+            color: var(--accent);
+            opacity: 0.6;
+            position: absolute;
+            top: 12px; left: 28px;
+        }
+        .testimonial-text {
+            font-size: clamp(0.95rem, 1.5vw, 1.05rem);
+            line-height: 1.75;
+            color: rgba(242,240,233,0.85);
+            padding-top: 32px;
+            font-style: italic;
+        }
+        .testimonial-author {
+            font-size: 0.82rem;
+            font-weight: 600;
+            color: var(--accent);
+            letter-spacing: 0.06em;
+            text-transform: uppercase;
+        }
+
         .contact-wrapper {
             padding: clamp(60px, 10vh, 100px) clamp(24px, 4vw, 64px);
             background: var(--bg-warm);
@@ -725,9 +770,9 @@
     <div class="hero-content">
         <h1>
             <span class="hero-heading">Daňové, právní, účetní a mzdové služby pro podniky a podnikatele</span>
-            <span class="hero-drama">Dustojnost.</span>
+            <span class="hero-drama">Důstojnost.</span>
         </h1>
-        <p class="hero-sub">Zkuseny danovy poradce z Litomeric s prokazatelnou historii uspesnych reseni pro firmy i fyzicke osoby.</p>
+        <p class="hero-sub">Zkušený daňový poradce z Litoměřic s prokazatelnou historií úspěšných řešení pro firmy i fyzické osoby.</p>
         <a href="#kontakt" class="hero-cta">Konzultace zdarma</a>
         <div class="hero-stats">
             <div>
@@ -751,38 +796,38 @@
 <section class="section-light" id="sluzby">
     <div class="section-inner">
         <div class="section-label reveal">NASE SLUZBY</div>
-        <h2 class="section-title reveal reveal-d1">Danove poradenstvi na miru</h2>
-        <p class="section-subtitle reveal reveal-d2">Komplexni sluzby v oblasti dani, ucetnictvi a ekonomickeho poradenstvi.</p>
+        <h2 class="section-title reveal reveal-d1">Daňové poradenství na míru</h2>
+        <p class="section-subtitle reveal reveal-d2">Komplexní služby v oblasti daní, účetnictví a ekonomického poradenství.</p>
         <div class="services-grid">
             <div class="service-card reveal reveal-d1">
             <div class="service-icon"><span>01</span></div>
             <h3 class="service-title">Daňové konzultace & daňová přiznání</h3>
-            <p class="service-desc">Individualni poradenstvi v oblasti prima a neprimych dani pro fyzicke a pravnicke osoby.</p>
+            <p class="service-desc">Individuální poradenství v oblasti přímá a nepřímých daní pro fyzické a právnické osoby.</p>
         </div>
 <div class="service-card reveal reveal-d2">
             <div class="service-icon"><span>02</span></div>
             <h3 class="service-title">Daňové kontroly</h3>
-            <p class="service-desc">Odborne zpracovani vsech druhu danovych uznani s durazem na legalni optimalizaci.</p>
+            <p class="service-desc">Odborné zpracování všech druhů daňových uznání s důrazem na legální optimalizaci.</p>
         </div>
 <div class="service-card reveal reveal-d3">
             <div class="service-icon"><span>03</span></div>
             <h3 class="service-title">Vracení DPH z EU</h3>
-            <p class="service-desc">Profesionalni zastoupeni pri jednanich s finansnim uradem a v danove rizen.</p>
+            <p class="service-desc">Profesionální zastoupení při jednáních s finansnim úřadem a v daňové řízen.</p>
         </div>
 <div class="service-card reveal reveal-d4">
             <div class="service-icon"><span>04</span></div>
             <h3 class="service-title">Registrace k DPH v EU</h3>
-            <p class="service-desc">Strategicke poradenstvi pri zalozeni, restrukturalizaci ci prodeji podniku.</p>
+            <p class="service-desc">Strategické poradenství při založení, restrukturalizaci či prodeji podniku.</p>
         </div>
 <div class="service-card reveal reveal-d4">
             <div class="service-icon"><span>05</span></div>
             <h3 class="service-title">Daňová přiznání v Německu a Rakousku</h3>
-            <p class="service-desc">Danove provereni spolecnosti pred akvizici nebo investici.</p>
+            <p class="service-desc">Daňové prověření společnosti před akvizicí nebo investicí.</p>
         </div>
 <div class="service-card reveal reveal-d4">
             <div class="service-icon"><span>06</span></div>
             <h3 class="service-title">Mezinárodní daně</h3>
-            <p class="service-desc">Odborne reseni danove situace u mezinarodnich transakci a zahranicnich spolecnosti.</p>
+            <p class="service-desc">Odborné řešení daňové situace u mezinárodních transakcí a zahraničních společností.</p>
         </div>
 
         </div>
@@ -796,7 +841,7 @@
     <div class="dot-grid"></div>
     <div class="about-inner">
         <p class="about-intro reveal">Ing. Pavel Rom je soucasti KODAP, skupiny renomovanych danovych poradcu pusobicich po cele Ceske republice. Nas litomericky tym kombinuje mistni znalost s celostátní odbornosti.</p>
-        <h2 class="about-drama reveal reveal-d1">Odbornici z Litomeric, ktere muzete duverovat</h2>
+        <h2 class="about-drama reveal reveal-d1">Odborníci z Litoměřic, které můžete důvěřovat</h2>
     </div>
 </section>
 
@@ -827,18 +872,18 @@
 <section class="section-light" style="padding-top: 0;">
     <div class="section-inner">
         <div class="section-label reveal">JAK PRACUJEME</div>
-        <h2 class="section-title reveal reveal-d1">Nas systematicky pristup</h2>
-        <p class="section-subtitle reveal reveal-d2">Kazde reseni je vysledkem dukladne analyzy a odborne prace.</p>
+        <h2 class="section-title reveal reveal-d1">Nás systematický přístup</h2>
+        <p class="section-subtitle reveal reveal-d2">Každé řešení je výsledkem důkladné analýzy a odborné práce.</p>
         <div class="process-grid">
             <div class="process-card reveal reveal-d1">
-            <span class="process-num">01 / UVODNI SETKANI</span>
-            <h3 class="process-title">Uvodni setkani</h3>
-            <p class="process-desc">Bezplatne prodiskutujeme vasi situaci a navrhneme vhodny postup.</p>
+            <span class="process-num">01 / ÚVODNÍ SETKÁNÍ</span>
+            <h3 class="process-title">Úvodní setkání</h3>
+            <p class="process-desc">Bezplatně prodiskutujeme vaši situaci a navrhneme vhodný postup.</p>
         </div>
 <div class="process-card reveal reveal-d2">
-            <span class="process-num">02 / STRATEGICKE PLANOVAN</span>
-            <h3 class="process-title">Strategicke planovani</h3>
-            <p class="process-desc">Vytvorime optimalni danovou strategii prispusobenou vasim potrebam.</p>
+            <span class="process-num">02 / STRATEGICKÉ PLÁNOVÁN</span>
+            <h3 class="process-title">Strategické plánování</h3>
+            <p class="process-desc">Vytvoříme optimální daňovou strategii prispusobenou vašim potřebám.</p>
         </div>
 <div class="process-card reveal reveal-d3">
             <span class="process-num">03 / REALIZACE A DOHLED</span>
@@ -850,13 +895,15 @@
     </div>
 </section>
 
+
+
 <!-- CONTACT — DARK CARD -->
 <section class="contact-wrapper" id="kontakt">
     <div class="contact-card">
         <div class="contact-card-inner">
             <div class="contact-heading">
                 <div class="section-label reveal">KONTAKT</div>
-                <h2 class="section-title reveal reveal-d1">Kontaktujte nas</h2>
+                <h2 class="section-title reveal reveal-d1">Kontaktujte nás</h2>
             </div>
             <div class="contact-grid">
                 <dl class="contact-info-block reveal reveal-d2">
@@ -894,7 +941,7 @@
         <div class="footer-top">
             <div class="footer-brand">
                 <h3>KODAP.</h3>
-                <p>KODAP Litomerice poskytuje danove poradenstvi na nejvyssi urovni. Ing. Pavel Rom vas provede vsemi danovymi povinnostmi s maximalni efektivitou.</p>
+                <p>KODAP Litoměřice poskytuje daňové poradenství na nejvyšší úrovni. Ing. Pavel Rom vás provede všemi daňovými povinnostmi s maximální efektivitou.</p>
                 <div class="footer-status">
                     <div class="footer-status-dot"></div>
                     <span>K dispozici</span>

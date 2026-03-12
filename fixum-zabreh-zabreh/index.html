@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Ing. Alena Jendrejkova poskytuje danove a ucetni sluzby v Zabreze. Danove poradenstvi pro podnikatele, spolecnosti a zemedelske podniky v regionu.">
-    <title>Ing. Alena Jendrejkova | Danovy poradce Zabreh</title>
+    <meta name="description" content="Ing. Alena Jendrejkova poskytuje daňové a účetní služby v Zábřeze. Daňové poradenství pro podnikatele, společnosti a zemědělské podniky v regionu.">
+    <title>Ing. Alena Jendrejkova | Daňový poradce Zábřeh</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Playfair%20Display:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Outfit:wght@200;300;400;500;600;700;800&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
@@ -489,6 +489,51 @@
         }
 
         /* ═══ CONTACT — DARK CARD ═══ */
+        /* ═══ TESTIMONIALS ═══ */
+        .testimonials-section {
+            padding: clamp(80px, 12vh, 140px) clamp(24px, 4vw, 64px);
+            background: var(--bg-dark);
+            color: var(--text-on-dark);
+        }
+        .testimonials-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 24px;
+            margin-top: 48px;
+        }
+        .testimonial-card {
+            background: rgba(255,255,255,0.05);
+            border: 1px solid rgba(255,255,255,0.1);
+            border-radius: var(--radius-card);
+            padding: 36px 32px 28px;
+            display: flex; flex-direction: column; gap: 20px;
+            position: relative;
+        }
+        .testimonial-card::before {
+            content: '\201C';
+            font-family: var(--serif);
+            font-size: 5rem;
+            line-height: 1;
+            color: var(--accent);
+            opacity: 0.6;
+            position: absolute;
+            top: 12px; left: 28px;
+        }
+        .testimonial-text {
+            font-size: clamp(0.95rem, 1.5vw, 1.05rem);
+            line-height: 1.75;
+            color: rgba(242,240,233,0.85);
+            padding-top: 32px;
+            font-style: italic;
+        }
+        .testimonial-author {
+            font-size: 0.82rem;
+            font-weight: 600;
+            color: var(--accent);
+            letter-spacing: 0.06em;
+            text-transform: uppercase;
+        }
+
         .contact-wrapper {
             padding: clamp(60px, 10vh, 100px) clamp(24px, 4vw, 64px);
             background: var(--bg-warm);
@@ -724,7 +769,7 @@
     <div class="hero-glow hero-glow-2"></div>
     <div class="hero-content">
         <h1>
-            <span class="hero-heading">Spolehlive danove sluzby na Morave</span>
+            <span class="hero-heading">Spolehlivě daňové služby na Moravě</span>
             <span class="hero-drama">Spolehlivost.</span>
         </h1>
         <p class="hero-sub">Odborne danove poradenstvi se znalosatmi regionalnich specifik. Zabreh a okolí s osobnim pristupem.</p>
@@ -751,38 +796,38 @@
 <section class="section-light" id="sluzby">
     <div class="section-inner">
         <div class="section-label reveal">SLUZBY</div>
-        <h2 class="section-title reveal reveal-d1">Co pro vas udelame</h2>
-        <p class="section-subtitle reveal reveal-d2">Komplexni danove a ucetni sluzby pro podnikatele v regionu.</p>
+        <h2 class="section-title reveal reveal-d1">Co pro vás uděláme</h2>
+        <p class="section-subtitle reveal reveal-d2">Komplexní daňové a účetní služby pro podnikatele v regionu.</p>
         <div class="services-grid">
             <div class="service-card reveal reveal-d1">
             <div class="service-icon"><span>01</span></div>
-            <h3 class="service-title">Danove poradenstvi</h3>
-            <p class="service-desc">Odborne poradenstvi v oblasti dani z prijmu fyzickych a pravnickych osob pro podnikatele a firmy.</p>
+            <h3 class="service-title">Daňové poradenství</h3>
+            <p class="service-desc">Odborné poradenství v oblasti daní z příjmů fyzických a právnických osob pro podnikatele a firmy.</p>
         </div>
 <div class="service-card reveal reveal-d2">
             <div class="service-icon"><span>02</span></div>
-            <h3 class="service-title">Zpracovani dani</h3>
-            <p class="service-desc">Vcasne zpracovani a podani danovych priznani s maximalni peci o spravnost udaju.</p>
+            <h3 class="service-title">Zpracování daní</h3>
+            <p class="service-desc">Včasné zpracování a podání daňových přiznání s maximální péčí o správnost údajů.</p>
         </div>
 <div class="service-card reveal reveal-d3">
             <div class="service-icon"><span>03</span></div>
-            <h3 class="service-title">Ucetnictvi a evidence</h3>
-            <p class="service-desc">Vedeni ucetnictvi, danove evidence a zpracovani ucetnich zaverrek pro vasi spolecnost.</p>
+            <h3 class="service-title">Účetnictví a evidence</h3>
+            <p class="service-desc">Vedení účetnictví, daňové evidence a zpracování účetních zaverrek pro vaši společnost.</p>
         </div>
 <div class="service-card reveal reveal-d4">
             <div class="service-icon"><span>04</span></div>
-            <h3 class="service-title">DPH poradenstvi</h3>
-            <p class="service-desc">Registrace k DPH, podani mesicnich a ctvrtletnich priznani, kontrolni hlaseni.</p>
+            <h3 class="service-title">DPH poradenství</h3>
+            <p class="service-desc">Registrace k DPH, podání měsíčních a čtvrtletních přiznání, kontrolní hlášení.</p>
         </div>
 <div class="service-card reveal reveal-d4">
             <div class="service-icon"><span>05</span></div>
-            <h3 class="service-title">Mzdove ucetnictvi</h3>
+            <h3 class="service-title">Mzdové účetnictví</h3>
             <p class="service-desc">Zpracovani mezd a personalni agenda vcetne socialnich a zdravotnich odvodů.</p>
         </div>
 <div class="service-card reveal reveal-d4">
             <div class="service-icon"><span>06</span></div>
-            <h3 class="service-title">Danove rizeni</h3>
-            <p class="service-desc">Zastupovani klientu v ramenech danovych rizeni a komunikace s financnimi urady.</p>
+            <h3 class="service-title">Daňové řízení</h3>
+            <p class="service-desc">Zastupování klientů v ramenech daňových řízení a komunikace s finančními úřady.</p>
         </div>
 
         </div>
@@ -795,8 +840,8 @@
     <div class="about-glow about-glow-2"></div>
     <div class="dot-grid"></div>
     <div class="about-inner">
-        <p class="about-intro reveal">Fixum Zabreh je zavedenou kancelar danoveho poradenstvi, ktera zna specificka prani podnikatelu v regionu. Klademe duraz na vcasnost, presnost a osobni kontakt.</p>
-        <h2 class="about-drama reveal reveal-d1">Vase jistota v danovych vecech</h2>
+        <p class="about-intro reveal">Fixum Zábřeh je zavedenou kancelář daňového poradenství, která zná specifická přání podnikatelů v regionu. Klademe důraz na včasnost, přesnost a osobní kontakt.</p>
+        <h2 class="about-drama reveal reveal-d1">Vaše jistota v daňových věcech</h2>
     </div>
 </section>
 
@@ -827,28 +872,30 @@
 <section class="section-light" style="padding-top: 0;">
     <div class="section-inner">
         <div class="section-label reveal">POSTUP SPOLUPRACE</div>
-        <h2 class="section-title reveal reveal-d1">Od prvniho kontaktu po vysledek</h2>
-        <p class="section-subtitle reveal reveal-d2">Jednoduchy a transparentni postup bez zbytecnych komplikaci.</p>
+        <h2 class="section-title reveal reveal-d1">Od prvního kontaktu po výsledek</h2>
+        <p class="section-subtitle reveal reveal-d2">Jednoduchý a transparentní postup bez zbytečných komplikací.</p>
         <div class="process-grid">
             <div class="process-card reveal reveal-d1">
-            <span class="process-num">01 / UVODNI SCHUZKA</span>
-            <h3 class="process-title">Uvodni schuzka</h3>
-            <p class="process-desc">Osobni nebo telefonicka konzultace, kde si navzajem priblizime potreby a moznosti spoluprace.</p>
+            <span class="process-num">01 / ÚVODNÍ SCHŮZKA</span>
+            <h3 class="process-title">Úvodní schůzka</h3>
+            <p class="process-desc">Osobní nebo telefonická konzultace, kde si navzájem přiblížíme potřeby a možnosti spolupráce.</p>
         </div>
 <div class="process-card reveal reveal-d2">
-            <span class="process-num">02 / PRIPRAVA PODKLADU</span>
-            <h3 class="process-title">Priprava podkladu</h3>
-            <p class="process-desc">Systematicke shromazdeni a kontrola vsech potrebnych dokladu pro spravne danove zpracovani.</p>
+            <span class="process-num">02 / PŘÍPRAVA PODKLADŮ</span>
+            <h3 class="process-title">Příprava podkladů</h3>
+            <p class="process-desc">Systematické shromáždění a kontrola všech potřebných dokladů pro správné daňové zpracování.</p>
         </div>
 <div class="process-card reveal reveal-d3">
-            <span class="process-num">03 / PODANI A KOMUNIKACE</span>
-            <h3 class="process-title">Podani a komunikace</h3>
-            <p class="process-desc">Vcasne podani dani a aktivni komunikace o vyvoji vasi situace po cely rok.</p>
+            <span class="process-num">03 / PODÁNÍ A KOMUNIKACE</span>
+            <h3 class="process-title">Podání a komunikace</h3>
+            <p class="process-desc">Včasné podání daní a aktivní komunikace o vývoji vaší situace po celý rok.</p>
         </div>
 
         </div>
     </div>
 </section>
+
+
 
 <!-- CONTACT — DARK CARD -->
 <section class="contact-wrapper" id="kontakt">
@@ -856,7 +903,7 @@
         <div class="contact-card-inner">
             <div class="contact-heading">
                 <div class="section-label reveal">KONTAKT</div>
-                <h2 class="section-title reveal reveal-d1">Ozvete se nam</h2>
+                <h2 class="section-title reveal reveal-d1">Ozvete se nám</h2>
             </div>
             <div class="contact-grid">
                 <dl class="contact-info-block reveal reveal-d2">
@@ -894,7 +941,7 @@
         <div class="footer-top">
             <div class="footer-brand">
                 <h3>Fixum Zábřeh.</h3>
-                <p>Ing. Alena Jendrejkova poskytuje danove a ucetni sluzby v Zabreze. Danove poradenstvi pro podnikatele, spolecnosti a zemedelske podniky v regionu.</p>
+                <p>Ing. Alena Jendrejkova poskytuje daňové a účetní služby v Zábřeze. Daňové poradenství pro podnikatele, společnosti a zemědělské podniky v regionu.</p>
                 <div class="footer-status">
                     <div class="footer-status-dot"></div>
                     <span>K dispozici</span>

@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Ucetni a danove sluzby v Chotebori a okoli. Hana Sobotkova nabizi spolehlivou spravu ucetnictvi a danovych priznani pro firmy i zivnostniky.">
-    <title>Hana Sobotkova | Ucetnictvi Chotebor</title>
+    <meta name="description" content="Účetní a daňové služby v Chotěboři a okolí. Hana Sobotková nabízí spolehlivou správu účetnictví a daňových přiznání pro firmy i živnostníky.">
+    <title>Hana Sobotkova | Účetnictví Chotěboř</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Playfair%20Display:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=DM%20Sans:wght@200;300;400;500;600;700;800&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
@@ -489,6 +489,51 @@
         }
 
         /* ═══ CONTACT — DARK CARD ═══ */
+        /* ═══ TESTIMONIALS ═══ */
+        .testimonials-section {
+            padding: clamp(80px, 12vh, 140px) clamp(24px, 4vw, 64px);
+            background: var(--bg-dark);
+            color: var(--text-on-dark);
+        }
+        .testimonials-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 24px;
+            margin-top: 48px;
+        }
+        .testimonial-card {
+            background: rgba(255,255,255,0.05);
+            border: 1px solid rgba(255,255,255,0.1);
+            border-radius: var(--radius-card);
+            padding: 36px 32px 28px;
+            display: flex; flex-direction: column; gap: 20px;
+            position: relative;
+        }
+        .testimonial-card::before {
+            content: '\201C';
+            font-family: var(--serif);
+            font-size: 5rem;
+            line-height: 1;
+            color: var(--accent);
+            opacity: 0.6;
+            position: absolute;
+            top: 12px; left: 28px;
+        }
+        .testimonial-text {
+            font-size: clamp(0.95rem, 1.5vw, 1.05rem);
+            line-height: 1.75;
+            color: rgba(242,240,233,0.85);
+            padding-top: 32px;
+            font-style: italic;
+        }
+        .testimonial-author {
+            font-size: 0.82rem;
+            font-weight: 600;
+            color: var(--accent);
+            letter-spacing: 0.06em;
+            text-transform: uppercase;
+        }
+
         .contact-wrapper {
             padding: clamp(60px, 10vh, 100px) clamp(24px, 4vw, 64px);
             background: var(--bg-warm);
@@ -724,15 +769,15 @@
     <div class="hero-glow hero-glow-2"></div>
     <div class="hero-content">
         <h1>
-            <span class="hero-heading">Ucetnictvi v Chotebori na miru</span>
+            <span class="hero-heading">Účetnictví v Chotěboři na míru</span>
             <span class="hero-drama">Spolehlivost.</span>
         </h1>
         <p class="hero-sub">Spolehlivé vedeni ucetnictvi a danove poradenstvi v Chotebori pro male firmy i zivnostniky s osobnim pristupem.</p>
-        <a href="#kontakt" class="hero-cta">Domluvit schuzku</a>
+        <a href="#kontakt" class="hero-cta">Domluvit schůzku</a>
         <div class="hero-stats">
             <div>
             <div class="hero-stat-num">150+</div>
-            <div class="hero-stat-label">aktivnich klientu</div>
+            <div class="hero-stat-label">aktivních klientů</div>
         </div>
 <div>
             <div class="hero-stat-num">30+</div>
@@ -740,7 +785,7 @@
         </div>
 <div>
             <div class="hero-stat-num">97%</div>
-            <div class="hero-stat-label">spokojenost klientu</div>
+            <div class="hero-stat-label">spokojenost klientů</div>
         </div>
 
         </div>
@@ -751,38 +796,38 @@
 <section class="section-light" id="sluzby">
     <div class="section-inner">
         <div class="section-label reveal">NASE SLUZBY</div>
-        <h2 class="section-title reveal reveal-d1">Ucetni a danove sluzby pro vas rozvoj</h2>
-        <p class="section-subtitle reveal reveal-d2">Kompletni pece o vase finance od ucetnictvi po danova priznani.</p>
+        <h2 class="section-title reveal reveal-d1">Účetní a daňové služby pro vás rozvoj</h2>
+        <p class="section-subtitle reveal reveal-d2">Kompletní péče o vaše finance od účetnictví po daňová přiznání.</p>
         <div class="services-grid">
             <div class="service-card reveal reveal-d1">
             <div class="service-icon"><span>01</span></div>
-            <h3 class="service-title">Vedeni ucetnictvi</h3>
-            <p class="service-desc">Podvojne ucetnictvi i danova evidence vedena peclivne a v souladu s aktualni legislativou.</p>
+            <h3 class="service-title">Vedení účetnictví</h3>
+            <p class="service-desc">Podvojné účetnictví i daňová evidence vedena peclivne a v souladu s aktuální legislativou.</p>
         </div>
 <div class="service-card reveal reveal-d2">
             <div class="service-icon"><span>02</span></div>
-            <h3 class="service-title">Danova priznani</h3>
-            <p class="service-desc">Zpracovani danovych priznani k DPFO a DPPO s maximalnim vyuzitim zakonnych odpoctu.</p>
+            <h3 class="service-title">Daňová přiznání</h3>
+            <p class="service-desc">Zpracování daňových přiznání k DPFO a DPPO s maximálním využitím zákonných odpočtů.</p>
         </div>
 <div class="service-card reveal reveal-d3">
             <div class="service-icon"><span>03</span></div>
-            <h3 class="service-title">Mzdova agenda</h3>
-            <p class="service-desc">Vypocet mezd, vyplatni pasky, prihlaseni zamestnancu a rocni zuctovani dane.</p>
+            <h3 class="service-title">Mzdová agenda</h3>
+            <p class="service-desc">Výpočet mezd, výplatní pásky, přihlášení zaměstnanců a roční zúčtování daně.</p>
         </div>
 <div class="service-card reveal reveal-d4">
             <div class="service-icon"><span>04</span></div>
-            <h3 class="service-title">DPH priznani</h3>
-            <p class="service-desc">Priznani k DPH, kontrolni hlaseni a poradenstvi pro platce i neneplatce dane.</p>
+            <h3 class="service-title">DPH přiznání</h3>
+            <p class="service-desc">Přiznání k DPH, kontrolní hlášení a poradenství pro plátce i neneplatce daně.</p>
         </div>
 <div class="service-card reveal reveal-d4">
             <div class="service-icon"><span>05</span></div>
-            <h3 class="service-title">Danova evidence</h3>
-            <p class="service-desc">Vedeni danove evidence pro mensi podnikatele a zivnostniky s durazem na jednoduchost.</p>
+            <h3 class="service-title">Daňová evidence</h3>
+            <p class="service-desc">Vedení daňové evidence pro menší podnikatele a živnostníky s důrazem na jednoduchost.</p>
         </div>
 <div class="service-card reveal reveal-d4">
             <div class="service-icon"><span>06</span></div>
-            <h3 class="service-title">Zalozeni firmy</h3>
-            <p class="service-desc">Pomoc pri zalozeni spolecnosti, nastaveni ucetniho systemu a uvodni poradenstvi.</p>
+            <h3 class="service-title">Založení firmy</h3>
+            <p class="service-desc">Pomoc při založení společnosti, nastavení účetního systému a úvodní poradenství.</p>
         </div>
 
         </div>
@@ -795,8 +840,8 @@
     <div class="about-glow about-glow-2"></div>
     <div class="dot-grid"></div>
     <div class="about-inner">
-        <p class="about-intro reveal">TES Chotebor nabizi ucetni a danove sluzby pro podnikatele v Chotebori a okolnich oblastech. Klademe duraz na presnost, transparentnost a osobni pristup.</p>
-        <h2 class="about-drama reveal reveal-d1">Vase cisla jsou v dobrych rukach</h2>
+        <p class="about-intro reveal">TES Chotěboř nabízí účetní a daňové služby pro podnikatele v Chotěboři a okolních oblastech. Klademe důraz na přesnost, transparentnost a osobní přístup.</p>
+        <h2 class="about-drama reveal reveal-d1">Vaše čísla jsou v dobrých rukách</h2>
     </div>
 </section>
 
@@ -808,7 +853,7 @@
         <div class="stats-grid">
             <div class="stat-card reveal reveal-d1">
             <div class="stat-number" data-count="150" data-suffix="+">0+</div>
-            <div class="stat-label">aktivnich klientu</div>
+            <div class="stat-label">aktivních klientů</div>
         </div>
 <div class="stat-card reveal reveal-d2">
             <div class="stat-number" data-count="30" data-suffix="+">0+</div>
@@ -816,7 +861,7 @@
         </div>
 <div class="stat-card reveal reveal-d3">
             <div class="stat-number" data-count="97" data-suffix="%">0%</div>
-            <div class="stat-label">spokojenost klientu</div>
+            <div class="stat-label">spokojenost klientů</div>
         </div>
 
         </div>
@@ -827,28 +872,30 @@
 <section class="section-light" style="padding-top: 0;">
     <div class="section-inner">
         <div class="section-label reveal">JAK TO FUNGUJE</div>
-        <h2 class="section-title reveal reveal-d1">Jednoduche zahajeni spoluprace</h2>
-        <p class="section-subtitle reveal reveal-d2">Prechod k nam je snadny a bez zbytecne byrokracie.</p>
+        <h2 class="section-title reveal reveal-d1">Jednoduché zahájení spolupráce</h2>
+        <p class="section-subtitle reveal reveal-d2">Přechod k nám je snadný a bez zbytečné byrokracie.</p>
         <div class="process-grid">
             <div class="process-card reveal reveal-d1">
-            <span class="process-num">01 / PRVNI KONTAKT</span>
-            <h3 class="process-title">Prvni kontakt</h3>
-            <p class="process-desc">Ozvet se nam telefonicky nebo e-mailem a domluvime si bezplatnou uvodni konzultaci.</p>
+            <span class="process-num">01 / PRVNÍ KONTAKT</span>
+            <h3 class="process-title">První kontakt</h3>
+            <p class="process-desc">Ozveť se nám telefonicky nebo e-mailem a domluvíme si bezplatnou úvodní konzultaci.</p>
         </div>
 <div class="process-card reveal reveal-d2">
-            <span class="process-num">02 / PREDANI DOKLADU</span>
-            <h3 class="process-title">Predani dokladu</h3>
-            <p class="process-desc">Doklady nam predate osobne, postou nebo elektronicky dle vasi preference.</p>
+            <span class="process-num">02 / PŘEDÁNÍ DOKLADŮ</span>
+            <h3 class="process-title">Předání dokladů</h3>
+            <p class="process-desc">Doklady nám předáte osobně, poštou nebo elektronicky dle vaší preference.</p>
         </div>
 <div class="process-card reveal reveal-d3">
-            <span class="process-num">03 / PRAVIDELNA PECE</span>
-            <h3 class="process-title">Pravidelna pece</h3>
-            <p class="process-desc">Postarame se o vse vcas a budeme vas informovat o dulezitych zmenach v legislative.</p>
+            <span class="process-num">03 / PRAVIDELNÁ PÉČE</span>
+            <h3 class="process-title">Pravidelná péče</h3>
+            <p class="process-desc">Postaráme se o vše včas a budeme vás informovat o důležitých změnách v legislativě.</p>
         </div>
 
         </div>
     </div>
 </section>
+
+
 
 <!-- CONTACT — DARK CARD -->
 <section class="contact-wrapper" id="kontakt">
@@ -856,7 +903,7 @@
         <div class="contact-card-inner">
             <div class="contact-heading">
                 <div class="section-label reveal">KONTAKT</div>
-                <h2 class="section-title reveal reveal-d1">Napiste nebo zavolejte</h2>
+                <h2 class="section-title reveal reveal-d1">Napište nebo zavolejte</h2>
             </div>
             <div class="contact-grid">
                 <dl class="contact-info-block reveal reveal-d2">
@@ -879,7 +926,7 @@
                         <textarea placeholder="Jak vám můžeme pomoci?"></textarea>
                     </div>
                     <button type="submit" class="form-submit">
-                        Odeslat zpravu
+                        Odeslat zprávu
                         <svg width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 8h10M9 4l4 4-4 4"/></svg>
                     </button>
                 </form>
@@ -894,7 +941,7 @@
         <div class="footer-top">
             <div class="footer-brand">
                 <h3>TES Ucto.</h3>
-                <p>Ucetni a danove sluzby v Chotebori a okoli. Hana Sobotkova nabizi spolehlivou spravu ucetnictvi a danovych priznani pro firmy i zivnostniky.</p>
+                <p>Účetní a daňové služby v Chotěboři a okolí. Hana Sobotková nabízí spolehlivou správu účetnictví a daňových přiznání pro firmy i živnostníky.</p>
                 <div class="footer-status">
                     <div class="footer-status-dot"></div>
                     <span>K dispozici</span>

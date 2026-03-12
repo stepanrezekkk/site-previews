@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Ing. Tereza Pavlikova, danová poradkyne v Praze. Moderní pristup k danovemu poradenstvi, DPH a danové optimalizace pro mensi firmy a startupy.">
-    <title>Ing. Tereza Pavlikova — Danovy poradce Praha</title>
+    <title>Ing. Tereza Pavlíková — Daňový poradce Praha</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Playfair%20Display:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=DM%20Sans:wght@200;300;400;500;600;700;800&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
@@ -489,6 +489,51 @@
         }
 
         /* ═══ CONTACT — DARK CARD ═══ */
+        /* ═══ TESTIMONIALS ═══ */
+        .testimonials-section {
+            padding: clamp(80px, 12vh, 140px) clamp(24px, 4vw, 64px);
+            background: var(--bg-dark);
+            color: var(--text-on-dark);
+        }
+        .testimonials-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 24px;
+            margin-top: 48px;
+        }
+        .testimonial-card {
+            background: rgba(255,255,255,0.05);
+            border: 1px solid rgba(255,255,255,0.1);
+            border-radius: var(--radius-card);
+            padding: 36px 32px 28px;
+            display: flex; flex-direction: column; gap: 20px;
+            position: relative;
+        }
+        .testimonial-card::before {
+            content: '\201C';
+            font-family: var(--serif);
+            font-size: 5rem;
+            line-height: 1;
+            color: var(--accent);
+            opacity: 0.6;
+            position: absolute;
+            top: 12px; left: 28px;
+        }
+        .testimonial-text {
+            font-size: clamp(0.95rem, 1.5vw, 1.05rem);
+            line-height: 1.75;
+            color: rgba(242,240,233,0.85);
+            padding-top: 32px;
+            font-style: italic;
+        }
+        .testimonial-author {
+            font-size: 0.82rem;
+            font-weight: 600;
+            color: var(--accent);
+            letter-spacing: 0.06em;
+            text-transform: uppercase;
+        }
+
         .contact-wrapper {
             padding: clamp(60px, 10vh, 100px) clamp(24px, 4vw, 64px);
             background: var(--bg-warm);
@@ -728,7 +773,7 @@
             <span class="hero-drama">Budoucnost.</span>
         </h1>
         <p class="hero-sub">Mladá a dynamicka danová poradkyne v Praze specialzovana na potreby moderních firem, startupu a inova tivních podnikatelu.</p>
-        <a href="#kontakt" class="hero-cta">Domluvit prvni konzultaci</a>
+        <a href="#kontakt" class="hero-cta">Domluvit první konzultaci</a>
         <div class="hero-stats">
             <div>
             <div class="hero-stat-num">150+</div>
@@ -736,11 +781,11 @@
         </div>
 <div>
             <div class="hero-stat-num">7+</div>
-            <div class="hero-stat-label">let zkusenosti</div>
+            <div class="hero-stat-label">let zkušeností</div>
         </div>
 <div>
             <div class="hero-stat-num">99%</div>
-            <div class="hero-stat-label">klientu doporucuje</div>
+            <div class="hero-stat-label">klientů doporučuje</div>
         </div>
 
         </div>
@@ -751,7 +796,7 @@
 <section class="section-light" id="sluzby">
     <div class="section-inner">
         <div class="section-label reveal">NASE SLUZBY</div>
-        <h2 class="section-title reveal reveal-d1">Danove sluzby pro moderni firmy</h2>
+        <h2 class="section-title reveal reveal-d1">Daňové služby pro moderní firmy</h2>
         <p class="section-subtitle reveal reveal-d2">Aktualni a flexibilní danove poradenstvi prizpusobene dynamickym potrebam soucastnych firem.</p>
         <div class="services-grid">
             <div class="service-card reveal reveal-d1">
@@ -762,12 +807,12 @@
 <div class="service-card reveal reveal-d2">
             <div class="service-icon"><span>02</span></div>
             <h3 class="service-title">Startupy a OSVČ</h3>
-            <p class="service-desc">Specializovane poradenstvi pro zacinajici podnikatele, freelancery a technologicke startupy.</p>
+            <p class="service-desc">Specializované poradenství pro začínající podnikatele, freelancery a technologické startupy.</p>
         </div>
 <div class="service-card reveal reveal-d3">
             <div class="service-icon"><span>03</span></div>
             <h3 class="service-title">DPH a e-commerce</h3>
-            <p class="service-desc">Komplexni DPH poradenstvi vcetne OSS schematic pro online podnikani a e-commerce.</p>
+            <p class="service-desc">Komplexní DPH poradenství včetně OSS schematic pro online podnikání a e-commerce.</p>
         </div>
 <div class="service-card reveal reveal-d4">
             <div class="service-icon"><span>04</span></div>
@@ -777,12 +822,12 @@
 <div class="service-card reveal reveal-d4">
             <div class="service-icon"><span>05</span></div>
             <h3 class="service-title">Danové priznani</h3>
-            <p class="service-desc">Digitalizovane zpracovani danovych prizani s maximalni efektivitou a minimalni administrative.</p>
+            <p class="service-desc">Digitalizované zpracování daňových prizani s maximální efektivitou a minimální administrativě.</p>
         </div>
 <div class="service-card reveal reveal-d4">
             <div class="service-icon"><span>06</span></div>
-            <h3 class="service-title">Mezinarodni dane</h3>
-            <p class="service-desc">Poradenstvi pro firmy pusobici na zahranicnich trzich a cezhranicni DPH problematiku.</p>
+            <h3 class="service-title">Mezinárodní daně</h3>
+            <p class="service-desc">Poradenství pro firmy působící na zahraničních trzích a cezhranicni DPH problematiku.</p>
         </div>
 
         </div>
@@ -796,7 +841,7 @@
     <div class="dot-grid"></div>
     <div class="about-inner">
         <p class="about-intro reveal">Ing. Tereza Pavlikova prinasi do danoveho poradenstvi moderni pristup, digitalni nastroje a srozumitelnou komunikaci, ktere ocenují predevsim moderni firmy a podnikatele.</p>
-        <h2 class="about-drama reveal reveal-d1">Dane pro 21. stoleti</h2>
+        <h2 class="about-drama reveal reveal-d1">Daně pro 21. století</h2>
     </div>
 </section>
 
@@ -812,11 +857,11 @@
         </div>
 <div class="stat-card reveal reveal-d2">
             <div class="stat-number" data-count="7" data-suffix="+">0+</div>
-            <div class="stat-label">let zkusenosti</div>
+            <div class="stat-label">let zkušeností</div>
         </div>
 <div class="stat-card reveal reveal-d3">
             <div class="stat-number" data-count="99" data-suffix="%">0%</div>
-            <div class="stat-label">klientu doporucuje</div>
+            <div class="stat-label">klientů doporučuje</div>
         </div>
 
         </div>
@@ -827,28 +872,30 @@
 <section class="section-light" style="padding-top: 0;">
     <div class="section-inner">
         <div class="section-label reveal">JAK PRACUJEME</div>
-        <h2 class="section-title reveal reveal-d1">Rychle, digitalne a efektivne</h2>
+        <h2 class="section-title reveal reveal-d1">Rychle, digitálně a efektivně</h2>
         <p class="section-subtitle reveal reveal-d2">Moderní spoluprace bez papiru a zbytecne administrativy pro vas cas.</p>
         <div class="process-grid">
             <div class="process-card reveal reveal-d1">
             <span class="process-num">01 / ONLINE KONZULTACE</span>
             <h3 class="process-title">Online konzultace</h3>
-            <p class="process-desc">Rychla uvodni online konzultace kde probereme vasi situaci a navrhneme optima lni reseni.</p>
+            <p class="process-desc">Rychlá úvodní online konzultace kde probereme vaši situaci a navrhneme optima lni řešení.</p>
         </div>
 <div class="process-card reveal reveal-d2">
-            <span class="process-num">02 / DIGITALNI ZPRACOVANI</span>
-            <h3 class="process-title">Digitalni zpracovani</h3>
-            <p class="process-desc">Kompletni digitalni zpracovani vsech danovych dokumentu s bezpecnym sdilenim online.</p>
+            <span class="process-num">02 / DIGITÁLNÍ ZPRACOVÁNÍ</span>
+            <h3 class="process-title">Digitální zpracování</h3>
+            <p class="process-desc">Kompletní digitální zpracování všech daňových dokumentů s bezpečným sdílením online.</p>
         </div>
 <div class="process-card reveal reveal-d3">
-            <span class="process-num">03 / ELEKTRONICKE PODANI</span>
-            <h3 class="process-title">Elektronicke podani</h3>
-            <p class="process-desc">Elektronicke podani vsech danovych dokladu a prubezsna komunikace pres digitalni kanaly.</p>
+            <span class="process-num">03 / ELEKTRONICKÉ PODÁNÍ</span>
+            <h3 class="process-title">Elektronické podání</h3>
+            <p class="process-desc">Elektronické podání všech daňových dokladů a prubezsna komunikace přes digitální kanály.</p>
         </div>
 
         </div>
     </div>
 </section>
+
+
 
 <!-- CONTACT — DARK CARD -->
 <section class="contact-wrapper" id="kontakt">
@@ -856,7 +903,7 @@
         <div class="contact-card-inner">
             <div class="contact-heading">
                 <div class="section-label reveal">KONTAKT</div>
-                <h2 class="section-title reveal reveal-d1">Pojdme spolupracovat</h2>
+                <h2 class="section-title reveal reveal-d1">Pojďme spolupracovat</h2>
             </div>
             <div class="contact-grid">
                 <dl class="contact-info-block reveal reveal-d2">

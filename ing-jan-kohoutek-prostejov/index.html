@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Certifikovany danovy poradce v Prostejove. Danove poradenstvi, zpracovani priznani a optimalizace dani pro podnikatele a firmy.">
-    <title>Ing. Jan Kohoutek — Danovy poradce Prostejov</title>
+    <meta name="description" content="Certifikovaný daňový poradce v Prostějově. Daňové poradenství, zpracování přiznání a optimalizace daní pro podnikatele a firmy.">
+    <title>Ing. Jan Kohoutek — Daňový poradce Prostějov</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Playfair%20Display:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=DM%20Sans:wght@200;300;400;500;600;700;800&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
@@ -489,6 +489,51 @@
         }
 
         /* ═══ CONTACT — DARK CARD ═══ */
+        /* ═══ TESTIMONIALS ═══ */
+        .testimonials-section {
+            padding: clamp(80px, 12vh, 140px) clamp(24px, 4vw, 64px);
+            background: var(--bg-dark);
+            color: var(--text-on-dark);
+        }
+        .testimonials-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 24px;
+            margin-top: 48px;
+        }
+        .testimonial-card {
+            background: rgba(255,255,255,0.05);
+            border: 1px solid rgba(255,255,255,0.1);
+            border-radius: var(--radius-card);
+            padding: 36px 32px 28px;
+            display: flex; flex-direction: column; gap: 20px;
+            position: relative;
+        }
+        .testimonial-card::before {
+            content: '\201C';
+            font-family: var(--serif);
+            font-size: 5rem;
+            line-height: 1;
+            color: var(--accent);
+            opacity: 0.6;
+            position: absolute;
+            top: 12px; left: 28px;
+        }
+        .testimonial-text {
+            font-size: clamp(0.95rem, 1.5vw, 1.05rem);
+            line-height: 1.75;
+            color: rgba(242,240,233,0.85);
+            padding-top: 32px;
+            font-style: italic;
+        }
+        .testimonial-author {
+            font-size: 0.82rem;
+            font-weight: 600;
+            color: var(--accent);
+            letter-spacing: 0.06em;
+            text-transform: uppercase;
+        }
+
         .contact-wrapper {
             padding: clamp(60px, 10vh, 100px) clamp(24px, 4vw, 64px);
             background: var(--bg-warm);
@@ -724,11 +769,11 @@
     <div class="hero-glow hero-glow-2"></div>
     <div class="hero-content">
         <h1>
-            <span class="hero-heading">Vase dane, nase starost</span>
+            <span class="hero-heading">Vaše daně, naše starost</span>
             <span class="hero-drama">Spolehlivost.</span>
         </h1>
         <p class="hero-sub">Spolehlivy danovy poradce v Prostejove zajisťuje optimalni danove reseni pro podnikatele a firmy na Hane.</p>
-        <a href="#kontakt" class="hero-cta">Ziskat bezplatnou konzultaci</a>
+        <a href="#kontakt" class="hero-cta">Získat bezplatnou konzultaci</a>
         <div class="hero-stats">
             <div>
             <div class="hero-stat-num">300+</div>
@@ -751,38 +796,38 @@
 <section class="section-light" id="sluzby">
     <div class="section-inner">
         <div class="section-label reveal">NASE SLUZBY</div>
-        <h2 class="section-title reveal reveal-d1">Komplexni danove sluzby v Prostejove</h2>
-        <p class="section-subtitle reveal reveal-d2">Odborne danove poradenstvi a ucetni sluzby pro fyzicke i pravnicke osoby v Olomouckem kraji.</p>
+        <h2 class="section-title reveal reveal-d1">Komplexní daňové služby v Prostějově</h2>
+        <p class="section-subtitle reveal reveal-d2">Odborné daňové poradenství a účetní služby pro fyzické i právnické osoby v Olomouckém kraji.</p>
         <div class="services-grid">
             <div class="service-card reveal reveal-d1">
             <div class="service-icon"><span>01</span></div>
-            <h3 class="service-title">Danove poradenstvi</h3>
-            <p class="service-desc">Odborne danove konzultace a strategicke planovani pro minimalizaci danovych povinnosti vasich podnikani.</p>
+            <h3 class="service-title">Daňové poradenství</h3>
+            <p class="service-desc">Odborné daňové konzultace a strategické plánování pro minimalizaci daňových povinností vašich podnikání.</p>
         </div>
 <div class="service-card reveal reveal-d2">
             <div class="service-icon"><span>02</span></div>
-            <h3 class="service-title">Danove priznani</h3>
-            <p class="service-desc">Zpracovani danovych priznani k dani z prijmu, DPH a dani silnicni vcas a bez chyb.</p>
+            <h3 class="service-title">Daňové přiznání</h3>
+            <p class="service-desc">Zpracování daňových přiznání k dani z příjmu, DPH a daní silniční včas a bez chyb.</p>
         </div>
 <div class="service-card reveal reveal-d3">
             <div class="service-icon"><span>03</span></div>
-            <h3 class="service-title">Ucetnictvi</h3>
-            <p class="service-desc">Vedeni podvojneho ucetnictvi a danove evidence pro OSVC, s.r.o. i akciovr spolecnosti.</p>
+            <h3 class="service-title">Účetnictví</h3>
+            <p class="service-desc">Vedení podvojného účetnictví a daňové evidence pro OSVČ, s.r.o. i akciovr společností.</p>
         </div>
 <div class="service-card reveal reveal-d4">
             <div class="service-icon"><span>04</span></div>
-            <h3 class="service-title">Zastupovani pri kontrolach</h3>
-            <p class="service-desc">Profesionalni zastupovani pred financnim uradem a aktivni obrana klientovych zajmu.</p>
+            <h3 class="service-title">Zastupování při kontrolách</h3>
+            <p class="service-desc">Profesionální zastupování před finančním úřadem a aktivní obrana klientových zájmů.</p>
         </div>
 <div class="service-card reveal reveal-d4">
             <div class="service-icon"><span>05</span></div>
-            <h3 class="service-title">Mzdova agenda</h3>
-            <p class="service-desc">Zpracovani mezd, pravidelne odvody a rocni vyuctovani pro firmy vsech velikosti.</p>
+            <h3 class="service-title">Mzdová agenda</h3>
+            <p class="service-desc">Zpracování mezd, pravidelné odvody a roční vyúčtování pro firmy všech velikostí.</p>
         </div>
 <div class="service-card reveal reveal-d4">
             <div class="service-icon"><span>06</span></div>
-            <h3 class="service-title">Danove rizeni</h3>
-            <p class="service-desc">Komplexni reseni danovych sporu, odvolani a zastupovani v danovych rizenich.</p>
+            <h3 class="service-title">Daňové řízení</h3>
+            <p class="service-desc">Komplexní řešení daňových sporů, odvolání a zastupování v daňových řízeních.</p>
         </div>
 
         </div>
@@ -795,8 +840,8 @@
     <div class="about-glow about-glow-2"></div>
     <div class="dot-grid"></div>
     <div class="about-inner">
-        <p class="about-intro reveal">Ing. Jan Kohoutek poskytuje danove a ucetni sluzby v Prostejove s durazem na osobni pristup a dlouhodobou spolupracis klienty. Diky letite praxi zna specificka rizika i prilezitosti podnikatelu na Hane.</p>
-        <h2 class="about-drama reveal reveal-d1">Partner, ktery vas zna</h2>
+        <p class="about-intro reveal">Ing. Jan Kohoutek poskytuje daňové a účetní služby v Prostějově s důrazem na osobní přístup a dlouhodobou spolupracis klienty. Díky letité praxi zná specifická rizika i příležitosti podnikatelů na Hané.</p>
+        <h2 class="about-drama reveal reveal-d1">Partner, který vás zná</h2>
     </div>
 </section>
 
@@ -831,24 +876,26 @@
         <p class="section-subtitle reveal reveal-d2">Cela agenda od uvodni schuzky az po podani prizani — bez starostí pro vas.</p>
         <div class="process-grid">
             <div class="process-card reveal reveal-d1">
-            <span class="process-num">01 / UVODNI KONZULTACE</span>
-            <h3 class="process-title">Uvodni konzultace</h3>
-            <p class="process-desc">Zdarma probereme vasi situaci a zjistime jak vam muzeme nejlepe pomoci.</p>
+            <span class="process-num">01 / ÚVODNÍ KONZULTACE</span>
+            <h3 class="process-title">Úvodní konzultace</h3>
+            <p class="process-desc">Zdarma probereme vaši situaci a zjistíme jak vám můžeme nejlépe pomoci.</p>
         </div>
 <div class="process-card reveal reveal-d2">
-            <span class="process-num">02 / NAVRH A PODPIS SMLOU</span>
-            <h3 class="process-title">Navrh a podpis smlouvy</h3>
-            <p class="process-desc">Pripravime jasny navrh spoluprace a transparentni cenik sluzeb.</p>
+            <span class="process-num">02 / NÁVRH A PODPIS SMLOU</span>
+            <h3 class="process-title">Návrh a podpis smlouvy</h3>
+            <p class="process-desc">Připravíme jasný návrh spolupráce a transparentní ceník služeb.</p>
         </div>
 <div class="process-card reveal reveal-d3">
-            <span class="process-num">03 / PRAVIDELNA SPRAVA AG</span>
-            <h3 class="process-title">Pravidelna sprava agendy</h3>
-            <p class="process-desc">Prevezmeme vasi danovou i ucetni agendu a budeme vas informovat o vsech dulezitych terminech.</p>
+            <span class="process-num">03 / PRAVIDELNÁ SPRÁVA AG</span>
+            <h3 class="process-title">Pravidelná správa agendy</h3>
+            <p class="process-desc">Převezmeme vaši daňovou i účetní agendu a budeme vás informovat o všech důležitých termínech.</p>
         </div>
 
         </div>
     </div>
 </section>
+
+
 
 <!-- CONTACT — DARK CARD -->
 <section class="contact-wrapper" id="kontakt">
@@ -856,7 +903,7 @@
         <div class="contact-card-inner">
             <div class="contact-heading">
                 <div class="section-label reveal">KONTAKT</div>
-                <h2 class="section-title reveal reveal-d1">Pojdme spolupracovat</h2>
+                <h2 class="section-title reveal reveal-d1">Pojďme spolupracovat</h2>
             </div>
             <div class="contact-grid">
                 <dl class="contact-info-block reveal reveal-d2">
@@ -879,7 +926,7 @@
                         <textarea placeholder="Jak vám můžeme pomoci?"></textarea>
                     </div>
                     <button type="submit" class="form-submit">
-                        Odeslat zpravu
+                        Odeslat zprávu
                         <svg width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 8h10M9 4l4 4-4 4"/></svg>
                     </button>
                 </form>
@@ -894,7 +941,7 @@
         <div class="footer-top">
             <div class="footer-brand">
                 <h3>Ing. Jan Kohoutek.</h3>
-                <p>Certifikovany danovy poradce v Prostejove. Danove poradenstvi, zpracovani priznani a optimalizace dani pro podnikatele a firmy.</p>
+                <p>Certifikovaný daňový poradce v Prostějově. Daňové poradenství, zpracování přiznání a optimalizace daní pro podnikatele a firmy.</p>
                 <div class="footer-status">
                     <div class="footer-status-dot"></div>
                     <span>K dispozici</span>

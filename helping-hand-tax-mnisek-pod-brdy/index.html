@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Danove poradenstvi Helping Hand v Mnistku pod Brdy. Ing. Katerina Marhoulova nabizi pomahajici pristup ke danim pro podnikatele i fyzicke osoby v regionu.">
-    <title>Ing. Katerina Marhoulova | Danovy poradce Mnisek pod Brdy</title>
+    <meta name="description" content="Daňové poradenství Helping Hand v Mnistku pod Brdy. Ing. Kateřina Marhoulová nabízí pomáhající přístup ke daním pro podnikatele i fyzické osoby v regionu.">
+    <title>Ing. Kateřina Marhoulová | Daňový poradce Mníšek pod Brdy</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Playfair%20Display:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=DM%20Sans:wght@200;300;400;500;600;700;800&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
@@ -489,6 +489,51 @@
         }
 
         /* ═══ CONTACT — DARK CARD ═══ */
+        /* ═══ TESTIMONIALS ═══ */
+        .testimonials-section {
+            padding: clamp(80px, 12vh, 140px) clamp(24px, 4vw, 64px);
+            background: var(--bg-dark);
+            color: var(--text-on-dark);
+        }
+        .testimonials-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 24px;
+            margin-top: 48px;
+        }
+        .testimonial-card {
+            background: rgba(255,255,255,0.05);
+            border: 1px solid rgba(255,255,255,0.1);
+            border-radius: var(--radius-card);
+            padding: 36px 32px 28px;
+            display: flex; flex-direction: column; gap: 20px;
+            position: relative;
+        }
+        .testimonial-card::before {
+            content: '\201C';
+            font-family: var(--serif);
+            font-size: 5rem;
+            line-height: 1;
+            color: var(--accent);
+            opacity: 0.6;
+            position: absolute;
+            top: 12px; left: 28px;
+        }
+        .testimonial-text {
+            font-size: clamp(0.95rem, 1.5vw, 1.05rem);
+            line-height: 1.75;
+            color: rgba(242,240,233,0.85);
+            padding-top: 32px;
+            font-style: italic;
+        }
+        .testimonial-author {
+            font-size: 0.82rem;
+            font-weight: 600;
+            color: var(--accent);
+            letter-spacing: 0.06em;
+            text-transform: uppercase;
+        }
+
         .contact-wrapper {
             padding: clamp(60px, 10vh, 100px) clamp(24px, 4vw, 64px);
             background: var(--bg-warm);
@@ -727,8 +772,8 @@
             <span class="hero-heading">Pomahame vasim daním rust</span>
             <span class="hero-drama">Spolehlivost.</span>
         </h1>
-        <p class="hero-sub">Danove poradenstvi s pomahajicim pristupem v regionu Mnisek pod Brdy, kde se o vase dane starame jako o sve vlastni.</p>
-        <a href="#kontakt" class="hero-cta">Ziskat pomoc se danemi</a>
+        <p class="hero-sub">Daňové poradenství s pomáhajícím přístupem v regionu Mníšek pod Brdy, kde se o vaše daně staráme jako o své vlastní.</p>
+        <a href="#kontakt" class="hero-cta">Získat pomoc se daněmi</a>
         <div class="hero-stats">
             <div>
             <div class="hero-stat-num">190+</div>
@@ -751,38 +796,38 @@
 <section class="section-light" id="sluzby">
     <div class="section-inner">
         <div class="section-label reveal">NASE SLUZBY</div>
-        <h2 class="section-title reveal reveal-d1">Danove poradenstvi s lidskym priblizenim</h2>
+        <h2 class="section-title reveal reveal-d1">Daňové poradenství s lidským přiblížením</h2>
         <p class="section-subtitle reveal reveal-d2">Nabizime siroku skalu danovych sluzeb s durazem na srozumitelnost a osobní péci.</p>
         <div class="services-grid">
             <div class="service-card reveal reveal-d1">
             <div class="service-icon"><span>01</span></div>
-            <h3 class="service-title">Danove priznani</h3>
-            <p class="service-desc">Zpracovani danoveho priznani k dani z prijmu pro OSVC, zamestnance i pravnicke osoby vcas a spravne.</p>
+            <h3 class="service-title">Daňové přiznání</h3>
+            <p class="service-desc">Zpracování daňového přiznání k dani z příjmů pro OSVČ, zaměstnance i právnické osoby včas a správně.</p>
         </div>
 <div class="service-card reveal reveal-d2">
             <div class="service-icon"><span>02</span></div>
-            <h3 class="service-title">Danove poradenstvi</h3>
-            <p class="service-desc">Srozumitelne vysvetleni danovych povinnosti a legalnich moznosti optimalizace bez zbytecnych komplikaci.</p>
+            <h3 class="service-title">Daňové poradenství</h3>
+            <p class="service-desc">Srozumitelné vysvětlení daňových povinností a legálních možností optimalizace bez zbytečných komplikací.</p>
         </div>
 <div class="service-card reveal reveal-d3">
             <div class="service-icon"><span>03</span></div>
-            <h3 class="service-title">Rocni zuctovani</h3>
+            <h3 class="service-title">Roční zúčtování</h3>
             <p class="service-desc">Provadeni rocniho zuctovani dane ze zavislé cinnosti pro zamestnance a zamestnavatele.</p>
         </div>
 <div class="service-card reveal reveal-d4">
             <div class="service-icon"><span>04</span></div>
-            <h3 class="service-title">Mzdova agenda</h3>
-            <p class="service-desc">Zpracovani mezd, odvodovych povinnosti a priprva mesicnich hlaseni za zamestnance.</p>
+            <h3 class="service-title">Mzdová agenda</h3>
+            <p class="service-desc">Zpracování mezd, odvodových povinností a priprva měsíčních hlášení za zaměstnance.</p>
         </div>
 <div class="service-card reveal reveal-d4">
             <div class="service-icon"><span>05</span></div>
-            <h3 class="service-title">Vedeni ucetnictvi</h3>
-            <p class="service-desc">Vedeni jednoduche i podvojne evidence s prubeznym reportingem pro vasi informovanost.</p>
+            <h3 class="service-title">Vedení účetnictví</h3>
+            <p class="service-desc">Vedení jednoduché i podvojné evidence s průběžným reportingem pro vaši informovanost.</p>
         </div>
 <div class="service-card reveal reveal-d4">
             <div class="service-icon"><span>06</span></div>
-            <h3 class="service-title">Poradenstvi pri zahajeni</h3>
-            <p class="service-desc">Pomoc novym podnikatelum se spravnym nastavenim danovych povinnosti hned od zacatku.</p>
+            <h3 class="service-title">Poradenství při zahájení</h3>
+            <p class="service-desc">Pomoc novým podnikatelům se správným nastavením daňových povinností hned od začátku.</p>
         </div>
 
         </div>
@@ -796,7 +841,7 @@
     <div class="dot-grid"></div>
     <div class="about-inner">
         <p class="about-intro reveal">Ing. Katerina Marhoulova neni jen danovy poradce, je to partner v podnikani. Jejim cilem je, aby kazdy klient rozumel svym danám a citil se v bezpeci pred financnim uradem.</p>
-        <h2 class="about-drama reveal reveal-d1">Poradce, ktery skutecne pomaha</h2>
+        <h2 class="about-drama reveal reveal-d1">Poradce, který skutečně pomáhá</h2>
     </div>
 </section>
 
@@ -827,28 +872,30 @@
 <section class="section-light" style="padding-top: 0;">
     <div class="section-inner">
         <div class="section-label reveal">JAK PRACUJEME</div>
-        <h2 class="section-title reveal reveal-d1">Pece a srozumitelnost v kazdem kroku</h2>
-        <p class="section-subtitle reveal reveal-d2">Spoluprace s nami je privetiva, transparentni a zamirena na vasi spokojenost.</p>
+        <h2 class="section-title reveal reveal-d1">Péče a srozumitelnost v každém kroku</h2>
+        <p class="section-subtitle reveal reveal-d2">Spolupráce s námi je přívětivá, transparentní a zamířená na vaši spokojenost.</p>
         <div class="process-grid">
             <div class="process-card reveal reveal-d1">
-            <span class="process-num">01 / UVODNI SETKANI</span>
-            <h3 class="process-title">Uvodni setkani</h3>
-            <p class="process-desc">Bezplatne probereme vasi situaci a zodpovime vsechny vase otazky ohledne dani.</p>
+            <span class="process-num">01 / ÚVODNÍ SETKÁNÍ</span>
+            <h3 class="process-title">Úvodní setkání</h3>
+            <p class="process-desc">Bezplatně probereme vaši situaci a zodpovíme všechny vaše otázky ohledně daní.</p>
         </div>
 <div class="process-card reveal reveal-d2">
             <span class="process-num">02 / PLÁN SPOLUPRACE</span>
             <h3 class="process-title">Plán spoluprace</h3>
-            <p class="process-desc">Navrhneme personalini plan sluzeb se jasnym prehledem cen a terminu.</p>
+            <p class="process-desc">Navrhneme personalini plán služeb se jasným přehledem cen a termínů.</p>
         </div>
 <div class="process-card reveal reveal-d3">
-            <span class="process-num">03 / PRUBEZNA PECE</span>
-            <h3 class="process-title">Prubezna pece</h3>
-            <p class="process-desc">Prevezme komplexni peci o vase dane a jsme dostupni pro vse, co potrebujete.</p>
+            <span class="process-num">03 / PRŮBĚŽNÁ PÉČE</span>
+            <h3 class="process-title">Průběžná péče</h3>
+            <p class="process-desc">Převezme komplexní péči o vaše daně a jsme dostupní pro vše, co potřebujete.</p>
         </div>
 
         </div>
     </div>
 </section>
+
+
 
 <!-- CONTACT — DARK CARD -->
 <section class="contact-wrapper" id="kontakt">
@@ -856,7 +903,7 @@
         <div class="contact-card-inner">
             <div class="contact-heading">
                 <div class="section-label reveal">KONTAKT</div>
-                <h2 class="section-title reveal reveal-d1">Pomuzeme vam s danemi</h2>
+                <h2 class="section-title reveal reveal-d1">Pomůžeme vám s daněmi</h2>
             </div>
             <div class="contact-grid">
                 <dl class="contact-info-block reveal reveal-d2">
@@ -894,7 +941,7 @@
         <div class="footer-top">
             <div class="footer-brand">
                 <h3>Helping Hand Tax.</h3>
-                <p>Danove poradenstvi Helping Hand v Mnistku pod Brdy. Ing. Katerina Marhoulova nabizi pomahajici pristup ke danim pro podnikatele i fyzicke osoby v regionu.</p>
+                <p>Daňové poradenství Helping Hand v Mnistku pod Brdy. Ing. Kateřina Marhoulová nabízí pomáhající přístup ke daním pro podnikatele i fyzické osoby v regionu.</p>
                 <div class="footer-status">
                     <div class="footer-status-dot"></div>
                     <span>K dispozici</span>

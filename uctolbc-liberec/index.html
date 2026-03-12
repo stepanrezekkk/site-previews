@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Eva Vondrackova, ucetni kanclar Liberec. Vedeni ucetnictvi, zpracovani mezd a danove poradenstvi pro podnikatele a male firmy v Liberci.">
-    <title>Eva Vondrackova | Ucetnictvi Liberec</title>
+    <meta name="description" content="Eva Vondráčková, účetní kanclar Liberec. Vedení účetnictví, zpracování mezd a daňové poradenství pro podnikatele a malé firmy v Liberci.">
+    <title>Eva Vondráčková | Účetnictví Liberec</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Plus%20Jakarta%20Sans:wght@200;300;400;500;600;700;800&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
@@ -489,6 +489,51 @@
         }
 
         /* ═══ CONTACT — DARK CARD ═══ */
+        /* ═══ TESTIMONIALS ═══ */
+        .testimonials-section {
+            padding: clamp(80px, 12vh, 140px) clamp(24px, 4vw, 64px);
+            background: var(--bg-dark);
+            color: var(--text-on-dark);
+        }
+        .testimonials-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 24px;
+            margin-top: 48px;
+        }
+        .testimonial-card {
+            background: rgba(255,255,255,0.05);
+            border: 1px solid rgba(255,255,255,0.1);
+            border-radius: var(--radius-card);
+            padding: 36px 32px 28px;
+            display: flex; flex-direction: column; gap: 20px;
+            position: relative;
+        }
+        .testimonial-card::before {
+            content: '\201C';
+            font-family: var(--serif);
+            font-size: 5rem;
+            line-height: 1;
+            color: var(--accent);
+            opacity: 0.6;
+            position: absolute;
+            top: 12px; left: 28px;
+        }
+        .testimonial-text {
+            font-size: clamp(0.95rem, 1.5vw, 1.05rem);
+            line-height: 1.75;
+            color: rgba(242,240,233,0.85);
+            padding-top: 32px;
+            font-style: italic;
+        }
+        .testimonial-author {
+            font-size: 0.82rem;
+            font-weight: 600;
+            color: var(--accent);
+            letter-spacing: 0.06em;
+            text-transform: uppercase;
+        }
+
         .contact-wrapper {
             padding: clamp(60px, 10vh, 100px) clamp(24px, 4vw, 64px);
             background: var(--bg-warm);
@@ -727,8 +772,8 @@
             <span class="hero-heading">účetní služby daňové poradenství</span>
             <span class="hero-drama">Duvera.</span>
         </h1>
-        <p class="hero-sub">Eva Vondrackova poskytuje spolehlive ucetni a danove sluzby v Liberci pro zivnostniky a male firmy uz vice nez deset let.</p>
-        <a href="#kontakt" class="hero-cta">Objednat sluzby</a>
+        <p class="hero-sub">Eva Vondráčková poskytuje spolehlivě účetní a daňové služby v Liberci pro živnostníky a malé firmy už více než deset let.</p>
+        <a href="#kontakt" class="hero-cta">Objednat služby</a>
         <div class="hero-stats">
             <div>
             <div class="hero-stat-num">12+</div>
@@ -740,7 +785,7 @@
         </div>
 <div>
             <div class="hero-stat-num">100%</div>
-            <div class="hero-stat-label">vcasne podano</div>
+            <div class="hero-stat-label">včasné podáno</div>
         </div>
 
         </div>
@@ -751,8 +796,8 @@
 <section class="section-light" id="sluzby">
     <div class="section-inner">
         <div class="section-label reveal">NASE SLUZBY</div>
-        <h2 class="section-title reveal reveal-d1">Ucetnictvi a dane pro male firmy</h2>
-        <p class="section-subtitle reveal reveal-d2">Jednoduche, spolehlive a transparentni ucetni sluzby pro liberecke podnikatele.</p>
+        <h2 class="section-title reveal reveal-d1">Účetnictví a daně pro malé firmy</h2>
+        <p class="section-subtitle reveal reveal-d2">Jednoduché, spolehlivé a transparentní účetní služby pro liberecké podnikatele.</p>
         <div class="services-grid">
             <div class="service-card reveal reveal-d1">
             <div class="service-icon"><span>01</span></div>
@@ -762,7 +807,7 @@
 <div class="service-card reveal reveal-d2">
             <div class="service-icon"><span>02</span></div>
             <h3 class="service-title">Účetnictví</h3>
-            <p class="service-desc">Mesicni zpracovani mezd a odvody za zamestnance s garanciou presnosti a vcasnosti.</p>
+            <p class="service-desc">Měsíční zpracování mezd a odvody za zaměstnance s garanciou přesností a včasností.</p>
         </div>
 <div class="service-card reveal reveal-d3">
             <div class="service-icon"><span>03</span></div>
@@ -772,12 +817,12 @@
 <div class="service-card reveal reveal-d4">
             <div class="service-icon"><span>04</span></div>
             <h3 class="service-title">Mzdová evidence</h3>
-            <p class="service-desc">Podani mesicniho nebo ctvrtletniho DPH priznani, kontrolniho hlaseni a souhrnneho hlaseni.</p>
+            <p class="service-desc">Podání měsíčního nebo čtvrtletního DPH přiznání, kontrolního hlášení a souhrnného hlášení.</p>
         </div>
 <div class="service-card reveal reveal-d4">
             <div class="service-icon"><span>05</span></div>
             <h3 class="service-title">Daňové poradenství</h3>
-            <p class="service-desc">Odborne ucetni poradenstvi pri zalozeni firmy, zmenach v podnikani nebo prechodu na nove ucetni systemy.</p>
+            <p class="service-desc">Odborné účetní poradenství při založení firmy, změnách v podnikání nebo přechodu na nové účetní systémy.</p>
         </div>
 <div class="service-card reveal reveal-d4">
             <div class="service-icon"><span>06</span></div>
@@ -796,7 +841,7 @@
     <div class="dot-grid"></div>
     <div class="about-inner">
         <p class="about-intro reveal">Eva Vondrackova zna sve klienty osobne a pristupuje k jejich ucetnictvi s odpovednosti jako by slo o jeji vlastní firmu. Dluholeté zkusenosti v libereckém regionu zaručuji kvalitu a spolehlívost.</p>
-        <h2 class="about-drama reveal reveal-d1">Osobni ucetni pro liberecke podnikatele</h2>
+        <h2 class="about-drama reveal reveal-d1">Osobní účetní pro liberecké podnikatele</h2>
     </div>
 </section>
 
@@ -816,7 +861,7 @@
         </div>
 <div class="stat-card reveal reveal-d3">
             <div class="stat-number" data-count="100" data-suffix="%">0%</div>
-            <div class="stat-label">vcasne podano</div>
+            <div class="stat-label">včasné podáno</div>
         </div>
 
         </div>
@@ -827,22 +872,22 @@
 <section class="section-light" style="padding-top: 0;">
     <div class="section-inner">
         <div class="section-label reveal">JAK PRACUJEME</div>
-        <h2 class="section-title reveal reveal-d1">Jednoduche, bez zbytecne byrokracie</h2>
-        <p class="section-subtitle reveal reveal-d2">Snazime se, aby spoluprace s ucetnim byla co nejjednodussi a nejprijemnejsi.</p>
+        <h2 class="section-title reveal reveal-d1">Jednoduché, bez zbytečné byrokracie</h2>
+        <p class="section-subtitle reveal reveal-d2">Snažíme se, aby spolupráce s účetním byla co nejjednodušší a nejpříjemnější.</p>
         <div class="process-grid">
             <div class="process-card reveal reveal-d1">
-            <span class="process-num">01 / SEZNAMENI</span>
-            <h3 class="process-title">Seznameni</h3>
-            <p class="process-desc">Stretneme se osobne nebo online a probercme vase potreby bez jakychkoli zavazku.</p>
+            <span class="process-num">01 / SEZNÁMENÍ</span>
+            <h3 class="process-title">Seznámení</h3>
+            <p class="process-desc">Střetneme se osobně nebo online a probercme vaše potřeby bez jakýchkoli závazků.</p>
         </div>
 <div class="process-card reveal reveal-d2">
-            <span class="process-num">02 / SMLUVENI A NASTAVENI</span>
-            <h3 class="process-title">Smluveni a nastaveni</h3>
+            <span class="process-num">02 / SMLUVENI A NASTAVENÍ</span>
+            <h3 class="process-title">Smluveni a nastavení</h3>
             <p class="process-desc">Dohodname se na cene a zpusobu predavani dokladu a nastavime efektivni spolupráci.</p>
         </div>
 <div class="process-card reveal reveal-d3">
-            <span class="process-num">03 / BEZSTAROSTNA PECE</span>
-            <h3 class="process-title">Bezstarostna pece</h3>
+            <span class="process-num">03 / BEZSTAROSTNÁ PÉČE</span>
+            <h3 class="process-title">Bezstarostná péče</h3>
             <p class="process-desc">Starame se o vase ucetnictvi a mzdy pravidelne a s jistotou vcasneho podání vsech hlaseni.</p>
         </div>
 
@@ -850,13 +895,15 @@
     </div>
 </section>
 
+
+
 <!-- CONTACT — DARK CARD -->
 <section class="contact-wrapper" id="kontakt">
     <div class="contact-card">
         <div class="contact-card-inner">
             <div class="contact-heading">
                 <div class="section-label reveal">KONTAKT</div>
-                <h2 class="section-title reveal reveal-d1">Pojdme spolupracovat</h2>
+                <h2 class="section-title reveal reveal-d1">Pojďme spolupracovat</h2>
             </div>
             <div class="contact-grid">
                 <dl class="contact-info-block reveal reveal-d2">
@@ -878,7 +925,7 @@
                         <textarea placeholder="Jak vám můžeme pomoci?"></textarea>
                     </div>
                     <button type="submit" class="form-submit">
-                        Odeslat zpravu
+                        Odeslat zprávu
                         <svg width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 8h10M9 4l4 4-4 4"/></svg>
                     </button>
                 </form>
@@ -893,7 +940,7 @@
         <div class="footer-top">
             <div class="footer-brand">
                 <h3>UctoLBC.</h3>
-                <p>Eva Vondrackova, ucetni kanclar Liberec. Vedeni ucetnictvi, zpracovani mezd a danove poradenstvi pro podnikatele a male firmy v Liberci.</p>
+                <p>Eva Vondráčková, účetní kanclar Liberec. Vedení účetnictví, zpracování mezd a daňové poradenství pro podnikatele a malé firmy v Liberci.</p>
                 <div class="footer-status">
                     <div class="footer-status-dot"></div>
                     <span>K dispozici</span>

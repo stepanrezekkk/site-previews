@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Danove poradenstvi v Opave. Ing. Zuzana Matuskova nabizi profesionalni spravu dani a ucetnictvi pro firmy i jednotlivce.">
-    <title>Ing. Zuzana Matuskova -- Danove poradenstvi Opava</title>
+    <meta name="description" content="Daňové poradenství v Opavě. Ing. Zuzana Matušková nabízí profesionální správu daní a účetnictví pro firmy i jednotlivce.">
+    <title>Ing. Zuzana Matušková -- Daňové poradenství Opava</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Playfair%20Display:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=DM%20Sans:wght@200;300;400;500;600;700;800&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
@@ -489,6 +489,51 @@
         }
 
         /* ═══ CONTACT — DARK CARD ═══ */
+        /* ═══ TESTIMONIALS ═══ */
+        .testimonials-section {
+            padding: clamp(80px, 12vh, 140px) clamp(24px, 4vw, 64px);
+            background: var(--bg-dark);
+            color: var(--text-on-dark);
+        }
+        .testimonials-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 24px;
+            margin-top: 48px;
+        }
+        .testimonial-card {
+            background: rgba(255,255,255,0.05);
+            border: 1px solid rgba(255,255,255,0.1);
+            border-radius: var(--radius-card);
+            padding: 36px 32px 28px;
+            display: flex; flex-direction: column; gap: 20px;
+            position: relative;
+        }
+        .testimonial-card::before {
+            content: '\201C';
+            font-family: var(--serif);
+            font-size: 5rem;
+            line-height: 1;
+            color: var(--accent);
+            opacity: 0.6;
+            position: absolute;
+            top: 12px; left: 28px;
+        }
+        .testimonial-text {
+            font-size: clamp(0.95rem, 1.5vw, 1.05rem);
+            line-height: 1.75;
+            color: rgba(242,240,233,0.85);
+            padding-top: 32px;
+            font-style: italic;
+        }
+        .testimonial-author {
+            font-size: 0.82rem;
+            font-weight: 600;
+            color: var(--accent);
+            letter-spacing: 0.06em;
+            text-transform: uppercase;
+        }
+
         .contact-wrapper {
             padding: clamp(60px, 10vh, 100px) clamp(24px, 4vw, 64px);
             background: var(--bg-warm);
@@ -724,11 +769,11 @@
     <div class="hero-glow hero-glow-2"></div>
     <div class="hero-content">
         <h1>
-            <span class="hero-heading">Odborne danove poradenstvi</span>
+            <span class="hero-heading">Odborné daňové poradenství</span>
             <span class="hero-drama">Spolehlivost.</span>
         </h1>
-        <p class="hero-sub">Profesionalni danove sluzby v Opave s osobnim pristupem a garanci spravnosti kazdeho podani.</p>
-        <a href="#kontakt" class="hero-cta">Domluvit schuzku</a>
+        <p class="hero-sub">Profesionální daňové služby v Opavě s osobním přístupem a garancí správnosti každého podání.</p>
+        <a href="#kontakt" class="hero-cta">Domluvit schůzku</a>
         <div class="hero-stats">
             <div>
             <div class="hero-stat-num">280+</div>
@@ -751,38 +796,38 @@
 <section class="section-light" id="sluzby">
     <div class="section-inner">
         <div class="section-label reveal">NASE SLUZBY</div>
-        <h2 class="section-title reveal reveal-d1">Danove a ucetni sluzby na miru</h2>
-        <p class="section-subtitle reveal reveal-d2">Komplexni pece o vase danove povinnosti od A do Z.</p>
+        <h2 class="section-title reveal reveal-d1">Daňové a účetní služby na míru</h2>
+        <p class="section-subtitle reveal reveal-d2">Komplexní péče o vaše daňové povinnosti od A do Z.</p>
         <div class="services-grid">
             <div class="service-card reveal reveal-d1">
             <div class="service-icon"><span>01</span></div>
-            <h3 class="service-title">Zpracovani danovych priznani</h3>
-            <p class="service-desc">Precizni vypracovani danovych priznani vcetne vsech priloh a optimalizace.</p>
+            <h3 class="service-title">Zpracování daňových přiznání</h3>
+            <p class="service-desc">Precizní vypracování daňových přiznání včetně všech příloh a optimalizace.</p>
         </div>
 <div class="service-card reveal reveal-d2">
             <div class="service-icon"><span>02</span></div>
-            <h3 class="service-title">Vedeni ucetnictvi</h3>
-            <p class="service-desc">Profesionalni vedeni podvojneho i jednoducheho ucetnictvi pro vasi firmu.</p>
+            <h3 class="service-title">Vedení účetnictví</h3>
+            <p class="service-desc">Profesionální vedení podvojného i jednoduchého účetnictví pro vaši firmu.</p>
         </div>
 <div class="service-card reveal reveal-d3">
             <div class="service-icon"><span>03</span></div>
-            <h3 class="service-title">Mzdova agenda</h3>
-            <p class="service-desc">Sprava mezd, odvody socialnich a zdravotnich pojisteni za zamestnance.</p>
+            <h3 class="service-title">Mzdová agenda</h3>
+            <p class="service-desc">Správa mezd, odvody sociálních a zdravotních pojištění za zaměstnance.</p>
         </div>
 <div class="service-card reveal reveal-d4">
             <div class="service-icon"><span>04</span></div>
-            <h3 class="service-title">Danove poradenstvi</h3>
-            <p class="service-desc">Konzultace v oblasti danovych zakonu a minimalizace danove zateze.</p>
+            <h3 class="service-title">Daňové poradenství</h3>
+            <p class="service-desc">Konzultace v oblasti daňových zákonů a minimalizace daňové zátěže.</p>
         </div>
 <div class="service-card reveal reveal-d4">
             <div class="service-icon"><span>05</span></div>
-            <h3 class="service-title">Zastoupeni pred urady</h3>
-            <p class="service-desc">Odborne zastoupeni pri jednanich s financnimi urady a urady prace.</p>
+            <h3 class="service-title">Zastoupení před úřady</h3>
+            <p class="service-desc">Odborné zastoupení při jednáních s finančními úřady a úřady práce.</p>
         </div>
 <div class="service-card reveal reveal-d4">
             <div class="service-icon"><span>06</span></div>
-            <h3 class="service-title">Zalozeni firmy</h3>
-            <p class="service-desc">Pomoc pri zalozeni spolecnosti vcetne nastaveni optimalni danove struktury.</p>
+            <h3 class="service-title">Založení firmy</h3>
+            <p class="service-desc">Pomoc při založení společnosti včetně nastavení optimální daňové struktury.</p>
         </div>
 
         </div>
@@ -796,7 +841,7 @@
     <div class="dot-grid"></div>
     <div class="about-inner">
         <p class="about-intro reveal">Ing. Zuzana Matuskova se danove mu poradenstvi venuje s vasi a nabizi klientum v Opave a okolí profesionalni, lidsky pristup. Kazdy klient je pro ni jedinecny a zaslouzi si individualni reseni.</p>
-        <h2 class="about-drama reveal reveal-d1">Zkusena poradkyne s lidskym pristupem</h2>
+        <h2 class="about-drama reveal reveal-d1">Zkušená poradkyně s lidským přístupem</h2>
     </div>
 </section>
 
@@ -827,22 +872,22 @@
 <section class="section-light" style="padding-top: 0;">
     <div class="section-inner">
         <div class="section-label reveal">JAK PRACUJEME</div>
-        <h2 class="section-title reveal reveal-d1">Vas krok za krokem</h2>
-        <p class="section-subtitle reveal reveal-d2">Nas postup zaruci klid a jistotu pri kazdem danovem obdobi.</p>
+        <h2 class="section-title reveal reveal-d1">Váš krok za krokem</h2>
+        <p class="section-subtitle reveal reveal-d2">Náš postup zaručí klid a jistotu při každém daňovém období.</p>
         <div class="process-grid">
             <div class="process-card reveal reveal-d1">
-            <span class="process-num">01 / BEZPLATNA KONZULTACE</span>
-            <h3 class="process-title">Bezplatna konzultace</h3>
-            <p class="process-desc">Setkame se a prodiskutujeme vase potreby a moznosti spoluprace.</p>
+            <span class="process-num">01 / BEZPLATNÁ KONZULTACE</span>
+            <h3 class="process-title">Bezplatná konzultace</h3>
+            <p class="process-desc">Setkáme se a prodiskutujeme vaše potřeby a možnosti spolupráce.</p>
         </div>
 <div class="process-card reveal reveal-d2">
-            <span class="process-num">02 / SBER PODKLADU</span>
-            <h3 class="process-title">Sber podkladu</h3>
-            <p class="process-desc">Systematicky shromazdime vsechny potrebne dokumenty a data.</p>
+            <span class="process-num">02 / SBĚR PODKLADŮ</span>
+            <h3 class="process-title">Sběr podkladů</h3>
+            <p class="process-desc">Systematicky shromáždíme všechny potřebné dokumenty a data.</p>
         </div>
 <div class="process-card reveal reveal-d3">
-            <span class="process-num">03 / ZPRACOVANI A PODANI</span>
-            <h3 class="process-title">Zpracovani a podani</h3>
+            <span class="process-num">03 / ZPRACOVÁNÍ A PODÁNÍ</span>
+            <h3 class="process-title">Zpracování a podání</h3>
             <p class="process-desc">Spravne zpracujeme a vcas podame vsechna povinná hlaseni.</p>
         </div>
 
@@ -850,13 +895,15 @@
     </div>
 </section>
 
+
+
 <!-- CONTACT — DARK CARD -->
 <section class="contact-wrapper" id="kontakt">
     <div class="contact-card">
         <div class="contact-card-inner">
             <div class="contact-heading">
                 <div class="section-label reveal">KONTAKT</div>
-                <h2 class="section-title reveal reveal-d1">Napiste nebo zavolejte</h2>
+                <h2 class="section-title reveal reveal-d1">Napište nebo zavolejte</h2>
             </div>
             <div class="contact-grid">
                 <dl class="contact-info-block reveal reveal-d2">
@@ -894,7 +941,7 @@
         <div class="footer-top">
             <div class="footer-brand">
                 <h3>Opava-Dane.</h3>
-                <p>Danove poradenstvi v Opave. Ing. Zuzana Matuskova nabizi profesionalni spravu dani a ucetnictvi pro firmy i jednotlivce.</p>
+                <p>Daňové poradenství v Opavě. Ing. Zuzana Matušková nabízí profesionální správu daní a účetnictví pro firmy i jednotlivce.</p>
                 <div class="footer-status">
                     <div class="footer-status-dot"></div>
                     <span>K dispozici</span>

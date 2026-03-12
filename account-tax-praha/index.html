@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Danove a ucetni poradenstvi v Praze. Ing. Lucie Svobodova nabizi komplexni financni sluzby pro podnikatele i spolecnosti.">
-    <title>Ing. Lucie Svobodova — Account & Tax Praha</title>
+    <meta name="description" content="Daňové a účetní poradenství v Praze. Ing. Lucie Svobodová nabízí komplexní finanční služby pro podnikatele i společnosti.">
+    <title>Ing. Lucie Svobodová — Account & Tax Praha</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Playfair%20Display:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=DM%20Sans:wght@200;300;400;500;600;700;800&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
@@ -489,6 +489,51 @@
         }
 
         /* ═══ CONTACT — DARK CARD ═══ */
+        /* ═══ TESTIMONIALS ═══ */
+        .testimonials-section {
+            padding: clamp(80px, 12vh, 140px) clamp(24px, 4vw, 64px);
+            background: var(--bg-dark);
+            color: var(--text-on-dark);
+        }
+        .testimonials-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 24px;
+            margin-top: 48px;
+        }
+        .testimonial-card {
+            background: rgba(255,255,255,0.05);
+            border: 1px solid rgba(255,255,255,0.1);
+            border-radius: var(--radius-card);
+            padding: 36px 32px 28px;
+            display: flex; flex-direction: column; gap: 20px;
+            position: relative;
+        }
+        .testimonial-card::before {
+            content: '\201C';
+            font-family: var(--serif);
+            font-size: 5rem;
+            line-height: 1;
+            color: var(--accent);
+            opacity: 0.6;
+            position: absolute;
+            top: 12px; left: 28px;
+        }
+        .testimonial-text {
+            font-size: clamp(0.95rem, 1.5vw, 1.05rem);
+            line-height: 1.75;
+            color: rgba(242,240,233,0.85);
+            padding-top: 32px;
+            font-style: italic;
+        }
+        .testimonial-author {
+            font-size: 0.82rem;
+            font-weight: 600;
+            color: var(--accent);
+            letter-spacing: 0.06em;
+            text-transform: uppercase;
+        }
+
         .contact-wrapper {
             padding: clamp(60px, 10vh, 100px) clamp(24px, 4vw, 64px);
             background: var(--bg-warm);
@@ -728,19 +773,19 @@
             <span class="hero-drama">Duvera.</span>
         </h1>
         <p class="hero-sub">Odborne danove a ucetni poradenstvi v srdci Prahy pro podnikatele, kteri chtejí mít finance pod kontrolou.</p>
-        <a href="#kontakt" class="hero-cta">Ziskat nabidku zdarma</a>
+        <a href="#kontakt" class="hero-cta">Získat nabídku zdarma</a>
         <div class="hero-stats">
             <div>
             <div class="hero-stat-num">420+</div>
-            <div class="hero-stat-label">spokojenych klientu</div>
+            <div class="hero-stat-label">spokojených klientů</div>
         </div>
 <div>
             <div class="hero-stat-num">14+</div>
-            <div class="hero-stat-label">let zkusenosti</div>
+            <div class="hero-stat-label">let zkušeností</div>
         </div>
 <div>
             <div class="hero-stat-num">98%</div>
-            <div class="hero-stat-label">spokojenost klientu</div>
+            <div class="hero-stat-label">spokojenost klientů</div>
         </div>
 
         </div>
@@ -751,33 +796,33 @@
 <section class="section-light" id="sluzby">
     <div class="section-inner">
         <div class="section-label reveal">NASE SLUZBY</div>
-        <h2 class="section-title reveal reveal-d1">Sluzby pro vas byznys</h2>
-        <p class="section-subtitle reveal reveal-d2">Profesionalni ucetni a danove sluzby primo pro vase podnikatelske potreby.</p>
+        <h2 class="section-title reveal reveal-d1">Služby pro vás byznys</h2>
+        <p class="section-subtitle reveal reveal-d2">Profesionální účetní a daňové služby přímo pro vaše podnikatelské potřeby.</p>
         <div class="services-grid">
             <div class="service-card reveal reveal-d1">
             <div class="service-icon"><span>01</span></div>
             <h3 class="service-title">Účetní a daňové služby na míru</h3>
-            <p class="service-desc">Kompletni vedeni podvojneho ucetnictvi a zpracovani danoveho priznani.</p>
+            <p class="service-desc">Kompletní vedení podvojného účetnictví a zpracování daňového přiznání.</p>
         </div>
 <div class="service-card reveal reveal-d2">
             <div class="service-icon"><span>02</span></div>
             <h3 class="service-title">Komplexní poradenství, perfektní znalost legislativy,osobní přístup</h3>
-            <p class="service-desc">Strategicke danove poradenstvii pro optimalizaci danove zatize vasich firem.</p>
+            <p class="service-desc">Strategické daňové poradenstvii pro optimalizaci daňové zatize vašich firem.</p>
         </div>
 <div class="service-card reveal reveal-d3">
             <div class="service-icon"><span>03</span></div>
             <h3 class="service-title">Daňové poradenství pro PO a FO</h3>
-            <p class="service-desc">Poradenstvii pri zahranicnich transakcich a zamezeni dvojiho zdaneni.</p>
+            <p class="service-desc">Poradenstvii při zahraničních transakcích a zamezení dvojího zdanění.</p>
         </div>
 <div class="service-card reveal reveal-d4">
             <div class="service-icon"><span>04</span></div>
             <h3 class="service-title">Daň z přidané hodnoty (DPH)</h3>
-            <p class="service-desc">Priprava podkladu k auditu a poradenstvi pri financnich kontrolach.</p>
+            <p class="service-desc">Příprava podkladů k auditu a poradenství při finančních kontrolách.</p>
         </div>
 <div class="service-card reveal reveal-d4">
             <div class="service-icon"><span>05</span></div>
             <h3 class="service-title">Silniční daň</h3>
-            <p class="service-desc">Komplexni zpracovani mezdni agendy vcetne socialnich a zdravotnich odvodu.</p>
+            <p class="service-desc">Komplexní zpracování mezdni agendy včetně sociálních a zdravotních odvodů.</p>
         </div>
 <div class="service-card reveal reveal-d4">
             <div class="service-icon"><span>06</span></div>
@@ -808,15 +853,15 @@
         <div class="stats-grid">
             <div class="stat-card reveal reveal-d1">
             <div class="stat-number" data-count="420" data-suffix="+">0+</div>
-            <div class="stat-label">spokojenych klientu</div>
+            <div class="stat-label">spokojených klientů</div>
         </div>
 <div class="stat-card reveal reveal-d2">
             <div class="stat-number" data-count="14" data-suffix="+">0+</div>
-            <div class="stat-label">let zkusenosti</div>
+            <div class="stat-label">let zkušeností</div>
         </div>
 <div class="stat-card reveal reveal-d3">
             <div class="stat-number" data-count="98" data-suffix="%">0%</div>
-            <div class="stat-label">spokojenost klientu</div>
+            <div class="stat-label">spokojenost klientů</div>
         </div>
 
         </div>
@@ -827,18 +872,18 @@
 <section class="section-light" style="padding-top: 0;">
     <div class="section-inner">
         <div class="section-label reveal">JAK PRACUJEME</div>
-        <h2 class="section-title reveal reveal-d1">Nase proverene reseni</h2>
-        <p class="section-subtitle reveal reveal-d2">Od prvni konzultace az po danove priznani se o vas postarame.</p>
+        <h2 class="section-title reveal reveal-d1">Naše prověřené řešení</h2>
+        <p class="section-subtitle reveal reveal-d2">Od první konzultace až po daňové přiznání se o vás postaráme.</p>
         <div class="process-grid">
             <div class="process-card reveal reveal-d1">
-            <span class="process-num">01 / UVODNI SCHUZKA</span>
-            <h3 class="process-title">Uvodni schuzka</h3>
-            <p class="process-desc">Bezplatne prodiskutujeme vasi situaci a nastavime spolupraci dle vasich potreb.</p>
+            <span class="process-num">01 / ÚVODNÍ SCHŮZKA</span>
+            <h3 class="process-title">Úvodní schůzka</h3>
+            <p class="process-desc">Bezplatně prodiskutujeme vaši situaci a nastavíme spolupráci dle vašich potřeb.</p>
         </div>
 <div class="process-card reveal reveal-d2">
-            <span class="process-num">02 / ZPRACOVANI DAT</span>
-            <h3 class="process-title">Zpracovani dat</h3>
-            <p class="process-desc">Vedeme ucetnictvi, zpracovavame doklady a pripravujeme danove podklady.</p>
+            <span class="process-num">02 / ZPRACOVÁNÍ DAT</span>
+            <h3 class="process-title">Zpracování dat</h3>
+            <p class="process-desc">Vedeme účetnictví, zpracováváme doklady a připravujeme daňové podklady.</p>
         </div>
 <div class="process-card reveal reveal-d3">
             <span class="process-num">03 / HLÍDÁNÍ TERMINU</span>
@@ -850,13 +895,15 @@
     </div>
 </section>
 
+
+
 <!-- CONTACT — DARK CARD -->
 <section class="contact-wrapper" id="kontakt">
     <div class="contact-card">
         <div class="contact-card-inner">
             <div class="contact-heading">
                 <div class="section-label reveal">KONTAKT</div>
-                <h2 class="section-title reveal reveal-d1">Pojdme spolupracovat</h2>
+                <h2 class="section-title reveal reveal-d1">Pojďme spolupracovat</h2>
             </div>
             <div class="contact-grid">
                 <dl class="contact-info-block reveal reveal-d2">
@@ -894,7 +941,7 @@
         <div class="footer-top">
             <div class="footer-brand">
                 <h3>Account & Tax.</h3>
-                <p>Danove a ucetni poradenstvi v Praze. Ing. Lucie Svobodova nabizi komplexni financni sluzby pro podnikatele i spolecnosti.</p>
+                <p>Daňové a účetní poradenství v Praze. Ing. Lucie Svobodová nabízí komplexní finanční služby pro podnikatele i společnosti.</p>
                 <div class="footer-status">
                     <div class="footer-status-dot"></div>
                     <span>K dispozici</span>

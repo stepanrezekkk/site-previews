@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Danovy poradce a ucetni expert v Praze. Moderni pristup ke zpracovani dani, ucetnictvi a financnimu poradenstvi pro podnikatele.">
-    <title>Ing. Tomas Vondrak | Danovy poradce Praha</title>
+    <meta name="description" content="Daňový poradce a účetní expert v Praze. Moderní přístup ke zpracování daní, účetnictví a finančnímu poradenství pro podnikatele.">
+    <title>Ing. Tomáš Vondrák | Daňový poradce Praha</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=DM%20Serif%20Display:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Plus%20Jakarta%20Sans:wght@200;300;400;500;600;700;800&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
@@ -489,6 +489,51 @@
         }
 
         /* ═══ CONTACT — DARK CARD ═══ */
+        /* ═══ TESTIMONIALS ═══ */
+        .testimonials-section {
+            padding: clamp(80px, 12vh, 140px) clamp(24px, 4vw, 64px);
+            background: var(--bg-dark);
+            color: var(--text-on-dark);
+        }
+        .testimonials-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 24px;
+            margin-top: 48px;
+        }
+        .testimonial-card {
+            background: rgba(255,255,255,0.05);
+            border: 1px solid rgba(255,255,255,0.1);
+            border-radius: var(--radius-card);
+            padding: 36px 32px 28px;
+            display: flex; flex-direction: column; gap: 20px;
+            position: relative;
+        }
+        .testimonial-card::before {
+            content: '\201C';
+            font-family: var(--serif);
+            font-size: 5rem;
+            line-height: 1;
+            color: var(--accent);
+            opacity: 0.6;
+            position: absolute;
+            top: 12px; left: 28px;
+        }
+        .testimonial-text {
+            font-size: clamp(0.95rem, 1.5vw, 1.05rem);
+            line-height: 1.75;
+            color: rgba(242,240,233,0.85);
+            padding-top: 32px;
+            font-style: italic;
+        }
+        .testimonial-author {
+            font-size: 0.82rem;
+            font-weight: 600;
+            color: var(--accent);
+            letter-spacing: 0.06em;
+            text-transform: uppercase;
+        }
+
         .contact-wrapper {
             padding: clamp(60px, 10vh, 100px) clamp(24px, 4vw, 64px);
             background: var(--bg-warm);
@@ -724,11 +769,11 @@
     <div class="hero-glow hero-glow-2"></div>
     <div class="hero-content">
         <h1>
-            <span class="hero-heading">Moderni dane pro moderni firmy</span>
+            <span class="hero-heading">Moderní daně pro moderní firmy</span>
             <span class="hero-drama">Efektivita.</span>
         </h1>
-        <p class="hero-sub">Digitalni pristup k danovemu poradenstvi, ktery setri vas cas a zajistuje maximalni prehlednost.</p>
-        <a href="#kontakt" class="hero-cta">Zacit spolupracovat</a>
+        <p class="hero-sub">Digitální přístup k daňovému poradenství, který šetří váš čas a zajišťuje maximální přehlednost.</p>
+        <a href="#kontakt" class="hero-cta">Začít spolupracovat</a>
         <div class="hero-stats">
             <div>
             <div class="hero-stat-num">32+</div>
@@ -736,11 +781,11 @@
         </div>
 <div>
             <div class="hero-stat-num">140+</div>
-            <div class="hero-stat-label">firemnich klientu</div>
+            <div class="hero-stat-label">firemních klientů</div>
         </div>
 <div>
             <div class="hero-stat-num">95%</div>
-            <div class="hero-stat-label">klientu doporucuje dal</div>
+            <div class="hero-stat-label">klientů doporučuje dál</div>
         </div>
 
         </div>
@@ -756,28 +801,28 @@
         <div class="services-grid">
             <div class="service-card reveal reveal-d1">
             <div class="service-icon"><span>01</span></div>
-            <h3 class="service-title">Digitalni ucetnictvi</h3>
+            <h3 class="service-title">Digitální účetnictví</h3>
             <p class="service-desc">Cloudové uctnictví s realtime pristuem k vasim datům a automatickymi prehledmi.</p>
         </div>
 <div class="service-card reveal reveal-d2">
             <div class="service-icon"><span>02</span></div>
-            <h3 class="service-title">Danove planovani</h3>
+            <h3 class="service-title">Daňové plánování</h3>
             <p class="service-desc">Proaktivni danová strategie pro firmy s cílem minimalizace zákonné danové záteze.</p>
         </div>
 <div class="service-card reveal reveal-d3">
             <div class="service-icon"><span>03</span></div>
             <h3 class="service-title">Mezinárodni obchod</h3>
-            <p class="service-desc">Poradenstvi pro e-commerce a firmy obchodujici v EU a mimo ni.</p>
+            <p class="service-desc">Poradenství pro e-commerce a firmy obchodující v EU a mimo ni.</p>
         </div>
 <div class="service-card reveal reveal-d4">
             <div class="service-icon"><span>04</span></div>
-            <h3 class="service-title">Startupy a scale-upy</h3>
-            <p class="service-desc">Specializovane poradenstvi pro rychle rostouci firmy, investicni struktury a ESOP.</p>
+            <h3 class="service-title">Startupy a scale-úpy</h3>
+            <p class="service-desc">Specializované poradenství pro rychle rostoucí firmy, investiční struktury a ESOP.</p>
         </div>
 <div class="service-card reveal reveal-d4">
             <div class="service-icon"><span>05</span></div>
-            <h3 class="service-title">Mesicni reportingy</h3>
-            <p class="service-desc">Pravidelne financni reporty a dashboardy pro lepsi rozhodovani vedeni firmy.</p>
+            <h3 class="service-title">Měsíční reportingy</h3>
+            <p class="service-desc">Pravidelně finanční reporty a dashboardy pro lepší rozhodování vedení firmy.</p>
         </div>
 
         </div>
@@ -807,11 +852,11 @@
         </div>
 <div class="stat-card reveal reveal-d2">
             <div class="stat-number" data-count="140" data-suffix="+">0+</div>
-            <div class="stat-label">firemnich klientu</div>
+            <div class="stat-label">firemních klientů</div>
         </div>
 <div class="stat-card reveal reveal-d3">
             <div class="stat-number" data-count="95" data-suffix="%">0%</div>
-            <div class="stat-label">klientu doporucuje dal</div>
+            <div class="stat-label">klientů doporučuje dál</div>
         </div>
 
         </div>
@@ -822,28 +867,30 @@
 <section class="section-light" style="padding-top: 0;">
     <div class="section-inner">
         <div class="section-label reveal">JAK PRACUJEME</div>
-        <h2 class="section-title reveal reveal-d1">Tri kroky k bezstarosti</h2>
-        <p class="section-subtitle reveal reveal-d2">Jednoduchy onboarding a rychle zahajeni spoluprce.</p>
+        <h2 class="section-title reveal reveal-d1">Tři kroky k bezstarosti</h2>
+        <p class="section-subtitle reveal reveal-d2">Jednoduchý onboarding a rychlé zahájení spoluprce.</p>
         <div class="process-grid">
             <div class="process-card reveal reveal-d1">
             <span class="process-num">01 / ONLINE KONZULTACE</span>
             <h3 class="process-title">Online konzultace</h3>
-            <p class="process-desc">Zavolame si nebo se sejdeme online a v kratkem case probereme, co potrebujete.</p>
+            <p class="process-desc">Zavoláme si nebo se sejdeme online a v krátkém čase probereme, co potřebujete.</p>
         </div>
 <div class="process-card reveal reveal-d2">
-            <span class="process-num">02 / NASTAVENI NASTROJU</span>
-            <h3 class="process-title">Nastaveni nastroju</h3>
-            <p class="process-desc">Propojime vase systemy s nasim cloudovym resenim pro automaticke zpracovani dat.</p>
+            <span class="process-num">02 / NASTAVENÍ NÁSTROJŮ</span>
+            <h3 class="process-title">Nastavení nástrojů</h3>
+            <p class="process-desc">Propojíme vaše systémy s naším cloudovym řešením pro automatické zpracování dat.</p>
         </div>
 <div class="process-card reveal reveal-d3">
-            <span class="process-num">03 / PRUBEHY SERVIS</span>
-            <h3 class="process-title">Prubehy servis</h3>
-            <p class="process-desc">Pravidelnè reportujeme, upozornujeme na terminy a aktivne hlidame vase zajmy.</p>
+            <span class="process-num">03 / PRŮBĚHY SERVIS</span>
+            <h3 class="process-title">Průběhy servis</h3>
+            <p class="process-desc">Pravidelnè reportujeme, upozorňujeme na termíny a aktivně hlídáme vaše zájmy.</p>
         </div>
 
         </div>
     </div>
 </section>
+
+
 
 <!-- CONTACT — DARK CARD -->
 <section class="contact-wrapper" id="kontakt">
@@ -851,7 +898,7 @@
         <div class="contact-card-inner">
             <div class="contact-heading">
                 <div class="section-label reveal">KONTAKT</div>
-                <h2 class="section-title reveal reveal-d1">Pojdme spolupracovat</h2>
+                <h2 class="section-title reveal reveal-d1">Pojďme spolupracovat</h2>
             </div>
             <div class="contact-grid">
                 <dl class="contact-info-block reveal reveal-d2">
@@ -888,7 +935,7 @@
         <div class="footer-top">
             <div class="footer-brand">
                 <h3>A Atelier.</h3>
-                <p>Danovy poradce a ucetni expert v Praze. Moderni pristup ke zpracovani dani, ucetnictvi a financnimu poradenstvi pro podnikatele.</p>
+                <p>Daňový poradce a účetní expert v Praze. Moderní přístup ke zpracování daní, účetnictví a finančnímu poradenství pro podnikatele.</p>
                 <div class="footer-status">
                     <div class="footer-status-dot"></div>
                     <span>K dispozici</span>

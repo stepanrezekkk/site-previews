@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Ing. Bohumil Prudik -- danovy poradce ve Velkem Mezirici a vysocine. Dane z prijmu, DPH, ucetnictvi a komplexni danove poradenstvi pro podnikatele.">
-    <title>Ing. Bohumil Prudik -- Danovy poradce Velke Mezirici</title>
+    <meta name="description" content="Ing. Bohumil Prudik -- daňový poradce ve Velkém Meziříčí a vysočině. Daně z příjmu, DPH, účetnictví a komplexní daňové poradenství pro podnikatele.">
+    <title>Ing. Bohumil Prudik -- Daňový poradce Velké Meziříčí</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Playfair%20Display:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=DM%20Sans:wght@200;300;400;500;600;700;800&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
@@ -489,6 +489,51 @@
         }
 
         /* ═══ CONTACT — DARK CARD ═══ */
+        /* ═══ TESTIMONIALS ═══ */
+        .testimonials-section {
+            padding: clamp(80px, 12vh, 140px) clamp(24px, 4vw, 64px);
+            background: var(--bg-dark);
+            color: var(--text-on-dark);
+        }
+        .testimonials-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 24px;
+            margin-top: 48px;
+        }
+        .testimonial-card {
+            background: rgba(255,255,255,0.05);
+            border: 1px solid rgba(255,255,255,0.1);
+            border-radius: var(--radius-card);
+            padding: 36px 32px 28px;
+            display: flex; flex-direction: column; gap: 20px;
+            position: relative;
+        }
+        .testimonial-card::before {
+            content: '\201C';
+            font-family: var(--serif);
+            font-size: 5rem;
+            line-height: 1;
+            color: var(--accent);
+            opacity: 0.6;
+            position: absolute;
+            top: 12px; left: 28px;
+        }
+        .testimonial-text {
+            font-size: clamp(0.95rem, 1.5vw, 1.05rem);
+            line-height: 1.75;
+            color: rgba(242,240,233,0.85);
+            padding-top: 32px;
+            font-style: italic;
+        }
+        .testimonial-author {
+            font-size: 0.82rem;
+            font-weight: 600;
+            color: var(--accent);
+            letter-spacing: 0.06em;
+            text-transform: uppercase;
+        }
+
         .contact-wrapper {
             padding: clamp(60px, 10vh, 100px) clamp(24px, 4vw, 64px);
             background: var(--bg-warm);
@@ -724,7 +769,7 @@
     <div class="hero-glow hero-glow-2"></div>
     <div class="hero-content">
         <h1>
-            <span class="hero-heading">Danove poradenstvi s dusevisociny</span>
+            <span class="hero-heading">Daňové poradenství s dusevisociny</span>
             <span class="hero-drama">Spolehlivost.</span>
         </h1>
         <p class="hero-sub">Zkuseny danovy poradce ve Velkem Mezirici. Osobni pristup, precizni zpracovani a hluboká znalost potreb regionalnich podnikatelu.</p>
@@ -736,11 +781,11 @@
         </div>
 <div>
             <div class="hero-stat-num">200+</div>
-            <div class="hero-stat-label">spokojenych klientu</div>
+            <div class="hero-stat-label">spokojených klientů</div>
         </div>
 <div>
             <div class="hero-stat-num">98%</div>
-            <div class="hero-stat-label">uspesnost podani</div>
+            <div class="hero-stat-label">úspěšnost podání</div>
         </div>
 
         </div>
@@ -751,33 +796,33 @@
 <section class="section-light" id="sluzby">
     <div class="section-inner">
         <div class="section-label reveal">NASE SLUZBY</div>
-        <h2 class="section-title reveal reveal-d1">Danove a ucetni sluzby pro Vysocinu</h2>
-        <p class="section-subtitle reveal reveal-d2">Siroky nabidka danovych sluzeb prizpusobenych potrebam podnikatelu na Vysocine.</p>
+        <h2 class="section-title reveal reveal-d1">Daňové a účetní služby pro Vysočinu</h2>
+        <p class="section-subtitle reveal reveal-d2">Široký nabídka daňových služeb přizpůsobených potřebám podnikatelů na Vysočině.</p>
         <div class="services-grid">
             <div class="service-card reveal reveal-d1">
             <div class="service-icon"><span>01</span></div>
-            <h3 class="service-title">Dane z prijmu</h3>
-            <p class="service-desc">Zpracovani danovych priznani pro fyzicke i pravnicke osoby s durazem na maximalni legalni optimalizaci.</p>
+            <h3 class="service-title">Daně z příjmu</h3>
+            <p class="service-desc">Zpracování daňových přiznání pro fyzické i právnické osoby s důrazem na maximální legální optimalizaci.</p>
         </div>
 <div class="service-card reveal reveal-d2">
             <div class="service-icon"><span>02</span></div>
-            <h3 class="service-title">DPH sluzby</h3>
-            <p class="service-desc">Komplexni sprava DPH agendy vcetne mesicnich podani, kontrolnich hlaseni a poradenstvi.</p>
+            <h3 class="service-title">DPH služby</h3>
+            <p class="service-desc">Komplexní správa DPH agendy včetně měsíčních podání, kontrolních hlášení a poradenství.</p>
         </div>
 <div class="service-card reveal reveal-d3">
             <div class="service-icon"><span>03</span></div>
-            <h3 class="service-title">Ucetnictvi</h3>
-            <p class="service-desc">Vedeni podvojneho ucetnictvi, priprva ucetnich zavernik a pravidelne financni reporty pro vas prehled.</p>
+            <h3 class="service-title">Účetnictví</h3>
+            <p class="service-desc">Vedení podvojného účetnictví, priprva účetních zavernik a pravidelně finanční reporty pro vás přehled.</p>
         </div>
 <div class="service-card reveal reveal-d4">
             <div class="service-icon"><span>04</span></div>
-            <h3 class="service-title">Danove optimalizace</h3>
-            <p class="service-desc">Odborne poradenstvi pri legalni optimalizaci danove povinnosti pro fyzicke i pravnicke osoby.</p>
+            <h3 class="service-title">Daňové optimalizace</h3>
+            <p class="service-desc">Odborné poradenství při legální optimalizaci daňové povinnosti pro fyzické i právnické osoby.</p>
         </div>
 <div class="service-card reveal reveal-d4">
             <div class="service-icon"><span>05</span></div>
-            <h3 class="service-title">Zastoupeni pred urady</h3>
-            <p class="service-desc">Profesionalni zastoupeni pri jednani s financnim uradem, odvolanich a danovych kontrolach.</p>
+            <h3 class="service-title">Zastoupení před úřady</h3>
+            <p class="service-desc">Profesionální zastoupení při jednání s finančním úřadem, odvoláních a daňových kontrolách.</p>
         </div>
 
         </div>
@@ -791,7 +836,7 @@
     <div class="dot-grid"></div>
     <div class="about-inner">
         <p class="about-intro reveal">Ing. Bohumil Prudik poskytuje danove poradenstvi ve Velkem Mezirici a cele Vysocine jiz vice nez 15 let. Jeho hluboká znalost mistniho podnikatelskeho prostredi spolu s komplexnimi danovymi znalostmi zajistuje klientum optimalni reseni jejich danovych zalezitosti. Kazdy klient je pro nej prioritou.</p>
-        <h2 class="about-drama reveal reveal-d1">Misntni znalost a celorepublikova odbornost</h2>
+        <h2 class="about-drama reveal reveal-d1">Misntni znalost a celorepubliková odbornost</h2>
     </div>
 </section>
 
@@ -807,11 +852,11 @@
         </div>
 <div class="stat-card reveal reveal-d2">
             <div class="stat-number" data-count="200" data-suffix="+">0+</div>
-            <div class="stat-label">spokojenych klientu</div>
+            <div class="stat-label">spokojených klientů</div>
         </div>
 <div class="stat-card reveal reveal-d3">
             <div class="stat-number" data-count="98" data-suffix="%">0%</div>
-            <div class="stat-label">uspesnost podani</div>
+            <div class="stat-label">úspěšnost podání</div>
         </div>
 
         </div>
@@ -822,28 +867,30 @@
 <section class="section-light" style="padding-top: 0;">
     <div class="section-inner">
         <div class="section-label reveal">JAK PRACUJEME</div>
-        <h2 class="section-title reveal reveal-d1">Osobni a zodpovedny pristup</h2>
-        <p class="section-subtitle reveal reveal-d2">Vas provedeme celym procesem danovaho poradenstvi s maximalnim durazem na vasde potreby.</p>
+        <h2 class="section-title reveal reveal-d1">Osobní a zodpovědný přístup</h2>
+        <p class="section-subtitle reveal reveal-d2">Vás provedeme celým procesem danovaho poradenství s maximálním důrazem na vasde potřeby.</p>
         <div class="process-grid">
             <div class="process-card reveal reveal-d1">
-            <span class="process-num">01 / OSOBNI SETKANI</span>
-            <h3 class="process-title">Osobni setkani</h3>
-            <p class="process-desc">Preferujeme osobni konzultaci, kde vas dobre pozname a dokazeme navrhnout ta nejlepsi reseni pro vas.</p>
+            <span class="process-num">01 / OSOBNÍ SETKÁNÍ</span>
+            <h3 class="process-title">Osobní setkání</h3>
+            <p class="process-desc">Preferujeme osobní konzultaci, kde vás dobře poznáme a dokážeme navrhnout ta nejlepší řešení pro vás.</p>
         </div>
 <div class="process-card reveal reveal-d2">
-            <span class="process-num">02 / KOMPLEXNI ZPRACOVANI</span>
-            <h3 class="process-title">Komplexni zpracovani</h3>
-            <p class="process-desc">Bereme na sebe veskere danove a ucetni povinnosti a zpracujeme je s maximalni odbornosti a pozornosti.</p>
+            <span class="process-num">02 / KOMPLEXNÍ ZPRACOVÁNÍ</span>
+            <h3 class="process-title">Komplexní zpracování</h3>
+            <p class="process-desc">Bereme na sebe veškeré daňové a účetní povinnosti a zpracujeme je s maximální odborností a pozorností.</p>
         </div>
 <div class="process-card reveal reveal-d3">
-            <span class="process-num">03 / DLOUHODOBA SPOLUPRAC</span>
-            <h3 class="process-title">Dlouhodoba spoluprace</h3>
-            <p class="process-desc">Bereme si vas jako sveho dlouhodobeho klienta a sledujeme zmeny zakonu, ktere mohou ovlivnit vase dane.</p>
+            <span class="process-num">03 / DLOUHODOBÁ SPOLUPRÁC</span>
+            <h3 class="process-title">Dlouhodobá spolupráce</h3>
+            <p class="process-desc">Bereme si vás jako svého dlouhodobého klienta a sledujeme změny zákonů, které mohou ovlivnit vaše daně.</p>
         </div>
 
         </div>
     </div>
 </section>
+
+
 
 <!-- CONTACT — DARK CARD -->
 <section class="contact-wrapper" id="kontakt">
@@ -851,7 +898,7 @@
         <div class="contact-card-inner">
             <div class="contact-heading">
                 <div class="section-label reveal">KONTAKT</div>
-                <h2 class="section-title reveal reveal-d1">Pojdme spolupracovat</h2>
+                <h2 class="section-title reveal reveal-d1">Pojďme spolupracovat</h2>
             </div>
             <div class="contact-grid">
                 <dl class="contact-info-block reveal reveal-d2">
@@ -874,7 +921,7 @@
                         <textarea placeholder="Jak vám můžeme pomoci?"></textarea>
                     </div>
                     <button type="submit" class="form-submit">
-                        Odeslat zpravu
+                        Odeslat zprávu
                         <svg width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 8h10M9 4l4 4-4 4"/></svg>
                     </button>
                 </form>
@@ -889,7 +936,7 @@
         <div class="footer-top">
             <div class="footer-brand">
                 <h3>Prudik Tax.</h3>
-                <p>Ing. Bohumil Prudik -- danovy poradce ve Velkem Mezirici a vysocine. Dane z prijmu, DPH, ucetnictvi a komplexni danove poradenstvi pro podnikatele.</p>
+                <p>Ing. Bohumil Prudik -- daňový poradce ve Velkém Meziříčí a vysočině. Daně z příjmu, DPH, účetnictví a komplexní daňové poradenství pro podnikatele.</p>
                 <div class="footer-status">
                     <div class="footer-status-dot"></div>
                     <span>K dispozici</span>

@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Ing. Jiri Rolinc, danovy poradce v Liberci. Danové poradenstvi, danové priznani a optimalizace dani pro podnikatele a firmy.">
-    <title>Ing. Jiri Rolinc — Danovy poradce Liberec</title>
+    <title>Ing. Jiří Rolinc — Daňový poradce Liberec</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Playfair%20Display:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=DM%20Sans:wght@200;300;400;500;600;700;800&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
@@ -489,6 +489,51 @@
         }
 
         /* ═══ CONTACT — DARK CARD ═══ */
+        /* ═══ TESTIMONIALS ═══ */
+        .testimonials-section {
+            padding: clamp(80px, 12vh, 140px) clamp(24px, 4vw, 64px);
+            background: var(--bg-dark);
+            color: var(--text-on-dark);
+        }
+        .testimonials-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 24px;
+            margin-top: 48px;
+        }
+        .testimonial-card {
+            background: rgba(255,255,255,0.05);
+            border: 1px solid rgba(255,255,255,0.1);
+            border-radius: var(--radius-card);
+            padding: 36px 32px 28px;
+            display: flex; flex-direction: column; gap: 20px;
+            position: relative;
+        }
+        .testimonial-card::before {
+            content: '\201C';
+            font-family: var(--serif);
+            font-size: 5rem;
+            line-height: 1;
+            color: var(--accent);
+            opacity: 0.6;
+            position: absolute;
+            top: 12px; left: 28px;
+        }
+        .testimonial-text {
+            font-size: clamp(0.95rem, 1.5vw, 1.05rem);
+            line-height: 1.75;
+            color: rgba(242,240,233,0.85);
+            padding-top: 32px;
+            font-style: italic;
+        }
+        .testimonial-author {
+            font-size: 0.82rem;
+            font-weight: 600;
+            color: var(--accent);
+            letter-spacing: 0.06em;
+            text-transform: uppercase;
+        }
+
         .contact-wrapper {
             padding: clamp(60px, 10vh, 100px) clamp(24px, 4vw, 64px);
             background: var(--bg-warm);
@@ -728,7 +773,7 @@
             <span class="hero-drama">Odbornost.</span>
         </h1>
         <p class="hero-sub">Danovy poradce v Liberci poskytujici profesionalni danové sluzby pro podnikatele a firmy v Libereckem kraji.</p>
-        <a href="#kontakt" class="hero-cta">Ziskat danovou konzultaci</a>
+        <a href="#kontakt" class="hero-cta">Získat daňovou konzultaci</a>
         <div class="hero-stats">
             <div>
             <div class="hero-stat-num">240+</div>
@@ -736,7 +781,7 @@
         </div>
 <div>
             <div class="hero-stat-num">12+</div>
-            <div class="hero-stat-label">let zkusenosti</div>
+            <div class="hero-stat-label">let zkušeností</div>
         </div>
 <div>
             <div class="hero-stat-num">97%</div>
@@ -751,33 +796,33 @@
 <section class="section-light" id="sluzby">
     <div class="section-inner">
         <div class="section-label reveal">NASE SLUZBY</div>
-        <h2 class="section-title reveal reveal-d1">Danove sluzby pro Liberecky kraj</h2>
+        <h2 class="section-title reveal reveal-d1">Daňové služby pro Liberecký kraj</h2>
         <p class="section-subtitle reveal reveal-d2">Odborne danové poradenstvi pro fyzicke i pravnicke osoby v Liberci a okoli.</p>
         <div class="services-grid">
             <div class="service-card reveal reveal-d1">
             <div class="service-icon"><span>01</span></div>
             <h3 class="service-title">Danové poradenstvi</h3>
-            <p class="service-desc">Komplexni poradenstvi v oblasti dani z prijmu, DPH a ostatnich dani pro podnikatele v Libereckem kraji.</p>
+            <p class="service-desc">Komplexní poradenství v oblasti daní z příjmů, DPH a ostatních daní pro podnikatele v Libereckém kraji.</p>
         </div>
 <div class="service-card reveal reveal-d2">
             <div class="service-icon"><span>02</span></div>
-            <h3 class="service-title">Danove priznani</h3>
-            <p class="service-desc">Zpracovani danovych priznani pro fyzicke a pravnicke osoby s maximalizaci zakonnych odpoctu.</p>
+            <h3 class="service-title">Daňové přiznání</h3>
+            <p class="service-desc">Zpracování daňových přiznání pro fyzické a právnické osoby s maximalizací zákonných odpočtů.</p>
         </div>
 <div class="service-card reveal reveal-d3">
             <div class="service-icon"><span>03</span></div>
             <h3 class="service-title">Danová optimalizace</h3>
-            <p class="service-desc">Legalni strategie pro snizeni danove povinnosti vasi firmy v souladu s platnymi zakony.</p>
+            <p class="service-desc">Legální strategie pro snížení daňové povinnosti vaší firmy v souladu s platnými zákony.</p>
         </div>
 <div class="service-card reveal reveal-d4">
             <div class="service-icon"><span>04</span></div>
-            <h3 class="service-title">Zastupeni pred FU</h3>
-            <p class="service-desc">Profesionalni zastoupeni pri danovych kontrolach a jednani s financnim uradem.</p>
+            <h3 class="service-title">Zastupeni před FU</h3>
+            <p class="service-desc">Profesionální zastoupení při daňových kontrolách a jednání s finančním úřadem.</p>
         </div>
 <div class="service-card reveal reveal-d4">
             <div class="service-icon"><span>05</span></div>
             <h3 class="service-title">DPH agenda</h3>
-            <p class="service-desc">Kompletni sprava DPH vcetne registrace, podavani priznani a reseni DPH problematiky.</p>
+            <p class="service-desc">Kompletní správa DPH včetně registrace, podávání přiznání a řešení DPH problematiky.</p>
         </div>
 <div class="service-card reveal reveal-d4">
             <div class="service-icon"><span>06</span></div>
@@ -796,7 +841,7 @@
     <div class="dot-grid"></div>
     <div class="about-inner">
         <p class="about-intro reveal">Ing. Jiri Rolinc prináší klientum v Liberci odborne danové poradenstvi s osobnim pristupem a durazem na praktické reseni danové problematiky.</p>
-        <h2 class="about-drama reveal reveal-d1">Liberec si zaslouzi zkusene poradce</h2>
+        <h2 class="about-drama reveal reveal-d1">Liberec si zaslouží zkušené poradce</h2>
     </div>
 </section>
 
@@ -812,7 +857,7 @@
         </div>
 <div class="stat-card reveal reveal-d2">
             <div class="stat-number" data-count="12" data-suffix="+">0+</div>
-            <div class="stat-label">let zkusenosti</div>
+            <div class="stat-label">let zkušeností</div>
         </div>
 <div class="stat-card reveal reveal-d3">
             <div class="stat-number" data-count="97" data-suffix="%">0%</div>
@@ -827,28 +872,30 @@
 <section class="section-light" style="padding-top: 0;">
     <div class="section-inner">
         <div class="section-label reveal">JAK PRACUJEME</div>
-        <h2 class="section-title reveal reveal-d1">Transparentni spoluprace krok za krokem</h2>
-        <p class="section-subtitle reveal reveal-d2">Jasny postup od prvniho kontaktu az po podani vsech danovych dokumentu.</p>
+        <h2 class="section-title reveal reveal-d1">Transparentní spolupráce krok za krokem</h2>
+        <p class="section-subtitle reveal reveal-d2">Jasný postup od prvního kontaktu až po podání všech daňových dokumentů.</p>
         <div class="process-grid">
             <div class="process-card reveal reveal-d1">
-            <span class="process-num">01 / UVODNI KONZULTACE</span>
-            <h3 class="process-title">Uvodni konzultace</h3>
+            <span class="process-num">01 / ÚVODNÍ KONZULTACE</span>
+            <h3 class="process-title">Úvodní konzultace</h3>
             <p class="process-desc">Bezplatna analyza vasi danové situace a navrh nejlepsiho postupu.</p>
         </div>
 <div class="process-card reveal reveal-d2">
-            <span class="process-num">02 / ZPRACOVANI PODKLADU</span>
-            <h3 class="process-title">Zpracovani podkladu</h3>
-            <p class="process-desc">Precizni zpracovani vsech podkladu a priprava danovych dokumentu.</p>
+            <span class="process-num">02 / ZPRACOVÁNÍ PODKLADŮ</span>
+            <h3 class="process-title">Zpracování podkladů</h3>
+            <p class="process-desc">Precizní zpracování všech podkladů a příprava daňových dokumentů.</p>
         </div>
 <div class="process-card reveal reveal-d3">
-            <span class="process-num">03 / PODANI A SLEDOVANI</span>
-            <h3 class="process-title">Podani a sledovani</h3>
-            <p class="process-desc">Vcasne podani a sledovani stavu danovych dokumentu az do uzavreni.</p>
+            <span class="process-num">03 / PODÁNÍ A SLEDOVÁNÍ</span>
+            <h3 class="process-title">Podání a sledování</h3>
+            <p class="process-desc">Včasné podání a sledování stavu daňových dokumentů až do uzavření.</p>
         </div>
 
         </div>
     </div>
 </section>
+
+
 
 <!-- CONTACT — DARK CARD -->
 <section class="contact-wrapper" id="kontakt">
@@ -856,7 +903,7 @@
         <div class="contact-card-inner">
             <div class="contact-heading">
                 <div class="section-label reveal">KONTAKT</div>
-                <h2 class="section-title reveal reveal-d1">Pojdme spolupracovat</h2>
+                <h2 class="section-title reveal reveal-d1">Pojďme spolupracovat</h2>
             </div>
             <div class="contact-grid">
                 <dl class="contact-info-block reveal reveal-d2">
@@ -879,7 +926,7 @@
                         <textarea placeholder="Jak vám můžeme pomoci?"></textarea>
                     </div>
                     <button type="submit" class="form-submit">
-                        Odeslat zpravu
+                        Odeslat zprávu
                         <svg width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 8h10M9 4l4 4-4 4"/></svg>
                     </button>
                 </form>

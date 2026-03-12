@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Ing. Lubomir Holecek, danovy poradce a auditor v Brne. Danove poradenstvi, audit a ucetni sluzby pro firmy i jednotlivce.">
-    <title>Ing. Lubomir Holecek — Danovy poradce Brno</title>
+    <meta name="description" content="Ing. Lubomír Holeček, daňový poradce a auditor v Brně. Daňové poradenství, audit a účetní služby pro firmy i jednotlivce.">
+    <title>Ing. Lubomír Holeček — Daňový poradce Brno</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Playfair%20Display:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=DM%20Sans:wght@200;300;400;500;600;700;800&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
@@ -489,6 +489,51 @@
         }
 
         /* ═══ CONTACT — DARK CARD ═══ */
+        /* ═══ TESTIMONIALS ═══ */
+        .testimonials-section {
+            padding: clamp(80px, 12vh, 140px) clamp(24px, 4vw, 64px);
+            background: var(--bg-dark);
+            color: var(--text-on-dark);
+        }
+        .testimonials-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 24px;
+            margin-top: 48px;
+        }
+        .testimonial-card {
+            background: rgba(255,255,255,0.05);
+            border: 1px solid rgba(255,255,255,0.1);
+            border-radius: var(--radius-card);
+            padding: 36px 32px 28px;
+            display: flex; flex-direction: column; gap: 20px;
+            position: relative;
+        }
+        .testimonial-card::before {
+            content: '\201C';
+            font-family: var(--serif);
+            font-size: 5rem;
+            line-height: 1;
+            color: var(--accent);
+            opacity: 0.6;
+            position: absolute;
+            top: 12px; left: 28px;
+        }
+        .testimonial-text {
+            font-size: clamp(0.95rem, 1.5vw, 1.05rem);
+            line-height: 1.75;
+            color: rgba(242,240,233,0.85);
+            padding-top: 32px;
+            font-style: italic;
+        }
+        .testimonial-author {
+            font-size: 0.82rem;
+            font-weight: 600;
+            color: var(--accent);
+            letter-spacing: 0.06em;
+            text-transform: uppercase;
+        }
+
         .contact-wrapper {
             padding: clamp(60px, 10vh, 100px) clamp(24px, 4vw, 64px);
             background: var(--bg-warm);
@@ -724,11 +769,11 @@
     <div class="hero-glow hero-glow-2"></div>
     <div class="hero-content">
         <h1>
-            <span class="hero-heading">Danove poradenstvi s garanci</span>
+            <span class="hero-heading">Daňové poradenství s garancí</span>
             <span class="hero-drama">Presnost.</span>
         </h1>
         <p class="hero-sub">Brnenskyý danový poradce a auditor s komplexnimi zkusenostmi v oblasti danovych a ucetnich sluzeb pro firmy vsech velikosti.</p>
-        <a href="#kontakt" class="hero-cta">Ziskat bezplatnou konzultaci</a>
+        <a href="#kontakt" class="hero-cta">Získat bezplatnou konzultaci</a>
         <div class="hero-stats">
             <div>
             <div class="hero-stat-num">340+</div>
@@ -736,7 +781,7 @@
         </div>
 <div>
             <div class="hero-stat-num">16+</div>
-            <div class="hero-stat-label">let zkusenosti</div>
+            <div class="hero-stat-label">let zkušeností</div>
         </div>
 <div>
             <div class="hero-stat-num">98%</div>
@@ -752,17 +797,17 @@
     <div class="section-inner">
         <div class="section-label reveal">NASE SLUZBY</div>
         <h2 class="section-title reveal reveal-d1">Danové a auditni sluzby v Brne</h2>
-        <p class="section-subtitle reveal reveal-d2">Komplexni poradenstvi v oblasti dani, auditu a ucetnictvi pro podnikatele a spolecnosti.</p>
+        <p class="section-subtitle reveal reveal-d2">Komplexní poradenství v oblasti daní, auditu a účetnictví pro podnikatele a společnosti.</p>
         <div class="services-grid">
             <div class="service-card reveal reveal-d1">
             <div class="service-icon"><span>01</span></div>
             <h3 class="service-title">audit podle Mezinárodních auditorských standardů</h3>
-            <p class="service-desc">Komplexni poradenstvi v oblasti dani z prijmu, DPH a ostatnich dani v CR.</p>
+            <p class="service-desc">Komplexní poradenství v oblasti daní z příjmů, DPH a ostatních daní v ČR.</p>
         </div>
 <div class="service-card reveal reveal-d2">
             <div class="service-icon"><span>02</span></div>
             <h3 class="service-title">audity přeměn společností</h3>
-            <p class="service-desc">Povinny i dobrovolny audit ucetnich zavirek pro spolecnosti dle zakona o auditorech.</p>
+            <p class="service-desc">Povinný i dobrovolný audit účetních zavirek pro společnosti dle zákona o auditorech.</p>
         </div>
 <div class="service-card reveal reveal-d3">
             <div class="service-icon"><span>03</span></div>
@@ -781,7 +826,7 @@
     <div class="dot-grid"></div>
     <div class="about-inner">
         <p class="about-intro reveal">Vážení zákazníci, vítáme Vás na internetových stránkách naší firmy, která se zabývá veškerým servisem v oblasti auditu, účetního a daňového poradenství. Poskytujeme kompletní auditorské služby podle Mezinárodních auditorských standardů a poradenství ve vedení účetnictví a daňové oblasti. Zastoupíme vás na úřadech v běžném styku i při kontrolách, rekonstrukci účetnictví. Naše společnost vznikla v r. 1999 odloučením od společnosti EKOAUDIS s.r.o.., která vznikla v r. 1991.</p>
-        <h2 class="about-drama reveal reveal-d1">Zkusenosti a odbornost na vasem uctu</h2>
+        <h2 class="about-drama reveal reveal-d1">Zkušeností a odbornost na vašem účtu</h2>
     </div>
 </section>
 
@@ -797,7 +842,7 @@
         </div>
 <div class="stat-card reveal reveal-d2">
             <div class="stat-number" data-count="16" data-suffix="+">0+</div>
-            <div class="stat-label">let zkusenosti</div>
+            <div class="stat-label">let zkušeností</div>
         </div>
 <div class="stat-card reveal reveal-d3">
             <div class="stat-number" data-count="98" data-suffix="%">0%</div>
@@ -812,28 +857,30 @@
 <section class="section-light" style="padding-top: 0;">
     <div class="section-inner">
         <div class="section-label reveal">JAK PRACUJEME</div>
-        <h2 class="section-title reveal reveal-d1">Vas spolehlivy partner pro dane i audit</h2>
-        <p class="section-subtitle reveal reveal-d2">Precizni a transparentni postup od prvni konzultace az po zaverecnou zpravu.</p>
+        <h2 class="section-title reveal reveal-d1">Váš spolehlivý partner pro daně i audit</h2>
+        <p class="section-subtitle reveal reveal-d2">Precizní a transparentní postup od první konzultace až po závěrečnou zprávu.</p>
         <div class="process-grid">
             <div class="process-card reveal reveal-d1">
-            <span class="process-num">01 / UVODNI KONZULTACE</span>
-            <h3 class="process-title">Uvodni konzultace</h3>
-            <p class="process-desc">Analyza potreb klienta a navrh optimalnich reseni v oblasti dani a auditu.</p>
+            <span class="process-num">01 / ÚVODNÍ KONZULTACE</span>
+            <h3 class="process-title">Úvodní konzultace</h3>
+            <p class="process-desc">Analýza potřeb klienta a návrh optimálních řešení v oblasti daní a auditu.</p>
         </div>
 <div class="process-card reveal reveal-d2">
-            <span class="process-num">02 / ZPRACOVANI A ANALYZA</span>
-            <h3 class="process-title">Zpracovani a analyza</h3>
-            <p class="process-desc">Odborne zpracovani podkladu, ucetnich zavirek a danovych dokladu.</p>
+            <span class="process-num">02 / ZPRACOVÁNÍ A ANALÝZA</span>
+            <h3 class="process-title">Zpracování a analýza</h3>
+            <p class="process-desc">Odborné zpracování podkladů, účetních zavirek a daňových dokladů.</p>
         </div>
 <div class="process-card reveal reveal-d3">
-            <span class="process-num">03 / ZAVERECNA ZPRAVA</span>
-            <h3 class="process-title">Zaverecna zprava</h3>
-            <p class="process-desc">Predani vysledku, doporuceni a zajisteni vcasneho podani vsech dokumentu.</p>
+            <span class="process-num">03 / ZÁVĚREČNÁ ZPRÁVA</span>
+            <h3 class="process-title">Závěrečná zpráva</h3>
+            <p class="process-desc">Předání výsledku, doporučení a zajištění včasného podání všech dokumentů.</p>
         </div>
 
         </div>
     </div>
 </section>
+
+
 
 <!-- CONTACT — DARK CARD -->
 <section class="contact-wrapper" id="kontakt">
@@ -841,7 +888,7 @@
         <div class="contact-card-inner">
             <div class="contact-heading">
                 <div class="section-label reveal">KONTAKT</div>
-                <h2 class="section-title reveal reveal-d1">Domluvte se s nami</h2>
+                <h2 class="section-title reveal reveal-d1">Domluvte se s námi</h2>
             </div>
             <div class="contact-grid">
                 <dl class="contact-info-block reveal reveal-d2">
@@ -864,7 +911,7 @@
                         <textarea placeholder="Jak vám můžeme pomoci?"></textarea>
                     </div>
                     <button type="submit" class="form-submit">
-                        Odeslat zpravu
+                        Odeslat zprávu
                         <svg width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 8h10M9 4l4 4-4 4"/></svg>
                     </button>
                 </form>
@@ -879,7 +926,7 @@
         <div class="footer-top">
             <div class="footer-brand">
                 <h3>Lubomir Holecek.</h3>
-                <p>Ing. Lubomir Holecek, danovy poradce a auditor v Brne. Danove poradenstvi, audit a ucetni sluzby pro firmy i jednotlivce.</p>
+                <p>Ing. Lubomír Holeček, daňový poradce a auditor v Brně. Daňové poradenství, audit a účetní služby pro firmy i jednotlivce.</p>
                 <div class="footer-status">
                     <div class="footer-status-dot"></div>
                     <span>K dispozici</span>

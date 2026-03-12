@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Danove poradenstvi v regionu Chvalnov-Lisky a okoli. Tomas Glabazna nabizi personi pristup a spolehlivy spravu dani pro fyzicke osoby i male firmy.">
-    <title>Tomas Glabazna | Danovy poradce Chvalnov-Lisky</title>
+    <meta name="description" content="Daňové poradenství v regionu Chvalnov-Lišky a okolí. Tomáš Glabazna nabízí personi přístup a spolehlivý správu daní pro fyzické osoby i malé firmy.">
+    <title>Tomáš Glabazna | Daňový poradce Chvalnov-Lišky</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Playfair%20Display:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=DM%20Sans:wght@200;300;400;500;600;700;800&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
@@ -489,6 +489,51 @@
         }
 
         /* ═══ CONTACT — DARK CARD ═══ */
+        /* ═══ TESTIMONIALS ═══ */
+        .testimonials-section {
+            padding: clamp(80px, 12vh, 140px) clamp(24px, 4vw, 64px);
+            background: var(--bg-dark);
+            color: var(--text-on-dark);
+        }
+        .testimonials-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 24px;
+            margin-top: 48px;
+        }
+        .testimonial-card {
+            background: rgba(255,255,255,0.05);
+            border: 1px solid rgba(255,255,255,0.1);
+            border-radius: var(--radius-card);
+            padding: 36px 32px 28px;
+            display: flex; flex-direction: column; gap: 20px;
+            position: relative;
+        }
+        .testimonial-card::before {
+            content: '\201C';
+            font-family: var(--serif);
+            font-size: 5rem;
+            line-height: 1;
+            color: var(--accent);
+            opacity: 0.6;
+            position: absolute;
+            top: 12px; left: 28px;
+        }
+        .testimonial-text {
+            font-size: clamp(0.95rem, 1.5vw, 1.05rem);
+            line-height: 1.75;
+            color: rgba(242,240,233,0.85);
+            padding-top: 32px;
+            font-style: italic;
+        }
+        .testimonial-author {
+            font-size: 0.82rem;
+            font-weight: 600;
+            color: var(--accent);
+            letter-spacing: 0.06em;
+            text-transform: uppercase;
+        }
+
         .contact-wrapper {
             padding: clamp(60px, 10vh, 100px) clamp(24px, 4vw, 64px);
             background: var(--bg-warm);
@@ -724,7 +769,7 @@
     <div class="hero-glow hero-glow-2"></div>
     <div class="hero-content">
         <h1>
-            <span class="hero-heading">Danovy poradce na vas blizku</span>
+            <span class="hero-heading">Daňový poradce na vás blízku</span>
             <span class="hero-drama">Duvera.</span>
         </h1>
         <p class="hero-sub">Osobni danove poradenstvi v regionu, kde znate sveho poradce jménem a vite, ze o vás skutecne pecuje.</p>
@@ -751,37 +796,37 @@
 <section class="section-light" id="sluzby">
     <div class="section-inner">
         <div class="section-label reveal">NASE SLUZBY</div>
-        <h2 class="section-title reveal reveal-d1">Danove sluzby s lidskym pristupem</h2>
-        <p class="section-subtitle reveal reveal-d2">Poskytujeme spolehlivy danove poradenstvi pro fyzicke osoby a male podnikatele v regionu.</p>
+        <h2 class="section-title reveal reveal-d1">Daňové služby s lidským přístupem</h2>
+        <p class="section-subtitle reveal reveal-d2">Poskytujeme spolehlivý daňové poradenství pro fyzické osoby a malé podnikatele v regionu.</p>
         <div class="services-grid">
             <div class="service-card reveal reveal-d1">
             <div class="service-icon"><span>01</span></div>
-            <h3 class="service-title">Danove priznani</h3>
-            <p class="service-desc">Kompletni zpracovani danoveho priznani pro fyzicke osoby, OSVC a male firmy s garanci spravnosti.</p>
+            <h3 class="service-title">Daňové přiznání</h3>
+            <p class="service-desc">Kompletní zpracování daňového přiznání pro fyzické osoby, OSVČ a malé firmy s garancí správnosti.</p>
         </div>
 <div class="service-card reveal reveal-d2">
             <div class="service-icon"><span>02</span></div>
-            <h3 class="service-title">Danove poradenstvi</h3>
-            <p class="service-desc">Odborne rady ohledne danovych povinnosti, moznych odpoctu a legalni optimalizace danove zateze.</p>
+            <h3 class="service-title">Daňové poradenství</h3>
+            <p class="service-desc">Odborné rady ohledně daňových povinností, možných odpočtů a legální optimalizace daňové zátěže.</p>
         </div>
 <div class="service-card reveal reveal-d3">
             <div class="service-icon"><span>03</span></div>
-            <h3 class="service-title">Zastupovani</h3>
-            <p class="service-desc">Zastupovani klienta pred financnim uradem a socialni spravou v pripade kontroly nebo rieseni sporu.</p>
+            <h3 class="service-title">Zastupování</h3>
+            <p class="service-desc">Zastupování klienta před finančním úřadem a sociální správou v případě kontroly nebo rieseni sporů.</p>
         </div>
 <div class="service-card reveal reveal-d4">
             <div class="service-icon"><span>04</span></div>
-            <h3 class="service-title">Danove planovani</h3>
+            <h3 class="service-title">Daňové plánování</h3>
             <p class="service-desc">Proaktivni planovani dani na cely rok tak, aby vás zadne terminy ani sankce neprekevapily.</p>
         </div>
 <div class="service-card reveal reveal-d4">
             <div class="service-icon"><span>05</span></div>
-            <h3 class="service-title">Evidence a ucetnictvi</h3>
-            <p class="service-desc">Vedeni jednoduche evidence nebo zakladniho podvojneho ucetnictvi pro male podnikani.</p>
+            <h3 class="service-title">Evidence a účetnictví</h3>
+            <p class="service-desc">Vedení jednoduché evidence nebo základního podvojného účetnictví pro malé podnikání.</p>
         </div>
 <div class="service-card reveal reveal-d4">
             <div class="service-icon"><span>06</span></div>
-            <h3 class="service-title">Poradenstvi pri zahajeni</h3>
+            <h3 class="service-title">Poradenství při zahájení</h3>
             <p class="service-desc">Pomoc se spravnym nastavenim dani a odvodovych povinnosti pri zakládání noveho podnikani.</p>
         </div>
 
@@ -795,8 +840,8 @@
     <div class="about-glow about-glow-2"></div>
     <div class="dot-grid"></div>
     <div class="about-inner">
-        <p class="about-intro reveal">Tomas Glabazna poskytuje danove poradenstvi s durazem na osobni pristup a mistni znalost. Kazdy klient dostava plnou pozornost a individualni reseni svych potreb.</p>
-        <h2 class="about-drama reveal reveal-d1">Mistni znalost a osobni zodpovednost</h2>
+        <p class="about-intro reveal">Tomáš Glabazna poskytuje daňové poradenství s důrazem na osobní přístup a místní znalost. Každý klient dostává plnou pozornost a individuální řešení svých potřeb.</p>
+        <h2 class="about-drama reveal reveal-d1">Místní znalost a osobní zodpovědnost</h2>
     </div>
 </section>
 
@@ -827,28 +872,30 @@
 <section class="section-light" style="padding-top: 0;">
     <div class="section-inner">
         <div class="section-label reveal">JAK PRACUJEME</div>
-        <h2 class="section-title reveal reveal-d1">Jednoduchy postup bez zbytecnych formalit</h2>
-        <p class="section-subtitle reveal reveal-d2">Nase spoluprace je primocare, srozumitelna a orientovana na vase potreby.</p>
+        <h2 class="section-title reveal reveal-d1">Jednoduchý postup bez zbytečných formalit</h2>
+        <p class="section-subtitle reveal reveal-d2">Naše spolupráce je přímočaře, srozumitelná a orientovaná na vaše potřeby.</p>
         <div class="process-grid">
             <div class="process-card reveal reveal-d1">
-            <span class="process-num">01 / BEZPLATNA KONZULTACE</span>
-            <h3 class="process-title">Bezplatna konzultace</h3>
-            <p class="process-desc">Setkame se osobne a probereme vasi situaci bez zavazku a bez poplatku.</p>
+            <span class="process-num">01 / BEZPLATNÁ KONZULTACE</span>
+            <h3 class="process-title">Bezplatná konzultace</h3>
+            <p class="process-desc">Setkáme se osobně a probereme vaši situaci bez závazků a bez poplatku.</p>
         </div>
 <div class="process-card reveal reveal-d2">
-            <span class="process-num">02 / NAVRH RESENI</span>
-            <h3 class="process-title">Navrh reseni</h3>
-            <p class="process-desc">Pripravime konkretni plan a sdilime jasne podminky nasi spoluprace.</p>
+            <span class="process-num">02 / NÁVRH ŘEŠENÍ</span>
+            <h3 class="process-title">Návrh řešení</h3>
+            <p class="process-desc">Připravíme konkrétní plán a sdílíme jasné podmínky naší spolupráce.</p>
         </div>
 <div class="process-card reveal reveal-d3">
-            <span class="process-num">03 / PECE A VYSLEDKY</span>
-            <h3 class="process-title">Pece a vysledky</h3>
-            <p class="process-desc">Prevezme veskerou starost o dane a informujeme vas o vsem podstatnem.</p>
+            <span class="process-num">03 / PÉČE A VÝSLEDKY</span>
+            <h3 class="process-title">Péče a výsledky</h3>
+            <p class="process-desc">Převezme veškerou starost o daně a informujeme vás o všem podstatném.</p>
         </div>
 
         </div>
     </div>
 </section>
+
+
 
 <!-- CONTACT — DARK CARD -->
 <section class="contact-wrapper" id="kontakt">
@@ -856,7 +903,7 @@
         <div class="contact-card-inner">
             <div class="contact-heading">
                 <div class="section-label reveal">KONTAKT</div>
-                <h2 class="section-title reveal reveal-d1">Jsme tu pro vas</h2>
+                <h2 class="section-title reveal reveal-d1">Jsme tu pro vás</h2>
             </div>
             <div class="contact-grid">
                 <dl class="contact-info-block reveal reveal-d2">
@@ -894,7 +941,7 @@
         <div class="footer-top">
             <div class="footer-brand">
                 <h3>Glabazna Tax.</h3>
-                <p>Danove poradenstvi v regionu Chvalnov-Lisky a okoli. Tomas Glabazna nabizi personi pristup a spolehlivy spravu dani pro fyzicke osoby i male firmy.</p>
+                <p>Daňové poradenství v regionu Chvalnov-Lišky a okolí. Tomáš Glabazna nabízí personi přístup a spolehlivý správu daní pro fyzické osoby i malé firmy.</p>
                 <div class="footer-status">
                     <div class="footer-status-dot"></div>
                     <span>K dispozici</span>

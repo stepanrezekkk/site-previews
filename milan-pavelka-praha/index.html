@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Ing. Milan Pavelka, prazsky danovy poradce. Specializace na danove optimalizace, podnikove dane a zastupovani pred financnimi urady.">
+    <meta name="description" content="Ing. Milan Pavelka, pražský daňový poradce. Specializace na daňové optimalizace, podnikové daně a zastupování před finančními úřady.">
     <title>Ing. Milan Pavelka — Danový poradce Praha</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -489,6 +489,51 @@
         }
 
         /* ═══ CONTACT — DARK CARD ═══ */
+        /* ═══ TESTIMONIALS ═══ */
+        .testimonials-section {
+            padding: clamp(80px, 12vh, 140px) clamp(24px, 4vw, 64px);
+            background: var(--bg-dark);
+            color: var(--text-on-dark);
+        }
+        .testimonials-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 24px;
+            margin-top: 48px;
+        }
+        .testimonial-card {
+            background: rgba(255,255,255,0.05);
+            border: 1px solid rgba(255,255,255,0.1);
+            border-radius: var(--radius-card);
+            padding: 36px 32px 28px;
+            display: flex; flex-direction: column; gap: 20px;
+            position: relative;
+        }
+        .testimonial-card::before {
+            content: '\201C';
+            font-family: var(--serif);
+            font-size: 5rem;
+            line-height: 1;
+            color: var(--accent);
+            opacity: 0.6;
+            position: absolute;
+            top: 12px; left: 28px;
+        }
+        .testimonial-text {
+            font-size: clamp(0.95rem, 1.5vw, 1.05rem);
+            line-height: 1.75;
+            color: rgba(242,240,233,0.85);
+            padding-top: 32px;
+            font-style: italic;
+        }
+        .testimonial-author {
+            font-size: 0.82rem;
+            font-weight: 600;
+            color: var(--accent);
+            letter-spacing: 0.06em;
+            text-transform: uppercase;
+        }
+
         .contact-wrapper {
             padding: clamp(60px, 10vh, 100px) clamp(24px, 4vw, 64px);
             background: var(--bg-warm);
@@ -727,12 +772,12 @@
             <span class="hero-heading">Váš spolehlivý partner pro oblast daní a ekonomiky</span>
             <span class="hero-drama">Duveřa.</span>
         </h1>
-        <p class="hero-sub">Prazsky danovy poradce s hlubokou znalosti ceskeho danovecho prava a praxi ve slozitych korporatnich strukturach.</p>
-        <a href="#kontakt" class="hero-cta">Domluvit schuzku</a>
+        <p class="hero-sub">Pražský daňový poradce s hlubokou znalostí českého danovecho práva a praxi ve složitých korporátních strukturách.</p>
+        <a href="#kontakt" class="hero-cta">Domluvit schůzku</a>
         <div class="hero-stats">
             <div>
             <div class="hero-stat-num">500+</div>
-            <div class="hero-stat-label">klientu osetreno</div>
+            <div class="hero-stat-label">klientů ošetřeno</div>
         </div>
 <div>
             <div class="hero-stat-num">31+</div>
@@ -740,7 +785,7 @@
         </div>
 <div>
             <div class="hero-stat-num">95%</div>
-            <div class="hero-stat-label">klientu se vraci</div>
+            <div class="hero-stat-label">klientů se vrací</div>
         </div>
 
         </div>
@@ -751,38 +796,38 @@
 <section class="section-light" id="sluzby">
     <div class="section-inner">
         <div class="section-label reveal">SLUZBY</div>
-        <h2 class="section-title reveal reveal-d1">Co pro vas udelame</h2>
+        <h2 class="section-title reveal reveal-d1">Co pro vás uděláme</h2>
         <p class="section-subtitle reveal reveal-d2">Siroka paleta danovych a poradenskych sluzeb pro male firmy, OSVČ i velke korporace.</p>
         <div class="services-grid">
             <div class="service-card reveal reveal-d1">
             <div class="service-icon"><span>01</span></div>
-            <h3 class="service-title">Korporatni dane</h3>
-            <p class="service-desc">Komplexni danove poradenstvi pro spolecnosti s r.o. a a.s. Optimalizace danove zakladny a transferove ceny.</p>
+            <h3 class="service-title">Korporátní daně</h3>
+            <p class="service-desc">Komplexní daňové poradenství pro společnosti s r.o. a a.s. Optimalizace daňové základny a transferové ceny.</p>
         </div>
 <div class="service-card reveal reveal-d2">
             <div class="service-icon"><span>02</span></div>
-            <h3 class="service-title">Danove priznani FO</h3>
-            <p class="service-desc">Odborne zpracovani danovych priznani fyzickych osob vcetne zamestnancu s primy ze zahranici.</p>
+            <h3 class="service-title">Daňové přiznání FO</h3>
+            <p class="service-desc">Odborné zpracování daňových přiznání fyzických osob včetně zaměstnanců s primy ze zahraničí.</p>
         </div>
 <div class="service-card reveal reveal-d3">
             <div class="service-icon"><span>03</span></div>
-            <h3 class="service-title">DPH a sprava</h3>
-            <p class="service-desc">Poradenstvi k DPH registraci, uplatnovani, OSS schematic a podavani danovych prizani.</p>
+            <h3 class="service-title">DPH a správa</h3>
+            <p class="service-desc">Poradenství k DPH registraci, uplatňování, OSS schematic a podávání daňových prizani.</p>
         </div>
 <div class="service-card reveal reveal-d4">
             <div class="service-icon"><span>04</span></div>
-            <h3 class="service-title">Danove kontroly</h3>
-            <p class="service-desc">Profesionalni zastupeni a koordinace komunikace s financnim uradem behem danovych kontrol.</p>
+            <h3 class="service-title">Daňové kontroly</h3>
+            <p class="service-desc">Profesionální zastupeni a koordinace komunikace s finančním úřadem během daňových kontrol.</p>
         </div>
 <div class="service-card reveal reveal-d4">
             <div class="service-icon"><span>05</span></div>
-            <h3 class="service-title">Danove strukturovani</h3>
+            <h3 class="service-title">Daňové strukturování</h3>
             <p class="service-desc">Navrh optimalní danove struktury pro novou firmu, M&A transakce nebo rodinny majetek.</p>
         </div>
 <div class="service-card reveal reveal-d4">
             <div class="service-icon"><span>06</span></div>
-            <h3 class="service-title">Poradenstvi pri podnikani</h3>
-            <p class="service-desc">Poradenstvi pri zalozeni firmy, volbe pravni formy a nastaveni ucetniho a danovcho systemu.</p>
+            <h3 class="service-title">Poradenství při podnikání</h3>
+            <p class="service-desc">Poradenství při založení firmy, volbě právní formy a nastavení účetního a danovcho systémů.</p>
         </div>
 
         </div>
@@ -796,7 +841,7 @@
     <div class="dot-grid"></div>
     <div class="about-inner">
         <p class="about-intro reveal">Ing. Milan Pavelka se specializuje na slozite danove pripady a nabizi reseni, ktera ušetri klientum cas i peniaze pri plnem dodrzeni zakonu.</p>
-        <h2 class="about-drama reveal reveal-d1">Praxe, ktera prinasi vysledky</h2>
+        <h2 class="about-drama reveal reveal-d1">Praxe, která přináší výsledky</h2>
     </div>
 </section>
 
@@ -808,7 +853,7 @@
         <div class="stats-grid">
             <div class="stat-card reveal reveal-d1">
             <div class="stat-number" data-count="500" data-suffix="+">0+</div>
-            <div class="stat-label">klientu osetreno</div>
+            <div class="stat-label">klientů ošetřeno</div>
         </div>
 <div class="stat-card reveal reveal-d2">
             <div class="stat-number" data-count="31" data-suffix="+">0+</div>
@@ -816,7 +861,7 @@
         </div>
 <div class="stat-card reveal reveal-d3">
             <div class="stat-number" data-count="95" data-suffix="%">0%</div>
-            <div class="stat-label">klientu se vraci</div>
+            <div class="stat-label">klientů se vrací</div>
         </div>
 
         </div>
@@ -827,28 +872,30 @@
 <section class="section-light" style="padding-top: 0;">
     <div class="section-inner">
         <div class="section-label reveal">JAK PRACUJEME</div>
-        <h2 class="section-title reveal reveal-d1">Nas pristup ke spolupracy</h2>
-        <p class="section-subtitle reveal reveal-d2">Strukturovany proces zajistuje efektivni a presne vysledky pro kazdeho klienta.</p>
+        <h2 class="section-title reveal reveal-d1">Náš přístup ke spolupracy</h2>
+        <p class="section-subtitle reveal reveal-d2">Strukturovaný proces zajišťuje efektivní a přesné výsledky pro každého klienta.</p>
         <div class="process-grid">
             <div class="process-card reveal reveal-d1">
-            <span class="process-num">01 / UVODNI ANALYZA</span>
-            <h3 class="process-title">Uvodni analyza</h3>
+            <span class="process-num">01 / ÚVODNÍ ANALÝZA</span>
+            <h3 class="process-title">Úvodní analýza</h3>
             <p class="process-desc">Detailni analyza vasi danove situace a identifikace rizik i priležitosti.</p>
         </div>
 <div class="process-card reveal reveal-d2">
-            <span class="process-num">02 / ZPRACOVANI RESENI</span>
-            <h3 class="process-title">Zpracovani reseni</h3>
-            <p class="process-desc">Navrh a implementace optimalniho danovecho reseni prizpubeneho vasim potrebam.</p>
+            <span class="process-num">02 / ZPRACOVÁNÍ ŘEŠENÍ</span>
+            <h3 class="process-title">Zpracování řešení</h3>
+            <p class="process-desc">Návrh a implementace optimálního danovecho řešení prizpubeneho vašim potřebám.</p>
         </div>
 <div class="process-card reveal reveal-d3">
             <span class="process-num">03 / REALIZACE A PODPORA</span>
             <h3 class="process-title">Realizace a podpora</h3>
-            <p class="process-desc">Provedeni vsech podani a nasledna podpora po celou dobu danovecho roku.</p>
+            <p class="process-desc">Provedení všech podání a následná podpora po celou dobu danovecho roku.</p>
         </div>
 
         </div>
     </div>
 </section>
+
+
 
 <!-- CONTACT — DARK CARD -->
 <section class="contact-wrapper" id="kontakt">
@@ -856,7 +903,7 @@
         <div class="contact-card-inner">
             <div class="contact-heading">
                 <div class="section-label reveal">KONTAKT</div>
-                <h2 class="section-title reveal reveal-d1">Zacneme spolupracovat</h2>
+                <h2 class="section-title reveal reveal-d1">Začneme spolupracovat</h2>
             </div>
             <div class="contact-grid">
                 <dl class="contact-info-block reveal reveal-d2">
@@ -894,7 +941,7 @@
         <div class="footer-top">
             <div class="footer-brand">
                 <h3>Milan Pavelka.</h3>
-                <p>Ing. Milan Pavelka, prazsky danovy poradce. Specializace na danove optimalizace, podnikove dane a zastupovani pred financnimi urady.</p>
+                <p>Ing. Milan Pavelka, pražský daňový poradce. Specializace na daňové optimalizace, podnikové daně a zastupování před finančními úřady.</p>
                 <div class="footer-status">
                     <div class="footer-status-dot"></div>
                     <span>K dispozici</span>

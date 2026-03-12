@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="JUDr. Michal Grecky, danovy poradce a pravnik v Praze. Kombinace pravniho a danoveho poradenstvi pro komplexni ochranu vasich zajmu.">
-    <title>JUDr. Michal Grecky | Danovy poradce Praha</title>
+    <meta name="description" content="JUDr. Michal Grečky, daňový poradce a právník v Praze. Kombinace právního a daňového poradenství pro komplexní ochranu vašich zájmů.">
+    <title>JUDr. Michal Grečky | Daňový poradce Praha</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Cormorant%20Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Plus%20Jakarta%20Sans:wght@200;300;400;500;600;700;800&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
@@ -489,6 +489,51 @@
         }
 
         /* ═══ CONTACT — DARK CARD ═══ */
+        /* ═══ TESTIMONIALS ═══ */
+        .testimonials-section {
+            padding: clamp(80px, 12vh, 140px) clamp(24px, 4vw, 64px);
+            background: var(--bg-dark);
+            color: var(--text-on-dark);
+        }
+        .testimonials-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 24px;
+            margin-top: 48px;
+        }
+        .testimonial-card {
+            background: rgba(255,255,255,0.05);
+            border: 1px solid rgba(255,255,255,0.1);
+            border-radius: var(--radius-card);
+            padding: 36px 32px 28px;
+            display: flex; flex-direction: column; gap: 20px;
+            position: relative;
+        }
+        .testimonial-card::before {
+            content: '\201C';
+            font-family: var(--serif);
+            font-size: 5rem;
+            line-height: 1;
+            color: var(--accent);
+            opacity: 0.6;
+            position: absolute;
+            top: 12px; left: 28px;
+        }
+        .testimonial-text {
+            font-size: clamp(0.95rem, 1.5vw, 1.05rem);
+            line-height: 1.75;
+            color: rgba(242,240,233,0.85);
+            padding-top: 32px;
+            font-style: italic;
+        }
+        .testimonial-author {
+            font-size: 0.82rem;
+            font-weight: 600;
+            color: var(--accent);
+            letter-spacing: 0.06em;
+            text-transform: uppercase;
+        }
+
         .contact-wrapper {
             padding: clamp(60px, 10vh, 100px) clamp(24px, 4vw, 64px);
             background: var(--bg-warm);
@@ -724,11 +769,11 @@
     <div class="hero-glow hero-glow-2"></div>
     <div class="hero-content">
         <h1>
-            <span class="hero-heading">Pravo a dane bez kompromisu</span>
+            <span class="hero-heading">Právo a daně bez kompromisu</span>
             <span class="hero-drama">Ochrana.</span>
         </h1>
-        <p class="hero-sub">Profesionalni prazska kancelar nabizejici synergii pravniho a danoveho poradenstvi. Komplexni ochrana vasich obchodnich zajmu.</p>
-        <a href="#kontakt" class="hero-cta">Domluvit schuzku</a>
+        <p class="hero-sub">Profesionální pražská kancelář nabízející synergii právního a daňového poradenství. Komplexní ochrana vašich obchodních zájmů.</p>
+        <a href="#kontakt" class="hero-cta">Domluvit schůzku</a>
         <div class="hero-stats">
             <div>
             <div class="hero-stat-num">220+</div>
@@ -752,32 +797,32 @@
     <div class="section-inner">
         <div class="section-label reveal">NASE SLUZBY</div>
         <h2 class="section-title reveal reveal-d1">Komplexni pravni a danová ochrana</h2>
-        <p class="section-subtitle reveal reveal-d2">Profesionalni sluzby na rozhrani prava a dani pro podnikatele i soukrome osoby.</p>
+        <p class="section-subtitle reveal reveal-d2">Profesionální služby na rozhraní práva a daní pro podnikatele i soukromé osoby.</p>
         <div class="services-grid">
             <div class="service-card reveal reveal-d1">
             <div class="service-icon"><span>01</span></div>
-            <h3 class="service-title">Danove poradenstvi</h3>
-            <p class="service-desc">Odborne danove poradenstvi pro fyzicke i pravnicke osoby s durazem na minimalizaci rizik.</p>
+            <h3 class="service-title">Daňové poradenství</h3>
+            <p class="service-desc">Odborné daňové poradenství pro fyzické i právnické osoby s důrazem na minimalizaci rizik.</p>
         </div>
 <div class="service-card reveal reveal-d2">
             <div class="service-icon"><span>02</span></div>
-            <h3 class="service-title">Pravni poradenstvi</h3>
-            <p class="service-desc">Zastoupeni v obchodne-pravnich sporech a komplexni smluvni dokumentace pro vasi firmu.</p>
+            <h3 class="service-title">Právní poradenství</h3>
+            <p class="service-desc">Zastoupení v obchodně-právních sporech a komplexní smluvní dokumentace pro vaši firmu.</p>
         </div>
 <div class="service-card reveal reveal-d3">
             <div class="service-icon"><span>03</span></div>
-            <h3 class="service-title">Danove spory</h3>
-            <p class="service-desc">Zastoupeni pri danovych kontrolach a sporech vuci financni sprave s vysokou uspesnosti.</p>
+            <h3 class="service-title">Daňové spory</h3>
+            <p class="service-desc">Zastoupení při daňových kontrolách a sporech vůči finanční správě s vysokou úspěšností.</p>
         </div>
 <div class="service-card reveal reveal-d4">
             <div class="service-icon"><span>04</span></div>
-            <h3 class="service-title">Korporatni struktury</h3>
+            <h3 class="service-title">Korporátní struktury</h3>
             <p class="service-desc">Danove efektivni strukturovani holdingových a korporatních skupin pro maximální optimalizaci.</p>
         </div>
 <div class="service-card reveal reveal-d4">
             <div class="service-icon"><span>05</span></div>
-            <h3 class="service-title">Nemovitostni pravo</h3>
-            <p class="service-desc">Danove a pravni aspekty reality: prevody, najem, rozvoj a financovani nemovitosti.</p>
+            <h3 class="service-title">Nemovitostní právo</h3>
+            <p class="service-desc">Daňové a právní aspekty reality: převody, nájem, rozvoj a financování nemovitostí.</p>
         </div>
 <div class="service-card reveal reveal-d4">
             <div class="service-icon"><span>06</span></div>
@@ -796,7 +841,7 @@
     <div class="dot-grid"></div>
     <div class="about-inner">
         <p class="about-intro reveal">JUDr. Michal Grecky je unikatní odbornik kombinujici akademicke pravnicke vzdelani s certifikaci danoveho poradce. Klientum nabizi pohled na danové otázky z pravni perspektivy.</p>
-        <h2 class="about-drama reveal reveal-d1">Pravnicka preciznost v danovem svete</h2>
+        <h2 class="about-drama reveal reveal-d1">Právnická preciznost v daňovém světě</h2>
     </div>
 </section>
 
@@ -827,28 +872,30 @@
 <section class="section-light" style="padding-top: 0;">
     <div class="section-inner">
         <div class="section-label reveal">POSTUP SPOLUPRACE</div>
-        <h2 class="section-title reveal reveal-d1">Vas klid ve trech krocich</h2>
-        <p class="section-subtitle reveal reveal-d2">Jasny postup od prvniho kontaktu az po reseni vaseho problemu.</p>
+        <h2 class="section-title reveal reveal-d1">Váš klid ve třech krocích</h2>
+        <p class="section-subtitle reveal reveal-d2">Jasný postup od prvního kontaktu až po řešení vašeho problému.</p>
         <div class="process-grid">
             <div class="process-card reveal reveal-d1">
-            <span class="process-num">01 / BEZPLATNY ROZBOR</span>
-            <h3 class="process-title">Bezplatny rozbor</h3>
-            <p class="process-desc">Bezplatne analyzujeme vasi situaci z danoveho i pravniho uhlu pohledu a navrhneme reseni.</p>
+            <span class="process-num">01 / BEZPLATNÝ ROZBOR</span>
+            <h3 class="process-title">Bezplatný rozbor</h3>
+            <p class="process-desc">Bezplatně analyzujeme vaši situaci z daňového i právního úhlu pohledu a navrhneme řešení.</p>
         </div>
 <div class="process-card reveal reveal-d2">
             <span class="process-num">02 / STRATEGIE A PLÁN</span>
             <h3 class="process-title">Strategie a plán</h3>
-            <p class="process-desc">Vypracujeme podrobny plan reseni vasich danovych a pravnich zalezitosti s jasnym harmonogramem.</p>
+            <p class="process-desc">Vypracujeme podrobný plán řešení vašich daňových a právních záležitostí s jasným harmonogramem.</p>
         </div>
 <div class="process-card reveal reveal-d3">
             <span class="process-num">03 / REALIZACE A ZASTOUPE</span>
-            <h3 class="process-title">Realizace a zastoupeni</h3>
-            <p class="process-desc">Plne zastoupeni pri jednani s urady, soudy a protistranou. Vy se jen dozvite vysledek.</p>
+            <h3 class="process-title">Realizace a zastoupení</h3>
+            <p class="process-desc">Plné zastoupení při jednání s úřady, soudy a protistranou. Vy se jen dozvíte výsledek.</p>
         </div>
 
         </div>
     </div>
 </section>
+
+
 
 <!-- CONTACT — DARK CARD -->
 <section class="contact-wrapper" id="kontakt">
@@ -856,7 +903,7 @@
         <div class="contact-card-inner">
             <div class="contact-heading">
                 <div class="section-label reveal">KONTAKT</div>
-                <h2 class="section-title reveal reveal-d1">Pojdme resit vas problem</h2>
+                <h2 class="section-title reveal reveal-d1">Pojďme řešit váš problém</h2>
             </div>
             <div class="contact-grid">
                 <dl class="contact-info-block reveal reveal-d2">
@@ -894,7 +941,7 @@
         <div class="footer-top">
             <div class="footer-brand">
                 <h3>CZN Advisory.</h3>
-                <p>JUDr. Michal Grecky, danovy poradce a pravnik v Praze. Kombinace pravniho a danoveho poradenstvi pro komplexni ochranu vasich zajmu.</p>
+                <p>JUDr. Michal Grečky, daňový poradce a právník v Praze. Kombinace právního a daňového poradenství pro komplexní ochranu vašich zájmů.</p>
                 <div class="footer-status">
                     <div class="footer-status-dot"></div>
                     <span>K dispozici</span>

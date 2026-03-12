@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Podnikani Tax -- Ing. Miroslava Cunderlikova, danove poradenstvi Praha. Dane pro podnikatele, OSVEC, s.r.o. a akciove spolecnosti. DPH, danove optimalizace.">
-    <title>Ing. Miroslava Cunderlikova -- Danovy poradce Praha</title>
+    <meta name="description" content="Podnikání Tax -- Ing. Miroslava Čunderlíková, daňové poradenství Praha. Daně pro podnikatele, OSVEC, s.r.o. a akciové společnosti. DPH, daňové optimalizace.">
+    <title>Ing. Miroslava Čunderlíková -- Daňový poradce Praha</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Playfair%20Display:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=DM%20Sans:wght@200;300;400;500;600;700;800&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
@@ -489,6 +489,51 @@
         }
 
         /* ═══ CONTACT — DARK CARD ═══ */
+        /* ═══ TESTIMONIALS ═══ */
+        .testimonials-section {
+            padding: clamp(80px, 12vh, 140px) clamp(24px, 4vw, 64px);
+            background: var(--bg-dark);
+            color: var(--text-on-dark);
+        }
+        .testimonials-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 24px;
+            margin-top: 48px;
+        }
+        .testimonial-card {
+            background: rgba(255,255,255,0.05);
+            border: 1px solid rgba(255,255,255,0.1);
+            border-radius: var(--radius-card);
+            padding: 36px 32px 28px;
+            display: flex; flex-direction: column; gap: 20px;
+            position: relative;
+        }
+        .testimonial-card::before {
+            content: '\201C';
+            font-family: var(--serif);
+            font-size: 5rem;
+            line-height: 1;
+            color: var(--accent);
+            opacity: 0.6;
+            position: absolute;
+            top: 12px; left: 28px;
+        }
+        .testimonial-text {
+            font-size: clamp(0.95rem, 1.5vw, 1.05rem);
+            line-height: 1.75;
+            color: rgba(242,240,233,0.85);
+            padding-top: 32px;
+            font-style: italic;
+        }
+        .testimonial-author {
+            font-size: 0.82rem;
+            font-weight: 600;
+            color: var(--accent);
+            letter-spacing: 0.06em;
+            text-transform: uppercase;
+        }
+
         .contact-wrapper {
             padding: clamp(60px, 10vh, 100px) clamp(24px, 4vw, 64px);
             background: var(--bg-warm);
@@ -725,7 +770,7 @@
     <div class="hero-content">
         <h1>
             <span class="hero-heading">Účetnictví a daně</span>
-            <span class="hero-drama">Duslednost.</span>
+            <span class="hero-drama">Důslednost.</span>
         </h1>
         <p class="hero-sub">Danove poradenstvi primo sité na miru podnikatelum a firmam v Praze. Resime dane, abyste se mohli soustredit na sve podnikani.</p>
         <a href="#kontakt" class="hero-cta">Konzultace zdarma</a>
@@ -736,11 +781,11 @@
         </div>
 <div>
             <div class="hero-stat-num">240+</div>
-            <div class="hero-stat-label">spokojenych klientu</div>
+            <div class="hero-stat-label">spokojených klientů</div>
         </div>
 <div>
             <div class="hero-stat-num">97%</div>
-            <div class="hero-stat-label">uspesnost podani</div>
+            <div class="hero-stat-label">úspěšnost podání</div>
         </div>
 
         </div>
@@ -751,23 +796,23 @@
 <section class="section-light" id="sluzby">
     <div class="section-inner">
         <div class="section-label reveal">NASE SLUZBY</div>
-        <h2 class="section-title reveal reveal-d1">Danove sluzby pro podnikatele v Praze</h2>
-        <p class="section-subtitle reveal reveal-d2">Od jednoducheho danovaho priznani az po komplexni poradenstvi pro skupiny spolecnosti.</p>
+        <h2 class="section-title reveal reveal-d1">Daňové služby pro podnikatele v Praze</h2>
+        <p class="section-subtitle reveal reveal-d2">Od jednoduchého danovaho přiznání až po komplexní poradenství pro skupiny společnosti.</p>
         <div class="services-grid">
             <div class="service-card reveal reveal-d1">
             <div class="service-icon"><span>01</span></div>
             <h3 class="service-title">Správa {vendor_count} prodejců</h3>
-            <p class="service-desc">Kompletni danove reseni pro zivnostniky a OSVEC -- od danovaho priznani po socialni a zdravotni pojisteni.</p>
+            <p class="service-desc">Kompletní daňové řešení pro živnostníky a OSVEC -- od danovaho přiznání po sociální a zdravotní pojištění.</p>
         </div>
 <div class="service-card reveal reveal-d2">
             <div class="service-icon"><span>02</span></div>
             <h3 class="service-title">Účetnictví</h3>
-            <p class="service-desc">Danove poradenstvi pro s.r.o. a a.s. vcetne optimalizace, preskupeni a danoveho planovani.</p>
+            <p class="service-desc">Daňové poradenství pro s.r.o. a a.s. včetně optimalizace, přeskupení a daňového plánování.</p>
         </div>
 <div class="service-card reveal reveal-d3">
             <div class="service-icon"><span>03</span></div>
             <h3 class="service-title">Poradenství</h3>
-            <p class="service-desc">Registrace k DPH, pravidelna podani a reseni nestandardnich situaci v oblasti dani z pridane hodnoty.</p>
+            <p class="service-desc">Registrace k DPH, pravidelná podání a řešení nestandardních situací v oblasti daní z přidané hodnoty.</p>
         </div>
 
         </div>
@@ -780,8 +825,8 @@
     <div class="about-glow about-glow-2"></div>
     <div class="dot-grid"></div>
     <div class="about-inner">
-        <p class="about-intro reveal">Ing. Miroslava Cunderlikova a tym Podnikani Tax se specializuje na danove poradenstvi pro aktivni podnikatele, kteri nechtejci trazit cas s danovymi formularemi. Vasi danove zalezitosti prevezme a postara se o ne profesionalne, takze se muzete plne venovat rozvoji sveho podnikani v Praze i po celem Cesku.</p>
-        <h2 class="about-drama reveal reveal-d1">Specialiste na dane pro podnikatele</h2>
+        <p class="about-intro reveal">Ing. Miroslava Čunderlíková a tým Podnikání Tax se specializuje na daňové poradenství pro aktivní podnikatele, kteří nechtejci trazit čas s daňovými formularemi. Vaší daňové záležitosti převezme a postará se o ně profesionálně, takže se můžete plně věnovat rozvoji svého podnikání v Praze i po celém Česku.</p>
+        <h2 class="about-drama reveal reveal-d1">Specialisté na daně pro podnikatele</h2>
     </div>
 </section>
 
@@ -797,11 +842,11 @@
         </div>
 <div class="stat-card reveal reveal-d2">
             <div class="stat-number" data-count="240" data-suffix="+">0+</div>
-            <div class="stat-label">spokojenych klientu</div>
+            <div class="stat-label">spokojených klientů</div>
         </div>
 <div class="stat-card reveal reveal-d3">
             <div class="stat-number" data-count="97" data-suffix="%">0%</div>
-            <div class="stat-label">uspesnost podani</div>
+            <div class="stat-label">úspěšnost podání</div>
         </div>
 
         </div>
@@ -812,28 +857,30 @@
 <section class="section-light" style="padding-top: 0;">
     <div class="section-inner">
         <div class="section-label reveal">JAK PRACUJEME</div>
-        <h2 class="section-title reveal reveal-d1">Efektivni spoluprace bez komplikaci</h2>
-        <p class="section-subtitle reveal reveal-d2">Nas postup je navrzen tak, aby byl co nejjednodussi a nejucinnejsi pro vas i pro nas.</p>
+        <h2 class="section-title reveal reveal-d1">Efektivní spolupráce bez komplikací</h2>
+        <p class="section-subtitle reveal reveal-d2">Náš postup je navržen tak, aby byl co nejjednodušší a nejúčinnější pro vás i pro nás.</p>
         <div class="process-grid">
             <div class="process-card reveal reveal-d1">
             <span class="process-num">01 / ONLINE KONZULTACE</span>
             <h3 class="process-title">Online konzultace</h3>
-            <p class="process-desc">Prvni bezplatna konzultace muze probihat online ci osobne -- domluvime se dle vasich moznosti.</p>
+            <p class="process-desc">První bezplatná konzultace může probíhat online či osobně -- domluvíme se dle vašich možností.</p>
         </div>
 <div class="process-card reveal reveal-d2">
-            <span class="process-num">02 / SBER PODKLADU</span>
-            <h3 class="process-title">Sber podkladu</h3>
-            <p class="process-desc">Bezpecne ziskame vsechny potrebne informace a doklady pro spravne zpracovani danovych povinnosti.</p>
+            <span class="process-num">02 / SBĚR PODKLADŮ</span>
+            <h3 class="process-title">Sběr podkladů</h3>
+            <p class="process-desc">Bezpečně získáme všechny potřebné informace a doklady pro správné zpracování daňových povinností.</p>
         </div>
 <div class="process-card reveal reveal-d3">
-            <span class="process-num">03 / PODANI A KOMUNIKACE</span>
-            <h3 class="process-title">Podani a komunikace</h3>
-            <p class="process-desc">Podame vsechny dokumenty vcas a zajistime veskere komunikaci s financnim uradem za vas.</p>
+            <span class="process-num">03 / PODÁNÍ A KOMUNIKACE</span>
+            <h3 class="process-title">Podání a komunikace</h3>
+            <p class="process-desc">Podáme všechny dokumenty včas a zajistíme veškeré komunikaci s finančním úřadem za vás.</p>
         </div>
 
         </div>
     </div>
 </section>
+
+
 
 <!-- CONTACT — DARK CARD -->
 <section class="contact-wrapper" id="kontakt">
@@ -841,7 +888,7 @@
         <div class="contact-card-inner">
             <div class="contact-heading">
                 <div class="section-label reveal">KONTAKT</div>
-                <h2 class="section-title reveal reveal-d1">Pojdme spolupracovat</h2>
+                <h2 class="section-title reveal reveal-d1">Pojďme spolupracovat</h2>
             </div>
             <div class="contact-grid">
                 <dl class="contact-info-block reveal reveal-d2">
@@ -864,7 +911,7 @@
                         <textarea placeholder="Jak vám můžeme pomoci?"></textarea>
                     </div>
                     <button type="submit" class="form-submit">
-                        Odeslat zpravu
+                        Odeslat zprávu
                         <svg width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 8h10M9 4l4 4-4 4"/></svg>
                     </button>
                 </form>
@@ -879,7 +926,7 @@
         <div class="footer-top">
             <div class="footer-brand">
                 <h3>Podnikani Tax.</h3>
-                <p>Podnikani Tax -- Ing. Miroslava Cunderlikova, danove poradenstvi Praha. Dane pro podnikatele, OSVEC, s.r.o. a akciove spolecnosti. DPH, danove optimalizace.</p>
+                <p>Podnikání Tax -- Ing. Miroslava Čunderlíková, daňové poradenství Praha. Daně pro podnikatele, OSVEC, s.r.o. a akciové společnosti. DPH, daňové optimalizace.</p>
                 <div class="footer-status">
                     <div class="footer-status-dot"></div>
                     <span>K dispozici</span>

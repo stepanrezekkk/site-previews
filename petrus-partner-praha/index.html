@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Ing. Petra Petrusova, Petrus Partner Praha. Danove poradenstvi, ucetnictvi a financni poradenstvi pro podnikatele a spolecnosti v Praze.">
+    <meta name="description" content="Ing. Petra Petrusova, Petrus Partner Praha. Daňové poradenství, účetnictví a finanční poradenství pro podnikatele a společnosti v Praze.">
     <title>Ing. Petra Petrusova | Petrus Partner Praha</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -489,6 +489,51 @@
         }
 
         /* ═══ CONTACT — DARK CARD ═══ */
+        /* ═══ TESTIMONIALS ═══ */
+        .testimonials-section {
+            padding: clamp(80px, 12vh, 140px) clamp(24px, 4vw, 64px);
+            background: var(--bg-dark);
+            color: var(--text-on-dark);
+        }
+        .testimonials-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 24px;
+            margin-top: 48px;
+        }
+        .testimonial-card {
+            background: rgba(255,255,255,0.05);
+            border: 1px solid rgba(255,255,255,0.1);
+            border-radius: var(--radius-card);
+            padding: 36px 32px 28px;
+            display: flex; flex-direction: column; gap: 20px;
+            position: relative;
+        }
+        .testimonial-card::before {
+            content: '\201C';
+            font-family: var(--serif);
+            font-size: 5rem;
+            line-height: 1;
+            color: var(--accent);
+            opacity: 0.6;
+            position: absolute;
+            top: 12px; left: 28px;
+        }
+        .testimonial-text {
+            font-size: clamp(0.95rem, 1.5vw, 1.05rem);
+            line-height: 1.75;
+            color: rgba(242,240,233,0.85);
+            padding-top: 32px;
+            font-style: italic;
+        }
+        .testimonial-author {
+            font-size: 0.82rem;
+            font-weight: 600;
+            color: var(--accent);
+            letter-spacing: 0.06em;
+            text-transform: uppercase;
+        }
+
         .contact-wrapper {
             padding: clamp(60px, 10vh, 100px) clamp(24px, 4vw, 64px);
             background: var(--bg-warm);
@@ -724,11 +769,11 @@
     <div class="hero-glow hero-glow-2"></div>
     <div class="hero-content">
         <h1>
-            <span class="hero-heading">Financni jistota pro vas podnik</span>
+            <span class="hero-heading">Finanční jistota pro vás podnik</span>
             <span class="hero-drama">Stabilita.</span>
         </h1>
         <p class="hero-sub">Petrus Partner Praha propojuje danove poradenstvi s financnim plánováním pro komplexni ochranu vasich podnikatelskych zajmu.</p>
-        <a href="#kontakt" class="hero-cta">Ziskat konzultaci</a>
+        <a href="#kontakt" class="hero-cta">Získat konzultaci</a>
         <div class="hero-stats">
             <div>
             <div class="hero-stat-num">14+</div>
@@ -740,7 +785,7 @@
         </div>
 <div>
             <div class="hero-stat-num">95%</div>
-            <div class="hero-stat-label">klientu se vraci</div>
+            <div class="hero-stat-label">klientů se vrací</div>
         </div>
 
         </div>
@@ -751,33 +796,33 @@
 <section class="section-light" id="sluzby">
     <div class="section-inner">
         <div class="section-label reveal">NASE SLUZBY</div>
-        <h2 class="section-title reveal reveal-d1">Ucetni a danove sluzby na klic</h2>
-        <p class="section-subtitle reveal reveal-d2">Individualni pristup a komplexni reseni pro podnikatele vsech velikosti v Praze a okoli.</p>
+        <h2 class="section-title reveal reveal-d1">Účetní a daňové služby na klíč</h2>
+        <p class="section-subtitle reveal reveal-d2">Individuální přístup a komplexní řešení pro podnikatele všech velikostí v Praze a okolí.</p>
         <div class="services-grid">
             <div class="service-card reveal reveal-d1">
             <div class="service-icon"><span>01</span></div>
-            <h3 class="service-title">Vedeni ucetnictvi</h3>
-            <p class="service-desc">Podvojne ucetnictvi a danove evidence s pravidelnymi reporty a prehledem o stavu firmy.</p>
+            <h3 class="service-title">Vedení účetnictví</h3>
+            <p class="service-desc">Podvojné účetnictví a daňové evidence s pravidelnými reporty a přehledem o stavu firmy.</p>
         </div>
 <div class="service-card reveal reveal-d2">
             <div class="service-icon"><span>02</span></div>
-            <h3 class="service-title">Danove poradenstvi</h3>
-            <p class="service-desc">Optimalizace danove povinnosti, danove planovani a poradenstvi k nove vzniklym situacim.</p>
+            <h3 class="service-title">Daňové poradenství</h3>
+            <p class="service-desc">Optimalizace daňové povinnosti, daňové plánování a poradenství k nově vzniklým situacím.</p>
         </div>
 <div class="service-card reveal reveal-d3">
             <div class="service-icon"><span>03</span></div>
-            <h3 class="service-title">Zpracovani mezd</h3>
-            <p class="service-desc">Komplexni zpracovani mezd, odvody pojisteni a zastupovani pred institucemi.</p>
+            <h3 class="service-title">Zpracování mezd</h3>
+            <p class="service-desc">Komplexní zpracování mezd, odvody pojištění a zastupování před institucemi.</p>
         </div>
 <div class="service-card reveal reveal-d4">
             <div class="service-icon"><span>04</span></div>
-            <h3 class="service-title">Danove priznani</h3>
-            <p class="service-desc">Zpracovani vsech druhu danovych priznani vcas a bez chyb s garanciou spravnosti.</p>
+            <h3 class="service-title">Daňové přiznání</h3>
+            <p class="service-desc">Zpracování všech druhů daňových přiznání včas a bez chyb s garanciou správnosti.</p>
         </div>
 <div class="service-card reveal reveal-d4">
             <div class="service-icon"><span>05</span></div>
-            <h3 class="service-title">Financni poradenstvi</h3>
-            <p class="service-desc">Poradenstvi ke strukture financovani, cash flow optimalizaci a financnimu rizeni podniku.</p>
+            <h3 class="service-title">Finanční poradenství</h3>
+            <p class="service-desc">Poradenství ke struktuře financování, cash flow optimalizaci a finančnímu řízení podniku.</p>
         </div>
 
         </div>
@@ -791,7 +836,7 @@
     <div class="dot-grid"></div>
     <div class="about-inner">
         <p class="about-intro reveal">Ing. Petra Petrusova zalozila Petrus Partner v Praze s jasnym cilem: poskytovat danove a ucetni sluzby na nejvyssi urovni s osobnim pristupem. Dnes slouzíme stovkam spokojených klientu.</p>
-        <h2 class="about-drama reveal reveal-d1">Spolehlivy partner pro vase finance</h2>
+        <h2 class="about-drama reveal reveal-d1">Spolehlivý partner pro vaše finance</h2>
     </div>
 </section>
 
@@ -811,7 +856,7 @@
         </div>
 <div class="stat-card reveal reveal-d3">
             <div class="stat-number" data-count="95" data-suffix="%">0%</div>
-            <div class="stat-label">klientu se vraci</div>
+            <div class="stat-label">klientů se vrací</div>
         </div>
 
         </div>
@@ -822,22 +867,22 @@
 <section class="section-light" style="padding-top: 0;">
     <div class="section-inner">
         <div class="section-label reveal">JAK PRACUJEME</div>
-        <h2 class="section-title reveal reveal-d1">Jednoducha a transparentni spoluprace</h2>
-        <p class="section-subtitle reveal reveal-d2">Vime, ze vam zbyva malo casu. Proto je nas proces co nejjednodussi.</p>
+        <h2 class="section-title reveal reveal-d1">Jednoduchá a transparentní spolupráce</h2>
+        <p class="section-subtitle reveal reveal-d2">Víme, že vám zbývá málo času. Proto je náš proces co nejjednodušší.</p>
         <div class="process-grid">
             <div class="process-card reveal reveal-d1">
-            <span class="process-num">01 / BEZPLATNA ANALYZA</span>
-            <h3 class="process-title">Bezplatna analyza</h3>
-            <p class="process-desc">Probere vasi situaci a navrhneme nejlepsi reseni pro vase ucetni a danove potreby.</p>
+            <span class="process-num">01 / BEZPLATNÁ ANALÝZA</span>
+            <h3 class="process-title">Bezplatná analýza</h3>
+            <p class="process-desc">Probere vaši situaci a navrhneme nejlepší řešení pro vaše účetní a daňové potřeby.</p>
         </div>
 <div class="process-card reveal reveal-d2">
-            <span class="process-num">02 / SMLUVENI SLUZEB</span>
-            <h3 class="process-title">Smluveni sluzeb</h3>
-            <p class="process-desc">Dojedname rozsah sluzeb a cenu, ktera odpovida skutecnym potrebam vaseho podnikani.</p>
+            <span class="process-num">02 / SMLUVENI SLUŽEB</span>
+            <h3 class="process-title">Smluveni služeb</h3>
+            <p class="process-desc">Dojednáme rozsah služeb a cenu, která odpovídá skutečným potřebám vašeho podnikání.</p>
         </div>
 <div class="process-card reveal reveal-d3">
-            <span class="process-num">03 / PRUBEZNA PECE</span>
-            <h3 class="process-title">Prubezna pece</h3>
+            <span class="process-num">03 / PRŮBĚŽNÁ PÉČE</span>
+            <h3 class="process-title">Průběžná péče</h3>
             <p class="process-desc">Starame se o vase ucetnictvi a dane po celý rok a jsme dostupni kdykoliv potrebujete.</p>
         </div>
 
@@ -845,13 +890,15 @@
     </div>
 </section>
 
+
+
 <!-- CONTACT — DARK CARD -->
 <section class="contact-wrapper" id="kontakt">
     <div class="contact-card">
         <div class="contact-card-inner">
             <div class="contact-heading">
                 <div class="section-label reveal">KONTAKT</div>
-                <h2 class="section-title reveal reveal-d1">Pojdme spolupracovat</h2>
+                <h2 class="section-title reveal reveal-d1">Pojďme spolupracovat</h2>
             </div>
             <div class="contact-grid">
                 <dl class="contact-info-block reveal reveal-d2">
@@ -873,7 +920,7 @@
                         <textarea placeholder="Jak vám můžeme pomoci?"></textarea>
                     </div>
                     <button type="submit" class="form-submit">
-                        Odeslat zpravu
+                        Odeslat zprávu
                         <svg width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 8h10M9 4l4 4-4 4"/></svg>
                     </button>
                 </form>
@@ -888,7 +935,7 @@
         <div class="footer-top">
             <div class="footer-brand">
                 <h3>Petrus Partner.</h3>
-                <p>Ing. Petra Petrusova, Petrus Partner Praha. Danove poradenstvi, ucetnictvi a financni poradenstvi pro podnikatele a spolecnosti v Praze.</p>
+                <p>Ing. Petra Petrusova, Petrus Partner Praha. Daňové poradenství, účetnictví a finanční poradenství pro podnikatele a společnosti v Praze.</p>
                 <div class="footer-status">
                     <div class="footer-status-dot"></div>
                     <span>K dispozici</span>

@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Mgr. Iveta Nesrovnalova, NConsult Brno. Danove poradenstvi, ucetnictvi a pravni podpora pro podnikatele a korporace v Jihomoravskem kraji.">
-    <title>Mgr. Iveta Nesrovnalova | Danove poradenstvi Brno</title>
+    <meta name="description" content="Mgr. Iveta Nesrovnalova, NConsult Brno. Daňové poradenství, účetnictví a právní podpora pro podnikatele a korporace v Jihomoravském kraji.">
+    <title>Mgr. Iveta Nesrovnalova | Daňové poradenství Brno</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=DM%20Serif%20Display:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Outfit:wght@200;300;400;500;600;700;800&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
@@ -489,6 +489,51 @@
         }
 
         /* ═══ CONTACT — DARK CARD ═══ */
+        /* ═══ TESTIMONIALS ═══ */
+        .testimonials-section {
+            padding: clamp(80px, 12vh, 140px) clamp(24px, 4vw, 64px);
+            background: var(--bg-dark);
+            color: var(--text-on-dark);
+        }
+        .testimonials-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 24px;
+            margin-top: 48px;
+        }
+        .testimonial-card {
+            background: rgba(255,255,255,0.05);
+            border: 1px solid rgba(255,255,255,0.1);
+            border-radius: var(--radius-card);
+            padding: 36px 32px 28px;
+            display: flex; flex-direction: column; gap: 20px;
+            position: relative;
+        }
+        .testimonial-card::before {
+            content: '\201C';
+            font-family: var(--serif);
+            font-size: 5rem;
+            line-height: 1;
+            color: var(--accent);
+            opacity: 0.6;
+            position: absolute;
+            top: 12px; left: 28px;
+        }
+        .testimonial-text {
+            font-size: clamp(0.95rem, 1.5vw, 1.05rem);
+            line-height: 1.75;
+            color: rgba(242,240,233,0.85);
+            padding-top: 32px;
+            font-style: italic;
+        }
+        .testimonial-author {
+            font-size: 0.82rem;
+            font-weight: 600;
+            color: var(--accent);
+            letter-spacing: 0.06em;
+            text-transform: uppercase;
+        }
+
         .contact-wrapper {
             padding: clamp(60px, 10vh, 100px) clamp(24px, 4vw, 64px);
             background: var(--bg-warm);
@@ -724,10 +769,10 @@
     <div class="hero-glow hero-glow-2"></div>
     <div class="hero-content">
         <h1>
-            <span class="hero-heading">Odborne poradenstvi pro vas biznis</span>
+            <span class="hero-heading">Odborné poradenství pro vás biznis</span>
             <span class="hero-drama">Jistota.</span>
         </h1>
-        <p class="hero-sub">NConsult Brno nabizi danove poradenstvi s pravnim zazemim pro podnikatele, kteri hledaji spolehlivy a odborny pristup.</p>
+        <p class="hero-sub">NConsult Brno nabízí daňové poradenství s právním zázemím pro podnikatele, kteří hledají spolehlivý a odborný přístup.</p>
         <a href="#kontakt" class="hero-cta">Objednat konzultaci</a>
         <div class="hero-stats">
             <div>
@@ -740,7 +785,7 @@
         </div>
 <div>
             <div class="hero-stat-num">97%</div>
-            <div class="hero-stat-label">uspesnost podani</div>
+            <div class="hero-stat-label">úspěšnost podání</div>
         </div>
 
         </div>
@@ -751,23 +796,23 @@
 <section class="section-light" id="sluzby">
     <div class="section-inner">
         <div class="section-label reveal">NASE SLUZBY</div>
-        <h2 class="section-title reveal reveal-d1">Komplexni danove a pravni sluzby</h2>
-        <p class="section-subtitle reveal reveal-d2">Spojujeme pravni odbornost s danovym poradenstvi pro maximalni ochranu vasich zajmu.</p>
+        <h2 class="section-title reveal reveal-d1">Komplexní daňové a právní služby</h2>
+        <p class="section-subtitle reveal reveal-d2">Spojujeme právní odbornost s daňovým poradenství pro maximální ochranu vašich zájmů.</p>
         <div class="services-grid">
             <div class="service-card reveal reveal-d1">
             <div class="service-icon"><span>01</span></div>
-            <h3 class="service-title">Danove poradenstvi</h3>
+            <h3 class="service-title">Daňové poradenství</h3>
             <p class="service-desc">Odborne poradenstvi v oblasti dani z prijmu, DPH, majetkových dani a dani pri prevodu nemovitosti.</p>
         </div>
 <div class="service-card reveal reveal-d2">
             <div class="service-icon"><span>02</span></div>
-            <h3 class="service-title">Ucetni sluzby</h3>
-            <p class="service-desc">Vedeni podvojneho ucetnictvi, danove evidence a zpracovani mzd pro spolecnosti vsech velikosti.</p>
+            <h3 class="service-title">Účetní služby</h3>
+            <p class="service-desc">Vedení podvojného účetnictví, daňové evidence a zpracování mzd pro společnosti všech velikostí.</p>
         </div>
 <div class="service-card reveal reveal-d3">
             <div class="service-icon"><span>03</span></div>
-            <h3 class="service-title">Pravni podpora</h3>
-            <p class="service-desc">Poradenstvi v oblasti obchodniho prava se specializaci na danove aspekty smluv a korporatnich struktur.</p>
+            <h3 class="service-title">Právní podpora</h3>
+            <p class="service-desc">Poradenství v oblasti obchodního práva se specializací na daňové aspekty smluv a korporátních struktur.</p>
         </div>
 <div class="service-card reveal reveal-d4">
             <div class="service-icon"><span>04</span></div>
@@ -776,8 +821,8 @@
         </div>
 <div class="service-card reveal reveal-d4">
             <div class="service-icon"><span>05</span></div>
-            <h3 class="service-title">Mezinarodni dane</h3>
-            <p class="service-desc">Poradenstvi k mezinarodnimu zdaneni, smluvam o zamezeni dvojiho zdaneni a zdaneni expatriatu.</p>
+            <h3 class="service-title">Mezinárodní daně</h3>
+            <p class="service-desc">Poradenství k mezinárodnímu zdanění, smluvam o zamezení dvojího zdanění a zdanění expatriatu.</p>
         </div>
 
         </div>
@@ -791,7 +836,7 @@
     <div class="dot-grid"></div>
     <div class="about-inner">
         <p class="about-intro reveal">Mgr. Iveta Nesrovnalova propojuje pravnickou odbornost s dluholetou praxí danovaho poradce. NConsult v Brne je vasim spolehlivym partnerem pro vsechny danove a pravni otazky.</p>
-        <h2 class="about-drama reveal reveal-d1">Pravni preciznost v danovem poradenstvi</h2>
+        <h2 class="about-drama reveal reveal-d1">Právní preciznost v daňovém poradenství</h2>
     </div>
 </section>
 
@@ -811,7 +856,7 @@
         </div>
 <div class="stat-card reveal reveal-d3">
             <div class="stat-number" data-count="97" data-suffix="%">0%</div>
-            <div class="stat-label">uspesnost podani</div>
+            <div class="stat-label">úspěšnost podání</div>
         </div>
 
         </div>
@@ -822,22 +867,22 @@
 <section class="section-light" style="padding-top: 0;">
     <div class="section-inner">
         <div class="section-label reveal">JAK PRACUJEME</div>
-        <h2 class="section-title reveal reveal-d1">Metodicky a dusledny pristup</h2>
-        <p class="section-subtitle reveal reveal-d2">Nase prace je zalozena na presne metodice a dukladne znalosti vasi situace.</p>
+        <h2 class="section-title reveal reveal-d1">Metodický a důsledný přístup</h2>
+        <p class="section-subtitle reveal reveal-d2">Naše práce je založena na přesné metodice a důkladné znalosti vaší situace.</p>
         <div class="process-grid">
             <div class="process-card reveal reveal-d1">
-            <span class="process-num">01 / ANALYZA A PLANOVANI</span>
-            <h3 class="process-title">Analyza a planovani</h3>
-            <p class="process-desc">Dukladne analyzujeme vasi danovou a pravni situaci a pripravime strategii na miru.</p>
+            <span class="process-num">01 / ANALÝZA A PLÁNOVÁNÍ</span>
+            <h3 class="process-title">Analýza a plánování</h3>
+            <p class="process-desc">Důkladně analyzujeme vaši daňovou a právní situaci a připravíme strategii na míru.</p>
         </div>
 <div class="process-card reveal reveal-d2">
-            <span class="process-num">02 / IMPLEMENTACE RESENI</span>
-            <h3 class="process-title">Implementace reseni</h3>
-            <p class="process-desc">Realizujeme navrzena opatreni a zpracujeme vsechnu potrebnou dokumentaci.</p>
+            <span class="process-num">02 / IMPLEMENTACE ŘEŠENÍ</span>
+            <h3 class="process-title">Implementace řešení</h3>
+            <p class="process-desc">Realizujeme navržená opatření a zpracujeme všechnu potřebnou dokumentaci.</p>
         </div>
 <div class="process-card reveal reveal-d3">
-            <span class="process-num">03 / PRUBEZNA PODPORA</span>
-            <h3 class="process-title">Prubezna podpora</h3>
+            <span class="process-num">03 / PRŮBĚŽNÁ PODPORA</span>
+            <h3 class="process-title">Průběžná podpora</h3>
             <p class="process-desc">Jsme vasim partnerem po celý rok a informujeme vas o zmenach dane legislativy.</p>
         </div>
 
@@ -845,13 +890,15 @@
     </div>
 </section>
 
+
+
 <!-- CONTACT — DARK CARD -->
 <section class="contact-wrapper" id="kontakt">
     <div class="contact-card">
         <div class="contact-card-inner">
             <div class="contact-heading">
                 <div class="section-label reveal">KONTAKT</div>
-                <h2 class="section-title reveal reveal-d1">Pojdme spolupracovat</h2>
+                <h2 class="section-title reveal reveal-d1">Pojďme spolupracovat</h2>
             </div>
             <div class="contact-grid">
                 <dl class="contact-info-block reveal reveal-d2">
@@ -873,7 +920,7 @@
                         <textarea placeholder="Jak vám můžeme pomoci?"></textarea>
                     </div>
                     <button type="submit" class="form-submit">
-                        Odeslat zpravu
+                        Odeslat zprávu
                         <svg width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 8h10M9 4l4 4-4 4"/></svg>
                     </button>
                 </form>
@@ -888,7 +935,7 @@
         <div class="footer-top">
             <div class="footer-brand">
                 <h3>NConsult.</h3>
-                <p>Mgr. Iveta Nesrovnalova, NConsult Brno. Danove poradenstvi, ucetnictvi a pravni podpora pro podnikatele a korporace v Jihomoravskem kraji.</p>
+                <p>Mgr. Iveta Nesrovnalova, NConsult Brno. Daňové poradenství, účetnictví a právní podpora pro podnikatele a korporace v Jihomoravském kraji.</p>
                 <div class="footer-status">
                     <div class="footer-status-dot"></div>
                     <span>K dispozici</span>

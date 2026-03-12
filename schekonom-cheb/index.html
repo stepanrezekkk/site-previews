@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Ing. Petra Poupova, Schekonom Cheb. Ucetnictvi a danove poradenstvi pro firmy a podnikatele v Chebu a Karlovarskem kraji.">
+    <meta name="description" content="Ing. Petra Poupova, Schekonom Cheb. Účetnictví a daňové poradenství pro firmy a podnikatele v Chebu a Karlovarském kraji.">
     <title>Ing. Petra Poupova | Schekonom Cheb</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -489,6 +489,51 @@
         }
 
         /* ═══ CONTACT — DARK CARD ═══ */
+        /* ═══ TESTIMONIALS ═══ */
+        .testimonials-section {
+            padding: clamp(80px, 12vh, 140px) clamp(24px, 4vw, 64px);
+            background: var(--bg-dark);
+            color: var(--text-on-dark);
+        }
+        .testimonials-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 24px;
+            margin-top: 48px;
+        }
+        .testimonial-card {
+            background: rgba(255,255,255,0.05);
+            border: 1px solid rgba(255,255,255,0.1);
+            border-radius: var(--radius-card);
+            padding: 36px 32px 28px;
+            display: flex; flex-direction: column; gap: 20px;
+            position: relative;
+        }
+        .testimonial-card::before {
+            content: '\201C';
+            font-family: var(--serif);
+            font-size: 5rem;
+            line-height: 1;
+            color: var(--accent);
+            opacity: 0.6;
+            position: absolute;
+            top: 12px; left: 28px;
+        }
+        .testimonial-text {
+            font-size: clamp(0.95rem, 1.5vw, 1.05rem);
+            line-height: 1.75;
+            color: rgba(242,240,233,0.85);
+            padding-top: 32px;
+            font-style: italic;
+        }
+        .testimonial-author {
+            font-size: 0.82rem;
+            font-weight: 600;
+            color: var(--accent);
+            letter-spacing: 0.06em;
+            text-transform: uppercase;
+        }
+
         .contact-wrapper {
             padding: clamp(60px, 10vh, 100px) clamp(24px, 4vw, 64px);
             background: var(--bg-warm);
@@ -727,7 +772,7 @@
             <span class="hero-heading">Ušetřete si čas i starosti s účetnictvím a daňovými povinnostmi</span>
             <span class="hero-drama">Prehled.</span>
         </h1>
-        <p class="hero-sub">Schekonom nabizi ucetni a danove sluzby v Chebu s osobnim pristupem. Postarame se o vase finance, abyste se mohli soustredit na podnikani.</p>
+        <p class="hero-sub">Schekonom nabízí účetní a daňové služby v Chebu s osobním přístupem. Postaráme se o vaše finance, abyste se mohli soustředit na podnikání.</p>
         <a href="#kontakt" class="hero-cta">Domluvit konzultaci</a>
         <div class="hero-stats">
             <div>
@@ -740,7 +785,7 @@
         </div>
 <div>
             <div class="hero-stat-num">100%</div>
-            <div class="hero-stat-label">vcasnost podani</div>
+            <div class="hero-stat-label">včasnost podání</div>
         </div>
 
         </div>
@@ -751,13 +796,13 @@
 <section class="section-light" id="sluzby">
     <div class="section-inner">
         <div class="section-label reveal">NASE SLUZBY</div>
-        <h2 class="section-title reveal reveal-d1">Ucetni a danove sluzby v Chebu</h2>
-        <p class="section-subtitle reveal reveal-d2">Poskytujeme komplexni ucetni a danove sluzby pro podnikatele a firmy v Karlovarskem kraji.</p>
+        <h2 class="section-title reveal reveal-d1">Účetní a daňové služby v Chebu</h2>
+        <p class="section-subtitle reveal reveal-d2">Poskytujeme komplexní účetní a daňové služby pro podnikatele a firmy v Karlovarském kraji.</p>
         <div class="services-grid">
             <div class="service-card reveal reveal-d1">
             <div class="service-icon"><span>01</span></div>
             <h3 class="service-title">ÚČETNICTVÍ A OUTSORCING ÚČETNICTVÍ</h3>
-            <p class="service-desc">Vedeni podvojneho ucetnictvi pro spolecnosti s pravidelnym reportingem a financnimi vykazy.</p>
+            <p class="service-desc">Vedení podvojného účetnictví pro společnosti s pravidelným reportingem a finančními výkazy.</p>
         </div>
 <div class="service-card reveal reveal-d2">
             <div class="service-icon"><span>02</span></div>
@@ -767,17 +812,17 @@
 <div class="service-card reveal reveal-d3">
             <div class="service-icon"><span>03</span></div>
             <h3 class="service-title">MZDOVÉ ÚČETNICTVÍ</h3>
-            <p class="service-desc">Mesicni zpracovani mezd, prihlaseni zamestnancu a komunikace s pojistovnami a financnim uradem.</p>
+            <p class="service-desc">Měsíční zpracování mezd, přihlášení zaměstnanců a komunikace s pojišťovnami a finančním úřadem.</p>
         </div>
 <div class="service-card reveal reveal-d4">
             <div class="service-icon"><span>04</span></div>
             <h3 class="service-title">NĚMECKÉ DANĚ</h3>
-            <p class="service-desc">Zpracovani danovych priznani k dani z prijmu a DPH pro fyzicke i pravnicke osoby vcas a spravne.</p>
+            <p class="service-desc">Zpracování daňových přiznání k dani z příjmu a DPH pro fyzické i právnické osoby včas a správně.</p>
         </div>
 <div class="service-card reveal reveal-d4">
             <div class="service-icon"><span>05</span></div>
             <h3 class="service-title">DAŇOVÉ PORADENSTVÍ - DE SUBJEKTY V ČR</h3>
-            <p class="service-desc">Odborne poradenstvi k danovym situacim, optimalizaci a planovani danovych povinnosti v pripade zmeny.</p>
+            <p class="service-desc">Odborné poradenství k daňovým situacím, optimalizaci a plánování daňových povinností v případě změny.</p>
         </div>
 
         </div>
@@ -790,8 +835,8 @@
     <div class="about-glow about-glow-2"></div>
     <div class="dot-grid"></div>
     <div class="about-inner">
-        <p class="about-intro reveal">Ing. Petra Poupova pusobi v Chebu jiz pres deset let a dobre zna specificke potreby podnikatelu v pohranicnim regionu. Schekonom je synonymem pro spolehlive a prestne ucetni sluzby.</p>
-        <h2 class="about-drama reveal reveal-d1">Mistin odbornice pro vase ucetnictvi</h2>
+        <p class="about-intro reveal">Ing. Petra Poupova působí v Chebu již přes deset let a dobře zná specifické potřeby podnikatelů v pohraničním regionu. Schekonom je synonymem pro spolehlivé a prestne účetní služby.</p>
+        <h2 class="about-drama reveal reveal-d1">Mistin odbornice pro vaše účetnictví</h2>
     </div>
 </section>
 
@@ -811,7 +856,7 @@
         </div>
 <div class="stat-card reveal reveal-d3">
             <div class="stat-number" data-count="100" data-suffix="%">0%</div>
-            <div class="stat-label">vcasnost podani</div>
+            <div class="stat-label">včasnost podání</div>
         </div>
 
         </div>
@@ -822,28 +867,30 @@
 <section class="section-light" style="padding-top: 0;">
     <div class="section-inner">
         <div class="section-label reveal">JAK PRACUJEME</div>
-        <h2 class="section-title reveal reveal-d1">Jednoducha spoluprace bez starestu</h2>
-        <p class="section-subtitle reveal reveal-d2">Nas postup je navrzeny tak, aby vam sebral co nejmene casu.</p>
+        <h2 class="section-title reveal reveal-d1">Jednoduchá spolupráce bez starestu</h2>
+        <p class="section-subtitle reveal reveal-d2">Náš postup je navrženy tak, aby vám sebral co nejméně času.</p>
         <div class="process-grid">
             <div class="process-card reveal reveal-d1">
-            <span class="process-num">01 / PRVOTNNI SETKANI</span>
-            <h3 class="process-title">Prvotnni setkani</h3>
-            <p class="process-desc">Probereme vase potreby a nastavime optimalni ucetni a danovy rezim pro vase podnikani.</p>
+            <span class="process-num">01 / PRVOTNNI SETKÁNÍ</span>
+            <h3 class="process-title">Prvotnni setkání</h3>
+            <p class="process-desc">Probereme vaše potřeby a nastavíme optimální účetní a daňový režim pro vaše podnikání.</p>
         </div>
 <div class="process-card reveal reveal-d2">
-            <span class="process-num">02 / PREDANI PODKLADU</span>
-            <h3 class="process-title">Predani podkladu</h3>
-            <p class="process-desc">Nastavime jednoduchy zpusob predavani dokladu, ktere zpracujeme rychle a presne.</p>
+            <span class="process-num">02 / PŘEDÁNÍ PODKLADŮ</span>
+            <h3 class="process-title">Předání podkladů</h3>
+            <p class="process-desc">Nastavíme jednoduchý způsob předávání dokladů, které zpracujeme rychle a přesně.</p>
         </div>
 <div class="process-card reveal reveal-d3">
-            <span class="process-num">03 / REPORTY A PODANI</span>
-            <h3 class="process-title">Reporty a podani</h3>
-            <p class="process-desc">Pravideline dodavame prehledne reporty a postarame se o vcasne podani vsech povinnych hlaseni.</p>
+            <span class="process-num">03 / REPORTY A PODÁNÍ</span>
+            <h3 class="process-title">Reporty a podání</h3>
+            <p class="process-desc">Pravideline dodáváme přehledné reporty a postaráme se o včasné podání všech povinných hlášení.</p>
         </div>
 
         </div>
     </div>
 </section>
+
+
 
 <!-- CONTACT — DARK CARD -->
 <section class="contact-wrapper" id="kontakt">
@@ -851,7 +898,7 @@
         <div class="contact-card-inner">
             <div class="contact-heading">
                 <div class="section-label reveal">KONTAKT</div>
-                <h2 class="section-title reveal reveal-d1">Pojdme spolupracovat</h2>
+                <h2 class="section-title reveal reveal-d1">Pojďme spolupracovat</h2>
             </div>
             <div class="contact-grid">
                 <dl class="contact-info-block reveal reveal-d2">
@@ -874,7 +921,7 @@
                         <textarea placeholder="Jak vám můžeme pomoci?"></textarea>
                     </div>
                     <button type="submit" class="form-submit">
-                        Odeslat zpravu
+                        Odeslat zprávu
                         <svg width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 8h10M9 4l4 4-4 4"/></svg>
                     </button>
                 </form>
@@ -889,7 +936,7 @@
         <div class="footer-top">
             <div class="footer-brand">
                 <h3>Schekonom.</h3>
-                <p>Ing. Petra Poupova, Schekonom Cheb. Ucetnictvi a danove poradenstvi pro firmy a podnikatele v Chebu a Karlovarskem kraji.</p>
+                <p>Ing. Petra Poupova, Schekonom Cheb. Účetnictví a daňové poradenství pro firmy a podnikatele v Chebu a Karlovarském kraji.</p>
                 <div class="footer-status">
                     <div class="footer-status-dot"></div>
                     <span>K dispozici</span>

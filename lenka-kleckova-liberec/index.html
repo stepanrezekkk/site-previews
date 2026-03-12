@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Danovy poradce Lenka Kleckova v Liberci. Danove poradenstvi, danove uznani a ucetnictvi pro podnikatele a fyzicke osoby v Libereckem kraji.">
-    <title>Bc. Lenka Kleckova — Danovy poradce Liberec</title>
+    <meta name="description" content="Daňový poradce Lenka Klečková v Liberci. Daňové poradenství, daňové uznání a účetnictví pro podnikatele a fyzické osoby v Libereckém kraji.">
+    <title>Bc. Lenka Klečková — Daňový poradce Liberec</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Playfair%20Display:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=DM%20Sans:wght@200;300;400;500;600;700;800&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
@@ -489,6 +489,51 @@
         }
 
         /* ═══ CONTACT — DARK CARD ═══ */
+        /* ═══ TESTIMONIALS ═══ */
+        .testimonials-section {
+            padding: clamp(80px, 12vh, 140px) clamp(24px, 4vw, 64px);
+            background: var(--bg-dark);
+            color: var(--text-on-dark);
+        }
+        .testimonials-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 24px;
+            margin-top: 48px;
+        }
+        .testimonial-card {
+            background: rgba(255,255,255,0.05);
+            border: 1px solid rgba(255,255,255,0.1);
+            border-radius: var(--radius-card);
+            padding: 36px 32px 28px;
+            display: flex; flex-direction: column; gap: 20px;
+            position: relative;
+        }
+        .testimonial-card::before {
+            content: '\201C';
+            font-family: var(--serif);
+            font-size: 5rem;
+            line-height: 1;
+            color: var(--accent);
+            opacity: 0.6;
+            position: absolute;
+            top: 12px; left: 28px;
+        }
+        .testimonial-text {
+            font-size: clamp(0.95rem, 1.5vw, 1.05rem);
+            line-height: 1.75;
+            color: rgba(242,240,233,0.85);
+            padding-top: 32px;
+            font-style: italic;
+        }
+        .testimonial-author {
+            font-size: 0.82rem;
+            font-weight: 600;
+            color: var(--accent);
+            letter-spacing: 0.06em;
+            text-transform: uppercase;
+        }
+
         .contact-wrapper {
             padding: clamp(60px, 10vh, 100px) clamp(24px, 4vw, 64px);
             background: var(--bg-warm);
@@ -724,7 +769,7 @@
     <div class="hero-glow hero-glow-2"></div>
     <div class="hero-content">
         <h1>
-            <span class="hero-heading">Danove poradenstvi v Liberci</span>
+            <span class="hero-heading">Daňové poradenství v Liberci</span>
             <span class="hero-drama">Spolehlivost.</span>
         </h1>
         <p class="hero-sub">Profesionalni danová poradkyne v Liberci se zamerenim na mala a stredni podnikani.</p>
@@ -740,7 +785,7 @@
         </div>
 <div>
             <div class="hero-stat-num">100%</div>
-            <div class="hero-stat-label">vcasna podani</div>
+            <div class="hero-stat-label">včasná podání</div>
         </div>
 
         </div>
@@ -751,38 +796,38 @@
 <section class="section-light" id="sluzby">
     <div class="section-inner">
         <div class="section-label reveal">NASE SLUZBY</div>
-        <h2 class="section-title reveal reveal-d1">Danove sluzby pro Liberec a okoli</h2>
-        <p class="section-subtitle reveal reveal-d2">Komplexni danove a ucetni sluzby pro podnikatele a fyzicke osoby v Libereckem kraji.</p>
+        <h2 class="section-title reveal reveal-d1">Daňové služby pro Liberec a okolí</h2>
+        <p class="section-subtitle reveal reveal-d2">Komplexní daňové a účetní služby pro podnikatele a fyzické osoby v Libereckém kraji.</p>
         <div class="services-grid">
             <div class="service-card reveal reveal-d1">
             <div class="service-icon"><span>01</span></div>
-            <h3 class="service-title">Danove poradenstvi</h3>
-            <p class="service-desc">Individualni danove poradenstvi a optimalizace danove zateze pro podnikatele.</p>
+            <h3 class="service-title">Daňové poradenství</h3>
+            <p class="service-desc">Individuální daňové poradenství a optimalizace daňové zátěže pro podnikatele.</p>
         </div>
 <div class="service-card reveal reveal-d2">
             <div class="service-icon"><span>02</span></div>
-            <h3 class="service-title">Danove uznani</h3>
+            <h3 class="service-title">Daňové uznání</h3>
             <p class="service-desc">Zpracovani danovych uznani pro OSVČ, spolecnosti i fyzicke osoby.</p>
         </div>
 <div class="service-card reveal reveal-d3">
             <div class="service-icon"><span>03</span></div>
-            <h3 class="service-title">Ucetnictvi</h3>
-            <p class="service-desc">Vedeni ucetnictvi a danovych evidenci pro mala a stredni podnikani v regionu.</p>
+            <h3 class="service-title">Účetnictví</h3>
+            <p class="service-desc">Vedení účetnictví a daňových evidencí pro malá a střední podnikání v regionu.</p>
         </div>
 <div class="service-card reveal reveal-d4">
             <div class="service-icon"><span>04</span></div>
             <h3 class="service-title">DPH</h3>
-            <p class="service-desc">Vedeni DPH agendy a zpracovani pravidelnych DPH danovych uznani.</p>
+            <p class="service-desc">Vedení DPH agendy a zpracování pravidelných DPH daňových uznání.</p>
         </div>
 <div class="service-card reveal reveal-d4">
             <div class="service-icon"><span>05</span></div>
             <h3 class="service-title">Mzdy a personalistika</h3>
-            <p class="service-desc">Zpracovani mezd, prihlasek na OSSZ a zdravotni pojistovny a rocnich zuctovani.</p>
+            <p class="service-desc">Zpracování mezd, přihlášek na OSSZ a zdravotní pojišťovny a ročních zúčtování.</p>
         </div>
 <div class="service-card reveal reveal-d4">
             <div class="service-icon"><span>06</span></div>
-            <h3 class="service-title">Zastupovani pred uradem</h3>
-            <p class="service-desc">Zastoupeni pri komunikaci s financnim uradem a reseni urednich zalezitosti.</p>
+            <h3 class="service-title">Zastupování před úřadem</h3>
+            <p class="service-desc">Zastoupení při komunikaci s finančním úřadem a řešení úředních záležitostí.</p>
         </div>
 
         </div>
@@ -796,7 +841,7 @@
     <div class="dot-grid"></div>
     <div class="about-inner">
         <p class="about-intro reveal">Jako danová poradkyne v Liberci poskytuji sluzby s osobnim pristupem a hlubokou znalosti potreb mistnich podnikatelu. Kazdy klient je pro me partnerem, ne cislem v systemu.</p>
-        <h2 class="about-drama reveal reveal-d1">Vas lokalni danovy poradce v Liberci</h2>
+        <h2 class="about-drama reveal reveal-d1">Vás lokální daňový poradce v Liberci</h2>
     </div>
 </section>
 
@@ -816,7 +861,7 @@
         </div>
 <div class="stat-card reveal reveal-d3">
             <div class="stat-number" data-count="100" data-suffix="%">0%</div>
-            <div class="stat-label">vcasna podani</div>
+            <div class="stat-label">včasná podání</div>
         </div>
 
         </div>
@@ -828,27 +873,29 @@
     <div class="section-inner">
         <div class="section-label reveal">JAK PRACUJI</div>
         <h2 class="section-title reveal reveal-d1">Jednoduchá spoluprace v tri krocich</h2>
-        <p class="section-subtitle reveal reveal-d2">Snazim se, aby spoluprace byla co nejjednodussi a nejpohodlnejsi.</p>
+        <p class="section-subtitle reveal reveal-d2">Snažím se, aby spolupráce byla co nejjednodušší a nejpohodlnější.</p>
         <div class="process-grid">
             <div class="process-card reveal reveal-d1">
-            <span class="process-num">01 / PRVNI KONTAKT</span>
-            <h3 class="process-title">Prvni kontakt</h3>
-            <p class="process-desc">Zavolejte nebo napiste -- bezplatne probereme vasi situaci a potreby.</p>
+            <span class="process-num">01 / PRVNÍ KONTAKT</span>
+            <h3 class="process-title">První kontakt</h3>
+            <p class="process-desc">Zavolejte nebo napište -- bezplatně probereme vaši situaci a potřeby.</p>
         </div>
 <div class="process-card reveal reveal-d2">
-            <span class="process-num">02 / ZPRACOVANI</span>
-            <h3 class="process-title">Zpracovani</h3>
+            <span class="process-num">02 / ZPRACOVÁNÍ</span>
+            <h3 class="process-title">Zpracování</h3>
             <p class="process-desc">Dodate podklady a ja se postarám o vsechna podani spravne a vcas.</p>
         </div>
 <div class="process-card reveal reveal-d3">
             <span class="process-num">03 / HOTOVO</span>
             <h3 class="process-title">Hotovo</h3>
-            <p class="process-desc">Informuji vas o vysledku a jsem k dispozici pro dalsi dotazy a konzultace.</p>
+            <p class="process-desc">Informují vás o výsledku a jsem k dispozici pro další dotazy a konzultace.</p>
         </div>
 
         </div>
     </div>
 </section>
+
+
 
 <!-- CONTACT — DARK CARD -->
 <section class="contact-wrapper" id="kontakt">
@@ -856,7 +903,7 @@
         <div class="contact-card-inner">
             <div class="contact-heading">
                 <div class="section-label reveal">KONTAKT</div>
-                <h2 class="section-title reveal reveal-d1">Napiste mi</h2>
+                <h2 class="section-title reveal reveal-d1">Napište mi</h2>
             </div>
             <div class="contact-grid">
                 <dl class="contact-info-block reveal reveal-d2">
@@ -894,7 +941,7 @@
         <div class="footer-top">
             <div class="footer-brand">
                 <h3>Lenka Kleckova.</h3>
-                <p>Danovy poradce Lenka Kleckova v Liberci. Danove poradenstvi, danove uznani a ucetnictvi pro podnikatele a fyzicke osoby v Libereckem kraji.</p>
+                <p>Daňový poradce Lenka Klečková v Liberci. Daňové poradenství, daňové uznání a účetnictví pro podnikatele a fyzické osoby v Libereckém kraji.</p>
                 <div class="footer-status">
                     <div class="footer-status-dot"></div>
                     <span>K dispozici</span>

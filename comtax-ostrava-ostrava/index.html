@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Ing. Petra Beranova nabizi odborne danove poradenstvi v Ostrave. Danove optimalizace, ucetnictvi a mezinarodni zdaneni pro podnikatele v moravskoslezskem kraji.">
-    <title>Ing. Petra Beranova | Danovy poradce Ostrava</title>
+    <meta name="description" content="Ing. Petra Beranová nabízí odborně daňové poradenství v Ostravě. Daňové optimalizace, účetnictví a mezinárodní zdanění pro podnikatele v moravskoslezském kraji.">
+    <title>Ing. Petra Beranová | Daňový poradce Ostrava</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=DM%20Sans:wght@200;300;400;500;600;700;800&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
@@ -489,6 +489,51 @@
         }
 
         /* ═══ CONTACT — DARK CARD ═══ */
+        /* ═══ TESTIMONIALS ═══ */
+        .testimonials-section {
+            padding: clamp(80px, 12vh, 140px) clamp(24px, 4vw, 64px);
+            background: var(--bg-dark);
+            color: var(--text-on-dark);
+        }
+        .testimonials-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 24px;
+            margin-top: 48px;
+        }
+        .testimonial-card {
+            background: rgba(255,255,255,0.05);
+            border: 1px solid rgba(255,255,255,0.1);
+            border-radius: var(--radius-card);
+            padding: 36px 32px 28px;
+            display: flex; flex-direction: column; gap: 20px;
+            position: relative;
+        }
+        .testimonial-card::before {
+            content: '\201C';
+            font-family: var(--serif);
+            font-size: 5rem;
+            line-height: 1;
+            color: var(--accent);
+            opacity: 0.6;
+            position: absolute;
+            top: 12px; left: 28px;
+        }
+        .testimonial-text {
+            font-size: clamp(0.95rem, 1.5vw, 1.05rem);
+            line-height: 1.75;
+            color: rgba(242,240,233,0.85);
+            padding-top: 32px;
+            font-style: italic;
+        }
+        .testimonial-author {
+            font-size: 0.82rem;
+            font-weight: 600;
+            color: var(--accent);
+            letter-spacing: 0.06em;
+            text-transform: uppercase;
+        }
+
         .contact-wrapper {
             padding: clamp(60px, 10vh, 100px) clamp(24px, 4vw, 64px);
             background: var(--bg-warm);
@@ -727,8 +772,8 @@
             <span class="hero-heading">Daňové poradenství</span>
             <span class="hero-drama">Jistota.</span>
         </h1>
-        <p class="hero-sub">Profesionalni danove poradenstvi pro ostravske firmy a podnikatele s durazem na presnost a efektivitu.</p>
-        <a href="#kontakt" class="hero-cta">Ziskat poradenstvi</a>
+        <p class="hero-sub">Profesionální daňové poradenství pro ostravské firmy a podnikatele s důrazem na přesnost a efektivitu.</p>
+        <a href="#kontakt" class="hero-cta">Získat poradenství</a>
         <div class="hero-stats">
             <div>
             <div class="hero-stat-num">190+</div>
@@ -751,38 +796,38 @@
 <section class="section-light" id="sluzby">
     <div class="section-inner">
         <div class="section-label reveal">NASE SLUZBY</div>
-        <h2 class="section-title reveal reveal-d1">Komplexni danove reseni pro Ostravske firmy</h2>
-        <p class="section-subtitle reveal reveal-d2">Siroke spektrum danovych sluzeb pro podnikatele a spolecnosti v moravskoslezskem kraji.</p>
+        <h2 class="section-title reveal reveal-d1">Komplexní daňové řešení pro Ostravské firmy</h2>
+        <p class="section-subtitle reveal reveal-d2">Široké spektrum daňových služeb pro podnikatele a společnosti v moravskoslezském kraji.</p>
         <div class="services-grid">
             <div class="service-card reveal reveal-d1">
             <div class="service-icon"><span>01</span></div>
-            <h3 class="service-title">Danove poradenstvi PO</h3>
-            <p class="service-desc">Odborne poradenstvi pro pravnicke osoby vcetne danove optimalizace a planovani.</p>
+            <h3 class="service-title">Daňové poradenství PO</h3>
+            <p class="service-desc">Odborné poradenství pro právnické osoby včetně daňové optimalizace a plánování.</p>
         </div>
 <div class="service-card reveal reveal-d2">
             <div class="service-icon"><span>02</span></div>
-            <h3 class="service-title">Danove poradenstvi FO</h3>
+            <h3 class="service-title">Daňové poradenství FO</h3>
             <p class="service-desc">Komplexni poradenstvi pro fyzicke osoby a OSVČ vcetne zpracovani danovych priznanich.</p>
         </div>
 <div class="service-card reveal reveal-d3">
             <div class="service-icon"><span>03</span></div>
-            <h3 class="service-title">Mezinarodni zdaneni</h3>
-            <p class="service-desc">Poradenstvi k mezinarodnim danovym strukturam, smlouvam a zdaneni zahranicnich prijmu.</p>
+            <h3 class="service-title">Mezinárodní zdanění</h3>
+            <p class="service-desc">Poradenství k mezinárodním daňovým strukturám, smlouvám a zdanění zahraničních příjmů.</p>
         </div>
 <div class="service-card reveal reveal-d4">
             <div class="service-icon"><span>04</span></div>
-            <h3 class="service-title">DPH a hlaseni</h3>
-            <p class="service-desc">Kompletni sprava DPH, podani hlaseni a poradenstvi ke slozitym DPH situacim.</p>
+            <h3 class="service-title">DPH a hlášení</h3>
+            <p class="service-desc">Kompletní správa DPH, podání hlášení a poradenství ke složitým DPH situacím.</p>
         </div>
 <div class="service-card reveal reveal-d4">
             <div class="service-icon"><span>05</span></div>
-            <h3 class="service-title">Ucetni sluzby</h3>
-            <p class="service-desc">Vedeni ucetnictvi, zpracovani ucetnich zaverrek a financnich vykazu pro vasi spolecnost.</p>
+            <h3 class="service-title">Účetní služby</h3>
+            <p class="service-desc">Vedení účetnictví, zpracování účetních zaverrek a finančních výkazů pro vaši společnost.</p>
         </div>
 <div class="service-card reveal reveal-d4">
             <div class="service-icon"><span>06</span></div>
-            <h3 class="service-title">Danove kontroly</h3>
-            <p class="service-desc">Zastupovani a efektivni podpora pri danowych kontrolach a komunikaci s financnim uradem.</p>
+            <h3 class="service-title">Daňové kontroly</h3>
+            <p class="service-desc">Zastupování a efektivní podpora při danowych kontrolách a komunikaci s finančním úřadem.</p>
         </div>
 
         </div>
@@ -795,8 +840,8 @@
     <div class="about-glow about-glow-2"></div>
     <div class="dot-grid"></div>
     <div class="about-inner">
-        <p class="about-intro reveal">ComTax Ostrava je spolehlivou kancelarim danovych poradcu se zamena na podnikatele v moravskoslezskem kraji. Nase znalosti ceskeho danoveho prawa a mistnich specifik jsou vasou silou.</p>
-        <h2 class="about-drama reveal reveal-d1">Vase danove zabezpeceni v Ostrave</h2>
+        <p class="about-intro reveal">ComTax Ostrava je spolehlivou kancelářím daňových poradců se záměna na podnikatele v moravskoslezském kraji. Naše znalosti českého daňového prawa a místních specifik jsou vášou silou.</p>
+        <h2 class="about-drama reveal reveal-d1">Vaše daňové zabezpečení v Ostravě</h2>
     </div>
 </section>
 
@@ -827,28 +872,30 @@
 <section class="section-light" style="padding-top: 0;">
     <div class="section-inner">
         <div class="section-label reveal">POSTUP SPOLUPRACE</div>
-        <h2 class="section-title reveal reveal-d1">Strukturovana cesta k reseni</h2>
-        <p class="section-subtitle reveal reveal-d2">Efektivni a transparentni postup od prvnich slova az po hotovy vysledek.</p>
+        <h2 class="section-title reveal reveal-d1">Strukturovaná cesta k řešení</h2>
+        <p class="section-subtitle reveal reveal-d2">Efektivní a transparentní postup od prvních slova až po hotový výsledek.</p>
         <div class="process-grid">
             <div class="process-card reveal reveal-d1">
-            <span class="process-num">01 / UVODNI KONZULTACE</span>
-            <h3 class="process-title">Uvodni konzultace</h3>
-            <p class="process-desc">Bezplatna konzultace k vasemu danovemu pripadu a navrh moznosti efektivni spoluprace.</p>
+            <span class="process-num">01 / ÚVODNÍ KONZULTACE</span>
+            <h3 class="process-title">Úvodní konzultace</h3>
+            <p class="process-desc">Bezplatná konzultace k vašemu daňovému případu a návrh možností efektivní spolupráce.</p>
         </div>
 <div class="process-card reveal reveal-d2">
-            <span class="process-num">02 / SBER A ANALYZA</span>
-            <h3 class="process-title">Sber a analyza</h3>
-            <p class="process-desc">Systemove shromazdeni podkladu, jejich analyza a navrh optimalnich danovych reseni.</p>
+            <span class="process-num">02 / SBĚR A ANALÝZA</span>
+            <h3 class="process-title">Sběr a analýza</h3>
+            <p class="process-desc">Systémové shromáždění podkladů, jejich analýza a návrh optimálních daňových řešení.</p>
         </div>
 <div class="process-card reveal reveal-d3">
             <span class="process-num">03 / REALIZACE A SERVIS</span>
             <h3 class="process-title">Realizace a servis</h3>
-            <p class="process-desc">Vcasne podani vsech danovych povinnosti a aktivni informovani o zmenach ovlivnujicich vasi firmu.</p>
+            <p class="process-desc">Včasné podání všech daňových povinností a aktivní informováni o změnách ovlivňujících vaši firmu.</p>
         </div>
 
         </div>
     </div>
 </section>
+
+
 
 <!-- CONTACT — DARK CARD -->
 <section class="contact-wrapper" id="kontakt">
@@ -894,7 +941,7 @@
         <div class="footer-top">
             <div class="footer-brand">
                 <h3>ComTax Ostrava.</h3>
-                <p>Ing. Petra Beranova nabizi odborne danove poradenstvi v Ostrave. Danove optimalizace, ucetnictvi a mezinarodni zdaneni pro podnikatele v moravskoslezskem kraji.</p>
+                <p>Ing. Petra Beranová nabízí odborně daňové poradenství v Ostravě. Daňové optimalizace, účetnictví a mezinárodní zdanění pro podnikatele v moravskoslezském kraji.</p>
                 <div class="footer-status">
                     <div class="footer-status-dot"></div>
                     <span>K dispozici</span>

@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Ing. Veronika Kucharova, danovy poradce Chrastany. Odborne danove poradenstvi a ucetni sluzby pro podnikatele v Chrastanech a okoli.">
-    <title>Ing. Veronika Kucharova -- Danove poradenstvi Chrastany</title>
+    <meta name="description" content="Ing. Veronika Kuchařová, daňový poradce Chrastany. Odborné daňové poradenství a účetní služby pro podnikatele v Chrastanech a okolí.">
+    <title>Ing. Veronika Kuchařová -- Daňové poradenství Chrastany</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Playfair%20Display:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=DM%20Sans:wght@200;300;400;500;600;700;800&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
@@ -489,6 +489,51 @@
         }
 
         /* ═══ CONTACT — DARK CARD ═══ */
+        /* ═══ TESTIMONIALS ═══ */
+        .testimonials-section {
+            padding: clamp(80px, 12vh, 140px) clamp(24px, 4vw, 64px);
+            background: var(--bg-dark);
+            color: var(--text-on-dark);
+        }
+        .testimonials-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 24px;
+            margin-top: 48px;
+        }
+        .testimonial-card {
+            background: rgba(255,255,255,0.05);
+            border: 1px solid rgba(255,255,255,0.1);
+            border-radius: var(--radius-card);
+            padding: 36px 32px 28px;
+            display: flex; flex-direction: column; gap: 20px;
+            position: relative;
+        }
+        .testimonial-card::before {
+            content: '\201C';
+            font-family: var(--serif);
+            font-size: 5rem;
+            line-height: 1;
+            color: var(--accent);
+            opacity: 0.6;
+            position: absolute;
+            top: 12px; left: 28px;
+        }
+        .testimonial-text {
+            font-size: clamp(0.95rem, 1.5vw, 1.05rem);
+            line-height: 1.75;
+            color: rgba(242,240,233,0.85);
+            padding-top: 32px;
+            font-style: italic;
+        }
+        .testimonial-author {
+            font-size: 0.82rem;
+            font-weight: 600;
+            color: var(--accent);
+            letter-spacing: 0.06em;
+            text-transform: uppercase;
+        }
+
         .contact-wrapper {
             padding: clamp(60px, 10vh, 100px) clamp(24px, 4vw, 64px);
             background: var(--bg-warm);
@@ -724,15 +769,15 @@
     <div class="hero-glow hero-glow-2"></div>
     <div class="hero-content">
         <h1>
-            <span class="hero-heading">Dane se srdcem na spravnem miste</span>
+            <span class="hero-heading">Daně se srdcem na správném místě</span>
             <span class="hero-drama">Pece.</span>
         </h1>
-        <p class="hero-sub">Ing. Veronika Kucharova nabizi v Chrastanech a okoli danove poradenstvi s osobnim pristupem a durazem na spolehlive a vcasne plneni vsech povinnosti.</p>
-        <a href="#kontakt" class="hero-cta">Ziskat konzultaci</a>
+        <p class="hero-sub">Ing. Veronika Kuchařová nabízí v Chrastanech a okolí daňové poradenství s osobním přístupem a důrazem na spolehlivé a včasné plnění všech povinností.</p>
+        <a href="#kontakt" class="hero-cta">Získat konzultaci</a>
         <div class="hero-stats">
             <div>
             <div class="hero-stat-num">80+</div>
-            <div class="hero-stat-label">spokojanych klientu</div>
+            <div class="hero-stat-label">spokojanych klientů</div>
         </div>
 <div>
             <div class="hero-stat-num">9+</div>
@@ -752,37 +797,37 @@
     <div class="section-inner">
         <div class="section-label reveal">NASE SLUZBY</div>
         <h2 class="section-title reveal reveal-d1">Danové a ucetni sluzby pro vas region</h2>
-        <p class="section-subtitle reveal reveal-d2">Lokalni znalost s odbornymi znalostmi pro podnikatele v Chrastanech a Stredoceskem kraji.</p>
+        <p class="section-subtitle reveal reveal-d2">Lokální znalost s odbornými znalostmi pro podnikatele v Chrastanech a Středočeském kraji.</p>
         <div class="services-grid">
             <div class="service-card reveal reveal-d1">
             <div class="service-icon"><span>01</span></div>
-            <h3 class="service-title">Danove poradenstvi</h3>
-            <p class="service-desc">Osobni danove poradenstvi pro OSVC a mensi firmy s durazem na spory.</p>
+            <h3 class="service-title">Daňové poradenství</h3>
+            <p class="service-desc">Osobní daňové poradenství pro OSVČ a menší firmy s důrazem na spory.</p>
         </div>
 <div class="service-card reveal reveal-d2">
             <div class="service-icon"><span>02</span></div>
-            <h3 class="service-title">Danove prizna</h3>
+            <h3 class="service-title">Daňové přizná</h3>
             <p class="service-desc">Zpracovani danovych proznani k dani z príjmu, DPH a dalším.</p>
         </div>
 <div class="service-card reveal reveal-d3">
             <div class="service-icon"><span>03</span></div>
-            <h3 class="service-title">Vedeni ucetnictvi</h3>
-            <p class="service-desc">Vedeni jednoducheho a podvojneho ucetnictvi s pravidelnou komunikaci.</p>
+            <h3 class="service-title">Vedení účetnictví</h3>
+            <p class="service-desc">Vedení jednoduchého a podvojného účetnictví s pravidelnou komunikací.</p>
         </div>
 <div class="service-card reveal reveal-d4">
             <div class="service-icon"><span>04</span></div>
-            <h3 class="service-title">Mzdove sluzby</h3>
-            <p class="service-desc">Zpracovani mezd a personalni agenda pro mala podnikani a firmy.</p>
+            <h3 class="service-title">Mzdové služby</h3>
+            <p class="service-desc">Zpracování mezd a personální agenda pro malá podnikání a firmy.</p>
         </div>
 <div class="service-card reveal reveal-d4">
             <div class="service-icon"><span>05</span></div>
-            <h3 class="service-title">Zastupovani pred FU</h3>
-            <p class="service-desc">Zastupovani klientu pri jednanich s financnim uradem a statnimi institucemi.</p>
+            <h3 class="service-title">Zastupování před FU</h3>
+            <p class="service-desc">Zastupování klientů při jednáních s finančním úřadem a státními institucemi.</p>
         </div>
 <div class="service-card reveal reveal-d4">
             <div class="service-icon"><span>06</span></div>
-            <h3 class="service-title">Danove planovani</h3>
-            <p class="service-desc">Konzultace a planovani k minimalizaci legalni danove zateze.</p>
+            <h3 class="service-title">Daňové plánování</h3>
+            <p class="service-desc">Konzultace a plánování k minimalizaci legální daňové zátěže.</p>
         </div>
 
         </div>
@@ -808,7 +853,7 @@
         <div class="stats-grid">
             <div class="stat-card reveal reveal-d1">
             <div class="stat-number" data-count="80" data-suffix="+">0+</div>
-            <div class="stat-label">spokojanych klientu</div>
+            <div class="stat-label">spokojanych klientů</div>
         </div>
 <div class="stat-card reveal reveal-d2">
             <div class="stat-number" data-count="9" data-suffix="+">0+</div>
@@ -831,24 +876,26 @@
         <p class="section-subtitle reveal reveal-d2">Jednoduchý postup s osobnim pristupem a jasnou komunikaci.</p>
         <div class="process-grid">
             <div class="process-card reveal reveal-d1">
-            <span class="process-num">01 / SETKANI A ANALYZA</span>
-            <h3 class="process-title">Setkani a analyza</h3>
-            <p class="process-desc">Osobne si probreme vasi situaci a potreby.</p>
+            <span class="process-num">01 / SETKÁNÍ A ANALÝZA</span>
+            <h3 class="process-title">Setkání a analýza</h3>
+            <p class="process-desc">Osobně si probreme vaši situaci a potřeby.</p>
         </div>
 <div class="process-card reveal reveal-d2">
-            <span class="process-num">02 / ZPRACOVANI A OPTIMAL</span>
-            <h3 class="process-title">Zpracovani a optimalizace</h3>
-            <p class="process-desc">Postarame se o vsechny danove povinnosti a minimalizujeme zatez.</p>
+            <span class="process-num">02 / ZPRACOVÁNÍ A OPTIMAL</span>
+            <h3 class="process-title">Zpracování a optimalizace</h3>
+            <p class="process-desc">Postaráme se o všechny daňové povinnosti a minimalizujeme zátěž.</p>
         </div>
 <div class="process-card reveal reveal-d3">
             <span class="process-num">03 / PODPORA A MONITORING</span>
             <h3 class="process-title">Podpora a monitoring</h3>
-            <p class="process-desc">Jsme tu pro vas prubezne a informujeme o dulezitych zmenach.</p>
+            <p class="process-desc">Jsme tu pro vás průběžně a informujeme o důležitých změnách.</p>
         </div>
 
         </div>
     </div>
 </section>
+
+
 
 <!-- CONTACT — DARK CARD -->
 <section class="contact-wrapper" id="kontakt">
@@ -856,7 +903,7 @@
         <div class="contact-card-inner">
             <div class="contact-heading">
                 <div class="section-label reveal">KONTAKT</div>
-                <h2 class="section-title reveal reveal-d1">Ozvetle se nam</h2>
+                <h2 class="section-title reveal reveal-d1">Ozvetle se nám</h2>
             </div>
             <div class="contact-grid">
                 <dl class="contact-info-block reveal reveal-d2">
@@ -894,7 +941,7 @@
         <div class="footer-top">
             <div class="footer-brand">
                 <h3>Kucharova Dane.</h3>
-                <p>Ing. Veronika Kucharova, danovy poradce Chrastany. Odborne danove poradenstvi a ucetni sluzby pro podnikatele v Chrastanech a okoli.</p>
+                <p>Ing. Veronika Kuchařová, daňový poradce Chrastany. Odborné daňové poradenství a účetní služby pro podnikatele v Chrastanech a okolí.</p>
                 <div class="footer-status">
                     <div class="footer-status-dot"></div>
                     <span>K dispozici</span>

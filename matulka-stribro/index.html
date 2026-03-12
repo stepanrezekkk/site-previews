@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Danove poradenstvi ve Stribre. Ing. Felix Matulka nabizi osobni pristup a odbornost v oblasti dani pro fyzicke i pravnicke osoby.">
-    <title>Matulka — Danovy poradce Stribro</title>
+    <meta name="description" content="Daňové poradenství ve Stříbře. Ing. Felix Matulka nabízí osobní přístup a odbornost v oblasti daní pro fyzické i právnické osoby.">
+    <title>Matulka — Daňový poradce Stříbro</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Playfair%20Display:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=DM%20Sans:wght@200;300;400;500;600;700;800&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
@@ -489,6 +489,51 @@
         }
 
         /* ═══ CONTACT — DARK CARD ═══ */
+        /* ═══ TESTIMONIALS ═══ */
+        .testimonials-section {
+            padding: clamp(80px, 12vh, 140px) clamp(24px, 4vw, 64px);
+            background: var(--bg-dark);
+            color: var(--text-on-dark);
+        }
+        .testimonials-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 24px;
+            margin-top: 48px;
+        }
+        .testimonial-card {
+            background: rgba(255,255,255,0.05);
+            border: 1px solid rgba(255,255,255,0.1);
+            border-radius: var(--radius-card);
+            padding: 36px 32px 28px;
+            display: flex; flex-direction: column; gap: 20px;
+            position: relative;
+        }
+        .testimonial-card::before {
+            content: '\201C';
+            font-family: var(--serif);
+            font-size: 5rem;
+            line-height: 1;
+            color: var(--accent);
+            opacity: 0.6;
+            position: absolute;
+            top: 12px; left: 28px;
+        }
+        .testimonial-text {
+            font-size: clamp(0.95rem, 1.5vw, 1.05rem);
+            line-height: 1.75;
+            color: rgba(242,240,233,0.85);
+            padding-top: 32px;
+            font-style: italic;
+        }
+        .testimonial-author {
+            font-size: 0.82rem;
+            font-weight: 600;
+            color: var(--accent);
+            letter-spacing: 0.06em;
+            text-transform: uppercase;
+        }
+
         .contact-wrapper {
             padding: clamp(60px, 10vh, 100px) clamp(24px, 4vw, 64px);
             background: var(--bg-warm);
@@ -724,10 +769,10 @@
     <div class="hero-glow hero-glow-2"></div>
     <div class="hero-content">
         <h1>
-            <span class="hero-heading">Osobni danova pece ve vasem meste</span>
-            <span class="hero-drama">Duslednost.</span>
+            <span class="hero-heading">Osobní daňová péče ve vašem městě</span>
+            <span class="hero-drama">Důslednost.</span>
         </h1>
-        <p class="hero-sub">Danovy poradce ve Stribre, ktery zna vasi situaci a postara se o vase dane s maximalni duslednosti.</p>
+        <p class="hero-sub">Daňový poradce ve Stříbře, který zná vaši situaci a postará se o vaše daně s maximální důsledností.</p>
         <a href="#kontakt" class="hero-cta">Konzultace zdarma</a>
         <div class="hero-stats">
             <div>
@@ -736,11 +781,11 @@
         </div>
 <div>
             <div class="hero-stat-num">140+</div>
-            <div class="hero-stat-label">spokojenych klientu</div>
+            <div class="hero-stat-label">spokojených klientů</div>
         </div>
 <div>
             <div class="hero-stat-num">98%</div>
-            <div class="hero-stat-label">vcasnost podani</div>
+            <div class="hero-stat-label">včasnost podání</div>
         </div>
 
         </div>
@@ -751,28 +796,28 @@
 <section class="section-light" id="sluzby">
     <div class="section-inner">
         <div class="section-label reveal">NASE SLUZBY</div>
-        <h2 class="section-title reveal reveal-d1">Sluzby sity na miru</h2>
-        <p class="section-subtitle reveal reveal-d2">Nabizime komplexni danove sluzby pro podnikatele a obcany v regionu Stribro.</p>
+        <h2 class="section-title reveal reveal-d1">Služby šity na míru</h2>
+        <p class="section-subtitle reveal reveal-d2">Nabízíme komplexní daňové služby pro podnikatele a občany v regionu Stříbro.</p>
         <div class="services-grid">
             <div class="service-card reveal reveal-d1">
             <div class="service-icon"><span>01</span></div>
             <h3 class="service-title">Zpracujeme účetnictví, daň. evidenci, mzdy, DPH, personální agendu.</h3>
-            <p class="service-desc">Zpracovani danovych priznani pro fyzicke i pravnicke osoby s maximalni presnosti.</p>
+            <p class="service-desc">Zpracování daňových přiznání pro fyzické i právnické osoby s maximální přesností.</p>
         </div>
 <div class="service-card reveal reveal-d2">
             <div class="service-icon"><span>02</span></div>
             <h3 class="service-title">Poskytneme účetní poradenství, poradíme s optimalizací daň. základu.</h3>
-            <p class="service-desc">Osobni konzultace k danovym otazkam, planovani a rizikum specificke pro vas pripad.</p>
+            <p class="service-desc">Osobní konzultace k daňovým otázkám, plánování a rizikům specifické pro váš případ.</p>
         </div>
 <div class="service-card reveal reveal-d3">
             <div class="service-icon"><span>03</span></div>
             <h3 class="service-title">Vyřídíme Vaši korespondenci, vystavíme faktury, příkazy k úhradě.</h3>
-            <p class="service-desc">Zastoupeni pri danovych kontrolach a jednani s financnim uradem.</p>
+            <p class="service-desc">Zastoupení při daňových kontrolách a jednání s finančním úřadem.</p>
         </div>
 <div class="service-card reveal reveal-d4">
             <div class="service-icon"><span>04</span></div>
             <h3 class="service-title">Zastoupíme Vás při komunikaci s úřady a daňových kontrolách.</h3>
-            <p class="service-desc">Vedeni ucetnictvi a ekonomicke agendy jako podkladu pro spravne danove vypocty.</p>
+            <p class="service-desc">Vedení účetnictví a ekonomické agendy jako podkladu pro správné daňové výpočty.</p>
         </div>
 
         </div>
@@ -802,11 +847,11 @@
         </div>
 <div class="stat-card reveal reveal-d2">
             <div class="stat-number" data-count="140" data-suffix="+">0+</div>
-            <div class="stat-label">spokojenych klientu</div>
+            <div class="stat-label">spokojených klientů</div>
         </div>
 <div class="stat-card reveal reveal-d3">
             <div class="stat-number" data-count="98" data-suffix="%">0%</div>
-            <div class="stat-label">vcasnost podani</div>
+            <div class="stat-label">včasnost podání</div>
         </div>
 
         </div>
@@ -817,22 +862,22 @@
 <section class="section-light" style="padding-top: 0;">
     <div class="section-inner">
         <div class="section-label reveal">JAK PRACUJEME</div>
-        <h2 class="section-title reveal reveal-d1">Jednoduchy a osobni postup</h2>
-        <p class="section-subtitle reveal reveal-d2">U nas neni klient cislo, ale partner s kterm spolupracujeme dlouhodoce.</p>
+        <h2 class="section-title reveal reveal-d1">Jednoduchý a osobní postup</h2>
+        <p class="section-subtitle reveal reveal-d2">U nás není klient číslo, ale partner s kterm spolupracujeme dlouhodoce.</p>
         <div class="process-grid">
             <div class="process-card reveal reveal-d1">
-            <span class="process-num">01 / OSOBNI SETKANI</span>
-            <h3 class="process-title">Osobni setkani</h3>
+            <span class="process-num">01 / OSOBNÍ SETKÁNÍ</span>
+            <h3 class="process-title">Osobní setkání</h3>
             <p class="process-desc">Sejdeme se, poznáme vasi situaci a navrhneme nejlepsi danov postup.</p>
         </div>
 <div class="process-card reveal reveal-d2">
-            <span class="process-num">02 / ZPRACOVANI A PODANI</span>
-            <h3 class="process-title">Zpracovani a podani</h3>
+            <span class="process-num">02 / ZPRACOVÁNÍ A PODÁNÍ</span>
+            <h3 class="process-title">Zpracování a podání</h3>
             <p class="process-desc">Postaráme se o vsechna podani, komunikaci s urady a optimalizaci dañové povinnosti.</p>
         </div>
 <div class="process-card reveal reveal-d3">
-            <span class="process-num">03 / DLOUHODOBY DOPROVOD</span>
-            <h3 class="process-title">Dlouhodoby doprovod</h3>
+            <span class="process-num">03 / DLOUHODOBÝ DOPROVOD</span>
+            <h3 class="process-title">Dlouhodobý doprovod</h3>
             <p class="process-desc">Jsme tu pro vas i po podáni, kdy se objevi dalsi dotazy nebo zmeny v legislativě.</p>
         </div>
 
@@ -840,13 +885,15 @@
     </div>
 </section>
 
+
+
 <!-- CONTACT — DARK CARD -->
 <section class="contact-wrapper" id="kontakt">
     <div class="contact-card">
         <div class="contact-card-inner">
             <div class="contact-heading">
                 <div class="section-label reveal">KONTAKT</div>
-                <h2 class="section-title reveal reveal-d1">Pojdme spolupracovat</h2>
+                <h2 class="section-title reveal reveal-d1">Pojďme spolupracovat</h2>
             </div>
             <div class="contact-grid">
                 <dl class="contact-info-block reveal reveal-d2">
@@ -869,7 +916,7 @@
                         <textarea placeholder="Jak vám můžeme pomoci?"></textarea>
                     </div>
                     <button type="submit" class="form-submit">
-                        Odeslat zpravu
+                        Odeslat zprávu
                         <svg width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 8h10M9 4l4 4-4 4"/></svg>
                     </button>
                 </form>
@@ -884,7 +931,7 @@
         <div class="footer-top">
             <div class="footer-brand">
                 <h3>Matulka.</h3>
-                <p>Danove poradenstvi ve Stribre. Ing. Felix Matulka nabizi osobni pristup a odbornost v oblasti dani pro fyzicke i pravnicke osoby.</p>
+                <p>Daňové poradenství ve Stříbře. Ing. Felix Matulka nabízí osobní přístup a odbornost v oblasti daní pro fyzické i právnické osoby.</p>
                 <div class="footer-status">
                     <div class="footer-status-dot"></div>
                     <span>K dispozici</span>

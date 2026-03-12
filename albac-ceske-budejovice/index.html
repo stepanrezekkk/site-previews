@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Danove a ucetni poradenstvi Ceske Budejovice. Ing. Blanka Vitovcova z Albac nabizi profesionalni danove sluzby pro firmy i jednotlivce.">
-    <title>Ing. Blanka Vitovcova — Albac Ceske Budejovice</title>
+    <meta name="description" content="Daňové a účetní poradenství České Budějovice. Ing. Blanka Vítovcová z Albac nabízí profesionální daňové služby pro firmy i jednotlivce.">
+    <title>Ing. Blanka Vítovcová — Albac České Budějovice</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Playfair%20Display:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=DM%20Sans:wght@200;300;400;500;600;700;800&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
@@ -489,6 +489,51 @@
         }
 
         /* ═══ CONTACT — DARK CARD ═══ */
+        /* ═══ TESTIMONIALS ═══ */
+        .testimonials-section {
+            padding: clamp(80px, 12vh, 140px) clamp(24px, 4vw, 64px);
+            background: var(--bg-dark);
+            color: var(--text-on-dark);
+        }
+        .testimonials-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 24px;
+            margin-top: 48px;
+        }
+        .testimonial-card {
+            background: rgba(255,255,255,0.05);
+            border: 1px solid rgba(255,255,255,0.1);
+            border-radius: var(--radius-card);
+            padding: 36px 32px 28px;
+            display: flex; flex-direction: column; gap: 20px;
+            position: relative;
+        }
+        .testimonial-card::before {
+            content: '\201C';
+            font-family: var(--serif);
+            font-size: 5rem;
+            line-height: 1;
+            color: var(--accent);
+            opacity: 0.6;
+            position: absolute;
+            top: 12px; left: 28px;
+        }
+        .testimonial-text {
+            font-size: clamp(0.95rem, 1.5vw, 1.05rem);
+            line-height: 1.75;
+            color: rgba(242,240,233,0.85);
+            padding-top: 32px;
+            font-style: italic;
+        }
+        .testimonial-author {
+            font-size: 0.82rem;
+            font-weight: 600;
+            color: var(--accent);
+            letter-spacing: 0.06em;
+            text-transform: uppercase;
+        }
+
         .contact-wrapper {
             padding: clamp(60px, 10vh, 100px) clamp(24px, 4vw, 64px);
             background: var(--bg-warm);
@@ -725,14 +770,14 @@
     <div class="hero-content">
         <h1>
             <span class="hero-heading">Účetnictví České Budějovice | ALBAC</span>
-            <span class="hero-drama">Rovnovaha.</span>
+            <span class="hero-drama">Rovnováha.</span>
         </h1>
         <p class="hero-sub">Odborne danové a ucetni poradenstvi spolecnosti Albac v Ceskych Budejovicich pro podnikatele i fyzicke osoby.</p>
-        <a href="#kontakt" class="hero-cta">Ziskat nabidku</a>
+        <a href="#kontakt" class="hero-cta">Získat nabídku</a>
         <div class="hero-stats">
             <div>
             <div class="hero-stat-num">320+</div>
-            <div class="hero-stat-label">spokojenych klientu</div>
+            <div class="hero-stat-label">spokojených klientů</div>
         </div>
 <div>
             <div class="hero-stat-num">16+</div>
@@ -740,7 +785,7 @@
         </div>
 <div>
             <div class="hero-stat-num">98%</div>
-            <div class="hero-stat-label">spokojenost klientu</div>
+            <div class="hero-stat-label">spokojenost klientů</div>
         </div>
 
         </div>
@@ -751,8 +796,8 @@
 <section class="section-light" id="sluzby">
     <div class="section-inner">
         <div class="section-label reveal">NASE SLUZBY</div>
-        <h2 class="section-title reveal reveal-d1">Komplexni financni sluzby</h2>
-        <p class="section-subtitle reveal reveal-d2">Siroke spektrum ucetnich a danovych sluzeb pod jednou strechou.</p>
+        <h2 class="section-title reveal reveal-d1">Komplexní finanční služby</h2>
+        <p class="section-subtitle reveal reveal-d2">Široké spektrum účetních a daňových služeb pod jednou střechou.</p>
         <div class="services-grid">
             <div class="service-card reveal reveal-d1">
             <div class="service-icon"><span>01</span></div>
@@ -762,12 +807,12 @@
 <div class="service-card reveal reveal-d2">
             <div class="service-icon"><span>02</span></div>
             <h3 class="service-title">DAŇOVÉ PORADENSTVÍ</h3>
-            <p class="service-desc">Odborne poradenstvi v oblasti ceskeho danoveho prava a optimalizace danove zatize.</p>
+            <p class="service-desc">Odborné poradenství v oblasti českého daňového práva a optimalizace daňové zatize.</p>
         </div>
 <div class="service-card reveal reveal-d3">
             <div class="service-icon"><span>03</span></div>
             <h3 class="service-title">ÚČETNICTVÍ</h3>
-            <p class="service-desc">Zpracovani mezd, prihlaseni zamestnance a vyuctovani zdravotniho a socialniho pojisteni.</p>
+            <p class="service-desc">Zpracování mezd, přihlášení zaměstnance a vyúčtování zdravotního a sociálního pojištění.</p>
         </div>
 <div class="service-card reveal reveal-d4">
             <div class="service-icon"><span>04</span></div>
@@ -786,7 +831,7 @@
     <div class="dot-grid"></div>
     <div class="about-inner">
         <p class="about-intro reveal">Ing. Blanka Vitovcova vede tim Albac v Ceskych Budejovicich s dlohodobou tradicí profesionalniho pristupuhu ke kazdemu klientovi a jeho financim.</p>
-        <h2 class="about-drama reveal reveal-d1">Budejovicka odbornost pro vas byznys</h2>
+        <h2 class="about-drama reveal reveal-d1">Budějovická odbornost pro vás byznys</h2>
     </div>
 </section>
 
@@ -798,7 +843,7 @@
         <div class="stats-grid">
             <div class="stat-card reveal reveal-d1">
             <div class="stat-number" data-count="320" data-suffix="+">0+</div>
-            <div class="stat-label">spokojenych klientu</div>
+            <div class="stat-label">spokojených klientů</div>
         </div>
 <div class="stat-card reveal reveal-d2">
             <div class="stat-number" data-count="16" data-suffix="+">0+</div>
@@ -806,7 +851,7 @@
         </div>
 <div class="stat-card reveal reveal-d3">
             <div class="stat-number" data-count="98" data-suffix="%">0%</div>
-            <div class="stat-label">spokojenost klientu</div>
+            <div class="stat-label">spokojenost klientů</div>
         </div>
 
         </div>
@@ -817,28 +862,30 @@
 <section class="section-light" style="padding-top: 0;">
     <div class="section-inner">
         <div class="section-label reveal">JAK PRACUJEME</div>
-        <h2 class="section-title reveal reveal-d1">Vas krok ke klidu</h2>
-        <p class="section-subtitle reveal reveal-d2">Nase spoluplace je nastavena na maximalni pohodli klienta.</p>
+        <h2 class="section-title reveal reveal-d1">Váš krok ke klidu</h2>
+        <p class="section-subtitle reveal reveal-d2">Naše spoluplace je nastavena na maximální pohodlí klienta.</p>
         <div class="process-grid">
             <div class="process-card reveal reveal-d1">
             <span class="process-num">01 / KONTAKT A KONZULTACE</span>
             <h3 class="process-title">Kontakt a konzultace</h3>
-            <p class="process-desc">Zdarma prodiskutujeme vase potreby a navrhnem vhodne reseni.</p>
+            <p class="process-desc">Zdarma prodiskutujeme vaše potřeby a navrhnem vhodné řešení.</p>
         </div>
 <div class="process-card reveal reveal-d2">
-            <span class="process-num">02 / NASTAVENI SLUZBY</span>
-            <h3 class="process-title">Nastaveni sluzby</h3>
-            <p class="process-desc">Pripravime smlouvu, nastavime procesy a zahajime vedeni vasi agendy.</p>
+            <span class="process-num">02 / NASTAVENÍ SLUŽBY</span>
+            <h3 class="process-title">Nastavení služby</h3>
+            <p class="process-desc">Připravíme smlouvu, nastavíme procesy a zahájíme vedení vaší agendy.</p>
         </div>
 <div class="process-card reveal reveal-d3">
             <span class="process-num">03 / PRAVIDELNÁ KOMUNIKAC</span>
             <h3 class="process-title">Pravidelná komunikace</h3>
-            <p class="process-desc">Udrzujeme pravidelny kontakt a informujeme o vsem dulezitem.</p>
+            <p class="process-desc">Udržujeme pravidelný kontakt a informujeme o všem důležitém.</p>
         </div>
 
         </div>
     </div>
 </section>
+
+
 
 <!-- CONTACT — DARK CARD -->
 <section class="contact-wrapper" id="kontakt">
@@ -846,7 +893,7 @@
         <div class="contact-card-inner">
             <div class="contact-heading">
                 <div class="section-label reveal">KONTAKT</div>
-                <h2 class="section-title reveal reveal-d1">Spojte se s nami</h2>
+                <h2 class="section-title reveal reveal-d1">Spojte se s námi</h2>
             </div>
             <div class="contact-grid">
                 <dl class="contact-info-block reveal reveal-d2">
@@ -884,7 +931,7 @@
         <div class="footer-top">
             <div class="footer-brand">
                 <h3>Albac.</h3>
-                <p>Danove a ucetni poradenstvi Ceske Budejovice. Ing. Blanka Vitovcova z Albac nabizi profesionalni danove sluzby pro firmy i jednotlivce.</p>
+                <p>Daňové a účetní poradenství České Budějovice. Ing. Blanka Vítovcová z Albac nabízí profesionální daňové služby pro firmy i jednotlivce.</p>
                 <div class="footer-status">
                     <div class="footer-status-dot"></div>
                     <span>K dispozici</span>

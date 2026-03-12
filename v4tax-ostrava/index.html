@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Akademicky vzdelany danovy poradce v Ostrave. Specializace na korporatni zdaneni, transferove ceny a mezinarodni danove pravo.">
-    <title>Ing. Michal Jelinek Ph.D. | Danovy poradce Ostrava</title>
+    <meta name="description" content="Akademicky vzdělaný daňový poradce v Ostravě. Specializace na korporátní zdanění, transferové ceny a mezinárodní daňové právo.">
+    <title>Ing. Michal Jelínek Ph.D. | Daňový poradce Ostrava</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Cormorant%20Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Plus%20Jakarta%20Sans:wght@200;300;400;500;600;700;800&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
@@ -489,6 +489,51 @@
         }
 
         /* ═══ CONTACT — DARK CARD ═══ */
+        /* ═══ TESTIMONIALS ═══ */
+        .testimonials-section {
+            padding: clamp(80px, 12vh, 140px) clamp(24px, 4vw, 64px);
+            background: var(--bg-dark);
+            color: var(--text-on-dark);
+        }
+        .testimonials-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 24px;
+            margin-top: 48px;
+        }
+        .testimonial-card {
+            background: rgba(255,255,255,0.05);
+            border: 1px solid rgba(255,255,255,0.1);
+            border-radius: var(--radius-card);
+            padding: 36px 32px 28px;
+            display: flex; flex-direction: column; gap: 20px;
+            position: relative;
+        }
+        .testimonial-card::before {
+            content: '\201C';
+            font-family: var(--serif);
+            font-size: 5rem;
+            line-height: 1;
+            color: var(--accent);
+            opacity: 0.6;
+            position: absolute;
+            top: 12px; left: 28px;
+        }
+        .testimonial-text {
+            font-size: clamp(0.95rem, 1.5vw, 1.05rem);
+            line-height: 1.75;
+            color: rgba(242,240,233,0.85);
+            padding-top: 32px;
+            font-style: italic;
+        }
+        .testimonial-author {
+            font-size: 0.82rem;
+            font-weight: 600;
+            color: var(--accent);
+            letter-spacing: 0.06em;
+            text-transform: uppercase;
+        }
+
         .contact-wrapper {
             padding: clamp(60px, 10vh, 100px) clamp(24px, 4vw, 64px);
             background: var(--bg-warm);
@@ -724,7 +769,7 @@
     <div class="hero-glow hero-glow-2"></div>
     <div class="hero-content">
         <h1>
-            <span class="hero-heading">Danove pravo na nejvyssi urovni</span>
+            <span class="hero-heading">Daňové právo na nejvyšší úrovni</span>
             <span class="hero-drama">Preciznost.</span>
         </h1>
         <p class="hero-sub">Akademicky pristup kombinovany s praxí garantuje danove reseni, ktere obstoji pri kazde kontrole.</p>
@@ -736,11 +781,11 @@
         </div>
 <div>
             <div class="hero-stat-num">120+</div>
-            <div class="hero-stat-label">firemnich klientu</div>
+            <div class="hero-stat-label">firemních klientů</div>
         </div>
 <div>
             <div class="hero-stat-num">40+</div>
-            <div class="hero-stat-label">publikaci a clanku</div>
+            <div class="hero-stat-label">publikací a článku</div>
         </div>
 
         </div>
@@ -751,23 +796,23 @@
 <section class="section-light" id="sluzby">
     <div class="section-inner">
         <div class="section-label reveal">NASE SLUZBY</div>
-        <h2 class="section-title reveal reveal-d1">Expertni danove poradenstvi pro firmy</h2>
-        <p class="section-subtitle reveal reveal-d2">Specializujeme se na slozite danove struktury a mezinarodni transakce.</p>
+        <h2 class="section-title reveal reveal-d1">Expertní daňové poradenství pro firmy</h2>
+        <p class="section-subtitle reveal reveal-d2">Specializujeme se na složité daňové struktury a mezinárodní transakce.</p>
         <div class="services-grid">
             <div class="service-card reveal reveal-d1">
             <div class="service-icon"><span>01</span></div>
             <h3 class="service-title">daňové poradenství</h3>
-            <p class="service-desc">Komplexni sprava dane z prijmu pravnickych osob, danove optimalizace a planovani.</p>
+            <p class="service-desc">Komplexní správa daně z příjmu právnických osob, daňové optimalizace a plánování.</p>
         </div>
 <div class="service-card reveal reveal-d2">
             <div class="service-icon"><span>02</span></div>
             <h3 class="service-title">mezinárodní zdaňování</h3>
-            <p class="service-desc">Dokumentace transferovych cen dle mezinarodnich standardu OECD a ceske legislativy.</p>
+            <p class="service-desc">Dokumentace transferových cen dle mezinárodních standardů OECD a české legislativy.</p>
         </div>
 <div class="service-card reveal reveal-d3">
             <div class="service-icon"><span>03</span></div>
             <h3 class="service-title">správa společností</h3>
-            <p class="service-desc">Poradenstvi pro holdingove struktury, zakladani zahranicnich entit a danove smlouvy.</p>
+            <p class="service-desc">Poradenství pro holdingové struktury, zakládání zahraničních entit a daňové smlouvy.</p>
         </div>
 <div class="service-card reveal reveal-d4">
             <div class="service-icon"><span>04</span></div>
@@ -786,7 +831,7 @@
     <div class="dot-grid"></div>
     <div class="about-inner">
         <p class="about-intro reveal">Ing. Michal Jelínek Ph.D. spojuje akademické vzdelani s reálnou poradenskym praxí. Jeho publikacni cinnost a pedagogicka zkusenost zaruci, ze vase danove reseni je vzdy aktualni a obhajitelne.</p>
-        <h2 class="about-drama reveal reveal-d1">Veda a praxe v jednom poradci</h2>
+        <h2 class="about-drama reveal reveal-d1">Věda a praxe v jednom poradci</h2>
     </div>
 </section>
 
@@ -802,11 +847,11 @@
         </div>
 <div class="stat-card reveal reveal-d2">
             <div class="stat-number" data-count="120" data-suffix="+">0+</div>
-            <div class="stat-label">firemnich klientu</div>
+            <div class="stat-label">firemních klientů</div>
         </div>
 <div class="stat-card reveal reveal-d3">
             <div class="stat-number" data-count="40" data-suffix="+">0+</div>
-            <div class="stat-label">publikaci a clanku</div>
+            <div class="stat-label">publikací a článku</div>
         </div>
 
         </div>
@@ -817,28 +862,30 @@
 <section class="section-light" style="padding-top: 0;">
     <div class="section-inner">
         <div class="section-label reveal">JAK PRACUJEME</div>
-        <h2 class="section-title reveal reveal-d1">Strukturovany pristup k vasim danim</h2>
-        <p class="section-subtitle reveal reveal-d2">Metodicky postup zajistuje spravnost a opakovatelnost vysledku.</p>
+        <h2 class="section-title reveal reveal-d1">Strukturovaný přístup k vašim daním</h2>
+        <p class="section-subtitle reveal reveal-d2">Metodický postup zajišťuje správnost a opakovatelnost výsledků.</p>
         <div class="process-grid">
             <div class="process-card reveal reveal-d1">
-            <span class="process-num">01 / ANALYZA SITUACE</span>
-            <h3 class="process-title">Analyza situace</h3>
+            <span class="process-num">01 / ANALÝZA SITUACE</span>
+            <h3 class="process-title">Analýza situace</h3>
             <p class="process-desc">Detailne prozkoumame vasi danovou situaci a identifikujeme rizika i priležitosti.</p>
         </div>
 <div class="process-card reveal reveal-d2">
-            <span class="process-num">02 / NAVRH STRATEGIE</span>
-            <h3 class="process-title">Navrh strategie</h3>
-            <p class="process-desc">Zpracujeme individualni danovy plan optimalizovany pro vasi konkretni strukturu.</p>
+            <span class="process-num">02 / NÁVRH STRATEGIE</span>
+            <h3 class="process-title">Návrh strategie</h3>
+            <p class="process-desc">Zpracujeme individuální daňový plán optimalizovány pro vaši konkrétní strukturu.</p>
         </div>
 <div class="process-card reveal reveal-d3">
             <span class="process-num">03 / IMPLEMENTACE A PODPO</span>
             <h3 class="process-title">Implementace a podpora</h3>
-            <p class="process-desc">Provedeme zmenami, podame vsechna podani a zajistime prubenou podporu.</p>
+            <p class="process-desc">Provedeme změnami, podáme všechna podání a zajistíme prubenou podporu.</p>
         </div>
 
         </div>
     </div>
 </section>
+
+
 
 <!-- CONTACT — DARK CARD -->
 <section class="contact-wrapper" id="kontakt">
@@ -846,7 +893,7 @@
         <div class="contact-card-inner">
             <div class="contact-heading">
                 <div class="section-label reveal">KONTAKT</div>
-                <h2 class="section-title reveal reveal-d1">Pojdme spolupracovat</h2>
+                <h2 class="section-title reveal reveal-d1">Pojďme spolupracovat</h2>
             </div>
             <div class="contact-grid">
                 <dl class="contact-info-block reveal reveal-d2">
@@ -883,7 +930,7 @@
         <div class="footer-top">
             <div class="footer-brand">
                 <h3>V4Tax.</h3>
-                <p>Akademicky vzdelany danovy poradce v Ostrave. Specializace na korporatni zdaneni, transferove ceny a mezinarodni danove pravo.</p>
+                <p>Akademicky vzdělaný daňový poradce v Ostravě. Specializace na korporátní zdanění, transferové ceny a mezinárodní daňové právo.</p>
                 <div class="footer-status">
                     <div class="footer-status-dot"></div>
                     <span>K dispozici</span>

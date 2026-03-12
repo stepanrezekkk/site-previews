@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Danovy poradce Dolni Ujezd. Danove poradenstvi a ucetni sluzby pro podnikatele a firmy v Pardubickem kraji.">
-    <title>Ing. Martin Halamek — Danovy poradce Dolni Ujezd</title>
+    <meta name="description" content="Daňový poradce Dolní Újezd. Daňové poradenství a účetní služby pro podnikatele a firmy v Pardubickém kraji.">
+    <title>Ing. Martin Halámek — Daňový poradce Dolní Újezd</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Playfair%20Display:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=DM%20Sans:wght@200;300;400;500;600;700;800&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
@@ -489,6 +489,51 @@
         }
 
         /* ═══ CONTACT — DARK CARD ═══ */
+        /* ═══ TESTIMONIALS ═══ */
+        .testimonials-section {
+            padding: clamp(80px, 12vh, 140px) clamp(24px, 4vw, 64px);
+            background: var(--bg-dark);
+            color: var(--text-on-dark);
+        }
+        .testimonials-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 24px;
+            margin-top: 48px;
+        }
+        .testimonial-card {
+            background: rgba(255,255,255,0.05);
+            border: 1px solid rgba(255,255,255,0.1);
+            border-radius: var(--radius-card);
+            padding: 36px 32px 28px;
+            display: flex; flex-direction: column; gap: 20px;
+            position: relative;
+        }
+        .testimonial-card::before {
+            content: '\201C';
+            font-family: var(--serif);
+            font-size: 5rem;
+            line-height: 1;
+            color: var(--accent);
+            opacity: 0.6;
+            position: absolute;
+            top: 12px; left: 28px;
+        }
+        .testimonial-text {
+            font-size: clamp(0.95rem, 1.5vw, 1.05rem);
+            line-height: 1.75;
+            color: rgba(242,240,233,0.85);
+            padding-top: 32px;
+            font-style: italic;
+        }
+        .testimonial-author {
+            font-size: 0.82rem;
+            font-weight: 600;
+            color: var(--accent);
+            letter-spacing: 0.06em;
+            text-transform: uppercase;
+        }
+
         .contact-wrapper {
             padding: clamp(60px, 10vh, 100px) clamp(24px, 4vw, 64px);
             background: var(--bg-warm);
@@ -728,7 +773,7 @@
             <span class="hero-drama">Jistota.</span>
         </h1>
         <p class="hero-sub">Odborne danové poradenstvi v Dolnim Ujezde a Pardubickem kraji pro klienty, kteri hledaji jistotu a klid.</p>
-        <a href="#kontakt" class="hero-cta">Ziskat bezplatnou konzultaci</a>
+        <a href="#kontakt" class="hero-cta">Získat bezplatnou konzultaci</a>
         <div class="hero-stats">
             <div>
             <div class="hero-stat-num">190+</div>
@@ -762,17 +807,17 @@
 <div class="service-card reveal reveal-d2">
             <div class="service-icon"><span>02</span></div>
             <h3 class="service-title">Danové uznani</h3>
-            <p class="service-desc">Zpracovani a podani vsech danovych uznani v zakonnych terminech s garantovanou presnosti.</p>
+            <p class="service-desc">Zpracování a podání všech daňových uznání v zákonných termínech s garantovanou přesností.</p>
         </div>
 <div class="service-card reveal reveal-d3">
             <div class="service-icon"><span>03</span></div>
-            <h3 class="service-title">Ucetnictvi</h3>
-            <p class="service-desc">Vedeni podvojneho ucetnictvi a danove evidence pro firmy a podnikatele vsech velikosti.</p>
+            <h3 class="service-title">Účetnictví</h3>
+            <p class="service-desc">Vedení podvojného účetnictví a daňové evidence pro firmy a podnikatele všech velikostí.</p>
         </div>
 <div class="service-card reveal reveal-d4">
             <div class="service-icon"><span>04</span></div>
             <h3 class="service-title">Danová kontrola</h3>
-            <p class="service-desc">Proaktivni prevereni danovych rizik a profesionalni zastupovani pri kontrolach financniho uradu.</p>
+            <p class="service-desc">Proaktivní prevereni daňových rizik a profesionální zastupování při kontrolách finančního úřadu.</p>
         </div>
 <div class="service-card reveal reveal-d4">
             <div class="service-icon"><span>05</span></div>
@@ -781,7 +826,7 @@
         </div>
 <div class="service-card reveal reveal-d4">
             <div class="service-icon"><span>06</span></div>
-            <h3 class="service-title">Poradenstvi pro firmy</h3>
+            <h3 class="service-title">Poradenství pro firmy</h3>
             <p class="service-desc">Specialistovane danové a ekonomicke poradenstvi pro male a stredni firmy v Pardubickem kraji.</p>
         </div>
 
@@ -796,7 +841,7 @@
     <div class="dot-grid"></div>
     <div class="about-inner">
         <p class="about-intro reveal">Ing. Martin Halamek je certifikovany danovy poradce pusobici v Dolnim Ujezde a okoli s hlubokymi znalostmi danove legislativy a individuálnim pristupem ke kazdemu klientovi. Svůj dan zahrnuje vedení komplexnich danových sluzeb pro podnikatele v Pardubickem kraji.</p>
-        <h2 class="about-drama reveal reveal-d1">Regionalni odbornik pro vas svet dani</h2>
+        <h2 class="about-drama reveal reveal-d1">Regionální odborník pro vás svět daní</h2>
     </div>
 </section>
 
@@ -827,28 +872,30 @@
 <section class="section-light" style="padding-top: 0;">
     <div class="section-inner">
         <div class="section-label reveal">JAK PRACUJEME</div>
-        <h2 class="section-title reveal reveal-d1">Jak funguje nase spoluprace</h2>
-        <p class="section-subtitle reveal reveal-d2">Jasny postup pro zahajeni spoluprace a prevzeti vasi danove agendy.</p>
+        <h2 class="section-title reveal reveal-d1">Jak funguje naše spolupráce</h2>
+        <p class="section-subtitle reveal reveal-d2">Jasný postup pro zahájení spolupráce a převzetí vaší daňové agendy.</p>
         <div class="process-grid">
             <div class="process-card reveal reveal-d1">
-            <span class="process-num">01 / PRVNI KONZULTACE</span>
-            <h3 class="process-title">Prvni konzultace</h3>
-            <p class="process-desc">Bezplatna uvodni konzultace pro posouzeni vasi danove situace a navrh optimalnich reseni.</p>
+            <span class="process-num">01 / PRVNÍ KONZULTACE</span>
+            <h3 class="process-title">První konzultace</h3>
+            <p class="process-desc">Bezplatná úvodní konzultace pro posouzení vaší daňové situace a návrh optimálních řešení.</p>
         </div>
 <div class="process-card reveal reveal-d2">
-            <span class="process-num">02 / SMLUVNI DOJEDNANI</span>
-            <h3 class="process-title">Smluvni dojednani</h3>
-            <p class="process-desc">Uzavreni smlouvy s jasne stanovenymi sluzebami, terminy a transparentnim cenikem.</p>
+            <span class="process-num">02 / SMLUVNÍ DOJEDNÁNÍ</span>
+            <h3 class="process-title">Smluvní dojednání</h3>
+            <p class="process-desc">Uzavření smlouvy s jasně stanovenými sluzebami, termíny a transparentním ceníkem.</p>
         </div>
 <div class="process-card reveal reveal-d3">
-            <span class="process-num">03 / SPRAVA AGENDY</span>
-            <h3 class="process-title">Sprava agendy</h3>
-            <p class="process-desc">Prevzeti vasi danove agendy a pravidelneinformovani o vsech dulezitych terminech a zmenach.</p>
+            <span class="process-num">03 / SPRÁVA AGENDY</span>
+            <h3 class="process-title">Správa agendy</h3>
+            <p class="process-desc">Převzetí vaší daňové agendy a pravidelneinformovani o všech důležitých termínech a změnách.</p>
         </div>
 
         </div>
     </div>
 </section>
+
+
 
 <!-- CONTACT — DARK CARD -->
 <section class="contact-wrapper" id="kontakt">
@@ -856,7 +903,7 @@
         <div class="contact-card-inner">
             <div class="contact-heading">
                 <div class="section-label reveal">KONTAKT</div>
-                <h2 class="section-title reveal reveal-d1">Pojdme spolupracovat</h2>
+                <h2 class="section-title reveal reveal-d1">Pojďme spolupracovat</h2>
             </div>
             <div class="contact-grid">
                 <dl class="contact-info-block reveal reveal-d2">
@@ -879,7 +926,7 @@
                         <textarea placeholder="Jak vám můžeme pomoci?"></textarea>
                     </div>
                     <button type="submit" class="form-submit">
-                        Odeslat zpravu
+                        Odeslat zprávu
                         <svg width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 8h10M9 4l4 4-4 4"/></svg>
                     </button>
                 </form>
@@ -894,7 +941,7 @@
         <div class="footer-top">
             <div class="footer-brand">
                 <h3>Ing. Martin Halamek.</h3>
-                <p>Danovy poradce Dolni Ujezd. Danove poradenstvi a ucetni sluzby pro podnikatele a firmy v Pardubickem kraji.</p>
+                <p>Daňový poradce Dolní Újezd. Daňové poradenství a účetní služby pro podnikatele a firmy v Pardubickém kraji.</p>
                 <div class="footer-status">
                     <div class="footer-status-dot"></div>
                     <span>K dispozici</span>

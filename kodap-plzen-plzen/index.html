@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Danová poradkyne v Plzni ze skupiny KODAP. Specializace na danové poradenstvi pro stredni firmy a skupiny spolecnosti.">
-    <title>Ing. Pavlina Novakova | Danovy poradce Plzen</title>
+    <title>Ing. Pavlína Nováková | Daňový poradce Plzeň</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Playfair%20Display:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Plus%20Jakarta%20Sans:wght@200;300;400;500;600;700;800&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
@@ -489,6 +489,51 @@
         }
 
         /* ═══ CONTACT — DARK CARD ═══ */
+        /* ═══ TESTIMONIALS ═══ */
+        .testimonials-section {
+            padding: clamp(80px, 12vh, 140px) clamp(24px, 4vw, 64px);
+            background: var(--bg-dark);
+            color: var(--text-on-dark);
+        }
+        .testimonials-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 24px;
+            margin-top: 48px;
+        }
+        .testimonial-card {
+            background: rgba(255,255,255,0.05);
+            border: 1px solid rgba(255,255,255,0.1);
+            border-radius: var(--radius-card);
+            padding: 36px 32px 28px;
+            display: flex; flex-direction: column; gap: 20px;
+            position: relative;
+        }
+        .testimonial-card::before {
+            content: '\201C';
+            font-family: var(--serif);
+            font-size: 5rem;
+            line-height: 1;
+            color: var(--accent);
+            opacity: 0.6;
+            position: absolute;
+            top: 12px; left: 28px;
+        }
+        .testimonial-text {
+            font-size: clamp(0.95rem, 1.5vw, 1.05rem);
+            line-height: 1.75;
+            color: rgba(242,240,233,0.85);
+            padding-top: 32px;
+            font-style: italic;
+        }
+        .testimonial-author {
+            font-size: 0.82rem;
+            font-weight: 600;
+            color: var(--accent);
+            letter-spacing: 0.06em;
+            text-transform: uppercase;
+        }
+
         .contact-wrapper {
             padding: clamp(60px, 10vh, 100px) clamp(24px, 4vw, 64px);
             background: var(--bg-warm);
@@ -728,7 +773,7 @@
             <span class="hero-drama">Sila.</span>
         </h1>
         <p class="hero-sub">Danové poradenstvi v zázemí profesionální skupiny KODAP pro stredne velke firmy a holdingové struktury.</p>
-        <a href="#kontakt" class="hero-cta">Domluvit schuzku</a>
+        <a href="#kontakt" class="hero-cta">Domluvit schůzku</a>
         <div class="hero-stats">
             <div>
             <div class="hero-stat-num">30+</div>
@@ -736,11 +781,11 @@
         </div>
 <div>
             <div class="hero-stat-num">80+</div>
-            <div class="hero-stat-label">firemnich klientu</div>
+            <div class="hero-stat-label">firemních klientů</div>
         </div>
 <div>
             <div class="hero-stat-num">100M+</div>
-            <div class="hero-stat-label">Kc prümerny klientsky obrat</div>
+            <div class="hero-stat-label">Kč prümerny klientský obrat</div>
         </div>
 
         </div>
@@ -751,8 +796,8 @@
 <section class="section-light" id="sluzby">
     <div class="section-inner">
         <div class="section-label reveal">NASE SLUZBY</div>
-        <h2 class="section-title reveal reveal-d1">Profesionalni danove sluzby v Plzni</h2>
-        <p class="section-subtitle reveal reveal-d2">Specializovane poradenstvi pro stredni a vetsi firmy v zapadnich Cechach.</p>
+        <h2 class="section-title reveal reveal-d1">Profesionální daňové služby v Plzni</h2>
+        <p class="section-subtitle reveal reveal-d2">Specializované poradenství pro střední a větší firmy v západních Čechách.</p>
         <div class="services-grid">
             <div class="service-card reveal reveal-d1">
             <div class="service-icon"><span>01</span></div>
@@ -796,7 +841,7 @@
     <div class="dot-grid"></div>
     <div class="about-inner">
         <p class="about-intro reveal">Ing. Pavlína Nováková pôsobí jako poradkyne v rámci skupiny KODAP v Plzni. Teto kombinace zajistuje klientum plzenského regionu pristup ke znalostne zalozene poradenské kapacite velke firmy s lokalnim lidskym priblizenim.</p>
-        <h2 class="about-drama reveal reveal-d1">Regionalni pristup, narodni znalosti</h2>
+        <h2 class="about-drama reveal reveal-d1">Regionální přístup, národní znalostí</h2>
     </div>
 </section>
 
@@ -812,11 +857,11 @@
         </div>
 <div class="stat-card reveal reveal-d2">
             <div class="stat-number" data-count="80" data-suffix="+">0+</div>
-            <div class="stat-label">firemnich klientu</div>
+            <div class="stat-label">firemních klientů</div>
         </div>
 <div class="stat-card reveal reveal-d3">
             <div class="stat-number" data-count="100" data-suffix="M+">0M+</div>
-            <div class="stat-label">Kc prümerny klientsky obrat</div>
+            <div class="stat-label">Kč prümerny klientský obrat</div>
         </div>
 
         </div>
@@ -836,13 +881,13 @@
             <p class="process-desc">Na zacatku spoluprce provedeme komplexni danovy audit vasi stávající situace.</p>
         </div>
 <div class="process-card reveal reveal-d2">
-            <span class="process-num">02 / NASTAVENI PROCESÜ</span>
-            <h3 class="process-title">Nastaveni procesü</h3>
+            <span class="process-num">02 / NASTAVENÍ PROCESÜ</span>
+            <h3 class="process-title">Nastavení procesü</h3>
             <p class="process-desc">Spolecne nastavime procesy pro plynulou danovou agendu a pravidelné reportovani.</p>
         </div>
 <div class="process-card reveal reveal-d3">
-            <span class="process-num">03 / PRUBEHY SPRAVA A OPT</span>
-            <h3 class="process-title">Prubehy sprava a optimalizace</h3>
+            <span class="process-num">03 / PRŮBĚHY SPRÁVA A OPT</span>
+            <h3 class="process-title">Průběhy správa a optimalizace</h3>
             <p class="process-desc">Kontinuálne spravujeme vašu danovu agendu a proaktivne navrhujeme zlepsení.</p>
         </div>
 
@@ -850,13 +895,15 @@
     </div>
 </section>
 
+
+
 <!-- CONTACT — DARK CARD -->
 <section class="contact-wrapper" id="kontakt">
     <div class="contact-card">
         <div class="contact-card-inner">
             <div class="contact-heading">
                 <div class="section-label reveal">KONTAKT</div>
-                <h2 class="section-title reveal reveal-d1">Pojdme spolupracovat</h2>
+                <h2 class="section-title reveal reveal-d1">Pojďme spolupracovat</h2>
             </div>
             <div class="contact-grid">
                 <dl class="contact-info-block reveal reveal-d2">

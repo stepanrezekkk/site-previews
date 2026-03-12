@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Danove poradenstvi v Unicove a okoli. Ing. Viktor Vorel nabizi profesionalni spravú dani, ucetnictvi a poradenstvi pro podnikatele i fyzicke osoby na Olomoucku.">
-    <title>Ing. Viktor Vorel | Danovy poradce Unicov</title>
+    <title>Ing. Viktor Vorel | Daňový poradce Uničov</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Playfair%20Display:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=DM%20Sans:wght@200;300;400;500;600;700;800&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
@@ -489,6 +489,51 @@
         }
 
         /* ═══ CONTACT — DARK CARD ═══ */
+        /* ═══ TESTIMONIALS ═══ */
+        .testimonials-section {
+            padding: clamp(80px, 12vh, 140px) clamp(24px, 4vw, 64px);
+            background: var(--bg-dark);
+            color: var(--text-on-dark);
+        }
+        .testimonials-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 24px;
+            margin-top: 48px;
+        }
+        .testimonial-card {
+            background: rgba(255,255,255,0.05);
+            border: 1px solid rgba(255,255,255,0.1);
+            border-radius: var(--radius-card);
+            padding: 36px 32px 28px;
+            display: flex; flex-direction: column; gap: 20px;
+            position: relative;
+        }
+        .testimonial-card::before {
+            content: '\201C';
+            font-family: var(--serif);
+            font-size: 5rem;
+            line-height: 1;
+            color: var(--accent);
+            opacity: 0.6;
+            position: absolute;
+            top: 12px; left: 28px;
+        }
+        .testimonial-text {
+            font-size: clamp(0.95rem, 1.5vw, 1.05rem);
+            line-height: 1.75;
+            color: rgba(242,240,233,0.85);
+            padding-top: 32px;
+            font-style: italic;
+        }
+        .testimonial-author {
+            font-size: 0.82rem;
+            font-weight: 600;
+            color: var(--accent);
+            letter-spacing: 0.06em;
+            text-transform: uppercase;
+        }
+
         .contact-wrapper {
             padding: clamp(60px, 10vh, 100px) clamp(24px, 4vw, 64px);
             background: var(--bg-warm);
@@ -724,10 +769,10 @@
     <div class="hero-glow hero-glow-2"></div>
     <div class="hero-content">
         <h1>
-            <span class="hero-heading">Vase dane, nase starost</span>
+            <span class="hero-heading">Vaše daně, naše starost</span>
             <span class="hero-drama">Klid.</span>
         </h1>
-        <p class="hero-sub">Spolehlivy danovy poradce v Unicove, ktery prevezme vas danovy stres a postara se o vse spravne a vcas.</p>
+        <p class="hero-sub">Spolehlivý daňový poradce v Uničově, který převezme váš daňový stres a postará se o vše správně a včas.</p>
         <a href="#kontakt" class="hero-cta">Domluvit konzultaci</a>
         <div class="hero-stats">
             <div>
@@ -751,38 +796,38 @@
 <section class="section-light" id="sluzby">
     <div class="section-inner">
         <div class="section-label reveal">NASE SLUZBY</div>
-        <h2 class="section-title reveal reveal-d1">Komplexni danove reseni pro region Olomoucka</h2>
-        <p class="section-subtitle reveal reveal-d2">Nabizime plny rozsah danovych sluzeb pro podnikatele i fyzicke osoby v Unicove a sirkem okoli.</p>
+        <h2 class="section-title reveal reveal-d1">Komplexní daňové řešení pro region Olomoucká</h2>
+        <p class="section-subtitle reveal reveal-d2">Nabízíme plný rozsah daňových služeb pro podnikatele i fyzické osoby v Uničově a šírkem okolí.</p>
         <div class="services-grid">
             <div class="service-card reveal reveal-d1">
             <div class="service-icon"><span>01</span></div>
-            <h3 class="service-title">Danove priznanani</h3>
-            <p class="service-desc">Odborne zpracovani danoveho priznani k dani z prijmu pro OSVC, zamestnance i firmy spravne a vcas.</p>
+            <h3 class="service-title">Daňové priznanani</h3>
+            <p class="service-desc">Odborné zpracování daňového přiznání k dani z příjmů pro OSVČ, zaměstnance i firmy správně a včas.</p>
         </div>
 <div class="service-card reveal reveal-d2">
             <div class="service-icon"><span>02</span></div>
-            <h3 class="service-title">Danove poradenstvi</h3>
-            <p class="service-desc">Individualni poradenstvi zamirene na optimalizaci danovych povinnosti a vyuziti vsech dostupnych odpoctu.</p>
+            <h3 class="service-title">Daňové poradenství</h3>
+            <p class="service-desc">Individuální poradenství zamířené na optimalizaci daňových povinností a využití všech dostupných odpočtů.</p>
         </div>
 <div class="service-card reveal reveal-d3">
             <div class="service-icon"><span>03</span></div>
-            <h3 class="service-title">Vedeni ucetnictvi</h3>
-            <p class="service-desc">Komplexni vedeni podvojneho ucetnictvi nebo jednoduche evidence pro vase podnikani.</p>
+            <h3 class="service-title">Vedení účetnictví</h3>
+            <p class="service-desc">Komplexní vedení podvojného účetnictví nebo jednoduché evidence pro vaše podnikání.</p>
         </div>
 <div class="service-card reveal reveal-d4">
             <div class="service-icon"><span>04</span></div>
-            <h3 class="service-title">Mzdove sluzby</h3>
-            <p class="service-desc">Sprava mzdove agendy vcetne mesicnich odvodu, rocniho zuctovani a priprvy evidenci pro zamestnance.</p>
+            <h3 class="service-title">Mzdové služby</h3>
+            <p class="service-desc">Správa mzdové agendy včetně měsíčních odvodů, ročního zúčtování a priprvy evidencí pro zaměstnance.</p>
         </div>
 <div class="service-card reveal reveal-d4">
             <div class="service-icon"><span>05</span></div>
-            <h3 class="service-title">Zastupovani</h3>
-            <p class="service-desc">Zastupovani klientu pred financnim uradem, OSSZ a zdravotnimi pojistovnami.</p>
+            <h3 class="service-title">Zastupování</h3>
+            <p class="service-desc">Zastupování klientů před finančním úřadem, OSSZ a zdravotními pojišťovnami.</p>
         </div>
 <div class="service-card reveal reveal-d4">
             <div class="service-icon"><span>06</span></div>
-            <h3 class="service-title">Danove planovani</h3>
-            <p class="service-desc">Proaktivni danove planovani na cely rok s prubeznym sledovanim terminu a povinnosti.</p>
+            <h3 class="service-title">Daňové plánování</h3>
+            <p class="service-desc">Proaktivní daňové plánování na celý rok s průběžným sledováním termínu a povinnosti.</p>
         </div>
 
         </div>
@@ -796,7 +841,7 @@
     <div class="dot-grid"></div>
     <div class="about-inner">
         <p class="about-intro reveal">Ing. Viktor Vorel poskytuje danove poradenstvi v Unicove s durazem na osobni pristup a mistni dostupnost. Kazdy klient ma svého zasveceneho poradce s kompletním prehledem o jeho situaci.</p>
-        <h2 class="about-drama reveal reveal-d1">Mistni znalost a profesionalni pristup</h2>
+        <h2 class="about-drama reveal reveal-d1">Místní znalost a profesionální přístup</h2>
     </div>
 </section>
 
@@ -828,27 +873,29 @@
     <div class="section-inner">
         <div class="section-label reveal">JAK PRACUJEME</div>
         <h2 class="section-title reveal reveal-d1">Jasný postup od prvniho kontaktu</h2>
-        <p class="section-subtitle reveal reveal-d2">Nase spoluprace je strukturovana, prehledna a zamirena na vas klid a spokojenost.</p>
+        <p class="section-subtitle reveal reveal-d2">Naše spolupráce je strukturovaná, přehledná a zamířená na váš klid a spokojenost.</p>
         <div class="process-grid">
             <div class="process-card reveal reveal-d1">
-            <span class="process-num">01 / PRVNI KONTAKT</span>
-            <h3 class="process-title">Prvni kontakt</h3>
-            <p class="process-desc">Domluvime bezplatnou schuzku, kde probereme vasi situaci a potreby.</p>
+            <span class="process-num">01 / PRVNÍ KONTAKT</span>
+            <h3 class="process-title">První kontakt</h3>
+            <p class="process-desc">Domluvíme bezplatnou schůzku, kde probereme vaši situaci a potřeby.</p>
         </div>
 <div class="process-card reveal reveal-d2">
-            <span class="process-num">02 / NAVRH SPOLUPRACE</span>
-            <h3 class="process-title">Navrh spoluprace</h3>
-            <p class="process-desc">Pripravime konkretni nabidku sluzeb prisposobenou vasim potrebam a moznostem.</p>
+            <span class="process-num">02 / NÁVRH SPOLUPRÁCE</span>
+            <h3 class="process-title">Návrh spolupráce</h3>
+            <p class="process-desc">Připravíme konkrétní nabídku služeb prisposobenou vašim potřebám a možnostem.</p>
         </div>
 <div class="process-card reveal reveal-d3">
-            <span class="process-num">03 / PREHLEDNA SPRAVA</span>
-            <h3 class="process-title">Prehledna sprava</h3>
-            <p class="process-desc">Plne se postarame o vase dane a pravidelne vas informujeme o dulezitych terminech.</p>
+            <span class="process-num">03 / PŘEHLEDNÁ SPRÁVA</span>
+            <h3 class="process-title">Přehledná správa</h3>
+            <p class="process-desc">Plně se postaráme o vaše daně a pravidelně vás informujeme o důležitých termínech.</p>
         </div>
 
         </div>
     </div>
 </section>
+
+
 
 <!-- CONTACT — DARK CARD -->
 <section class="contact-wrapper" id="kontakt">
@@ -856,7 +903,7 @@
         <div class="contact-card-inner">
             <div class="contact-heading">
                 <div class="section-label reveal">KONTAKT</div>
-                <h2 class="section-title reveal reveal-d1">Ozvete se nam</h2>
+                <h2 class="section-title reveal reveal-d1">Ozvete se nám</h2>
             </div>
             <div class="contact-grid">
                 <dl class="contact-info-block reveal reveal-d2">

@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Zkusena danove poradkyne v Praze. Danove planovani, optimalizace dani a komplexni ucetnictvi pro podnikatele i firmy.">
-    <title>Eva Svozilova — Danovy poradce Praha</title>
+    <meta name="description" content="Zkušená daňové poradkyně v Praze. Daňové plánování, optimalizace daní a komplexní účetnictví pro podnikatele i firmy.">
+    <title>Eva Svozilová — Daňový poradce Praha</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Playfair%20Display:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=DM%20Sans:wght@200;300;400;500;600;700;800&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
@@ -489,6 +489,51 @@
         }
 
         /* ═══ CONTACT — DARK CARD ═══ */
+        /* ═══ TESTIMONIALS ═══ */
+        .testimonials-section {
+            padding: clamp(80px, 12vh, 140px) clamp(24px, 4vw, 64px);
+            background: var(--bg-dark);
+            color: var(--text-on-dark);
+        }
+        .testimonials-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 24px;
+            margin-top: 48px;
+        }
+        .testimonial-card {
+            background: rgba(255,255,255,0.05);
+            border: 1px solid rgba(255,255,255,0.1);
+            border-radius: var(--radius-card);
+            padding: 36px 32px 28px;
+            display: flex; flex-direction: column; gap: 20px;
+            position: relative;
+        }
+        .testimonial-card::before {
+            content: '\201C';
+            font-family: var(--serif);
+            font-size: 5rem;
+            line-height: 1;
+            color: var(--accent);
+            opacity: 0.6;
+            position: absolute;
+            top: 12px; left: 28px;
+        }
+        .testimonial-text {
+            font-size: clamp(0.95rem, 1.5vw, 1.05rem);
+            line-height: 1.75;
+            color: rgba(242,240,233,0.85);
+            padding-top: 32px;
+            font-style: italic;
+        }
+        .testimonial-author {
+            font-size: 0.82rem;
+            font-weight: 600;
+            color: var(--accent);
+            letter-spacing: 0.06em;
+            text-transform: uppercase;
+        }
+
         .contact-wrapper {
             padding: clamp(60px, 10vh, 100px) clamp(24px, 4vw, 64px);
             background: var(--bg-warm);
@@ -724,11 +769,11 @@
     <div class="hero-glow hero-glow-2"></div>
     <div class="hero-content">
         <h1>
-            <span class="hero-heading">Dane pod kontrolou</span>
+            <span class="hero-heading">Daně pod kontrolou</span>
             <span class="hero-drama">Jistota.</span>
         </h1>
-        <p class="hero-sub">Odborne danove poradenstvi v Praze, ktere vam usetri cas i penize a ochrani vas pred chybami.</p>
-        <a href="#kontakt" class="hero-cta">Ziskat bezplatnou konzultaci</a>
+        <p class="hero-sub">Odborné daňové poradenství v Praze, které vám ušetří čas i peníze a ochrání vás před chybami.</p>
+        <a href="#kontakt" class="hero-cta">Získat bezplatnou konzultaci</a>
         <div class="hero-stats">
             <div>
             <div class="hero-stat-num">320+</div>
@@ -736,11 +781,11 @@
         </div>
 <div>
             <div class="hero-stat-num">31+</div>
-            <div class="hero-stat-label">let zkusenosti</div>
+            <div class="hero-stat-label">let zkušeností</div>
         </div>
 <div>
             <div class="hero-stat-num">97%</div>
-            <div class="hero-stat-label">uspesnost pri kontrolach</div>
+            <div class="hero-stat-label">úspěšnost při kontrolách</div>
         </div>
 
         </div>
@@ -751,38 +796,38 @@
 <section class="section-light" id="sluzby">
     <div class="section-inner">
         <div class="section-label reveal">NASE SLUZBY</div>
-        <h2 class="section-title reveal reveal-d1">Komplexni danove poradenstvi</h2>
-        <p class="section-subtitle reveal reveal-d2">Siroka nabidka danovych sluzeb pro fyzicke osoby, podnikatele i spolecnosti.</p>
+        <h2 class="section-title reveal reveal-d1">Komplexní daňové poradenství</h2>
+        <p class="section-subtitle reveal reveal-d2">Široká nabídka daňových služeb pro fyzické osoby, podnikatele i společnosti.</p>
         <div class="services-grid">
             <div class="service-card reveal reveal-d1">
             <div class="service-icon"><span>01</span></div>
-            <h3 class="service-title">Danove priznani</h3>
-            <p class="service-desc">Odborne zpracovani danovych priznani pro fyzicke i pravnicke osoby vcetne maximalizace odpoctu a minimalizace danove povinnosti.</p>
+            <h3 class="service-title">Daňové přiznání</h3>
+            <p class="service-desc">Odborné zpracování daňových přiznání pro fyzické i právnické osoby včetně maximalizace odpočtu a minimalizace daňové povinnosti.</p>
         </div>
 <div class="service-card reveal reveal-d2">
             <div class="service-icon"><span>02</span></div>
-            <h3 class="service-title">Danove planovani</h3>
-            <p class="service-desc">Strategicke danove planovani pro optimalnioptimalizaci vaseho danoveho zatizeni v souladu s platnou legislativou.</p>
+            <h3 class="service-title">Daňové plánování</h3>
+            <p class="service-desc">Strategické daňové plánování pro optimalnioptimalizaci vašeho daňového zatížení v souladu s platnou legislativou.</p>
         </div>
 <div class="service-card reveal reveal-d3">
             <div class="service-icon"><span>03</span></div>
-            <h3 class="service-title">Zastupovani pred spravacem dane</h3>
-            <p class="service-desc">Profesionalni zastupovani pri danovych kontrolach, odvolanich a jednanich s financnim uradem.</p>
+            <h3 class="service-title">Zastupování před spravacem daně</h3>
+            <p class="service-desc">Profesionální zastupování při daňových kontrolách, odvoláních a jednáních s finančním úřadem.</p>
         </div>
 <div class="service-card reveal reveal-d4">
             <div class="service-icon"><span>04</span></div>
             <h3 class="service-title">DPH agenda</h3>
-            <p class="service-desc">Komplexni sprava DPH vcetne registrace, podavani priznani a konzultaci k intrakomunitarnim plnenim.</p>
+            <p class="service-desc">Komplexní správa DPH včetně registrace, podávání přiznání a konzultací k intrakomunitarnim plněním.</p>
         </div>
 <div class="service-card reveal reveal-d4">
             <div class="service-icon"><span>05</span></div>
-            <h3 class="service-title">Mezinarodni zdaneni</h3>
-            <p class="service-desc">Poradenstvi v oblasti mezinarodniho zdaneni, smluv o zamezeni dvojiho zdaneni a transferovych cen.</p>
+            <h3 class="service-title">Mezinárodní zdanění</h3>
+            <p class="service-desc">Poradenství v oblasti mezinárodního zdanění, smluv o zamezení dvojího zdanění a transferových cen.</p>
         </div>
 <div class="service-card reveal reveal-d4">
             <div class="service-icon"><span>06</span></div>
-            <h3 class="service-title">Danovy audit</h3>
-            <p class="service-desc">Odborne posouzeni danovych rizik a navrh opatreni pro jejich eliminaci pred danovymi kontrolami.</p>
+            <h3 class="service-title">Daňový audit</h3>
+            <p class="service-desc">Odborné posouzení daňových rizik a návrh opatření pro jejich eliminaci před daňovými kontrolami.</p>
         </div>
 
         </div>
@@ -796,7 +841,7 @@
     <div class="dot-grid"></div>
     <div class="about-inner">
         <p class="about-intro reveal">Firma TRISON, s. r. o., se zabývá zpracováním účetnictví a daňovým poradenstvím na profesionální úrovni v souladu s českými zákony od roku 1995. Zpracování účetnictví provádějí kvalifikovaní pracovníci. Firma zaměstnává daňového poradce. Práce provádíme dodavatelským způsobem v našich kancelářích na adrese: Praha 10, Vinohradská 165.</p>
-        <h2 class="about-drama reveal reveal-d1">Zkusenosti, ktere se pocitaji</h2>
+        <h2 class="about-drama reveal reveal-d1">Zkušeností, které se počítají</h2>
     </div>
 </section>
 
@@ -812,11 +857,11 @@
         </div>
 <div class="stat-card reveal reveal-d2">
             <div class="stat-number" data-count="31" data-suffix="+">0+</div>
-            <div class="stat-label">let zkusenosti</div>
+            <div class="stat-label">let zkušeností</div>
         </div>
 <div class="stat-card reveal reveal-d3">
             <div class="stat-number" data-count="97" data-suffix="%">0%</div>
-            <div class="stat-label">uspesnost pri kontrolach</div>
+            <div class="stat-label">úspěšnost při kontrolách</div>
         </div>
 
         </div>
@@ -827,28 +872,30 @@
 <section class="section-light" style="padding-top: 0;">
     <div class="section-inner">
         <div class="section-label reveal">JAK PRACUJEME</div>
-        <h2 class="section-title reveal reveal-d1">Jednoduchy postup spoluprace</h2>
-        <p class="section-subtitle reveal reveal-d2">Od prvni konzultace po vyreseni vasi danove situace — bez zbytecnych komplikaci.</p>
+        <h2 class="section-title reveal reveal-d1">Jednoduchý postup spolupráce</h2>
+        <p class="section-subtitle reveal reveal-d2">Od první konzultace po vyřešení vaší daňové situace — bez zbytečných komplikací.</p>
         <div class="process-grid">
             <div class="process-card reveal reveal-d1">
-            <span class="process-num">01 / UVODNI KONZULTACE</span>
-            <h3 class="process-title">Uvodni konzultace</h3>
-            <p class="process-desc">Bezplatne probereme vasi situaci a navrhneme nejlepsi reseni primo pro vas.</p>
+            <span class="process-num">01 / ÚVODNÍ KONZULTACE</span>
+            <h3 class="process-title">Úvodní konzultace</h3>
+            <p class="process-desc">Bezplatně probereme vaši situaci a navrhneme nejlepší řešení přímo pro vás.</p>
         </div>
 <div class="process-card reveal reveal-d2">
-            <span class="process-num">02 / ZPRACOVANI DOKUMENTU</span>
-            <h3 class="process-title">Zpracovani dokumentu</h3>
-            <p class="process-desc">Prevezmeme veskere podklady a postarame se o jejich odborne zpracovani.</p>
+            <span class="process-num">02 / ZPRACOVÁNÍ DOKUMENTU</span>
+            <h3 class="process-title">Zpracování dokumentu</h3>
+            <p class="process-desc">Převezmeme veškeré podklady a postaráme se o jejich odborné zpracování.</p>
         </div>
 <div class="process-card reveal reveal-d3">
-            <span class="process-num">03 / ODEVZDANI A KONTROLA</span>
-            <h3 class="process-title">Odevzdani a kontrola</h3>
-            <p class="process-desc">Podame vase danove priznani a sledujeme celou komunikaci se spravcem dane.</p>
+            <span class="process-num">03 / ODEVZDÁNÍ A KONTROLA</span>
+            <h3 class="process-title">Odevzdání a kontrola</h3>
+            <p class="process-desc">Podáme vaše daňové přiznání a sledujeme celou komunikaci se správcem daně.</p>
         </div>
 
         </div>
     </div>
 </section>
+
+
 
 <!-- CONTACT — DARK CARD -->
 <section class="contact-wrapper" id="kontakt">
@@ -856,7 +903,7 @@
         <div class="contact-card-inner">
             <div class="contact-heading">
                 <div class="section-label reveal">KONTAKT</div>
-                <h2 class="section-title reveal reveal-d1">Pojdme spolupracovat</h2>
+                <h2 class="section-title reveal reveal-d1">Pojďme spolupracovat</h2>
             </div>
             <div class="contact-grid">
                 <dl class="contact-info-block reveal reveal-d2">
@@ -879,7 +926,7 @@
                         <textarea placeholder="Jak vám můžeme pomoci?"></textarea>
                     </div>
                     <button type="submit" class="form-submit">
-                        Odeslat zpravu
+                        Odeslat zprávu
                         <svg width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 8h10M9 4l4 4-4 4"/></svg>
                     </button>
                 </form>
@@ -894,7 +941,7 @@
         <div class="footer-top">
             <div class="footer-brand">
                 <h3>Eva Svozilova.</h3>
-                <p>Zkusena danove poradkyne v Praze. Danove planovani, optimalizace dani a komplexni ucetnictvi pro podnikatele i firmy.</p>
+                <p>Zkušená daňové poradkyně v Praze. Daňové plánování, optimalizace daní a komplexní účetnictví pro podnikatele i firmy.</p>
                 <div class="footer-status">
                     <div class="footer-status-dot"></div>
                     <span>K dispozici</span>

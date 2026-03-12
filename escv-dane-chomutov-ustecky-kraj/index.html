@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Ing. Lucie Vesela, danovy poradce Chomutov. ESCV -- danove poradenstvi a ucetni sluzby pro podnikatele v Chomutove a Usteckem kraji.">
-    <title>Ing. Lucie Vesela -- Danove poradenstvi Chomutov</title>
+    <meta name="description" content="Ing. Lucie Veselá, daňový poradce Chomutov. ESCV -- daňové poradenství a účetní služby pro podnikatele v Chomutově a Ústeckém kraji.">
+    <title>Ing. Lucie Veselá -- Daňové poradenství Chomutov</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Playfair%20Display:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=DM%20Sans:wght@200;300;400;500;600;700;800&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
@@ -489,6 +489,51 @@
         }
 
         /* ═══ CONTACT — DARK CARD ═══ */
+        /* ═══ TESTIMONIALS ═══ */
+        .testimonials-section {
+            padding: clamp(80px, 12vh, 140px) clamp(24px, 4vw, 64px);
+            background: var(--bg-dark);
+            color: var(--text-on-dark);
+        }
+        .testimonials-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 24px;
+            margin-top: 48px;
+        }
+        .testimonial-card {
+            background: rgba(255,255,255,0.05);
+            border: 1px solid rgba(255,255,255,0.1);
+            border-radius: var(--radius-card);
+            padding: 36px 32px 28px;
+            display: flex; flex-direction: column; gap: 20px;
+            position: relative;
+        }
+        .testimonial-card::before {
+            content: '\201C';
+            font-family: var(--serif);
+            font-size: 5rem;
+            line-height: 1;
+            color: var(--accent);
+            opacity: 0.6;
+            position: absolute;
+            top: 12px; left: 28px;
+        }
+        .testimonial-text {
+            font-size: clamp(0.95rem, 1.5vw, 1.05rem);
+            line-height: 1.75;
+            color: rgba(242,240,233,0.85);
+            padding-top: 32px;
+            font-style: italic;
+        }
+        .testimonial-author {
+            font-size: 0.82rem;
+            font-weight: 600;
+            color: var(--accent);
+            letter-spacing: 0.06em;
+            text-transform: uppercase;
+        }
+
         .contact-wrapper {
             padding: clamp(60px, 10vh, 100px) clamp(24px, 4vw, 64px);
             background: var(--bg-warm);
@@ -724,15 +769,15 @@
     <div class="hero-glow hero-glow-2"></div>
     <div class="hero-content">
         <h1>
-            <span class="hero-heading">Dane s klidnym svedomim</span>
+            <span class="hero-heading">Daně s klidným svědomím</span>
             <span class="hero-drama">Spolehlivost.</span>
         </h1>
         <p class="hero-sub">Ing. Lucie Vesela provozuje v Chomutove danove poradenstvi a ucetni sluzby pro podnikatele v Usteckem kraji s osobnim pristupem a spolehlívostí.</p>
-        <a href="#kontakt" class="hero-cta">Domluvit schuzku</a>
+        <a href="#kontakt" class="hero-cta">Domluvit schůzku</a>
         <div class="hero-stats">
             <div>
             <div class="hero-stat-num">95+</div>
-            <div class="hero-stat-label">spokojanych klientu</div>
+            <div class="hero-stat-label">spokojanych klientů</div>
         </div>
 <div>
             <div class="hero-stat-num">10+</div>
@@ -740,7 +785,7 @@
         </div>
 <div>
             <div class="hero-stat-num">98%</div>
-            <div class="hero-stat-label">spokojenost klientu</div>
+            <div class="hero-stat-label">spokojenost klientů</div>
         </div>
 
         </div>
@@ -752,37 +797,37 @@
     <div class="section-inner">
         <div class="section-label reveal">NASE SLUZBY</div>
         <h2 class="section-title reveal reveal-d1">Danové a ucetni sluzby v Chomutove</h2>
-        <p class="section-subtitle reveal reveal-d2">Komplexni danove a ucetni sluzby pro podnikatele v Chomutove a Usteckem kraji.</p>
+        <p class="section-subtitle reveal reveal-d2">Komplexní daňové a účetní služby pro podnikatele v Chomutově a Ústeckém kraji.</p>
         <div class="services-grid">
             <div class="service-card reveal reveal-d1">
             <div class="service-icon"><span>01</span></div>
-            <h3 class="service-title">Danove poradenstvi</h3>
-            <p class="service-desc">Odborne danove poradenstvi a optimalizace pro OSVC a firmy.</p>
+            <h3 class="service-title">Daňové poradenství</h3>
+            <p class="service-desc">Odborné daňové poradenství a optimalizace pro OSVČ a firmy.</p>
         </div>
 <div class="service-card reveal reveal-d2">
             <div class="service-icon"><span>02</span></div>
-            <h3 class="service-title">Vedeni ucetnictvi</h3>
-            <p class="service-desc">Vedeni podvojneho ucetnictvi a danove evidence s pravidelnym reportingem.</p>
+            <h3 class="service-title">Vedení účetnictví</h3>
+            <p class="service-desc">Vedení podvojného účetnictví a daňové evidence s pravidelným reportingem.</p>
         </div>
 <div class="service-card reveal reveal-d3">
             <div class="service-icon"><span>03</span></div>
-            <h3 class="service-title">Danove prizna</h3>
+            <h3 class="service-title">Daňové přizná</h3>
             <p class="service-desc">Zpracovani danovych proznani k dani z príjmu, DPH a spotrebni dani.</p>
         </div>
 <div class="service-card reveal reveal-d4">
             <div class="service-icon"><span>04</span></div>
-            <h3 class="service-title">Mzdova agenda</h3>
-            <p class="service-desc">Komplexni zpracovani mezd, zuctovani a vsechna personalni agenda.</p>
+            <h3 class="service-title">Mzdová agenda</h3>
+            <p class="service-desc">Komplexní zpracování mezd, zúčtování a všechna personální agenda.</p>
         </div>
 <div class="service-card reveal reveal-d4">
             <div class="service-icon"><span>05</span></div>
-            <h3 class="service-title">Zastupovani pred FU</h3>
-            <p class="service-desc">Zastupovani klientu v danovych rizenich a pri komunikaci s FU.</p>
+            <h3 class="service-title">Zastupování před FU</h3>
+            <p class="service-desc">Zastupování klientů v daňových řízeních a při komunikaci s FU.</p>
         </div>
 <div class="service-card reveal reveal-d4">
             <div class="service-icon"><span>06</span></div>
-            <h3 class="service-title">Poradenstvi DPH</h3>
-            <p class="service-desc">Registrace k DPH, sprava mesicnich a ctvrtletnich danovych proznani.</p>
+            <h3 class="service-title">Poradenství DPH</h3>
+            <p class="service-desc">Registrace k DPH, správa měsíčních a čtvrtletních daňových proznani.</p>
         </div>
 
         </div>
@@ -808,7 +853,7 @@
         <div class="stats-grid">
             <div class="stat-card reveal reveal-d1">
             <div class="stat-number" data-count="95" data-suffix="+">0+</div>
-            <div class="stat-label">spokojanych klientu</div>
+            <div class="stat-label">spokojanych klientů</div>
         </div>
 <div class="stat-card reveal reveal-d2">
             <div class="stat-number" data-count="10" data-suffix="+">0+</div>
@@ -816,7 +861,7 @@
         </div>
 <div class="stat-card reveal reveal-d3">
             <div class="stat-number" data-count="98" data-suffix="%">0%</div>
-            <div class="stat-label">spokojenost klientu</div>
+            <div class="stat-label">spokojenost klientů</div>
         </div>
 
         </div>
@@ -827,22 +872,22 @@
 <section class="section-light" style="padding-top: 0;">
     <div class="section-inner">
         <div class="section-label reveal">JAK PRACUJEME</div>
-        <h2 class="section-title reveal reveal-d1">Nas postup v Chomutove</h2>
-        <p class="section-subtitle reveal reveal-d2">Spolehlivy a transparentni postup pro spravovani vasich dani.</p>
+        <h2 class="section-title reveal reveal-d1">Náš postup v Chomutově</h2>
+        <p class="section-subtitle reveal reveal-d2">Spolehlivý a transparentní postup pro spravování vašich daní.</p>
         <div class="process-grid">
             <div class="process-card reveal reveal-d1">
-            <span class="process-num">01 / UVODNI KONZULTACE</span>
-            <h3 class="process-title">Uvodni konzultace</h3>
-            <p class="process-desc">Zdarma probreme vasi danovou situaci a navrhnem optimalni reseni.</p>
+            <span class="process-num">01 / ÚVODNÍ KONZULTACE</span>
+            <h3 class="process-title">Úvodní konzultace</h3>
+            <p class="process-desc">Zdarma probreme vaši daňovou situaci a navrhnem optimální řešení.</p>
         </div>
 <div class="process-card reveal reveal-d2">
-            <span class="process-num">02 / ZAHAJENI SPOLUPRACE</span>
-            <h3 class="process-title">Zahajeni spoluprace</h3>
+            <span class="process-num">02 / ZAHÁJENÍ SPOLUPRÁCE</span>
+            <h3 class="process-title">Zahájení spolupráce</h3>
             <p class="process-desc">Prevezmeme agendu a zajistíme vsechny Zakonné terminy a povinnosti.</p>
         </div>
 <div class="process-card reveal reveal-d3">
-            <span class="process-num">03 / PRUBEZNA SPRAVA</span>
-            <h3 class="process-title">Prubezna sprava</h3>
+            <span class="process-num">03 / PRŮBĚŽNÁ SPRÁVA</span>
+            <h3 class="process-title">Průběžná správa</h3>
             <p class="process-desc">Aktivne se starame o vase danové povinnosti a pravidelne vas informujeme.</p>
         </div>
 
@@ -850,13 +895,15 @@
     </div>
 </section>
 
+
+
 <!-- CONTACT — DARK CARD -->
 <section class="contact-wrapper" id="kontakt">
     <div class="contact-card">
         <div class="contact-card-inner">
             <div class="contact-heading">
                 <div class="section-label reveal">KONTAKT</div>
-                <h2 class="section-title reveal reveal-d1">Pojdme spolupracovat</h2>
+                <h2 class="section-title reveal reveal-d1">Pojďme spolupracovat</h2>
             </div>
             <div class="contact-grid">
                 <dl class="contact-info-block reveal reveal-d2">
@@ -894,7 +941,7 @@
         <div class="footer-top">
             <div class="footer-brand">
                 <h3>ESCV Dane.</h3>
-                <p>Ing. Lucie Vesela, danovy poradce Chomutov. ESCV -- danove poradenstvi a ucetni sluzby pro podnikatele v Chomutove a Usteckem kraji.</p>
+                <p>Ing. Lucie Veselá, daňový poradce Chomutov. ESCV -- daňové poradenství a účetní služby pro podnikatele v Chomutově a Ústeckém kraji.</p>
                 <div class="footer-status">
                     <div class="footer-status-dot"></div>
                     <span>K dispozici</span>

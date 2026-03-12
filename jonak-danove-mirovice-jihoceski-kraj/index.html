@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Ing. Frantisek Jonak, danovy poradce v Mirovicich. Dane, ucetnictvi a danove zastoupeni pro podnikatele v jiznich Cechach.">
-    <title>Ing. Frantisek Jonak | Danovy poradce Mirovice</title>
+    <meta name="description" content="Ing. František Jonák, daňový poradce v Mirovicích. Daně, účetnictví a daňové zastoupení pro podnikatele v jižních Čechách.">
+    <title>Ing. František Jonák | Daňový poradce Mirovice</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Outfit:wght@200;300;400;500;600;700;800&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
@@ -489,6 +489,51 @@
         }
 
         /* ═══ CONTACT — DARK CARD ═══ */
+        /* ═══ TESTIMONIALS ═══ */
+        .testimonials-section {
+            padding: clamp(80px, 12vh, 140px) clamp(24px, 4vw, 64px);
+            background: var(--bg-dark);
+            color: var(--text-on-dark);
+        }
+        .testimonials-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 24px;
+            margin-top: 48px;
+        }
+        .testimonial-card {
+            background: rgba(255,255,255,0.05);
+            border: 1px solid rgba(255,255,255,0.1);
+            border-radius: var(--radius-card);
+            padding: 36px 32px 28px;
+            display: flex; flex-direction: column; gap: 20px;
+            position: relative;
+        }
+        .testimonial-card::before {
+            content: '\201C';
+            font-family: var(--serif);
+            font-size: 5rem;
+            line-height: 1;
+            color: var(--accent);
+            opacity: 0.6;
+            position: absolute;
+            top: 12px; left: 28px;
+        }
+        .testimonial-text {
+            font-size: clamp(0.95rem, 1.5vw, 1.05rem);
+            line-height: 1.75;
+            color: rgba(242,240,233,0.85);
+            padding-top: 32px;
+            font-style: italic;
+        }
+        .testimonial-author {
+            font-size: 0.82rem;
+            font-weight: 600;
+            color: var(--accent);
+            letter-spacing: 0.06em;
+            text-transform: uppercase;
+        }
+
         .contact-wrapper {
             padding: clamp(60px, 10vh, 100px) clamp(24px, 4vw, 64px);
             background: var(--bg-warm);
@@ -724,11 +769,11 @@
     <div class="hero-glow hero-glow-2"></div>
     <div class="hero-content">
         <h1>
-            <span class="hero-heading">Overeny poradce v jiznich Cechach</span>
-            <span class="hero-drama">Zkusenost.</span>
+            <span class="hero-heading">Ověřený poradce v jižních Čechách</span>
+            <span class="hero-drama">Zkušenost.</span>
         </h1>
         <p class="hero-sub">Letite zkusenosti s danovym poradenstvi pro podnikatele i fyzicke osoby v celém Jihoceskym kraji.</p>
-        <a href="#kontakt" class="hero-cta">Prvni konzultace zdarma</a>
+        <a href="#kontakt" class="hero-cta">První konzultace zdarma</a>
         <div class="hero-stats">
             <div>
             <div class="hero-stat-num">190+</div>
@@ -751,28 +796,28 @@
 <section class="section-light" id="sluzby">
     <div class="section-inner">
         <div class="section-label reveal">SLUZBY</div>
-        <h2 class="section-title reveal reveal-d1">Danove sluzby pro kazdeho</h2>
-        <p class="section-subtitle reveal reveal-d2">Kompletni danove poradenstvi od jednoduchych признани az po slozite firemni struktury.</p>
+        <h2 class="section-title reveal reveal-d1">Daňové služby pro každého</h2>
+        <p class="section-subtitle reveal reveal-d2">Kompletní daňové poradenství od jednoduchých признани až po složité firemní struktury.</p>
         <div class="services-grid">
             <div class="service-card reveal reveal-d1">
             <div class="service-icon"><span>01</span></div>
-            <h3 class="service-title">Danove poradenstvi</h3>
-            <p class="service-desc">Individualni danove poradenstvi pro zivnostniky, OSVC a male firmy v regionu jiznich Cech.</p>
+            <h3 class="service-title">Daňové poradenství</h3>
+            <p class="service-desc">Individuální daňové poradenství pro živnostníky, OSVČ a malé firmy v regionu jižních Čech.</p>
         </div>
 <div class="service-card reveal reveal-d2">
             <div class="service-icon"><span>02</span></div>
-            <h3 class="service-title">Zpracovani danovych prizani</h3>
+            <h3 class="service-title">Zpracování daňových prizani</h3>
             <p class="service-desc">Precizni a vcasne zpracovani danovych prizání k vsem danim vcetne dane z nemovitosti.</p>
         </div>
 <div class="service-card reveal reveal-d3">
             <div class="service-icon"><span>03</span></div>
             <h3 class="service-title">DPH agenda</h3>
-            <p class="service-desc">Kompletni DPH agenda: registrace, mesicni i ctvrtletni podani a kontrolni hlaseni.</p>
+            <p class="service-desc">Kompletní DPH agenda: registrace, měsíční i čtvrtletní podání a kontrolní hlášení.</p>
         </div>
 <div class="service-card reveal reveal-d4">
             <div class="service-icon"><span>04</span></div>
-            <h3 class="service-title">Ucetni poradenstvi</h3>
-            <p class="service-desc">Poradenstvi pri vedeni ucetnictvi a kontrola spravnosti ucetnich zaznamu.</p>
+            <h3 class="service-title">Účetní poradenství</h3>
+            <p class="service-desc">Poradenství při vedení účetnictví a kontrola správnosti účetních záznamů.</p>
         </div>
 <div class="service-card reveal reveal-d4">
             <div class="service-icon"><span>05</span></div>
@@ -796,7 +841,7 @@
     <div class="dot-grid"></div>
     <div class="about-inner">
         <p class="about-intro reveal">Ing. Frantisek Jonak je znamy danovy poradce v Jihoceskym kraji, ktery buduje reputaci na osobnim pristup, duvernich vztazich s klienty a hluboké znalosti ceskeho danoveho prava.</p>
-        <h2 class="about-drama reveal reveal-d1">Generace danoveho poradenstvi v regionu</h2>
+        <h2 class="about-drama reveal reveal-d1">Generace daňového poradenství v regionu</h2>
     </div>
 </section>
 
@@ -827,28 +872,30 @@
 <section class="section-light" style="padding-top: 0;">
     <div class="section-inner">
         <div class="section-label reveal">POSTUP</div>
-        <h2 class="section-title reveal reveal-d1">Jak spoluprace funguje</h2>
-        <p class="section-subtitle reveal reveal-d2">Jasne kroky od prvniho kontaktu az po podani.</p>
+        <h2 class="section-title reveal reveal-d1">Jak spolupráce funguje</h2>
+        <p class="section-subtitle reveal reveal-d2">Jasné kroky od prvního kontaktu až po podání.</p>
         <div class="process-grid">
             <div class="process-card reveal reveal-d1">
-            <span class="process-num">01 / PRVNI SETKANI</span>
-            <h3 class="process-title">Prvni setkani</h3>
-            <p class="process-desc">Osobne nebo online si promluvime o vasi situaci a domluvime se na rozsahu a cene sluzeb.</p>
+            <span class="process-num">01 / PRVNÍ SETKÁNÍ</span>
+            <h3 class="process-title">První setkání</h3>
+            <p class="process-desc">Osobně nebo online si promluvíme o vaši situaci a domluvíme se na rozsahu a ceně služeb.</p>
         </div>
 <div class="process-card reveal reveal-d2">
             <span class="process-num">02 / PRÍPRAVA A KONTROLA</span>
             <h3 class="process-title">Príprava a kontrola</h3>
-            <p class="process-desc">Poskytnete nam podklady, my je zkontrolujeme a doplnime chybejici informace.</p>
+            <p class="process-desc">Poskytnete nám podklady, my je zkontrolujeme a doplníme chybějící informace.</p>
         </div>
 <div class="process-card reveal reveal-d3">
             <span class="process-num">03 / PODÁNÍ A ARCHIVACE</span>
             <h3 class="process-title">Podání a archivace</h3>
-            <p class="process-desc">Podame vsechna hlaseni, poskytneme potvrzeni a archivujeme veskere dokumenty.</p>
+            <p class="process-desc">Podáme všechna hlášení, poskytneme potvrzení a archivujeme veškeré dokumenty.</p>
         </div>
 
         </div>
     </div>
 </section>
+
+
 
 <!-- CONTACT — DARK CARD -->
 <section class="contact-wrapper" id="kontakt">
@@ -856,7 +903,7 @@
         <div class="contact-card-inner">
             <div class="contact-heading">
                 <div class="section-label reveal">KONTAKT</div>
-                <h2 class="section-title reveal reveal-d1">Jsem tu pro vas</h2>
+                <h2 class="section-title reveal reveal-d1">Jsem tu pro vás</h2>
             </div>
             <div class="contact-grid">
                 <dl class="contact-info-block reveal reveal-d2">
@@ -894,7 +941,7 @@
         <div class="footer-top">
             <div class="footer-brand">
                 <h3>Jonak Danove.</h3>
-                <p>Ing. Frantisek Jonak, danovy poradce v Mirovicich. Dane, ucetnictvi a danove zastoupeni pro podnikatele v jiznich Cechach.</p>
+                <p>Ing. František Jonák, daňový poradce v Mirovicích. Daně, účetnictví a daňové zastoupení pro podnikatele v jižních Čechách.</p>
                 <div class="footer-status">
                     <div class="footer-status-dot"></div>
                     <span>K dispozici</span>

@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Danove poradenstvi Praha. Ing. Pavel Farsky poskytuje odborne danove poradenstvi a ucetni sluzby pro firmy a podnikatele v Praze.">
-    <title>Ing. Pavel Farsky -- Danovy poradce Praha</title>
+    <meta name="description" content="Daňové poradenství Praha. Ing. Pavel Farský poskytuje odborné daňové poradenství a účetní služby pro firmy a podnikatele v Praze.">
+    <title>Ing. Pavel Farský -- Daňový poradce Praha</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Playfair%20Display:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=DM%20Sans:wght@200;300;400;500;600;700;800&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
@@ -489,6 +489,51 @@
         }
 
         /* ═══ CONTACT — DARK CARD ═══ */
+        /* ═══ TESTIMONIALS ═══ */
+        .testimonials-section {
+            padding: clamp(80px, 12vh, 140px) clamp(24px, 4vw, 64px);
+            background: var(--bg-dark);
+            color: var(--text-on-dark);
+        }
+        .testimonials-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 24px;
+            margin-top: 48px;
+        }
+        .testimonial-card {
+            background: rgba(255,255,255,0.05);
+            border: 1px solid rgba(255,255,255,0.1);
+            border-radius: var(--radius-card);
+            padding: 36px 32px 28px;
+            display: flex; flex-direction: column; gap: 20px;
+            position: relative;
+        }
+        .testimonial-card::before {
+            content: '\201C';
+            font-family: var(--serif);
+            font-size: 5rem;
+            line-height: 1;
+            color: var(--accent);
+            opacity: 0.6;
+            position: absolute;
+            top: 12px; left: 28px;
+        }
+        .testimonial-text {
+            font-size: clamp(0.95rem, 1.5vw, 1.05rem);
+            line-height: 1.75;
+            color: rgba(242,240,233,0.85);
+            padding-top: 32px;
+            font-style: italic;
+        }
+        .testimonial-author {
+            font-size: 0.82rem;
+            font-weight: 600;
+            color: var(--accent);
+            letter-spacing: 0.06em;
+            text-transform: uppercase;
+        }
+
         .contact-wrapper {
             padding: clamp(60px, 10vh, 100px) clamp(24px, 4vw, 64px);
             background: var(--bg-warm);
@@ -724,23 +769,23 @@
     <div class="hero-glow hero-glow-2"></div>
     <div class="hero-content">
         <h1>
-            <span class="hero-heading">Prazske danove reseni</span>
+            <span class="hero-heading">Pražské daňové řešení</span>
             <span class="hero-drama">Duvera.</span>
         </h1>
-        <p class="hero-sub">Profesionalni danove poradenstvi a ucetni sluzby pro podnikatele a spolecnosti v Praze.</p>
-        <a href="#kontakt" class="hero-cta">Ziskat bezplatnou konzultaci</a>
+        <p class="hero-sub">Profesionální daňové poradenství a účetní služby pro podnikatele a společnosti v Praze.</p>
+        <a href="#kontakt" class="hero-cta">Získat bezplatnou konzultaci</a>
         <div class="hero-stats">
             <div>
             <div class="hero-stat-num">400+</div>
-            <div class="hero-stat-label">spokojenych klientu</div>
+            <div class="hero-stat-label">spokojených klientů</div>
         </div>
 <div>
             <div class="hero-stat-num">20+</div>
-            <div class="hero-stat-label">let zkusenosti</div>
+            <div class="hero-stat-label">let zkušeností</div>
         </div>
 <div>
             <div class="hero-stat-num">99%</div>
-            <div class="hero-stat-label">vcasnost podani</div>
+            <div class="hero-stat-label">včasnost podání</div>
         </div>
 
         </div>
@@ -751,28 +796,28 @@
 <section class="section-light" id="sluzby">
     <div class="section-inner">
         <div class="section-label reveal">NASE SLUZBY</div>
-        <h2 class="section-title reveal reveal-d1">Danove a ucetni sluzby v Praze</h2>
-        <p class="section-subtitle reveal reveal-d2">Kompletni danovy servis pro rozvoj vaseho podnikani bez starosti.</p>
+        <h2 class="section-title reveal reveal-d1">Daňové a účetní služby v Praze</h2>
+        <p class="section-subtitle reveal reveal-d2">Kompletní daňový servis pro rozvoj vašeho podnikání bez starostí.</p>
         <div class="services-grid">
             <div class="service-card reveal reveal-d1">
             <div class="service-icon"><span>01</span></div>
-            <h3 class="service-title">Danove poradenstvi</h3>
+            <h3 class="service-title">Daňové poradenství</h3>
             <p class="service-desc">Individualni danove poradenstvi zamerene na legalni optimalizaci danové zateze.</p>
         </div>
 <div class="service-card reveal reveal-d2">
             <div class="service-icon"><span>02</span></div>
-            <h3 class="service-title">Danova priznani</h3>
-            <p class="service-desc">Zpracovani vsech druhu danovych priznani rychle, spravne a vcas.</p>
+            <h3 class="service-title">Daňová přiznání</h3>
+            <p class="service-desc">Zpracování všech druhů daňových přiznání rychle, správně a včas.</p>
         </div>
 <div class="service-card reveal reveal-d3">
             <div class="service-icon"><span>03</span></div>
-            <h3 class="service-title">Vedeni ucetnictvi</h3>
-            <p class="service-desc">Kompletni vedeni podvojneho i jednoducheho ucetnictvi pro firmy vsech velikosti.</p>
+            <h3 class="service-title">Vedení účetnictví</h3>
+            <p class="service-desc">Kompletní vedení podvojného i jednoduchého účetnictví pro firmy všech velikostí.</p>
         </div>
 <div class="service-card reveal reveal-d4">
             <div class="service-icon"><span>04</span></div>
-            <h3 class="service-title">Mzdova agenda</h3>
-            <p class="service-desc">Zpracovani mezd, evidenci zamestnancu a veskerych odvodu.</p>
+            <h3 class="service-title">Mzdová agenda</h3>
+            <p class="service-desc">Zpracování mezd, evidenci zaměstnanců a veškerých odvodů.</p>
         </div>
 <div class="service-card reveal reveal-d4">
             <div class="service-icon"><span>05</span></div>
@@ -782,7 +827,7 @@
 <div class="service-card reveal reveal-d4">
             <div class="service-icon"><span>06</span></div>
             <h3 class="service-title">Due diligence</h3>
-            <p class="service-desc">Danova due diligence pri akvizicich a prodeji firem a obchodnich podilu.</p>
+            <p class="service-desc">Daňová due diligence při akvizicích a prodeji firem a obchodních podílů.</p>
         </div>
 
         </div>
@@ -796,7 +841,7 @@
     <div class="dot-grid"></div>
     <div class="about-inner">
         <p class="about-intro reveal">Ing. Pavel Farsky je zkuseny danovy poradce se sidlem v Praze, ktery nabizi komplexni danové poradenstvi pro firmy i jednotlivce. Jeho pristup je zalozen na hluboke znalosti danovych predpisu a individualni peci o kazdeho klienta.</p>
-        <h2 class="about-drama reveal reveal-d1">Prazsky expert na dane</h2>
+        <h2 class="about-drama reveal reveal-d1">Pražský expert na daně</h2>
     </div>
 </section>
 
@@ -808,15 +853,15 @@
         <div class="stats-grid">
             <div class="stat-card reveal reveal-d1">
             <div class="stat-number" data-count="400" data-suffix="+">0+</div>
-            <div class="stat-label">spokojenych klientu</div>
+            <div class="stat-label">spokojených klientů</div>
         </div>
 <div class="stat-card reveal reveal-d2">
             <div class="stat-number" data-count="20" data-suffix="+">0+</div>
-            <div class="stat-label">let zkusenosti</div>
+            <div class="stat-label">let zkušeností</div>
         </div>
 <div class="stat-card reveal reveal-d3">
             <div class="stat-number" data-count="99" data-suffix="%">0%</div>
-            <div class="stat-label">vcasnost podani</div>
+            <div class="stat-label">včasnost podání</div>
         </div>
 
         </div>
@@ -827,28 +872,30 @@
 <section class="section-light" style="padding-top: 0;">
     <div class="section-inner">
         <div class="section-label reveal">JAK PRACUJEME</div>
-        <h2 class="section-title reveal reveal-d1">Efektivni danovy servis</h2>
-        <p class="section-subtitle reveal reveal-d2">Tri jednoduche kroky ke klidnemu podnikani bez danovych starosti.</p>
+        <h2 class="section-title reveal reveal-d1">Efektivní daňový servis</h2>
+        <p class="section-subtitle reveal reveal-d2">Tři jednoduché kroky ke klidnému podnikání bez daňových starostí.</p>
         <div class="process-grid">
             <div class="process-card reveal reveal-d1">
-            <span class="process-num">01 / BEZPLATNA KONZULTACE</span>
-            <h3 class="process-title">Bezplatna konzultace</h3>
-            <p class="process-desc">Probereme vase potreby a moznosti spoluprace zcela zdarma.</p>
+            <span class="process-num">01 / BEZPLATNÁ KONZULTACE</span>
+            <h3 class="process-title">Bezplatná konzultace</h3>
+            <p class="process-desc">Probereme vaše potřeby a možnosti spolupráce zcela zdarma.</p>
         </div>
 <div class="process-card reveal reveal-d2">
-            <span class="process-num">02 / SMLOUVA A ZAHAJENI</span>
-            <h3 class="process-title">Smlouva a zahajeni</h3>
-            <p class="process-desc">Nastavime spolupracu a prevezmeme vasi danovou agendu.</p>
+            <span class="process-num">02 / SMLOUVA A ZAHÁJENÍ</span>
+            <h3 class="process-title">Smlouva a zahájení</h3>
+            <p class="process-desc">Nastavíme spolupracu a převezmeme vaši daňovou agendu.</p>
         </div>
 <div class="process-card reveal reveal-d3">
-            <span class="process-num">03 / PRUBEHA PECE</span>
-            <h3 class="process-title">Prubeha pece</h3>
-            <p class="process-desc">Pravidelne zpracovavame vase dane a informujeme vas o novinkach.</p>
+            <span class="process-num">03 / PRUBEHA PÉČE</span>
+            <h3 class="process-title">Prubeha péče</h3>
+            <p class="process-desc">Pravidelně zpracováváme vaše daně a informujeme vás o novinkách.</p>
         </div>
 
         </div>
     </div>
 </section>
+
+
 
 <!-- CONTACT — DARK CARD -->
 <section class="contact-wrapper" id="kontakt">
@@ -856,7 +903,7 @@
         <div class="contact-card-inner">
             <div class="contact-heading">
                 <div class="section-label reveal">KONTAKT</div>
-                <h2 class="section-title reveal reveal-d1">Kontaktujte nas v Praze</h2>
+                <h2 class="section-title reveal reveal-d1">Kontaktujte nás v Praze</h2>
             </div>
             <div class="contact-grid">
                 <dl class="contact-info-block reveal reveal-d2">
@@ -879,7 +926,7 @@
                         <textarea placeholder="Jak vám můžeme pomoci?"></textarea>
                     </div>
                     <button type="submit" class="form-submit">
-                        Odeslat zpravu
+                        Odeslat zprávu
                         <svg width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 8h10M9 4l4 4-4 4"/></svg>
                     </button>
                 </form>
@@ -894,7 +941,7 @@
         <div class="footer-top">
             <div class="footer-brand">
                 <h3>Farsky & Dane.</h3>
-                <p>Danove poradenstvi Praha. Ing. Pavel Farsky poskytuje odborne danove poradenstvi a ucetni sluzby pro firmy a podnikatele v Praze.</p>
+                <p>Daňové poradenství Praha. Ing. Pavel Farský poskytuje odborné daňové poradenství a účetní služby pro firmy a podnikatele v Praze.</p>
                 <div class="footer-status">
                     <div class="footer-status-dot"></div>
                     <span>K dispozici</span>

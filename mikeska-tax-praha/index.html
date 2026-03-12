@@ -489,6 +489,51 @@
         }
 
         /* ═══ CONTACT — DARK CARD ═══ */
+        /* ═══ TESTIMONIALS ═══ */
+        .testimonials-section {
+            padding: clamp(80px, 12vh, 140px) clamp(24px, 4vw, 64px);
+            background: var(--bg-dark);
+            color: var(--text-on-dark);
+        }
+        .testimonials-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 24px;
+            margin-top: 48px;
+        }
+        .testimonial-card {
+            background: rgba(255,255,255,0.05);
+            border: 1px solid rgba(255,255,255,0.1);
+            border-radius: var(--radius-card);
+            padding: 36px 32px 28px;
+            display: flex; flex-direction: column; gap: 20px;
+            position: relative;
+        }
+        .testimonial-card::before {
+            content: '\201C';
+            font-family: var(--serif);
+            font-size: 5rem;
+            line-height: 1;
+            color: var(--accent);
+            opacity: 0.6;
+            position: absolute;
+            top: 12px; left: 28px;
+        }
+        .testimonial-text {
+            font-size: clamp(0.95rem, 1.5vw, 1.05rem);
+            line-height: 1.75;
+            color: rgba(242,240,233,0.85);
+            padding-top: 32px;
+            font-style: italic;
+        }
+        .testimonial-author {
+            font-size: 0.82rem;
+            font-weight: 600;
+            color: var(--accent);
+            letter-spacing: 0.06em;
+            text-transform: uppercase;
+        }
+
         .contact-wrapper {
             padding: clamp(60px, 10vh, 100px) clamp(24px, 4vw, 64px);
             background: var(--bg-warm);
@@ -724,7 +769,7 @@
     <div class="hero-glow hero-glow-2"></div>
     <div class="hero-content">
         <h1>
-            <span class="hero-heading">Dane bez prekvapeni</span>
+            <span class="hero-heading">Daně bez překvapení</span>
             <span class="hero-drama">Jistota.</span>
         </h1>
         <p class="hero-sub">Ing. Pavel Mikeška vam poskytne odborne danove poradenstvi v Praze – precizne, spolehlive a vzdy vcas.</p>
@@ -736,11 +781,11 @@
         </div>
 <div>
             <div class="hero-stat-num">200+</div>
-            <div class="hero-stat-label">spokojenych klientu</div>
+            <div class="hero-stat-label">spokojených klientů</div>
         </div>
 <div>
             <div class="hero-stat-num">98%</div>
-            <div class="hero-stat-label">uspesnost podani</div>
+            <div class="hero-stat-label">úspěšnost podání</div>
         </div>
 
         </div>
@@ -751,33 +796,33 @@
 <section class="section-light" id="sluzby">
     <div class="section-inner">
         <div class="section-label reveal">NASE SLUZBY</div>
-        <h2 class="section-title reveal reveal-d1">Komplexni danove sluzby</h2>
-        <p class="section-subtitle reveal reveal-d2">Od zpracovani danoveho priznani az po zastoupeni pred financnim uradem – postarame se o vse.</p>
+        <h2 class="section-title reveal reveal-d1">Komplexní daňové služby</h2>
+        <p class="section-subtitle reveal reveal-d2">Od zpracování daňového přiznání až po zastoupení před finančním úřadem – postaráme se o vše.</p>
         <div class="services-grid">
             <div class="service-card reveal reveal-d1">
             <div class="service-icon"><span>01</span></div>
-            <h3 class="service-title">Danove poradenstvi</h3>
-            <p class="service-desc">Odborne poradenstvi v oblasti dani z prijmu, DPH a mezinarodnich dani pro podnikatele i korporace.</p>
+            <h3 class="service-title">Daňové poradenství</h3>
+            <p class="service-desc">Odborné poradenství v oblasti daní z příjmů, DPH a mezinárodních daní pro podnikatele i korporace.</p>
         </div>
 <div class="service-card reveal reveal-d2">
             <div class="service-icon"><span>02</span></div>
-            <h3 class="service-title">Zpracovani danoveho priznani</h3>
-            <p class="service-desc">Spravne a vcasne podani danoveho priznani pro fyzicke i pravnicke osoby vcetne optimalizace danove zateze.</p>
+            <h3 class="service-title">Zpracování daňového přiznání</h3>
+            <p class="service-desc">Správné a včasné podání daňového přiznání pro fyzické i právnické osoby včetně optimalizace daňové zátěže.</p>
         </div>
 <div class="service-card reveal reveal-d3">
             <div class="service-icon"><span>03</span></div>
-            <h3 class="service-title">Zastoupeni pred FU</h3>
-            <p class="service-desc">Profesionalni zastoupeni klienta pri danove kontrole nebo sporu s financnim uradem.</p>
+            <h3 class="service-title">Zastoupení před FU</h3>
+            <p class="service-desc">Profesionální zastoupení klienta při daňové kontrole nebo sporu s finančním úřadem.</p>
         </div>
 <div class="service-card reveal reveal-d4">
             <div class="service-icon"><span>04</span></div>
-            <h3 class="service-title">DPH poradenstvi</h3>
-            <p class="service-desc">Registrace k DPH, spravne uplatneni odpoctu a komplexni poradenstvi v oblasti DPH.</p>
+            <h3 class="service-title">DPH poradenství</h3>
+            <p class="service-desc">Registrace k DPH, správné uplatnění odpočtu a komplexní poradenství v oblasti DPH.</p>
         </div>
 <div class="service-card reveal reveal-d4">
             <div class="service-icon"><span>05</span></div>
-            <h3 class="service-title">Danove planovani</h3>
-            <p class="service-desc">Strategicke planovani danove zateze pro optimalizaci nakladu vasi spolecnosti do budoucna.</p>
+            <h3 class="service-title">Daňové plánování</h3>
+            <p class="service-desc">Strategické plánování daňové zátěže pro optimalizaci nákladů vaší společnosti do budoucna.</p>
         </div>
 
         </div>
@@ -791,7 +836,7 @@
     <div class="dot-grid"></div>
     <div class="about-inner">
         <p class="about-intro reveal">Ing. Pavel Mikeška je certifikovany danovy poradce s dlouholetou praci v Praze. Jeho klienti ocenuji personi pristup, preciznost a vzdy vecasne vyrizeni vsech zalezitosti.</p>
-        <h2 class="about-drama reveal reveal-d1">Zkusenosti, ktere se pocitaji</h2>
+        <h2 class="about-drama reveal reveal-d1">Zkušeností, které se počítají</h2>
     </div>
 </section>
 
@@ -807,11 +852,11 @@
         </div>
 <div class="stat-card reveal reveal-d2">
             <div class="stat-number" data-count="200" data-suffix="+">0+</div>
-            <div class="stat-label">spokojenych klientu</div>
+            <div class="stat-label">spokojených klientů</div>
         </div>
 <div class="stat-card reveal reveal-d3">
             <div class="stat-number" data-count="98" data-suffix="%">0%</div>
-            <div class="stat-label">uspesnost podani</div>
+            <div class="stat-label">úspěšnost podání</div>
         </div>
 
         </div>
@@ -822,28 +867,30 @@
 <section class="section-light" style="padding-top: 0;">
     <div class="section-inner">
         <div class="section-label reveal">JAK PRACUJEME</div>
-        <h2 class="section-title reveal reveal-d1">Jednoduchy postup spoluprace</h2>
-        <p class="section-subtitle reveal reveal-d2">Tri kroky k bezstarostnym danim – od prvniho kontaktu az po podane priznani.</p>
+        <h2 class="section-title reveal reveal-d1">Jednoduchý postup spolupráce</h2>
+        <p class="section-subtitle reveal reveal-d2">Tři kroky k bezstarostným daním – od prvního kontaktu až po podané přiznání.</p>
         <div class="process-grid">
             <div class="process-card reveal reveal-d1">
-            <span class="process-num">01 / UVODNI KONZULTACE</span>
-            <h3 class="process-title">Uvodni konzultace</h3>
-            <p class="process-desc">Probere vasi situaci, potreby a navrhneme nejlepsi reseni pro vas pripad.</p>
+            <span class="process-num">01 / ÚVODNÍ KONZULTACE</span>
+            <h3 class="process-title">Úvodní konzultace</h3>
+            <p class="process-desc">Probere vaši situaci, potřeby a navrhneme nejlepší řešení pro váš případ.</p>
         </div>
 <div class="process-card reveal reveal-d2">
-            <span class="process-num">02 / PRIPRAVA A ZPRACOVAN</span>
-            <h3 class="process-title">Priprava a zpracovani</h3>
-            <p class="process-desc">Shromazdime podklady, zpracujeme vsechny dokumenty a optimalizujeme danovou povinnost.</p>
+            <span class="process-num">02 / PŘÍPRAVA A ZPRACOVÁN</span>
+            <h3 class="process-title">Příprava a zpracování</h3>
+            <p class="process-desc">Shromáždíme podklady, zpracujeme všechny dokumenty a optimalizujeme daňovou povinnost.</p>
         </div>
 <div class="process-card reveal reveal-d3">
-            <span class="process-num">03 / PODANI A KONTROLA</span>
-            <h3 class="process-title">Podani a kontrola</h3>
-            <p class="process-desc">Podame priznani, zkontrolujeme vsechny terminy a budeme k dispozici pri case kontroly.</p>
+            <span class="process-num">03 / PODÁNÍ A KONTROLA</span>
+            <h3 class="process-title">Podání a kontrola</h3>
+            <p class="process-desc">Podáme přiznání, zkontrolujeme všechny termíny a budeme k dispozici při čase kontroly.</p>
         </div>
 
         </div>
     </div>
 </section>
+
+
 
 <!-- CONTACT — DARK CARD -->
 <section class="contact-wrapper" id="kontakt">
@@ -851,7 +898,7 @@
         <div class="contact-card-inner">
             <div class="contact-heading">
                 <div class="section-label reveal">KONTAKT</div>
-                <h2 class="section-title reveal reveal-d1">Pojdme spolupracovat</h2>
+                <h2 class="section-title reveal reveal-d1">Pojďme spolupracovat</h2>
             </div>
             <div class="contact-grid">
                 <dl class="contact-info-block reveal reveal-d2">
@@ -874,7 +921,7 @@
                         <textarea placeholder="Jak vám můžeme pomoci?"></textarea>
                     </div>
                     <button type="submit" class="form-submit">
-                        Odeslat zpravu
+                        Odeslat zprávu
                         <svg width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 8h10M9 4l4 4-4 4"/></svg>
                     </button>
                 </form>

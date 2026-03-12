@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Muj DP nabizi danove poradenstvi a vedeni ucetnictvi ve Starych Hodejovicich a okoli Ceskych Budejovic. Ing. Petra Vankova s odbornou peci o vase finance.">
-    <title>Muj DP — Danove poradenstvi Stare Hodejovice</title>
+    <meta name="description" content="Můj DP nabízí daňové poradenství a vedení účetnictví ve Starých Hodějovicích a okolí Českých Budějovic. Ing. Petra Vaňková s odbornou péčí o vaše finance.">
+    <title>Můj DP — Daňové poradenství Staré Hodějovice</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Playfair%20Display:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=DM%20Sans:wght@200;300;400;500;600;700;800&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
@@ -489,6 +489,51 @@
         }
 
         /* ═══ CONTACT — DARK CARD ═══ */
+        /* ═══ TESTIMONIALS ═══ */
+        .testimonials-section {
+            padding: clamp(80px, 12vh, 140px) clamp(24px, 4vw, 64px);
+            background: var(--bg-dark);
+            color: var(--text-on-dark);
+        }
+        .testimonials-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 24px;
+            margin-top: 48px;
+        }
+        .testimonial-card {
+            background: rgba(255,255,255,0.05);
+            border: 1px solid rgba(255,255,255,0.1);
+            border-radius: var(--radius-card);
+            padding: 36px 32px 28px;
+            display: flex; flex-direction: column; gap: 20px;
+            position: relative;
+        }
+        .testimonial-card::before {
+            content: '\201C';
+            font-family: var(--serif);
+            font-size: 5rem;
+            line-height: 1;
+            color: var(--accent);
+            opacity: 0.6;
+            position: absolute;
+            top: 12px; left: 28px;
+        }
+        .testimonial-text {
+            font-size: clamp(0.95rem, 1.5vw, 1.05rem);
+            line-height: 1.75;
+            color: rgba(242,240,233,0.85);
+            padding-top: 32px;
+            font-style: italic;
+        }
+        .testimonial-author {
+            font-size: 0.82rem;
+            font-weight: 600;
+            color: var(--accent);
+            letter-spacing: 0.06em;
+            text-transform: uppercase;
+        }
+
         .contact-wrapper {
             padding: clamp(60px, 10vh, 100px) clamp(24px, 4vw, 64px);
             background: var(--bg-warm);
@@ -724,10 +769,10 @@
     <div class="hero-glow hero-glow-2"></div>
     <div class="hero-content">
         <h1>
-            <span class="hero-heading">Dane bez strachu a chyb</span>
+            <span class="hero-heading">Daně bez strachu a chyb</span>
             <span class="hero-drama">Profesionalita.</span>
         </h1>
-        <p class="hero-sub">Profesionalni danove poradenstvi v jiznich Cechach. Spravne danove priznani vcas a bez problemu.</p>
+        <p class="hero-sub">Profesionální daňové poradenství v jižních Čechách. Správné daňové přiznání včas a bez problémů.</p>
         <a href="#kontakt" class="hero-cta">Konzultace zdarma</a>
         <div class="hero-stats">
             <div>
@@ -736,11 +781,11 @@
         </div>
 <div>
             <div class="hero-stat-num">110+</div>
-            <div class="hero-stat-label">spokojenych klientu</div>
+            <div class="hero-stat-label">spokojených klientů</div>
         </div>
 <div>
             <div class="hero-stat-num">99%</div>
-            <div class="hero-stat-label">vcasnost podani</div>
+            <div class="hero-stat-label">včasnost podání</div>
         </div>
 
         </div>
@@ -751,33 +796,33 @@
 <section class="section-light" id="sluzby">
     <div class="section-inner">
         <div class="section-label reveal">NASE SLUZBY</div>
-        <h2 class="section-title reveal reveal-d1">Danove a ucetni sluzby pro jiznni Cechy</h2>
-        <p class="section-subtitle reveal reveal-d2">Kompletni danovy a ucetni servis pro fyzicke i pravnicke osoby.</p>
+        <h2 class="section-title reveal reveal-d1">Daňové a účetní služby pro jiznni Čechy</h2>
+        <p class="section-subtitle reveal reveal-d2">Kompletní daňový a účetní servis pro fyzické i právnické osoby.</p>
         <div class="services-grid">
             <div class="service-card reveal reveal-d1">
             <div class="service-icon"><span>01</span></div>
-            <h3 class="service-title">Danove priznani</h3>
-            <p class="service-desc">Priprava a podani danoveho priznani k dani z prijmu FO i PO. Vcas, spravne a bez chyb.</p>
+            <h3 class="service-title">Daňové přiznání</h3>
+            <p class="service-desc">Příprava a podání daňového přiznání k dani z příjmu FO i PO. Včas, správně a bez chyb.</p>
         </div>
 <div class="service-card reveal reveal-d2">
             <div class="service-icon"><span>02</span></div>
-            <h3 class="service-title">Danove poradenstvi</h3>
-            <p class="service-desc">Individualni poradenstvi v oblasti dani. Pomahame klientum legalne snizit danovou zatez.</p>
+            <h3 class="service-title">Daňové poradenství</h3>
+            <p class="service-desc">Individuální poradenství v oblasti daní. Pomáháme klientům legálně snížit daňovou zátěž.</p>
         </div>
 <div class="service-card reveal reveal-d3">
             <div class="service-icon"><span>03</span></div>
-            <h3 class="service-title">Vedeni ucetnictvi</h3>
-            <p class="service-desc">Kompletni vedeni podvojneho ucetnictvi nebo daneve evidence pro vase podnikani.</p>
+            <h3 class="service-title">Vedení účetnictví</h3>
+            <p class="service-desc">Kompletní vedení podvojného účetnictví nebo daneve evidence pro vaše podnikání.</p>
         </div>
 <div class="service-card reveal reveal-d4">
             <div class="service-icon"><span>04</span></div>
             <h3 class="service-title">DPH agenda</h3>
-            <p class="service-desc">Zpracovani mesicnich a kvartalnich danovych priznani DPH a prihlaseni k plstenstvi.</p>
+            <p class="service-desc">Zpracování měsíčních a kvartálních daňových přiznání DPH a přihlášení k plstenstvi.</p>
         </div>
 <div class="service-card reveal reveal-d4">
             <div class="service-icon"><span>05</span></div>
-            <h3 class="service-title">Danove zastupovani</h3>
-            <p class="service-desc">Zastupovani klientu pri jednanich s financnim uradem a pri danove kontrole.</p>
+            <h3 class="service-title">Daňové zastupování</h3>
+            <p class="service-desc">Zastupování klientů při jednáních s finančním úřadem a při daňové kontrole.</p>
         </div>
 
         </div>
@@ -791,7 +836,7 @@
     <div class="dot-grid"></div>
     <div class="about-inner">
         <p class="about-intro reveal">Ing. Petra Vankova poskytuje danove poradenstvi a ucetnictvi pod znackou Muj DP. Pracuje s klienty individualne a dbá na to, aby kazdy rozumel svym danovym povinnostem.</p>
-        <h2 class="about-drama reveal reveal-d1">Odbornost a klid v kazde situaci</h2>
+        <h2 class="about-drama reveal reveal-d1">Odbornost a klid v každé situaci</h2>
     </div>
 </section>
 
@@ -807,11 +852,11 @@
         </div>
 <div class="stat-card reveal reveal-d2">
             <div class="stat-number" data-count="110" data-suffix="+">0+</div>
-            <div class="stat-label">spokojenych klientu</div>
+            <div class="stat-label">spokojených klientů</div>
         </div>
 <div class="stat-card reveal reveal-d3">
             <div class="stat-number" data-count="99" data-suffix="%">0%</div>
-            <div class="stat-label">vcasnost podani</div>
+            <div class="stat-label">včasnost podání</div>
         </div>
 
         </div>
@@ -822,28 +867,30 @@
 <section class="section-light" style="padding-top: 0;">
     <div class="section-inner">
         <div class="section-label reveal">JAK PRACUJEME</div>
-        <h2 class="section-title reveal reveal-d1">Transparentni a efektivni spoluprace</h2>
-        <p class="section-subtitle reveal reveal-d2">Nas postup zajistuje klientum klid a jistotu spravnych dani.</p>
+        <h2 class="section-title reveal reveal-d1">Transparentní a efektivní spolupráce</h2>
+        <p class="section-subtitle reveal reveal-d2">Náš postup zajišťuje klientům klid a jistotu správných daní.</p>
         <div class="process-grid">
             <div class="process-card reveal reveal-d1">
             <span class="process-num">01 / KONZULTACE ZDARMA</span>
             <h3 class="process-title">Konzultace zdarma</h3>
-            <p class="process-desc">Nejprve si pohovorime o vasi situaci a potrebach zcela zdarma.</p>
+            <p class="process-desc">Nejprve si pohovoříme o vaší situaci a potřebách zcela zdarma.</p>
         </div>
 <div class="process-card reveal reveal-d2">
-            <span class="process-num">02 / SBER PODKLADU</span>
-            <h3 class="process-title">Sber podkladu</h3>
-            <p class="process-desc">Poskytnete nam doklady a my zpracujeme vsechna potrebna hlaseni.</p>
+            <span class="process-num">02 / SBĚR PODKLADŮ</span>
+            <h3 class="process-title">Sběr podkladů</h3>
+            <p class="process-desc">Poskytnete nám doklady a my zpracujeme všechna potřebná hlášení.</p>
         </div>
 <div class="process-card reveal reveal-d3">
-            <span class="process-num">03 / PODANI A UZAVERKA</span>
-            <h3 class="process-title">Podani a uzaverka</h3>
-            <p class="process-desc">Podame za vas dane a informujeme o vysledku a moznych dalsich krocich.</p>
+            <span class="process-num">03 / PODÁNÍ A UZÁVĚRKA</span>
+            <h3 class="process-title">Podání a uzávěrka</h3>
+            <p class="process-desc">Podáme za vás daně a informujeme o výsledku a možných dalších krocích.</p>
         </div>
 
         </div>
     </div>
 </section>
+
+
 
 <!-- CONTACT — DARK CARD -->
 <section class="contact-wrapper" id="kontakt">
@@ -851,7 +898,7 @@
         <div class="contact-card-inner">
             <div class="contact-heading">
                 <div class="section-label reveal">KONTAKT</div>
-                <h2 class="section-title reveal reveal-d1">Pojdme spolupracovat</h2>
+                <h2 class="section-title reveal reveal-d1">Pojďme spolupracovat</h2>
             </div>
             <div class="contact-grid">
                 <dl class="contact-info-block reveal reveal-d2">
@@ -874,7 +921,7 @@
                         <textarea placeholder="Jak vám můžeme pomoci?"></textarea>
                     </div>
                     <button type="submit" class="form-submit">
-                        Odeslat zpravu
+                        Odeslat zprávu
                         <svg width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 8h10M9 4l4 4-4 4"/></svg>
                     </button>
                 </form>
@@ -889,7 +936,7 @@
         <div class="footer-top">
             <div class="footer-brand">
                 <h3>Muj DP.</h3>
-                <p>Muj DP nabizi danove poradenstvi a vedeni ucetnictvi ve Starych Hodejovicich a okoli Ceskych Budejovic. Ing. Petra Vankova s odbornou peci o vase finance.</p>
+                <p>Můj DP nabízí daňové poradenství a vedení účetnictví ve Starých Hodějovicích a okolí Českých Budějovic. Ing. Petra Vaňková s odbornou péčí o vaše finance.</p>
                 <div class="footer-status">
                     <div class="footer-status-dot"></div>
                     <span>K dispozici</span>
