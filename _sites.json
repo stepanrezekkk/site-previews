@@ -29307,5 +29307,53 @@
     "last_name": "",
     "title": "Advokát",
     "source": "cak"
+  },
+  {
+    "name": "Advokát-Prošek.cz",
+    "slug": "prosek-praha",
+    "email": "ak@advokat-prosek.cz",
+    "phone": "+420224932058",
+    "address": "",
+    "original_website": "https://www.advokat-prosek.cz",
+    "first_name": "",
+    "last_name": "",
+    "title": "Advokát",
+    "source": "cak"
+  },
+  {
+    "name": "Mgr. Lucie Prouzová, advokátka",
+    "slug": "prouzova-praha",
+    "email": "lucie.prouzova@ak-lp.cz",
+    "phone": "",
+    "address": "",
+    "original_website": "http://www.ak-lp.cz",
+    "first_name": "",
+    "last_name": "",
+    "title": "Advokátka",
+    "source": "cak"
+  },
+  {
+    "name": "JUDr. Bc. Karel Rohr, Ph.D., advokát",
+    "slug": "rohr-pardubice",
+    "email": "advokat@rohr.cz",
+    "phone": "+420604686822",
+    "address": "",
+    "original_website": "http://www.rohr.cz",
+    "first_name": "",
+    "last_name": "",
+    "title": "Advokát",
+    "source": "cak"
+  },
+  {
+    "name": "ŠTĚPÁN RYBÁŘ, advokátní kancelář",
+    "slug": "rybar-praha",
+    "email": "info@akrybar.cz",
+    "phone": "+420737020603",
+    "address": "Lazarská 1719/5, 110 00 Praha 1",
+    "original_website": "https://akrybar.cz",
+    "first_name": "",
+    "last_name": "",
+    "title": "Advokát",
+    "source": "cak"
   }
 ]
