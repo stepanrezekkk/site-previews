@@ -30279,5 +30279,77 @@
     "last_name": "",
     "title": "Advokát",
     "source": "cak"
+  },
+  {
+    "name": "Kuchler Miloslav, JUDr., advokát",
+    "slug": "kuchler-kladno",
+    "email": "kuchler.advokat@seznam.cz",
+    "phone": "+420724329975",
+    "address": "",
+    "original_website": "http://www.kuchler-advokat.cz",
+    "first_name": "",
+    "last_name": "",
+    "title": "Advokát",
+    "source": "cak"
+  },
+  {
+    "name": "Kůs & Kůs - Advokátní Kancelář",
+    "slug": "kus-praha",
+    "email": "ok@intralegem.cz",
+    "phone": "+420725978651",
+    "address": "Vyšehradská 420/19, 128 00 Praha 2 - Nové Mesto",
+    "original_website": "http://www.intralegem.cz",
+    "first_name": "",
+    "last_name": "",
+    "title": "Advokát",
+    "source": "cak"
+  },
+  {
+    "name": "Mgr. Jan Lehovec, advokát",
+    "slug": "lehovec-praha",
+    "email": "lehovec@aklehovec.cz",
+    "phone": "+420777176291",
+    "address": "",
+    "original_website": "http://www.aklehovec.cz",
+    "first_name": "",
+    "last_name": "",
+    "title": "Advokát",
+    "source": "cak"
+  },
+  {
+    "name": "Letáček Pavel, Mgr., advokát",
+    "slug": "letacek-praha",
+    "email": "info@ak-letacek.cz",
+    "phone": "+420272655082",
+    "address": "",
+    "original_website": "http://ak-letacek.cz",
+    "first_name": "",
+    "last_name": "",
+    "title": "Advokát",
+    "source": "cak"
+  },
+  {
+    "name": "Advokátní kancelář LEUCHTER & LEUCHTEROVÁ, s.r.o.",
+    "slug": "leuchterova-praha",
+    "email": "moravec@leuchter.cz",
+    "phone": "+420246030860",
+    "address": "Mikulandská 122/4, 110 00 Praha 1",
+    "original_website": "http://leuchter.cz",
+    "first_name": "",
+    "last_name": "",
+    "title": "Advokátka",
+    "source": "cak"
+  },
+  {
+    "name": "JUDr. Hana Levová, advokátní kancelář",
+    "slug": "levova-vary",
+    "email": "hana.levova@aklevova.cz",
+    "phone": "+420351120040",
+    "address": "",
+    "original_website": "http://www.aklevova.cz",
+    "first_name": "",
+    "last_name": "",
+    "title": "Advokátka",
+    "source": "cak"
   }
 ]
