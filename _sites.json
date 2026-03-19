@@ -29355,5 +29355,29 @@
     "last_name": "",
     "title": "Advokát",
     "source": "cak"
+  },
+  {
+    "name": "Advokátní kancelář JUDr. Karel Trojan",
+    "slug": "trojan-praha",
+    "email": "ak@aktrojan.cz",
+    "phone": "+420 776 000 042",
+    "address": "Na Žertvách 2230/42, 180 00 Praha 8",
+    "original_website": "https://www.aktrojan.cz",
+    "first_name": "",
+    "last_name": "",
+    "title": "Advokát",
+    "source": "cak"
+  },
+  {
+    "name": "JUDr. Daniela Urbanová, advokátní kancelář",
+    "slug": "urbanova-praha",
+    "email": "info@avocate.cz",
+    "phone": "+420 734 146 020",
+    "address": "Opletalova 37, 110 00 Praha 1",
+    "original_website": "https://www.avocate.cz",
+    "first_name": "",
+    "last_name": "",
+    "title": "Advokátka",
+    "source": "cak"
   }
 ]
