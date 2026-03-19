@@ -29379,5 +29379,53 @@
     "last_name": "",
     "title": "Advokátka",
     "source": "cak"
+  },
+  {
+    "name": "Advokátní kancelář JUDr. Markéta Soukupová",
+    "slug": "soukupova-most",
+    "email": "info@akmost.cz",
+    "phone": "+420773644056",
+    "address": "Josefa Ressla 1808/3, 434 01 Most",
+    "original_website": "http://www.akmost.cz",
+    "first_name": "",
+    "last_name": "",
+    "title": "Advokátka",
+    "source": "cak"
+  },
+  {
+    "name": "Mgr. Václav Stehlík, advokát",
+    "slug": "stehlik-ceska-lipa",
+    "email": "vaclav.stehlik@akstehlik.cz",
+    "phone": "+420605966295",
+    "address": "U synagogy 701/2, 470 01 Česká Lípa",
+    "original_website": "http://www.akstehlik.cz",
+    "first_name": "",
+    "last_name": "",
+    "title": "Advokát",
+    "source": "cak"
+  },
+  {
+    "name": "JUDr. Kateřina Svrčinová Danielová, advokátní kancelář",
+    "slug": "danielova-ostrava",
+    "email": "danielova@akdanielova.cz",
+    "phone": "773474944",
+    "address": "Na Hradbách 1440/16, 702 00 Moravská Ostrava a Přívoz",
+    "original_website": "http://akdanielova.cz",
+    "first_name": "",
+    "last_name": "",
+    "title": "Advokátka",
+    "source": "cak"
+  },
+  {
+    "name": "Advokátní kancelář Šimák",
+    "slug": "simak-pisek",
+    "email": "kancelar@advokatsimak.cz",
+    "phone": "+420728180139",
+    "address": "Komenského 319/6, 397 01 Písek",
+    "original_website": "http://www.advokatsimak.cz",
+    "first_name": "",
+    "last_name": "",
+    "title": "Advokát",
+    "source": "cak"
   }
 ]
