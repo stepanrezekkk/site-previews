@@ -29739,5 +29739,77 @@
     "last_name": "",
     "title": "Advokát",
     "source": "cak"
+  },
+  {
+    "name": "Mgr. Eliška Vocelová, advokátka",
+    "slug": "vocelova-praha",
+    "email": "eliska.vocelova@akvocelova.cz",
+    "phone": "+420602704537",
+    "address": "Vinohradská 1215/32, 120 00 Praha 2",
+    "original_website": "http://akvocelova.cz",
+    "first_name": "",
+    "last_name": "",
+    "title": "Advokátka",
+    "source": "cak"
+  },
+  {
+    "name": "JUDr. Pavel Weikert, advokátní kancelář",
+    "slug": "weikert-praha",
+    "email": "pavel.weikert@akweikert.cz",
+    "phone": "+420775251499",
+    "address": "",
+    "original_website": "http://www.akweikert.cz",
+    "first_name": "",
+    "last_name": "",
+    "title": "Advokát",
+    "source": "cak"
+  },
+  {
+    "name": "Mgr. Filip Záděra, Ph.D., advokát",
+    "slug": "zadera-praha",
+    "email": "kancelar@ichtius.cz",
+    "phone": "+420222519980",
+    "address": "Slezská 949/32, 120 00 Praha 2",
+    "original_website": "http://www.ichtius.cz",
+    "first_name": "",
+    "last_name": "",
+    "title": "Advokát",
+    "source": "cak"
+  },
+  {
+    "name": "JUDr. Milan Zeman, advokát",
+    "slug": "zeman-karlovyvary",
+    "email": "judrzeman@judrzeman.cz",
+    "phone": "+420353232040",
+    "address": "Karlovy Vary",
+    "original_website": "http://www.judrzeman.cz",
+    "first_name": "",
+    "last_name": "",
+    "title": "Advokát",
+    "source": "cak"
+  },
+  {
+    "name": "Advokátní kancelář JUDr. Božena Zmátlová",
+    "slug": "zmatlova-jihlava",
+    "email": "zmatlova@advokati-vysocina.cz",
+    "phone": "+420567331303",
+    "address": "Dvořákova 1927/5, Jihlava, Kraj Vysočina",
+    "original_website": "http://www.advokati-vysocina.cz",
+    "first_name": "",
+    "last_name": "",
+    "title": "Advokátka",
+    "source": "cak"
+  },
+  {
+    "name": "TOCIK ŠINDELÁŘ & PARTNEŘI, advokátní kancelář",
+    "slug": "tocik-karlovyvary",
+    "email": "office@tocik.cz",
+    "phone": "+420353226531",
+    "address": "Moskevská 1461/66, 360 01 Karlovy Vary",
+    "original_website": "http://tocik.cz",
+    "first_name": "",
+    "last_name": "",
+    "title": "Advokát",
+    "source": "cak"
   }
 ]
