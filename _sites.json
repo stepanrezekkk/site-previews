@@ -29619,5 +29619,41 @@
     "last_name": "",
     "title": "Advokátka",
     "source": "cak"
+  },
+  {
+    "name": "JUDr. Pavla Henzlová, advokátka",
+    "slug": "henzlova-praha",
+    "email": "henzlova@ak-henzlova.cz",
+    "phone": "+420606731087",
+    "address": "Hošťálkova 392/1a, 169 00 Praha 6",
+    "original_website": "http://www.ak-henzlova.cz",
+    "first_name": "",
+    "last_name": "",
+    "title": "Advokátka",
+    "source": "cak"
+  },
+  {
+    "name": "Advokátní kancelář JUDr. Ing. Luboš Mahdoň",
+    "slug": "mahdon-brno",
+    "email": "mahdon@advokatieu.cz",
+    "phone": "+420702949866",
+    "address": "Jiříkovského 249/6, 602 00 Brno",
+    "original_website": "http://advokatieu.cz",
+    "first_name": "",
+    "last_name": "",
+    "title": "Advokát",
+    "source": "cak"
+  },
+  {
+    "name": "Mgr. Jana Rybová Kunčarová, advokát",
+    "slug": "rybova-kuncanova-sumperk",
+    "email": "rybova@jrk-advokat.cz",
+    "phone": "+420725543844",
+    "address": "Šumperk",
+    "original_website": "http://www.jrk-advokat.cz",
+    "first_name": "",
+    "last_name": "",
+    "title": "Advokátka",
+    "source": "cak"
   }
 ]
