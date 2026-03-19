@@ -29655,5 +29655,89 @@
     "last_name": "",
     "title": "Advokátka",
     "source": "cak"
+  },
+  {
+    "name": "Urbanová Marcela, JUDr., advokát",
+    "slug": "urbanova-opava",
+    "email": "advokat@marcelaurbanova.cz",
+    "phone": "+420 773 338 251",
+    "address": "Horní náměstí 58, 746 01 Opava",
+    "original_website": "http://marcelaurbanova.cz",
+    "first_name": "",
+    "last_name": "",
+    "title": "Advokátka",
+    "source": "cak"
+  },
+  {
+    "name": "Mgr. Vladimír Valášek, advokát",
+    "slug": "valasek-hodonin",
+    "email": "valasekvladimir@seznam.cz",
+    "phone": "+420 518 343 429",
+    "address": "Hodonín",
+    "original_website": "http://www.advokatvalasek.cz",
+    "first_name": "",
+    "last_name": "",
+    "title": "Advokát",
+    "source": "cak"
+  },
+  {
+    "name": "Mgr. Petra Valčíková Boráková, advokátka",
+    "slug": "valcikova-novy-jicin",
+    "email": "info@advokat-borakova.cz",
+    "phone": "607 924 659",
+    "address": "Hoblíkova 491/2, 741 01 Nový Jičín",
+    "original_website": "http://www.akvalcikova.cz",
+    "first_name": "",
+    "last_name": "",
+    "title": "Advokátka",
+    "source": "cak"
+  },
+  {
+    "name": "Mgr. Kateřina Vaňousková, advokátní kancelář",
+    "slug": "vanouskova-bradlec",
+    "email": "vanouskova@akhv.eu",
+    "phone": "+420 602 736 777",
+    "address": "Bradlec",
+    "original_website": "http://akhv.eu",
+    "first_name": "",
+    "last_name": "",
+    "title": "Advokátka",
+    "source": "cak"
+  },
+  {
+    "name": "JUDr. Michal Vejlupek, advokát",
+    "slug": "vejlupek-usti-nad-labem",
+    "email": "m.vejlupek@volny.cz",
+    "phone": "+420 475 216 681",
+    "address": "Hradiště 97/4, 400 01 Ústí nad Labem",
+    "original_website": "http://www.advokat-ul.cz",
+    "first_name": "",
+    "last_name": "",
+    "title": "Advokát",
+    "source": "cak"
+  },
+  {
+    "name": "FERRY v.o.s., advokátní kancelář",
+    "slug": "vesely-praha",
+    "email": "akvesely@akvesely.cz",
+    "phone": "+420 224 920 472",
+    "address": "Vinohradská 1597/174, 130 00 Praha 3",
+    "original_website": "http://akvesely.cz",
+    "first_name": "",
+    "last_name": "",
+    "title": "Advokát",
+    "source": "cak"
+  },
+  {
+    "name": "JUDr. Petr Víška, advokátní kancelář",
+    "slug": "viska-plzen",
+    "email": "akviska@akviska.cz",
+    "phone": "+420 377 923 812",
+    "address": "Malická 11, 301 00 Plzeň",
+    "original_website": "http://www.akviska.cz",
+    "first_name": "",
+    "last_name": "",
+    "title": "Advokát",
+    "source": "cak"
   }
 ]
