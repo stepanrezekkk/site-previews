@@ -35913,5 +35913,6008 @@
     "phone": "",
     "website": "http://www.kyncl.net",
     "source": "cak"
+  },
+  {
+    "name": "JUDr. Jarmila Augustýnová, advokát",
+    "slug": "august-nov-umperk",
+    "city": "Šumperk",
+    "email": "kancelar@augustynova.cz",
+    "phone": "+420583212499",
+    "website": "http://augustynova.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Mgr. Vítězslav Bachan, advokát",
+    "slug": "bachan-brno",
+    "city": "Brno",
+    "email": "bachan@akbachan.cz",
+    "phone": "+420733726078",
+    "website": "http://akbachan.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Advokátní kancelář BŘESKÝ, HEIPLÍK, VOSÁTKA, s.r.o.",
+    "slug": "heipl-k-praha",
+    "city": "Praha",
+    "email": "bresky@akbresky.cz",
+    "phone": "+420224910495",
+    "website": "http://akbresky.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Mgr. Vladimír Reznichenko, advokát",
+    "slug": "reznichenko-plze",
+    "city": "Plzeň",
+    "email": "vladimir@reznichenko.eu",
+    "phone": "+420605188005",
+    "website": "http://reznichenko.eu",
+    "source": "cak"
+  },
+  {
+    "name": "Kuna Luboš, JUDr., advokátní kancelář",
+    "slug": "kuna-praha",
+    "city": "Praha",
+    "email": "kuna@adkuna.cz",
+    "phone": "+420261216979",
+    "website": "http://www.adkuna.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Mgr. Jakub Cupák, advokát",
+    "slug": "cup-k-brno",
+    "city": "Brno",
+    "email": "cupak@akcupak.cz",
+    "phone": "+420723988444",
+    "website": "http://akcupak.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Mgr. Václav Červený, advokát",
+    "slug": "erven-praha",
+    "city": "Praha",
+    "email": "cerveny@akcerveny.cz",
+    "phone": "",
+    "website": "http://akcerveny.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Mgr. Táňa Drnková, advokátní kancelář",
+    "slug": "drnkov-bud-jovice",
+    "city": "Budějovice",
+    "email": "drnkova@advokatcb.cz",
+    "phone": "+ 420 733 548 886",
+    "website": "http://advokatcb.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Mgr. Tamás Fábián, advokát",
+    "slug": "f-bi-n-brno",
+    "city": "Brno",
+    "email": "fabian@fabianlegal.cz",
+    "phone": "+420608684912",
+    "website": "http://fabianlegal.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Mgr. VÍT FEBER, advokát",
+    "slug": "feber-hav-ov",
+    "city": "Havířov",
+    "email": "advokat@akfeber.cz",
+    "phone": "+420774252066",
+    "website": "http://akfeber.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Mgr. Ing. Marek Fiala, advokát",
+    "slug": "fiala-plze",
+    "city": "Plzeň",
+    "email": "marek.fiala@akmf.cz",
+    "phone": "+420702285955",
+    "website": "http://akmf.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Mgr Hana Fidesová, advokátka",
+    "slug": "mgr-praha",
+    "city": "Praha",
+    "email": "hana@fidesweb.com",
+    "phone": "+420603554491",
+    "website": "http://www.ak-ps.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Mgr. Radek Frkal, advokát",
+    "slug": "frkal-brno",
+    "city": "Brno",
+    "email": "mgr.radekfrkal@frkal.cz",
+    "phone": "+420545175455",
+    "website": "http://frkal.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Mgr. Lubona Gajdošíková, advokátka",
+    "slug": "gajdo-kov-b-eclav",
+    "city": "Břeclav",
+    "email": "lubona.gajdosikova@lg-advokatka.cz",
+    "phone": "731 607 211",
+    "website": "http://lg-advokatka.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Galia Petr, Mgr., advokát",
+    "slug": "galia-litom-ice",
+    "city": "Litoměřice",
+    "email": "sekretariat@ak-galia.cz",
+    "phone": "+420416733681",
+    "website": "http://www.ak-galia.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Advokátní kancelář JUDr. Pavel Gazárek, advokát",
+    "slug": "advok-tn-anton-nkem",
+    "city": "Antonínkem",
+    "email": "pgazarek@akgaza.cz",
+    "phone": "+420602664831",
+    "website": "http://akgaza.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Grulichová Lenka, Mgr., advokát",
+    "slug": "grulichov-kn-nou",
+    "city": "Kněžnou",
+    "email": "grulichova@tuzar.net",
+    "phone": "+420494535280",
+    "website": "http://tuzar.net",
+    "source": "cak"
+  },
+  {
+    "name": "Mgr. Lubomír Hajkr, advokát",
+    "slug": "hajkr-praha",
+    "city": "Praha",
+    "email": "hajkr@spoladvok.cz",
+    "phone": "+420602455608",
+    "website": "http://spoladvok.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Tomanek Richard, JUDr., advokát",
+    "slug": "tomanek-brno",
+    "city": "Brno",
+    "email": "advokati@jestrabtomanek.cz",
+    "phone": "+420543217121",
+    "website": "http://www.jestrabtomanek.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Hart Jan, Mgr., advokát",
+    "slug": "hart-praha",
+    "city": "Praha",
+    "email": "hart@officehart.eu",
+    "phone": "+420774844999",
+    "website": "http://officehart.eu",
+    "source": "cak"
+  },
+  {
+    "name": "Mgr.Ing. ROBERT HEBKÝ, advokátní kancelář",
+    "slug": "hebk-most",
+    "city": "Most",
+    "email": "advokat@hebky.cz",
+    "phone": "+420777895514",
+    "website": "http://hebky.cz",
+    "source": "cak"
+  },
+  {
+    "name": "JUDr. Antonín Hedrlín, Ph.D., advokát",
+    "slug": "hedrl-n-praha",
+    "city": "Praha",
+    "email": "hedrlin@hedrlin.cz",
+    "phone": "+420261094411",
+    "website": "http://hedrlin.cz",
+    "source": "cak"
+  },
+  {
+    "name": "PBE Lawyers s.r.o., advokátní kancelář",
+    "slug": "hejl-praha",
+    "city": "Praha",
+    "email": "filip.hejl@pbelaw.cz",
+    "phone": "222313572",
+    "website": "http://pbelaw.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Mgr. PETR HNÁTEK, advokát",
+    "slug": "hn-tek-praha",
+    "city": "Praha",
+    "email": "petr.hnatek@krouzeklegal.cz",
+    "phone": "+420776771166",
+    "website": "http://krouzeklegal.cz",
+    "source": "cak"
+  },
+  {
+    "name": "JUDr. Martin Horák LL.M., advokát",
+    "slug": "hor-k-ll-m-ostrava",
+    "city": "Ostrava",
+    "email": "is@mhorak.cz",
+    "phone": "+420777111911",
+    "website": "http://mhorak.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Mgr. Marek Prchlík, advokát",
+    "slug": "prchl-k-praha",
+    "city": "Praha",
+    "email": "mprchlik@mprchlik.cz",
+    "phone": "+420608134090",
+    "website": "http://mprchlik.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Hoskovec Marek, Mgr., advokát",
+    "slug": "hoskovec-praha",
+    "city": "Praha",
+    "email": "office@ak-hoskovec.cz",
+    "phone": "+420234095754",
+    "website": "http://ak-hoskovec.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Mgr. Monika Hotová, advokát",
+    "slug": "hotov-brno",
+    "city": "Brno",
+    "email": "hotova@mpadvokat.cz",
+    "phone": "737364433",
+    "website": "http://mpadvokat.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Mgr. Matúš Hubcej, advokát",
+    "slug": "hubcej-brno",
+    "city": "Brno",
+    "email": "matus.hubcej@akjerabek.cz",
+    "phone": "+420735173206",
+    "website": "http://akjerabek.cz",
+    "source": "cak"
+  },
+  {
+    "name": "AK Chrámecká",
+    "slug": "ak-praha-5",
+    "city": "Praha",
+    "email": "info@chramecka.cz",
+    "phone": "",
+    "website": "http://www.chramecka.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Chromcová Žofie, JUDr., Ph.D., advokátka",
+    "slug": "chromcov-praha",
+    "city": "Praha",
+    "email": "zofie.chromcova@akchromcova.cz",
+    "phone": "+420602621124",
+    "website": "http://akchromcova.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Mgr. Milan Janák, advokát",
+    "slug": "jan-k-brno",
+    "city": "Brno",
+    "email": "m.janak@ak-vacha.cz",
+    "phone": "+420775131201",
+    "website": "http://ak-vacha.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Mgr. Svatoslav Jančík, advokát",
+    "slug": "jan-k-krom",
+    "city": "Kroměříž",
+    "email": "jancik@jancikak.cz",
+    "phone": "",
+    "website": "http://jancikak.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Mgr. Vlastimil Němec, advokát",
+    "slug": "n-mec-p-erov",
+    "city": "Přerov",
+    "email": "nemec@aknv.cz",
+    "phone": "+420737273266",
+    "website": "http://aknv.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Mgr. PAVEL JANKŮ, advokát",
+    "slug": "jank-praha",
+    "city": "Praha",
+    "email": "pavel.janku@janku-ak.cz",
+    "phone": "+420731657583",
+    "website": "http://janku-ak.cz",
+    "source": "cak"
+  },
+  {
+    "name": "JJ legal s.r.o., advokátní kanelář",
+    "slug": "jaro-ll-m-praha",
+    "city": "Praha",
+    "email": "jaros@jjlegal.cz",
+    "phone": "+420607875952",
+    "website": "http://ww.jjlegal.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Advokátní kancelář Mgr. Krmášek",
+    "slug": "advok-tn-ostrava-2",
+    "city": "Ostrava",
+    "email": "krmasek@akkrmasek.cz",
+    "phone": "+420596635867",
+    "website": "http://akkrmasek.cz",
+    "source": "cak"
+  },
+  {
+    "name": "LAWISE advokátní kancelář, s.r.o.",
+    "slug": "kasp-k-praha",
+    "city": "Praha",
+    "email": "office@lawise.cz",
+    "phone": "+420245001610",
+    "website": "http://www.lawise.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Advokátní kancelář Mgr. TOMÁŠ KELYMAN",
+    "slug": "advok-tn-plze-2",
+    "city": "Plzeň",
+    "email": "kelyman@akkelyman.cz",
+    "phone": "+420777184356",
+    "website": "http://akkelyman.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Klečková Tereza, Mgr., advokát",
+    "slug": "kle-kov-kol-n",
+    "city": "Kolín",
+    "email": "tereza@kleckova.cz",
+    "phone": "+420602462223",
+    "website": "http://kleckova.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Mgr. Peter Klobušický, advokát",
+    "slug": "klobu-ick-praha",
+    "city": "Praha",
+    "email": "klobusicky@akklobusicky.cz",
+    "phone": "00420777073303",
+    "website": "http://akklobusicky.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Advokátní kancelář JUDr. Jan Knobloch",
+    "slug": "advok-tn-plze-3",
+    "city": "Plzeň",
+    "email": "knobloch@akknobloch.cz",
+    "phone": "+420377223663",
+    "website": "http://akknobloch.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Mgr. MARCELA KOLÁŘOVÁ, advokátka",
+    "slug": "kol-ov-brno",
+    "city": "Brno",
+    "email": "akkolarova@akkolarova.cz",
+    "phone": "+420737124096",
+    "website": "http://akkolarova.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Komárková Knapová Markéta, Mgr., LL.M., advokát",
+    "slug": "kom-rkov-kladno",
+    "city": "Kladno",
+    "email": "marketa.knapova@ak-petrknap.cz",
+    "phone": "",
+    "website": "http://ak-petrknap.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Mgr. DIANA KOŤOVÁ, advokátní kancelář",
+    "slug": "ko-ov-teplice",
+    "city": "Teplice",
+    "email": "kotova@akkotova.cz",
+    "phone": "+420724751570",
+    "website": "http://www.akkotova.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Krondl Václav, JUDr.",
+    "slug": "krondl-vary",
+    "city": "Vary",
+    "email": "office@ak-kv.cz",
+    "phone": "+420353222283",
+    "website": "http://ak-kv.cz",
+    "source": "cak"
+  },
+  {
+    "name": "JUDr. Ing. Jiří Kuruc, advokát",
+    "slug": "kuruc-tma",
+    "city": "Tmaň",
+    "email": "akkuruc@akkuruc.cz",
+    "phone": "00420 739 657 258",
+    "website": "http://akkuruc.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Mgr. Ing. Ivana Lasovská, advokátka",
+    "slug": "lasovsk-han",
+    "city": "Hané",
+    "email": "lasovska@aklasovska.cz",
+    "phone": "+420604796011",
+    "website": "http://aklasovska.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Mgr. Marie Látová, advokát",
+    "slug": "l-tov-praha",
+    "city": "Praha",
+    "email": "latova@latova.cz",
+    "phone": "+420222311180",
+    "website": "http://latova.cz",
+    "source": "cak"
+  },
+  {
+    "name": "JUDr. Vlastislav Lexa, advokát",
+    "slug": "lexa-olomouc",
+    "city": "Olomouc",
+    "email": "kancelar@aklexa.cz",
+    "phone": "+420724444312",
+    "website": "http://aklexa.cz",
+    "source": "cak"
+  },
+  {
+    "name": "JUDr. Klára Long Slámová",
+    "slug": "long-sl-mov-praha",
+    "city": "Praha",
+    "email": "klara@advokati.info",
+    "phone": "+420777774470",
+    "website": "http://www.advokati.info",
+    "source": "cak"
+  },
+  {
+    "name": "Mgr. Šimon Mach, advokát",
+    "slug": "mach-praha",
+    "city": "Praha",
+    "email": "mach@ak-mach.cz",
+    "phone": "+420606283689",
+    "website": "http://ak-mach.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Advokátní kancelář JUDr. Zdeněk Mach",
+    "slug": "advok-tn-brno-5",
+    "city": "Brno",
+    "email": "mach@mach-advokat.cz",
+    "phone": "+420602519450",
+    "website": "http://www.mach-advokat.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Marhan Vlastimil, JUDr., advokát",
+    "slug": "marhan-kr-lov",
+    "city": "Králové",
+    "email": "marhan@ak-bmmo.cz",
+    "phone": "606615078",
+    "website": "http://ak-bmmo.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Melichová Kateřina, Mgr. Ing., advokát",
+    "slug": "melichov-praha",
+    "city": "Praha",
+    "email": "melichova@e-pravnici.cz",
+    "phone": "+420222220955",
+    "website": "http://www.e-pravnici.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Mgr. Kateřina Menclová - advokát",
+    "slug": "menclov-advok-t-praha",
+    "city": "Praha",
+    "email": "katerina.menclova@ak-sas.cz",
+    "phone": "+420224228962",
+    "website": "http://ak-sas.cz",
+    "source": "cak"
+  },
+  {
+    "name": "MOND Legal, advokátní kancelář, s.r.o.",
+    "slug": "onda-kov-praha",
+    "city": "Praha",
+    "email": "office@mondlegal.cz",
+    "phone": "777479082",
+    "website": "http://mondlegal.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Mgr. Martina NEUROČNÁ, advokátka",
+    "slug": "neuro-n-hodon-n",
+    "city": "Hodonín",
+    "email": "neurocna@akvano.com",
+    "phone": "",
+    "website": "http://akvano.com",
+    "source": "cak"
+  },
+  {
+    "name": "Oříšková Danka , Mgr., advokátka",
+    "slug": "o-kov-praha",
+    "city": "Praha",
+    "email": "oriskova@akoriskova.cz",
+    "phone": "+420605241814",
+    "website": "http://akoriskova.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Pernica Petr, JUDr.",
+    "slug": "pernica-brno",
+    "city": "Brno",
+    "email": "pernica@akpernica.cz",
+    "phone": "+420543217909",
+    "website": "http://akpernica.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Petrák Miroslav, JUDr.",
+    "slug": "petr-k-kladno",
+    "city": "Kladno",
+    "email": "petrak@petrakak.cz",
+    "phone": "",
+    "website": "http://petrakak.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Mgr. Jana Pivolusková, advokátka",
+    "slug": "pivoluskov-praha",
+    "city": "Praha",
+    "email": "pivoluskova@pivoluskova.cz",
+    "phone": "+420777587111",
+    "website": "http://www.pivoluskova.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Zubek Radovan, JUDr., advokát",
+    "slug": "zubek-brno",
+    "city": "Brno",
+    "email": "zubek@akzs.cz",
+    "phone": "+420548212309",
+    "website": "http://akzs.cz",
+    "source": "cak"
+  },
+  {
+    "name": "JUDr. ONDREJ PONIŠTIAK, Ph.D., advokát",
+    "slug": "poni-tiak-praha",
+    "city": "Praha",
+    "email": "advokat@ponistiak.com",
+    "phone": "+420775985188",
+    "website": "http://ponistiak.com",
+    "source": "cak"
+  },
+  {
+    "name": "Advokátní kancelář Mgr. Lucie Popelková",
+    "slug": "advok-tn-ostrava-3",
+    "city": "Ostrava",
+    "email": "ak@popelkova.cz",
+    "phone": "+420777815793",
+    "website": "http://popelkova.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Procházka Petr, JUDr., advokát",
+    "slug": "proch-zka-brno",
+    "city": "Brno",
+    "email": "petr.prochazka@spravedlivy.cz",
+    "phone": "+420541240568",
+    "website": "http://www.spravedlivy.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Rydlová Martina, Mgr., advokát",
+    "slug": "rydlov-praha",
+    "city": "Praha",
+    "email": "mrydlova@akrydlova.cz",
+    "phone": "+420257325117",
+    "website": "http://akrydlova.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Mgr. Marie Sciskalová, advokátka",
+    "slug": "sciskalov-tepl-ovice",
+    "city": "Teplýšovice",
+    "email": "sciskalova@aksciskalova.cz",
+    "phone": "+420724926827",
+    "website": "http://www.aksciskalova.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Slavíček Martin, JUDr., advokátní kancelář",
+    "slug": "slav-ek-praha",
+    "city": "Praha",
+    "email": "slavicek@iuc.cz",
+    "phone": "+420222541612",
+    "website": "http://iuc.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Slavík Jiří, Mgr., advokát",
+    "slug": "slav-k-praha",
+    "city": "Praha",
+    "email": "jiri.slavik@advokatvpraze.cz",
+    "phone": "+420257216156",
+    "website": "http://advokatvpraze.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Soják & partners, advokátní kancelář, s.r.o.",
+    "slug": "soj-k-praha",
+    "city": "Praha",
+    "email": "akkosicka@seznam.cz",
+    "phone": "",
+    "website": "http://www.advokatnikancelar.net",
+    "source": "cak"
+  },
+  {
+    "name": "EVA STAŇKOVÁ, advokát",
+    "slug": "eva-j-lovi-t",
+    "city": "Jíloviště",
+    "email": "plevova@akplevova.cz",
+    "phone": "+420605505522",
+    "website": "http://akplevova.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Stoklas Petr, JUDr.",
+    "slug": "stoklas-ostrava",
+    "city": "Ostrava",
+    "email": "advokat@petrstoklas.cz",
+    "phone": "+420774451005",
+    "website": "http://www.petrstoklas.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Mgr. JIŘÍ STREJČEK, advokát",
+    "slug": "strej-ek-25210",
+    "city": "25210",
+    "email": "jstrejcek@akstrejcek.cz",
+    "phone": "+420723138149",
+    "website": "http://akstrejcek.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Stypa Kamil, Mgr., advokát",
+    "slug": "stypa-markvartovice",
+    "city": "Markvartovice",
+    "email": "podatelna@ks-advokat.cz",
+    "phone": "+420606266174",
+    "website": "http://ks-advokat.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Mgr. ALENA SUŠICKÁ, advokátka",
+    "slug": "su-ick-praha",
+    "city": "Praha",
+    "email": "asusicka@asusicka.cz",
+    "phone": "733 180 145",
+    "website": "http://asusicka.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Mgr. JAN ŠMEJKAL, advokátní kancelář",
+    "slug": "mejkal-praha",
+    "city": "Praha",
+    "email": "jan.smejkal@aksmejkal.cz",
+    "phone": "",
+    "website": "http://aksmejkal.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Mgr. Simona Štruncová, LL.M., advokát",
+    "slug": "truncov-praha",
+    "city": "Praha",
+    "email": "struncova@advokat-struncova.cz",
+    "phone": "603182326",
+    "website": "http://advokat-struncova.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Telecký advokáti s.r.o.",
+    "slug": "teleck-praha",
+    "city": "Praha",
+    "email": "ivan@telecky.legal",
+    "phone": "",
+    "website": "http://telecky.legal",
+    "source": "cak"
+  },
+  {
+    "name": "Mgr. Matyáš Troup, advokát",
+    "slug": "troup-praha",
+    "city": "Praha",
+    "email": "mtroup@trouplegal.cz",
+    "phone": "",
+    "website": "http://trouplegal.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Mgr. Zdeněk Turek, advokát",
+    "slug": "turek-praha",
+    "city": "Praha",
+    "email": "turek@akturek.cz",
+    "phone": "",
+    "website": "http://akturek.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Mgr. Lukáš Tvrdík, advokát",
+    "slug": "tvrd-k-praha",
+    "city": "Praha",
+    "email": "tvrdik@aktvrdik.cz",
+    "phone": "+420222543045",
+    "website": "http://aktvrdik.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Mgr. Veronika Vaňková, advokátka",
+    "slug": "va-kov-praha",
+    "city": "Praha",
+    "email": "veronika.vankova@vankova-ak.cz",
+    "phone": "+420774556292",
+    "website": "http://vankova-ak.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Mgr. Antonín Wirth, advokát",
+    "slug": "wirth-klatovy",
+    "city": "Klatovy",
+    "email": "wirth@akwirth.cz",
+    "phone": "603 980 498",
+    "website": "http://akwirth.cz",
+    "source": "cak"
+  },
+  {
+    "name": "JUDr. Martina Zajícová, LL.M., advokátka",
+    "slug": "zaj-cov-paskov",
+    "city": "Paskov",
+    "email": "zajicova.martina@akzajic.cz",
+    "phone": "",
+    "website": "http://akzajic.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Mgr. Klára Zemanová, advokátka",
+    "slug": "zemanov-vary",
+    "city": "Vary",
+    "email": "advokatka@klarazemanova.cz",
+    "phone": "+420601504414",
+    "website": "http://klarazemanova.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Mgr. Adam Zlámal, advokát",
+    "slug": "zl-mal-praha",
+    "city": "Praha",
+    "email": "info@akzlamal.cz",
+    "phone": "+420603141495",
+    "website": "http://akzlamal.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Mgr. Anna Betincová Šípová, advokát",
+    "slug": "betincov-pov-plze",
+    "city": "Plzeň",
+    "email": "a.sipova@akseidler.cz",
+    "phone": "+420775560223",
+    "website": "http://akseidler.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Mgr. Jan Bobro, advokát",
+    "slug": "bobro-ostrava",
+    "city": "Ostrava",
+    "email": "bobro@advokat-ova.cz",
+    "phone": "+420777056048",
+    "website": "http://advokat-ova.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Eichlerová Kateřina, Mgr., advokát",
+    "slug": "eichlerov-praha",
+    "city": "Praha",
+    "email": "katerina.eichlerova@nostra.cz",
+    "phone": "+420281860995",
+    "website": "http://nostra.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Mgr. PHILIPP CHIZZOLA, advokát",
+    "slug": "chizzola-praha",
+    "city": "Praha",
+    "email": "advokat@philippchizzola.cz",
+    "phone": "00420603892540",
+    "website": "http://philippchizzola.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Mgr. KATEŘINA KORPASOVÁ, advokát",
+    "slug": "korpasov-ostrava",
+    "city": "Ostrava",
+    "email": "advokat.korpasova@seznam.cz",
+    "phone": "+420777902993",
+    "website": "http://www.ak-korpasova.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Mgr. Jan Krömer, advokát",
+    "slug": "kr-mer-ostrava",
+    "city": "Ostrava",
+    "email": "advokat@jankromer.cz",
+    "phone": "",
+    "website": "http://www.jankromer.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Šloufová Zuzana, JUDr., advokát",
+    "slug": "loufov-plze",
+    "city": "Plzeň",
+    "email": "sloufova@advokatplzen.cz",
+    "phone": "+420377321746",
+    "website": "http://www.advokatplzen.cz",
+    "source": "cak"
+  },
+  {
+    "name": "JUDr. Tomáš Švec, Ph.D., advokát",
+    "slug": "vec-zlat",
+    "city": "Zlatá",
+    "email": "svec@advokat-svec.eu",
+    "phone": "+420257328758",
+    "website": "http://www.advokat-svec.eu",
+    "source": "cak"
+  },
+  {
+    "name": "Zvoníček Martin, Mgr., advokát",
+    "slug": "zvon-ek-zl-n",
+    "city": "Zlín",
+    "email": "martin.zvonicek@zvonicek.com",
+    "phone": "+420576776068",
+    "website": "http://zvonicek.com",
+    "source": "cak"
+  },
+  {
+    "name": "Bohatá Irena, Mgr., advokát",
+    "slug": "bohat-plze",
+    "city": "Plzeň",
+    "email": "bohata@akpasaz.cz",
+    "phone": "+420602658554",
+    "website": "http://akpasaz.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Mgr. Martin Panuška, advokátní kancelář",
+    "slug": "panu-ka-praha",
+    "city": "Praha",
+    "email": "panuska@akpanuska.cz",
+    "phone": "+420776288228",
+    "website": "http://www.akpanuska.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Advokátní kancelář SITKOVÁ & VOSTŘEL s.r.o.",
+    "slug": "vost-el-vary",
+    "city": "Vary",
+    "email": "sekretariat@aksvo.cz",
+    "phone": "+420353233133",
+    "website": "http://www.aksvo.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Švihla Jiří, JUDr.",
+    "slug": "vihla-bud-jovice",
+    "city": "Budějovice",
+    "email": "aksvihla@aksvihla.cz",
+    "phone": "+420386357451",
+    "website": "http://www.svihla-advokat.eu",
+    "source": "cak"
+  },
+  {
+    "name": "Mgr. Ing. Jana Adamcová, advokátní kancelář",
+    "slug": "adamcov-praha-2",
+    "city": "Praha",
+    "email": "adamcova@akadamcova.cz",
+    "phone": "",
+    "website": "http://akadamcova.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Alexová Dobromila, JUDr., advokát",
+    "slug": "alexov-pern-tejnem",
+    "city": "Pernštejnem",
+    "email": "dobromila@alexova.cz",
+    "phone": "+420566552164",
+    "website": "http://alexova.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Anděl Petr, JUDr., advokát",
+    "slug": "and-l-praha",
+    "city": "Praha",
+    "email": "andel.advokat@prague-legal.cz",
+    "phone": "+420 774 434 588",
+    "website": "http://prague-legal.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Mgr. Jan Andrášek, advokát",
+    "slug": "andr-ek-brno",
+    "city": "Brno",
+    "email": "andrasek@andrasek.eu",
+    "phone": "+420776205799",
+    "website": "http://andrasek.eu",
+    "source": "cak"
+  },
+  {
+    "name": "JUDr. Ing. Marek Andrášek, LLM, MCIArb, advokát",
+    "slug": "andr-ek-teplice",
+    "city": "Teplice",
+    "email": "marek@andrasek.cz",
+    "phone": "",
+    "website": "http://andrasek.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Andris Peter, JUDr., Ph.D., advokát",
+    "slug": "andris-praha",
+    "city": "Praha",
+    "email": "info@andris.pro",
+    "phone": "+420220800208",
+    "website": "http://andris.pro",
+    "source": "cak"
+  },
+  {
+    "name": "JUDr. Šárka Apltauerová, advokát",
+    "slug": "apltauerov-ostrava",
+    "city": "Ostrava",
+    "email": "sarka@apltauerova.cz",
+    "phone": "+420602586883",
+    "website": "http://apltauerova.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Mgr. Jan Arnstein, advokát",
+    "slug": "arnstein-praha",
+    "city": "Praha",
+    "email": "jan@arnstein.cz",
+    "phone": "+420777102500",
+    "website": "http://arnstein.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Mgr. Michaela Aronová, advokátka",
+    "slug": "aronov-praha",
+    "city": "Praha",
+    "email": "ak@aronova.cz",
+    "phone": "+420734255878",
+    "website": "http://aronova.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Aulický Jan, Mgr., advokát",
+    "slug": "aulick-krumlov",
+    "city": "Krumlov",
+    "email": "aulicky@akaulicky.cz",
+    "phone": "+420380714997",
+    "website": "http://akaulicky.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Hladina & partneři, advokátní kancelář, s.r.o.",
+    "slug": "hladina-praha",
+    "city": "Praha",
+    "email": "office@akhr.cz",
+    "phone": "+420777853438",
+    "website": "http://www.akhr.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Mgr. Ing. JÁN BAHÝĽ, advokát",
+    "slug": "bah-brno",
+    "city": "Brno",
+    "email": "jan@bahyl.eu",
+    "phone": "",
+    "website": "http://bahyl.eu",
+    "source": "cak"
+  },
+  {
+    "name": "Mgr. MARIA BARABANOVA, advokátní kancelář",
+    "slug": "barabanova-praha",
+    "city": "Praha",
+    "email": "info@barabanova.cz",
+    "phone": "",
+    "website": "http://barabanova.cz",
+    "source": "cak"
+  },
+  {
+    "name": "JUDr. Tomáš Barejška, advokát",
+    "slug": "barej-ka-praha",
+    "city": "Praha",
+    "email": "tomas.barejska@judrhlavac.cz",
+    "phone": "+420732923761",
+    "website": "http://judrhlavac.cz",
+    "source": "cak"
+  },
+  {
+    "name": "JUDr. Ilona Barošová, advokátní kancelář",
+    "slug": "baro-ov-vset-n",
+    "city": "Vsetín",
+    "email": "advokat@barosova.cz",
+    "phone": "+420571419502",
+    "website": "http://barosova.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Mgr. ROMANA BEJČKOVÁ, advokát",
+    "slug": "bej-kov-labem",
+    "city": "Labem",
+    "email": "rbejckova@akbejckova.cz",
+    "phone": "+420732875102",
+    "website": "http://akbejckova.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Bek Vladimír, JUDr.",
+    "slug": "bek-kn-nou",
+    "city": "Kněžnou",
+    "email": "judr.bek@tiscali.cz",
+    "phone": "739044799",
+    "website": "http://home.tiscali.cz/judr.bek/",
+    "source": "cak"
+  },
+  {
+    "name": "Benedikt Libor, Mgr., advokát",
+    "slug": "benedikt-praha",
+    "city": "Praha",
+    "email": "info@akbenedikt.cz",
+    "phone": "",
+    "website": "http://akbenedikt.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Benešová Lucie, Mgr., advokát",
+    "slug": "bene-ov-praha",
+    "city": "Praha",
+    "email": "benesova@advokatipraha.com",
+    "phone": "224812325",
+    "website": "http://advokatipraha.com",
+    "source": "cak"
+  },
+  {
+    "name": "Beringerová Vanda, Mgr., advokátka",
+    "slug": "beringerov-praha",
+    "city": "Praha",
+    "email": "beringerova@ak-beringerova.cz",
+    "phone": "+420602155122",
+    "website": "http://www.ak-beringerova.cz",
+    "source": "cak"
+  },
+  {
+    "name": "JUDr. Brigita Bilíková, advokátka",
+    "slug": "bil-kov-ostrava",
+    "city": "Ostrava",
+    "email": "brigita.bilikova@bk-advokati.cz",
+    "phone": "+420602761253",
+    "website": "http://bk-advokati.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Mgr. Petr Opletal, advokát",
+    "slug": "opletal-praha",
+    "city": "Praha",
+    "email": "petr.opletal@akopletal.cz",
+    "phone": "+420777885268",
+    "website": "http://www.akopletal.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Boucký Jan, Mgr., advokát",
+    "slug": "bouck-praha",
+    "city": "Praha",
+    "email": "jan.boucky@jbhr.cz",
+    "phone": "",
+    "website": "http://jbhr.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Mgr. Martin Bouček, advokát",
+    "slug": "bou-ek-lochenice",
+    "city": "Lochenice",
+    "email": "boucek@ak-boucek.cz",
+    "phone": "",
+    "website": "http://www.ak-boucek.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Mgr. Martin Bouček, advokát",
+    "slug": "bou-ek-brno",
+    "city": "Brno",
+    "email": "boucek@mb-ak.cz",
+    "phone": "+420775418644",
+    "website": "http://mb-ak.cz",
+    "source": "cak"
+  },
+  {
+    "name": "JUDr. KAROLINA BOUČKOVÁ, advokátka",
+    "slug": "bou-kov-praha-2",
+    "city": "Praha",
+    "email": "advokatka@karolinabouckova.cz",
+    "phone": "732271701",
+    "website": "http://karolinabouckova.cz",
+    "source": "cak"
+  },
+  {
+    "name": "POLENA / HANŠPACH / PARTNEŘI s.r.o., advokátní kancelář",
+    "slug": "polena-praha",
+    "city": "Praha",
+    "email": "hanspach@phplegal.cz",
+    "phone": "",
+    "website": "http://phplegal.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Brož Josef, Mgr., advokát",
+    "slug": "bro-praha-2",
+    "city": "Praha",
+    "email": "josef.broz@chorusam.com",
+    "phone": "+420234091355",
+    "website": "http://chorusam.com",
+    "source": "cak"
+  },
+  {
+    "name": "Brückler Karel, JUDr., advokát",
+    "slug": "br-ckler-praha",
+    "city": "Praha",
+    "email": "sekretariat@akbruckler.cz",
+    "phone": "+420261215056",
+    "website": "http://akbruckler.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Mgr.  JOSEF BŘEŇ, advokát",
+    "slug": "b-e-ostrava",
+    "city": "Ostrava",
+    "email": "josef@akbren.cz",
+    "phone": "+420605249637",
+    "website": "http://www.akbren.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Advokátní kancelář Milan Břeň s.r.o.",
+    "slug": "b-e-svitavy",
+    "city": "Svitavy",
+    "email": "info@ak-bren.cz",
+    "phone": "+420461530131",
+    "website": "http://ak-bren.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Mgr. Kateřina Bubeníková, advokátka",
+    "slug": "buben-kov-praha",
+    "city": "Praha",
+    "email": "bubenikova@ak-bubenikova.cz",
+    "phone": "+420777215314",
+    "website": "http://ak-bubenikova.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Mgr. Jan Buček, advokát",
+    "slug": "bu-ek-fr-dek-m-stek",
+    "city": "Frýdek-Místek",
+    "email": "jan.bucek@ak-bucek.cz",
+    "phone": "+420723868226",
+    "website": "http://ak-bucek.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Budín Radek, Mgr., advokát",
+    "slug": "bud-n-praha",
+    "city": "Praha",
+    "email": "budin@akbudin.cz",
+    "phone": "+420605765194",
+    "website": "http://akbudin.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Advokátní kancelář JUDr. Ondřej Bultas",
+    "slug": "advok-tn-praha-8",
+    "city": "Praha",
+    "email": "bultas@bultas-advokat.cz",
+    "phone": "+420222930878",
+    "website": "http://www.bultas-advokat.cz",
+    "source": "cak"
+  },
+  {
+    "name": "JUDr. JAN BUREŠ, Ph.D., advokát",
+    "slug": "bure-praha",
+    "city": "Praha",
+    "email": "jan.bures@bures-legal.cz",
+    "phone": "+420773960116",
+    "website": "http://bures-legal.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Mgr. Marek Bureš, advokátní kancelář",
+    "slug": "bure-liberec",
+    "city": "Liberec",
+    "email": "bures@mbadvokat.cz",
+    "phone": "+420775113977",
+    "website": "http://mbadvokat.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Mgr. VOJTĚCH BUREŠ, advokát",
+    "slug": "bure-praha-2",
+    "city": "Praha",
+    "email": "bures@bures-ak.cz",
+    "phone": "+420604593870",
+    "website": "http://bures-ak.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Buršík Martin, JUDr., advokát",
+    "slug": "bur-k-brno",
+    "city": "Brno",
+    "email": "info@bursik.org",
+    "phone": "+420567300580",
+    "website": "http://www.bursik.org",
+    "source": "cak"
+  },
+  {
+    "name": "Mgr. Robert Capcara, LL.M., advokát",
+    "slug": "capcara-t-inec",
+    "city": "Třinec",
+    "email": "robert.capcara@akrc.cz",
+    "phone": "+420777154554",
+    "website": "http://akrc.cz",
+    "source": "cak"
+  },
+  {
+    "name": "CAPL & SOUČEK, advokátní kancelář s.r.o.",
+    "slug": "sou-ek-bud-jovice",
+    "city": "Budějovice",
+    "email": "office@akcs.cz",
+    "phone": "+420383839449",
+    "website": "http://akcs.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Cenknerová Dagmar, Mgr., advokátka",
+    "slug": "cenknerov-stud-nka",
+    "city": "Studénka",
+    "email": "cenknerova@cenknerova.cz",
+    "phone": "+420555506801",
+    "website": "http://cenknerova.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Cilínek Petr, Mgr., advokát",
+    "slug": "cil-nek-praha",
+    "city": "Praha",
+    "email": "office@akpetrcilinek.cz",
+    "phone": "+420214214736",
+    "website": "http://www.akpetrcilinek.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Císař Vladimír, JUDr.",
+    "slug": "c-sa-bud-jovice",
+    "city": "Budějovice",
+    "email": "cisar@advokatcisar.cz",
+    "phone": "+420386354811",
+    "website": "http://advokatcisar.cz",
+    "source": "cak"
+  },
+  {
+    "name": "JUDr. Zlatava Codrová Davidová",
+    "slug": "codrov-davidov-brno",
+    "city": "Brno",
+    "email": "davidova@asdgroup.cz",
+    "phone": "+420775762900",
+    "website": "http://asdgroup.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Mgr. KRISTÝNA COUFALOVÁ, advokátka",
+    "slug": "coufalov-praha",
+    "city": "Praha",
+    "email": "coufalova@ak-coufalova.cz",
+    "phone": "",
+    "website": "http://ak-coufalova.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Csonková Dagmar, JUDr.",
+    "slug": "csonkov-louny",
+    "city": "Louny",
+    "email": "dagmar.csonkova@aklouny.cz",
+    "phone": "+420603210446",
+    "website": "http://aklouny.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Mgr. Ondřej Čech, advokát",
+    "slug": "ech-praha",
+    "city": "Praha",
+    "email": "ondrej.cech@jklaw.cz",
+    "phone": "",
+    "website": "http://jklaw.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Mgr. Pavel Čech, advokát",
+    "slug": "ech-bechyn",
+    "city": "Bechyně",
+    "email": "info@cechadvokat.cz",
+    "phone": "+420734266979",
+    "website": "http://cechadvokat.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Mgr. ZÁVIŠ HLAVÁČ, advokát",
+    "slug": "hlav-beroun",
+    "city": "Beroun",
+    "email": "zavis.hlavac@sivaz.cz",
+    "phone": "+420777077335",
+    "website": "http://sivaz.cz",
+    "source": "cak"
+  },
+  {
+    "name": "JUDr. Robert Černý, advokát",
+    "slug": "ern-praha-4",
+    "city": "Praha",
+    "email": "cerny@ius-net.eu",
+    "phone": "+420739311936",
+    "website": "http://ius-net.eu",
+    "source": "cak"
+  },
+  {
+    "name": "Černý Tomáš, JUDr., LL.M., MBA, advokát",
+    "slug": "ern-praha-5",
+    "city": "Praha",
+    "email": "cerny@cerny.legal",
+    "phone": "+420777886235",
+    "website": "http://www.cernylegal.com",
+    "source": "cak"
+  },
+  {
+    "name": "Advokátní kancelář JUDr. Stanislav Červenec",
+    "slug": "advok-tn-praha-9",
+    "city": "Praha",
+    "email": "s.cervenec@akcervenec.eu",
+    "phone": "00420 602 424 081",
+    "website": "http://akcervenec.eu",
+    "source": "cak"
+  },
+  {
+    "name": "Mgr. Radka Červenková, advokátka",
+    "slug": "ervenkov-praha",
+    "city": "Praha",
+    "email": "r.cervenkova@ckt-trademarks.eu",
+    "phone": "+420603323508",
+    "website": "http://ckt-trademarks.eu",
+    "source": "cak"
+  },
+  {
+    "name": "JUDr. MARTIN ČEŘOVSKÝ, advokát",
+    "slug": "e-ovsk-praha",
+    "city": "Praha",
+    "email": "cerovsky@akcerovsky.cz",
+    "phone": "",
+    "website": "http://akcerovsky.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Tetzeli Daniel, Mgr., advokát",
+    "slug": "tetzeli-jesenice",
+    "city": "Jesenice",
+    "email": "tetzeli@aktetzeli.cz",
+    "phone": "+420261211813",
+    "website": "http://aktetzeli.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Mgr. Václav Dařbujan, advokátní kancelář",
+    "slug": "da-bujan-liberec",
+    "city": "Liberec",
+    "email": "darbujan@libereclegal.com",
+    "phone": "+420605729003",
+    "website": "http://libereclegal.com",
+    "source": "cak"
+  },
+  {
+    "name": "JUDr. Karel David, advokátní kancelář",
+    "slug": "david-louny",
+    "city": "Louny",
+    "email": "mgrdavid@avipln.cz",
+    "phone": "+420415654415",
+    "website": "http://avipln.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Dimitrovová Renata, JUDr.Ing., advokátka",
+    "slug": "dimitrovov-brno",
+    "city": "Brno",
+    "email": "renata@akdimitrovova.cz",
+    "phone": "+420602590027",
+    "website": "http://akdimitrovova.cz",
+    "source": "cak"
+  },
+  {
+    "name": "JUDr. Mgr. Jakub Jan Disman, advokát",
+    "slug": "jan-disman-praha",
+    "city": "Praha",
+    "email": "disman@ak-disman.cz",
+    "phone": "",
+    "website": "http://ak-disman.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Zuzana Dohnalová, advokátní kancelář",
+    "slug": "zuzana-praha",
+    "city": "Praha",
+    "email": "zuzana.dohnalova@akdohnalova.cz",
+    "phone": "+420778040252",
+    "website": "http://akdohnalova.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Mgr. Vendula Doležalová, LL.M., advokátka",
+    "slug": "dole-alov-praha",
+    "city": "Praha",
+    "email": "vendula@panmayer.cz",
+    "phone": "+420733350676",
+    "website": "http://panmayer.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Dopitová Marcela, JUDr.",
+    "slug": "dopitov-praha",
+    "city": "Praha",
+    "email": "dopitova@akdopitova.cz",
+    "phone": "+420736622264",
+    "website": "http://akdopitova.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Mgr. Ondrej Dostál, advokát",
+    "slug": "dost-l-praha",
+    "city": "Praha",
+    "email": "ondrej.dostal@akdostal.cz",
+    "phone": "+420776217401",
+    "website": "http://akdostal.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Ondřej Dostál, advokát",
+    "slug": "ond-ej-praha",
+    "city": "Praha",
+    "email": "mail@ondrejdostal.cz",
+    "phone": "+420608160540",
+    "website": "http://ondrejdostal.cz",
+    "source": "cak"
+  },
+  {
+    "name": "JUDr. Pavel Dostál, advokát",
+    "slug": "dost-l-bud-jovice",
+    "city": "Budějovice",
+    "email": "pavel.dostal@akpaveldostal.cz",
+    "phone": "380831711",
+    "website": "http://www.akpaveldostal.cz",
+    "source": "cak"
+  },
+  {
+    "name": "JUDr. MARTIN DRAHOTSKÝ, advokát",
+    "slug": "drahotsk-brno",
+    "city": "Brno",
+    "email": "mdrahotsky@judrdrahotsky.cz",
+    "phone": "+420 775 263 847",
+    "website": "http://judrdrahotsky.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Mgr. JAN DREVŇAK, advokát",
+    "slug": "drev-ak-ostrava",
+    "city": "Ostrava",
+    "email": "advokat@drevnak.cz",
+    "phone": "+420605841467",
+    "website": "http://drevnak.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Duda Jiří, Mgr.",
+    "slug": "duda-krava-e",
+    "city": "Kravaře",
+    "email": "duda@ak-duda.cz",
+    "phone": "+420608966962",
+    "website": "http://ak-duda.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Marek Pavel, Mgr., advokát",
+    "slug": "marek-praha",
+    "city": "Praha",
+    "email": "marek@akem.cz",
+    "phone": "+420222894277",
+    "website": "http://www.akem.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Mgr. LUKÁŠ DUCHTÍK, advokát",
+    "slug": "ducht-k-zl-n",
+    "city": "Zlín",
+    "email": "info@ak-duchtik.cz",
+    "phone": "+420577007572",
+    "website": "http://ak-duchtik.cz",
+    "source": "cak"
+  },
+  {
+    "name": "JUDr. Eva Dundáčková, advokátní kancelář",
+    "slug": "dund-kov-p-bram",
+    "city": "Příbram",
+    "email": "kancelar@dundackova.cz",
+    "phone": "+420326531194",
+    "website": "http://dundackova.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Dvořáček Jiří, Mgr., advokát",
+    "slug": "dvo-ek-vltavou",
+    "city": "Vltavou",
+    "email": "info@akjiridvoracek.cz",
+    "phone": "+420315725315",
+    "website": "http://akjiridvoracek.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Mgr. Vojtěch Dvořáček, advokát",
+    "slug": "dvo-ek-praha",
+    "city": "Praha",
+    "email": "kancelar@advoracek.cz",
+    "phone": "+420777019053",
+    "website": "http://advoracek.cz",
+    "source": "cak"
+  },
+  {
+    "name": "JUDr. Michal Dvořák, advokát",
+    "slug": "dvo-k-praha",
+    "city": "Praha",
+    "email": "dvorak@ak-dvorak.cz",
+    "phone": "+420604606087",
+    "website": "http://ak-dvorak.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Mgr. Jakub Tuček, advokát",
+    "slug": "tu-ek-praha",
+    "city": "Praha",
+    "email": "tucek@aktucek.cz",
+    "phone": "",
+    "website": "http://aktucek.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Mgr. Jakub Kántor, advokát",
+    "slug": "k-ntor-praha",
+    "city": "Praha",
+    "email": "kantor@akkantor.cz",
+    "phone": "+420257222228",
+    "website": "http://akkantor.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Mgr. Tomáš Dvořák, advokát",
+    "slug": "dvo-k-brno",
+    "city": "Brno",
+    "email": "dvorak@tdvoraklegal.com",
+    "phone": "",
+    "website": "http://tdvoraklegal.com",
+    "source": "cak"
+  },
+  {
+    "name": "Dvořáková Erika, JUDr., advokátka",
+    "slug": "dvo-kov-praha",
+    "city": "Praha",
+    "email": "erika.dvorakova@advokat-ed.cz",
+    "phone": "+420224390021",
+    "website": "http://advokat-ed.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Mgr. Sabina Ellerová, advokát",
+    "slug": "ellerov-brno",
+    "city": "Brno",
+    "email": "ellerova@ak-eller.cz",
+    "phone": "+420606705182",
+    "website": "http://www.ak-eller.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Endrštová Jiřina, Mgr., advokát",
+    "slug": "endr-tov-rakovn-k",
+    "city": "Rakovník",
+    "email": "endrstova@akje.cz",
+    "phone": "+420313511513",
+    "website": "http://akje.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Epstein Marek, Mgr., advokát",
+    "slug": "epstein-praha",
+    "city": "Praha",
+    "email": "marek.epstein@ak-epstein.cz",
+    "phone": "+420 603 428 209",
+    "website": "http://ak-epstein.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Faldynová Petra, Mgr., advokátka",
+    "slug": "faldynov-radho-t-m",
+    "city": "Radhoštěm",
+    "email": "faldynova@akfaldynova.cz",
+    "phone": "596244866",
+    "website": "http://akfaldynova.cz",
+    "source": "cak"
+  },
+  {
+    "name": "JUDr. Sabina FALTEISKOVÁ, Ph.D., advokátka",
+    "slug": "falteiskov-praha",
+    "city": "Praha",
+    "email": "falteiskova@akfalteiskova.cz",
+    "phone": "+420 776 636 792",
+    "website": "http://www.akfalteiskova.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Mgr. Ing. Zuzana Ferianc, advokátka",
+    "slug": "ferianc-praha",
+    "city": "Praha",
+    "email": "zuzana.ferianc@ferianc.cz",
+    "phone": "+420236045001",
+    "website": "http://ferianc.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Advokátní kancelář Mgr. MICHAL FIDRA",
+    "slug": "advok-tn-bud-jovice-2",
+    "city": "Budějovice",
+    "email": "info@akfidra.cz",
+    "phone": "",
+    "website": "http://www.akfidra.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Mgr. JAN FILIP, advokát",
+    "slug": "filip-l-pa",
+    "city": "Lípa",
+    "email": "Filip.jan@akfilip.cz",
+    "phone": "+420487822125",
+    "website": "http://akfilip.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Mgr. ZUZANA FIRICKÁ, advokát",
+    "slug": "firick-praha",
+    "city": "Praha",
+    "email": "zuzana@firicka.cz",
+    "phone": "222933595",
+    "website": "http://firicka.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Mgr. Kamila Fišerová Ulrichová, advokátka",
+    "slug": "fi-erov-ulrichov-brno",
+    "city": "Brno",
+    "email": "advokatka@kamilaulrichova.cz",
+    "phone": "",
+    "website": "http://kamilaulrichova.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Fojtík Josef, JUDr., advokát",
+    "slug": "fojt-k-kop-ivnice",
+    "city": "Kopřivnice",
+    "email": "ak@fojtik.com",
+    "phone": "602531116",
+    "website": "http://fojtik.com",
+    "source": "cak"
+  },
+  {
+    "name": "Mgr. HANA FOJTOVÁ, advokátka",
+    "slug": "fojtov-praha",
+    "city": "Praha",
+    "email": "hana.fojtova@akhf.cz",
+    "phone": "",
+    "website": "http://akhf.cz",
+    "source": "cak"
+  },
+  {
+    "name": "JUDr. Lukáš Franc, advokátní kancelář",
+    "slug": "franc-praha",
+    "city": "Praha",
+    "email": "lukas@franc-ak.cz",
+    "phone": "+420739212593",
+    "website": "http://franc-ak.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Mgr. Jaroslav Zuska, advokát",
+    "slug": "zuska-praha",
+    "city": "Praha",
+    "email": "zuska@pravnirady.info",
+    "phone": "+420251627407",
+    "website": "http://www.pravnirady.info",
+    "source": "cak"
+  },
+  {
+    "name": "Mgr. Jan Frey, advokát",
+    "slug": "frey-praha",
+    "city": "Praha",
+    "email": "frey@rowan.legal.cz",
+    "phone": "+420224216212",
+    "website": "http://www.rowan.legal.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Mgr. Jan Frišman, advokát",
+    "slug": "fri-man-p-sek",
+    "city": "Písek",
+    "email": "frisman@frisman.eu",
+    "phone": "",
+    "website": "http://frisman.eu",
+    "source": "cak"
+  },
+  {
+    "name": "Mgr. Jaroslav Fuksa, advokátní kancelář",
+    "slug": "fuksa-krom",
+    "city": "Kroměříž",
+    "email": "fuksa@advokati-kromeriz.cz",
+    "phone": "+420724240920",
+    "website": "http://advokati-kromeriz.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Mgr. ANTONÍN FÜRST, LL.M., advokát",
+    "slug": "f-rst-bud-jovice",
+    "city": "Budějovice",
+    "email": "furst@akfurst.eu",
+    "phone": "+420731100850",
+    "website": "http://akfurst.eu",
+    "source": "cak"
+  },
+  {
+    "name": "Fus Drahomír, JUDr., advokát",
+    "slug": "fus-napajedla",
+    "city": "Napajedla",
+    "email": "fus@fus.cz",
+    "phone": "+420502716518",
+    "website": "http://fus.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Mgr. Kateřina Gabrhelíková, advokátka",
+    "slug": "gabrhel-kov-praha",
+    "city": "Praha",
+    "email": "katerina.gabrhelikova@akgabrhelikova.cz",
+    "phone": "+420605065491",
+    "website": "http://akgabrhelikova.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Gajdarus Jiří, JUDr., advokát",
+    "slug": "gajdarus-erno-ice",
+    "city": "Černošice",
+    "email": "info@gajdarus.cz",
+    "phone": "+420602424184",
+    "website": "http://gajdarus.cz",
+    "source": "cak"
+  },
+  {
+    "name": "JUDr. ADAM GAJDOŠ, advokát",
+    "slug": "gajdo-praha",
+    "city": "Praha",
+    "email": "gajdos@akgajdos.cz",
+    "phone": "+420737329451",
+    "website": "http://akgajdos.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Gallat Petr, JUDr., advokát",
+    "slug": "gallat-chrudim",
+    "city": "Chrudim",
+    "email": "advokat@petrgallat.cz",
+    "phone": "+420603487569",
+    "website": "http://petrgallat.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Mgr. Barbora Gaveau, LL.M.",
+    "slug": "gaveau-praha",
+    "city": "Praha",
+    "email": "gaveau@resolla.cz",
+    "phone": "",
+    "website": "http://resolla.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Geryková Zuzana, JUDr., advokátní kancelář",
+    "slug": "gerykov-brno",
+    "city": "Brno",
+    "email": "gerykova@gerykova.cz",
+    "phone": "+420545175955",
+    "website": "http://gerykova.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Mgr. Pavla Görnerová, advokátka",
+    "slug": "g-rnerov-plze",
+    "city": "Plzeň",
+    "email": "gornerova@ak-gornerova.cz",
+    "phone": "",
+    "website": "http://ak-gornerova.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Mgr. Barbora Gottlieb, advokát",
+    "slug": "gottlieb-t-eb",
+    "city": "Třebíč",
+    "email": "barbora@gottlieb-legal.com",
+    "phone": "739593201",
+    "website": "http://gottlieb-legal.com",
+    "source": "cak"
+  },
+  {
+    "name": "Jan Grozdanovič, advokát",
+    "slug": "jan-praha-2",
+    "city": "Praha",
+    "email": "jang@jga-legal.cz",
+    "phone": "+420242454755",
+    "website": "http://jga-legal.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Mgr. Eva Habánová, advokátka",
+    "slug": "hab-nov-brno",
+    "city": "Brno",
+    "email": "ak@habanova.cz",
+    "phone": "+420724053156",
+    "website": "http://habanova.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Mgr. Pavel Hábl, advokát",
+    "slug": "h-bl-praha",
+    "city": "Praha",
+    "email": "postovnischranka@akhabl.cz",
+    "phone": "+420 777 359 053",
+    "website": "http://akhabl.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Mgr. Jana Malá, advokátka",
+    "slug": "mal-chrudim",
+    "city": "Chrudim",
+    "email": "akmala@akmala.cz",
+    "phone": "469620655",
+    "website": "http://www.akmala.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Hájek Jan, JUDr., advokát",
+    "slug": "h-jek-labem",
+    "city": "Labem",
+    "email": "hajek@akhajek.cz",
+    "phone": "+420475200684",
+    "website": "http://akhajek.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Mgr. LUDMILA HÁJKOVÁ, advokát",
+    "slug": "h-jkov-el-kovice",
+    "city": "Čelákovice",
+    "email": "ludmila.hajkova@centrum.cz",
+    "phone": "+420739316219",
+    "website": "http://ak-hajkova.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Mgr. Lenka Hajn Vitebská, advokátní kancelář",
+    "slug": "hajn-vitebsk-liberec",
+    "city": "Liberec",
+    "email": "vitebska@akrybnicek.cz",
+    "phone": "",
+    "website": "http://akrybnicek.cz",
+    "source": "cak"
+  },
+  {
+    "name": "JUDr. Daniela Háková, advokátka",
+    "slug": "h-kov-praha",
+    "city": "Praha",
+    "email": "hakova@ak-narodni15.cz",
+    "phone": "+420221419732",
+    "website": "http://www.ak-narodni15.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Mgr. Nikola Hamáčková, advokát",
+    "slug": "ham-kov-sokolnice",
+    "city": "Sokolnice",
+    "email": "hamackova@akhamackova.cz",
+    "phone": "+420605014718",
+    "website": "http://akhamackova.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Hampl Vladimír, Mgr.",
+    "slug": "hampl-brno",
+    "city": "Brno",
+    "email": "hampl@akhampl.cz",
+    "phone": "+420543210063",
+    "website": "http://akhampl.cz",
+    "source": "cak"
+  },
+  {
+    "name": "JUDr. Tereza Hamplová, advokátka",
+    "slug": "hamplov-praha",
+    "city": "Praha",
+    "email": "terezahamplova@akhamplova.cz",
+    "phone": "+420774702929",
+    "website": "http://akhamplova.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Mgr. Tomáš Hanus, advokát",
+    "slug": "hanus-praha-2",
+    "city": "Praha",
+    "email": "hanus@thak.cz",
+    "phone": "+420737090300",
+    "website": "http://thak.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Mgr. David Hanuš, advokát",
+    "slug": "hanu-praha",
+    "city": "Praha",
+    "email": "hanus@jaroslegal.cz",
+    "phone": "+420 777 728 442",
+    "website": "http://jaroslegal.cz",
+    "source": "cak"
+  },
+  {
+    "name": "JUDr. Mgr. Tomáš Havelec, advokát",
+    "slug": "havelec-bud-jovice",
+    "city": "Budějovice",
+    "email": "thavelec@akth.cz",
+    "phone": "+420 608 216 296",
+    "website": "http://akth.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Mgr. Lenka Hellingerová, advokát",
+    "slug": "hellingerov-praha",
+    "city": "Praha",
+    "email": "lenka@hellinger.cz",
+    "phone": "+420774664946",
+    "website": "http://hellinger.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Mgr. Pavel Hendrich, LL.M., advokátní kancelář",
+    "slug": "hendrich-praha",
+    "city": "Praha",
+    "email": "pavel.hendrich@ph-legal.cz",
+    "phone": "",
+    "website": "http://ph-legal.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Advokátní kancelář Heres",
+    "slug": "advok-tn-praha-10",
+    "city": "Praha",
+    "email": "info@akheres.cz",
+    "phone": "+420603158102",
+    "website": "http://www.akheres.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Mgr. Šárka Heulerová, advokátka",
+    "slug": "heulerov-praha",
+    "city": "Praha",
+    "email": "heulerova@ak-advokat.cz",
+    "phone": "+420604891464",
+    "website": "http://ak-advokat.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Mgr. Radek Hiřman, advokát",
+    "slug": "hi-man-praha",
+    "city": "Praha",
+    "email": "hirman@akhirman.eu",
+    "phone": "+420721411998",
+    "website": "http://akhirman.eu",
+    "source": "cak"
+  },
+  {
+    "name": "JUDr. MARTINA HLADÍKOVÁ, advokátka",
+    "slug": "hlad-kov-praha",
+    "city": "Praha",
+    "email": "hladikova@ak-hladikova.cz",
+    "phone": "+420732984829",
+    "website": "http://ak-hladikova.cz",
+    "source": "cak"
+  },
+  {
+    "name": "JUDr. Radek HLAVÁČEK, advokát",
+    "slug": "hlav-ek-praha",
+    "city": "Praha",
+    "email": "rhlavacek@akvodickova.eu",
+    "phone": "608444414",
+    "website": "http://akvodickova.eu",
+    "source": "cak"
+  },
+  {
+    "name": "Mgr. Monika Hlaváčová, advokátka",
+    "slug": "hlav-ov-praha",
+    "city": "Praha",
+    "email": "hlavacova@cpsl.cz",
+    "phone": "",
+    "website": "http://cpsl.cz",
+    "source": "cak"
+  },
+  {
+    "name": "JUDr. Olga Hlaváčová, advokátka",
+    "slug": "hlav-ov-praha-2",
+    "city": "Praha",
+    "email": "olga.hlavacova@ishlavacova.cz",
+    "phone": "+420728828197",
+    "website": "http://ishlavacova.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Mgr. JAN HLISTA, advokát",
+    "slug": "hlista-opava",
+    "city": "Opava",
+    "email": "hlista@hlista.cz",
+    "phone": "+420775109140",
+    "website": "http://www.hlista.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Hnilica Karel Mgr., advokát",
+    "slug": "hnilica-praha",
+    "city": "Praha",
+    "email": "karel.hnilica@akhnilica.cz",
+    "phone": "606685679",
+    "website": "http://akhnilica.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Mgr. JARMILA HOLBOVÁ, advokátka",
+    "slug": "holbov-plze",
+    "city": "Plzeň",
+    "email": "holbova@geryon.cz",
+    "phone": "+420722985202",
+    "website": "http://geryon.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Mgr. Jaroslav Holub, advokát",
+    "slug": "holub-brno",
+    "city": "Brno",
+    "email": "holub@advokat-holub.cz",
+    "phone": "+420602570020",
+    "website": "http://advokat-holub.cz",
+    "source": "cak"
+  },
+  {
+    "name": "JUDr. Lukáš Holý, advokátní kancelář",
+    "slug": "hol-praha",
+    "city": "Praha",
+    "email": "holy@akisholy.cz",
+    "phone": "",
+    "website": "http://akisholy.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Pavel Homolka, advokát",
+    "slug": "pavel-praha",
+    "city": "Praha",
+    "email": "office@homolkapavel.cz",
+    "phone": "+420776166825",
+    "website": "http://homolkapavel.cz",
+    "source": "cak"
+  },
+  {
+    "name": "JUDr. Lucie Štursová, advokátní kancelář",
+    "slug": "tursov-brno",
+    "city": "Brno",
+    "email": "advokati@bolzanova33.cz",
+    "phone": "+420530328993",
+    "website": "http://bolzanova33.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Mgr. Jiří Horáček, advokátní kancelář",
+    "slug": "hor-ek-kr-lov",
+    "city": "Králové",
+    "email": "horacek@hp-ak.cz",
+    "phone": "+420777679286",
+    "website": "http://hp-ak.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Horáková Barbora, Mgr., advokátka",
+    "slug": "hor-kov-praha-2",
+    "city": "Praha",
+    "email": "horakova@akpraha.eu",
+    "phone": "+420734150288",
+    "website": "http://akpraha.eu",
+    "source": "cak"
+  },
+  {
+    "name": "JUDr. Iveta Horáková, advokát",
+    "slug": "hor-kov-bud-jovice",
+    "city": "Budějovice",
+    "email": "horakova@akhorakovacb.cz",
+    "phone": "+420720021943",
+    "website": "http://akhorakovacb.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Mgr. Barbora Horká, advokát",
+    "slug": "hork-praha",
+    "city": "Praha",
+    "email": "horka@bhorka.cz",
+    "phone": "+420733548025",
+    "website": "http://bhorka.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Mgr. Jakub Horký, advokátní kancelář",
+    "slug": "hork-praha-2",
+    "city": "Praha",
+    "email": "jakub@horky.net",
+    "phone": "+420777123432",
+    "website": "http://horky.net",
+    "source": "cak"
+  },
+  {
+    "name": "Mgr. et Mgr. Roman Hošta, advokátní kancelář",
+    "slug": "mgr-roman-ho-ta-kladno",
+    "city": "Kladno",
+    "email": "info@akhosta.cz",
+    "phone": "+420 603 577 866",
+    "website": "http://www.akhosta.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Hrabák Václav, Mgr., advokát",
+    "slug": "hrab-k-praha",
+    "city": "Praha",
+    "email": "vaclav.hrabak@hclaw.cz",
+    "phone": "+420224814071",
+    "website": "http://hclaw.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Hrabě Lukáš, Mgr., advokát",
+    "slug": "hrab-plze",
+    "city": "Plzeň",
+    "email": "info@akhrabe.cz",
+    "phone": "+420371785696",
+    "website": "http://www.akhrabe.cz",
+    "source": "cak"
+  },
+  {
+    "name": "AK - JUDr. Jiří Hrachovec",
+    "slug": "ak-radho-t-m",
+    "city": "Radhoštěm",
+    "email": "hrachovec@kaslikova.eu",
+    "phone": "+420571610065",
+    "website": "http://kaslikova.eu",
+    "source": "cak"
+  },
+  {
+    "name": "Mgr. Bc. Filip Hrkal, advokát",
+    "slug": "hrkal-praha",
+    "city": "Praha",
+    "email": "advokat@filiphrkal.com",
+    "phone": "+420722619579",
+    "website": "http://filiphrkal.com",
+    "source": "cak"
+  },
+  {
+    "name": "H Legal s.r.o.",
+    "slug": "hru-roztoky",
+    "city": "Roztoky",
+    "email": "hrus@h-legal.cz",
+    "phone": "777810257",
+    "website": "http://h-legal.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Hrůšová Libuše, Mgr., advokát",
+    "slug": "hr-ov-plze",
+    "city": "Plzeň",
+    "email": "hrusova@lhak.cz",
+    "phone": "+420731109700",
+    "website": "http://lhak.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Hubáček Libor, Mgr., advokát",
+    "slug": "hub-ek-bene-ov",
+    "city": "Benešov",
+    "email": "hubacek@akhubacek.cz",
+    "phone": "+420603234243",
+    "website": "http://akhubacek.cz",
+    "source": "cak"
+  },
+  {
+    "name": "AKJ - Advokátní kancelář Janák s.r.o.",
+    "slug": "jan-k-plze",
+    "city": "Plzeň",
+    "email": "office@akjanak.com",
+    "phone": "+420730100090",
+    "website": "http://www.akjanak.com",
+    "source": "cak"
+  },
+  {
+    "name": "Mgr. Tomáš Chalupa, advokát",
+    "slug": "chalupa-praha",
+    "city": "Praha",
+    "email": "chalupa@akchalupa.eu",
+    "phone": "+420733741515",
+    "website": "http://akchalupa.eu",
+    "source": "cak"
+  },
+  {
+    "name": "JUDr. Dana Chalupová, advokát",
+    "slug": "chalupov-praha",
+    "city": "Praha",
+    "email": "dana.jirickova@akjiricek.cz",
+    "phone": "+420606188467",
+    "website": "http://akjiricek.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Mgr. Hana Cherynová, advokátka",
+    "slug": "cherynov-ohrozim",
+    "city": "Ohrozim",
+    "email": "hana.cherynova@akcherynova.cz",
+    "phone": "775219776",
+    "website": "http://akcherynova.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Mgr. Jan Chmelík, advokát",
+    "slug": "chmel-k-labem",
+    "city": "Labem",
+    "email": "jan.chmelik@akchmelik.cz",
+    "phone": "+420475209040",
+    "website": "http://akchmelik.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Jablonská Daniela, JUDr., advokátka",
+    "slug": "jablonsk-beroun",
+    "city": "Beroun",
+    "email": "ak.jablonska@libra-naja.cz",
+    "phone": "+420311600093",
+    "website": "http://libra-naja.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Mgr. Martin Janeček, advokát",
+    "slug": "jane-ek-labem",
+    "city": "Labem",
+    "email": "janecek@ak-janecek.cz",
+    "phone": "+420728606888",
+    "website": "http://www.ak-janecek.cz",
+    "source": "cak"
+  },
+  {
+    "name": "JUDr. Ing. Katarína Janotková",
+    "slug": "janotkov-brno",
+    "city": "Brno",
+    "email": "advokatka@janotkova.cz",
+    "phone": "",
+    "website": "http://janotkova.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Jansa Josef, JUDr.",
+    "slug": "jansa-olomouc",
+    "city": "Olomouc",
+    "email": "josef@jansa.ws",
+    "phone": "+420602783505",
+    "website": "http://jansa.ws",
+    "source": "cak"
+  },
+  {
+    "name": "Kočárová Miroslava, JUDr.",
+    "slug": "ko-rov-krom",
+    "city": "Kroměříž",
+    "email": "kocarova@verejnarealitni.cz",
+    "phone": "+420733531687",
+    "website": "http://verejnarealitni.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Mgr. Martin Jarolín, advokát",
+    "slug": "jarol-n-praha",
+    "city": "Praha",
+    "email": "martin.jarolin@2martinslegal.cz",
+    "phone": "+420720573779",
+    "website": "http://2martinslegal.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Jedlička Ladislav, Mgr., advokát",
+    "slug": "jedli-ka-orlic",
+    "city": "Orlicí",
+    "email": "jedlicka@akjedlicka.cz",
+    "phone": "+420608480394",
+    "website": "http://www.akjedlicka.cz",
+    "source": "cak"
+  },
+  {
+    "name": "JUDr. Radka Jerie, advokát",
+    "slug": "jerie-16000",
+    "city": "16000",
+    "email": "radka.jerie@akjerie.cz",
+    "phone": "+420222231025",
+    "website": "http://akjerie.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Jermanová Iva, Mgr., advokátka",
+    "slug": "jermanov-praha",
+    "city": "Praha",
+    "email": "info@akjermanova.com",
+    "phone": "+420602240542",
+    "website": "http://akjermanova.com",
+    "source": "cak"
+  },
+  {
+    "name": "Jeřábek Beno, JUDr., advokát",
+    "slug": "je-bek-praha",
+    "city": "Praha",
+    "email": "bjerabek@akredit.cz",
+    "phone": "+420604601538",
+    "website": "http://akredit.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Jirát Petr, JUDr., advokát",
+    "slug": "jir-t-chomutov",
+    "city": "Chomutov",
+    "email": "petr.jirat@akjirat.cz",
+    "phone": "774881000",
+    "website": "http://www.akjirat.cz",
+    "source": "cak"
+  },
+  {
+    "name": "JUDr. Martina Jirka Pohanková, Ph.D., advokátka",
+    "slug": "jirka-pohankov-praha",
+    "city": "Praha",
+    "email": "martina@pohankova.eu",
+    "phone": "+420731505445",
+    "website": "http://pohankova.eu",
+    "source": "cak"
+  },
+  {
+    "name": "Johánek Jiří, Mgr.Ing., advokát",
+    "slug": "joh-nek-praha",
+    "city": "Praha",
+    "email": "johanek@akjohanek.cz",
+    "phone": "+420236034201",
+    "website": "http://akjohanek.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Mgr. Bc. Lucie Jůzová, advokátka",
+    "slug": "j-zov-plze",
+    "city": "Plzeň",
+    "email": "ak@klejchova.cz",
+    "phone": "+420725803070",
+    "website": "http://klejchova.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Mgr. ROBERT KABÁT, Ph.D., advokát",
+    "slug": "kab-t-praha",
+    "city": "Praha",
+    "email": "robert@kabat.eu",
+    "phone": "+420603875562",
+    "website": "http://www.kabat.eu",
+    "source": "cak"
+  },
+  {
+    "name": "Kačírek Pavel, JUDr.",
+    "slug": "ka-rek-praha",
+    "city": "Praha",
+    "email": "pavel.kacirek@akkacirek.cz",
+    "phone": "+420 777226633",
+    "website": "http://akkacirek.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Mgr. Ing. DANA KAČMÁROVÁ, advokát",
+    "slug": "ka-m-rov-praha",
+    "city": "Praha",
+    "email": "kacmarova@ak-dk.com",
+    "phone": "+420777614362",
+    "website": "http://ak-dk.com",
+    "source": "cak"
+  },
+  {
+    "name": "Kadaně Lubomír, JUDr., advokát",
+    "slug": "kadan-praha",
+    "city": "Praha",
+    "email": "lubomir@kadane.cz",
+    "phone": "+420603728268",
+    "website": "http://kadane.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Kadeřávková Lucie, JUDr.",
+    "slug": "kade-vkov-bene-ov",
+    "city": "Benešov",
+    "email": "lucie@kaderavek.eu",
+    "phone": "",
+    "website": "http://kaderavek.eu",
+    "source": "cak"
+  },
+  {
+    "name": "Mgr. Eva Kalaiová, advokátka",
+    "slug": "kalaiov-brno",
+    "city": "Brno",
+    "email": "eva@kalai.cz",
+    "phone": "+420739676274",
+    "website": "http://kalai.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Mgr. DENIS KARBUS, advokát",
+    "slug": "karbus-praha",
+    "city": "Praha",
+    "email": "denis@karbus.cz",
+    "phone": "+420775111811",
+    "website": "http://karbus.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Karešová Marcela, JUDr., advokát",
+    "slug": "kare-ov-praha",
+    "city": "Praha",
+    "email": "karesova@akkaresova.cz",
+    "phone": "+420724484416",
+    "website": "http://akkaresova.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Mgr. Diana Kartous, advokátka",
+    "slug": "kartous-brno",
+    "city": "Brno",
+    "email": "kartous@dianakartous.cz",
+    "phone": "+420728430461",
+    "website": "http://dianakartous.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Mgr. Patrik Kastner, advokát",
+    "slug": "kastner-praha",
+    "city": "Praha",
+    "email": "patrik@akastner.cz",
+    "phone": "",
+    "website": "http://akastner.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Mgr. Katarína Kašková, advokátka",
+    "slug": "ka-kov-praha",
+    "city": "Praha",
+    "email": "advokatka@kaskova.cz",
+    "phone": "+420608561622",
+    "website": "http://kaskova.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Mgr. Anna Kiacová, advokátka",
+    "slug": "kiacov-praha",
+    "city": "Praha",
+    "email": "anna.kiacova@ak-kiacova.cz",
+    "phone": "+420737303374",
+    "website": "http://ak-kiacova.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Kindlová Ilona, Mgr., advokátka",
+    "slug": "kindlov-praha",
+    "city": "Praha",
+    "email": "kindlova@ak-ik.cz",
+    "phone": "+420603577933",
+    "website": "http://ak-ik.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Mgr. LUKÁŠ KLEIN, advokát",
+    "slug": "klein-plze",
+    "city": "Plzeň",
+    "email": "klein@ak-klein.com",
+    "phone": "+420607632826",
+    "website": "http://ak-klein.com",
+    "source": "cak"
+  },
+  {
+    "name": "Mgr. Tereza Knězková, advokátka",
+    "slug": "kn-zkov-ostrava",
+    "city": "Ostrava",
+    "email": "kancelar@ak-knezkova.cz",
+    "phone": "+420721810366",
+    "website": "http://ak-knezkova.cz",
+    "source": "cak"
+  },
+  {
+    "name": "JUDr. Martina Knická, advokátka",
+    "slug": "knick-d-n",
+    "city": "Děčín",
+    "email": "knicka@ak-sk.cz",
+    "phone": "+420774522590",
+    "website": "http://ak-sk.cz",
+    "source": "cak"
+  },
+  {
+    "name": "AK Legal s.r.o. advokátní kancelář",
+    "slug": "kobzov-teplice",
+    "city": "Teplice",
+    "email": "akobzova@icloud.cz",
+    "phone": "+420721482876",
+    "website": "http://icloud.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Mgr. Jiří Kocík, advokát",
+    "slug": "koc-k-praha",
+    "city": "Praha",
+    "email": "jiri.kocik@kocik-legal.com",
+    "phone": "",
+    "website": "http://kocik-legal.com",
+    "source": "cak"
+  },
+  {
+    "name": "Mgr. Martin Kocourek, advokát",
+    "slug": "kocourek-krumlov",
+    "city": "Krumlov",
+    "email": "martin.kocourek@akkocourek.cz",
+    "phone": "+420605905585",
+    "website": "http://akkocourek.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Mgr. Martin Kocur, advokát",
+    "slug": "kocur-praha",
+    "city": "Praha",
+    "email": "kocur@ak-kocur.cz",
+    "phone": "+420776742030",
+    "website": "http://ak-kocur.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Mgr. Petra Kočí, advokát",
+    "slug": "ko-praha",
+    "city": "Praha",
+    "email": "petra.koci@akkoci.cz",
+    "phone": "+420732180748",
+    "website": "http://akkoci.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Kolář Aleš, JUDr., advokát",
+    "slug": "kol-praha-2",
+    "city": "Praha",
+    "email": "advokati@ak-kolar.cz",
+    "phone": "224251568",
+    "website": "http://ak-kolar.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Mgr. Ing. ONDŘEJ KOLÁŘ, advokát",
+    "slug": "kol-praha-3",
+    "city": "Praha",
+    "email": "info@akkolar.cz",
+    "phone": "+420724255955",
+    "website": "http://akkolar.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Kolaříková Dana, JUDr., advokátka",
+    "slug": "kola-kov-plze",
+    "city": "Plzeň",
+    "email": "advokat@dkolarikova.cz",
+    "phone": "+420774834249",
+    "website": "http://dkolarikova.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Mgr. Richard Koliba, advokátní kancelář",
+    "slug": "koliba-t-inec",
+    "city": "Třinec",
+    "email": "koliba@akkoliba.cz",
+    "phone": "+420724707549",
+    "website": "http://akkoliba.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Mgr. Ing. Jiří Komárek, advokát",
+    "slug": "kom-rek-praha",
+    "city": "Praha",
+    "email": "komarek@akkomarek.cz",
+    "phone": "+420602206672",
+    "website": "http://akkomarek.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Komárek Jiří, JUDr., advokát",
+    "slug": "kom-rek-labem",
+    "city": "Labem",
+    "email": "j.komarek@sakhrk.cz",
+    "phone": "+420495510903",
+    "website": "http://sakhrk.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Mgr. Jan Konečný, advokát",
+    "slug": "kone-n-brno",
+    "city": "Brno",
+    "email": "konecny@konecnyadvokat.cz",
+    "phone": "+420724583398",
+    "website": "http://konecnyadvokat.cz",
+    "source": "cak"
+  },
+  {
+    "name": "JUDr. Petr Konečný, advokát",
+    "slug": "kone-n-olomouc",
+    "city": "Olomouc",
+    "email": "advokat@ak-konecny.cz",
+    "phone": "739 313 947",
+    "website": "http://www.ak-konecny.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Mgr. Pavla Kopečková Přikrylová, advokátka",
+    "slug": "kope-kov-p-ikrylov-praha",
+    "city": "Praha",
+    "email": "PavlaKP@kplaw.cz",
+    "phone": "+420731162284",
+    "website": "http://kplaw.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Mgr. Denisa KOSOVÁ, advokátka",
+    "slug": "kosov-brno",
+    "city": "Brno",
+    "email": "denisa.kosova@ak-ls.cz",
+    "phone": "731931388",
+    "website": "http://ak-ls.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Košťál Ladislav, JUDr., advokát",
+    "slug": "ko-l-zbe-no",
+    "city": "Zbečno",
+    "email": "kostal@akkostal.cz",
+    "phone": "+420 602 395 963",
+    "website": "http://akkostal.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Mgr. MARIO KOTORA - advokát",
+    "slug": "kotora-advok-t-plze",
+    "city": "Plzeň",
+    "email": "m.kotora@advkotora.cz",
+    "phone": "+420608283880",
+    "website": "http://advkotora.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Mgr. Karel Kotrba, advokát",
+    "slug": "kotrba-t-bor",
+    "city": "Tábor",
+    "email": "karel.kotrba@ak-kotrba.cz",
+    "phone": "+420731722893",
+    "website": "http://ak-kotrba.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Mgr. Martin Reisinger, advokát",
+    "slug": "reisinger-praha",
+    "city": "Praha",
+    "email": "reisinger@akreisinger.cz",
+    "phone": "+420777311979",
+    "website": "http://akreisinger.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Mgr. Michal Koutník, advokát",
+    "slug": "koutn-k-kr-lov",
+    "city": "Králové",
+    "email": "koutnik@koutnik-advokat.cz",
+    "phone": "+420603913155",
+    "website": "http://koutnik-advokat.cz",
+    "source": "cak"
+  },
+  {
+    "name": "JUDr. Ondřej Kovář, LL.M. advokát",
+    "slug": "kov-hronov",
+    "city": "Hronov",
+    "email": "kovar@akkovar.cz",
+    "phone": "+420776253080",
+    "website": "http://www.akkovar.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Mgr. Michal Kožár, advokát",
+    "slug": "ko-r-praha",
+    "city": "Praha",
+    "email": "michal@kozar.legal",
+    "phone": "",
+    "website": "http://kozar.legal",
+    "source": "cak"
+  },
+  {
+    "name": "Kráčalík Jaromír, Mgr., advokát",
+    "slug": "kr-al-k-hodon-n",
+    "city": "Hodonín",
+    "email": "info@akkracalik.cz",
+    "phone": "",
+    "website": "http://akkracalik.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Mgr. Martin Krajčovič, advokát",
+    "slug": "kraj-ovi-praha",
+    "city": "Praha",
+    "email": "martin.krajcovic@akkrajcovic.cz",
+    "phone": "224827884",
+    "website": "http://akkrajcovic.cz",
+    "source": "cak"
+  },
+  {
+    "name": "JUDr. Veronika Kramlová, advokátka",
+    "slug": "kramlov-vimperk",
+    "city": "Vimperk",
+    "email": "veronika.kramlova@ak-kramlova.cz",
+    "phone": "+420602118300",
+    "website": "http://ak-kramlova.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Mgr. JAKUB KRATOCHVÍL, advokátní kancelář",
+    "slug": "kratochv-l-poho-elice",
+    "city": "Pohořelice",
+    "email": "kratochvil@kratochvil-ak.cz",
+    "phone": "776881303",
+    "website": "http://kratochvil-ak.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Kratochvíl Jiří, JUDr., advokát",
+    "slug": "kratochv-l-praha-2",
+    "city": "Praha",
+    "email": "advokatni.kancelar@ak-kratochvil.cz",
+    "phone": "+420224829287",
+    "website": "http://ak-kratochvil.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Mgr. Jakub Krause, advokát",
+    "slug": "krause-brno",
+    "city": "Brno",
+    "email": "jakub@akrau.cz",
+    "phone": "+420720136601",
+    "website": "http://akrau.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Poledník Petr, JUDr.",
+    "slug": "poledn-k-brno",
+    "city": "Brno",
+    "email": "akpolednik@akpolednik.cz",
+    "phone": "",
+    "website": "http://akpolednik.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Mgr. et Mgr. Petr Krpec, advokát",
+    "slug": "mgr-petr-krpec-praha",
+    "city": "Praha",
+    "email": "petr.krpec@mklegal.cz",
+    "phone": "",
+    "website": "http://mklegal.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Pásek Martin, JUDr.,Ph.D.",
+    "slug": "p-sek-praha",
+    "city": "Praha",
+    "email": "mpasek@banco.cz",
+    "phone": "+420224142235",
+    "website": "http://banco.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Kružík Milan, JUDr.",
+    "slug": "kru-k-brno",
+    "city": "Brno",
+    "email": "kruzik@aknk.cz",
+    "phone": "+420545213247",
+    "website": "http://aknk.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Křápková Dita, Mgr.",
+    "slug": "k-pkov-brno",
+    "city": "Brno",
+    "email": "krapkova@advokatkabrno.cz",
+    "phone": "+420542210941",
+    "website": "http://advokatkabrno.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Mgr. PAVEL KŘEČEK, advokát",
+    "slug": "k-e-ek-praha",
+    "city": "Praha",
+    "email": "pavel.krecek@akkrecek.cz",
+    "phone": "+420777218421",
+    "website": "http://akkrecek.cz",
+    "source": "cak"
+  },
+  {
+    "name": "JUDr.  RADKA KUBEŠOVÁ, advokát",
+    "slug": "kube-ov-tou-e",
+    "city": "Toušeň",
+    "email": "info@akkubesova.cz",
+    "phone": "+420723511415",
+    "website": "http://akkubesova.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Mgr. Michal Kubica, advokát",
+    "slug": "kubica-praha",
+    "city": "Praha",
+    "email": "advokat@michalkubica.cz",
+    "phone": "",
+    "website": "http://michalkubica.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Kubík Petr, JUDr., advokát",
+    "slug": "kub-k-praha",
+    "city": "Praha",
+    "email": "petr.kubik@advokati.as",
+    "phone": "+420224815292",
+    "website": "http://www.advokati.as",
+    "source": "cak"
+  },
+  {
+    "name": "Mgr. LUBOŠ KUČÍREK, advokát",
+    "slug": "ku-rek-16000",
+    "city": "16000",
+    "email": "kucirek@aklk.cz",
+    "phone": "+420728856293",
+    "website": "http://www.aklk.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Advokátní kancelář Mgr. MARTIN KULICH",
+    "slug": "advok-tn-praha-11",
+    "city": "Praha",
+    "email": "m.kulich.advokat@seznam.cz",
+    "phone": "+420603189596",
+    "website": "http://www.ak-kulich.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Kůsová Dana, JUDr., advokátka",
+    "slug": "k-sov-plze",
+    "city": "Plzeň",
+    "email": "kusova@kusova.cz",
+    "phone": "+420377237802",
+    "website": "http://www.kusova.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Kyjovský Milan, JUDr., advokát",
+    "slug": "kyjovsk-brno",
+    "city": "Brno",
+    "email": "ak@kyjovsky.cz",
+    "phone": "+420542217736",
+    "website": "http://kyjovsky.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Mgr. Miroslav Kyprý, advokát",
+    "slug": "kypr-brno",
+    "city": "Brno",
+    "email": "mk@ak-kypry.cz",
+    "phone": "+420776019515",
+    "website": "http://ak-kypry.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Mgr. Monika Kyselová, advokát",
+    "slug": "kyselov-praha",
+    "city": "Praha",
+    "email": "kancelar@kyselova.cz",
+    "phone": "+420731523147",
+    "website": "http://kyselova.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Mgr.  JARMILA LAJBLOVÁ, advokátka",
+    "slug": "lajblov-praha",
+    "city": "Praha",
+    "email": "j.lajblova@aklajblova.cz",
+    "phone": "+420266706200",
+    "website": "http://aklajblova.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Lašmanský Jan , Mgr., advokát",
+    "slug": "la-mansk-praha",
+    "city": "Praha",
+    "email": "jan.lasmansky@lasmansky.cz",
+    "phone": "",
+    "website": "http://lasmansky.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Mgr. Jan Lego, Ph.D., advokát",
+    "slug": "lego-plze",
+    "city": "Plzeň",
+    "email": "lego@janlego.eu",
+    "phone": "+420777175175",
+    "website": "http://janlego.eu",
+    "source": "cak"
+  },
+  {
+    "name": "JUDr. et Mgr. Jana Lelková Schovancová, advokátka",
+    "slug": "mgr-jana-lelkov-schovancov-praha",
+    "city": "Praha",
+    "email": "info@advokat-abogado.eu",
+    "phone": "+420602894196",
+    "website": "http://advokat-abogado.eu",
+    "source": "cak"
+  },
+  {
+    "name": "Mgr. Jiří Lemberger, advokát",
+    "slug": "lemberger-praha",
+    "city": "Praha",
+    "email": "lemberger@akjl.cz",
+    "phone": "+420702198186",
+    "website": "http://akjl.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Mgr. Jindřich Lev, advokát",
+    "slug": "lev-praha",
+    "city": "Praha",
+    "email": "aklev@aklev.cz",
+    "phone": "+420277270057",
+    "website": "http://aklev.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Mgr. JAKUB LÖBL, advokát",
+    "slug": "l-bl-brno",
+    "city": "Brno",
+    "email": "jakub@aklobl.cz",
+    "phone": "721808852",
+    "website": "http://aklobl.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Mgr. Dominik Lukács, advokát",
+    "slug": "luk-cs-brno",
+    "city": "Brno",
+    "email": "lukacs@lukacs-advokat.cz",
+    "phone": "+420739596431",
+    "website": "http://lukacs-advokat.cz",
+    "source": "cak"
+  },
+  {
+    "name": "JUDr. Simona Lukas Běláková, advokátka",
+    "slug": "lukas-b-l-kov-znojmo",
+    "city": "Znojmo",
+    "email": "belakova@akbelakova.cz",
+    "phone": "+420515224043",
+    "website": "http://akbelakova.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Mgr. Vít Lukáš, advokát",
+    "slug": "luk-olomouc",
+    "city": "Olomouc",
+    "email": "vit@lukas-advokat.cz",
+    "phone": "+420728531399",
+    "website": "http://lukas-advokat.cz",
+    "source": "cak"
+  },
+  {
+    "name": "JUDr. Veronika Lukešová, advokátka",
+    "slug": "luke-ov-praha",
+    "city": "Praha",
+    "email": "veronika.lukesova@ak-lukesova.cz",
+    "phone": "721958796",
+    "website": "http://ak-lukesova.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Mgr. Petra Lukšíková, advokátka",
+    "slug": "luk-kov-praha",
+    "city": "Praha",
+    "email": "petra@luksikova.cz",
+    "phone": "+420736670087",
+    "website": "http://luksikova.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Mgr. Petr Macák, advokát",
+    "slug": "mac-k-praha",
+    "city": "Praha",
+    "email": "sekretariat@akmacak.cz",
+    "phone": "271752469",
+    "website": "http://akmacak.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Mgr. Jaroslav Macek, advokátní kancelář",
+    "slug": "macek-hory",
+    "city": "Hory",
+    "email": "macek@akmacek.cz",
+    "phone": "+420584452207",
+    "website": "http://www.akmacek.cz",
+    "source": "cak"
+  },
+  {
+    "name": "AK Magdolen spol. s.r.o.",
+    "slug": "magdolenov-praha",
+    "city": "Praha",
+    "email": "k.magdolenova@akmag.cz",
+    "phone": "",
+    "website": "http://akmag.cz",
+    "source": "cak"
+  },
+  {
+    "name": "JUDr. Jiří Machourek, advokátní kancelář",
+    "slug": "machourek-brno",
+    "city": "Brno",
+    "email": "machourek@akmachourek.cz",
+    "phone": "+420515544009",
+    "website": "http://www.akmachourek.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Malcová Jaroslava, Mgr., LL.M., advokát",
+    "slug": "malcov-praha",
+    "city": "Praha",
+    "email": "malcova@mmak.cz",
+    "phone": "+420602943810",
+    "website": "http://mmak.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Mgr. Petr Malec, advokátní kancelář",
+    "slug": "malec-praha",
+    "city": "Praha",
+    "email": "malec@akturek.eu",
+    "phone": "+420222363717",
+    "website": "http://akturek.eu",
+    "source": "cak"
+  },
+  {
+    "name": "Mannsbartová Jitka, Mgr., advokát",
+    "slug": "mannsbartov-brno",
+    "city": "Brno",
+    "email": "ak@mannsbartova.cz",
+    "phone": "+420604911522",
+    "website": "http://mannsbartova.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Mgr. Silvie Marcinová, advokát",
+    "slug": "marcinov-brno",
+    "city": "Brno",
+    "email": "silvie@marcinova.cz",
+    "phone": "+420728501476",
+    "website": "http://marcinova.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Marečková Jana, JUDr., advokátní kancelář",
+    "slug": "mare-kov-praha",
+    "city": "Praha",
+    "email": "info@akmareckova.cz",
+    "phone": "+420222969365",
+    "website": "http://www.akmareckova.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Monika Mareková, advokátní kancelář",
+    "slug": "monika-praha",
+    "city": "Praha",
+    "email": "monika@marekova.com",
+    "phone": "+420608718561",
+    "website": "http://marekova.com",
+    "source": "cak"
+  },
+  {
+    "name": "Matějovská Petra, Mgr.",
+    "slug": "mat-jovsk-praha",
+    "city": "Praha",
+    "email": "petra.matejovska@akmatejovska.cz",
+    "phone": "+420724283950",
+    "website": "http://akmatejovska.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Mauritz Legal, advokátní kancelář s.r.o.",
+    "slug": "mauritz-mba-praha",
+    "city": "Praha",
+    "email": "office@akmauritz.cz",
+    "phone": "",
+    "website": "http://akmauritz.cz",
+    "source": "cak"
+  },
+  {
+    "name": "JUDr. Lenka Mecová, advokátka",
+    "slug": "mecov-fr-dek-m-stek",
+    "city": "Frýdek-Místek",
+    "email": "mecova.lenka@centrum.cz",
+    "phone": "+420777146273",
+    "website": "http://www.akfrydekmistek.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Mgr. Anna Medzihradská Rýznerová, advokátka",
+    "slug": "medzihradsk-r-znerov-praha",
+    "city": "Praha",
+    "email": "ryznerova@akryznerova.cz",
+    "phone": "+420725509879",
+    "website": "http://akryznerova.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Mgr. Martin Melišek, advokát",
+    "slug": "meli-ek-brno",
+    "city": "Brno",
+    "email": "info@akmelisek.com",
+    "phone": "+420608212853",
+    "website": "http://akmelisek.com",
+    "source": "cak"
+  },
+  {
+    "name": "Metzkerová Eva, JUDr., advokát",
+    "slug": "metzkerov-praha",
+    "city": "Praha",
+    "email": "metzkerova@metzker.cz",
+    "phone": "",
+    "website": "http://metzker.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Mgr. Lenka Mikulcová, advokátka",
+    "slug": "mikulcov-praha",
+    "city": "Praha",
+    "email": "mikulcova@akmikulcova.cz",
+    "phone": "+420226299500",
+    "website": "http://akmikulcova.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Mgr. Pavel Mikuš, advokát",
+    "slug": "miku-brno",
+    "city": "Brno",
+    "email": "mikus@advokatmikus.cz",
+    "phone": "",
+    "website": "http://advokatmikus.cz",
+    "source": "cak"
+  },
+  {
+    "name": "PETR MISÍK, advokátní kancelář",
+    "slug": "petr-praha",
+    "city": "Praha",
+    "email": "info@akmisik.cz",
+    "phone": "+420737020603",
+    "website": "http://akmisik.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Mgr. Lucie Mitáčková, advokátka",
+    "slug": "mit-kov-hradi-t",
+    "city": "Hradiště",
+    "email": "mitackova@mitackovaadvokatka.cz",
+    "phone": "",
+    "website": "http://mitackovaadvokatka.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Mixová Dagmar, JUDr., advokátka",
+    "slug": "mixov-praha",
+    "city": "Praha",
+    "email": "mixova@akmixova.cz",
+    "phone": "",
+    "website": "http://akmixova.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Mgr. LUCIE MOKROŠOVÁ, advokátka",
+    "slug": "mokro-ov-brno",
+    "city": "Brno",
+    "email": "ak@akmokrosova.cz",
+    "phone": "+420543255170",
+    "website": "http://akmokrosova.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Moudrá Veronika, Mgr., advokátka",
+    "slug": "moudr-praha",
+    "city": "Praha",
+    "email": "veronika.moudra@akmoudra.cz",
+    "phone": "00420 605 975 142",
+    "website": "http://akmoudra.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Mgr. Ondřej Moutvička, advokát",
+    "slug": "moutvi-ka-litv-nov",
+    "city": "Litvínov",
+    "email": "moutvicka@aklitvinov.cz",
+    "phone": "724258988",
+    "website": "http://aklitvinov.cz",
+    "source": "cak"
+  },
+  {
+    "name": "JAN MUŠÁLEK, advokát",
+    "slug": "jan-ostrava",
+    "city": "Ostrava",
+    "email": "musalek@akmusalek.cz",
+    "phone": "+420607880178",
+    "website": "http://akmusalek.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Myslilová Marie, JUDr.",
+    "slug": "myslilov-praha",
+    "city": "Praha",
+    "email": "kancelar@advokatmm.cz",
+    "phone": "+420605295422",
+    "website": "http://advokatmm.cz",
+    "source": "cak"
+  },
+  {
+    "name": "JUDr. Petr Navrátil, advokát",
+    "slug": "navr-til-brno",
+    "city": "Brno",
+    "email": "ak@navratil-advokat.cz",
+    "phone": "+420542210879",
+    "website": "http://navratil-advokat.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Nečásková Lucie, Mgr., advokátka",
+    "slug": "ne-skov-praha",
+    "city": "Praha",
+    "email": "necaskova@gaius.cz",
+    "phone": "224 947 158",
+    "website": "http://gaius.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Nejezchleb Ivo, Mgr., advokát",
+    "slug": "nejezchleb-brno",
+    "city": "Brno",
+    "email": "ak@nejezchleb-advokat.cz",
+    "phone": "+420543255171",
+    "website": "http://nejezchleb-advokat.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Mgr. Kateřina Němcová, advokátka",
+    "slug": "n-mcov-hradec",
+    "city": "Hradec",
+    "email": "nemcova@nemcova-ak.cz",
+    "phone": "",
+    "website": "http://nemcova-ak.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Němec Jiří, Dr.iur., LL.M., advokát",
+    "slug": "n-mec-praha",
+    "city": "Praha",
+    "email": "jnemec@aknem.cz",
+    "phone": "+420724255243",
+    "website": "http://aknem.cz",
+    "source": "cak"
+  },
+  {
+    "name": "JUDr. Hana Němečková, advokátka",
+    "slug": "n-me-kov-praha",
+    "city": "Praha",
+    "email": "info@aknemeckova.cz",
+    "phone": "+420777573363",
+    "website": "http://aknemeckova.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Mgr. Bc. LUCIE NEPRAŠOVÁ, advokátka",
+    "slug": "nepra-ov-plze",
+    "city": "Plzeň",
+    "email": "lucie.neprasova@akneprasova.cz",
+    "phone": "+420737125378",
+    "website": "http://akneprasova.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Advokátní kancelář Mgr. Jakuba Nováka",
+    "slug": "advok-tn-stud-nka",
+    "city": "Studénka",
+    "email": "advokat@aknovak.net",
+    "phone": "+420608761292",
+    "website": "http://aknovak.net",
+    "source": "cak"
+  },
+  {
+    "name": "Novák Josef, JUDr., advokát",
+    "slug": "nov-k-praha-2",
+    "city": "Praha",
+    "email": "kancelar@novakjosef.cz",
+    "phone": "+420 607922369",
+    "website": "http://novakjosef.cz",
+    "source": "cak"
+  },
+  {
+    "name": "JUDr. Marek Novák, Ph.D., advokát",
+    "slug": "nov-k-praha-3",
+    "city": "Praha",
+    "email": "advokat@mareknovak.cz",
+    "phone": "+420776659039",
+    "website": "http://mareknovak.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Novák Miloš, JUDr.",
+    "slug": "nov-k-nisou",
+    "city": "Nisou",
+    "email": "info@aknovak.cz",
+    "phone": "+420737278969",
+    "website": "http://aknovak.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Mgr. ONDŘEJ NOVÁK, advokát",
+    "slug": "nov-k-praha-4",
+    "city": "Praha",
+    "email": "attorney@ondranovak.com",
+    "phone": "+420222412649",
+    "website": "http://ondranovak.com",
+    "source": "cak"
+  },
+  {
+    "name": "NSG Morison advokátní kancelář, s.r.o.",
+    "slug": "pokorn-praha",
+    "city": "Praha",
+    "email": "nsgmorison@nsgmorison.cz",
+    "phone": "+420224800930",
+    "website": "http://nsgroup.cz",
+    "source": "cak"
+  },
+  {
+    "name": "JUDr. Michal Odarčenko, advokát",
+    "slug": "odar-enko-praha",
+    "city": "Praha",
+    "email": "michal@odarcenko.cz",
+    "phone": "+420 605 023 921",
+    "website": "http://odarcenko.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Pánková Jana, JUDr., advokát",
+    "slug": "p-nkov-kr-lov",
+    "city": "Králové",
+    "email": "advokat@akpankova.eu",
+    "phone": "603148307",
+    "website": "http://akpankova.eu",
+    "source": "cak"
+  },
+  {
+    "name": "Pantoflíčková Daniela",
+    "slug": "pantofl-kov-praha",
+    "city": "Praha",
+    "email": "daniela@pantoflickova.cz",
+    "phone": "",
+    "website": "http://pantoflickova.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Papugová Monika, Mgr., advokát",
+    "slug": "papugov-praha",
+    "city": "Praha",
+    "email": "office@akpapugova.cz",
+    "phone": "+420724521999",
+    "website": "http://akpapugova.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Párová Langerová Jana, Mgr., advokát",
+    "slug": "p-rov-praha",
+    "city": "Praha",
+    "email": "jlanger@eulegal.cz",
+    "phone": "+420724152939",
+    "website": "http://eulegal.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Mgr. Aleš Pauer, advokát",
+    "slug": "pauer-praha",
+    "city": "Praha",
+    "email": "pauer@akpauer.cz",
+    "phone": "+420723634763",
+    "website": "http://akpauer.cz",
+    "source": "cak"
+  },
+  {
+    "name": "František Pavelka JUDr., advokát",
+    "slug": "franti-ek-praha",
+    "city": "Praha",
+    "email": "pavelka@akfpavelka.cz",
+    "phone": "",
+    "website": "http://akfpavelka.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Pavlok Jan, JUDr., advokát",
+    "slug": "pavlok-praha",
+    "city": "Praha",
+    "email": "pavlok@pavlok.cz",
+    "phone": "+420224210532",
+    "website": "http://pavlok.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Mgr. Jan Slunečko, advokát",
+    "slug": "slune-ko-praha",
+    "city": "Praha",
+    "email": "advokat@janslunecko.cz",
+    "phone": "+420602830123",
+    "website": "http://janslunecko.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Mgr. Kryštof Pazdírek, advokát",
+    "slug": "pazd-rek-praha",
+    "city": "Praha",
+    "email": "krystof.pazdirek@kpsa.cz",
+    "phone": "+420604278803",
+    "website": "http://kpsa.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Pecinová Jana, Mgr.",
+    "slug": "pecinov-praha",
+    "city": "Praha",
+    "email": "ak@pecinova.cz",
+    "phone": "+420602657367",
+    "website": "http://pecinova.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Mgr. ŽANETA PERINGROVÁ, advokátka",
+    "slug": "peringrov-praha",
+    "city": "Praha",
+    "email": "zaneta.peringrova@akper.cz",
+    "phone": "+420736265270",
+    "website": "http://akper.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Petrák Jan, Mgr., advokát",
+    "slug": "petr-k-praha",
+    "city": "Praha",
+    "email": "jan.petrak@akpetrak.cz",
+    "phone": "724900039",
+    "website": "http://akpetrak.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Petrjánoš, advokátní kancelář s.r.o.",
+    "slug": "petrj-no-brno",
+    "city": "Brno",
+    "email": "ak@petrjanos.cz",
+    "phone": "724056259",
+    "website": "http://petrjanos.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Petrová Iva, JUDr., advokátní kancelář",
+    "slug": "petrov-brno",
+    "city": "Brno",
+    "email": "petrova@ak-petrova.cz",
+    "phone": "+420604832500",
+    "website": "http://ak-petrova.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Mgr. Veronika Petříková, advokátka",
+    "slug": "pet-kov-podkrkono",
+    "city": "Podkrkonoší",
+    "email": "petrikova@akpetrikova.cz",
+    "phone": "+420603167677",
+    "website": "http://www.akpetrikova.cz",
+    "source": "cak"
+  },
+  {
+    "name": "JUDr. Zuzana Piala, advokátka",
+    "slug": "piala-praha",
+    "city": "Praha",
+    "email": "zuzana@piala.cz",
+    "phone": "+420776808197",
+    "website": "http://piala.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Mgr. JIŘÍ PLAČEK, advokát",
+    "slug": "pla-ek-praha",
+    "city": "Praha",
+    "email": "advokat@jiriplacek.cz",
+    "phone": "+420603954095",
+    "website": "http://jiriplacek.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Lichtenstein Legal s.r.o.",
+    "slug": "podstatzky-lichtenstein-praha",
+    "city": "Praha",
+    "email": "dan.lichtenstein@aklichtenstein.com",
+    "phone": "",
+    "website": "http://aklichtenstein.com",
+    "source": "cak"
+  },
+  {
+    "name": "Mgr. František Pohanka, advokát",
+    "slug": "pohanka-bud-jovice",
+    "city": "Budějovice",
+    "email": "pohanka@ak-pohanka.cz",
+    "phone": "+420386102651",
+    "website": "http://ak-pohanka.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Mgr. JULIE POKLOPOVÁ, advokátka",
+    "slug": "poklopov-praha",
+    "city": "Praha",
+    "email": "poklopova@akpeceny.cz",
+    "phone": "+420224248607",
+    "website": "http://akpeceny.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Mgr. JAN POKORNÝ, advokátní kancelář",
+    "slug": "pokorn-praha-2",
+    "city": "Praha",
+    "email": "jan.pokorny@akpokorny.eu",
+    "phone": "+420777980454",
+    "website": "http://akpokorny.eu",
+    "source": "cak"
+  },
+  {
+    "name": "JUDr. TOMÁŠ POKORNÝ, advokát",
+    "slug": "pokorn-praha-3",
+    "city": "Praha",
+    "email": "tomas@pokornyadvokat.cz",
+    "phone": "+420774668838",
+    "website": "http://pokornyadvokat.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Mgr. Marcela Polanská, advokát",
+    "slug": "polansk-praha",
+    "city": "Praha",
+    "email": "advokat@marcela-polanska.cz",
+    "phone": "+420724163078",
+    "website": "http://marcela-polanska.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Mgr. Tomáš Polcar, advokát",
+    "slug": "polcar-brno",
+    "city": "Brno",
+    "email": "polcar@akpolcar.cz",
+    "phone": "+420775553998",
+    "website": "http://akpolcar.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Mgr. Lukáš Pospíšil, advokát",
+    "slug": "posp-il-praha",
+    "city": "Praha",
+    "email": "pospisil@akpospisil.eu",
+    "phone": "+420777700296",
+    "website": "http://akpospisil.eu",
+    "source": "cak"
+  },
+  {
+    "name": "Potěšil Tomáš, Mgr., advokát",
+    "slug": "pot-il-umperk",
+    "city": "Šumperk",
+    "email": "info@advokat-potesil.cz",
+    "phone": "+420583284084",
+    "website": "http://advokat-potesil.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Mgr. Ing. Kateřina Pracná, advokátka",
+    "slug": "pracn-praha",
+    "city": "Praha",
+    "email": "katerina@pracna.cz",
+    "phone": "",
+    "website": "http://pracna.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Pražák & Associates, advokátní kancelář, s.r.o.",
+    "slug": "pra-k-praha",
+    "city": "Praha",
+    "email": "prazak@prazakassociates.com",
+    "phone": "+420221864100",
+    "website": "http://prazakassociates.com",
+    "source": "cak"
+  },
+  {
+    "name": "Mgr. Přemysl Pražan, advokátní kancelář",
+    "slug": "pra-an-zl-n",
+    "city": "Zlín",
+    "email": "advokat@pravnikzlin.cz",
+    "phone": "+420603172536",
+    "website": "http://pravnikzlin.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Mgr. Ing. Jan Procházka, advokát",
+    "slug": "proch-zka-protiv-n",
+    "city": "Protivín",
+    "email": "prochazka@akprotivin.cz",
+    "phone": "",
+    "website": "http://akprotivin.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Prokopius Petr, JUDr., advokát",
+    "slug": "prokopius-opava",
+    "city": "Opava",
+    "email": "judr.prokopius@akopava.cz",
+    "phone": "",
+    "website": "http://akopava.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Mgr. ANETA PROKOPOVÁ, advokát",
+    "slug": "prokopov-p-erov",
+    "city": "Přerov",
+    "email": "info@akprokopova.cz",
+    "phone": "581 215 060",
+    "website": "http://akprokopova.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Mgr. Martin Proněk, advokát",
+    "slug": "pron-k-brod",
+    "city": "Brod",
+    "email": "advokat@akpronek.cz",
+    "phone": "+420607108422",
+    "website": "http://akpronek.cz",
+    "source": "cak"
+  },
+  {
+    "name": "JUDr. Monika Příkazská, Ph.D., advokátka",
+    "slug": "p-kazsk-brno",
+    "city": "Brno",
+    "email": "advokacie@monikaprikazska.cz",
+    "phone": "777 718 575",
+    "website": "http://monikaprikazska.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Psůtková Ivana, JUDr.",
+    "slug": "ps-tkov-praha",
+    "city": "Praha",
+    "email": "akpsutkova@akpsutkova.cz",
+    "phone": "+420602326002",
+    "website": "http://akpsutkova.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Mgr. Zdeněk Ptáček, advokát",
+    "slug": "pt-ek-cheb",
+    "city": "Cheb",
+    "email": "akptacek@email.cz",
+    "phone": "+420354435406",
+    "website": "http://www.advokatptacek.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Pustina Petr, JUDr.",
+    "slug": "pustina-any",
+    "city": "Říčany",
+    "email": "akpustina@akpustina.cz",
+    "phone": "+420323602858",
+    "website": "http://akpustina.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Mgr. Radek Pytlík, advokát",
+    "slug": "pytl-k-brno",
+    "city": "Brno",
+    "email": "radek.pytlik@ak-radekpytlik.cz",
+    "phone": "+420734278207",
+    "website": "http://ak-radekpytlik.cz",
+    "source": "cak"
+  },
+  {
+    "name": "JUDr. Martin Račok, advokátní kancelář",
+    "slug": "ra-ok-kladno",
+    "city": "Kladno",
+    "email": "martinracok@akracok.cz",
+    "phone": "+420 733 685 152",
+    "website": "http://akracok.cz",
+    "source": "cak"
+  },
+  {
+    "name": "JUDr. Tomáš Radolf, advokátní kancelář",
+    "slug": "radolf-plze",
+    "city": "Plzeň",
+    "email": "radolf@akradolf.cz",
+    "phone": "+420777745676",
+    "website": "http://akradolf.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Rak Jiří, JUDr., advokát",
+    "slug": "rak-kop-ivnice",
+    "city": "Kopřivnice",
+    "email": "rak@akrak.cz",
+    "phone": "+420603521791",
+    "website": "http://www.akrak.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Mgr. Jiří Reisner, advokát",
+    "slug": "reisner-hradec",
+    "city": "Hradec",
+    "email": "kancelar@akreisner.cz",
+    "phone": "602614082",
+    "website": "http://akreisner.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Rejholcová Helena, JUDr., advokát",
+    "slug": "rejholcov-praha",
+    "city": "Praha",
+    "email": "ak@rejholcova.cz",
+    "phone": "",
+    "website": "http://rejholcova.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Mgr. Michaela Roblová, advokátka",
+    "slug": "roblov-praha",
+    "city": "Praha",
+    "email": "michaela@mrslegal.cz",
+    "phone": "702104721",
+    "website": "http://mrslegal.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Rousek Jiří, JUDr., advokátní kancelář",
+    "slug": "rousek-teplice",
+    "city": "Teplice",
+    "email": "judrrousek@pravoteplice.cz",
+    "phone": "+420417534162",
+    "website": "http://pravoteplice.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Mgr. PAVEL RUFFER, advokát",
+    "slug": "ruffer-hostivice",
+    "city": "Hostivice",
+    "email": "ak@akruffer.cz",
+    "phone": "+420733144485",
+    "website": "http://akruffer.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Mgr. Silvia Rutland, advokátka",
+    "slug": "rutland-praha",
+    "city": "Praha",
+    "email": "advokat@silviarutland.com",
+    "phone": "+420608603982",
+    "website": "http://silviarutland.com",
+    "source": "cak"
+  },
+  {
+    "name": "Růžičková Vladislava, JUDr., advokát",
+    "slug": "r-i-kov-praha",
+    "city": "Praha",
+    "email": "ruzickova@legaloffice.cz",
+    "phone": "+420603505050",
+    "website": "http://legaloffice.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Mgr. Jan Rydvan, advokát",
+    "slug": "rydvan-praha",
+    "city": "Praha",
+    "email": "rydvan@rydvan.com",
+    "phone": "",
+    "website": "http://rydvan.com",
+    "source": "cak"
+  },
+  {
+    "name": "Mgr. ARNOŠT RYŠAVÝ, advokát",
+    "slug": "ry-av-krom",
+    "city": "Kroměříž",
+    "email": "rysavy@akrysavy.cz",
+    "phone": "737 308 146",
+    "website": "http://www.akrysavy.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Řípa Ladislav, JUDr., advokát",
+    "slug": "pa-kosmonosy",
+    "city": "Kosmonosy",
+    "email": "michalovice@michalovice.cz",
+    "phone": "",
+    "website": "http://michalovice.cz",
+    "source": "cak"
+  },
+  {
+    "name": "JUDr. Lukáš Sadecký, advokát",
+    "slug": "sadeck-praha",
+    "city": "Praha",
+    "email": "lukas.sadecky@attorney-advokat.cz",
+    "phone": "",
+    "website": "http://attorney-advokat.cz",
+    "source": "cak"
+  },
+  {
+    "name": "JUDr. Iva Sawyer, advokátka",
+    "slug": "sawyer-praha",
+    "city": "Praha",
+    "email": "iva@sawyerlegal.cz",
+    "phone": "+420736183339",
+    "website": "http://sawyerlegal.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Sedláčková Jana, JUDr., advokát",
+    "slug": "sedl-kov-brno",
+    "city": "Brno",
+    "email": "sedlackova@advokatibrno.cz",
+    "phone": "+420602768954",
+    "website": "http://advokatibrno.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Sedlák Marek, Mgr., advokát",
+    "slug": "sedl-k-praha",
+    "city": "Praha",
+    "email": "kancelar@sedlak-advokati.cz",
+    "phone": "602 772 045",
+    "website": "http://sedlak-advokati.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Sedlář Michal, Mgr., advokát",
+    "slug": "sedl-brno",
+    "city": "Brno",
+    "email": "msedlar@akudolni.cz",
+    "phone": "542321311",
+    "website": "http://akudolni.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Mgr. Dita Seménková, advokátní kancelář",
+    "slug": "sem-nkov-brno",
+    "city": "Brno",
+    "email": "info@aksemenkova.cz",
+    "phone": "+420222537500",
+    "website": "http://aksemenkova.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Severin František, JUDr., advokát",
+    "slug": "severin-brno",
+    "city": "Brno",
+    "email": "severin@severin.cz",
+    "phone": "+420736538240",
+    "website": "http://severin.cz",
+    "source": "cak"
+  },
+  {
+    "name": "JUDr. Pavla Schincke, advokát",
+    "slug": "schincke-praha",
+    "city": "Praha",
+    "email": "schincke@akschincke.cz",
+    "phone": "603 184 156",
+    "website": "http://www.akschincke.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Schmid Michal, JUDr., advokát",
+    "slug": "schmid-praha",
+    "city": "Praha",
+    "email": "schmid@akschmid.cz",
+    "phone": "602 292 096",
+    "website": "http://akschmid.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Schneider Roman, JUDr., advokát",
+    "slug": "schneider-brno",
+    "city": "Brno",
+    "email": "schneider@dr-schneider.cz",
+    "phone": "+420542529110",
+    "website": "http://www.aksj.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Mgr. Tereza Schwetzová, advokát",
+    "slug": "schwetzov-praha",
+    "city": "Praha",
+    "email": "info@schwetzova.cz",
+    "phone": "+420604969831",
+    "website": "http://schwetzova.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Mgr. Lucie Sládková, advokát",
+    "slug": "sl-dkov-praha",
+    "city": "Praha",
+    "email": "info@luciesladkova.cz",
+    "phone": "+420605254611",
+    "website": "http://luciesladkova.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Slavíček Václav, Mgr., advokátní kancelář",
+    "slug": "slav-ek-kladno",
+    "city": "Kladno",
+    "email": "vslavicek@akslavicek.cz",
+    "phone": "+420606627542",
+    "website": "http://akslavicek.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Mgr. Petr Slavík, advokát",
+    "slug": "slav-k-lety",
+    "city": "Lety",
+    "email": "slavik@akpetrslavik.cz",
+    "phone": "+420605245619",
+    "website": "http://akpetrslavik.cz",
+    "source": "cak"
+  },
+  {
+    "name": "AK Slówik",
+    "slug": "ak-praha-6",
+    "city": "Praha",
+    "email": "slowik@akslowik.cz",
+    "phone": "724306527",
+    "website": "http://akslowik.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Mgr. ADAM SMRČKA, advokátní kancelář",
+    "slug": "smr-ka-bud-jovice",
+    "city": "Budějovice",
+    "email": "info@adamsmrcka.cz",
+    "phone": "+420777118917",
+    "website": "http://adamsmrcka.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Mgr. Martin Sobek, advokát",
+    "slug": "sobek-teplice",
+    "city": "Teplice",
+    "email": "sobek@aksobek.cz",
+    "phone": "+420728166880",
+    "website": "http://www.aksobek.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Sodomková Jaroslava, Mgr.Ing., advokát",
+    "slug": "sodomkov-praha",
+    "city": "Praha",
+    "email": "sodomkova@aksodom.cz",
+    "phone": "224239033",
+    "website": "http://aksodom.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Mgr. Kristýna Sopouchová, advokátní kancelář",
+    "slug": "sopouchov-kol-n",
+    "city": "Kolín",
+    "email": "kristyna.sopouchova@kslegal.cz",
+    "phone": "+420776246200",
+    "website": "http://kslegal.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Souček Jan, JUDr.",
+    "slug": "sou-ek-praha",
+    "city": "Praha",
+    "email": "soucek@aksoucek.cz",
+    "phone": "+420251510622",
+    "website": "http://aksoucek.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Mgr. ONDŘEJ SPÁČIL, advokát",
+    "slug": "sp-il-praha",
+    "city": "Praha",
+    "email": "ondrej@spacil.legal",
+    "phone": "+420608342231",
+    "website": "http://spacil.legal",
+    "source": "cak"
+  },
+  {
+    "name": "Spirytová Jiřina, Mgr., LL.M., advokát",
+    "slug": "spirytov-praha",
+    "city": "Praha",
+    "email": "spirytova@spirytovalegal.cz",
+    "phone": "00420 777 017825",
+    "website": "http://spirytovalegal.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Stanko Štefan, Mgr., advokát",
+    "slug": "stanko-praha",
+    "city": "Praha",
+    "email": "stefan.stanko@stanko.cz",
+    "phone": "+420602179393",
+    "website": "http://stanko.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Staňková Jana, JUDr.",
+    "slug": "sta-kov-chrudim",
+    "city": "Chrudim",
+    "email": "akstankova@judrstankova.cz",
+    "phone": "+420469319719",
+    "website": "http://judrstankova.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Mgr. Zuzana Staňkovská, LL.M., advokátka",
+    "slug": "sta-kovsk-12000",
+    "city": "12000",
+    "email": "advokat@stankovska.cz",
+    "phone": "+420720166372",
+    "website": "http://www.stankovska.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Mgr. Klára Stibůrková, advokátka",
+    "slug": "stib-rkov-bene-ov",
+    "city": "Benešov",
+    "email": "stiburkova@skvlegal.cz",
+    "phone": "317 727 403",
+    "website": "http://skvlegal.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Mgr. Roman Stýblo, advokát",
+    "slug": "st-blo-brno",
+    "city": "Brno",
+    "email": "info@ak-styblo.cz",
+    "phone": "",
+    "website": "http://ak-styblo.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Suchanová Legal advokátní kancelář",
+    "slug": "suchanov-praha",
+    "city": "Praha",
+    "email": "suchanova@suchanovalegal.cz",
+    "phone": "+420601213442",
+    "website": "http://suchanovalegal.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Mgr. Petra Svatošová, advokát",
+    "slug": "svato-ov-plze",
+    "city": "Plzeň",
+    "email": "advokat@psvatosova.cz",
+    "phone": "+420736714643",
+    "website": "http://psvatosova.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Mgr. Tomáš Svoboda, advokát",
+    "slug": "svoboda-praha-2",
+    "city": "Praha",
+    "email": "tsvoboda@ak-tsv.cz",
+    "phone": "+420774171325",
+    "website": "http://ak-tsv.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Mgr. Ing. et Ing. Klára Svobodová, advokát",
+    "slug": "ing-kl-ra-svobodov-brno",
+    "city": "Brno",
+    "email": "advokat@svobodovaklara.cz",
+    "phone": "+420608627570",
+    "website": "http://svobodovaklara.cz",
+    "source": "cak"
+  },
+  {
+    "name": "JUDr. Petr Sýkora, advokát",
+    "slug": "s-kora-praha",
+    "city": "Praha",
+    "email": "sykora@vhslegal.cz",
+    "phone": "",
+    "website": "http://vhslegal.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Mgr. Eva Szotkovská, advokátka",
+    "slug": "szotkovsk-opava",
+    "city": "Opava",
+    "email": "szotkovska@legales.cz",
+    "phone": "+420734136622",
+    "website": "http://legales.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Mgr. Milan Šajer, advokát",
+    "slug": "ajer-praha",
+    "city": "Praha",
+    "email": "sajer@aksajer.cz",
+    "phone": "+420602777728",
+    "website": "http://aksajer.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Mgr. Veronika Ščuková, advokátka",
+    "slug": "ukov-t-eb",
+    "city": "Třebíč",
+    "email": "veronika@scukova.cz",
+    "phone": "+420606337358",
+    "website": "http://www.scukova-advokat.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Mgr. Michal Šenkyřík, advokát",
+    "slug": "enky-k-ti-nov",
+    "city": "Tišnov",
+    "email": "info@advokat-senkyrik.cz",
+    "phone": "+420725867059",
+    "website": "http://advokat-senkyrik.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Mgr. Bc. Alžběta Ševelová, advokátní kancelář",
+    "slug": "evelov-brno",
+    "city": "Brno",
+    "email": "advokat@aksevelova.cz",
+    "phone": "603752479",
+    "website": "http://aksevelova.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Advokátní kancelář Šimáně",
+    "slug": "advok-tn-praha-12",
+    "city": "Praha",
+    "email": "romana@simane.info",
+    "phone": "+420777286458",
+    "website": "http://simane.info",
+    "source": "cak"
+  },
+  {
+    "name": "Mgr. Stanislav Šišlák, advokát",
+    "slug": "i-l-k-praha",
+    "city": "Praha",
+    "email": "advokat@sislak.cz",
+    "phone": "+420736779669",
+    "website": "http://sislak.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Škoda Vlastimil, Mgr., advokát",
+    "slug": "koda-d-n",
+    "city": "Děčín",
+    "email": "sekretariat@ak-skoda.cz",
+    "phone": "771158800",
+    "website": "http://www.ak-skoda.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Mgr. David Škvařil, advokát",
+    "slug": "kva-il-brno",
+    "city": "Brno",
+    "email": "advokat@akskvaril.eu",
+    "phone": "",
+    "website": "http://akskvaril.eu",
+    "source": "cak"
+  },
+  {
+    "name": "Mgr. Alena Šlajsová, advokátka",
+    "slug": "lajsov-chrudim",
+    "city": "Chrudim",
+    "email": "slajsova@akslajsova.cz",
+    "phone": "+420469813814",
+    "website": "http://www.akslajsova.cz",
+    "source": "cak"
+  },
+  {
+    "name": "ŠMÍDA advokátní kancelář s.r.o.",
+    "slug": "m-da-kr-lov",
+    "city": "Králové",
+    "email": "smida@aksmida.cz",
+    "phone": "+420491041034",
+    "website": "http://aksmida.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Mgr. David Šmrha - advokát",
+    "slug": "mrha-advok-t-plze",
+    "city": "Plzeň",
+    "email": "smrha@mujobhajce.cz",
+    "phone": "+420377236708",
+    "website": "http://mujobhajce.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Šnajder, advokátní kancelář, s.r.o.",
+    "slug": "najderov-brno",
+    "city": "Brno",
+    "email": "j.snajder@snajder-ak.cz",
+    "phone": "+420 774 763 353",
+    "website": "http://snajder-ak.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Špelda Jiří, JUDr. Ing., advokátní kancelář",
+    "slug": "pelda-kr-lov",
+    "city": "Králové",
+    "email": "akspelda@email.cz",
+    "phone": "777 736 070",
+    "website": "http://www.akspelda.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Mgr. Tereza Šprinclová, advokát",
+    "slug": "princlov-t-e",
+    "city": "Třešť",
+    "email": "ak@sprinclova.cz",
+    "phone": "+420775215398",
+    "website": "http://sprinclova.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Advokátní kancelář Šrámek s.r.o.",
+    "slug": "r-mek-praha",
+    "city": "Praha",
+    "email": "sramek@advos.cz",
+    "phone": "+420602368384",
+    "website": "http://advos.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Šťastná Hana, JUDr., advokátka",
+    "slug": "astn-l-zn",
+    "city": "Lázně",
+    "email": "judr.hanastastna@ak-stastna.eu",
+    "phone": "+420354621352",
+    "website": "http://ak-stastna.eu",
+    "source": "cak"
+  },
+  {
+    "name": "Štípek Filip, JUDr., advokát",
+    "slug": "t-pek-labem",
+    "city": "Labem",
+    "email": "stipek@topadvokacie.cz",
+    "phone": "+420413034644",
+    "website": "http://topadvokacie.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Švábová Darina , Mgr., PhDr., advokátka",
+    "slug": "v-bov-hlinsko",
+    "city": "Hlinsko",
+    "email": "darina.svabova@svabovalegal.cz",
+    "phone": "+420777620788",
+    "website": "http://svabovalegal.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Mgr. Josef Švanda, advokát",
+    "slug": "vanda-praha",
+    "city": "Praha",
+    "email": "advokat@josefsvanda.cz",
+    "phone": "+420603145641",
+    "website": "http://josefsvanda.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Mgr. Zbyněk Tetour, advokátní kancelář",
+    "slug": "tetour-praha",
+    "city": "Praha",
+    "email": "z.tetour@aktetour.cz",
+    "phone": "+420728272303",
+    "website": "http://aktetour.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Mgr. Lubor Tichý, advokát",
+    "slug": "tich-praha",
+    "city": "Praha",
+    "email": "office@lubortichy.cz",
+    "phone": "+420777582672",
+    "website": "http://lubortichy.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Mgr. Petr Tichý, advokát",
+    "slug": "tich-beroun",
+    "city": "Beroun",
+    "email": "petrtichy@akpetrtichy.cz",
+    "phone": "+420602659911",
+    "website": "http://akpetrtichy.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Mgr. Ing. Tomáš Tillmann, advokát",
+    "slug": "tillmann-ostrava",
+    "city": "Ostrava",
+    "email": "tillmann@aktillmann.cz",
+    "phone": "+420602781196",
+    "website": "http://aktillmann.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Mgr. KATEŘINA TKADLECOVÁ, advokátka",
+    "slug": "tkadlecov-kol-n",
+    "city": "Kolín",
+    "email": "katerina@tkadlecova.cz",
+    "phone": "+420604274470",
+    "website": "http://tkadlecova.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Tobiášová Alena, JUDr.",
+    "slug": "tobi-ov-brno",
+    "city": "Brno",
+    "email": "alena@tobiasova.cz",
+    "phone": "+420724059117",
+    "website": "http://tobiasova.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Mgr. David Tománek, advokát",
+    "slug": "tom-nek-praha",
+    "city": "Praha",
+    "email": "dtomanek@aktomanek.cz",
+    "phone": "+420775930811",
+    "website": "http://aktomanek.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Tomášek Igor, Mgr. Bc., advokát",
+    "slug": "tom-ek-praha",
+    "city": "Praha",
+    "email": "igor.tomasek@aktomasek.cz",
+    "phone": "+420777026732",
+    "website": "http://www.aktomasek.cz",
+    "source": "cak"
+  },
+  {
+    "name": "JUDr. Sylva Totková Kolderová, advokátka",
+    "slug": "totkov-kolderov-hav-ov",
+    "city": "Havířov",
+    "email": "sylva@sylvatotkova.cz",
+    "phone": "+420596819707",
+    "website": "http://sylvatotkova.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Mgr. Jiří Trávníček, advokát",
+    "slug": "tr-vn-ek-praha",
+    "city": "Praha",
+    "email": "office@travnicek-legal.cz",
+    "phone": "+420774127224",
+    "website": "http://travnicek-legal.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Mgr. Ing. Kristýna Trávníčková, advokátka",
+    "slug": "tr-vn-kov-brno",
+    "city": "Brno",
+    "email": "travnickova@ak-travnickova.cz",
+    "phone": "+420775256180",
+    "website": "http://ak-travnickova.cz",
+    "source": "cak"
+  },
+  {
+    "name": "JUDr. Michal Učeň, advokát",
+    "slug": "u-e-brno",
+    "city": "Brno",
+    "email": "advokat@akucen.cz",
+    "phone": "+420541243358",
+    "website": "http://akucen.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Uher Jakub, Mgr., advokát",
+    "slug": "uher-praha",
+    "city": "Praha",
+    "email": "uher@zdravotnictvi.cz",
+    "phone": "+420267184055",
+    "website": "http://zdravotnictvi.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Mgr. Bc. PAVEL URBACZKA, advokát",
+    "slug": "urbaczka-praha",
+    "city": "Praha",
+    "email": "pavel@urbaczka.cz",
+    "phone": "+420602611910",
+    "website": "http://urbaczka.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Mgr. Jiří Urbánek, advokát",
+    "slug": "urb-nek-praha",
+    "city": "Praha",
+    "email": "advokat@ak-urbanek.cz",
+    "phone": "+420222511745",
+    "website": "http://ak-urbanek.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Mgr. Luděk Václavek, advokátní kancelář",
+    "slug": "v-clavek-er-any",
+    "city": "Čerčany",
+    "email": "ludek@vaclavek.legal",
+    "phone": "+420 775 194 555",
+    "website": "http://vaclavek.legal",
+    "source": "cak"
+  },
+  {
+    "name": "Vachová Lenka, Mgr., advokátka",
+    "slug": "vachov-plav",
+    "city": "Plav",
+    "email": "akvachova@akvachova.cz",
+    "phone": "+420604210148",
+    "website": "http://akvachova.cz",
+    "source": "cak"
+  },
+  {
+    "name": "LUMEN IURIS advokátní kancelář s.r.o.",
+    "slug": "va-kov-praha-2",
+    "city": "Praha",
+    "email": "vankova@akli.cz",
+    "phone": "",
+    "website": "http://akli.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Mgr. Petr Vasilev, advokát",
+    "slug": "vasilev-praha",
+    "city": "Praha",
+    "email": "pvlegal@pvlegal.cz",
+    "phone": "+420604474199",
+    "website": "http://pvlegal.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Mgr. MARTINA VAŠULÍNOVÁ, advokát",
+    "slug": "va-ul-nov-m-stec",
+    "city": "Městec",
+    "email": "advokatka@vasulinova.cz",
+    "phone": "602100676",
+    "website": "http://vasulinova.cz",
+    "source": "cak"
+  },
+  {
+    "name": "JUDr. Lenka Vejdovská Růžičková, advokát",
+    "slug": "vejdovsk-r-i-kov-praha",
+    "city": "Praha",
+    "email": "lenka@akruzickova.eu",
+    "phone": "+420233356526",
+    "website": "http://akruzickova.eu",
+    "source": "cak"
+  },
+  {
+    "name": "Mgr. Ing. Petra Věžníková, advokátka",
+    "slug": "v-n-kov-praha",
+    "city": "Praha",
+    "email": "petra@veznikova.cz",
+    "phone": "+420770170088",
+    "website": "http://veznikova.cz",
+    "source": "cak"
+  },
+  {
+    "name": "JUDr. Irena Viková, advokátka",
+    "slug": "vikov-praha",
+    "city": "Praha",
+    "email": "office@vikova.eu",
+    "phone": "235355730",
+    "website": "http://vikova.eu",
+    "source": "cak"
+  },
+  {
+    "name": "Viktorová Zdeňka, JUDr., advokát",
+    "slug": "viktorov-praha",
+    "city": "Praha",
+    "email": "advokat@viktorova.cz",
+    "phone": "+420602673399",
+    "website": "http://viktorova.cz",
+    "source": "cak"
+  },
+  {
+    "name": "JUDr. Lenka Vincencová, advokát",
+    "slug": "vincencov-m-to",
+    "city": "Mýto",
+    "email": "vincencova@akmyto.cz",
+    "phone": "+420777159911",
+    "website": "http://akmyto.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Vítová Markéta,Mgr., advokát",
+    "slug": "v-tov-praha",
+    "city": "Praha",
+    "email": "m.vitova@ak-vitova.cz",
+    "phone": "+420603570083",
+    "website": "http://ak-vitova.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Advokátní kancelář Mgr. Monika Vítovcová",
+    "slug": "advok-tn-plze-4",
+    "city": "Plzeň",
+    "email": "vitovcova@akvitovcova.cz",
+    "phone": "+420775161106",
+    "website": "http://www.akvitovcova.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Vodička Jiří, JUDr., advokát",
+    "slug": "vodi-ka-praha",
+    "city": "Praha",
+    "email": "kancelar@AKVodicka.com",
+    "phone": "+420602257127",
+    "website": "http://AKVodicka.com",
+    "source": "cak"
+  },
+  {
+    "name": "JUDr. Tereza Vodičková, advokát",
+    "slug": "vodi-kov-olomouc",
+    "city": "Olomouc",
+    "email": "vodickova@akvodickova.cz",
+    "phone": "+420603541546",
+    "website": "http://akvodickova.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Mgr. Marta Vrbová, advokátka",
+    "slug": "vrbov-krumlov",
+    "city": "Krumlov",
+    "email": "marta.vrbova@akvrbova.cz",
+    "phone": "+420732947769",
+    "website": "http://akvrbova.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Mgr. Tam Vu Thanh, advokátní kancelář",
+    "slug": "vu-thanh-praha",
+    "city": "Praha",
+    "email": "vu@akvutam.cz",
+    "phone": "+420775534327",
+    "website": "http://akvutam.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Vyskočil Filip, Mgr., advokát",
+    "slug": "vysko-il-praha",
+    "city": "Praha",
+    "email": "vyskocil@akvyskocil.cz",
+    "phone": "+420222512473",
+    "website": "http://akvyskocil.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Mgr. Heda Wichová, advokát",
+    "slug": "wichov-praha",
+    "city": "Praha",
+    "email": "heda.wichova@akwichova.cz",
+    "phone": "224239390",
+    "website": "http://akwichova.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Wurst Martin, JUDr., advokát",
+    "slug": "wurst-praha",
+    "city": "Praha",
+    "email": "wurst@akwurst.cz",
+    "phone": "728419417",
+    "website": "http://akwurst.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Mgr. Kateřina Zadražilová, advokátka",
+    "slug": "zadra-ilov-brno",
+    "city": "Brno",
+    "email": "zadrazilova@kz-advokat.cz",
+    "phone": "",
+    "website": "http://kz-advokat.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Zlámalová Marcela, Mgr.",
+    "slug": "zl-malov-hodon-n",
+    "city": "Hodonín",
+    "email": "info@akzlamalova.cz",
+    "phone": "+420777888756",
+    "website": "http://akzlamalova.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Zmydlený Igor, JUDr., advokát",
+    "slug": "zmydlen-mezi",
+    "city": "Meziříčí",
+    "email": "advokat@zmydleny.cz",
+    "phone": "+420571622281",
+    "website": "http://zmydleny.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Zörkler Evžen, JUDr.",
+    "slug": "z-rkler-praha",
+    "city": "Praha",
+    "email": "zorkler@zorkler.cz",
+    "phone": "+420251510191",
+    "website": "http://zorkler.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Zvolský Jaroslav, JUDr., advokát",
+    "slug": "zvolsk-praha",
+    "city": "Praha",
+    "email": "jzvolsky@akzv.cz",
+    "phone": "+420212249720",
+    "website": "http://akzv.cz",
+    "source": "cak"
+  },
+  {
+    "name": "JUDr. Světlana Žabenská, advokátka",
+    "slug": "abensk-brno",
+    "city": "Brno",
+    "email": "info@ak-zabenska.cz",
+    "phone": "+420603533705",
+    "website": "http://ak-zabenska.cz",
+    "source": "cak"
+  },
+  {
+    "name": "JUDr. Matěj Žáček, advokát",
+    "slug": "ek-praha",
+    "city": "Praha",
+    "email": "matejzacek@matejzacek.cz",
+    "phone": "+420605322378",
+    "website": "http://matejzacek.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Žižkovský Ivo, JUDr., advokát",
+    "slug": "i-kovsk-sta-kov",
+    "city": "Staňkov",
+    "email": "advokat@akzizkovsky.cz",
+    "phone": "+420777325274",
+    "website": "http://www.akzizkovsky.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Mgr. Adéla Bajer Turečková, advokátka",
+    "slug": "bajer-ture-kov-brno",
+    "city": "Brno",
+    "email": "advokatka@tureckova.eu",
+    "phone": "+420606240024",
+    "website": "http://www.tureckova.eu",
+    "source": "cak"
+  },
+  {
+    "name": "Advokátní kancelář Mgr. Jiří Bělohlávek",
+    "slug": "advok-tn-praha-13",
+    "city": "Praha",
+    "email": "info@jiribelohlavek.cz",
+    "phone": "+420224817006",
+    "website": "http://www.jiribelohlavek.cz",
+    "source": "cak"
+  },
+  {
+    "name": "JUDr. Jan Beneš, advokát",
+    "slug": "bene-praha",
+    "city": "Praha",
+    "email": "benes@lawaid.cz",
+    "phone": "+420773550228",
+    "website": "http://lawaid.cz",
+    "source": "cak"
+  },
+  {
+    "name": "JUDr. Pavel Blažek, Ph.D., advokát",
+    "slug": "bla-ek-brno",
+    "city": "Brno",
+    "email": "advokat@ak-blazek.cz",
+    "phone": "+420542216530",
+    "website": "http://ak-blazek.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Mgr. JIŘÍ BROŽ, advokát",
+    "slug": "bro-praha-3",
+    "city": "Praha",
+    "email": "jiri.broz@brozlegal.com",
+    "phone": "+420732319530",
+    "website": "http://www.brozlegal.com",
+    "source": "cak"
+  },
+  {
+    "name": "Černá Pleváková Renata, JUDr.",
+    "slug": "ern-lib-any",
+    "city": "Libčany",
+    "email": "cerna-plevakova@advokat-hk.eu",
+    "phone": "",
+    "website": "http://www.advokat-hk.eu",
+    "source": "cak"
+  },
+  {
+    "name": "Mgr. Jan Faltejsek, advokát",
+    "slug": "faltejsek-labem",
+    "city": "Labem",
+    "email": "korespondence@mgr-jan-faltejsek.cz",
+    "phone": "+420 720 660 899",
+    "website": "http://mgr-jan-faltejsek.cz",
+    "source": "cak"
+  },
+  {
+    "name": "JUDr. Kristýna Harník Menzelová, advokátka",
+    "slug": "harn-k-menzelov-praha",
+    "city": "Praha",
+    "email": "kristyna.menzelova@menzelova-legal.cz",
+    "phone": "+420773001900",
+    "website": "http://menzelova-legal.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Mgr. Bc. Kateřina Heřmanová, advokát",
+    "slug": "he-manov-b-za",
+    "city": "Bříza",
+    "email": "hermanova@akhermanova.cz",
+    "phone": "+420607963295",
+    "website": "http://akhermanova.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Mgr. Michal Hora, advokát",
+    "slug": "hora-praha",
+    "city": "Praha",
+    "email": "michal.hora@legals.cz",
+    "phone": "+420773663775",
+    "website": "http://legals.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Hrdina Miloš, Mgr., advokát",
+    "slug": "hrdina-praha",
+    "city": "Praha",
+    "email": "hrdina@advokacie.cz",
+    "phone": "+420224210531",
+    "website": "http://advokacie.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Mgr. Kateřina Hrubá, advokátka",
+    "slug": "hrub-praha",
+    "city": "Praha",
+    "email": "katerina.hruba@akhruba.cz",
+    "phone": "+420774720501",
+    "website": "http://akhruba.cz",
+    "source": "cak"
+  },
+  {
+    "name": "JANEČKOVÁ LEGAL s.r.o.",
+    "slug": "jane-kov-brno",
+    "city": "Brno",
+    "email": "info@janeckova.legal",
+    "phone": "773 799 717",
+    "website": "http://janeckova.legal",
+    "source": "cak"
+  },
+  {
+    "name": "Mgr. Nikol Kalina, advokátka",
+    "slug": "kalina-praha",
+    "city": "Praha",
+    "email": "nikol@kalina.link",
+    "phone": "+420606391761",
+    "website": "http://kalina.link",
+    "source": "cak"
+  },
+  {
+    "name": "JUDr. Daniela Kobová, advokátka",
+    "slug": "kobov-praha",
+    "city": "Praha",
+    "email": "kobova@advokatka.pro",
+    "phone": "+420724047038",
+    "website": "http://advokatka.pro",
+    "source": "cak"
+  },
+  {
+    "name": "Kocián Zbyněk, JUDr.",
+    "slug": "koci-n-krnov",
+    "city": "Krnov",
+    "email": "judr.kocian@centrum.cz",
+    "phone": "",
+    "website": "http://www.judrkocian.com",
+    "source": "cak"
+  },
+  {
+    "name": "Kollár Marián, JUDr., advokát",
+    "slug": "koll-r-brno",
+    "city": "Brno",
+    "email": "mkollar@isternet.sk",
+    "phone": "",
+    "website": "http://isternet.sk",
+    "source": "cak"
+  },
+  {
+    "name": "Mgr. Zuzana Kořínková, advokátka",
+    "slug": "ko-nkov-bor",
+    "city": "Bor",
+    "email": "zuzana.korinkova@akbor.cz",
+    "phone": "+420606150988",
+    "website": "http://akbor.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Lodlová Michaela, Mgr. JUDr., advokát",
+    "slug": "lodlov-praha",
+    "city": "Praha",
+    "email": "misa@lodl.cz",
+    "phone": "+420606654504",
+    "website": "http://lodl.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Mgr. Tereza Macháčková, advokátka",
+    "slug": "mach-kov-pardubice",
+    "city": "Pardubice",
+    "email": "zitkova@akpardubice.cz",
+    "phone": "+420466615285",
+    "website": "http://akpardubice.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Mgr. Kateřina Mayerová Bitterová, advokátka",
+    "slug": "mayerov-bitterov-labem",
+    "city": "Labem",
+    "email": "mayerova@bitterova.cz",
+    "phone": "606863222",
+    "website": "http://www.bitterova.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Mgr.  NORBERT MAZZOLINI, advokát",
+    "slug": "mazzolini-ch-n",
+    "city": "Chýně",
+    "email": "norbert@mazzolini.cz",
+    "phone": "+420724089100",
+    "website": "http://mazzolini.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Advokátní kancelář Mgr. Ivana Nevěčná",
+    "slug": "advok-tn-praha-14",
+    "city": "Praha",
+    "email": "info@akinpraha.cz",
+    "phone": "+420721377365",
+    "website": "http://akinpraha.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Mgr. Daniela Opletalová, advokát",
+    "slug": "opletalov-praha",
+    "city": "Praha",
+    "email": "daniela.opletalova@opletalova.com",
+    "phone": "608 510 305",
+    "website": "http://opletalova.com",
+    "source": "cak"
+  },
+  {
+    "name": "Mgr. JAROSLAV ORAVEC, advokát",
+    "slug": "oravec-praha",
+    "city": "Praha",
+    "email": "jaroslav.oravec@akoravec.eu",
+    "phone": "+420608829716",
+    "website": "http://akoravec.eu",
+    "source": "cak"
+  },
+  {
+    "name": "Mgr. David Smrčka, advokát",
+    "slug": "smr-ka-praha",
+    "city": "Praha",
+    "email": "info@aikl.cz",
+    "phone": "",
+    "website": "http://aikl.cz",
+    "source": "cak"
+  },
+  {
+    "name": "JUDr. Ing. Jitka Soukupová Ivančíková, PhD., advokát",
+    "slug": "soukupov-ivan-kov-dob-ichovice",
+    "city": "Dobřichovice",
+    "email": "jitka@ivancikova.cz",
+    "phone": "+420739603802",
+    "website": "http://ivancikova.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Studýnka Bohumil, JUDr. Ing., CSc., advokát",
+    "slug": "stud-nka-praha",
+    "city": "Praha",
+    "email": "studynka@ak-bost.cz",
+    "phone": "+420603818650",
+    "website": "http://ak-bost.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Mgr. GABRIELA ŠÍMOVÁ, advokát",
+    "slug": "mov-praha",
+    "city": "Praha",
+    "email": "simova@aksimova.cz",
+    "phone": "",
+    "website": "http://aksimova.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Mgr. Petra Šindelářová, advokátka",
+    "slug": "indel-ov-t-novice",
+    "city": "Štěnovice",
+    "email": "advokat@ak-sindelarova.cz",
+    "phone": "+420606464363",
+    "website": "http://ak-sindelarova.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Šobrová Barbora, Mgr., advokát",
+    "slug": "obrov-plze",
+    "city": "Plzeň",
+    "email": "ak.kral@inplus.cz",
+    "phone": "",
+    "website": "http://inplus.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Mgr. Jana Švanda Ilovičná, advokátka",
+    "slug": "vanda-ilovi-n-praha",
+    "city": "Praha",
+    "email": "ilovicna@svandalegal.cz",
+    "phone": "+420724143118",
+    "website": "http://svandalegal.cz",
+    "source": "cak"
+  },
+  {
+    "name": "JUDr. Pavel Virág, advokátní kancelář",
+    "slug": "vir-g-praha",
+    "city": "Praha",
+    "email": "pavel.virag@advisory.cz",
+    "phone": "+420 602 258 541",
+    "website": "http://www.advisory.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Mgr. EVA WOLFOVÁ, advokátka",
+    "slug": "wolfov-brno",
+    "city": "Brno",
+    "email": "advokatka@evawolfova.cz",
+    "phone": "+420776086585",
+    "website": "http://evawolfova.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Mgr. Alice Žďárská, advokát",
+    "slug": "rsk-praha",
+    "city": "Praha",
+    "email": "alice@zdarsky.org",
+    "phone": "+420776115277",
+    "website": "http://zdarsky.org",
+    "source": "cak"
+  },
+  {
+    "name": "Roučková Kamila, Mgr., advokát",
+    "slug": "rou-kov-labem",
+    "city": "Labem",
+    "email": "kamila.rouckova@rouckova.eu",
+    "phone": "+420255739606",
+    "website": "http://www.rouckova.eu",
+    "source": "cak"
+  },
+  {
+    "name": "Benek Bedřich, JUDr., advokát",
+    "slug": "benek-bud-jovice",
+    "city": "Budějovice",
+    "email": "judr.benek@seznam.cz",
+    "phone": "+420602193082",
+    "website": "http://www.advocb.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Mgr. Ing. Pavel Bezouška, advokát",
+    "slug": "bezou-ka-slav",
+    "city": "Čáslav",
+    "email": "bezouska@advokaticaslav.cz",
+    "phone": "+420327314422",
+    "website": "http://advokaticaslav.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Bobek Pavel, Mgr., advokát",
+    "slug": "bobek-praha",
+    "city": "Praha",
+    "email": "pavel.bobek@akbobek.cz",
+    "phone": "+420233372267",
+    "website": "http://www.akbobek.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Mgr. Eva Bogarová, LL.M., advokátka",
+    "slug": "bogarov-any",
+    "city": "Říčany",
+    "email": "bogarova@xlaw.cz",
+    "phone": "+420605914812",
+    "website": "http://xlaw.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Sodomka&Souček advokátní kancelář s.r.o.",
+    "slug": "bramba-ki-praha",
+    "city": "Praha",
+    "email": "kancelar@soucekbest.cz",
+    "phone": "+420221146142",
+    "website": "http://www.soucekbest.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Buchta Martin, Mgr., advokát",
+    "slug": "buchta-praha-2",
+    "city": "Praha",
+    "email": "martin.buchta@akbuchta.cz",
+    "phone": "+420222241381",
+    "website": "http://www.akbuchta.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Bukal David, Mgr., advokát",
+    "slug": "bukal-olomouc",
+    "city": "Olomouc",
+    "email": "bukal@akgbz.cz",
+    "phone": "+420585221133",
+    "website": "http://akgbz.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Mgr. Martin Cír, advokát",
+    "slug": "c-r-mochov",
+    "city": "Mochov",
+    "email": "akcir@akcir.cz",
+    "phone": "+420775901505",
+    "website": "http://akcir.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Advokátní kancelář JUDr. Tereza Coufalová, Ph.D.",
+    "slug": "advok-tn-praha-15",
+    "city": "Praha",
+    "email": "coufalova@pclegal.cz",
+    "phone": "+420775111177",
+    "website": "http://www.pclegal.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Mgr. Jan Dohnal, LL.M., Ph.D., advokát",
+    "slug": "dohnal-praha",
+    "city": "Praha",
+    "email": "jan.dohnal@jdak.cz",
+    "phone": "+420724744593",
+    "website": "http://www.jandohnal.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Mgr. Jiří Dostál, advokát",
+    "slug": "dost-l-brno",
+    "city": "Brno",
+    "email": "dostal@mgrdostal.cz",
+    "phone": "+420777229630",
+    "website": "http://www.mgrdostal.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Drábek Stanislav, JUDr.",
+    "slug": "dr-bek-praha",
+    "city": "Praha",
+    "email": "judr@stanislavdrabek.cz",
+    "phone": "222742510",
+    "website": "http://www.stanislavdrabek.cz",
+    "source": "cak"
+  },
+  {
+    "name": "JUDr. Petra Feniková, Ph.D., advokátní kancelář s.r.o.",
+    "slug": "fenikov-praha",
+    "city": "Praha",
+    "email": "petrafenikova@akfenikova.cz",
+    "phone": "+420727860670",
+    "website": "http://www.akfenikova.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Fučík Vladimír, JUDr., advokát",
+    "slug": "fu-k-praha",
+    "city": "Praha",
+    "email": "ak@a-k.cz",
+    "phone": "222963061",
+    "website": "http://a-k.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Zralý Antonín, Mgr.",
+    "slug": "zral-brno",
+    "city": "Brno",
+    "email": "zraly@zralyadvokat.cz",
+    "phone": "+420545247788",
+    "website": "http://zralyadvokat.cz",
+    "source": "cak"
+  },
+  {
+    "name": "JUDr. Denisa Goláňová, advokát",
+    "slug": "gol-ov-praha",
+    "city": "Praha",
+    "email": "denisag@akgolanova.cz",
+    "phone": "+420777640148",
+    "website": "http://akgolanova.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Mgr. TEREZA HARAŠTOVÁ, advokátka",
+    "slug": "hara-tov-brno",
+    "city": "Brno",
+    "email": "harastova@akharastova.cz",
+    "phone": "+420777814466",
+    "website": "http://akharastova.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Hoff Miloš, JUDr., advokát",
+    "slug": "hoff-brno",
+    "city": "Brno",
+    "email": "miloshoff@seznam.cz",
+    "phone": "+420777080817",
+    "website": "http://www.advokatbrno.webnode.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Mgr. Kateřina Jakubíčková Fišerová, advokátka",
+    "slug": "jakub-kov-fi-erov-zl-n",
+    "city": "Zlín",
+    "email": "katerina.jakubickova@akfiser.cz",
+    "phone": "+420774879750",
+    "website": "http://akfiser.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Mgr. HANA JANOVSKÁ, advokátka",
+    "slug": "janovsk-praha",
+    "city": "Praha",
+    "email": "hana.janovska@advokatpro.cz",
+    "phone": "+420222561280",
+    "website": "http://advokatpro.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Mgr. Markéta Kiliánová, advokát",
+    "slug": "kili-nov-zl-n",
+    "city": "Zlín",
+    "email": "kilianova@kilianova.cz",
+    "phone": "+420777152730",
+    "website": "http://kilianova.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Klouda Milan, JUDr., advokát",
+    "slug": "klouda-praha",
+    "city": "Praha",
+    "email": "milan@milanklouda.cz",
+    "phone": "+420602318007",
+    "website": "http://www.milanklouda.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Mgr. et Mgr. Jana Kolařík Sekyrová, advokát",
+    "slug": "mgr-jana-kola-k-sekyrov-praha",
+    "city": "Praha",
+    "email": "info@aksekyrova.cz",
+    "phone": "+420257199409",
+    "website": "http://aksekyrova.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Mgr. PETR KRÁTKÝ, advokát",
+    "slug": "kr-tk-jesen-k",
+    "city": "Jeseník",
+    "email": "kratky@akkratky.cz",
+    "phone": "+420603863230",
+    "website": "http://www.akkratky.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Kratochvílová Naděžda, JUDr., advokát",
+    "slug": "kratochv-lov-praha",
+    "city": "Praha",
+    "email": "judr.kratochvilova@ak-kratochvilova.cz",
+    "phone": "+420603277038",
+    "website": "http://www.ak-kratochvilova.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Kubík Josef, JUDr",
+    "slug": "kub-k-klatovy",
+    "city": "Klatovy",
+    "email": "ak@lidos.cz",
+    "phone": "+420376321123",
+    "website": "http://lidos.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Mgr. LENKA KUČEROVÁ, advokátka",
+    "slug": "ku-erov-plze",
+    "city": "Plzeň",
+    "email": "kucerova@ak-kucerova.cz",
+    "phone": "+420603179389",
+    "website": "http://ak-kucerova.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Kýčková Vondráček Partners, advokátní kancelář s.r.o.",
+    "slug": "vondr-ek-teplice",
+    "city": "Teplice",
+    "email": "kvp@tepliceak.cz",
+    "phone": "+420417537437",
+    "website": "http://tepliceak.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Letocha Martin, Mgr., advokát",
+    "slug": "letocha-brno",
+    "city": "Brno",
+    "email": "letocha@akletocha.cz",
+    "phone": "+420774419374",
+    "website": "http://www.akletocha.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Lízal Pavel, Mgr., advokát",
+    "slug": "l-zal-zl-n",
+    "city": "Zlín",
+    "email": "lizal@advocate-zlin.com",
+    "phone": "+420577522105",
+    "website": "http://advocate-zlin.com",
+    "source": "cak"
+  },
+  {
+    "name": "JUDr. Lenka Lukovičová, advokát",
+    "slug": "lukovi-ov-praha",
+    "city": "Praha",
+    "email": "ak@lukovicova.cz",
+    "phone": "+420728171448",
+    "website": "http://lukovicova.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Mgr. Barbara Martinů, advokátka",
+    "slug": "martin-praha",
+    "city": "Praha",
+    "email": "barbara.martinu@akbm.cz",
+    "phone": "+420222959335",
+    "website": "http://www.akbm.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Mgr. MIROSLAV MICHAJLOVIČ, advokát",
+    "slug": "michajlovi-krom",
+    "city": "Kroměříž",
+    "email": "michajlovic@ak-mm.cz",
+    "phone": "+420608948278",
+    "website": "http://ak-mm.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Daniel Mika, advokát",
+    "slug": "daniel-praha",
+    "city": "Praha",
+    "email": "mika@ak-mika.cz",
+    "phone": "+420723456393",
+    "website": "http://ak-mika.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Miková Zdeňka, JUDr., advokát",
+    "slug": "mikov-boleslav",
+    "city": "Boleslav",
+    "email": "akim@akmika.cz",
+    "phone": "326331688",
+    "website": "http://akmika.cz",
+    "source": "cak"
+  },
+  {
+    "name": "JUDr. Klára Mottlová, advokátka",
+    "slug": "mottlov-praha",
+    "city": "Praha",
+    "email": "mottlova@akmottlova.cz",
+    "phone": "+420777173521",
+    "website": "http://akmottlova.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Nauš Jiří, Mgr., advokát",
+    "slug": "nau-praha",
+    "city": "Praha",
+    "email": "naus@aknaus.cz",
+    "phone": "+420224261011",
+    "website": "http://www.aknaus.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Novotný Pavel, JUDr.,Ph.D., advokát",
+    "slug": "novotn-praha-4",
+    "city": "Praha",
+    "email": "info@pn.cz",
+    "phone": "+420602338366",
+    "website": "http://www.pn.cz",
+    "source": "cak"
+  },
+  {
+    "name": "JUDr. Andrea Průchová, advokátka",
+    "slug": "pr-chov-kada",
+    "city": "Kadaň",
+    "email": "pruchova@akpruchova.cz",
+    "phone": "+420474333857",
+    "website": "http://akpruchova.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Rác Miroslav, JUDr., advokát",
+    "slug": "r-c-louny",
+    "city": "Louny",
+    "email": "mrac@economy-real.cz",
+    "phone": "+420415654140",
+    "website": "http://economy-real.cz",
+    "source": "cak"
+  },
+  {
+    "name": "JUDr.  KATEŘINA RYSLOVÁ, advokátka",
+    "slug": "ryslov-praha",
+    "city": "Praha",
+    "email": "ryslova@aklegal.cz",
+    "phone": "+420777880178",
+    "website": "http://aklegal.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Mgr. Tereza Slezáková, advokátka",
+    "slug": "slez-kov-brno",
+    "city": "Brno",
+    "email": "tereza.slezakova@akslezakova.eu",
+    "phone": "603584310",
+    "website": "http://akslezakova.eu",
+    "source": "cak"
+  },
+  {
+    "name": "Mgr. Jana Soukupová, advokátka",
+    "slug": "soukupov-liberec",
+    "city": "Liberec",
+    "email": "j.cervova@akcervova.cz",
+    "phone": "+420724034099",
+    "website": "http://www.akcervova.cz",
+    "source": "cak"
+  },
+  {
+    "name": "JUDr. ONDŘEJ SOVÁK, advokátní kancelář",
+    "slug": "sov-k-praha",
+    "city": "Praha",
+    "email": "info@aksovak.cz",
+    "phone": "+420776723357",
+    "website": "http://aksovak.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Strnad Zdeněk, Mgr.Ing., advokát",
+    "slug": "strnad-praha",
+    "city": "Praha",
+    "email": "zdenek.strnad@akzdenekstrnad.cz",
+    "phone": "+420731179646",
+    "website": "http://akzdenekstrnad.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Škeřík Jan, Mgr., advokát",
+    "slug": "ke-k-praha",
+    "city": "Praha",
+    "email": "advokat@akskerik.cz",
+    "phone": "+420605554993",
+    "website": "http://www.akskerik.cz",
+    "source": "cak"
+  },
+  {
+    "name": "TAIŠL advokátní kancelář s.r.o.",
+    "slug": "mgr-ji-tai-l-praha",
+    "city": "Praha",
+    "email": "info@aktaisl.cz",
+    "phone": "+420222314383",
+    "website": "http://aktaisl.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Advokátní kancelář JUDr. Milan Telecký",
+    "slug": "advok-tn-chomutov",
+    "city": "Chomutov",
+    "email": "aktelecky@seznam.cz",
+    "phone": "+420474333774",
+    "website": "https://www.aktelecky.cz.",
+    "source": "cak"
+  },
+  {
+    "name": "Teska Jan, JUDr., advokát",
+    "slug": "teska-praha",
+    "city": "Praha",
+    "email": "teska@akteska.cz",
+    "phone": "+420222866860",
+    "website": "http://akteska.cz",
+    "source": "cak"
+  },
+  {
+    "name": "JUDr. JAN TLAPÁK, advokát",
+    "slug": "tlap-k-praha",
+    "city": "Praha",
+    "email": "tlapak@ak-tlapak.cz",
+    "phone": "+420777618886",
+    "website": "http://ak-tlapak.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Mgr. Ondřej Vláčil, advokát",
+    "slug": "vl-il-svina-ov",
+    "city": "Svinařov",
+    "email": "vlacil@ak-vv.cz",
+    "phone": "+420737017293",
+    "website": "http://ak-vv.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Vlach Petr, Mgr., advokát",
+    "slug": "vlach-plze",
+    "city": "Plzeň",
+    "email": "petr.vlach@akvlach.cz",
+    "phone": "602814211",
+    "website": "http://akvlach.cz",
+    "source": "cak"
+  },
+  {
+    "name": "JUDr. Jan Vondráček, advokát",
+    "slug": "vondr-ek-praha",
+    "city": "Praha",
+    "email": "jan.vondracek@e-vondracek.cz",
+    "phone": "+420257224554",
+    "website": "http://www.e-vondracek.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Wipplingerová Miloslava, JUDr., advokát",
+    "slug": "wipplingerov-plze",
+    "city": "Plzeň",
+    "email": "wipplingerova@akw.cz",
+    "phone": "+420377224576",
+    "website": "http://akw.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Mgr. Zuzana Zinráková, advokátní kancelář",
+    "slug": "zinr-kov-olomouc",
+    "city": "Olomouc",
+    "email": "advokat@zinrakova.cz",
+    "phone": "+420775725105",
+    "website": "http://www.zinrakova.cz",
+    "source": "cak"
+  },
+  {
+    "name": "JUDr. Monika Zoulová, LL.M., advokátní kancelář",
+    "slug": "zoulov-praha",
+    "city": "Praha",
+    "email": "monika.zoulova@akzoulova.cz",
+    "phone": "",
+    "website": "http://akzoulova.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Advokátní kancelář Mgr. Eliána Bláhová",
+    "slug": "advok-tn-kladno-2",
+    "city": "Kladno",
+    "email": "info@ak-blahova.cz",
+    "phone": "+420702097250",
+    "website": "http://ak-blahova.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Advokátní kancelář Gašpar",
+    "slug": "advok-tn-praha-16",
+    "city": "Praha",
+    "email": "office-cz@gasparmayer.eu",
+    "phone": "+420222191353",
+    "website": "http://gasparmayer.eu",
+    "source": "cak"
+  },
+  {
+    "name": "AK ANNA KRAMÁŘOVÁ",
+    "slug": "ak-praha-7",
+    "city": "Praha",
+    "email": "kancelar@akkramarova.cz",
+    "phone": "+420605247591",
+    "website": "http://akkramarova.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Strnadová Miloslava, JUDr., advokátka",
+    "slug": "strnadov-praha-2",
+    "city": "Praha",
+    "email": "m@strnadova.eu",
+    "phone": "+420732981612",
+    "website": "http://strnadova.eu",
+    "source": "cak"
+  },
+  {
+    "name": "Mgr. Gabriela Švecová, advokát",
+    "slug": "vecov-praha",
+    "city": "Praha",
+    "email": "gabriela@aknovicky.cz",
+    "phone": "+420224819075",
+    "website": "http://aknovicky.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Polách Petr, Mgr., advokát",
+    "slug": "pol-ch-blansko",
+    "city": "Blansko",
+    "email": "advokat@petrpolach.cz",
+    "phone": "+420543254451",
+    "website": "http://www.petrpolach.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Benda Michal, JUDr., advokát",
+    "slug": "benda-praha",
+    "city": "Praha",
+    "email": "benda@ak-benda.cz",
+    "phone": "+420251810493",
+    "website": "http://ak-benda.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Mgr. Monika Brožová, advokát",
+    "slug": "bro-ov-praha",
+    "city": "Praha",
+    "email": "mbrozova@ak-bmp.cz",
+    "phone": "+420222511145",
+    "website": "http://ak-bmp.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Bursík Jaroslav, JUDr., advokát",
+    "slug": "burs-k-praha",
+    "city": "Praha",
+    "email": "jaroslav.bursik@bursikaspol.cz",
+    "phone": "",
+    "website": "http://bursikaspol.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Comstocková Irma, Mgr., LL.M., advokát",
+    "slug": "comstockov-praha",
+    "city": "Praha",
+    "email": "irma@comstock.cz",
+    "phone": "+420728462069",
+    "website": "http://comstock.cz",
+    "source": "cak"
+  },
+  {
+    "name": "JUDr. Alexander  Kasatkin, advokátní kancelář",
+    "slug": "kasatkin-praha",
+    "city": "Praha",
+    "email": "advokat@kasatkin.sk",
+    "phone": "+421903600007",
+    "website": "http://kasatkin.sk",
+    "source": "cak"
+  },
+  {
+    "name": "Tandler Petr, JUDr.",
+    "slug": "tandler-liberec",
+    "city": "Liberec",
+    "email": "info@ak-tandler.cz",
+    "phone": "+420485106524",
+    "website": "http://www.ak-tandler.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Andělová Romana, Mgr., advokát",
+    "slug": "and-lov-brno",
+    "city": "Brno",
+    "email": "andelova@ak-andelova.cz",
+    "phone": "+420513034433",
+    "website": "http://ak-andelova.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Mgr. Hana Bohdalová, advokátka",
+    "slug": "bohdalov-praha",
+    "city": "Praha",
+    "email": "bohdalova@akbohdalova.cz",
+    "phone": "732 816 141",
+    "website": "http://www.akbohdalova.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Bureček Petr, Mgr., advokát",
+    "slug": "bure-ek-ostrava",
+    "city": "Ostrava",
+    "email": "petr.burecek@btmlegal.cz",
+    "phone": "+420555112490",
+    "website": "http://btmlegal.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Mgr. FILIP ČERVENKA, advokát",
+    "slug": "ervenka-praha",
+    "city": "Praha",
+    "email": "cervf@mail.com",
+    "phone": "778 157 527",
+    "website": "http://mail.com",
+    "source": "cak"
+  },
+  {
+    "name": "Diršmidová Táňa, JUDr., advokát",
+    "slug": "dir-midov-praha",
+    "city": "Praha",
+    "email": "ak@dirsmidova.cz",
+    "phone": "+420602322630",
+    "website": "http://dirsmidova.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Mgr. Bc. Zuzana Dvořáková, advokátka",
+    "slug": "dvo-kov-liberec",
+    "city": "Liberec",
+    "email": "kancelar@dvorakova-ak.cz",
+    "phone": "(+420) 776 083 044",
+    "website": "http://www.dvorakova-ak.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Mgr. Marek Eichler, advokát",
+    "slug": "eichler-praha",
+    "city": "Praha",
+    "email": "info@eichler-advokat.cz",
+    "phone": "+420721006861",
+    "website": "http://eichler-advokat.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Mašek advokáti s.r.o.",
+    "slug": "ma-kov-praha",
+    "city": "Praha",
+    "email": "info@masekadvokati.cz",
+    "phone": "+420222780336",
+    "website": "http://www.masekadvokati.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Mgr. Marcel Geče, advokát",
+    "slug": "ge-e-olomouc",
+    "city": "Olomouc",
+    "email": "marcel.gece@akgece.eu",
+    "phone": "+420 732 236 278",
+    "website": "http://akgece.eu",
+    "source": "cak"
+  },
+  {
+    "name": "Mgr. Hana Geuss, advokátka",
+    "slug": "geuss-praha",
+    "city": "Praha",
+    "email": "hana@geuss.cz",
+    "phone": "+420277009945",
+    "website": "http://geuss.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Mgr. Květa Glaserová, advokátka",
+    "slug": "glaserov-praha",
+    "city": "Praha",
+    "email": "advokatka@glaser.cz",
+    "phone": "+420608960738",
+    "website": "http://glaser.cz",
+    "source": "cak"
+  },
+  {
+    "name": "VHK  Partners, advokátní kancelář, s.r.o.",
+    "slug": "vesel-praha",
+    "city": "Praha",
+    "email": "ak@vhk-partners.cz",
+    "phone": "",
+    "website": "http://www.vhk-partners.cz",
+    "source": "cak"
+  },
+  {
+    "name": "JUDr. Jiří Horký, advokát",
+    "slug": "hork-praha-3",
+    "city": "Praha",
+    "email": "jirihorkyl952@gmai.com",
+    "phone": "+420607830138",
+    "website": "http://gmai.com",
+    "source": "cak"
+  },
+  {
+    "name": "Mgr. Lucie Houdková, advokátka",
+    "slug": "houdkov-praha",
+    "city": "Praha",
+    "email": "lucie.houdkova@email.cz",
+    "phone": "+420236181763",
+    "website": "http://www.akkorunni.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Mgr. Irena Kolárová, advokát",
+    "slug": "kol-rov-praha",
+    "city": "Praha",
+    "email": "irena@kolarova.legal",
+    "phone": "+420724993990",
+    "website": "http://www.kolarova.legal",
+    "source": "cak"
+  },
+  {
+    "name": "Mgr. NIKOLA KONCER, advokát",
+    "slug": "koncer-vset-n",
+    "city": "Vsetín",
+    "email": "koncer@koncer.cz",
+    "phone": "+420 607 013 778",
+    "website": "http://www.koncer.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Mgr. Jana Kubrtová, advokátka",
+    "slug": "kubrtov-kr-lov",
+    "city": "Králové",
+    "email": "ak-kubrtova@email.cz",
+    "phone": "495580080",
+    "website": "https://www.ak-usoudu.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Advokátní kancelář Panýr, s.r.o.",
+    "slug": "pan-r-praha",
+    "city": "Praha",
+    "email": "petr.panyr@akpanyr.cz",
+    "phone": "",
+    "website": "http://akpanyr.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Mgr. VOJTĚCH PEŠTUKA, advokát",
+    "slug": "pe-tuka-praha",
+    "city": "Praha",
+    "email": "pestuka@akpestuka.cz",
+    "phone": "+420604222251",
+    "website": "https://www.akpestuka.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Mgr.  VERONIKA SOUKUPOVÁ, LL.M., advokátka",
+    "slug": "soukupov-lomnice",
+    "city": "Lomnice",
+    "email": "soukupova@vslegal.cz",
+    "phone": "+420732370160",
+    "website": "http://www.vslegal.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Mgr. EVA STALMACH BAJÁKOVÁ, advokátka",
+    "slug": "stalmach-baj-kov-praha",
+    "city": "Praha",
+    "email": "eva@bajakova.cz",
+    "phone": "733 375 615",
+    "website": "http://bajakova.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Mgr. Zuzana Svatošová, advokátka",
+    "slug": "svato-ov-zl-n",
+    "city": "Zlín",
+    "email": "info@ak-svatosova.cz",
+    "phone": "+420605453545",
+    "website": "http://www.ak-svatosova.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Mgr. Jan Vacula, advokát",
+    "slug": "vacula-praha",
+    "city": "Praha",
+    "email": "jan.vacula@whitecase.cz",
+    "phone": "+420255771111",
+    "website": "http://whitecase.cz",
+    "source": "cak"
+  },
+  {
+    "name": "JUDr. Dominika Frejtichová, advokátní kancelář",
+    "slug": "frejtichov-praha",
+    "city": "Praha",
+    "email": "info@ak-frejtichova.cz",
+    "phone": "+420602363570",
+    "website": "http://www.ak-frejtichova.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Mgr. Václav Pravda, advokát",
+    "slug": "pravda-praha",
+    "city": "Praha",
+    "email": "vaclav.pravda@akpravda.cz",
+    "phone": "+420777711683",
+    "website": "http://akpravda.cz",
+    "source": "cak"
+  },
+  {
+    "name": "DENYS BADZJUK LL.M., advokátní kancelář",
+    "slug": "denys-praha",
+    "city": "Praha",
+    "email": "db@bch.law",
+    "phone": "+420 776 440 045",
+    "website": "http://bch.law",
+    "source": "cak"
+  },
+  {
+    "name": "Mgr. Iva Baronová, advokátka",
+    "slug": "baronov-hav-ov",
+    "city": "Havířov",
+    "email": "iva.baronova@akbaronova.cz",
+    "phone": "+420602135116",
+    "website": "http://www.akbaronova.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Carda Petr, Mgr., advokát",
+    "slug": "carda-svitavy",
+    "city": "Svitavy",
+    "email": "carda.petr@seznam.cz",
+    "phone": "+420461530976",
+    "website": "http://www.advokatcarda.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Mgr. ADAM FORST, advokát",
+    "slug": "forst-praha",
+    "city": "Praha",
+    "email": "adamforst@seznam.cz",
+    "phone": "+420731549466",
+    "website": "http://adamforstadvokat.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Hadravová Marta, Mgr., advokát",
+    "slug": "hadravov-brno",
+    "city": "Brno",
+    "email": "advokat@hadravova.cz",
+    "phone": "+420544239004",
+    "website": "http://www.hadravova.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Mgr. Diana Herdzinová, advokátka",
+    "slug": "herdzinov-praha",
+    "city": "Praha",
+    "email": "advokatka@herdzinova.cz",
+    "phone": "+420734636206",
+    "website": "http://herdzinova.cz",
+    "source": "cak"
+  },
+  {
+    "name": "ADVOKÁTNÍ KANCELÁŘ - LEGAL SERVICE s.r.o.",
+    "slug": "chlud-chrudim",
+    "city": "Chrudim",
+    "email": "info@advokatichrudim.cz",
+    "phone": "+420602184444",
+    "website": "http://www.advokatichrudim.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Mgr. Matúš Kovačič, advokát",
+    "slug": "kova-i-brno",
+    "city": "Brno",
+    "email": "matus@kovacic.legal",
+    "phone": "+420725860460",
+    "website": "http://kovacic.legal",
+    "source": "cak"
+  },
+  {
+    "name": "Mgr. LUKÁŠ ZAJÍC, advokát",
+    "slug": "zaj-c-praha",
+    "city": "Praha",
+    "email": "zajic@ak-valek.cz",
+    "phone": "+420774744394",
+    "website": "http://ak-valek.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Nejedlíková Gabriela, Mgr.",
+    "slug": "nejedl-kov-ostrava",
+    "city": "Ostrava",
+    "email": "nejedlikova@ak-nejedlikova.cz",
+    "phone": "+420596110570",
+    "website": "http://ak-nejedlikova.cz",
+    "source": "cak"
+  },
+  {
+    "name": "JUDr. Ivana Santariusová, advokátní kancelář",
+    "slug": "santariusov-ostrava",
+    "city": "Ostrava",
+    "email": "santariusova@centrum.cz",
+    "phone": "+420596111475",
+    "website": "http://www.santariusova.cz",
+    "source": "cak"
+  },
+  {
+    "name": "Mgr. Jan Štangl, advokát",
+    "slug": "tangl-m-to",
+    "city": "Mýto",
+    "email": "stangl@stangl.cz",
+    "phone": "+420465424110",
+    "website": "http://stangl.cz",
+    "source": "cak"
+  },
+  {
+    "name": "JUDr. Hana Firla Marcelli, LL.M., advokát",
+    "slug": "firla-marcelli-praha",
+    "city": "Praha",
+    "email": "hana.marcelli@ak-marcelli.eu",
+    "phone": "+420725017344",
+    "website": "http://ak-marcelli.eu",
+    "source": "cak"
+  },
+  {
+    "name": "JUDr. MÁRIO LEGNAVSKÝ, Ph.D., advokát",
+    "slug": "legnavsk-praha",
+    "city": "Praha",
+    "email": "legnavsky@aklegnavsky.cz",
+    "phone": "",
+    "website": "http://aklegnavsky.cz",
+    "source": "cak"
   }
 ]
