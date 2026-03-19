@@ -29427,5 +29427,65 @@
     "last_name": "",
     "title": "Advokát",
     "source": "cak"
+  },
+  {
+    "name": "Advokátní kancelář JUDr. Ota Ryneš",
+    "slug": "rynes-praha",
+    "email": "oto.rynes-jr@akrynes.cz",
+    "phone": "+420 602 310 805",
+    "address": "Charlese de Gaulla 19/1124, Praha 6, 160 00",
+    "original_website": "http://akrynes.cz",
+    "first_name": "",
+    "last_name": "",
+    "title": "Advokát",
+    "source": "cak"
+  },
+  {
+    "name": "Advokátní kancelář Mgr. Štěpána Řiháčka",
+    "slug": "rihacek-brno",
+    "email": "info@advokat-rihacek.cz",
+    "phone": "+420 606 618 978",
+    "address": "Pechova 1228/3, Brno, 615 00",
+    "original_website": "http://advokat-rihacek.cz",
+    "first_name": "",
+    "last_name": "",
+    "title": "Advokát",
+    "source": "cak"
+  },
+  {
+    "name": "Advokátní kancelář JUDr. Milady Sigmundové",
+    "slug": "sigmundova-praha",
+    "email": "sigmundova@aksigmundova.cz",
+    "phone": "+420 233 380 383",
+    "address": "Praha",
+    "original_website": "http://aksigmundova.cz",
+    "first_name": "",
+    "last_name": "",
+    "title": "Advokátka",
+    "source": "cak"
+  },
+  {
+    "name": "Advokáti JUDr. Božena Slezáková a JUDr. Jaromír Slezák",
+    "slug": "slezak-nove-mesto-na-morave",
+    "email": "akslezak@advokatinmnm.cz",
+    "phone": "+420 603 806 088",
+    "address": "Masarykova č. 197, Nové Město na Moravě, 592 31",
+    "original_website": "http://advokatinmnm.cz",
+    "first_name": "",
+    "last_name": "",
+    "title": "Advokát",
+    "source": "cak"
+  },
+  {
+    "name": "KSM Partners, advokátní kancelář, s.r.o.",
+    "slug": "smutny-praha",
+    "email": "sekretariat@akksm.cz",
+    "phone": "+420 602 516 076",
+    "address": "Praha",
+    "original_website": "http://www.akksm.cz",
+    "first_name": "",
+    "last_name": "",
+    "title": "Advokát",
+    "source": "cak"
   }
 ]
