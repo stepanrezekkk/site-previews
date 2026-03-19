@@ -29487,5 +29487,77 @@
     "last_name": "",
     "title": "Advokát",
     "source": "cak"
+  },
+  {
+    "name": "Advokátní kancelář JUDr. Kateřina Pavlíková a partneři",
+    "slug": "pavlikova-brno",
+    "email": "akpavlikova@akpavlikova.cz",
+    "phone": "+420545176261",
+    "address": "",
+    "original_website": "http://www.akpavlikova.cz",
+    "first_name": "",
+    "last_name": "",
+    "title": "Advokát",
+    "source": "cak"
+  },
+  {
+    "name": "Advokátní kancelář Ladislav Pavlů",
+    "slug": "pavlu-praha",
+    "email": "info@pavluadvokat.cz",
+    "phone": "+420224828555",
+    "address": "Revoluční 13, 110 00 Praha 1",
+    "original_website": "http://www.pavluadvokat.cz",
+    "first_name": "",
+    "last_name": "",
+    "title": "Advokát",
+    "source": "cak"
+  },
+  {
+    "name": "JUDr. Michaela Pechová Vosátková, advokátní kancelář",
+    "slug": "pechova-vosatkova-praha",
+    "email": "vosatkova@advokatka.info",
+    "phone": "774 228 055",
+    "address": "",
+    "original_website": "https://advokatka.info",
+    "first_name": "",
+    "last_name": "",
+    "title": "Advokátka",
+    "source": "cak"
+  },
+  {
+    "name": "Advokátní kancelář JUDr. Jiří Petrů",
+    "slug": "petru-praha",
+    "email": "advokat@jiripetru.cz",
+    "phone": "+420222981543",
+    "address": "",
+    "original_website": "https://www.jiripetru.cz",
+    "first_name": "",
+    "last_name": "",
+    "title": "Advokát",
+    "source": "cak"
+  },
+  {
+    "name": "Advokátní kancelář JUDr. Jana Piskovská",
+    "slug": "piskovska-opava",
+    "email": "jana.piskovska@seznam.cz",
+    "phone": "+420555557131",
+    "address": "Lepařova 2906/8, 746 01 Opava",
+    "original_website": "http://www.judrpiskovska.eu",
+    "first_name": "",
+    "last_name": "",
+    "title": "Advokát",
+    "source": "cak"
+  },
+  {
+    "name": "Mgr. Petra Prokešová, advokátka",
+    "slug": "prokesova-praha",
+    "email": "prokesova@aksluzby.cz",
+    "phone": "+420605238653",
+    "address": "",
+    "original_website": "https://aksluzby.cz",
+    "first_name": "",
+    "last_name": "",
+    "title": "Advokátka",
+    "source": "cak"
   }
 ]
