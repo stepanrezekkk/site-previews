@@ -30147,5 +30147,89 @@
     "last_name": "",
     "title": "Advokát",
     "source": "cak"
+  },
+  {
+    "name": "CABINET BERNADET s.r.o., advokátní kancelář",
+    "slug": "bernadet-praha",
+    "email": "cabinet@bernadet.cz",
+    "phone": "+420777330667",
+    "address": "Praha",
+    "original_website": "https://www.bernadet.cz",
+    "first_name": "",
+    "last_name": "",
+    "title": "Advokátka",
+    "source": "cak"
+  },
+  {
+    "name": "JUDr. Ivana Berníková, advokátka",
+    "slug": "bernikova-jirny",
+    "email": "bernikova@iblegal.cz",
+    "phone": "+420608215135",
+    "address": "Jirny",
+    "original_website": "http://www.iblegal.cz",
+    "first_name": "",
+    "last_name": "",
+    "title": "Advokátka",
+    "source": "cak"
+  },
+  {
+    "name": "Mgr. Libuše Betášová, advokátka",
+    "slug": "betasova-broumov",
+    "email": "advokatka@betasova.cz",
+    "phone": "+420604724554",
+    "address": "Broumov",
+    "original_website": "http://betasova.cz",
+    "first_name": "",
+    "last_name": "",
+    "title": "Advokátka",
+    "source": "cak"
+  },
+  {
+    "name": "AK Mgr. Lenka Bobaj Žváčková",
+    "slug": "zvackova-brno",
+    "email": "ak.zvackova@seznam.cz",
+    "phone": "+420734533215",
+    "address": "Brno (u justičního areálu)",
+    "original_website": "http://advokatka-brno.webnode.cz/",
+    "first_name": "",
+    "last_name": "",
+    "title": "Advokátka",
+    "source": "cak"
+  },
+  {
+    "name": "Boubínová Božena, JUDr., advokátka",
+    "slug": "boubinova-zatec",
+    "email": "advokat@boubinova.cz",
+    "phone": "+420415712104",
+    "address": "Lučanská čp. 1802, Žatec",
+    "original_website": "http://boubinova.cz",
+    "first_name": "",
+    "last_name": "",
+    "title": "Advokátka",
+    "source": "cak"
+  },
+  {
+    "name": "Mgr. Stanislav Brei, advokát",
+    "slug": "brei-praha",
+    "email": "info@akbrei.cz",
+    "phone": "+420777868093",
+    "address": "Praha",
+    "original_website": "http://www.akbrei.cz",
+    "first_name": "",
+    "last_name": "",
+    "title": "Advokát",
+    "source": "cak"
+  },
+  {
+    "name": "Mgr. Marek Bukovský, advokát",
+    "slug": "bukovsky-vsetin",
+    "email": "bukovsky@ak-bukovsky.cz",
+    "phone": "+420777890267",
+    "address": "Na Příkopě 814, 755 01 Vsetín",
+    "original_website": "http://www.ak-bukovsky.cz",
+    "first_name": "",
+    "last_name": "",
+    "title": "Advokát",
+    "source": "cak"
   }
 ]
