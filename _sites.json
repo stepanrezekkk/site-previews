@@ -29187,5 +29187,65 @@
     "first_name": "Zuzana",
     "source_dir": "C:\\Users\\Sheld\\Documents\\Automations\\ai brain\\lead-gen\\output-kdpcr\\zuzana-smutna-praha",
     "source": "kdpcr"
+  },
+  {
+    "name": "Mgr. Viktor Klíma",
+    "slug": "klima-praha",
+    "email": "office@akklima.cz",
+    "phone": "+420 222 250 856",
+    "address": "Praha 2, Mánesova 28",
+    "original_website": "http://www.akklima.cz",
+    "first_name": "",
+    "last_name": "",
+    "title": "Advokát",
+    "source": "cak"
+  },
+  {
+    "name": "Mikeštík Petr, Mgr., advokát",
+    "slug": "mikestik-valasske-mezirici",
+    "email": "valmet@mikestik.cz",
+    "phone": "",
+    "address": "Valašské Meziříčí",
+    "original_website": "http://www.mikestik.cz",
+    "first_name": "",
+    "last_name": "",
+    "title": "Advokát",
+    "source": "cak"
+  },
+  {
+    "name": "Mgr. Lucie Mokrošová, advokátka",
+    "slug": "mokrosova-zlin",
+    "email": "advokaciezlin@gmail.com",
+    "phone": "+420 739 525 525",
+    "address": "Zlín, náměstí Míru 12",
+    "original_website": "http://advokaciezlin.cz",
+    "first_name": "",
+    "last_name": "",
+    "title": "Advokátka",
+    "source": "cak"
+  },
+  {
+    "name": "Mrózková Romana, Mgr., advokátka",
+    "slug": "mrozkova-ostrava",
+    "email": "mrozkova@mrozkova.cz",
+    "phone": "+420 596 123 456",
+    "address": "Ostrava, Nádražní 152/12",
+    "original_website": "http://mrozkova.cz",
+    "first_name": "",
+    "last_name": "",
+    "title": "Advokátka",
+    "source": "cak"
+  },
+  {
+    "name": "Muchna Miroslav, JUDr., advokát",
+    "slug": "muchna-klatovy",
+    "email": "ak@ak-klatovy.cz",
+    "phone": "+420 376 311 311",
+    "address": "Klatovy, Randova 204/1",
+    "original_website": "http://www.ak-klatovy.cz",
+    "first_name": "",
+    "last_name": "",
+    "title": "Advokát",
+    "source": "cak"
   }
 ]
