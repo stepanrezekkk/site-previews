@@ -29559,5 +29559,65 @@
     "last_name": "",
     "title": "Advokátka",
     "source": "cak"
+  },
+  {
+    "name": "AK Šmídová s.r.o.",
+    "slug": "smidova-praha",
+    "email": "hsmidova@volny.cz",
+    "phone": "+420602204474",
+    "address": "",
+    "original_website": "https://www.hsadvokat.cz",
+    "first_name": "",
+    "last_name": "",
+    "title": "Advokátka",
+    "source": "cak"
+  },
+  {
+    "name": "Mgr. Eva Štěrbová, advokátka",
+    "slug": "sterbova-vyskov",
+    "email": "sterbova@akvyskov.cz",
+    "phone": "+420732686473",
+    "address": "Vyškov",
+    "original_website": "http://www.akvyskov.cz",
+    "first_name": "",
+    "last_name": "",
+    "title": "Advokátka",
+    "source": "cak"
+  },
+  {
+    "name": "JUDr. Milan Štětina a Mgr. Tereza Obermajerová - advokátní kancelář",
+    "slug": "stetina-ceska-lipa",
+    "email": "info@stetinaak.cz",
+    "phone": "+420487520801",
+    "address": "Jiráskova 614, 470 01 Česká Lípa",
+    "original_website": "http://www.stetinaak.cz",
+    "first_name": "",
+    "last_name": "",
+    "title": "Advokát",
+    "source": "cak"
+  },
+  {
+    "name": "Mgr. Pavel Švarc - advokát",
+    "slug": "svarc-prostejov",
+    "email": "advokat@mgrsvarc.cz",
+    "phone": "+420606211017",
+    "address": "Netušilova 7, Prostějov, 796 01",
+    "original_website": "http://www.mgrsvarc.cz",
+    "first_name": "",
+    "last_name": "",
+    "title": "Advokát",
+    "source": "cak"
+  },
+  {
+    "name": "JUDr. Ilona Tajchnerová - advokát",
+    "slug": "tajchnerova-labem",
+    "email": "advokat@tajchnerova.eu",
+    "phone": "+420608103791",
+    "address": "",
+    "original_website": "http://www.tajchnerova.eu",
+    "first_name": "",
+    "last_name": "",
+    "title": "Advokátka",
+    "source": "cak"
   }
 ]
