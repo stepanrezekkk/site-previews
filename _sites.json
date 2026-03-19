@@ -30231,5 +30231,53 @@
     "last_name": "",
     "title": "Advokát",
     "source": "cak"
+  },
+  {
+    "name": "Linhart & Finta - advokátní kancelář",
+    "slug": "linhart-praha",
+    "email": "advokati@linharts.com",
+    "phone": "+420 257 311 515",
+    "address": "Zborovská 716/27, 150 00 Praha 5 - Smíchov",
+    "original_website": "http://linharts.com",
+    "first_name": "",
+    "last_name": "",
+    "title": "Advokát",
+    "source": "cak"
+  },
+  {
+    "name": "Advokátní kancelář JUDr. Ivana Lorenzová",
+    "slug": "lorenzova-brno",
+    "email": "advokatka@aklorenzova.cz",
+    "phone": "+420 602 249 818",
+    "address": "Mikulovská 5, 628 00 Brno",
+    "original_website": "http://www.aklorenzova.cz",
+    "first_name": "",
+    "last_name": "",
+    "title": "Advokátka",
+    "source": "cak"
+  },
+  {
+    "name": "AKM Majer & Partners - advokátní kancelář",
+    "slug": "majer-praha",
+    "email": "post@akmajer.cz",
+    "phone": "+420 236 034 236",
+    "address": "Vyskočilova 1326/5, 140 00 Praha 4",
+    "original_website": "http://www.akmajer.cz",
+    "first_name": "",
+    "last_name": "",
+    "title": "Advokát",
+    "source": "cak"
+  },
+  {
+    "name": "Mgr. Ing. Ladislav Málek, advokát",
+    "slug": "malek-praha",
+    "email": "ladislav.malek@aklmalek.cz",
+    "phone": "+420 777 875 387",
+    "address": "Vinohradská 89/90, 130 00 Praha 3",
+    "original_website": "http://www.aklmalek.cz",
+    "first_name": "",
+    "last_name": "",
+    "title": "Advokát",
+    "source": "cak"
   }
 ]
