@@ -29247,5 +29247,65 @@
     "last_name": "",
     "title": "Advokát",
     "source": "cak"
+  },
+  {
+    "name": "Advokátní kancelář JUDr. Jaroslava Němečka",
+    "slug": "nemecek-sumperk",
+    "email": "nemecek@mujadvokat.cz",
+    "phone": "+420583213719",
+    "address": "Blahoslavova 4, 787 01 Šumperk",
+    "original_website": "http://www.mujadvokat.cz",
+    "first_name": "",
+    "last_name": "",
+    "title": "Advokát",
+    "source": "cak"
+  },
+  {
+    "name": "AK JUDr. Petra Nouzová",
+    "slug": "nouzova-ceske-budejovice",
+    "email": "nouzova@zbm.cz",
+    "phone": "+420704106863",
+    "address": "České Budějovice",
+    "original_website": "http://www.aknouzova.cz",
+    "first_name": "",
+    "last_name": "",
+    "title": "Advokátka",
+    "source": "cak"
+  },
+  {
+    "name": "JUDr. David Novák, Ph.D., advokát",
+    "slug": "novak-praha",
+    "email": "david.novak@akdn.cz",
+    "phone": "+420235363888",
+    "address": "Na Okraji 439/44, 162 00 Praha 6",
+    "original_website": "http://www.akdn.cz",
+    "first_name": "",
+    "last_name": "",
+    "title": "Advokát",
+    "source": "cak"
+  },
+  {
+    "name": "JUDr. Antonín Ondrák, advokát",
+    "slug": "ondrak-hradec-kralove",
+    "email": "a.ondrak@centrum.cz",
+    "phone": "+420602822393",
+    "address": "Brandlova 261/3, 500 03 Hradec Králové",
+    "original_website": "http://clenot.ddns.net:8080/~Ondrak",
+    "first_name": "",
+    "last_name": "",
+    "title": "Advokát",
+    "source": "cak"
+  },
+  {
+    "name": "Mgr. Martin Ondreját, advokát",
+    "slug": "ondrejat-praha",
+    "email": "ondrejat@akmond.cz",
+    "phone": "+420603367477",
+    "address": "Praha",
+    "original_website": "http://akmond.cz",
+    "first_name": "",
+    "last_name": "",
+    "title": "Advokát",
+    "source": "cak"
   }
 ]
