@@ -30351,5 +30351,77 @@
     "last_name": "",
     "title": "Advokátka",
     "source": "cak"
+  },
+  {
+    "name": "GRUNER advokátní kancelář, s.r.o.",
+    "slug": "gruner-karlovy-vary",
+    "email": "info@akgp.cz",
+    "phone": "+420353229979",
+    "address": "Bělehradská 1094/4, 360 01 Karlovy Vary",
+    "original_website": "http://www.akgp.cz",
+    "first_name": "",
+    "last_name": "",
+    "title": "Advokát",
+    "source": "cak"
+  },
+  {
+    "name": "JUDr. Petr Hampel Ph.D., advokát",
+    "slug": "hampel-ostrava",
+    "email": "kancelar@advokathampel.cz",
+    "phone": "605229768",
+    "address": "Ostrava",
+    "original_website": "https://www.advokat-hampel.cz",
+    "first_name": "",
+    "last_name": "",
+    "title": "Advokát",
+    "source": "cak"
+  },
+  {
+    "name": "Advokátní kancelář JUDr. Iva Hlaváčková",
+    "slug": "hlavackova-jablonec-nad-nisou",
+    "email": "hlavackova@advokatkyjbc.cz",
+    "phone": "+420484801241",
+    "address": "Palackého 3145/41, Mšeno nad Nisou, 466 01 Jablonec nad Nisou",
+    "original_website": "https://www.advokatkyjbc.cz",
+    "first_name": "",
+    "last_name": "",
+    "title": "Advokátka",
+    "source": "cak"
+  },
+  {
+    "name": "Mgr. Václav Hodek, advokát",
+    "slug": "hodek-plzen",
+    "email": "hodek@akhodek.cz",
+    "phone": "+420604204826",
+    "address": "Plzeň",
+    "original_website": "http://akhodek.cz",
+    "first_name": "",
+    "last_name": "",
+    "title": "Advokát",
+    "source": "cak"
+  },
+  {
+    "name": "Advokátní kancelář Hoffmannová Koranda",
+    "slug": "hoffmannova-praha",
+    "email": "smejkalova@aksb.cz",
+    "phone": "+420221419153",
+    "address": "Jeseniova 51, 130 00 Praha 3",
+    "original_website": "https://aksb.cz",
+    "first_name": "",
+    "last_name": "",
+    "title": "Advokátka",
+    "source": "cak"
+  },
+  {
+    "name": "Advokátní kancelář AK Jiří Hora",
+    "slug": "hora-brno",
+    "email": "hora@akhora.cz",
+    "phone": "+420731908840",
+    "address": "Moravské náměstí 15, 602 00 Brno",
+    "original_website": "http://www.akhora.cz",
+    "first_name": "",
+    "last_name": "",
+    "title": "Advokát",
+    "source": "cak"
   }
 ]
