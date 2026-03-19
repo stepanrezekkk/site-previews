@@ -29811,5 +29811,113 @@
     "last_name": "",
     "title": "Advokát",
     "source": "cak"
+  },
+  {
+    "name": "Advokátní kancelář Karviná",
+    "slug": "adamus-karvina",
+    "email": "karel.adamus@seznam.cz",
+    "phone": "+420596313338",
+    "address": "Kirovova 1430/11, 734 01 Karviná-Mizerov",
+    "original_website": "http://www.advokati-karvina.cz",
+    "first_name": "",
+    "last_name": "",
+    "title": "Advokát",
+    "source": "cak"
+  },
+  {
+    "name": "Allgaier, Jušta & Partner s.r.o.",
+    "slug": "allgaier-praha",
+    "email": "praha@aj-partner.com",
+    "phone": "+420212246786",
+    "address": "Praha",
+    "original_website": "http://www.aj-partner.com",
+    "first_name": "",
+    "last_name": "",
+    "title": "Advokát",
+    "source": "cak"
+  },
+  {
+    "name": "JUDr. Milan Dobeš, advokát",
+    "slug": "dobes-brno",
+    "email": "judr.m.dobes@volny.cz",
+    "phone": "+420603201638",
+    "address": "Brno",
+    "original_website": "https://www.advokatvbrne.com",
+    "first_name": "",
+    "last_name": "",
+    "title": "Advokát",
+    "source": "cak"
+  },
+  {
+    "name": "Advokátní kancelář Mgr. Petr Balabán",
+    "slug": "balaban-praha",
+    "email": "email@akbalaban.cz",
+    "phone": "+420728479010",
+    "address": "Táborská 411/34, Praha 4",
+    "original_website": "http://www.akbalaban.cz",
+    "first_name": "",
+    "last_name": "",
+    "title": "Advokát",
+    "source": "cak"
+  },
+  {
+    "name": "Advokátní kancelář Mgr. Hany Bartasové",
+    "slug": "bartasova-brno",
+    "email": "bartasova@mojeadvokatka.cz",
+    "phone": "+420545175954",
+    "address": "Brno",
+    "original_website": "http://www.mojeadvokatka.cz",
+    "first_name": "",
+    "last_name": "",
+    "title": "Advokátka",
+    "source": "cak"
+  },
+  {
+    "name": "Advokátní kancelář Mgr. Karolina Bauerová",
+    "slug": "bauerova-rokycany",
+    "email": "bauerova@akbauerova.cz",
+    "phone": "",
+    "address": "Rokycany",
+    "original_website": "http://www.akbauerova.cz",
+    "first_name": "",
+    "last_name": "",
+    "title": "Advokátka",
+    "source": "cak"
+  },
+  {
+    "name": "Advokátní kancelář JUDr. Karel Baumruk",
+    "slug": "baumruk-klatovy",
+    "email": "baumruk@akbaumruk.cz",
+    "phone": "+420376323829",
+    "address": "Jungmannova 321, 339 01 Klatovy III",
+    "original_website": "http://www.akbaumruk.cz",
+    "first_name": "",
+    "last_name": "",
+    "title": "Advokát",
+    "source": "cak"
+  },
+  {
+    "name": "Advokátní kancelář JUDr. Oldřicha Beneše",
+    "slug": "benes-ostrava",
+    "email": "ostrava@ak-benes.cz",
+    "phone": "+420596616505",
+    "address": "Ostrava",
+    "original_website": "http://ak-benes.cz",
+    "first_name": "",
+    "last_name": "",
+    "title": "Advokát",
+    "source": "cak"
+  },
+  {
+    "name": "Advokátní kancelář Mgr. et Mgr. Renáta Benetková",
+    "slug": "benetkova-horovice",
+    "email": "benetkova@akbenetkova.cz",
+    "phone": "+420724366907",
+    "address": "Vrbnovská 22, 268 01 Hořovice",
+    "original_website": "https://www.akbenetkova.cz",
+    "first_name": "",
+    "last_name": "",
+    "title": "Advokátka",
+    "source": "cak"
   }
 ]
