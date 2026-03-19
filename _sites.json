@@ -29919,5 +29919,101 @@
     "last_name": "",
     "title": "Advokátka",
     "source": "cak"
+  },
+  {
+    "name": "Advokátní kancelář Pavela",
+    "slug": "pavela-praha",
+    "email": "ak@akpavela.cz",
+    "phone": "+420226211941",
+    "address": "",
+    "original_website": "https://www.akpavela.cz",
+    "first_name": "",
+    "last_name": "",
+    "title": "Advokát",
+    "source": "cak"
+  },
+  {
+    "name": "Advokátní kancelář DRVOTA",
+    "slug": "drvota-ceske-budejovice",
+    "email": "drvota@akdrvota.cz",
+    "phone": "+420607568036",
+    "address": "Husova 1845/11, 370 01 České Budějovice",
+    "original_website": "http://www.akdrvota.cz",
+    "first_name": "",
+    "last_name": "",
+    "title": "Advokát",
+    "source": "cak"
+  },
+  {
+    "name": "Advokátní kancelář Dvořák",
+    "slug": "dvorak-tabor",
+    "email": "office@akdr.cz",
+    "phone": "+420381214736",
+    "address": "Jeronýmova 1894/26, 390 02 Tábor",
+    "original_website": "http://www.akdr.cz",
+    "first_name": "",
+    "last_name": "",
+    "title": "Advokát",
+    "source": "cak"
+  },
+  {
+    "name": "JUDr. Petr Elšík, advokát",
+    "slug": "elsik-olomouc",
+    "email": "advokat@elsik.cz",
+    "phone": "+420602734209",
+    "address": "Purkrabská 155/6, 779 00 Olomouc",
+    "original_website": "https://www.elsik.cz",
+    "first_name": "",
+    "last_name": "",
+    "title": "Advokát",
+    "source": "cak"
+  },
+  {
+    "name": "Advokátní kancelář Karel Fischer",
+    "slug": "fischer-praha",
+    "email": "info@akfischer.cz",
+    "phone": "+420230234570",
+    "address": "Kaprova 42/14, 110 00 Praha 1",
+    "original_website": "https://www.akfischer.cz",
+    "first_name": "",
+    "last_name": "",
+    "title": "Advokát",
+    "source": "cak"
+  },
+  {
+    "name": "JUDr. Pavel Fojta, advokát",
+    "slug": "fojta-brno",
+    "email": "fojta@akfojta.cz",
+    "phone": "+420545215129",
+    "address": "Jakubské náměstí 3, 602 00 Brno",
+    "original_website": "http://www.akfojta.cz",
+    "first_name": "",
+    "last_name": "",
+    "title": "Advokát",
+    "source": "cak"
+  },
+  {
+    "name": "Advokátní kancelář JUDr. Šárka Foltýnová",
+    "slug": "foltynova-praha",
+    "email": "office@foltynova.cz",
+    "phone": "608933737",
+    "address": "Charvátova 58/11, 110 00 Praha 1 - Nové Město",
+    "original_website": "http://www.foltynova.cz",
+    "first_name": "",
+    "last_name": "",
+    "title": "Advokátka",
+    "source": "cak"
+  },
+  {
+    "name": "CZERWENKA & PARTNER v.o.s.",
+    "slug": "czerwenka-brno",
+    "email": "info@czerwpart.cz",
+    "phone": "+420542422811",
+    "address": "Minoritská 10, 602 00 Brno",
+    "original_website": "http://www.czerwpart.cz",
+    "first_name": "",
+    "last_name": "",
+    "title": "Advokátka",
+    "source": "cak"
   }
 ]
