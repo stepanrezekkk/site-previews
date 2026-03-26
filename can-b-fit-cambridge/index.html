@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html class="dark" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Can-B-Fit — Cambridge</title>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700;900&family=Manrope:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet"/>
+<style>
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+:root{
+--lime:#D1FF24;--lime-dim:#c1ed00;--lime-soft:#f4ffc9;
+--surface:#0e0e0e;--surface-low:#131313;--surface-high:#20201f;--surface-highest:#262626;
+--outline:#767575;--outline-var:#484847;
+--text:#ffffff;--text-dim:#adaaaa;
+--accent:#4CAF50;
+}
+html{scroll-behavior:smooth}
+body{background:var(--surface);color:var(--text);font-family:'Manrope',sans-serif;-webkit-font-smoothing:antialiased}
+.font-h{font-family:'Space Grotesk',sans-serif}
+.material-symbols-outlined{font-variation-settings:'FILL' 0,'wght' 200,'GRAD' 0,'opsz' 24}
+
+/* Nav */
+nav{position:fixed;top:0;width:100%;z-index:50;background:rgba(14,14,14,.8);backdrop-filter:blur(20px)}
+nav .inner{display:flex;justify-content:space-between;align-items:center;max-width:1400px;margin:0 auto;padding:16px 24px}
+.nav-brand{font-family:'Space Grotesk';font-weight:900;font-size:1.5rem;color:var(--lime);text-transform:uppercase;letter-spacing:-.02em}
+.nav-links{display:flex;gap:32px}
+.nav-links a{font-family:'Space Grotesk';font-size:.8rem;text-transform:uppercase;letter-spacing:-.02em;color:rgba(255,255,255,.5);text-decoration:none;transition:color .3s}
+.nav-links a:hover,.nav-links a.active{color:var(--lime)}
+.nav-cta{background:var(--lime);color:#000;padding:10px 24px;font-family:'Space Grotesk';font-weight:700;font-size:.8rem;text-transform:uppercase;letter-spacing:-.02em;border:none;cursor:pointer;transition:all .3s}
+.nav-cta:hover{background:var(--lime-dim)}
+
+/* Hero */
+.hero{position:relative;min-height:90vh;display:flex;align-items:center;padding:120px 24px 80px;overflow:hidden}
+.hero-bg{position:absolute;inset:0;z-index:0}
+.hero-bg::after{content:'';position:absolute;inset:0;background:linear-gradient(to right,var(--surface),rgba(14,14,14,.7),transparent);z-index:1}
+.hero-img{width:100%;height:100%;object-fit:cover;filter:grayscale(1) brightness(.6);opacity:.5}
+.hero-content{position:relative;z-index:10;max-width:900px}
+.hero h1{font-family:'Space Grotesk';font-weight:900;font-size:clamp(3rem,8vw,8rem);line-height:.95;text-transform:uppercase;letter-spacing:-.04em;font-style:italic;margin-bottom:40px}
+.hero h1 .accent{color:var(--lime)}
+.hero-sub{font-size:1.15rem;color:var(--text-dim);max-width:480px;line-height:1.7;margin-bottom:40px}
+.hero-stat{display:flex;align-items:center;gap:16px;border-left:2px solid var(--lime);padding:12px 24px;background:rgba(19,19,19,.5);backdrop-filter:blur(10px)}
+.hero-stat .num{font-family:'Space Grotesk';font-weight:700;font-size:2.5rem;color:var(--lime)}
+.hero-stat .lbl{font-family:'Space Grotesk';font-size:.65rem;text-transform:uppercase;letter-spacing:.15em;color:var(--text-dim);line-height:1.4}
+
+/* Trainer Section */
+.trainer{padding:120px 24px;border-top:1px solid rgba(255,255,255,.05);border-bottom:1px solid rgba(255,255,255,.05)}
+.trainer .inner{max-width:1400px;margin:0 auto;display:grid;grid-template-columns:1fr 1.4fr;gap:64px;align-items:center}
+.trainer-img-wrap{position:relative}
+.trainer-img-wrap::before{content:'';position:absolute;inset:-16px;border:1px solid rgba(209,255,36,.15)}
+.trainer-img{width:100%;aspect-ratio:4/5;object-fit:cover;filter:grayscale(1) brightness(.85);background:var(--surface-high)}
+.trainer-badge{position:absolute;bottom:-24px;right:-24px;background:var(--lime);color:#000;padding:24px;z-index:10}
+.trainer-badge .name{font-family:'Space Grotesk';font-size:1.5rem;font-weight:900;text-transform:uppercase;letter-spacing:-.02em;line-height:1.1}
+.trainer-badge .role{font-family:'Space Grotesk';font-size:.6rem;text-transform:uppercase;letter-spacing:.2em;margin-top:8px;opacity:.7}
+.trainer-label{font-family:'Space Grotesk';color:var(--lime);text-transform:uppercase;letter-spacing:.15em;font-size:.75rem;margin-bottom:24px}
+.trainer h2{font-family:'Space Grotesk';font-size:clamp(2.5rem,5vw,4.5rem);font-weight:900;text-transform:uppercase;letter-spacing:-.03em;line-height:.95;margin-bottom:40px}
+.trainer h2 em{font-style:italic}
+.trainer p{color:var(--text-dim);line-height:1.8;margin-bottom:16px;max-width:560px}
+.trainer-stats{display:flex;flex-wrap:wrap;gap:48px;margin-top:48px}
+.trainer-stats .stat-val{font-family:'Space Grotesk';font-size:2.5rem;font-weight:700;color:#fff;margin-bottom:4px}
+.trainer-stats .stat-lbl{font-family:'Space Grotesk';font-size:.65rem;text-transform:uppercase;letter-spacing:.15em;color:var(--outline)}
+
+/* Approach */
+.approach{padding:120px 24px}
+.approach .inner{max-width:1400px;margin:0 auto}
+.approach-header{display:flex;justify-content:space-between;align-items:flex-end;gap:32px;margin-bottom:80px}
+.approach h2{font-family:'Space Grotesk';font-size:clamp(2rem,4vw,3.5rem);font-weight:900;text-transform:uppercase;letter-spacing:-.03em}
+.approach-desc{color:var(--text-dim);max-width:360px;font-size:.85rem}
+.approach-grid{display:grid;grid-template-columns:1.4fr 1fr;gap:2px}
+.approach-card{padding:48px;display:flex;flex-direction:column;justify-content:space-between;min-height:480px;transition:all .5s}
+.approach-card.primary{background:var(--surface-low)}
+.approach-card.primary:hover{background:var(--surface-highest)}
+.approach-card.secondary{background:var(--surface-high)}
+.approach-card.secondary:hover{background:var(--lime);color:#000}
+.approach-card.secondary:hover .card-icon,.approach-card.secondary:hover .card-arrow{color:#000}
+.approach-card.secondary:hover .card-body{color:#000}
+.card-top{display:flex;justify-content:space-between;align-items:flex-start}
+.card-icon{font-size:3rem;color:var(--lime)}
+.card-num{font-family:'Space Grotesk';color:var(--outline);font-size:1rem;font-style:italic;opacity:.2}
+.card-title{font-family:'Space Grotesk';font-size:2rem;font-weight:700;text-transform:uppercase;margin-bottom:24px;margin-top:auto}
+.card-body{color:var(--text-dim);font-size:.9rem;line-height:1.7;margin-bottom:24px}
+.card-tags{display:flex;flex-wrap:wrap;gap:12px}
+.card-tags span{font-family:'Space Grotesk';font-size:.6rem;text-transform:uppercase;border:1px solid var(--outline-var);padding:6px 12px}
+.card-arrow{display:flex;align-items:center;gap:12px;margin-top:32px;transition:transform .3s}
+.card-arrow span.lbl{font-family:'Space Grotesk';font-weight:700;text-transform:uppercase;letter-spacing:.1em;color:var(--lime);font-size:.75rem}
+
+/* Testimonials */
+.testimonials{padding:120px 0;overflow:hidden}
+.testimonials-header{display:flex;align-items:center;gap:16px;padding:0 24px;max-width:1400px;margin:0 auto 80px}
+.testimonials-header .line{height:1px;flex-grow:1;background:var(--outline-var)}
+.testimonials-header h2{font-family:'Space Grotesk';font-size:1rem;text-transform:uppercase;letter-spacing:.5em;color:var(--outline);padding:0 32px}
+.testimonials-scroll{display:flex;gap:2px;padding:0 24px;overflow-x:auto;padding-bottom:48px;scrollbar-width:none;justify-content:center}
+.testimonials-scroll::-webkit-scrollbar{display:none}
+.testimonial-card{min-width:350px;aspect-ratio:4/5;position:relative;background:var(--surface-high);overflow:hidden;flex-shrink:0}
+.testimonial-card .overlay{position:absolute;inset:0;padding:32px;display:flex;flex-direction:column;justify-content:flex-end;background:linear-gradient(to top,#000,rgba(0,0,0,.4),transparent)}
+.testimonial-card .tag{font-family:'Space Grotesk';font-size:.6rem;text-transform:uppercase;letter-spacing:.15em;color:var(--lime);background:rgba(14,14,14,.8);padding:4px 10px;display:inline-block;margin-bottom:16px;width:fit-content}
+.testimonial-card .tname{font-family:'Space Grotesk';font-size:1.8rem;font-weight:700;text-transform:uppercase;font-style:italic}
+.testimonial-card .tquote{font-size:.85rem;margin-top:16px;font-style:italic;line-height:1.6;color:rgba(255,255,255,.9)}
+
+/* Features */
+.features{padding:120px 24px;background:var(--surface-low);border-top:1px solid rgba(255,255,255,.05);border-bottom:1px solid rgba(255,255,255,.05)}
+.features .inner{max-width:1400px;margin:0 auto;display:grid;grid-template-columns:1fr 1fr;gap:96px;align-items:center}
+.features-label{font-family:'Space Grotesk';color:var(--lime);text-transform:uppercase;letter-spacing:.15em;font-size:.75rem;margin-bottom:24px}
+.features h2{font-family:'Space Grotesk';font-size:clamp(2.5rem,5vw,4.5rem);font-weight:900;text-transform:uppercase;letter-spacing:-.03em;line-height:.95;margin-bottom:32px}
+.features>div p{color:var(--text-dim);font-size:1.05rem;line-height:1.7;margin-bottom:48px;max-width:540px}
+.feature-item{display:flex;gap:24px;align-items:flex-start;margin-bottom:32px}
+.feature-icon{width:48px;height:48px;background:var(--lime);display:flex;align-items:center;justify-content:center;flex-shrink:0}
+.feature-icon .material-symbols-outlined{color:#000}
+.feature-item h4{font-family:'Space Grotesk';font-size:1.1rem;font-weight:700;text-transform:uppercase;margin-bottom:8px}
+.feature-item p{color:var(--text-dim);font-size:.85rem;line-height:1.6}
+.feature-visual{aspect-ratio:1;background:var(--surface);border:1px solid rgba(209,255,36,.15);padding:32px;display:flex;align-items:center;justify-content:center;position:relative;overflow:hidden}
+.feature-visual .ghost{font-family:'Space Grotesk';font-size:6rem;font-weight:900;color:var(--lime);opacity:.08;text-transform:uppercase}
+.feature-visual .glow{position:absolute;top:0;width:100%;height:1px;background:var(--lime);box-shadow:0 0 15px var(--lime)}
+.feature-quote{position:absolute;bottom:-32px;left:-32px;background:var(--surface);padding:24px;border-left:4px solid var(--lime);max-width:280px}
+.feature-quote p{font-size:.75rem;font-style:italic;color:var(--text-dim)}
+.feature-quote .attr{font-family:'Space Grotesk';font-size:.7rem;text-transform:uppercase;font-weight:700;margin-top:8px;display:block}
+
+/* CTA */
+.cta{padding:120px 24px}
+.cta .inner{max-width:1400px;margin:0 auto;background:var(--lime);padding:48px;display:flex;align-items:center;justify-content:space-between;gap:48px;position:relative;overflow:hidden}
+.cta .bg-icon{position:absolute;right:-40px;bottom:-40px;opacity:.08}
+.cta .bg-icon .material-symbols-outlined{font-size:300px;color:#000}
+.cta-text{position:relative;z-index:1}
+.cta h2{font-family:'Space Grotesk';font-size:clamp(2rem,4vw,3.5rem);font-weight:900;text-transform:uppercase;color:#000;letter-spacing:-.03em;line-height:1;margin-bottom:16px}
+.cta p{color:rgba(75,94,0,.9);max-width:480px}
+.cta-btn{position:relative;z-index:1;background:var(--surface);color:var(--lime);padding:24px 48px;font-family:'Space Grotesk';font-weight:700;text-transform:uppercase;letter-spacing:.1em;font-size:1rem;border:none;cursor:pointer;transition:transform .3s;white-space:nowrap}
+.cta-btn:hover{transform:translateX(8px)}
+
+/* Footer */
+footer{background:var(--surface);padding:48px 24px;border-top:1px solid rgba(255,255,255,.05)}
+footer .inner{max-width:1400px;margin:0 auto;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:24px}
+footer .brand{font-family:'Space Grotesk';font-weight:700;color:var(--lime)}
+footer .links{display:flex;gap:32px}
+footer .links a{font-size:.8rem;text-transform:uppercase;letter-spacing:.15em;color:rgba(255,255,255,.3);text-decoration:none;transition:color .3s}
+footer .links a:hover{color:var(--lime)}
+footer .copy{font-size:.8rem;text-transform:uppercase;letter-spacing:.15em;color:rgba(255,255,255,.3)}
+
+/* Responsive */
+@media(max-width:768px){
+  .trainer .inner{grid-template-columns:1fr}
+  .approach-grid{grid-template-columns:1fr}
+  .features .inner{grid-template-columns:1fr}
+  .cta .inner{flex-direction:column;text-align:center;padding:48px 24px}
+  .nav-links,.nav-cta{display:none}
+  .trainer-badge{bottom:-16px;right:0}
+  footer .inner{flex-direction:column;text-align:center}
+}
+
+/* Rating Badge */
+.rating-badge{position:fixed;bottom:24px;right:24px;z-index:40;background:var(--lime);color:#000;padding:16px 20px;display:flex;align-items:center;gap:12px;box-shadow:0 8px 32px rgba(0,0,0,.4)}
+.rating-badge .rb-score{font-family:'Space Grotesk';font-size:2rem;font-weight:900;line-height:1}
+.rating-badge .rb-stars{font-size:.75rem;letter-spacing:2px}
+.rating-badge .rb-reviews{font-family:'Space Grotesk';font-size:.6rem;text-transform:uppercase;letter-spacing:.1em;opacity:.7}
+@media(max-width:768px){.rating-badge{bottom:12px;right:12px;padding:12px 16px}.rating-badge .rb-score{font-size:1.5rem}}
+
+/* Pricing */
+.pricing{padding:120px 24px}
+.pricing .inner{max-width:1400px;margin:0 auto}
+.pricing h2{font-family:'Space Grotesk';font-size:clamp(2rem,4vw,3.5rem);font-weight:900;text-transform:uppercase;letter-spacing:-.03em;text-align:center;margin-bottom:16px}
+.pricing-sub{text-align:center;color:var(--text-dim);margin-bottom:64px;font-size:.9rem}
+.pricing-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:2px}
+.pricing-card{background:var(--surface-low);padding:48px 36px;display:flex;flex-direction:column}
+.pricing-card.featured{background:var(--surface-high);border-top:3px solid var(--lime)}
+.pricing-card .price{font-family:'Space Grotesk';font-size:2.5rem;font-weight:900;margin:16px 0 8px}
+.pricing-card .period{font-family:'Space Grotesk';font-size:.7rem;text-transform:uppercase;letter-spacing:.1em;color:var(--outline)}
+.pricing-card .pdesc{color:var(--text-dim);font-size:.85rem;line-height:1.6;margin:24px 0;flex-grow:1}
+.pricing-card .pbtn{display:block;text-align:center;padding:14px;font-family:'Space Grotesk';font-weight:700;text-transform:uppercase;font-size:.75rem;letter-spacing:.1em;text-decoration:none;border:1px solid var(--outline-var);color:var(--text);transition:all .3s}
+.pricing-card .pbtn:hover{background:var(--lime);color:#000;border-color:var(--lime)}
+.pricing-card.featured .pbtn{background:var(--lime);color:#000;border-color:var(--lime)}
+
+/* Animations */
+.fade-up{opacity:0;transform:translateY(30px);transition:all .8s cubic-bezier(.16,1,.3,1)}
+.fade-up.visible{opacity:1;transform:translateY(0)}
+</style>
+</head>
+<body>
+
+<nav>
+<div class="inner">
+<div class="nav-brand">Can-B-Fit</div>
+<div class="nav-links">
+<a class="active" href="#">Training</a>
+<a href="#">About</a>
+<a href="#">Results</a>
+<a href="#">Contact</a>
+</div>
+<button class="nav-cta">Book Free Consultation</button>
+</div>
+</nav>
+
+<main>
+<!-- Hero -->
+<section class="hero">
+<div class="hero-bg">
+<img class="hero-img" src="https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?w=1920&q=80" alt="Outdoor fitness training">
+</div>
+<div class="hero-content">
+<h1>Healthy Body<br><span class="accent">Healthy Mind</span></h1>
+<p class="hero-sub">Outdoor fitness, personal training and sports massage in Cambridge. Over 10 years of helping people of all ages and abilities find their strength — with fun, encouragement and zero pressure.</p>
+<div class="hero-stat">
+<span class="num">1:1</span>
+<span class="lbl">Personalised<br>Coaching</span>
+</div>
+</div>
+</section>
+
+<!-- Trainer -->
+<section class="trainer fade-up">
+<div class="inner">
+<div class="trainer-img-wrap">
+<div class="trainer-img"></div>
+<div class="trainer-badge">
+<div class="name">Paul<br>Risdon</div>
+<div class="role">Personal Trainer</div>
+</div>
+</div>
+<div>
+<div class="trainer-label">Meet Your Coach</div>
+<h2>Passion Born<br>From <em>Recovery</em></h2>
+<p>Over 10 years ago, while working as a plasterer, Paul experienced a burst appendix. During recovery, he struggled with everyday activities and realised how vital fitness and a healthy lifestyle are for every aspect of wellbeing.</p>
+<p>That experience drove Paul to retrain as a Personal Trainer and Sports Massage Therapist — so he could help others achieve their fitness goals and look after their bodies. The Can-B-Fit community has been running strong for over a decade.</p>
+<div class="trainer-stats">
+<div><div class="stat-val">10+</div><div class="stat-lbl">Years Running</div></div>
+<div><div class="stat-val">5.0</div><div class="stat-lbl">Google Rating</div></div>
+<div><div class="stat-val">3</div><div class="stat-lbl">Core Services</div></div>
+</div>
+</div>
+</div>
+</section>
+
+<!-- Approach -->
+<section class="approach fade-up">
+<div class="inner">
+<div class="approach-header">
+<h2>My Approach</h2>
+<p class="approach-desc">From outdoor group sessions to 1-to-1 training and sports massage — a complete fitness and recovery offering in Cambridge.</p>
+</div>
+<div class="approach-grid">
+<div class="approach-card primary">
+<div class="card-top">
+<span class="material-symbols-outlined card-icon">person_celebrate</span>
+<span class="card-num font-h">01</span>
+</div>
+<div>
+<h3 class="card-title">Personal Training</h3>
+<p class="card-body">Specialist 1-to-1 training focused on your goals. Paul comes to your home with all equipment, meets you at a local park, or trains you at Hills Road Sports Centre. Sessions available by the hour or half hour.</p>
+<div class="card-tags">
+<span>Home Visits</span><span>Outdoor</span><span>Gym Based</span>
+</div>
+</div>
+<div class="card-arrow">
+<span class="lbl">Get Started</span>
+<span class="material-symbols-outlined" style="color:var(--lime)">arrow_forward</span>
+</div>
+</div>
+<div class="approach-card secondary">
+<div class="card-top">
+<span class="material-symbols-outlined card-icon">groups</span>
+<span class="card-num font-h">02</span>
+</div>
+<div>
+<h3 class="card-title">Outdoor Group Fitness</h3>
+<p class="card-body">Fun, friendly sessions for all fitness levels. Multiple morning and evening classes throughout the week. Exercises are modified to suit every ability — no pressure, just encouragement and results.</p>
+</div>
+<div class="card-arrow">
+<span class="lbl">Learn More</span>
+<span class="material-symbols-outlined card-arrow-icon" style="color:var(--lime)">arrow_forward</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+
+<!-- Testimonials -->
+<section class="testimonials fade-up">
+<div class="testimonials-header">
+<div class="line"></div>
+<h2>Real Results</h2>
+<div class="line"></div>
+</div>
+<div class="testimonials-scroll"><div class="testimonial-card"><div class="overlay"><span class="tag">Client Story</span><div class="tname">Celia</div><p class="tquote">“Paul is able to adapt exercises for less able people like myself and encourages everyone to push themselves as far as they can. Each class is different so it’s never boring. I’m in my late 50s and have found the sessions really helpful.”</p></div></div><div class="testimonial-card"><div class="overlay"><span class="tag">Client Story</span><div class="tname">Group Member</div><p class="tquote">“Paul is eternally happy... even at 7 in the morning! If I turn up in a bad mood I always leave smiling and laughing, even though at least one muscle group is burning!”</p></div></div></div>
+</section>
+
+<!-- Features -->
+<section class="features fade-up">
+<div class="inner">
+<div>
+<div class="features-label">What Sets Me Apart</div>
+<h2>Training That<br>Comes To You</h2>
+<p>Paul brings the equipment, the energy and the expertise — wherever you want to train. Home, park, gym or workplace.</p>
+<div>
+<div class="feature-item">
+<div class="feature-icon"><span class="material-symbols-outlined">park</span></div>
+<div>
+<h4>Outdoor & Mobile</h4>
+<p>Train at home, in a park, at your workplace or at the gym. Paul brings all necessary equipment and adapts to your preferred setting.</p>
+</div>
+</div>
+<div class="feature-item">
+<div class="feature-icon"><span class="material-symbols-outlined">sports_martial_arts</span></div>
+<div>
+<h4>Sports Massage</h4>
+<p>Deep tissue sports massage therapy for everyone — not just athletes. Recover faster, reduce tension and keep your body performing at its best.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="feature-visual"><div class="ghost">FIT</div><div class="glow"></div></div>
+</div>
+</section>
+
+<!-- Pricing -->
+<section class="pricing fade-up"><div class="inner"><h2>Pricing</h2><p class="pricing-sub">Flexible options for individuals and groups across Cambridge.</p><div class="pricing-grid"><div class="pricing-card"><h3 class="font-h" style="text-transform:uppercase;font-size:.75rem;letter-spacing:.1em;color:var(--outline)">Group Session</h3><div class="price font-h">£6</div><div class="period">Per Session</div><p class="pdesc">Outdoor group fitness — fun, friendly and open to all abilities. Morning and evening sessions Monday, Wednesday and Friday.</p><a class="pbtn" href="mailto:paul@can-b-fit.co.uk">Join a Class</a></div><div class="pricing-card featured"><h3 class="font-h" style="text-transform:uppercase;font-size:.75rem;letter-spacing:.1em;color:var(--outline)">1-to-1 Training</h3><div class="price font-h">£40</div><div class="period">Per Hour — Gym</div><p class="pdesc">Specialist personal training at Hills Road Sports Centre. Home visits from £45/hr, surrounding villages from £50/hr.</p><a class="pbtn" href="mailto:paul@can-b-fit.co.uk">Book Now</a></div><div class="pricing-card"><h3 class="font-h" style="text-transform:uppercase;font-size:.75rem;letter-spacing:.1em;color:var(--outline)">Small Group</h3><div class="price font-h">£50</div><div class="period">Per Hour — 2-4 People</div><p class="pdesc">Share a session with friends or colleagues. Split the cost and enjoy the encouragement of training together.</p><a class="pbtn" href="mailto:paul@can-b-fit.co.uk">Enquire</a></div></div></div></section>
+
+<!-- CTA -->
+<section class="cta fade-up">
+<div class="inner">
+<div class="bg-icon"><span class="material-symbols-outlined">fitness_center</span></div>
+<div class="cta-text">
+<h2>Start Your<br>Next Chapter</h2>
+<p>Get in touch with Paul to find the right training option for you — whether it’s group fitness, personal training or sports massage.</p>
+</div>
+<button class="cta-btn">Book a Free Session</button>
+</div>
+</section>
+</main>
+
+<footer>
+<div class="inner">
+<div class="brand">Can-B-Fit</div>
+<div class="links">
+<a href="mailto:paul@can-b-fit.co.uk">Email</a>
+<a href="tel:+44 7568 592995">Call</a>
+<a href="#">Instagram</a>
+</div>
+<div class="copy">© 2025 Can-B-Fit. Cambridge.</div>
+</div>
+</footer>
+
+<div class="rating-badge"><div class="rb-score">5.0</div><div><div class="rb-stars">★★★★★</div><div class="rb-reviews">11 Google Reviews</div></div></div>
+
+<script>
+const observer = new IntersectionObserver((entries) => {
+entries.forEach(e => { if(e.isIntersecting) e.target.classList.add('visible') });
+}, {threshold: 0.1});
+document.querySelectorAll('.fade-up').forEach(el => observer.observe(el));
+</script>
+</body></html>
